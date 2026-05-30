@@ -1,32 +1,77 @@
-name: Verify yt-dlp captions
+name: Sync YouTube captions
 
 on:
   workflow_dispatch:
     inputs:
-      video_url:
-        description: "YouTube URL to test"
+      video_urls:
+        description: "Optional newline-separated YouTube URLs/IDs. Defaults to .github/youtube-caption-urls.txt"
         required: false
-        default: "https://www.youtube.com/watch?v=QXXQXFwOD_I&pp=0gcJCR4LAYcqIYzv"
+        default: ""
+      use_warp:
+        description: "Try Cloudflare WARP before calling YouTube"
+        type: boolean
+        required: false
+        default: false
   schedule:
-    - cron: "17 9 * * 1"
+    - cron: "17 9 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: youtube-caption-sync
+  cancel-in-progress: false
 
 jobs:
-  captions:
+  sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Start Cloudflare WARP
+        if: ${{ inputs.use_warp || vars.YOUTUBE_CAPTIONS_USE_WARP == 'true' }}
+        uses: fscarmen/warp-on-actions@v1.4
+        with:
+          stack: ipv4
+          mode: wireguard
 
       - name: Set up yt-dlp
         uses: AnimMouse/setup-yt-dlp@v3
         with:
           ffmpeg: false
 
+      - name: Build URL list
+        env:
+          VIDEO_URLS: ${{ inputs.video_urls }}
+        run: |
+          set -euo pipefail
+          if [ -n "${VIDEO_URLS:-}" ]; then
+            printf '%s\n' "$VIDEO_URLS" > "$RUNNER_TEMP/youtube-caption-urls.txt"
+          else
+            cp .github/youtube-caption-urls.txt "$RUNNER_TEMP/youtube-caption-urls.txt"
+          fi
+          python - <<'PY'
+          from pathlib import Path
+
+          source = Path(__import__('os').environ['RUNNER_TEMP']) / 'youtube-caption-urls.txt'
+          urls = []
+          for raw_line in source.read_text(encoding='utf-8').splitlines():
+              line = raw_line.split('#', 1)[0].strip()
+              if line:
+                  urls.append(line)
+          if not urls:
+              raise SystemExit('No YouTube URLs/IDs configured')
+          source.write_text('\n'.join(dict.fromkeys(urls)) + '\n', encoding='utf-8')
+          print(f'Syncing {len(dict.fromkeys(urls))} video(s)')
+          PY
+
       - name: Fetch captions
         env:
-          VIDEO_URL: ${{ inputs.video_url || 'https://www.youtube.com/watch?v=QXXQXFwOD_I&pp=0gcJCR4LAYcqIYzv' }}
           YOUTUBE_COOKIE_HEADER: ${{ secrets.YOUTUBE_COOKIE_HEADER }}
         run: |
           set -euo pipefail
@@ -58,7 +103,7 @@ jobs:
             --extractor-args "youtube:player_client=android_vr" \
             --user-agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
             --output "captions/%(id)s.%(ext)s" \
-            "$VIDEO_URL"
+            --batch-file "$RUNNER_TEMP/youtube-caption-urls.txt"
           shopt -s nullglob
           caption_files=(captions/*.vtt)
           if [ "${#caption_files[@]}" -eq 0 ]; then
@@ -81,5 +126,18 @@ jobs:
       - name: Upload caption artifact
         uses: actions/upload-artifact@v4
         with:
-          name: yt-dlp-caption-smoke-test
+          name: youtube-captions
           path: captions/*.vtt
+
+      - name: Commit caption updates
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add captions .github/youtube-caption-urls.txt
+          if git diff --cached --quiet; then
+            echo "No caption changes to commit"
+            exit 0
+          fi
+          git commit -m "Sync YouTube captions"
+          git push
