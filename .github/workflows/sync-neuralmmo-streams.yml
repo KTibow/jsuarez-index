@@ -74,8 +74,6 @@ jobs:
             --sub-langs "en" \
             --sub-format "vtt" \
             --print-to-file "after_video:%()j" "$metadata_file" \
-            --extractor-args "youtube:player_client=android_vr" \
-            --user-agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
             --output "streams/%(id)s.%(ext)s" \
             "$CHANNEL_STREAMS_URL"
 
