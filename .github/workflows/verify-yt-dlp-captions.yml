@@ -14,13 +14,10 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up yt-dlp
+        uses: AnimMouse/setup-yt-dlp@v3
         with:
-          python-version: "3.12"
-
-      - name: Install yt-dlp
-        run: python -m pip install --upgrade "yt-dlp[default,curl-cffi]"
+          ffmpeg: false
 
       - name: Fetch captions
         run: |
@@ -35,14 +32,29 @@ jobs:
             --user-agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
             --output "captions/%(id)s.%(ext)s" \
             "https://www.youtube.com/watch?v=QXXQXFwOD_I&pp=0gcJCR4LAYcqIYzv"
-          test -s captions/QXXQXFwOD_I.en.vtt || test -s captions/QXXQXFwOD_I.en-US.vtt
+          python - <<'PY'
+from pathlib import Path
+
+caption_files = list(Path("captions").glob("*.vtt"))
+if not caption_files:
+    raise SystemExit("No caption files were written")
+for caption_file in caption_files:
+    if caption_file.stat().st_size > 0:
+        raise SystemExit(0)
+raise SystemExit("Caption files were empty")
+          PY
 
       - name: Show caption preview
         run: |
           set -euo pipefail
-          caption_file="$(ls captions/*.vtt | head -n 1)"
-          wc -c "$caption_file"
-          sed -n '1,40p' "$caption_file"
+          python - <<'PY'
+from pathlib import Path
+
+caption_file = next(Path("captions").glob("*.vtt"))
+print(caption_file)
+print(caption_file.stat().st_size, "bytes")
+print("\n".join(caption_file.read_text(encoding="utf-8").splitlines()[:40]))
+          PY
 
       - name: Upload caption artifact
         uses: actions/upload-artifact@v4
