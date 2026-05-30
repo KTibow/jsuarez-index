@@ -1,0 +1,51 @@
+name: Verify yt-dlp captions
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 9 * * 1"
+
+jobs:
+  captions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install yt-dlp
+        run: python -m pip install --upgrade "yt-dlp[default,curl-cffi]"
+
+      - name: Fetch captions
+        run: |
+          set -euo pipefail
+          mkdir -p captions
+          yt-dlp \
+            --skip-download \
+            --write-auto-subs \
+            --sub-langs "en.*" \
+            --sub-format "vtt" \
+            --extractor-args "youtube:player_client=web" \
+            --user-agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
+            --output "captions/%(id)s.%(ext)s" \
+            "https://www.youtube.com/watch?v=BaW_jenozKc"
+          test -s captions/BaW_jenozKc.en.vtt || test -s captions/BaW_jenozKc.en-US.vtt
+
+      - name: Show caption preview
+        run: |
+          set -euo pipefail
+          caption_file="$(ls captions/*.vtt | head -n 1)"
+          wc -c "$caption_file"
+          sed -n '1,40p' "$caption_file"
+
+      - name: Upload caption artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: yt-dlp-caption-smoke-test
+          path: captions/*.vtt
