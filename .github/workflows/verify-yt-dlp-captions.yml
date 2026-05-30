@@ -55,7 +55,7 @@ jobs:
             --write-subs \
             --sub-langs "en.*" \
             --sub-format "vtt" \
-            --extractor-args "youtube:player_client=web" \
+            --extractor-args "youtube:player_client=android_vr" \
             --user-agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
             --output "captions/%(id)s.%(ext)s" \
             "$VIDEO_URL"
