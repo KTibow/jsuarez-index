@@ -31,9 +31,22 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p captions
+          cookie_file="$RUNNER_TEMP/youtube-cookies.txt"
           cookie_args=()
           if [ -n "${YOUTUBE_COOKIE_HEADER:-}" ]; then
-            cookie_args+=(--add-header "Cookie: ${YOUTUBE_COOKIE_HEADER}")
+            printf '# Netscape HTTP Cookie File\n' > "$cookie_file"
+            IFS=';' read -ra cookies <<< "$YOUTUBE_COOKIE_HEADER"
+            for cookie in "${cookies[@]}"; do
+              cookie="${cookie# }"
+              name="${cookie%%=*}"
+              value="${cookie#*=}"
+              secure=FALSE
+              if [[ "$name" == __Secure-* ]]; then
+                secure=TRUE
+              fi
+              printf '.youtube.com\tTRUE\t/\t%s\t0\t%s\t%s\n' "$secure" "$name" "$value" >> "$cookie_file"
+            done
+            cookie_args+=(--cookies "$cookie_file")
           fi
           yt-dlp \
             "${cookie_args[@]}" \
