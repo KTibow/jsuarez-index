@@ -43,6 +43,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p streams
+          metadata_file="$RUNNER_TEMP/stream-info.jsonl"
           cookie_file="$RUNNER_TEMP/youtube-cookies.txt"
           cookie_args=()
           if [ -n "${YOUTUBE_COOKIE_HEADER:-}" ]; then
@@ -68,10 +69,9 @@ jobs:
             --ignore-errors \
             --no-abort-on-error \
             --write-auto-subs \
-            --write-subs \
-            --sub-langs "en.*" \
+            --sub-langs "en" \
             --sub-format "vtt" \
-            --write-info-json \
+            --print-to-file "after_video:%()j" "$metadata_file" \
             --extractor-args "youtube:player_client=android_vr" \
             --user-agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
             --output "streams/%(id)s.%(ext)s" \
@@ -91,36 +91,34 @@ jobs:
           from datetime import datetime, timezone
           from pathlib import Path
           import json
+          import os
           import re
 
           streams = Path('streams')
+          metadata_file = Path(os.environ['RUNNER_TEMP']) / 'stream-info.jsonl'
           caption_files = sorted(streams.glob('*.vtt'))
           if not caption_files:
               raise SystemExit('No stream caption files were written')
 
           metadata_by_id = {}
-          for info_file in streams.glob('*.info.json'):
-              metadata = json.loads(info_file.read_text(encoding='utf-8'))
+          for line in metadata_file.read_text(encoding='utf-8').splitlines():
+              metadata = json.loads(line)
               video_id = metadata.get('id')
               if video_id:
                   metadata_by_id[video_id] = metadata
 
           captions_by_id = {}
           for caption_file in caption_files:
-              id_match = re.search(r'^([A-Za-z0-9_-]{11})(?:\.([^.]+))?\.vtt$', caption_file.name)
+              id_match = re.search(r'^([A-Za-z0-9_-]{11})\.en\.vtt$', caption_file.name)
               if id_match:
-                  captions_by_id.setdefault(id_match.group(1), []).append((id_match.group(2) or '', caption_file))
-
-          def language_rank(language):
-              return {'en': 0, 'en-US': 1}.get(language, 2 if language.startswith('en-') else 3)
+                  captions_by_id.setdefault(id_match.group(1), []).append(caption_file)
 
           empty = []
           normalized = 0
           for video_id, candidates in sorted(captions_by_id.items()):
-              language, caption_file = sorted(candidates, key=lambda candidate: (language_rank(candidate[0]), candidate[1].name))[0]
-              for _, extra_file in candidates:
-                  if extra_file != caption_file:
-                      extra_file.unlink()
+              if len(candidates) != 1:
+                  raise SystemExit(f'Expected one English caption for {video_id}, found {len(candidates)}')
+              caption_file = candidates[0]
 
               if caption_file.stat().st_size == 0:
                   empty.append(str(caption_file))
@@ -153,8 +151,7 @@ jobs:
                   lines.append(f'url: {webpage_url}')
               if timestamp is not None:
                   lines.append('date: ' + datetime.fromtimestamp(float(timestamp), tz=timezone.utc).isoformat())
-              if language:
-                  lines.append(f'language: {language}')
+              lines.append('language: en')
               lines.append('')
 
               target_file = streams / f'{video_id}.vtt'
@@ -163,9 +160,6 @@ jobs:
               if target_file != caption_file:
                   caption_file.unlink()
               normalized += 1
-
-          for sidecar in streams.glob('*.info.json'):
-              sidecar.unlink()
 
           if empty:
               raise SystemExit('Invalid or empty caption files:\n' + '\n'.join(empty))
