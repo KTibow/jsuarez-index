@@ -18,7 +18,7 @@ env:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 180
 
     steps:
       - name: Check out repository
@@ -66,8 +66,10 @@ jobs:
             "${cookie_args[@]}" \
             --skip-download \
             --yes-playlist \
-            --ignore-errors \
-            --no-abort-on-error \
+            --sleep-requests 3 \
+            --sleep-subtitles 5 \
+            --sleep-interval 10 \
+            --max-sleep-interval 30 \
             --write-auto-subs \
             --sub-langs "en" \
             --sub-format "vtt" \
