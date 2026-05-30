@@ -1,0 +1,192 @@
+name: Sync Neural MMO streams
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "17 9 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: neuralmmo-stream-sync
+  cancel-in-progress: false
+
+env:
+  CHANNEL_STREAMS_URL: https://www.youtube.com/@neuralmmo/streams
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Start Cloudflare WARP
+        uses: fscarmen/warp-on-actions@v1.4
+        with:
+          stack: ipv4
+          mode: wireguard
+
+      - name: Set up yt-dlp
+        uses: AnimMouse/setup-yt-dlp@v3
+        with:
+          ffmpeg: false
+
+      - name: Fetch stream captions
+        env:
+          YOUTUBE_COOKIE_HEADER: ${{ secrets.YOUTUBE_COOKIE_HEADER }}
+        run: |
+          set -euo pipefail
+          mkdir -p streams
+          cookie_file="$RUNNER_TEMP/youtube-cookies.txt"
+          cookie_args=()
+          if [ -n "${YOUTUBE_COOKIE_HEADER:-}" ]; then
+            printf '# Netscape HTTP Cookie File\n' > "$cookie_file"
+            IFS=';' read -ra cookies <<< "$YOUTUBE_COOKIE_HEADER"
+            for cookie in "${cookies[@]}"; do
+              cookie="${cookie# }"
+              name="${cookie%%=*}"
+              value="${cookie#*=}"
+              secure=FALSE
+              if [[ "$name" == __Secure-* ]]; then
+                secure=TRUE
+              fi
+              printf '.youtube.com\tTRUE\t/\t%s\t0\t%s\t%s\n' "$secure" "$name" "$value" >> "$cookie_file"
+            done
+            cookie_args+=(--cookies "$cookie_file")
+          fi
+
+          yt-dlp \
+            "${cookie_args[@]}" \
+            --skip-download \
+            --yes-playlist \
+            --ignore-errors \
+            --no-abort-on-error \
+            --write-auto-subs \
+            --write-subs \
+            --sub-langs "en.*" \
+            --sub-format "vtt" \
+            --write-info-json \
+            --extractor-args "youtube:player_client=android_vr" \
+            --user-agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
+            --output "streams/%(id)s.%(ext)s" \
+            "$CHANNEL_STREAMS_URL"
+
+          shopt -s nullglob
+          caption_files=(streams/*.vtt)
+          if [ "${#caption_files[@]}" -eq 0 ]; then
+            printf 'No stream caption files were written\n' >&2
+            exit 1
+          fi
+
+      - name: Normalize stream files
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from datetime import datetime, timezone
+          from pathlib import Path
+          import json
+          import re
+
+          streams = Path('streams')
+          caption_files = sorted(streams.glob('*.vtt'))
+          if not caption_files:
+              raise SystemExit('No stream caption files were written')
+
+          metadata_by_id = {}
+          for info_file in streams.glob('*.info.json'):
+              metadata = json.loads(info_file.read_text(encoding='utf-8'))
+              video_id = metadata.get('id')
+              if video_id:
+                  metadata_by_id[video_id] = metadata
+
+          captions_by_id = {}
+          for caption_file in caption_files:
+              id_match = re.search(r'^([A-Za-z0-9_-]{11})(?:\.([^.]+))?\.vtt$', caption_file.name)
+              if id_match:
+                  captions_by_id.setdefault(id_match.group(1), []).append((id_match.group(2) or '', caption_file))
+
+          def language_rank(language):
+              return {'en': 0, 'en-US': 1}.get(language, 2 if language.startswith('en-') else 3)
+
+          empty = []
+          normalized = 0
+          for video_id, candidates in sorted(captions_by_id.items()):
+              language, caption_file = sorted(candidates, key=lambda candidate: (language_rank(candidate[0]), candidate[1].name))[0]
+              for _, extra_file in candidates:
+                  if extra_file != caption_file:
+                      extra_file.unlink()
+
+              if caption_file.stat().st_size == 0:
+                  empty.append(str(caption_file))
+                  continue
+
+              metadata = metadata_by_id.get(video_id, {})
+
+              title = metadata.get('title') or caption_file.stem
+              metadata_video_id = metadata.get('id') or video_id
+              webpage_url = metadata.get('webpage_url') or (f'https://www.youtube.com/watch?v={video_id}' if video_id else '')
+              timestamp = metadata.get('release_timestamp') or metadata.get('timestamp')
+              if timestamp is None and metadata.get('upload_date'):
+                  timestamp = datetime.strptime(metadata['upload_date'], '%Y%m%d').replace(tzinfo=timezone.utc).timestamp()
+
+              text = caption_file.read_text(encoding='utf-8')
+              if not text.startswith('WEBVTT'):
+                  empty.append(str(caption_file))
+                  continue
+
+              lines = [
+                  'WEBVTT',
+                  '',
+                  'NOTE',
+                  'metadata:',
+                  f'title: {title}',
+              ]
+              if metadata_video_id:
+                  lines.append(f'id: {metadata_video_id}')
+              if webpage_url:
+                  lines.append(f'url: {webpage_url}')
+              if timestamp is not None:
+                  lines.append('date: ' + datetime.fromtimestamp(float(timestamp), tz=timezone.utc).isoformat())
+              if language:
+                  lines.append(f'language: {language}')
+              lines.append('')
+
+              target_file = streams / f'{video_id}.vtt'
+              body = text.split('\n', 1)[1] if '\n' in text else ''
+              target_file.write_text('\n'.join(lines) + body, encoding='utf-8')
+              if target_file != caption_file:
+                  caption_file.unlink()
+              normalized += 1
+
+          for sidecar in streams.glob('*.info.json'):
+              sidecar.unlink()
+
+          if empty:
+              raise SystemExit('Invalid or empty caption files:\n' + '\n'.join(empty))
+          print(f'Normalized {normalized} stream caption file(s)')
+          PY
+
+      - name: Upload caption artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: neuralmmo-stream-captions
+          path: streams/*.vtt
+
+      - name: Commit caption updates
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add streams
+          if git diff --cached --quiet; then
+            echo "No stream caption changes to commit"
+            exit 0
+          fi
+          git commit -m "Sync Neural MMO stream captions"
+          git push
