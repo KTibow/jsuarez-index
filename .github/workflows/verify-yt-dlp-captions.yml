@@ -2,6 +2,11 @@ name: Verify yt-dlp captions
 
 on:
   workflow_dispatch:
+    inputs:
+      video_url:
+        description: "YouTube URL to test"
+        required: false
+        default: "https://www.youtube.com/watch?v=QXXQXFwOD_I&pp=0gcJCR4LAYcqIYzv"
   schedule:
     - cron: "17 9 * * 1"
 
@@ -20,18 +25,27 @@ jobs:
           ffmpeg: false
 
       - name: Fetch captions
+        env:
+          VIDEO_URL: ${{ inputs.video_url || 'https://www.youtube.com/watch?v=QXXQXFwOD_I&pp=0gcJCR4LAYcqIYzv' }}
+          YOUTUBE_COOKIE_HEADER: ${{ secrets.YOUTUBE_COOKIE_HEADER }}
         run: |
           set -euo pipefail
           mkdir -p captions
+          cookie_args=()
+          if [ -n "${YOUTUBE_COOKIE_HEADER:-}" ]; then
+            cookie_args+=(--add-header "Cookie: ${YOUTUBE_COOKIE_HEADER}")
+          fi
           yt-dlp \
+            "${cookie_args[@]}" \
             --skip-download \
             --write-auto-subs \
+            --write-subs \
             --sub-langs "en.*" \
             --sub-format "vtt" \
             --extractor-args "youtube:player_client=web" \
             --user-agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
             --output "captions/%(id)s.%(ext)s" \
-            "https://www.youtube.com/watch?v=QXXQXFwOD_I&pp=0gcJCR4LAYcqIYzv"
+            "$VIDEO_URL"
           shopt -s nullglob
           caption_files=(captions/*.vtt)
           if [ "${#caption_files[@]}" -eq 0 ]; then
