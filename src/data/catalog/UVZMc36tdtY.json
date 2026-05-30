@@ -1,0 +1,16 @@
+{
+  "id": "UVZMc36tdtY",
+  "date": "2025-05-08T15:00:00+00:00",
+  "url": "https://www.youtube.com/watch?v=UVZMc36tdtY",
+  "transcript": "/src/data/transcripts/UVZMc36tdtY.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Debugging Observation Normalization in GPU Drive Training",
+  "summary": "Debugged observation normalization in GPU Drive that was squashing goal coordinates to nearly identical values, causing poor multi-map training. Fixed the normalization and restructured the main training script, removing custom namespace and simplifying the harness.",
+  "topics": [
+    "PufferLib",
+    "GPU Drive",
+    "observation normalization",
+    "training harness refactor",
+    "sweep debugging"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "glKG-MtW_d4",
+  "date": "2025-11-26T16:43:16+00:00",
+  "url": "https://www.youtube.com/watch?v=glKG-MtW_d4",
+  "transcript": "/src/data/transcripts/glKG-MtW_d4.vtt",
+  "originalTitle": "Live RL Research on PufferLib w/ Joseph Suarez",
+  "title": "Debugging Deadlocks and Implementing Async CUDA Buffering for PufferLib Vectorization",
+  "summary": "Worked on a C++ vectorization backend for PufferLib, debugging deadlocks and adding multi-buffered asynchronous CUDA host-device transfers. Developed a threaded manager for async action/observation transfers to eliminate CPU-GPU bottlenecks.",
+  "topics": [
+    "vectorization",
+    "CUDA async transfers",
+    "multithreading",
+    "PufferLib",
+    "C++ backend"
+  ]
+}

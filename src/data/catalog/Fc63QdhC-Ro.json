@@ -1,0 +1,17 @@
+{
+  "id": "Fc63QdhC-Ro",
+  "date": "2025-08-23T17:01:55+00:00",
+  "url": "https://www.youtube.com/watch?v=Fc63QdhC-Ro",
+  "transcript": "/src/data/transcripts/Fc63QdhC-Ro.vtt",
+  "originalTitle": "PufferLib - world models get another chance",
+  "title": "Debugging World Model Instability in PufferLib Dreamer Implementation",
+  "summary": "Worked on integrating a Dreamer v3-style world model into PufferLib, debugging persistent stability issues on CartPole. Adjusted replay buffer, loss clipping, and gradient detachment, achieving learning but with cyclic instability; minimal progress on Breakout and Pong.",
+  "topics": [
+    "world model",
+    "Dreamer v3",
+    "replay buffer",
+    "KL divergence",
+    "gradient detachment",
+    "CartPole"
+  ]
+}

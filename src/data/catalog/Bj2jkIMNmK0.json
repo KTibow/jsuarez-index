@@ -1,0 +1,17 @@
+{
+  "id": "Bj2jkIMNmK0",
+  "date": "2024-12-21T15:35:55+00:00",
+  "url": "https://www.youtube.com/watch?v=Bj2jkIMNmK0",
+  "transcript": "/src/data/transcripts/Bj2jkIMNmK0.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Catching Up on PufferLib PRs and Fixing Build and VM Close Issues",
+  "summary": "Caught up on accumulated PRs and bug reports after a break due to illness and NeurIPS conference. Reviewed new environments (Blastar, Impulse Wars, etc.), investigated unreproducible build errors, and attempted to fix a flush issue in VM close that caused hangs. Planned to continue debugging and merging PRs in a follow-up session.",
+  "topics": [
+    "PufferLib",
+    "PR review",
+    "build errors",
+    "VM close flush",
+    "environment integration",
+    "CI"
+  ]
+}

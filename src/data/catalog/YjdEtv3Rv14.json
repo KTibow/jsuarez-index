@@ -1,0 +1,17 @@
+{
+  "id": "YjdEtv3Rv14",
+  "date": "2024-12-27T21:07:23+00:00",
+  "url": "https://www.youtube.com/watch?v=YjdEtv3Rv14",
+  "transcript": "/src/data/transcripts/YjdEtv3Rv14.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Observation Indexing Bug and Optimizing Perf in Xander's Environment",
+  "summary": "Debugged a performance regression and memory initialization bug in C observation computation for a trash pickup environment. Resolved by flipping loops and fixing an uninitialized `total_num_obs` variable, achieving 0% M time and training in 20 seconds.",
+  "topics": [
+    "performance optimization",
+    "observation computation",
+    "Cython",
+    "indexing bug",
+    "uninitialized variable",
+    "PufferLib environment"
+  ]
+}

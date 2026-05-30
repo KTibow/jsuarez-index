@@ -1,0 +1,17 @@
+{
+  "id": "qQMg_87zxpQ",
+  "date": "2024-08-07T17:48:43+00:00",
+  "url": "https://www.youtube.com/watch?v=qQMg_87zxpQ",
+  "transcript": "/src/data/transcripts/qQMg_87zxpQ.vtt",
+  "originalTitle": "GPU Drive Day 2 PufferLib Support - Live Reinforcement Learning Dev",
+  "title": "Debugging Madrona GPU Compilation and Adding Native GPU Drive Support to PufferLib",
+  "summary": "Worked on integrating the GPU Drive simulator into PufferLib, focusing on compiling Madrona with GPU support and implementing a native vectorization backend. Encountered compilation issues with CUDA and Docker, but made progress on creating a functional GPU binding.",
+  "topics": [
+    "GPU Drive",
+    "Madrona",
+    "CUDA",
+    "native vectorization",
+    "PufferLib",
+    "Docker"
+  ]
+}

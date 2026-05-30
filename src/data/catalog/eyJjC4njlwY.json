@@ -1,0 +1,17 @@
+{
+  "id": "eyJjC4njlwY",
+  "date": "2025-08-15T19:41:46+00:00",
+  "url": "https://www.youtube.com/watch?v=eyJjC4njlwY",
+  "transcript": "/src/data/transcripts/eyJjC4njlwY.vtt",
+  "originalTitle": "PufferLib - Off-policy research",
+  "title": "Testing Advantage Weighted Behavioral Cloning for Off-Policy Data Reuse",
+  "summary": "Worked on implementing and testing advantage-weighted behavioral cloning to enable off-policy data reuse. Analyzed why off-policy methods underperform and explored sampling strategies based on advantage and reward, achieving moderate success on Breakout.",
+  "topics": [
+    "advantage weighting",
+    "behavioral cloning",
+    "off-policy learning",
+    "replay buffer",
+    "sample efficiency",
+    "PufferLib"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dyNZMIpHJhw",
+  "date": "2025-02-25T00:43:24+00:00",
+  "url": "https://www.youtube.com/watch?v=dyNZMIpHJhw",
+  "transcript": "/src/data/transcripts/dyNZMIpHJhw.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Horizon Robustness for New PPO Improvement in PufferLib",
+  "summary": "Worked on making a new Pareto genetic sweep algorithm robust to longer value prediction horizons. Ran experiments on Breakout to compare performance with masked loss terms and different scaling, identifying potential issues with value normalization and clipping.",
+  "topics": [
+    "PufferLib",
+    "PPO",
+    "value prediction horizon",
+    "hyperparameter sweeps",
+    "loss masking",
+    "Breakout"
+  ]
+}

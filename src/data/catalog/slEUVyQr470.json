@@ -1,0 +1,16 @@
+{
+  "id": "slEUVyQr470",
+  "date": "2025-04-18T19:55:04+00:00",
+  "url": "https://www.youtube.com/watch?v=slEUVyQr470",
+  "transcript": "/src/data/transcripts/slEUVyQr470.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging Experience Buffer Issue and Restoring Training Performance in PufferLib",
+  "summary": "Debugged an experience buffer issue in PufferLib that prevented training from progressing. Adjusted hyperparameters and buffer logic, eventually restoring training performance to match previous levels.",
+  "topics": [
+    "PufferLib",
+    "experience buffer",
+    "training performance",
+    "hyperparameter tuning",
+    "debugging"
+  ]
+}

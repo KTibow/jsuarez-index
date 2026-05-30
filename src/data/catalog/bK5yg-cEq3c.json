@@ -1,0 +1,17 @@
+{
+  "id": "bK5yg-cEq3c",
+  "date": "2025-03-08T13:32:58+00:00",
+  "url": "https://www.youtube.com/watch?v=bK5yg-cEq3c",
+  "transcript": "/src/data/transcripts/bK5yg-cEq3c.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Implementing Learnable Advantage Estimation in PufferLib CUDA Kernels",
+  "summary": "Worked on implementing a learnable replacement for generalized advantage estimation (GAE) in CUDA kernels. Encountered fundamental issues with baselining the variance of returns, leading to a shift toward exploration research.",
+  "topics": [
+    "CUDA kernel",
+    "learnable advantage estimation",
+    "generalized advantage estimation",
+    "variance baseline",
+    "RL algorithm",
+    "exploration research"
+  ]
+}

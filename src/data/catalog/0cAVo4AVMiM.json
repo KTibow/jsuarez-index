@@ -1,0 +1,17 @@
+{
+  "id": "0cAVo4AVMiM",
+  "date": "2024-08-23T21:16:56+00:00",
+  "url": "https://www.youtube.com/watch?v=0cAVo4AVMiM",
+  "transcript": "/src/data/transcripts/0cAVo4AVMiM.vtt",
+  "originalTitle": "Live Reinforcement Learning Dev",
+  "title": "Explaining the Ten Levels of Reinforcement Learning Optimization in PufferLib",
+  "summary": "Presented a ten-level breakdown of reinforcement learning system optimization, detailing PufferLib's improvements in vectorization, compatibility, wrapper efficiency, and custom fast simulators. Outlined the project's master plan for accelerating RL research.",
+  "topics": [
+    "PufferLib",
+    "vectorization",
+    "wrapper optimization",
+    "custom simulators",
+    "RL system architecture",
+    "open-endedness"
+  ]
+}

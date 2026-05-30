@@ -1,0 +1,17 @@
+{
+  "id": "-3cvnph4MTU",
+  "date": "2024-07-15T18:48:03+00:00",
+  "url": "https://www.youtube.com/watch?v=-3cvnph4MTU",
+  "transcript": "/src/data/transcripts/-3cvnph4MTU.vtt",
+  "originalTitle": "Building a High-Performance mini-MOBA for Reinforcement Learning",
+  "title": "Refactoring PufferLib Config System and Prototyping a Mini-MOBA Environment",
+  "summary": "Refactored the PufferLib demo configuration system from YAML to Python configparser, reducing demo.py length by a third. Began developing a high-performance mini-MOBA environment using the continuous control engine with a DOTA-inspired map, struct-based entities, towers, and basic combat, while also integrating hyperparameter sweeps using WanB and carbs.",
+  "topics": [
+    "PufferLib",
+    "config refactoring",
+    "mini-MOBA environment",
+    "continuous control",
+    "structured arrays",
+    "hyperparameter sweeps"
+  ]
+}

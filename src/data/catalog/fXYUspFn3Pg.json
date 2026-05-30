@@ -1,0 +1,17 @@
+{
+  "id": "fXYUspFn3Pg",
+  "date": "2025-04-12T01:26:03+00:00",
+  "url": "https://www.youtube.com/watch?v=fXYUspFn3Pg",
+  "transcript": "/src/data/transcripts/fXYUspFn3Pg.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Merging Pull Request and Fixing Breakout Environment for PufferLib",
+  "summary": "Merged a pull request, resized game screenshots for website consistency, and fixed the breakout environment by adding a score variable and optimizer. Checked a new training run.",
+  "topics": [
+    "pull request merge",
+    "screenshot resizing",
+    "breakout environment",
+    "score variable",
+    "optimizer",
+    "CUDA caching"
+  ]
+}

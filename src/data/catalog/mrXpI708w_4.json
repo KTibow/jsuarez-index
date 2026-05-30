@@ -1,0 +1,17 @@
+{
+  "id": "mrXpI708w_4",
+  "date": "2024-09-06T20:16:47+00:00",
+  "url": "https://www.youtube.com/watch?v=mrXpI708w_4",
+  "transcript": "/src/data/transcripts/mrXpI708w_4.vtt",
+  "originalTitle": "Portable RL models in C for WASM",
+  "title": "Implementing and Testing C Neural Network Layers for Web Assembly RL Inference",
+  "summary": "Developed C implementations of linear, LSTM, convolution, activation, one-hot, concatenation, and multi-discrete argmax layers, matching PyTorch outputs exactly. Wrote automated tests and structured the code into a portable library (puffer-net) for compiling to WebAssembly, enabling RL model inference in-browser.",
+  "topics": [
+    "C neural network implementation",
+    "PyTorch-to-C model porting",
+    "web assembly inference",
+    "RL model deployment",
+    "test-driven development",
+    "puffer-lib infrastructure"
+  ]
+}

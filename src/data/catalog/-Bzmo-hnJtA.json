@@ -1,0 +1,17 @@
+{
+  "id": "-Bzmo-hnJtA",
+  "date": "2024-10-22T18:32:29+00:00",
+  "url": "https://www.youtube.com/watch?v=-Bzmo-hnJtA",
+  "transcript": "/src/data/transcripts/-Bzmo-hnJtA.vtt",
+  "originalTitle": "Live RL dev on PufferLib",
+  "title": "Refactoring PufferLib Cython Bindings to Use Typed Memory Views",
+  "summary": "Refactored the Cython bindings for multiple PufferLib environments to replace generic numpy arrays with typed memory views, improving type safety and reducing potential buffer errors. Fixed compilation warnings and addressed an alignment bug in shared memory.",
+  "topics": [
+    "refactoring",
+    "Cython bindings",
+    "memory views",
+    "type safety",
+    "PufferLib",
+    "alignment bug"
+  ]
+}

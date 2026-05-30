@@ -1,0 +1,17 @@
+{
+  "id": "1fLJ_wmPu48",
+  "date": "2024-09-13T19:42:08+00:00",
+  "url": "https://www.youtube.com/watch?v=1fLJ_wmPu48",
+  "transcript": "/src/data/transcripts/1fLJ_wmPu48.vtt",
+  "originalTitle": "Live RL dev -- don't suffer, use Puffer!",
+  "title": "Porting Pong to Native C and Deploying Online with PufferLib",
+  "summary": "Ported a contributor's Pong environment from Python/Cython to native C for web deployment, integrated it into PufferLib's environment collection, and began a breakout port. Also debugged ELO calculation logic for the MOBA environment and fixed neural MMO installation issues.",
+  "topics": [
+    "C environment porting",
+    "PufferLib",
+    "web deployment",
+    "ELO calculation",
+    "neural MMO",
+    "game description language"
+  ]
+}

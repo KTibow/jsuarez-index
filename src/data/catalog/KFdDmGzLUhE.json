@@ -1,0 +1,17 @@
+{
+  "id": "KFdDmGzLUhE",
+  "date": "2025-09-02T21:39:59+00:00",
+  "url": "https://www.youtube.com/watch?v=KFdDmGzLUhE",
+  "transcript": "/src/data/transcripts/KFdDmGzLUhE.vtt",
+  "originalTitle": "PufferLib - Sample efficiency in the dumbest way possible",
+  "title": "Analyzing Breakout Sample Efficiency and Planning Sweep Tooling Improvements",
+  "summary": "Analyzed sample efficiency of PufferLib on Breakout with no frame skip, noting a high score of 827 at 20 million frames. Discussed hyperparameter tuning results, issues with scaling update epochs, and planned to improve distributed sweep tooling for faster experimentation.",
+  "topics": [
+    "sample efficiency",
+    "breakout",
+    "hyperparameter tuning",
+    "PufferLib",
+    "sweep tooling",
+    "frame skip"
+  ]
+}

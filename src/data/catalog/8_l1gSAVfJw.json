@@ -1,0 +1,16 @@
+{
+  "id": "8_l1gSAVfJw",
+  "date": "2025-05-09T12:36:43+00:00",
+  "url": "https://www.youtube.com/watch?v=8_l1gSAVfJw",
+  "transcript": "/src/data/transcripts/8_l1gSAVfJw.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Checking Sweep Results and Refining Trainer for PufferLib",
+  "summary": "Reviewed ongoing experiment sweeps with 159 meta experiments, planned to launch new ones and synchronize with Spencer on driving sim results. Focused on polishing the trainer with small changes to have it in a good spot by Saturday.",
+  "topics": [
+    "PufferLib",
+    "experiment sweeps",
+    "trainer refinement",
+    "driving simulator",
+    "meta experiments"
+  ]
+}

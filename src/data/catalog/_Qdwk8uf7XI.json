@@ -1,0 +1,17 @@
+{
+  "id": "_Qdwk8uf7XI",
+  "date": "2025-10-13T15:41:17+00:00",
+  "url": "https://www.youtube.com/watch?v=_Qdwk8uf7XI",
+  "transcript": "/src/data/transcripts/_Qdwk8uf7XI.vtt",
+  "originalTitle": "PufferLib - RL dev",
+  "title": "Building a High-Performance Dashboard and Tutorial for PufferLib",
+  "summary": "Worked on the C-based dashboard visualizer, refactoring code to reduce line count and improve functionality. Also conducted a live tutorial on creating high-performance environments in C for PufferLib, demonstrating the target environment and discussing design choices.",
+  "topics": [
+    "dashboard visualizer",
+    "C programming",
+    "hyperparameter tuning",
+    "environment tutorial",
+    "PufferLib",
+    "performance optimization"
+  ]
+}

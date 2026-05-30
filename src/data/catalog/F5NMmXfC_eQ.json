@@ -1,0 +1,17 @@
+{
+  "id": "F5NMmXfC_eQ",
+  "date": "2025-01-21T17:12:25+00:00",
+  "url": "https://www.youtube.com/watch?v=F5NMmXfC_eQ",
+  "transcript": "/src/data/transcripts/F5NMmXfC_eQ.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Code Reviewing a TCG Environment in C for PufferLib",
+  "summary": "Reviewed Noah's prototype C code for a trading card game environment, critiquing union types, memory allocation patterns, and struct design. Discussed how to implement card effects and integrate the environment with reinforcement learning action and observation spaces.",
+  "topics": [
+    "code review",
+    "trading card game",
+    "C programming",
+    "struct design",
+    "memory allocation",
+    "PufferLib environment"
+  ]
+}

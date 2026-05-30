@@ -1,0 +1,17 @@
+{
+  "id": "Fd0yC1JlP6o",
+  "date": "2025-04-14T23:31:59+00:00",
+  "url": "https://www.youtube.com/watch?v=Fd0yC1JlP6o",
+  "transcript": "/src/data/transcripts/Fd0yC1JlP6o.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging Test Time Training Implementation for RNN Layer in PufferLib",
+  "summary": "Worked on integrating the Test Time Training (TTT) layer into PufferLib, encountering training failures. Investigated caching issues, gradient clipping problems, and compared Jax vs C for environment development.",
+  "topics": [
+    "test time training",
+    "RNN layer integration",
+    "gradient clipping",
+    "PufferLib",
+    "C vs Jax for environments",
+    "breakout environment"
+  ]
+}

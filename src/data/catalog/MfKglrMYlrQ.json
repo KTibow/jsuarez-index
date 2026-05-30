@@ -1,0 +1,17 @@
+{
+  "id": "MfKglrMYlrQ",
+  "date": "2025-11-22T14:01:38+00:00",
+  "url": "https://www.youtube.com/watch?v=MfKglrMYlrQ",
+  "transcript": "/src/data/transcripts/MfKglrMYlrQ.vtt",
+  "originalTitle": "Live RL Research on PufferLib w/ Joseph Suarez",
+  "title": "Optimizing Fuse Scan Kernels in PufferLib Training Loop",
+  "summary": "Worked on optimizing fuse scan forward and backward kernels by removing double precision and simplifying branching, but a change broke numerical stability. Used CUDA profiling to identify bottlenecks.",
+  "topics": [
+    "kernel optimization",
+    "fuse scan",
+    "double precision",
+    "CUDA profiling",
+    "PufferLib",
+    "numerical stability"
+  ]
+}

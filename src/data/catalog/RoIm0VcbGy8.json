@@ -1,0 +1,17 @@
+{
+  "id": "RoIm0VcbGy8",
+  "date": "2025-06-25T15:00:11+00:00",
+  "url": "https://www.youtube.com/watch?v=RoIm0VcbGy8",
+  "transcript": "/src/data/transcripts/RoIm0VcbGy8.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Debugging Meta Environment and Training Resource Conversion Policy",
+  "summary": "Debugged the slow performance of the meta environment using profiling, identified the replay buffer as a bottleneck, and trained a policy that successfully learned a multi-step resource conversion task. Also reviewed release articles and discussed documentation needs for beginners.",
+  "topics": [
+    "PufferLib",
+    "meta environment",
+    "profiling",
+    "reward shaping",
+    "article review",
+    "documentation"
+  ]
+}

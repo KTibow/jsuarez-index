@@ -1,0 +1,17 @@
+{
+  "id": "rZ3tBMwsjwA",
+  "date": "2025-07-01T18:47:50+00:00",
+  "url": "https://www.youtube.com/watch?v=rZ3tBMwsjwA",
+  "transcript": "/src/data/transcripts/rZ3tBMwsjwA.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Debugging Manny Skill Robotics Integration and Reward Function in PufferLib",
+  "summary": "Worked on integrating the Manny skill robotic environment into PufferLib. Fixed the reward function by implementing delta rewards and attempted to improve training speed through multi-GPU scaling and hyperparameter tuning.",
+  "topics": [
+    "PufferLib",
+    "Manny skill",
+    "robotics sim",
+    "reward function",
+    "domain randomization",
+    "multi-GPU training"
+  ]
+}

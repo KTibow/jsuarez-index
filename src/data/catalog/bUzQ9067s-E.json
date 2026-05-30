@@ -1,0 +1,17 @@
+{
+  "id": "bUzQ9067s-E",
+  "date": "2025-08-11T21:12:11+00:00",
+  "url": "https://www.youtube.com/watch?v=bUzQ9067s-E",
+  "transcript": "/src/data/transcripts/bUzQ9067s-E.vtt",
+  "originalTitle": "PufferLib - Experimental online imitation learning",
+  "title": "Implementing Online Imitation Learning from Self-Collected Data in PufferLib",
+  "summary": "Worked on implementing an online imitation learning method that collects data from scratch, filters best trajectory segments, and trains via behavioral cloning without expert data. Tested on multiple environments; showed promising early results on sparse-reward tasks but struggled on others.",
+  "topics": [
+    "online imitation learning",
+    "behavioral cloning",
+    "trajectory filtering",
+    "PufferLib",
+    "experimental RL research",
+    "sample efficiency"
+  ]
+}

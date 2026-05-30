@@ -1,0 +1,17 @@
+{
+  "id": "ywUhLnZdn3k",
+  "date": "2026-02-26T13:56:51+00:00",
+  "url": "https://www.youtube.com/watch?v=ywUhLnZdn3k",
+  "transcript": "/src/data/transcripts/ywUhLnZdn3k.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Debugging PPO Training and Building Constellation Dashboard for PufferLib",
+  "summary": "Debugged a stale advantage update and initialization bug in PPO training for the mazes/2048 environment. Implemented a hyperparameter copy feature in the Constellation dashboard and investigated performance gaps between Puffer 3 and 4, considering CuDNN RMS norm integration.",
+  "topics": [
+    "PPO bug fix",
+    "hyperparameter copy",
+    "maze environment",
+    "Constellation dashboard",
+    "RMS norm",
+    "CuDNN integration"
+  ]
+}

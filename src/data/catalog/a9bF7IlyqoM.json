@@ -1,0 +1,17 @@
+{
+  "id": "a9bF7IlyqoM",
+  "date": "2025-04-01T14:38:52+00:00",
+  "url": "https://www.youtube.com/watch?v=a9bF7IlyqoM",
+  "transcript": "/src/data/transcripts/a9bF7IlyqoM.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging Neural MMO Seeding and Fixing Breakout Score Bug with New Python C API Bindings",
+  "summary": "Worked on porting PufferLib environments to new Python C API bindings, replacing Cython. Fixed a score counting bug in Breakout caused by converting integer division to float division. Investigated a seeding issue in Neural MMO that caused flat learning curves for billions of steps before improvement. Unboxed and set up a new 5090 GPU machine for benchmarking.",
+  "topics": [
+    "PufferLib",
+    "Python C API",
+    "neural MMO",
+    "breakout",
+    "seed sensitivity",
+    "integer division bug"
+  ]
+}

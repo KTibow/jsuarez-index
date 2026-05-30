@@ -1,0 +1,17 @@
+{
+  "id": "xdhlUtBg-OI",
+  "date": "2025-02-17T18:56:28+00:00",
+  "url": "https://www.youtube.com/watch?v=xdhlUtBg-OI",
+  "transcript": "/src/data/transcripts/xdhlUtBg-OI.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Reviewing Tower Climb PR and Demonstrating New Hyperparameter Sweep Algorithm",
+  "summary": "Reviewed Spencer's 2500-line tower climb environment pull request, fixing minor issues in the BFS logic and setup. Showcased the new protein hyperparameter sweep algorithm, which discovered the Pareto frontier on pong in 25 experiments. Also discussed continuous action pong and cmake integration for future build system improvements.",
+  "topics": [
+    "tower climb",
+    "code review",
+    "hyperparameter sweep",
+    "protein algorithm",
+    "continuous pong",
+    "cmake build"
+  ]
+}

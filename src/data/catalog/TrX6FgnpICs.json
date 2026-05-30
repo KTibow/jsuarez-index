@@ -1,0 +1,16 @@
+{
+  "id": "TrX6FgnpICs",
+  "date": "2025-05-20T18:07:15+00:00",
+  "url": "https://www.youtube.com/watch?v=TrX6FgnpICs",
+  "transcript": "/src/data/transcripts/TrX6FgnpICs.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Diagnosing Router Connectivity Issues for PufferLib Development",
+  "summary": "Investigated persistent slow internet and inaccessible websites, suspected caching or router problems, and decided to reset the router to restore connectivity for RL development work.",
+  "topics": [
+    "router debugging",
+    "connectivity issues",
+    "Docker cache",
+    "network troubleshooting",
+    "PufferLib"
+  ]
+}

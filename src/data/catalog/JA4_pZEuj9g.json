@@ -1,0 +1,17 @@
+{
+  "id": "JA4_pZEuj9g",
+  "date": "2024-09-03T00:54:24+00:00",
+  "url": "https://www.youtube.com/watch?v=JA4_pZEuj9g",
+  "transcript": "/src/data/transcripts/JA4_pZEuj9g.vtt",
+  "originalTitle": "Freedom at last! Reinforcement learning dev in C",
+  "title": "Porting MOBA Environment to Pure C and Debugging Memory Issues",
+  "summary": "Ported the DOTA-like MOBA environment from Cython to pure C, including memory allocation and file reading. Debugged segmentation faults and logic bugs in entity spawning and pathfinding, and began implementing a raylib renderer.",
+  "topics": [
+    "C porting",
+    "memory management",
+    "raylib",
+    "MOBA environment",
+    "debugging",
+    "entity spawning"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bVqSLOIQeQk",
+  "date": "2025-06-26T19:05:35+00:00",
+  "url": "https://www.youtube.com/watch?v=bVqSLOIQeQk",
+  "transcript": "/src/data/transcripts/bVqSLOIQeQk.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Integrating ManiSkill Robotics Sim and Planning Drone Hardware",
+  "summary": "Debugged ManiSkill integration for PufferLib, fixing logging and hyperparameter issues. Discussed drone hardware selection for real-world RL deployment with collaborators.",
+  "topics": [
+    "ManiSkill",
+    "PufferLib",
+    "drone hardware",
+    "robotics",
+    "hyperparameter tuning",
+    "domain randomization"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "n6wIAtMggLY",
+  "date": "2026-01-17T15:01:34+00:00",
+  "url": "https://www.youtube.com/watch?v=n6wIAtMggLY",
+  "transcript": "/src/data/transcripts/n6wIAtMggLY.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Cleaning Up PufferLib's C++ Profiling and Function Signatures",
+  "summary": "Refactored the PufferLib C++ codebase to reduce verbose profiling, streamline function signatures by grouping arguments into structs, and separate profiling code from main training logic. Made progress toward a shippable pre-alpha state.",
+  "topics": [
+    "PufferLib",
+    "C++ refactoring",
+    "CUDA graphing",
+    "profiling",
+    "code readability",
+    "function signature cleanup"
+  ]
+}

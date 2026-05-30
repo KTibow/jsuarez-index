@@ -1,0 +1,17 @@
+{
+  "id": "5DCCppqFtzE",
+  "date": "2024-08-20T18:49:04+00:00",
+  "url": "https://www.youtube.com/watch?v=5DCCppqFtzE",
+  "transcript": "/src/data/transcripts/5DCCppqFtzE.vtt",
+  "originalTitle": "Live Reinforcement Learning Dev",
+  "title": "Iteratively Balancing MOBA Classes Using Reinforcement Learning Feedback",
+  "summary": "Iteratively adjusted damage scaling, mana costs, and ability effectiveness for assassin, carry, burst, tank, and support classes in a DOTA-style MOBA environment. Analyzed agent kill counts, damage dealt, healing, and level progression from 10-minute training runs to identify and correct imbalances. Reviewed overnight hyperparameter sweep results for breakout and beam rider, noting improved performance with longer run times but potential issues with carbs implementation. Added a death counter metric to the stats dashboard.",
+  "topics": [
+    "class balance",
+    "ability tuning",
+    "hyperparameter sweep",
+    "RL agent metrics",
+    "MOBA environment",
+    "PufferLib"
+  ]
+}

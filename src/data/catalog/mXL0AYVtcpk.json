@@ -1,0 +1,17 @@
+{
+  "id": "mXL0AYVtcpk",
+  "date": "2025-07-26T18:17:44+00:00",
+  "url": "https://www.youtube.com/watch?v=mXL0AYVtcpk",
+  "transcript": "/src/data/transcripts/mXL0AYVtcpk.vtt",
+  "originalTitle": "Reinforcement Learning + Material Science",
+  "title": "Binding PufferLib to LAMMPS for Atomic Steering with RL",
+  "summary": "Worked on integrating the LAMMPS material science simulation package with PufferLib. Built a basic environment where reinforcement learning steers atoms to a target position, demonstrating the feasibility of using RL for material discovery tasks.",
+  "topics": [
+    "PufferLib",
+    "LAMMPS",
+    "material science",
+    "atomic simulation",
+    "reinforcement learning",
+    "C API integration"
+  ]
+}

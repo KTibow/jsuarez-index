@@ -1,0 +1,17 @@
+{
+  "id": "GL4Hb11uyIA",
+  "date": "2024-11-18T19:53:13+00:00",
+  "url": "https://www.youtube.com/watch?v=GL4Hb11uyIA",
+  "transcript": "/src/data/transcripts/GL4Hb11uyIA.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging PufferLib Baseline Sweeps and Reviewing New Environment Contributions",
+  "summary": "Worked on finalizing Pong and Connect Four baselines, diagnosing performance regressions in vectorized environments due to a missing `num_workers` parameter. Also reviewed a contributor's new environment prototype, providing guidance on using the native C environment API and Cython bindings.",
+  "topics": [
+    "PufferLib",
+    "baseline sweeps",
+    "vectorized environments",
+    "multiprocessing",
+    "Cython bindings",
+    "custom environments"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "R1ec7S-kt1U",
+  "date": "2025-05-13T16:38:27+00:00",
+  "url": "https://www.youtube.com/watch?v=R1ec7S-kt1U",
+  "transcript": "/src/data/transcripts/R1ec7S-kt1U.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Analyzing Breakout Speedrun Sweeps and Drafting Release Blog Posts",
+  "summary": "Analyzed overnight experiment results, launched hyperparameter sweeps for Breakout speedrun and maze environments, and drafted blog posts for the upcoming PufferLib release.",
+  "topics": [
+    "PufferLib",
+    "hyperparameter sweeping",
+    "Neptune logging",
+    "Breakout speedrun",
+    "maze experiments",
+    "blog post drafting"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bi_ilwKDbPo",
+  "date": "2025-10-14T14:50:21+00:00",
+  "url": "https://www.youtube.com/watch?v=bi_ilwKDbPo",
+  "transcript": "/src/data/transcripts/bi_ilwKDbPo.vtt",
+  "originalTitle": "PufferLib - RL dev",
+  "title": "Implementing Star Shader Effects and Tutorial on PufferLib Environment Development",
+  "summary": "Worked on integrating a star-like shader effect for scatter plot points in the Constellation dashboard, debugging OpenGL and settings to achieve a glow effect. Later gave a tutorial on writing high-performance RL environments in C using PufferLib, covering structure, binding, and rendering.",
+  "topics": [
+    "PufferLib",
+    "shader programming",
+    "OpenGL",
+    "RL environment development",
+    "C programming",
+    "data visualization"
+  ]
+}

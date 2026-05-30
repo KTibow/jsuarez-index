@@ -1,0 +1,17 @@
+{
+  "id": "6LVJjf0sGHQ",
+  "date": "2025-07-18T18:42:28+00:00",
+  "url": "https://www.youtube.com/watch?v=6LVJjf0sGHQ",
+  "transcript": "/src/data/transcripts/6LVJjf0sGHQ.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Reviewing Frogger C Environment and Debugging Drone Swarm Physics",
+  "summary": "Reviewed Linky's Frogger environment written in C, providing feedback on code style and structure. Worked on integrating new physics into the drone swarm simulation, debugged training issues with the racing task, and set up a hyperparameter sweep.",
+  "topics": [
+    "pufferlib",
+    "c programming",
+    "drone simulation",
+    "physics integration",
+    "hyperparameter sweep",
+    "code review"
+  ]
+}

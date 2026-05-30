@@ -1,0 +1,17 @@
+{
+  "id": "TTk_mx6axIQ",
+  "date": "2024-09-09T20:46:11+00:00",
+  "url": "https://www.youtube.com/watch?v=TTk_mx6axIQ",
+  "transcript": "/src/data/transcripts/TTk_mx6axIQ.vtt",
+  "originalTitle": "Portable RL models in C for WASM",
+  "title": "Debugging Weight Loading and Action Handling for MOBA AI Network in C",
+  "summary": "Worked on porting a CNN+LSTM+MLP network to pure C for web deployment. Debugged weight loading inconsistencies between C implementation and PyTorch reference, and fixed action scaling in the renderer. Network nearly functional but still resolving output mismatches.",
+  "topics": [
+    "C network implementation",
+    "weight loading",
+    "debugging",
+    "action handling",
+    "neural network porting",
+    "WASM deployment"
+  ]
+}

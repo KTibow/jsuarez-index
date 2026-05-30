@@ -1,0 +1,17 @@
+{
+  "id": "FMub47WpT-c",
+  "date": "2025-01-19T12:04:49+00:00",
+  "url": "https://www.youtube.com/watch?v=FMub47WpT-c",
+  "transcript": "/src/data/transcripts/FMub47WpT-c.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Exploration Bias in CARBS Hyperparameter Sweep Algorithm for RL",
+  "summary": "Worked on fixing the CARBS hyperparameter sweep algorithm for reinforcement learning. Diagnosed overconfidence in the acquisition function causing insufficient exploration, removed conservative sampling bias, and launched new experiments with adjusted confidence weighting.",
+  "topics": [
+    "CARBS",
+    "hyperparameter tuning",
+    "acquisition function",
+    "gaussian processes",
+    "exploration-exploitation",
+    "pong benchmark"
+  ]
+}

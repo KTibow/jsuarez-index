@@ -1,0 +1,17 @@
+{
+  "id": "V6ANFvsNQzw",
+  "date": "2025-03-12T12:22:49+00:00",
+  "url": "https://www.youtube.com/watch?v=V6ANFvsNQzw",
+  "transcript": "/src/data/transcripts/V6ANFvsNQzw.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging Learned Discount Factors and Reviewing Impulse Wars PR",
+  "summary": "Worked on debugging a new reinforcement learning algorithm's learned discount factors in PufferLib, then conducted a live code review of Captain's new Impulse Wars environment, discussing data architecture improvements such as entity encoders and grid-based observations.",
+  "topics": [
+    "PufferLib",
+    "reinforcement learning",
+    "learned discount factors",
+    "code review",
+    "Impulse Wars",
+    "entity encoder"
+  ]
+}

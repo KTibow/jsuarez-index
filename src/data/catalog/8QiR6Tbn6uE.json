@@ -1,0 +1,17 @@
+{
+  "id": "8QiR6Tbn6uE",
+  "date": "2026-03-07T15:32:03+00:00",
+  "url": "https://www.youtube.com/watch?v=8QiR6Tbn6uE",
+  "transcript": "/src/data/transcripts/8QiR6Tbn6uE.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Cleaning Up Constellation UI and Fixing Underflow Bug in Metrics",
+  "summary": "Worked on Constellation, the experiment tracking dashboard, simplifying the UI to a single top bar and fixing an underflow bug in metric logging. Ran benchmark sweeps for Grid and 2048 environments, achieving strong performance.",
+  "topics": [
+    "constellation",
+    "UI simplification",
+    "underflow bug",
+    "benchmark sweeps",
+    "metric logging",
+    "PufferLib"
+  ]
+}

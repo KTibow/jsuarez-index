@@ -1,0 +1,17 @@
+{
+  "id": "Rq9vrm-ng00",
+  "date": "2025-06-23T17:23:39+00:00",
+  "url": "https://www.youtube.com/watch?v=Rq9vrm-ng00",
+  "transcript": "/src/data/transcripts/Rq9vrm-ng00.vtt",
+  "originalTitle": "PufferLib 3.0 Release Day - Q&A + Support",
+  "title": "Fixing Release Day Bugs and Porting Grid Environment to C for Puffer 3",
+  "summary": "Worked on post-release fixes for Puffer 3, including porting the grid environment model to C and debugging the meta environment. Merged community PRs for Asteroids and drone environments, and explained entity encoder architecture for RL.",
+  "topics": [
+    "Puffer 3",
+    "release day fixes",
+    "C model inference",
+    "entity encoders",
+    "meta environment debugging",
+    "community PRs"
+  ]
+}

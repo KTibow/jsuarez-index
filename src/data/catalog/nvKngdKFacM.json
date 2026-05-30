@@ -1,0 +1,16 @@
+{
+  "id": "nvKngdKFacM",
+  "date": "2025-02-26T13:13:24+00:00",
+  "url": "https://www.youtube.com/watch?v=nvKngdKFacM",
+  "transcript": "/src/data/transcripts/nvKngdKFacM.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Container GPU Access and Planning Jax Integration for PufferLib",
+  "summary": "Debugged a bug where containers lose GPU access causing job crashes. Reviewed policy code and discussed integrating Jax-based environments.",
+  "topics": [
+    "container GPU access",
+    "bug fixing",
+    "Jax integration",
+    "policy code review",
+    "build system"
+  ]
+}

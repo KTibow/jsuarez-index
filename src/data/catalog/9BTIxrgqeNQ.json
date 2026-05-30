@@ -1,0 +1,17 @@
+{
+  "id": "9BTIxrgqeNQ",
+  "date": "2025-02-03T18:54:01+00:00",
+  "url": "https://www.youtube.com/watch?v=9BTIxrgqeNQ",
+  "transcript": "/src/data/transcripts/9BTIxrgqeNQ.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Isaac Gym Performance and Bot Spacing in PufferLib",
+  "summary": "Worked on optimizing performance in Isaac Gym with PufferLib. Debugged memory usage and SPS issues, found that bots were not being spread out due to overridden spacing parameters in nested methods. Identified that resetting was also incorrect due to order of operations.",
+  "topics": [
+    "Isaac Gym",
+    "PufferLib",
+    "debugging",
+    "performance optimization",
+    "bot spacing",
+    "memory usage"
+  ]
+}

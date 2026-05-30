@@ -1,0 +1,17 @@
+{
+  "id": "zPcPLy1WW08",
+  "date": "2026-05-26T18:02:25+00:00",
+  "url": "https://www.youtube.com/watch?v=zPcPLy1WW08",
+  "transcript": "/src/data/transcripts/zPcPLy1WW08.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Evaluating State Sets on Sokoban and Drawing from PLR for Puffer 5",
+  "summary": "Tested state sets on Sokoban difficulty 2, achieving a 54% solve rate. Ran baseline sweeps and reviewed the PLR paper, identifying rank transform and staleness as potential algorithmic improvements. Began porting environments to Puffer 5.",
+  "topics": [
+    "Puffer 5",
+    "state sets",
+    "PLR",
+    "Sokoban",
+    "baseline sweep",
+    "rank transform"
+  ]
+}

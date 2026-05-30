@@ -1,0 +1,17 @@
+{
+  "id": "OmcEWXDO2Uk",
+  "date": "2025-02-03T14:23:54+00:00",
+  "url": "https://www.youtube.com/watch?v=OmcEWXDO2Uk",
+  "transcript": "/src/data/transcripts/OmcEWXDO2Uk.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Integrating Isaac Gym Motion Loading and Refining Pareto Front Optimization",
+  "summary": "Worked on integrating Isaac Gym humanoid motion data with PufferLib, cleaned up environment code from a collaborator, and debugged data loading issues. Switched to improving hyperparameter sweep algorithms for Pareto front optimization, testing normalization and rank transforms.",
+  "topics": [
+    "Isaac Gym",
+    "PufferLib",
+    "motion data loading",
+    "hyperparameter tuning",
+    "Pareto front optimization",
+    "Bayesian optimization"
+  ]
+}

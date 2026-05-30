@@ -1,0 +1,17 @@
+{
+  "id": "h6Vvk-tODRk",
+  "date": "2025-02-14T19:00:49+00:00",
+  "url": "https://www.youtube.com/watch?v=h6Vvk-tODRk",
+  "transcript": "/src/data/transcripts/h6Vvk-tODRk.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Rewriting CARBS Hyperparameter Sweeps with Normalization Fixes for RL",
+  "summary": "Worked on rewriting the CARBS hyperparameter sweep algorithm for reinforcement learning, focusing on data normalization, boundary conditions, and scoring functions. Tested on synthetic tasks and Pong, showing improvements in Pareto front coverage and reducing wasted experiments.",
+  "topics": [
+    "CARBS",
+    "hyperparameter sweeps",
+    "data normalization",
+    "Pareto front",
+    "Pong",
+    "synthetic benchmarks"
+  ]
+}

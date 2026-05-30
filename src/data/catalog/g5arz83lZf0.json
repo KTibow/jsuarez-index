@@ -1,0 +1,17 @@
+{
+  "id": "g5arz83lZf0",
+  "date": "2025-05-28T14:59:48+00:00",
+  "url": "https://www.youtube.com/watch?v=g5arz83lZf0",
+  "transcript": "/src/data/transcripts/g5arz83lZf0.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Debugging Terraform Sim Collision and Shader Rendering",
+  "summary": "Worked on a new terraforming simulation environment, debugging a phantom collision bug and implementing a raylib shader for terrain visualization. Also reviewed experiment results from previous night's sweeps and set up new hyperparameter sweeps for Enduro and MOA.",
+  "topics": [
+    "terraform simulation",
+    "shader implementation",
+    "collision detection",
+    "raylib",
+    "PufferLib",
+    "hyperparameter sweeps"
+  ]
+}

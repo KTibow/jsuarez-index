@@ -1,0 +1,16 @@
+{
+  "id": "dNQgdcNFzIY",
+  "date": "2024-12-22T14:36:49+00:00",
+  "url": "https://www.youtube.com/watch?v=dNQgdcNFzIY",
+  "transcript": "/src/data/transcripts/dNQgdcNFzIY.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Multi-Environment Simulation and Data Type Issues in PufferLib",
+  "summary": "Debugged observation space mismatch and buffer dtype issues to enable multiple environments per process. Tested performance across various environments including Pac-Man, big fish, and net hack.",
+  "topics": [
+    "PufferLib",
+    "numpy dtype",
+    "multiprocessing",
+    "environment porting",
+    "infrastructure debugging"
+  ]
+}

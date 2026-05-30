@@ -1,0 +1,17 @@
+{
+  "id": "3BA0An9Yq6A",
+  "date": "2024-07-24T22:44:42+00:00",
+  "url": "https://www.youtube.com/watch?v=3BA0An9Yq6A",
+  "transcript": "/src/data/transcripts/3BA0An9Yq6A.vtt",
+  "originalTitle": "1M FPS mini-DoTA/LoL for reinforcement learning. Dev day #8",
+  "title": "Debugging Reward Function in Mini-DoTA/LoL for RL",
+  "summary": "Analyzed reward curves and observation data in a mini-DoTA/LoL environment. Identified stuck agents and planned a new 100M run with adjusted hyperparameters.",
+  "topics": [
+    "reinforcement learning",
+    "reward function",
+    "mini-DoTA/LoL",
+    "hyperparameter tuning",
+    "observation data",
+    "debugging"
+  ]
+}

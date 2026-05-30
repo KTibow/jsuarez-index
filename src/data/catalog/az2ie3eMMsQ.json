@@ -1,0 +1,17 @@
+{
+  "id": "az2ie3eMMsQ",
+  "date": "2025-04-04T00:51:01+00:00",
+  "url": "https://www.youtube.com/watch?v=az2ie3eMMsQ",
+  "transcript": "/src/data/transcripts/az2ie3eMMsQ.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Setting Up Hyperparameter Sweeps for Neural MMO with PufferLib",
+  "summary": "Set up a 5-billion step hyperparameter sweep for Neural MMO using PufferLib, debugged model instability when scaling the network beyond 512 hidden size, and improved Python bindings by replacing Cython with pure C API.",
+  "topics": [
+    "hyperparameter sweep",
+    "neural MMO",
+    "model instability",
+    "Python C API bindings",
+    "gradient accumulation",
+    "PufferLib"
+  ]
+}

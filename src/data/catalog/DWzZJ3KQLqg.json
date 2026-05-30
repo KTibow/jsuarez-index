@@ -1,0 +1,17 @@
+{
+  "id": "DWzZJ3KQLqg",
+  "date": "2025-03-14T19:19:29+00:00",
+  "url": "https://www.youtube.com/watch?v=DWzZJ3KQLqg",
+  "transcript": "/src/data/transcripts/DWzZJ3KQLqg.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging 3D Rendering and Lighting in PufferLib Game Engine",
+  "summary": "Debugged off-by-one errors in collision rendering and fixed cube drawing offset. Worked on integrating raylib point lights, encountering persistent positional and directional artifacts, and addressed shader mode ordering issues.",
+  "topics": [
+    "off-by-one errors",
+    "3D rendering",
+    "raylib",
+    "point lights",
+    "collision detection",
+    "shader mode"
+  ]
+}

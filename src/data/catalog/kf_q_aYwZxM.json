@@ -1,0 +1,17 @@
+{
+  "id": "kf_q_aYwZxM",
+  "date": "2024-09-16T20:03:28+00:00",
+  "url": "https://www.youtube.com/watch?v=kf_q_aYwZxM",
+  "transcript": "/src/data/transcripts/kf_q_aYwZxM.vtt",
+  "originalTitle": "Porting PufferLib contributor's breakout code to C + WASM",
+  "title": "Porting Contributor's Breakout Code from Scyon to C and WASM",
+  "summary": "Worked on porting Noah's scyon breakout environment to native C for WebAssembly compilation. Debugged memory allocation, function signatures, and rendering to get the game playable online.",
+  "topics": [
+    "PufferLib",
+    "breakout",
+    "C port",
+    "WebAssembly",
+    "scyon",
+    "game environment"
+  ]
+}

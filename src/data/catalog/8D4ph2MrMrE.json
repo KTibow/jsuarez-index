@@ -1,0 +1,17 @@
+{
+  "id": "8D4ph2MrMrE",
+  "date": "2024-08-23T23:21:45+00:00",
+  "url": "https://www.youtube.com/watch?v=8D4ph2MrMrE",
+  "transcript": "/src/data/transcripts/8D4ph2MrMrE.vtt",
+  "originalTitle": "Live Reinforcement Learning Dev",
+  "title": "Integrating New Artwork and Debugging C Bindings for PufferLib Environments",
+  "summary": "Reviewed training runs for the MOBA environment and set hyperparameters from a high-ELO sweep. Integrated custom pixel art sprites from a contributor into the MOBA. Debugged and attempted to simplify C bindings for the snake environment to reduce boilerplate for future environment ports.",
+  "topics": [
+    "MOBA environment",
+    "hyperparameter tuning",
+    "pixel art integration",
+    "C bindings",
+    "PufferLib",
+    "snake environment"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "OzSYgQEXY4U",
+  "date": "2024-11-22T20:15:49+00:00",
+  "url": "https://www.youtube.com/watch?v=OzSYgQEXY4U",
+  "transcript": "/src/data/transcripts/OzSYgQEXY4U.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Cleaning Up PufferLib Codebase and Fixing Build Scripts for Release",
+  "summary": "Cleaned up the PufferLib repository by removing dead files, reorganizing scripts, and reducing codebase size. Fixed a Cython build script after an LLM introduced errors, and verified the game build and local mode work correctly.",
+  "topics": [
+    "PufferLib",
+    "codebase cleanup",
+    "build scripts",
+    "Cython",
+    "LLM pitfalls",
+    "release preparation"
+  ]
+}

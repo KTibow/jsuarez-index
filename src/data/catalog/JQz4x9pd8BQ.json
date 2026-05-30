@@ -1,0 +1,17 @@
+{
+  "id": "JQz4x9pd8BQ",
+  "date": "2024-09-04T20:05:31+00:00",
+  "url": "https://www.youtube.com/watch?v=JQz4x9pd8BQ",
+  "transcript": "/src/data/transcripts/JQz4x9pd8BQ.vtt",
+  "originalTitle": "Reinforcement learning dev in C",
+  "title": "Porting Pathfinding from Scon to C and Debugging WebGL for Browser Build",
+  "summary": "Worked on porting the pathfinding precomputation logic from scon to C to eliminate the 250MB download requirement for web builds. Debugged WebGL shader compatibility issues and memory limitations when compiling to WebAssembly, eventually getting the game to run locally but facing rendering problems in the browser.",
+  "topics": [
+    "WebAssembly",
+    "WebGL",
+    "pathfinding",
+    "C port",
+    "memory optimization",
+    "shader debugging"
+  ]
+}

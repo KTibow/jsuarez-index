@@ -1,0 +1,17 @@
+{
+  "id": "b_EPWimoxKo",
+  "date": "2025-03-10T14:10:08+00:00",
+  "url": "https://www.youtube.com/watch?v=b_EPWimoxKo",
+  "transcript": "/src/data/transcripts/b_EPWimoxKo.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging Diversity Is All You Need Exploration Method for PufferLib",
+  "summary": "Tested the 'diversity is all you need' exploration method and found it had little effect on performance. Debugged CUDA kernel boundary issues for a new advantage estimation modification.",
+  "topics": [
+    "diversity is all you need",
+    "exploration methods",
+    "PufferLib",
+    "generalized advantage estimation",
+    "CUDA debugging",
+    "Pokemon RL"
+  ]
+}

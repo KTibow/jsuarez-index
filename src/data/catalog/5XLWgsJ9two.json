@@ -1,0 +1,17 @@
+{
+  "id": "5XLWgsJ9two",
+  "date": "2025-11-29T23:21:24+00:00",
+  "url": "https://www.youtube.com/watch?v=5XLWgsJ9two",
+  "transcript": "/src/data/transcripts/5XLWgsJ9two.vtt",
+  "originalTitle": "Live RL dev on Pufferlib w/ Joseph Suarez",
+  "title": "Benchmarking TinyGrad Beam Search and Kernel Generation for Small Networks",
+  "summary": "Benchmarked TinyGrad's JIT and beam search against PyTorch compile and custom CUDA kernels for small neural networks. Found that TinyGrad often generates faster but shape-specific kernels, with inconsistent profiling results, while PyTorch compile performs poorly on small models.",
+  "topics": [
+    "TinyGrad",
+    "CUDA kernels",
+    "JIT compilation",
+    "beam search",
+    "PyTorch compile",
+    "profiling"
+  ]
+}

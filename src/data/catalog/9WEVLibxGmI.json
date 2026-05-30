@@ -1,0 +1,17 @@
+{
+  "id": "9WEVLibxGmI",
+  "date": "2026-03-13T23:49:46+00:00",
+  "url": "https://www.youtube.com/watch?v=9WEVLibxGmI",
+  "transcript": "/src/data/transcripts/9WEVLibxGmI.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Refactoring Puffer 4 CUDA Kernels and Reducing Codebase Bloat",
+  "summary": "Restructured the Puffer 4 CUDA backend, stripping C++-isms and reorganizing kernel files. Merged the static native branch into 4.0, and investigated neural MMO policy performance issues.",
+  "topics": [
+    "CUDA C",
+    "Puffer 4",
+    "kernel refactoring",
+    "PPO loss kernels",
+    "code organization",
+    "neural MMO"
+  ]
+}

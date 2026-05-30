@@ -1,0 +1,17 @@
+{
+  "id": "Oj3yHYCGF9s",
+  "date": "2025-05-26T23:27:35+00:00",
+  "url": "https://www.youtube.com/watch?v=Oj3yHYCGF9s",
+  "transcript": "/src/data/transcripts/Oj3yHYCGF9s.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Debugging Zero Reward Bug and Segfault in PufferLib Meta Environment",
+  "summary": "Debugged a zero reward bug in the meta environment caused by environment changes. Also investigated and resolved a segfault in Cython bindings due to a double free introduced by an LLM-edited code. Ran hyperparameter sweeps and worked on Docker packaging.",
+  "topics": [
+    "PufferLib",
+    "meta environment",
+    "hyperparameter sweep",
+    "segfault debugging",
+    "Python C API",
+    "Docker packaging"
+  ]
+}

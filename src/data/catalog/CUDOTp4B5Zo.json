@@ -1,0 +1,17 @@
+{
+  "id": "CUDOTp4B5Zo",
+  "date": "2025-07-28T20:12:55+00:00",
+  "url": "https://www.youtube.com/watch?v=CUDOTp4B5Zo",
+  "transcript": "/src/data/transcripts/CUDOTp4B5Zo.vtt",
+  "originalTitle": "PufferLib and Chill",
+  "title": "Creating a Conference Poster for PufferLib at RLC",
+  "summary": "Designed a poster for the Reinforcement Learning Conference (RLC) while answering viewer questions about reinforcement learning, programming, and PufferLib. Merged a pull request for a whisker racer environment and prepared updated business cards.",
+  "topics": [
+    "poster design",
+    "reinforcement learning",
+    "PufferLib",
+    "community engagement",
+    "pull request merging",
+    "conference preparation"
+  ]
+}

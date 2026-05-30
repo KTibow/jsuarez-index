@@ -1,0 +1,17 @@
+{
+  "id": "uDHJSp1tyqY",
+  "date": "2025-06-16T15:24:44+00:00",
+  "url": "https://www.youtube.com/watch?v=uDHJSp1tyqY",
+  "transcript": "/src/data/transcripts/uDHJSp1tyqY.vtt",
+  "originalTitle": "PufferLib - Live Reinforcement Learning Dev",
+  "title": "Integrating Drone Environment and Debugging C Policy Export for Website",
+  "summary": "Integrated a new drone environment into the PufferLib website, including debugging the C policy export for continuous action spaces in web assembly. Provided architectural advice for a Turing machine RL environment, focusing on action space and observation design.",
+  "topics": [
+    "PufferLib",
+    "website deployment",
+    "drone environment",
+    "C policy export",
+    "continuous action spaces",
+    "web assembly"
+  ]
+}

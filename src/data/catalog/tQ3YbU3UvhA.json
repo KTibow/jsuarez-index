@@ -1,0 +1,17 @@
+{
+  "id": "tQ3YbU3UvhA",
+  "date": "2025-11-07T16:08:04+00:00",
+  "url": "https://www.youtube.com/watch?v=tQ3YbU3UvhA",
+  "transcript": "/src/data/transcripts/tQ3YbU3UvhA.vtt",
+  "originalTitle": "Live RL Research on PufferLib w/ Joseph Suarez",
+  "title": "Profiling Overhead and Optimizing for 10 Million Steps Per Second in PufferLib",
+  "summary": "Profiled trainer overhead in PufferLib by disabling cudagraphs and measuring steps per second. Determined that at small network sizes, performance is memory bandwidth bound rather than compute bound, and planned memory bandwidth calculations to identify optimization headroom.",
+  "topics": [
+    "PufferLib",
+    "performance profiling",
+    "memory bandwidth",
+    "cudagraphs",
+    "C++ backend",
+    "kernel fusion"
+  ]
+}

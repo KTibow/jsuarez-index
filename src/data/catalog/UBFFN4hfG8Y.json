@@ -1,0 +1,16 @@
+{
+  "id": "UBFFN4hfG8Y",
+  "date": "2024-07-25T18:59:56+00:00",
+  "url": "https://www.youtube.com/watch?v=UBFFN4hfG8Y",
+  "transcript": "/src/data/transcripts/UBFFN4hfG8Y.vtt",
+  "originalTitle": "Exorcising demons from neural nets. 1M FPS mini-DoTA/LoL. Dev day #8",
+  "title": "Debugging Ghost Agents and Adding Observations for Mini MOBA Training",
+  "summary": "Fixed a critical bug where ghost agents were corrupting training rewards due to passing a grid reference instead of copies, then added observation features including health, mana, level, and hero class. Set up a hyperparameter sweep using Bayesian optimization for stable training.",
+  "topics": [
+    "ghost agent bug",
+    "observation features",
+    "hyperparameter sweep",
+    "Cython struct",
+    "multi-environment debugging"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "aADlJNWnteI",
+  "date": "2025-03-25T21:27:44+00:00",
+  "url": "https://www.youtube.com/watch?v=aADlJNWnteI",
+  "transcript": "/src/data/transcripts/aADlJNWnteI.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging PSGD Optimizer Integration and Running Hyperparameter Sweeps in PufferLib",
+  "summary": "Worked on integrating the PSGD optimizer into PufferLib, debugging the closure API from a pull request. Ran hyperparameter sweeps on neural MMO and compared PSGD with the Muon optimizer, noting sensitivity and performance plateaus.",
+  "topics": [
+    "PSGD optimizer",
+    "hyperparameter sweeps",
+    "neural MMO",
+    "Muon optimizer",
+    "closure API",
+    "PufferLib"
+  ]
+}

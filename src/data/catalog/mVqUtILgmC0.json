@@ -1,0 +1,16 @@
+{
+  "id": "mVqUtILgmC0",
+  "date": "2024-10-23T18:59:30+00:00",
+  "url": "https://www.youtube.com/watch?v=mVqUtILgmC0",
+  "transcript": "/src/data/transcripts/mVqUtILgmC0.vtt",
+  "originalTitle": "Live RL dev on PufferLib",
+  "title": "Merging Breakout PR, Go Renderer, and Training MOBA Policy",
+  "summary": "Worked on merging breakout collision detection PR, fixed go renderer visuals and deploy, merged Connect 4 PR, trained MOBA policy against scripted opponents, and debugged training log inconsistencies.",
+  "topics": [
+    "breakout collision detection",
+    "go game renderer",
+    "Connect 4 policy",
+    "MOBA scripted opponents",
+    "PufferLib"
+  ]
+}

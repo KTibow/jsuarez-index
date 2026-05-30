@@ -1,0 +1,17 @@
+{
+  "id": "Vf9s2Ebsyrs",
+  "date": "2025-01-14T15:21:25+00:00",
+  "url": "https://www.youtube.com/watch?v=Vf9s2Ebsyrs",
+  "transcript": "/src/data/transcripts/Vf9s2Ebsyrs.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Fixing Normalization Bugs and Integrating Hyperparameter Sweeps for GPU Drive",
+  "summary": "Debugged observation normalization errors in GPU Drive that broke training after a speed optimization, then implemented a custom hyperparameter sweep system using log-transformed random search and W&B tag-based logging for the NYU team.",
+  "topics": [
+    "GPU Drive",
+    "PufferLib",
+    "hyperparameter tuning",
+    "normalization",
+    "random search",
+    "W&B integration"
+  ]
+}

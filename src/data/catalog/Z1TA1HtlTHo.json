@@ -1,0 +1,16 @@
+{
+  "id": "Z1TA1HtlTHo",
+  "date": "2025-06-27T14:44:35+00:00",
+  "url": "https://www.youtube.com/watch?v=Z1TA1HtlTHo",
+  "transcript": "/src/data/transcripts/Z1TA1HtlTHo.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Fixing Robotics Reward Functions and Debugging Meta Policies for PufferLib",
+  "summary": "Debugged meta environment sweeps and resolved reward farming in Maniskill robotics tasks by subtracting 1 from dense reward components. Integrated PufferLib with robotic tasks, achieving better policy learning. Also assisted with 2048 and Asteroids environments, implementing observation normalization and one-hot encoding.",
+  "topics": [
+    "observation normalization",
+    "one-hot encoding",
+    "reward engineering",
+    "Maniskill integration",
+    "hyperparameter sweeps"
+  ]
+}

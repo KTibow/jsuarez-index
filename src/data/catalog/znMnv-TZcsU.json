@@ -1,0 +1,17 @@
+{
+  "id": "znMnv-TZcsU",
+  "date": "2024-07-23T22:47:28+00:00",
+  "url": "https://www.youtube.com/watch?v=znMnv-TZcsU",
+  "transcript": "/src/data/transcripts/znMnv-TZcsU.vtt",
+  "originalTitle": "1M FPS mini-DoTA/LoL for reinforcement learning. Dev day #7",
+  "title": "Designing a Chunk-Based Entity Loading System for a Game Board",
+  "summary": "Worked on replacing a recursive tree structure with a chunk-based system for efficient entity loading. Discussed using doubly linked lists and dynamically resizing arrays (like C++ vectors) to manage chunks and agents.",
+  "topics": [
+    "entity loading",
+    "chunk system",
+    "data structures",
+    "game engine optimization",
+    "nearest neighbor queries",
+    "C++ vector"
+  ]
+}

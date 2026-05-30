@@ -1,0 +1,16 @@
+{
+  "id": "mklshnjROyQ",
+  "date": "2025-02-02T12:47:50+00:00",
+  "url": "https://www.youtube.com/watch?v=mklshnjROyQ",
+  "transcript": "/src/data/transcripts/mklshnjROyQ.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Simplifying CARBS Implementation and Porting to PufferLib",
+  "summary": "Refactored and simplified the CARBS hyperparameter optimization code, reducing thousands of lines of convoluted logic to a minimal implementation. Ported the simplified version directly into PufferLib, removing unnecessary abstractions and type annotations.",
+  "topics": [
+    "hyperparameter sweeps",
+    "CARBS",
+    "code simplification",
+    "PufferLib integration",
+    "Python optimization"
+  ]
+}

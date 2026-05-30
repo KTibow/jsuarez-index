@@ -1,0 +1,17 @@
+{
+  "id": "qXIonLmx1Rk",
+  "date": "2024-11-18T16:21:18+00:00",
+  "url": "https://www.youtube.com/watch?v=qXIonLmx1Rk",
+  "transcript": "/src/data/transcripts/qXIonLmx1Rk.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Setting Up PufferLib and RL Stack on a Fresh Windows Workstation",
+  "summary": "Worked on setting up a new Windows machine from scratch, installing Docker Desktop, Tailscale, and PufferLib. Ran initial benchmark tests but observed lower GPU throughput attributed to streaming overhead.",
+  "topics": [
+    "PufferLib",
+    "machine setup",
+    "Docker",
+    "Tailscale",
+    "GPU performance",
+    "benchmark"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "eAGxM_BhWrg",
+  "date": "2026-04-01T23:09:23+00:00",
+  "url": "https://www.youtube.com/watch?v=eAGxM_BhWrg",
+  "transcript": "/src/data/transcripts/eAGxM_BhWrg.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Writing Documentation and Finalizing Puffer 4 Release",
+  "summary": "Worked on pre-release documentation cleanup, deleting obsolete guides, and finalizing environment ports for Puffer 4. Ran a trillion-step experiment approaching completion and aimed to release within three days.",
+  "topics": [
+    "PufferLib",
+    "release preparation",
+    "documentation",
+    "environment porting",
+    "trillion-step experiment",
+    "CUDA"
+  ]
+}

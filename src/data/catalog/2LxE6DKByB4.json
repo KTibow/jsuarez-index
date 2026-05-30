@@ -1,0 +1,17 @@
+{
+  "id": "2LxE6DKByB4",
+  "date": "2025-03-24T12:47:50+00:00",
+  "url": "https://www.youtube.com/watch?v=2LxE6DKByB4",
+  "transcript": "/src/data/transcripts/2LxE6DKByB4.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Sweeping Hyperparameters Across PufferLib Environments with Muon Optimizer",
+  "summary": "Analyzed overnight sweep results for Breakout and other environments. Tuned hyperparameter ranges, integrated Muon optimizer and cosine annealing, and validated that a single set of default hyperparameters achieves state-of-the-art performance on nearly every PufferLib benchmark.",
+  "topics": [
+    "hyperparameter sweeps",
+    "Muon optimizer",
+    "cosine annealing",
+    "breakout speedrun",
+    "PufferLib benchmarks",
+    "multi-agent environments"
+  ]
+}

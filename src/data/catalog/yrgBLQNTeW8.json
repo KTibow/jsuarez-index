@@ -1,0 +1,17 @@
+{
+  "id": "yrgBLQNTeW8",
+  "date": "2024-09-09T18:37:14+00:00",
+  "url": "https://www.youtube.com/watch?v=yrgBLQNTeW8",
+  "transcript": "/src/data/transcripts/yrgBLQNTeW8.vtt",
+  "originalTitle": "Portable RL models in C for WASM",
+  "title": "Porting the MOBA Network to Pure C for Web Assembly",
+  "summary": "Worked on implementing a custom observation encoder in C for the MOBA network, converting PyTorch network operations to pure C for web assembly inference. Debugged memory layout and one-hot encoding issues to enable running the RL policy in the browser.",
+  "topics": [
+    "PufferLib",
+    "C",
+    "WASM",
+    "neural network port",
+    "observation encoding",
+    "MOBA"
+  ]
+}

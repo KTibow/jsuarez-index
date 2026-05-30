@@ -1,0 +1,16 @@
+{
+  "id": "zgK8lzG8UQA",
+  "date": "2025-07-11T14:35:35+00:00",
+  "url": "https://www.youtube.com/watch?v=zgK8lzG8UQA",
+  "transcript": "/src/data/transcripts/zgK8lzG8UQA.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Posting RL Guide and Merging Drone Sims for Multi-Task Policy",
+  "summary": "Posted the ultra-opinionated guide to reinforcement learning at 10K followers, then focused on merging drone swarm and racing environments into a unified sim for multi-task drone policy training.",
+  "topics": [
+    "pufferlib",
+    "drone simulation",
+    "multi-task reinforcement learning",
+    "C programming",
+    "python tooling issues"
+  ]
+}

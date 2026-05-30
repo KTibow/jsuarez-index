@@ -1,0 +1,15 @@
+{
+  "id": "htzN1u7u-6k",
+  "date": "2025-05-20T18:16:29+00:00",
+  "url": "https://www.youtube.com/watch?v=htzN1u7u-6k",
+  "transcript": "/src/data/transcripts/htzN1u7u-6k.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Debugging Persistent Router Internet Connectivity Issue",
+  "summary": "Investigated a janky internet connection where the router refused to accept the correct password. Attempted a factory reset to resolve the issue.",
+  "topics": [
+    "internet connectivity",
+    "router debugging",
+    "factory reset",
+    "network configuration"
+  ]
+}

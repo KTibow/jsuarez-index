@@ -1,0 +1,17 @@
+{
+  "id": "D05WNXSC-vY",
+  "date": "2025-03-22T23:34:24+00:00",
+  "url": "https://www.youtube.com/watch?v=D05WNXSC-vY",
+  "transcript": "/src/data/transcripts/D05WNXSC-vY.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Merging Dev Branches and Debugging Broadcast Issue in PufferLib",
+  "summary": "Merged a dev branch with advanced features and a J-hacking branch, then debugged a performance regression caused by a PyTorch broadcasting error. Fixed the bug, integrated Muon optimizer and cosine annealing, and launched hyperparameter sweeps on Breakout.",
+  "topics": [
+    "PufferLib",
+    "Muon optimizer",
+    "broadcasting bug",
+    "hyperparameter sweeps",
+    "cosine annealing",
+    "PyTorch debugging"
+  ]
+}

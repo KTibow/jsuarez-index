@@ -1,0 +1,17 @@
+{
+  "id": "b3L1oiUOBtA",
+  "date": "2025-09-01T19:20:15+00:00",
+  "url": "https://www.youtube.com/watch?v=b3L1oiUOBtA",
+  "transcript": "/src/data/transcripts/b3L1oiUOBtA.vtt",
+  "originalTitle": "PufferLib - Sample efficiency in the dumbest way possible",
+  "title": "Tuning PufferLib for Sample Efficiency with Reasonable Compute Tradeoffs",
+  "summary": "Conducted hyperparameter sweeps on Breakout to improve sample efficiency for PufferLib, analyzing the failure of off-policy methods and planning to integrate findings like weight decay and larger networks into a unified sweep.",
+  "topics": [
+    "hyperparameter tuning",
+    "sample efficiency",
+    "PufferLib",
+    "Atari Breakout",
+    "on-policy RL",
+    "weight decay"
+  ]
+}

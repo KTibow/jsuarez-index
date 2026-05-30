@@ -1,0 +1,17 @@
+{
+  "id": "PSfJDSyL0Ao",
+  "date": "2025-02-01T16:21:15+00:00",
+  "url": "https://www.youtube.com/watch?v=PSfJDSyL0Ao",
+  "transcript": "/src/data/transcripts/PSfJDSyL0Ao.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Benchmarking and Improving Carbs Hyperparameter Tuning with Synthetic Tasks",
+  "summary": "Created synthetic benchmarks to test hyperparameter tuning algorithm carbs. Identified issues with aggressive jumps and poor coverage of the Pareto frontier, then developed and debugged a new acquisition function incorporating conservative estimates and percentile transforms.",
+  "topics": [
+    "hyperparameter tuning",
+    "carbs",
+    "synthetic benchmarks",
+    "acquisition function",
+    "Gaussian processes",
+    "PufferLib"
+  ]
+}

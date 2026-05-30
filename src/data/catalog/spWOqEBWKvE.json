@@ -1,0 +1,17 @@
+{
+  "id": "spWOqEBWKvE",
+  "date": "2025-11-04T17:12:44+00:00",
+  "url": "https://www.youtube.com/watch?v=spWOqEBWKvE",
+  "transcript": "/src/data/transcripts/spWOqEBWKvE.vtt",
+  "originalTitle": "Live RL Research on PufferLib w/ Joseph Suarez",
+  "title": "Integrating MinGRU into PufferLib for Faster Recurrent Cells",
+  "summary": "Worked on integrating MinGRU as a faster alternative to LSTM in PufferLib. Ran sweeps and parameter matching experiments to compare performance, finding MinGRU can be competitive but may require stacking layers. Also discussed Muon optimizer integration and CUDA kernel work.",
+  "topics": [
+    "MinGRU",
+    "LSTM",
+    "PufferLib",
+    "recurrent neural networks",
+    "hyperparameter tuning",
+    "CUDA kernels"
+  ]
+}

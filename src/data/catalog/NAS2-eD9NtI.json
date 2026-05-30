@@ -1,0 +1,17 @@
+{
+  "id": "NAS2-eD9NtI",
+  "date": "2025-05-14T12:23:33+00:00",
+  "url": "https://www.youtube.com/watch?v=NAS2-eD9NtI",
+  "transcript": "/src/data/transcripts/NAS2-eD9NtI.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Cleaning Up Codebase and Configuring Packaging for PufferLib Release",
+  "summary": "Cleaned up the codebase by removing deprecated files, moving configs into the package, and setting up symlinks. Analyzed breakout hyperparameter sweeps, adjusting clipping coefficient and frame skip parameters, with the codebase now in a better state for release.",
+  "topics": [
+    "codebase cleanup",
+    "packaging",
+    "hyperparameter sweep",
+    "clipping coefficient",
+    "frame skip",
+    "PufferLib"
+  ]
+}

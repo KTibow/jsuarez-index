@@ -1,0 +1,17 @@
+{
+  "id": "ZnygtFeG86k",
+  "date": "2024-12-24T20:02:03+00:00",
+  "url": "https://www.youtube.com/watch?v=ZnygtFeG86k",
+  "transcript": "/src/data/transcripts/ZnygtFeG86k.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Policy Architecture for Captain's Arena Shooter with PufferLib",
+  "summary": "Discussed multi-hot encoding and entity ordering for neural network inputs in Captain's physics arena shooter environment. Fixed build support for Python 3.8 and merged pull requests.",
+  "topics": [
+    "PufferLib",
+    "policy architecture",
+    "multi-hot encoding",
+    "entity ordering",
+    "neural network design",
+    "build support"
+  ]
+}

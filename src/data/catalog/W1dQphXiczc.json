@@ -1,0 +1,17 @@
+{
+  "id": "W1dQphXiczc",
+  "date": "2025-01-23T13:32:36+00:00",
+  "url": "https://www.youtube.com/watch?v=W1dQphXiczc",
+  "transcript": "/src/data/transcripts/W1dQphXiczc.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Isaac Sim Segfault on Second Render Call with PufferLib",
+  "summary": "Debugged a segmentation fault in Isaac Sim occurring on the second call to render(). Resolved Vulkan GPU detection issues in Docker by adding required runtime flags and library path configurations, though the environment now presents a black screen requiring further investigation into simulation setup.",
+  "topics": [
+    "Isaac Sim",
+    "Docker container flags",
+    "Vulkan GPU detection",
+    "render segfault",
+    "library path configuration",
+    "PufferLib"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "12QQodaHwi4",
+  "date": "2025-07-08T17:12:14+00:00",
+  "url": "https://www.youtube.com/watch?v=12QQodaHwi4",
+  "transcript": "/src/data/transcripts/12QQodaHwi4.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Proofreading and Finalizing a Comprehensive Reinforcement Learning Guide",
+  "summary": "Worked on proofreading, editing, and finalizing a comprehensive beginner-to-advanced RL guide, covering the entire learning path from environment creation to advanced topics. Discussed the guide's structure, addressed audience questions, and briefly reviewed a conference paper acceptance.",
+  "topics": [
+    "RL guide",
+    "proofreading",
+    "PufferLib",
+    "beginner's guide",
+    "article editing",
+    "Q&A"
+  ]
+}

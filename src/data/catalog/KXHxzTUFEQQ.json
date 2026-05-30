@@ -1,0 +1,17 @@
+{
+  "id": "KXHxzTUFEQQ",
+  "date": "2024-09-16T21:14:24+00:00",
+  "url": "https://www.youtube.com/watch?v=KXHxzTUFEQQ",
+  "transcript": "/src/data/transcripts/KXHxzTUFEQQ.vtt",
+  "originalTitle": "Porting PufferLib contributor's breakout code to C + WASM",
+  "title": "Porting Breakout to C, Cleaning Up Code, and Building for WASM",
+  "summary": "Worked on porting a contributor's breakout code from Python to C, then refactored the codebase to reduce complexity and improve readability. Deployed a playable WebAssembly version on puffer.gg.",
+  "topics": [
+    "PufferLib",
+    "C",
+    "WASM",
+    "breakout",
+    "refactoring",
+    "code simplicity"
+  ]
+}

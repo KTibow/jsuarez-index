@@ -1,0 +1,17 @@
+{
+  "id": "2ec1OK9yEN4",
+  "date": "2025-01-24T16:33:25+00:00",
+  "url": "https://www.youtube.com/watch?v=2ec1OK9yEN4",
+  "transcript": "/src/data/transcripts/2ec1OK9yEN4.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Porting E3B Exploration Algorithm to a PufferLib Fork",
+  "summary": "Worked on porting the E3B exploration algorithm to a fork of PufferLib. Modified policy APIs and trainer to integrate intrinsic rewards, and got the training running successfully.",
+  "topics": [
+    "PufferLib",
+    "E3B",
+    "curriculum learning",
+    "policy API",
+    "code porting",
+    "intrinsic reward"
+  ]
+}

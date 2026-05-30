@@ -1,0 +1,17 @@
+{
+  "id": "6pzJ0Mm0dKI",
+  "date": "2024-11-19T19:42:14+00:00",
+  "url": "https://www.youtube.com/watch?v=6pzJ0Mm0dKI",
+  "transcript": "/src/data/transcripts/6pzJ0Mm0dKI.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Training Baselines and Debugging Cython Environment Code for PufferLib",
+  "summary": "Worked on training Pong baselines, debugging a contributor's Cython environment for performance issues, and verifying baselines for Breakout and Snake. Resolved struct alignment and parameter overwrite bugs.",
+  "topics": [
+    "PufferLib",
+    "baseline training",
+    "Cython debugging",
+    "environment optimization",
+    "Pong",
+    "Breakout"
+  ]
+}

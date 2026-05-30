@@ -1,0 +1,16 @@
+{
+  "id": "o9rb173xuF0",
+  "date": "2025-02-01T20:46:35+00:00",
+  "url": "https://www.youtube.com/watch?v=o9rb173xuF0",
+  "transcript": "/src/data/transcripts/o9rb173xuF0.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Gaussian Process Models for Hyperparameter Sweep Algorithm",
+  "summary": "Debugged inaccuracies in Gaussian process models used for predicting performance and cost in a hyperparameter sweep algorithm. Identified data normalization and baseline adjustment issues, attempted fixes, and concluded that a code rewrite is necessary due to underlying model and data problems.",
+  "topics": [
+    "Gaussian process regression",
+    "hyperparameter optimization",
+    "data normalization",
+    "model debugging",
+    "PufferLib"
+  ]
+}

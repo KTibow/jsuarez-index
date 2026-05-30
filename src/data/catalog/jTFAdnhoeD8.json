@@ -1,0 +1,17 @@
+{
+  "id": "jTFAdnhoeD8",
+  "date": "2025-05-10T22:54:08+00:00",
+  "url": "https://www.youtube.com/watch?v=jTFAdnhoeD8",
+  "transcript": "/src/data/transcripts/jTFAdnhoeD8.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Debugging PufferLib Build System for Cython and CUDA Extensions",
+  "summary": "Debugged the PufferLib setup.py to resolve compilation issues with Cython and CUDA extensions, particularly around extension filtering and torch bindings. Achieved a working build that compiles both Cython and CUDA extensions without conflicts, and verified it with a training run on breakout.",
+  "topics": [
+    "PufferLib",
+    "setup.py",
+    "Cython",
+    "CUDA extensions",
+    "Python packaging",
+    "torch bindings"
+  ]
+}

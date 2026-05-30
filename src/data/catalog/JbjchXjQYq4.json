@@ -1,0 +1,17 @@
+{
+  "id": "JbjchXjQYq4",
+  "date": "2025-11-06T16:20:49+00:00",
+  "url": "https://www.youtube.com/watch?v=JbjchXjQYq4",
+  "transcript": "/src/data/transcripts/JbjchXjQYq4.vtt",
+  "originalTitle": "Live RL Research on PufferLib w/ Joseph Suarez",
+  "title": "Porting Mingru to C++ and Debugging Experiment Results for Puffer 4",
+  "summary": "Worked on porting the Mingru recurrent architecture to C++ for Puffer 4, aiming for 10 million steps per second with BF16. Debugged a broken optimizer causing poor scores on 2048 and launched sweeps comparing Mamba, Mingru, and LSTM.",
+  "topics": [
+    "Mingru",
+    "C++ port",
+    "BF16",
+    "experiment analysis",
+    "Puffer 4",
+    "optimizer bug"
+  ]
+}

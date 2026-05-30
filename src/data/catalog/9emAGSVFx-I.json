@@ -1,0 +1,17 @@
+{
+  "id": "9emAGSVFx-I",
+  "date": "2024-09-27T22:20:28+00:00",
+  "url": "https://www.youtube.com/watch?v=9emAGSVFx-I",
+  "transcript": "/src/data/transcripts/9emAGSVFx-I.vtt",
+  "originalTitle": "Legitimate research, I swear!",
+  "title": "Exploring MTG Arena Mechanics to Plan RL Card Game Simulator",
+  "summary": "Played through Magic: The Gathering Arena tutorials and matches to understand game mechanics, action space, and performance constraints for building a high-speed RL card game environment. Analyzed complexities like stacking, triggers, and UI responsiveness.",
+  "topics": [
+    "MTG Arena",
+    "game mechanics analysis",
+    "RL environment design",
+    "action space parsing",
+    "high-performance simulation",
+    "card game sim"
+  ]
+}

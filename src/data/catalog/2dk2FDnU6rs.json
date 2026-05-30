@@ -1,0 +1,17 @@
+{
+  "id": "2dk2FDnU6rs",
+  "date": "2026-03-16T19:17:16+00:00",
+  "url": "https://www.youtube.com/watch?v=2dk2FDnU6rs",
+  "transcript": "/src/data/transcripts/2dk2FDnU6rs.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Refining Python Backend to Debug Neural MMO 3 Performance for Puffer 4 Release",
+  "summary": "Worked on cleaning up the Python backend to enable testing of Neural MMO 3 training performance. The main goal was to isolate whether the training regression is an environment-specific bug or a learning bug, with the aim of unblocking the Puffer 4 release.",
+  "topics": [
+    "PufferLib",
+    "Neural MMO 3",
+    "Python backend",
+    "training regression",
+    "CUDA backend",
+    "performance debugging"
+  ]
+}

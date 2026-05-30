@@ -1,0 +1,17 @@
+{
+  "id": "vYQRamOKk5A",
+  "date": "2025-04-12T12:16:34+00:00",
+  "url": "https://www.youtube.com/watch?v=vYQRamOKk5A",
+  "transcript": "/src/data/transcripts/vYQRamOKk5A.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Analyzing Off-Policy vs On-Policy Methods and Implementing Log Policy Bonus",
+  "summary": "Analyzed Rainbow and PPO baselines to compare off-policy and on-policy efficiency. Implemented a log policy bonus based on a recent paper and ran initial tests.",
+  "topics": [
+    "PufferLib",
+    "off-policy vs on-policy",
+    "Rainbow",
+    "PPO",
+    "log policy bonus",
+    "experience buffer optimization"
+  ]
+}

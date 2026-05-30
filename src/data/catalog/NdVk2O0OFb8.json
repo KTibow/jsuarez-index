@@ -1,0 +1,17 @@
+{
+  "id": "NdVk2O0OFb8",
+  "date": "2024-07-17T18:50:18+00:00",
+  "url": "https://www.youtube.com/watch?v=NdVk2O0OFb8",
+  "transcript": "/src/data/transcripts/NdVk2O0OFb8.vtt",
+  "originalTitle": "Coding a MOBA for Reinforcement Learning from scratch in C(ython)",
+  "title": "Refactoring Entity Structures and Implementing Creep AI for RL MOBA",
+  "summary": "Refactored entity data structures into a unified type to simplify code and support RL. Fixed spawn and targeting bugs, then implemented basic creep AI with waypoint pathing, wave spawning, and aggro behavior. Designed five hero roles with distinct abilities for future implementation.",
+  "topics": [
+    "PufferLib",
+    "Cython",
+    "entity refactoring",
+    "creep AI",
+    "MOBA environment",
+    "reinforcement learning"
+  ]
+}

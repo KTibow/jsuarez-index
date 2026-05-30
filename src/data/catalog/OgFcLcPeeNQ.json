@@ -1,0 +1,17 @@
+{
+  "id": "OgFcLcPeeNQ",
+  "date": "2026-02-19T13:30:11+00:00",
+  "url": "https://www.youtube.com/watch?v=OgFcLcPeeNQ",
+  "transcript": "/src/data/transcripts/OgFcLcPeeNQ.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Removing PyTorch Dependency from PufferLib for Raw CUDA Training",
+  "summary": "Worked on refactoring PufferLib to remove PyTorch dependency, replacing it with raw CUDA kernels for fully deterministic training with static memory and faster compilation. Focused on reducing code bloat, merging files, and simplifying tensor creation to approach a target of 4000 lines.",
+  "topics": [
+    "CUDA",
+    "static memory",
+    "deterministic training",
+    "line count reduction",
+    "kernel fusion",
+    "code refactoring"
+  ]
+}

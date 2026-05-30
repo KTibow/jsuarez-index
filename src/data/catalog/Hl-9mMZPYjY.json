@@ -1,0 +1,17 @@
+{
+  "id": "Hl-9mMZPYjY",
+  "date": "2025-05-05T12:18:58+00:00",
+  "url": "https://www.youtube.com/watch?v=Hl-9mMZPYjY",
+  "transcript": "/src/data/transcripts/Hl-9mMZPYjY.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Refactoring Protein Algorithm and Sweeps Configuration for Puffer 2.5",
+  "summary": "Worked on cleaning up the protein algorithm's comments and the sweeps code. Discussed hyperparameter testing, packaging CUDA kernels, and drafting an article for the upcoming release.",
+  "topics": [
+    "PufferLib",
+    "protein algorithm",
+    "hyperparameter testing",
+    "CUDA kernels",
+    "configuration refactoring",
+    "sweeps code"
+  ]
+}

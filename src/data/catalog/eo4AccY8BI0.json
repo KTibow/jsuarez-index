@@ -1,0 +1,17 @@
+{
+  "id": "eo4AccY8BI0",
+  "date": "2025-07-10T19:41:15+00:00",
+  "url": "https://www.youtube.com/watch?v=eo4AccY8BI0",
+  "transcript": "/src/data/transcripts/eo4AccY8BI0.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Domain Randomization for Drone Physics in RL Simulator",
+  "summary": "Worked on implementing and debugging domain randomization for drone physics in a reinforcement learning simulator. Fixed scaling issues with inertia and thrust to enable training across various drone sizes, achieving robust flight policies. Set up hyperparameter sweeps to optimize performance.",
+  "topics": [
+    "domain randomization",
+    "drone simulation",
+    "physics scaling",
+    "hyperparameter sweep",
+    "reinforcement learning",
+    "PufferLib"
+  ]
+}

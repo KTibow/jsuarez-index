@@ -1,0 +1,17 @@
+{
+  "id": "ve2pUm8tTJk",
+  "date": "2024-11-18T16:16:22+00:00",
+  "url": "https://www.youtube.com/watch?v=ve2pUm8tTJk",
+  "transcript": "/src/data/transcripts/ve2pUm8tTJk.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Setting Up New Dev Machine and Preparing PufferLib Launch",
+  "summary": "Set up a new development machine with WSL and Docker in Florida. Worked on finalizing the PufferLib website with interactive in-browser demonstrations of pretrained neural nets, updated documentation and blog ports, and handled pre-launch cleanup and policy fixes.",
+  "topics": [
+    "WSL",
+    "Docker",
+    "machine setup",
+    "website development",
+    "interactive demos",
+    "pre-launch"
+  ]
+}

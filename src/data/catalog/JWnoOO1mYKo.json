@@ -1,0 +1,17 @@
+{
+  "id": "JWnoOO1mYKo",
+  "date": "2024-09-17T19:58:07+00:00",
+  "url": "https://www.youtube.com/watch?v=JWnoOO1mYKo",
+  "transcript": "/src/data/transcripts/JWnoOO1mYKo.vtt",
+  "originalTitle": "Got bored. Porting grid env to c",
+  "title": "Porting a Simple Grid Environment to C with Keys and Doors for Mini-Grid",
+  "summary": "Worked on porting a basic grid environment to C for high performance and web deployment. Added keys, doors, and obstacle mechanics to replicate a mini-grid benchmark environment.",
+  "topics": [
+    "PufferLib",
+    "C",
+    "grid environment",
+    "keys and doors",
+    "web assembly",
+    "mini-grid"
+  ]
+}

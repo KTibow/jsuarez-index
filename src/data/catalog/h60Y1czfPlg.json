@@ -1,0 +1,17 @@
+{
+  "id": "h60Y1czfPlg",
+  "date": "2025-03-23T17:45:25+00:00",
+  "url": "https://www.youtube.com/watch?v=h60Y1czfPlg",
+  "transcript": "/src/data/transcripts/h60Y1czfPlg.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Analyzing Breakout Solves and Extending Hyperparameter Sweeps in PufferLib",
+  "summary": "Analyzed recent breakout solve results from PufferLib improvements, comparing Adam and Muon optimizers. Identified that many runs were hitting hyperparameter limits, and set up new sweeps with expanded ranges for learning rate and other parameters.",
+  "topics": [
+    "PufferLib",
+    "breakout",
+    "Adam optimizer",
+    "Muon optimizer",
+    "hyperparameter tuning",
+    "hypersweep"
+  ]
+}

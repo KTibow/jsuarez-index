@@ -1,0 +1,17 @@
+{
+  "id": "luOivQc6zRQ",
+  "date": "2025-01-22T15:14:25+00:00",
+  "url": "https://www.youtube.com/watch?v=luOivQc6zRQ",
+  "transcript": "/src/data/transcripts/luOivQc6zRQ.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Refactoring Isaac Gym Wrapper with PufferLib for Cleaner Integration",
+  "summary": "Worked on cleaning up the Isaac Gym environment wrapper code, removing unused variables, configs, and redundant inheritance layers to create a simpler base class for PufferLib. Implemented device handling and physics engine configuration directly, discarding unnecessary abstractions.",
+  "topics": [
+    "Isaac Gym",
+    "PufferLib",
+    "wrapper refactoring",
+    "environment setup",
+    "GPU device handling",
+    "code cleanup"
+  ]
+}

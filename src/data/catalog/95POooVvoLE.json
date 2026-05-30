@@ -1,0 +1,17 @@
+{
+  "id": "95POooVvoLE",
+  "date": "2024-10-19T17:12:48+00:00",
+  "url": "https://www.youtube.com/watch?v=95POooVvoLE",
+  "transcript": "/src/data/transcripts/95POooVvoLE.vtt",
+  "originalTitle": "RL Lands Rockets. Colab with Kyle Morgenstein",
+  "title": "Debugging Rocket Landing Environment with Box2D and PufferLib",
+  "summary": "Worked on debugging and setting up a rocket landing environment using box2D in PufferLib. Improved training speed to 780k steps per second, identified reward function issues causing poor policy learning, and set up hyperparameter sweeps.",
+  "topics": [
+    "rocket environment",
+    "box2D",
+    "Cython bindings",
+    "reward engineering",
+    "hyperparameter sweep",
+    "PufferLib"
+  ]
+}

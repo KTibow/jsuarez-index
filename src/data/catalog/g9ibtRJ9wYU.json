@@ -1,0 +1,17 @@
+{
+  "id": "g9ibtRJ9wYU",
+  "date": "2025-10-21T16:40:03+00:00",
+  "url": "https://www.youtube.com/watch?v=g9ibtRJ9wYU",
+  "transcript": "/src/data/transcripts/g9ibtRJ9wYU.vtt",
+  "originalTitle": "Go Follow Charlie Marsh",
+  "title": "Streamlining PufferLib Setup, Merging Community PRs, and Reviewing Drone Env",
+  "summary": "Worked on improving PufferLib's installation process by addressing build dependencies and merge conflicts. Merged several community pull requests, including a new hyperparameter optimizer based on GPiTorch, and reviewed a drone pick-and-place environment's reward function and training parameters.",
+  "topics": [
+    "PufferLib installation",
+    "community PRs",
+    "reward function design",
+    "GPiTorch",
+    "drone environment",
+    "code review"
+  ]
+}

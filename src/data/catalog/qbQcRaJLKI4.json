@@ -1,0 +1,17 @@
+{
+  "id": "qbQcRaJLKI4",
+  "date": "2025-07-05T16:01:30+00:00",
+  "url": "https://www.youtube.com/watch?v=qbQcRaJLKI4",
+  "transcript": "/src/data/transcripts/qbQcRaJLKI4.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Writing a Comprehensive Reinforcement Learning Guide for Beginners",
+  "summary": "Worked on writing a comprehensive reinforcement learning guide aimed at beginners, covering ML fundamentals and RL-specific advice. Discussed learning strategies, PufferLib's capabilities, and demonstrated fast training speeds using PufferLib's enhanced PPO.",
+  "topics": [
+    "RL guide writing",
+    "educational content",
+    "PufferLib",
+    "hyperparameter tuning",
+    "environment design",
+    "community engagement"
+  ]
+}

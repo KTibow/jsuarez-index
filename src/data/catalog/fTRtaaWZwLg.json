@@ -1,0 +1,17 @@
+{
+  "id": "fTRtaaWZwLg",
+  "date": "2025-05-12T13:01:27+00:00",
+  "url": "https://www.youtube.com/watch?v=fTRtaaWZwLg",
+  "transcript": "/src/data/transcripts/fTRtaaWZwLg.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Debugging Sweep Experiments and Refactoring Build System for PufferLib",
+  "summary": "Checked on Neural MMO sweep results, identified batch size issue causing suboptimal wall-clock times, and worked on fixing CUDA extension conditional compilation in PufferLib's build system. Also discussed plans to clean up packaging and improve dependency handling.",
+  "topics": [
+    "PufferLib",
+    "sweep experiments",
+    "batch size tuning",
+    "CUDA extension",
+    "Cython build",
+    "packaging"
+  ]
+}

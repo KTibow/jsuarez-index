@@ -1,0 +1,17 @@
+{
+  "id": "o76xqd3qu3o",
+  "date": "2026-01-28T13:31:58+00:00",
+  "url": "https://www.youtube.com/watch?v=o76xqd3qu3o",
+  "transcript": "/src/data/transcripts/o76xqd3qu3o.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Profiling OpenMP Performance Gap in PufferLib Shared Library Builds",
+  "summary": "Worked on profiling PufferLib's multi-environment vectorization backend. Isolated a significant performance gap when OpenMP threading is used inside a shared library compared to static builds. Iterated through compiler flags and alternative threading implementations to characterize the issue.",
+  "topics": [
+    "profiling",
+    "OpenMP",
+    "shared library",
+    "threading",
+    "PufferLib",
+    "CPU performance"
+  ]
+}

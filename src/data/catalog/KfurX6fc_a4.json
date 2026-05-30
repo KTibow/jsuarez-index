@@ -1,0 +1,16 @@
+{
+  "id": "KfurX6fc_a4",
+  "date": "2026-02-27T15:47:22+00:00",
+  "url": "https://www.youtube.com/watch?v=KfurX6fc_a4",
+  "transcript": "/src/data/transcripts/KfurX6fc_a4.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Cleaning Up Sweep Code and Debugging MinGRU Architecture",
+  "summary": "Worked on refactoring sweep code to be cleaner and simpler, and debugged minGRU architecture issues related to norm layers and hidden state handling. Also dealt with environment setup problems such as kernel updates breaking NVIDIA drivers and got a minGRU run close to LSTM baseline.",
+  "topics": [
+    "sweep code refactoring",
+    "minGRU",
+    "CUDA setup",
+    "multiGPU training",
+    "code cleanup"
+  ]
+}

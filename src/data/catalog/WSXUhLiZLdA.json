@@ -1,0 +1,17 @@
+{
+  "id": "WSXUhLiZLdA",
+  "date": "2024-10-24T19:21:59+00:00",
+  "url": "https://www.youtube.com/watch?v=WSXUhLiZLdA",
+  "transcript": "/src/data/transcripts/WSXUhLiZLdA.vtt",
+  "originalTitle": "Live RL dev on PufferLib",
+  "title": "Debugging Scripted Opponent Training in PufferLib MOBA Environment",
+  "summary": "Worked on debugging training failures in the PufferLib MOBA environment, identifying issues with scripted opponent pathing to towers and hyperparameter instability. Discussed integration advice for a viewer's robotics environment.",
+  "topics": [
+    "PufferLib",
+    "MOBA environment",
+    "scripted opponent",
+    "pathfinding bug",
+    "hyperparameter tuning",
+    "environment porting"
+  ]
+}

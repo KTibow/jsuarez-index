@@ -1,0 +1,17 @@
+{
+  "id": "Atm5gpApvk0",
+  "date": "2025-09-20T18:44:59+00:00",
+  "url": "https://www.youtube.com/watch?v=Atm5gpApvk0",
+  "transcript": "/src/data/transcripts/Atm5gpApvk0.vtt",
+  "originalTitle": "PufferLib - New frontiers in RL",
+  "title": "Analyzing Compute-Data Trade-Off and Improving Sweep Visualization",
+  "summary": "Worked on analyzing large-scale hyperparameter sweeps for the compute-data trade-off in Pong and breakout environments. Discovered Pong solved much faster than expected, achieving 50x data efficiency. Debugged breakout sweeps and improved the experiment dashboard with better plotting and filtering.",
+  "topics": [
+    "compute-data trade-off",
+    "hyperparameter sweep",
+    "breakout",
+    "Pong",
+    "visualization",
+    "experiment dashboard"
+  ]
+}

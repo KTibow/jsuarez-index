@@ -1,0 +1,17 @@
+{
+  "id": "dPgncHFjmuI",
+  "date": "2026-01-02T13:55:27+00:00",
+  "url": "https://www.youtube.com/watch?v=dPgncHFjmuI",
+  "transcript": "/src/data/transcripts/dPgncHFjmuI.vtt",
+  "originalTitle": "Live RL dev on PufferLib",
+  "title": "Replacing RMS Norm with Gated Linear Layer and Profiling Kernels in PufferLib",
+  "summary": "Worked on optimizing PufferLib kernels by replacing RMS norm with a gated linear layer that uses sigmoid and multiplicative gating on the output, achieving sub-20-second solves and higher throughput. Identified the backward kernel as a bottleneck and began planning formal kernel benchmarks and architecture sweeps for release.",
+  "topics": [
+    "CUDA kernel optimization",
+    "gated linear layer",
+    "PufferLib",
+    "RMS norm",
+    "kernel profiling",
+    "architecture design"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ycGKe2KdPFo",
+  "date": "2025-04-23T18:16:13+00:00",
+  "url": "https://www.youtube.com/watch?v=ycGKe2KdPFo",
+  "transcript": "/src/data/transcripts/ycGKe2KdPFo.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Benchmarking Environment Speeds and Debugging Drone Environment in PufferLib",
+  "summary": "Worked on running multiple environments with updated PufferLib settings, achieving ~2x speedups by increasing mini-batch size and adjusting learning rates. Debugged a drone environment with performance issues and memory leaks, and consulted on logging strategies.",
+  "topics": [
+    "PufferLib",
+    "hyperparameter tuning",
+    "environment benchmarking",
+    "drone environment",
+    "Cython bindings",
+    "logging"
+  ]
+}

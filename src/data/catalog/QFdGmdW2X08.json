@@ -1,0 +1,17 @@
+{
+  "id": "QFdGmdW2X08",
+  "date": "2026-04-16T14:11:37+00:00",
+  "url": "https://www.youtube.com/watch?v=QFdGmdW2X08",
+  "transcript": "/src/data/transcripts/QFdGmdW2X08.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Training a PufferLib RL Agent to Complete RuneScape Inferno Zuk Wave",
+  "summary": "Worked on training a reinforcement learning agent on the RuneScape Inferno environment, focusing on the Zuk wave. Debugged reward functions, removed unnecessary rewards, and observed the agent learn complex gameplay like prayer flicking and blob freezing. Set up a sweep to train from wave 35.",
+  "topics": [
+    "PufferLib",
+    "RuneScape Inferno",
+    "reward engineering",
+    "reinforcement learning",
+    "zuk wave",
+    "sweep configuration"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "wq28jnyujYU",
+  "date": "2025-10-20T18:50:25+00:00",
+  "url": "https://www.youtube.com/watch?v=wq28jnyujYU",
+  "transcript": "/src/data/transcripts/wq28jnyujYU.vtt",
+  "originalTitle": "PufferLib 20k follower special!",
+  "title": "Building Only Fish Environment for 20k Follower Community Event",
+  "summary": "Worked on building the Only Fish environment, modifying it from target with nearest-n object observations. Prepared for deployment on onlyfish.ai with audience agent submissions.",
+  "topics": [
+    "PufferLib",
+    "environment building",
+    "observation space",
+    "agent submission",
+    "deployment"
+  ]
+}

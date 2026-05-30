@@ -1,0 +1,17 @@
+{
+  "id": "y6NlxTM0dpI",
+  "date": "2025-01-18T23:41:29+00:00",
+  "url": "https://www.youtube.com/watch?v=y6NlxTM0dpI",
+  "transcript": "/src/data/transcripts/y6NlxTM0dpI.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Redesigning Acquisition Function and Cost Penalty for Carbs Hyperparameter Tuning",
+  "summary": "Worked on redesigning the carbs hyperparameter tuning algorithm, modifying the acquisition function with conservative bounds and a cost penalty term. The new algorithm achieved near-optimal performance on a synthetic benchmark but showed quirks on real RL tasks like Pong and Breakout.",
+  "topics": [
+    "hyperparameter tuning",
+    "conservative acquisition",
+    "cost penalty",
+    "gaussian processes",
+    "synthetic benchmark",
+    "carbs"
+  ]
+}

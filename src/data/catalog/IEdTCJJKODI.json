@@ -1,0 +1,17 @@
+{
+  "id": "IEdTCJJKODI",
+  "date": "2025-03-31T17:00:13+00:00",
+  "url": "https://www.youtube.com/watch?v=IEdTCJJKODI",
+  "transcript": "/src/data/transcripts/IEdTCJJKODI.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Porting Neural MMO 3 to New C Binding API and Debugging PufferLib Port",
+  "summary": "Debugged a broken PufferLib port caused by a leftover breakpoint, then ported neural MMO 3 to the new C binding API. The new binding system eliminates Cython dependencies, enables transparent debugging with GDB, and shows performance improvements.",
+  "topics": [
+    "PufferLib",
+    "neural MMO 3",
+    "C binding API",
+    "debugging",
+    "performance benchmarking",
+    "Cython removal"
+  ]
+}

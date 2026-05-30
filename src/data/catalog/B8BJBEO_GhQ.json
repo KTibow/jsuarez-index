@@ -1,0 +1,17 @@
+{
+  "id": "B8BJBEO_GhQ",
+  "date": "2025-01-23T19:44:55+00:00",
+  "url": "https://www.youtube.com/watch?v=B8BJBEO_GhQ",
+  "transcript": "/src/data/transcripts/B8BJBEO_GhQ.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Binding Isaac Sim to PufferLib and Achieving 145k Steps per Second",
+  "summary": "Worked on binding the Isaac Jim high-fidelity physics simulator to PufferLib. Debugged driver issues and performance bottlenecks, reduced the wrapper code from over 2000 to 884 lines, and achieved approximately 145k agent steps per second with humanoid robots.",
+  "topics": [
+    "Isaac Sim",
+    "PufferLib",
+    "physics simulator binding",
+    "performance optimization",
+    "code simplification",
+    "humanoid robots"
+  ]
+}

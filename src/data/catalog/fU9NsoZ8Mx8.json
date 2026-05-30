@@ -1,0 +1,16 @@
+{
+  "id": "fU9NsoZ8Mx8",
+  "date": "2025-09-18T00:11:39+00:00",
+  "url": "https://www.youtube.com/watch?v=fU9NsoZ8Mx8",
+  "transcript": "/src/data/transcripts/fU9NsoZ8Mx8.vtt",
+  "originalTitle": "PufferLib - New frontiers in RL",
+  "title": "Setting Up Hyperparameter Sweeps for PufferLib Experiments",
+  "summary": "Worked on debugging and running multiple hyperparameter sweeps, including frame skip and total timesteps, to generate clean performance plots. Fixed configuration errors and got six sweeps running simultaneously.",
+  "topics": [
+    "PufferLib",
+    "hyperparameter sweeps",
+    "frame skip",
+    "debugging",
+    "experiment configuration"
+  ]
+}

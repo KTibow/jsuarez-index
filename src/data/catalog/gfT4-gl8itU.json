@@ -1,0 +1,17 @@
+{
+  "id": "gfT4-gl8itU",
+  "date": "2026-02-14T14:29:25+00:00",
+  "url": "https://www.youtube.com/watch?v=gfT4-gl8itU",
+  "transcript": "/src/data/transcripts/gfT4-gl8itU.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Fixing Rollout Buffer Bug and Beginning Torch Replacement in PufferLib",
+  "summary": "Fixed a critical bug in PufferLib where the rollout buffer was not correctly updating value functions and importance sampling, causing skewed hyperparameter sweeps. Began refactoring the codebase to strip out PyTorch dependencies in favor of native CUDA kernels for simplicity and performance.",
+  "topics": [
+    "PufferLib",
+    "rollout buffer bug",
+    "value function clipping",
+    "CUDA refactoring",
+    "torch removal",
+    "hyperparameter sweeps"
+  ]
+}

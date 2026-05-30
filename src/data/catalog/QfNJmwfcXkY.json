@@ -1,0 +1,17 @@
+{
+  "id": "QfNJmwfcXkY",
+  "date": "2025-04-12T14:46:25+00:00",
+  "url": "https://www.youtube.com/watch?v=QfNJmwfcXkY",
+  "transcript": "/src/data/transcripts/QfNJmwfcXkY.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Implementing V-Trace Advantage Estimation and Debugging CUDA Kernel in PufferLib",
+  "summary": "Worked on implementing V-trace off-policy correction as a replacement for generalized advantage estimation in PufferLib. Debugged the CUDA kernel for V-trace, fixed indexing and clipping issues, and tested against PPO baseline; V-trace successfully implemented but off-policy replay not yet functional.",
+  "topics": [
+    "V-trace",
+    "CUDA kernel",
+    "advantage estimation",
+    "off-policy correction",
+    "PPO baseline",
+    "experience replay"
+  ]
+}

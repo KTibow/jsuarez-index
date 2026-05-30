@@ -1,0 +1,17 @@
+{
+  "id": "LOvESJVCCvc",
+  "date": "2026-05-21T17:23:45+00:00",
+  "url": "https://www.youtube.com/watch?v=LOvESJVCCvc",
+  "transcript": "/src/data/transcripts/LOvESJVCCvc.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Fusing Kernels and Cleaning Code for Puffer 5 State-Set Curriculum",
+  "summary": "Worked on cleaning up and optimizing the new state-set-based curriculum algorithm (Puffer 5) for sparse-reward tasks. Fused sampling and importance-weight kernels, reduced code size to ~500 lines, and validated performance on 35x35 sparse mazes and breakout benchmarks.",
+  "topics": [
+    "state-set learning",
+    "kernel fusion",
+    "entity encoder",
+    "sparse mazes",
+    "Puffer 5",
+    "code cleanup"
+  ]
+}

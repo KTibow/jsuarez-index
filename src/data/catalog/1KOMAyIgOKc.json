@@ -1,0 +1,17 @@
+{
+  "id": "1KOMAyIgOKc",
+  "date": "2025-07-14T18:21:56+00:00",
+  "url": "https://www.youtube.com/watch?v=1KOMAyIgOKc",
+  "transcript": "/src/data/transcripts/1KOMAyIgOKc.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Debugging and Fixing Racing Task in Drone Simulator",
+  "summary": "Worked on fixing the racing task in the drone simulator. Debugged a bug causing a null drone access in the Cython extensions and successfully trained a single-agent racing policy.",
+  "topics": [
+    "drone simulator",
+    "racing task",
+    "debugging",
+    "Cython",
+    "null pointer",
+    "training"
+  ]
+}

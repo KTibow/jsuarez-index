@@ -1,0 +1,17 @@
+{
+  "id": "Z6FgfYx75V4",
+  "date": "2025-01-22T13:47:40+00:00",
+  "url": "https://www.youtube.com/watch?v=Z6FgfYx75V4",
+  "transcript": "/src/data/transcripts/Z6FgfYx75V4.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Analyzing Experiment Results and Beginning Isaac Gym Integration with PufferLib",
+  "summary": "Worked on analyzing PufferLib experiment Pareto fronts, reverted a parameter change, and began integrating Isaac Gym by removing redundant wrappers.",
+  "topics": [
+    "PufferLib",
+    "Isaac Gym",
+    "parameter tuning",
+    "git bisect",
+    "experiment analysis",
+    "environment wrappers"
+  ]
+}

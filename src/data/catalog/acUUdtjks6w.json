@@ -1,0 +1,17 @@
+{
+  "id": "acUUdtjks6w",
+  "date": "2024-08-27T21:29:56+00:00",
+  "url": "https://www.youtube.com/watch?v=acUUdtjks6w",
+  "transcript": "/src/data/transcripts/acUUdtjks6w.vtt",
+  "originalTitle": "Live Reinforcement Learning Dev",
+  "title": "Debugging C Extension Compilation for PufferLib Snake Environment",
+  "summary": "Debugged the build system for compiling C extensions in PufferLib, focusing on the Snake environment. Eventually got the C version of the environment to compile and run, enabling smoother transitions between Python, Cython, and C code.",
+  "topics": [
+    "PufferLib",
+    "C extensions",
+    "build system",
+    "Cython",
+    "compilation",
+    "Snake environment"
+  ]
+}

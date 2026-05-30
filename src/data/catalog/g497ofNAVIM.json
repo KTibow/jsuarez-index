@@ -1,0 +1,16 @@
+{
+  "id": "g497ofNAVIM",
+  "date": "2025-03-26T00:30:20+00:00",
+  "url": "https://www.youtube.com/watch?v=g497ofNAVIM",
+  "transcript": "/src/data/transcripts/g497ofNAVIM.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Tuning PSGD Hyperparameters for Neural MMO Training",
+  "summary": "Debugged learning rate issues in PSGD optimizer experiments on Neural MMO, comparing with Muan baseline. Set up a sweep over learning rate and precondition learning rate to optimize performance.",
+  "topics": [
+    "PSGD",
+    "hyperparameter tuning",
+    "neural MMO",
+    "learning rate",
+    "sweep"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "vHa7etWNMkQ",
+  "date": "2024-09-04T23:34:15+00:00",
+  "url": "https://www.youtube.com/watch?v=vHa7etWNMkQ",
+  "transcript": "/src/data/transcripts/vHa7etWNMkQ.vtt",
+  "originalTitle": "Reinforcement learning dev in C",
+  "title": "Porting Puffer MOBA to the Web with Emscripten and Fixing Shader Glitches",
+  "summary": "Worked on porting the C-based Puffer MOBA to web using Emscripten, debugging WebGL shader issues, and optimizing AI pathing. The web version became playable with smooth performance despite remaining shader artifacts.",
+  "topics": [
+    "web port",
+    "emscripten",
+    "WebGL shaders",
+    "AI pathing",
+    "MOBA game",
+    "C programming"
+  ]
+}

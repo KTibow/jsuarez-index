@@ -1,0 +1,17 @@
+{
+  "id": "ajO4oF7imeQ",
+  "date": "2025-09-15T20:08:49+00:00",
+  "url": "https://www.youtube.com/watch?v=ajO4oF7imeQ",
+  "transcript": "/src/data/transcripts/ajO4oF7imeQ.vtt",
+  "originalTitle": "PufferLib - New frontiers in RL",
+  "title": "Debugging Pareto Fronts for Sample Efficiency and Compute Tradeoffs in PufferLib Sweeps",
+  "summary": "Worked on adapting Protein's multi-sweep algorithm to track separate metrics for data and time efficiency. Added max cost clipping to improve sweep quality and ran experiments on Pong to validate Pareto frontier curves.",
+  "topics": [
+    "Protein",
+    "hyperparameter sweep",
+    "Pareto frontier",
+    "sample efficiency",
+    "compute cost",
+    "max cost clipping"
+  ]
+}

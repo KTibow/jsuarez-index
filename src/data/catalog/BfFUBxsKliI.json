@@ -1,0 +1,17 @@
+{
+  "id": "BfFUBxsKliI",
+  "date": "2026-04-29T15:16:53+00:00",
+  "url": "https://www.youtube.com/watch?v=BfFUBxsKliI",
+  "transcript": "/src/data/transcripts/BfFUBxsKliI.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Debugging Reward Clipping Failure in an Energy Trading Environment",
+  "summary": "Debugged an energy trading environment where reward clipping created a misleading local optimum, causing the agent to exploit clipped rewards. Adjusted hyperparameters to stabilize learning and resolved the issue.",
+  "topics": [
+    "reward clipping",
+    "energy trading environment",
+    "local optimum",
+    "hyperparameter tuning",
+    "PufferLib",
+    "debugging RL training"
+  ]
+}

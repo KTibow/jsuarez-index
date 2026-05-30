@@ -1,0 +1,17 @@
+{
+  "id": "y2bsFpSWIZw",
+  "date": "2025-12-29T15:32:47+00:00",
+  "url": "https://www.youtube.com/watch?v=y2bsFpSWIZw",
+  "transcript": "/src/data/transcripts/y2bsFpSWIZw.vtt",
+  "originalTitle": "137 microsecond forward passes. 10M step/second RL today?",
+  "title": "Debugging Numerical Issues and Optimizing Forward Passes with CUDA Graphs",
+  "summary": "Worked on achieving 10 million steps per second RL training by implementing CUDA graphs and custom kernels. Debugged numerical discrepancies between C++ and Python implementations, reducing forward pass overhead.",
+  "topics": [
+    "CUDA graphs",
+    "kernel optimization",
+    "PufferLib",
+    "C++ backend",
+    "numerical debugging",
+    "RL training speed"
+  ]
+}

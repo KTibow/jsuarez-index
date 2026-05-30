@@ -1,0 +1,17 @@
+{
+  "id": "ubimS1_dQEI",
+  "date": "2026-05-25T17:14:38+00:00",
+  "url": "https://www.youtube.com/watch?v=ubimS1_dQEI",
+  "transcript": "/src/data/transcripts/ubimS1_dQEI.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Testing Optimizer Fixes and Integrating Boxabon Environment for Puffer 5",
+  "summary": "Verified optimizer changes and ran confirmation experiments on breakout and protein. Integrated Tim's Boxabon environment with state-sets API, set up sweeps on Boxabon and 2048, and reviewed NetHack and other PRs. Debugged state-set performance on sparse exploration tasks, noting inconsistent gains.",
+  "topics": [
+    "optimizer fixes",
+    "state-sets",
+    "Boxabon integration",
+    "NetHack binding",
+    "sparse exploration",
+    "hyperparameter sweeps"
+  ]
+}

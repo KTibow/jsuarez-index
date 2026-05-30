@@ -1,0 +1,17 @@
+{
+  "id": "EHVRdz3M_qA",
+  "date": "2026-01-10T14:42:27+00:00",
+  "url": "https://www.youtube.com/watch?v=EHVRdz3M_qA",
+  "transcript": "/src/data/transcripts/EHVRdz3M_qA.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Fusing CUDA Kernel Ops to Push PufferLib Toward 10 Million Steps Per Second",
+  "summary": "Worked on fusing CUDA kernel operations in PufferLib to reduce overhead and increase training speed. Debugged performance issues, optimized kernel fusions, and aimed for 10 million steps per second on a single GPU.",
+  "topics": [
+    "CUDA kernel fusion",
+    "PufferLib",
+    "performance optimization",
+    "Muan optimizer",
+    "RL training speed",
+    "CUDA graphs"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "UeiptSUcdnU",
+  "date": "2025-06-04T12:04:09+00:00",
+  "url": "https://www.youtube.com/watch?v=UeiptSUcdnU",
+  "transcript": "/src/data/transcripts/UeiptSUcdnU.vtt",
+  "originalTitle": "PufferLib + TinyBox - Live Reinforcement Learning Dev",
+  "title": "Debugging Distributed Training Infrastructure and Scaling Meta with DDP",
+  "summary": "Debugged CUDA driver and Docker infrastructure issues while setting up distributed data parallel (DDP) training for the Meta environment. Achieved near-linear scaling with four GPUs and verified performance targets.",
+  "topics": [
+    "DDP",
+    "CUDA driver issues",
+    "performance scaling",
+    "Meta environment",
+    "Docker bugs",
+    "reinforcement learning infrastructure"
+  ]
+}

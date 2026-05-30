@@ -1,0 +1,17 @@
+{
+  "id": "NGk8WyJyZDY",
+  "date": "2025-02-06T01:00:42+00:00",
+  "url": "https://www.youtube.com/watch?v=NGk8WyJyZDY",
+  "transcript": "/src/data/transcripts/NGk8WyJyZDY.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Default Hyperparameters for Neural MMO Training with PufferLib",
+  "summary": "Debugged hyperparameter sweep defaults in PufferLib for Neural MMO that were producing a -20 score. Identified a bug in random normal sampling, corrected parameter ranges, and confirmed sample validity.",
+  "topics": [
+    "hyperparameter tuning",
+    "PufferLib",
+    "Neural MMO",
+    "random sampling",
+    "debugging",
+    "sweep configuration"
+  ]
+}

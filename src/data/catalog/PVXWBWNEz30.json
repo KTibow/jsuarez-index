@@ -1,0 +1,17 @@
+{
+  "id": "PVXWBWNEz30",
+  "date": "2025-03-18T19:05:03+00:00",
+  "url": "https://www.youtube.com/watch?v=PVXWBWNEz30",
+  "transcript": "/src/data/transcripts/PVXWBWNEz30.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Implementing and Debugging the Diversity is All You Need Exploration Method in PufferLib",
+  "summary": "Worked on implementing the Diversity is All You Need (DiAY) exploration algorithm in PufferLib. Debugged the discriminator loss and eventually got the policy to condition on skill vectors, producing interpretably different behaviors.",
+  "topics": [
+    "PufferLib",
+    "exploration methods",
+    "diversity is all you need",
+    "policy conditioning",
+    "grid environments",
+    "debugging RL algorithms"
+  ]
+}

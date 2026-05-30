@@ -1,0 +1,17 @@
+{
+  "id": "paBnqk-W9Sc",
+  "date": "2025-04-22T13:46:59+00:00",
+  "url": "https://www.youtube.com/watch?v=paBnqk-W9Sc",
+  "transcript": "/src/data/transcripts/paBnqk-W9Sc.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging Experience Buffer and Integrating Impulse Wars into PufferLib",
+  "summary": "Debugged the new trajectory-segment experience buffer, addressing threading issues, CUDA fallback, and masked multi-agent compatibility. Worked with Captain to integrate the Impulse Wars environment, fixing reshape errors and improving performance.",
+  "topics": [
+    "experience buffer",
+    "Puffer advantage",
+    "CUDA kernel",
+    "trajectory segments",
+    "Impulse Wars",
+    "multi-agent masking"
+  ]
+}

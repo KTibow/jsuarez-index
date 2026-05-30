@@ -1,0 +1,16 @@
+{
+  "id": "j4RQYYCWQgY",
+  "date": "2026-02-07T13:33:53+00:00",
+  "url": "https://www.youtube.com/watch?v=j4RQYYCWQgY",
+  "transcript": "/src/data/transcripts/j4RQYYCWQgY.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Refactoring PufferLib Models and C++ Backend for Simpler Codebase",
+  "summary": "Worked on cleaning up PufferLib code by removing redundant functions and refactoring models and pufferlib C++ to reduce deep nesting. Debugged CUDA graph capture issues that caused instability with multiple buffers, eventually achieving stable training at 14M+ steps per second.",
+  "topics": [
+    "PufferLib",
+    "CUDA graphs",
+    "C++ refactoring",
+    "code cleanup",
+    "training performance"
+  ]
+}

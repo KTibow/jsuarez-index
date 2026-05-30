@@ -1,0 +1,17 @@
+{
+  "id": "pl84jWi_Cvg",
+  "date": "2025-03-22T12:56:53+00:00",
+  "url": "https://www.youtube.com/watch?v=pl84jWi_Cvg",
+  "transcript": "/src/data/transcripts/pl84jWi_Cvg.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Analyzing Adam Hyperparameter Sweeps and Integrating MUP for Model Scaling in PufferLib",
+  "summary": "Worked on analyzing the results of Adam hyperparameter sweeps on Breakout, finding that tuned betas could improve sample efficiency but were inconsistent across seeds. Then integrated MUP (Maximal Update Parameterization) into the policy to enable consistent learning rates across network sizes, getting it functional but observing no substantial improvement with a larger model yet.",
+  "topics": [
+    "hyperparameter sweeps",
+    "Adam betas",
+    "MUP",
+    "learning rate transfer",
+    "model scaling",
+    "Breakout benchmarking"
+  ]
+}

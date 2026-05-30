@@ -1,0 +1,17 @@
+{
+  "id": "nOC9mduCpss",
+  "date": "2024-07-26T20:18:15+00:00",
+  "url": "https://www.youtube.com/watch?v=nOC9mduCpss",
+  "transcript": "/src/data/transcripts/nOC9mduCpss.vtt",
+  "originalTitle": "1M FPS mini-DoTA/LoL for RL. Dev day #9",
+  "title": "Refactoring Spawn Logic and Adding Skill Function Pointers in Mini-MOBA",
+  "summary": "Worked on cleaning up the mini-MOBA environment code, replacing hardcoded spawns with data-driven loops and enabling skill usage via Cython function pointers. Also launched a carbs hyperparameter sweep for automated tuning.",
+  "topics": [
+    "Cython function pointers",
+    "code refactoring",
+    "moba environment",
+    "hyperparameter sweep",
+    "carbs",
+    "game balance"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "6nF2Q9a5eMs",
+  "date": "2025-11-24T16:20:09+00:00",
+  "url": "https://www.youtube.com/watch?v=6nF2Q9a5eMs",
+  "transcript": "/src/data/transcripts/6nF2Q9a5eMs.vtt",
+  "originalTitle": "Live RL Research on PufferLib w/ Joseph Suarez",
+  "title": "Debugging RMS Norm Kernel and Profiling CPU Overhead in PufferLib",
+  "summary": "Reviewed PRs for drone environment and early stopping sweeps. Debugged a CUDA RMS norm kernel gradient and profiled CPU synchronization overhead, identifying implicit synchronizations as a performance bottleneck.",
+  "topics": [
+    "RMS norm kernel",
+    "CUDA",
+    "CPU overhead profiling",
+    "PR review",
+    "early stopping",
+    "selfplay"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bDTuspMgiKA",
+  "date": "2025-06-02T23:03:19+00:00",
+  "url": "https://www.youtube.com/watch?v=bDTuspMgiKA",
+  "transcript": "/src/data/transcripts/bDTuspMgiKA.vtt",
+  "originalTitle": "PufferLib + 8xH100 - Live Reinforcement Learning Dev",
+  "title": "Debugging Inconsistent Hyperparameter Sweeps in PufferLib RL",
+  "summary": "Investigated why hyperparameter sweeps failed to reproduce previous optimal results, comparing sweep configurations and sampling distributions. Consulted with Spencer on distributed training setup for upcoming GPU servers.",
+  "topics": [
+    "PufferLib",
+    "hyperparameter sweeps",
+    "distributed training",
+    "debugging",
+    "neural MMO",
+    "GPU drive"
+  ]
+}

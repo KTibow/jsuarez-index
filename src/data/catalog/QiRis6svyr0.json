@@ -1,0 +1,17 @@
+{
+  "id": "QiRis6svyr0",
+  "date": "2025-05-05T15:48:37+00:00",
+  "url": "https://www.youtube.com/watch?v=QiRis6svyr0",
+  "transcript": "/src/data/transcripts/QiRis6svyr0.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Debugging Softmax Bug and Build Isolation for PufferLib Release",
+  "summary": "Debugged a CUDA segfault caused by a softmax bug in probability tensor and resolved build isolation issues by adding torch to build requirements. Ran hyperparameter sweeps for prioritized replay coefficients on maze environments.",
+  "topics": [
+    "CUDA debugging",
+    "build isolation",
+    "softmax bug",
+    "prioritized replay",
+    "hyperparameter sweep",
+    "maze environment"
+  ]
+}

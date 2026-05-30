@@ -1,0 +1,17 @@
+{
+  "id": "ogoamXRbtbI",
+  "date": "2026-04-17T15:42:28+00:00",
+  "url": "https://www.youtube.com/watch?v=ogoamXRbtbI",
+  "transcript": "/src/data/transcripts/ogoamXRbtbI.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Reviewing and Debugging a Dr. Mario Environment Port with Anish",
+  "summary": "Reviewed a Dr. Mario environment port from Anish, fixed a memory corruption bug in the observation size, and provided code feedback. Also discussed the inferno model, set up a new hyperparameter sweep, and gave career advice.",
+  "topics": [
+    "Dr. Mario environment",
+    "code review",
+    "memory corruption",
+    "hyperparameter sweep",
+    "inferno model",
+    "PufferLib"
+  ]
+}

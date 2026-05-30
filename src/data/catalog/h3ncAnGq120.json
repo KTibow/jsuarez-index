@@ -1,0 +1,16 @@
+{
+  "id": "h3ncAnGq120",
+  "date": "2025-04-02T14:20:30+00:00",
+  "url": "https://www.youtube.com/watch?v=h3ncAnGq120",
+  "transcript": "/src/data/transcripts/h3ncAnGq120.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Benchmarking 5090 and Replacing Syon Bindings in PufferLib",
+  "summary": "Benchmarked a new 5090 GPU for reinforcement learning training, finding only ~10-15% speedup over previous hardware. Implemented a new C-based binding system to replace Syon, reducing boilerplate from thousands of lines to ~500. Fixed environment seeding to ensure unique seeds across workers and processes.",
+  "topics": [
+    "GPU benchmarking",
+    "C API bindings",
+    "seeding",
+    "torch.compile",
+    "CUDA graphs"
+  ]
+}

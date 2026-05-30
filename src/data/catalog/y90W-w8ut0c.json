@@ -1,0 +1,17 @@
+{
+  "id": "y90W-w8ut0c",
+  "date": "2024-12-24T18:56:14+00:00",
+  "url": "https://www.youtube.com/watch?v=y90W-w8ut0c",
+  "transcript": "/src/data/transcripts/y90W-w8ut0c.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Merging PR Fixes and Advising on Observation Representation for War Drones",
+  "summary": "Worked on merging a pull request with extraneous formatting changes and a pre-commit hook that broke the Linux build. Advised Captain on compressing entity and tile observations for a war drones environment, proposing a 21x21 uint8 map with bit-packed channels for walls, agents, and projectiles.",
+  "topics": [
+    "PR review",
+    "pre-commit hook",
+    "observation compression",
+    "bit packing",
+    "entity representation",
+    "war drones"
+  ]
+}

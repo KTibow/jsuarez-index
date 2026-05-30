@@ -1,0 +1,17 @@
+{
+  "id": "pR8uzD8vqr8",
+  "date": "2025-07-21T19:51:59+00:00",
+  "url": "https://www.youtube.com/watch?v=pR8uzD8vqr8",
+  "transcript": "/src/data/transcripts/pR8uzD8vqr8.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Training Domain-Randomized Drone Policies for Hovering and Racing Tasks",
+  "summary": "Worked on training domain-randomized drone policies using PufferLib, achieving robust hovering and racing performance but struggling with formation tasks due to implicit online system identification. Debugged hyperparameter tuning and discussed future plans for 6-DOF robot arm simulation and research on scaling reinforcement learning.",
+  "topics": [
+    "domain randomization",
+    "drone control",
+    "PufferLib",
+    "LSTM",
+    "online system identification",
+    "hyperparameter tuning"
+  ]
+}

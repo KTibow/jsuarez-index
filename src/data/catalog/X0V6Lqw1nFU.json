@@ -1,0 +1,17 @@
+{
+  "id": "X0V6Lqw1nFU",
+  "date": "2024-12-23T15:26:13+00:00",
+  "url": "https://www.youtube.com/watch?v=X0V6Lqw1nFU",
+  "transcript": "/src/data/transcripts/X0V6Lqw1nFU.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Observation Encoding in a Contributed RL Environment",
+  "summary": "Integrated and debugged a new multi-agent trash pickup environment contributed by Xander, fixing an observation transpose bug in the one-hot encoding that prevented learning. Discussed multi-agent RL approaches and the benefits of fast simulation with PPO.",
+  "topics": [
+    "pufferlib",
+    "environment integration",
+    "observation encoding",
+    "code review",
+    "multi-agent RL",
+    "debugging"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "zNYwjvBbsN4",
+  "date": "2025-01-31T20:27:55+00:00",
+  "url": "https://www.youtube.com/watch?v=zNYwjvBbsN4",
+  "transcript": "/src/data/transcripts/zNYwjvBbsN4.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Training Maze Solver and Setting Up Neptune Sweep with PufferLib",
+  "summary": "Worked on training a maze-solving reinforcement learning model using PufferLib; the model could see the goal but struggled to reach it on harder mazes. Set up a Neptune sweep for hyperparameter optimization across maze sizes 5 to 15, and prepared to install Ubuntu on a new server.",
+  "topics": [
+    "PufferLib",
+    "reinforcement learning",
+    "maze solving",
+    "Neptune sweep",
+    "hyperparameter optimization",
+    "Ubuntu installation"
+  ]
+}

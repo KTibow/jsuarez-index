@@ -1,0 +1,17 @@
+{
+  "id": "8dxatNFnkW4",
+  "date": "2025-02-07T21:00:10+00:00",
+  "url": "https://www.youtube.com/watch?v=8dxatNFnkW4",
+  "transcript": "/src/data/transcripts/8dxatNFnkW4.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Porting AMP Imitation Learning into PufferLib Environment",
+  "summary": "Worked on integrating adversarial motion priors (AMP) imitation learning into PufferLib. Debugged confusing reference code, clarified data buffer and discriminator loss requirements, and planned modifications to the environment and trainer.",
+  "topics": [
+    "PufferLib",
+    "adversarial motion priors",
+    "imitation learning",
+    "discriminator loss",
+    "experience buffer",
+    "motion matching"
+  ]
+}

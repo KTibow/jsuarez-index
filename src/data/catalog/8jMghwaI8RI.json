@@ -1,0 +1,17 @@
+{
+  "id": "8jMghwaI8RI",
+  "date": "2026-04-25T14:40:14+00:00",
+  "url": "https://www.youtube.com/watch?v=8jMghwaI8RI",
+  "transcript": "/src/data/transcripts/8jMghwaI8RI.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Debugging Jad Animations and Tuning Curriculum for Inferno RL",
+  "summary": "Debugged a regression in Jad animations that caused one-tick prayer switching, adjusted curriculum starting waves from 68 to 67 and 61, and tested policies for full Inferno completion from wave 1. Achieved wins from wave 61 through Zuk, with ongoing work to stabilize early-wave learning.",
+  "topics": [
+    "PufferLib",
+    "curriculum learning",
+    "reinforcement learning",
+    "OSRS Inferno",
+    "bug fixing",
+    "reward shaping"
+  ]
+}

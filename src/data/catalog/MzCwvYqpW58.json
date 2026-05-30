@@ -1,0 +1,17 @@
+{
+  "id": "MzCwvYqpW58",
+  "date": "2025-07-07T19:06:59+00:00",
+  "url": "https://www.youtube.com/watch?v=MzCwvYqpW58",
+  "transcript": "/src/data/transcripts/MzCwvYqpW58.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Drafting a Reinforcement Learning Compendium and Discussing PufferLib's Infrastructure",
+  "summary": "Drafted a comprehensive reinforcement learning compendium for newcomers, covering fundamentals and references. Discussed PufferLib's training infrastructure, wall-clock speed benchmarks, and multi-GPU scaling challenges.",
+  "topics": [
+    "reinforcement learning compendium",
+    "PufferLib",
+    "training infrastructure",
+    "wall-clock speed",
+    "environment-bound",
+    "multi-GPU scaling"
+  ]
+}

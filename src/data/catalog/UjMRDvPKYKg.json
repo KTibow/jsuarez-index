@@ -1,0 +1,17 @@
+{
+  "id": "UjMRDvPKYKg",
+  "date": "2026-05-20T17:10:06+00:00",
+  "url": "https://www.youtube.com/watch?v=UjMRDvPKYKg",
+  "transcript": "/src/data/transcripts/UjMRDvPKYKg.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Debugging Prioritized Replay and State Sets for Sparse Reward Mazes",
+  "summary": "Worked on debugging prioritized experience replay and state set-based curriculum learning in Puffer 4, identifying horizon-dependent effects and testing on hard maze tasks. Found that state sets successfully solve the latching problem on 35x35 mazes with extremely sparse rewards.",
+  "topics": [
+    "prioritized experience replay",
+    "state sets",
+    "curriculum learning",
+    "sparse reward mazes",
+    "Puffer 4",
+    "latching problem"
+  ]
+}

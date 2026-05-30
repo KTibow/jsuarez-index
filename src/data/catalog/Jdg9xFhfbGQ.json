@@ -1,0 +1,17 @@
+{
+  "id": "Jdg9xFhfbGQ",
+  "date": "2025-02-06T12:31:20+00:00",
+  "url": "https://www.youtube.com/watch?v=Jdg9xFhfbGQ",
+  "transcript": "/src/data/transcripts/Jdg9xFhfbGQ.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Analyzing Hyperparameter Sweep Results for PufferLib RL Experiments",
+  "summary": "Worked on analyzing hyperparameter sweep results for reinforcement learning experiments, identifying a buggy resample and noting stable regions over learning rate and entropy. Decided to rerun the sweep with adjusted total time steps and cleaned RL parameters.",
+  "topics": [
+    "hyperparameter tuning",
+    "PufferLib",
+    "sweep analysis",
+    "resample bug",
+    "cost threshold",
+    "learning rate"
+  ]
+}

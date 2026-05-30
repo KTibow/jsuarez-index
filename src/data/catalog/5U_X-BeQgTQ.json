@@ -1,0 +1,17 @@
+{
+  "id": "5U_X-BeQgTQ",
+  "date": "2024-07-30T18:17:36+00:00",
+  "url": "https://www.youtube.com/watch?v=5U_X-BeQgTQ",
+  "transcript": "/src/data/transcripts/5U_X-BeQgTQ.vtt",
+  "originalTitle": "Making reinforcement learning sane and easy. Chill dev stream",
+  "title": "Debugging CARBS Hyperparameter Sweeps for Consistent RL Training",
+  "summary": "Debugged CARBS hyperparameter optimization library to prevent crashes due to duplicate suggestions and integer scaling. Implemented fixes for metric stability (using last 10% of training for evaluation) and added skill usage logging to the MOBA environment. Helped a viewer debug a breakout environment implementation.",
+  "topics": [
+    "CARBS",
+    "hyperparameter tuning",
+    "MOBA environment",
+    "Cython breakout",
+    "skill logging",
+    "metric stability"
+  ]
+}

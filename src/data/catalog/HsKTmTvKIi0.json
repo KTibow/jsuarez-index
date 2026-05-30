@@ -1,0 +1,17 @@
+{
+  "id": "HsKTmTvKIi0",
+  "date": "2024-08-10T16:41:21+00:00",
+  "url": "https://www.youtube.com/watch?v=HsKTmTvKIi0",
+  "transcript": "/src/data/transcripts/HsKTmTvKIi0.vtt",
+  "originalTitle": "Live Reinforcement Learning Dev",
+  "title": "Fixing MOBA Segfaults and Implementing ELO Evaluations for Hyperparameter Tuning",
+  "summary": "Debugged segfaults in the MOBA environment caused by invalid player positions during respawn and teleport. Implemented a parallel GPU-vectorized ELO evaluation system and integrated it into hyperparameter sweeps for automated policy ranking.",
+  "topics": [
+    "MOBA environment",
+    "segfault debugging",
+    "ELO evaluation",
+    "GPU vectorization",
+    "hyperparameter tuning",
+    "config system"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "jG2tMpZx0vw",
+  "date": "2025-05-03T12:09:51+00:00",
+  "url": "https://www.youtube.com/watch?v=jG2tMpZx0vw",
+  "transcript": "/src/data/transcripts/jG2tMpZx0vw.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Testing Mixed Precision and Cleaning Training Code for PufferLib Release",
+  "summary": "Worked on evaluating automatic mixed precision (AMP) across PufferLib environments, benchmarking float16 and bfloat16 performance on models like Snake and Breakout. Decided to deprioritize distributional Q-learning (P30) due to complexity and focused on cleaning up training flags and options.",
+  "topics": [
+    "mixed precision training",
+    "AMP benchmarking",
+    "bfloat16",
+    "P30 deprioritization",
+    "PufferLib refactoring",
+    "performance analysis"
+  ]
+}

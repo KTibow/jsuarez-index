@@ -1,0 +1,17 @@
+{
+  "id": "hSuS_W7Nrc8",
+  "date": "2025-04-10T20:56:33+00:00",
+  "url": "https://www.youtube.com/watch?v=hSuS_W7Nrc8",
+  "transcript": "/src/data/transcripts/hSuS_W7Nrc8.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Fixing C Python Bindings and Buffer Bug for PufferLib Maze Environment",
+  "summary": "Worked on porting a procedurally generated maze environment from Cython to native C Python bindings, encountering memory alignment and segfault issues. Also debugged a trajectory buffer bug affecting advantage filtering in the new experience buffer design.",
+  "topics": [
+    "PufferLib",
+    "C Python bindings",
+    "maze environment",
+    "experience buffer",
+    "advantage filtering",
+    "debugging"
+  ]
+}

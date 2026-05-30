@@ -1,0 +1,17 @@
+{
+  "id": "E2jl3jhk3ew",
+  "date": "2024-08-15T16:47:33+00:00",
+  "url": "https://www.youtube.com/watch?v=E2jl3jhk3ew",
+  "transcript": "/src/data/transcripts/E2jl3jhk3ew.vtt",
+  "originalTitle": "Reinforcement learning but C",
+  "title": "Debugging Onyx Build for Web Assembly, Switching to Custom C MLP for Snake",
+  "summary": "Worked on integrating Onyx runtime for web assembly to run PufferLib models in browser. Debugged build issues and ultimately decided to shelve Onyx in favor of writing a simple MLP forward pass in C for the snake game demo.",
+  "topics": [
+    "Onyx runtime",
+    "WebAssembly",
+    "C neural network",
+    "snake game demo",
+    "build system debugging",
+    "model export"
+  ]
+}

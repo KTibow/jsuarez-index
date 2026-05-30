@@ -1,0 +1,319 @@
+---
+type Stream = {
+  id: string;
+  date: string;
+  url: string;
+  transcript: string;
+  title: string;
+  originalTitle?: string;
+  summary: string;
+  topics: string[];
+};
+
+const catalogModules = import.meta.glob<Stream>('../data/catalog/*.json', { eager: true, import: 'default' });
+const streams = Object.values(catalogModules).sort((left, right) => right.date.localeCompare(left.date));
+const formatDate = (date: string) => {
+  if (!date) return 'undated';
+  return new Intl.DateTimeFormat('en-US', {
+    timeZone: 'UTC',
+    year: 'numeric',
+    month: 'short',
+    day: '2-digit',
+  }).format(new Date(date));
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta
+      name="description"
+      content="Searchable archive of Joseph Suarez live stream subtitles, topics, and generated technical summaries."
+    />
+    <title>JSuarez Stream Archive</title>
+  </head>
+  <body>
+    <main class="shell">
+      <header class="search-island">
+        <input id="search-input" type="search" autocomplete="off" spellcheck="false" placeholder="Search archive" aria-label="Search archive" />
+        <output id="result-count"></output>
+      </header>
+
+      <section id="stream-list" class="stream-list" aria-live="polite">
+        {streams.map((stream) => (
+          <article class="stream-item" data-id={stream.id}>
+            <div class="date-block">
+              <time datetime={stream.date}>{formatDate(stream.date)}</time>
+              {stream.originalTitle && stream.originalTitle !== stream.title && (
+                <p class="original-title">
+                  <a href={stream.url} target="_blank" rel="noopener noreferrer">yt: {stream.originalTitle}</a>
+                </p>
+              )}
+            </div>
+            <div class="stream-main">
+              <h2>
+                <a href={stream.url} target="_blank" rel="noopener noreferrer">{stream.title}</a>
+              </h2>
+              <p class="summary">{stream.summary}</p>
+              <ul class="topics" aria-label="topics">
+                {stream.topics.map((topic) => <li>{topic}</li>)}
+              </ul>
+            </div>
+          </article>
+        ))}
+      </section>
+
+      <p id="empty-state" class="empty-state" hidden>No streams match that search.</p>
+    </main>
+
+    <script>
+      import Fuse from 'fuse.js';
+
+      type SearchStream = { id: string; title: string; summary: string; topics: string[]; originalTitle?: string };
+
+      const catalogModules = import.meta.glob<SearchStream>('../data/catalog/*.json', { eager: true, import: 'default' });
+      const streams = Object.values(catalogModules);
+      const input = document.querySelector<HTMLInputElement>('#search-input');
+      const count = document.querySelector<HTMLOutputElement>('#result-count');
+      const empty = document.querySelector<HTMLElement>('#empty-state');
+      const items = new Map(
+        [...document.querySelectorAll<HTMLElement>('.stream-item')].map((element) => {
+          return [element.dataset.id, element];
+        }),
+      );
+
+      const fuse = new Fuse(streams, {
+        keys: [
+          { name: 'title', weight: 0.35 },
+          { name: 'summary', weight: 0.3 },
+          { name: 'topics', weight: 0.25 },
+          { name: 'originalTitle', weight: 0.1 },
+        ],
+        threshold: 0.32,
+        ignoreLocation: true,
+      });
+
+      function render(ids: Set<string> | null) {
+        let visible = 0;
+        for (const [id, item] of items) {
+          const show = ids === null || (id !== undefined && ids.has(id));
+          item.hidden = !show;
+          if (show) visible += 1;
+        }
+        if (count) count.textContent = ids === null ? '' : `${visible} result${visible === 1 ? '' : 's'}`;
+        if (empty instanceof HTMLElement) empty.hidden = visible !== 0;
+      }
+
+      input?.addEventListener('input', () => {
+        const query = input.value.trim();
+        if (!query) {
+          render(null);
+          return;
+        }
+        render(new Set(fuse.search(query).map((result) => result.item.id)));
+      });
+    </script>
+
+    <style>
+      :root {
+        --highlight: #00bbbb;
+        --foreground: #061818;
+        --background: #000000;
+        --panel: #082222;
+        --text: #f1f1f1;
+        --muted: #a6bbbb;
+        --faint: #638181;
+        --border: #164242;
+        --danger: #ff7a7a;
+        color-scheme: dark;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: Helvetica, Arial, sans-serif;
+        background:
+          linear-gradient(90deg, rgba(0, 187, 187, 0.045) 1px, transparent 1px),
+          linear-gradient(180deg, rgba(0, 187, 187, 0.035) 1px, transparent 1px),
+          var(--foreground);
+        background-size: 28px 28px;
+        color: var(--text);
+      }
+
+      a {
+        color: var(--highlight);
+        text-decoration: none;
+      }
+
+      .shell {
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 24px 24px 72px;
+      }
+
+      .search-island {
+        position: relative;
+        width: 100%;
+        margin: 0 auto 26px;
+        padding: 0;
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        background: var(--panel);
+      }
+
+      input[type='search'] {
+        width: 100%;
+        min-width: 0;
+        height: 100%;
+        padding: 18px 8.75rem 18px 16px;
+        border: 0;
+        border-radius: inherit;
+        background: var(--panel);
+        color: var(--text);
+        font: 0.95rem Consolas, monospace;
+      }
+
+      input[type='search']:focus {
+        outline: 2px solid var(--highlight);
+        outline-offset: 2px;
+      }
+
+      #result-count {
+        position: absolute;
+        top: 50%;
+        right: 16px;
+        width: 7.5rem;
+        transform: translateY(-50%);
+        color: var(--faint);
+        font-family: Consolas, monospace;
+        font-size: 0.86rem;
+        pointer-events: none;
+        text-align: right;
+        white-space: nowrap;
+      }
+
+      .stream-list {
+        display: grid;
+        gap: 12px;
+      }
+
+      .stream-item {
+        display: grid;
+        grid-template-columns: 154px minmax(0, 1fr);
+        gap: 22px;
+        padding: 16px 0;
+      }
+
+      .date-block {
+        padding-top: 2px;
+        font-family: Consolas, monospace;
+        font-size: 0.85rem;
+      }
+
+      time {
+        display: block;
+        color: var(--text);
+      }
+
+      h2 {
+        margin: 0 0 5px;
+        color: var(--text);
+        font-size: 1.08rem;
+        line-height: 1.25;
+      }
+
+      .original-title {
+        max-width: 140px;
+        margin: 8px 0 0;
+        color: var(--faint);
+        font-family: Consolas, monospace;
+        font-size: 0.7rem;
+        line-height: 1.35;
+      }
+
+      .original-title a {
+        color: inherit;
+      }
+
+      .summary {
+        margin: 0 0 10px;
+        color: var(--muted);
+        font-size: 0.94rem;
+        line-height: 1.5;
+      }
+
+      .topics {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .topics li {
+        padding: 2px 7px;
+        border: 1px solid var(--border);
+        border-radius: 3px;
+        background: var(--panel);
+        color: var(--text);
+        font-family: Consolas, monospace;
+        font-size: 0.74rem;
+        line-height: 1.4;
+      }
+
+      .empty-state {
+        margin: 48px 0;
+        color: var(--danger);
+        font-family: Consolas, monospace;
+        text-align: center;
+      }
+
+      [hidden] {
+        display: none !important;
+      }
+
+      @media (max-width: 700px) {
+        .shell {
+          padding: 16px 16px 48px;
+        }
+
+        .search-island {
+          width: 100%;
+          margin-bottom: 18px;
+        }
+
+        #result-count {
+          right: 12px;
+          width: 6.75rem;
+        }
+
+        .stream-item {
+          grid-template-columns: 1fr;
+          gap: 8px;
+          padding: 16px 0;
+        }
+
+        .date-block {
+          display: flex;
+          align-items: baseline;
+          flex-wrap: wrap;
+          gap: 10px;
+        }
+
+        .original-title {
+          flex-basis: 100%;
+          max-width: 34rem;
+          margin-top: 0;
+        }
+      }
+    </style>
+  </body>
+</html>

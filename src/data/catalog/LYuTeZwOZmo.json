@@ -1,0 +1,17 @@
+{
+  "id": "LYuTeZwOZmo",
+  "date": "2026-05-18T17:07:28+00:00",
+  "url": "https://www.youtube.com/watch?v=LYuTeZwOZmo",
+  "transcript": "/src/data/transcripts/LYuTeZwOZmo.vtt",
+  "originalTitle": "PufferLib RL dev with Joseph Suarez",
+  "title": "Implementing GoPuff Algorithm for Puffer 5 Curriculum Learning",
+  "summary": "Implemented a new curriculum learning algorithm combining Go Explore state sets with prioritized experience replay. Tested on incremental maze task and achieved solving up to 47x47 mazes, demonstrating strong performance. Also refactored compilation to a single unit, simplifying the build.",
+  "topics": [
+    "Puffer 5",
+    "state sets",
+    "prioritized experience replay",
+    "curriculum learning",
+    "compilation unit refactor",
+    "maze environment"
+  ]
+}

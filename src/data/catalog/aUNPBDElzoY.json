@@ -1,0 +1,17 @@
+{
+  "id": "aUNPBDElzoY",
+  "date": "2025-11-28T16:34:47+00:00",
+  "url": "https://www.youtube.com/watch?v=aUNPBDElzoY",
+  "transcript": "/src/data/transcripts/aUNPBDElzoY.vtt",
+  "originalTitle": "Live RL dev on Pufferlib w/ Joseph Suarez",
+  "title": "Debugging Data Races in PufferLib's C Vectorization Backend",
+  "summary": "Debugged data races and hangs in the new C vectorization backend for PufferLib, which uses double-buffered CUDA transfers to reduce CPU-GPU overhead. Fixed race conditions using atomic operations and thread sanitizer, and merged pull requests for hyperparameter sweeps and tower climb environment.",
+  "topics": [
+    "vectorization backend",
+    "CUDA transfers",
+    "data race debugging",
+    "thread sanitizer",
+    "hyperparameter sweeps",
+    "tower climb"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "IGlndulwT-U",
+  "date": "2025-06-18T22:33:38+00:00",
+  "url": "https://www.youtube.com/watch?v=IGlndulwT-U",
+  "transcript": "/src/data/transcripts/IGlndulwT-U.vtt",
+  "originalTitle": "PufferLib - Live Reinforcement Learning Dev",
+  "title": "Porting Neural MMO Model to Pure C and Deploying to Web Assembly",
+  "summary": "Worked on porting the trained Neural MMO policy from PyTorch to pure C for web assembly deployment. Fixed a dimension mismatch in layer normalization and successfully ran the model in the browser. Also trained a policy for a drone environment and evaluated a contributor's policy.",
+  "topics": [
+    "PufferLib",
+    "neural mmo",
+    "web assembly",
+    "pure C port",
+    "layer normalization",
+    "policy deployment"
+  ]
+}

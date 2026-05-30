@@ -1,0 +1,17 @@
+{
+  "id": "1kUGn5bxd7s",
+  "date": "2024-07-19T23:36:05+00:00",
+  "url": "https://www.youtube.com/watch?v=1kUGn5bxd7s",
+  "transcript": "/src/data/transcripts/1kUGn5bxd7s.vtt",
+  "originalTitle": "Coding a MOBA for AI/RL to play, Dev Day #5",
+  "title": "Implementing XP System and Fixing Tower Spawn Bug for MOBA Environment",
+  "summary": "Worked on implementing experience points and leveling system, fixed a tower spawn indexing bug, added basic attack cooldowns and AI for creeps and towers. The game became functional with leveling, towers, and basic combat, though pathing and balancing remain to be addressed.",
+  "topics": [
+    "XP system",
+    "leveling",
+    "tower spawn bug",
+    "basic attack cooldowns",
+    "game balance",
+    "MOBA environment"
+  ]
+}

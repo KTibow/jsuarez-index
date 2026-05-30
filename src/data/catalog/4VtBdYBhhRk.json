@@ -1,0 +1,17 @@
+{
+  "id": "4VtBdYBhhRk",
+  "date": "2025-07-10T16:42:29+00:00",
+  "url": "https://www.youtube.com/watch?v=4VtBdYBhhRk",
+  "transcript": "/src/data/transcripts/4VtBdYBhhRk.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Refactoring Drone Environments for Shared Physics and Domain Randomization",
+  "summary": "Refactored drone racing and swarming environments to extract common physics code into a shared library. Implemented per-episode domain randomization of physics parameters without breaking existing policies.",
+  "topics": [
+    "drone racing env",
+    "drone swarming env",
+    "physics refactoring",
+    "domain randomization",
+    "Cython",
+    "PufferLib"
+  ]
+}

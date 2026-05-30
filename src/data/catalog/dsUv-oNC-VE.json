@@ -1,0 +1,17 @@
+{
+  "id": "dsUv-oNC-VE",
+  "date": "2024-08-22T19:48:15+00:00",
+  "url": "https://www.youtube.com/watch?v=dsUv-oNC-VE",
+  "transcript": "/src/data/transcripts/dsUv-oNC-VE.vtt",
+  "originalTitle": "Live Reinforcement Learning Dev",
+  "title": "Debugging Neutral Spawn Hang and Adding Visual Effects to Moa",
+  "summary": "Debugged a hanging bug in the MOBA that occurred during neutral spawns by modifying the spawn logic to handle invalid positions. Then implemented new visual effects including terrain shaders, attack beams, and AOE indicators.",
+  "topics": [
+    "PufferLib",
+    "MOBA",
+    "bug fixing",
+    "shader programming",
+    "hyperparameter tuning",
+    "Atari"
+  ]
+}

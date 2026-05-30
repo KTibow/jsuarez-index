@@ -1,0 +1,17 @@
+{
+  "id": "PKVg_eNtGoY",
+  "date": "2026-05-26T22:38:57+00:00",
+  "url": "https://www.youtube.com/watch?v=PKVg_eNtGoY",
+  "transcript": "/src/data/transcripts/PKVg_eNtGoY.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Analyzing State Sets Algorithm Performance and Debugging Baseline Comparison",
+  "summary": "Evaluated a new state set algorithm for reinforcement learning against baselines, finding that baselines performed unexpectedly well after hyperparameter sweeps. Planned to iterate on maze environments to isolate algorithmic issues.",
+  "topics": [
+    "state set algorithm",
+    "hyperparameter sweep",
+    "baseline comparison",
+    "sparse maze",
+    "curriculum learning",
+    "algorithm debugging"
+  ]
+}

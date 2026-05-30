@@ -1,0 +1,17 @@
+{
+  "id": "ID3uY6ACdzg",
+  "date": "2025-09-09T19:48:08+00:00",
+  "url": "https://www.youtube.com/watch?v=ID3uY6ACdzg",
+  "transcript": "/src/data/transcripts/ID3uY6ACdzg.vtt",
+  "originalTitle": "PufferLib - new pareto frontiers in RL",
+  "title": "Implementing Multi-Cost Optimization in Protein for Pareto Frontiers",
+  "summary": "Worked on modifying the protein hyperparameter sweep algorithm to optimize for both wall-clock time and sample steps, creating compute-data tradeoff frontiers. Debugged degenerate behavior where the algorithm exploited time caps, and improved the sweep to explore both sample-efficient and compute-efficient runs.",
+  "topics": [
+    "protein",
+    "hyperparameter tuning",
+    "Pareto frontier",
+    "compute-data tradeoff",
+    "PufferLib",
+    "multiprocessing sweeps"
+  ]
+}

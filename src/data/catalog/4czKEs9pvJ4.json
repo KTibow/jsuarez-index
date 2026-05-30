@@ -1,0 +1,17 @@
+{
+  "id": "4czKEs9pvJ4",
+  "date": "2026-02-21T14:23:36+00:00",
+  "url": "https://www.youtube.com/watch?v=4czKEs9pvJ4",
+  "transcript": "/src/data/transcripts/4czKEs9pvJ4.vtt",
+  "originalTitle": "PufferLib RL dev with Joseph Suarez | Presentation at 11 EST",
+  "title": "Refactoring network architecture and policy handling in PufferLib",
+  "summary": "Worked on cleaning up the network architecture code in PufferLib to reduce complexity around static buffers, mixed precision, and weight registrations. The refactoring produced a cleaner design for encoders and policies, though further work on launch functions, kernels, and the optimizer remains.",
+  "topics": [
+    "PufferLib",
+    "network architecture",
+    "policy refactoring",
+    "mixed precision",
+    "static buffers",
+    "CUDA"
+  ]
+}

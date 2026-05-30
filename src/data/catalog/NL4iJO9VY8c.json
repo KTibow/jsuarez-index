@@ -1,0 +1,17 @@
+{
+  "id": "NL4iJO9VY8c",
+  "date": "2025-05-02T13:12:12+00:00",
+  "url": "https://www.youtube.com/watch?v=NL4iJO9VY8c",
+  "transcript": "/src/data/transcripts/NL4iJO9VY8c.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Refactoring PufferLib Training Scripts for Pip Installability and Simplicity",
+  "summary": "Outlined a major refactor of PufferLib training scripts to combine trainer and demo files into a single self-contained script within the pip package. Evaluated current code length and redundancy, aiming to reduce complexity while maintaining high performance, and launched Neural MMO 3 experiments to test the hardware setup.",
+  "topics": [
+    "pufferlib",
+    "refactoring",
+    "training scripts",
+    "neural MMO 3",
+    "pip packaging",
+    "performance optimization"
+  ]
+}

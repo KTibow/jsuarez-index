@@ -1,0 +1,17 @@
+{
+  "id": "044hzL_8kHg",
+  "date": "2024-08-02T19:57:26+00:00",
+  "url": "https://www.youtube.com/watch?v=044hzL_8kHg",
+  "transcript": "/src/data/transcripts/044hzL_8kHg.vtt",
+  "originalTitle": "Reinforcement learning live dev",
+  "title": "Debugging Carbs Hyperparameter Sweep Duplicate Suggestions for Atari and MOBA",
+  "summary": "Debugged duplicate hyperparameter suggestions in Carbs by adding random samples and seeding RNG. Ran hyperparameter sweeps for Atari (Pong) and a MOBA environment to improve policy training.",
+  "topics": [
+    "Carbs",
+    "hyperparameter tuning",
+    "Atari",
+    "MOBA",
+    "sticky actions",
+    "random seeding"
+  ]
+}

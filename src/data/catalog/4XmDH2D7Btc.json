@@ -1,0 +1,17 @@
+{
+  "id": "4XmDH2D7Btc",
+  "date": "2026-03-28T16:55:55+00:00",
+  "url": "https://www.youtube.com/watch?v=4XmDH2D7Btc",
+  "transcript": "/src/data/transcripts/4XmDH2D7Btc.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Editing and Polishing Four Articles for Puffer 4 Launch",
+  "summary": "Worked on editing four articles for the upcoming Puffer 4 release, refining content and preparing assets. Discussed reinforcement learning, LLMs, low-level development, and future directions including material science.",
+  "topics": [
+    "Puffer 4",
+    "article editing",
+    "reinforcement learning",
+    "LLMs",
+    "low-level development",
+    "material science"
+  ]
+}

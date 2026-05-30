@@ -1,0 +1,17 @@
+{
+  "id": "U73s-tzfZmc",
+  "date": "2025-04-23T12:33:18+00:00",
+  "url": "https://www.youtube.com/watch?v=U73s-tzfZmc",
+  "transcript": "/src/data/transcripts/U73s-tzfZmc.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Increasing Mini-Batch Size and Learning Rate for Faster PufferLib Training",
+  "summary": "Ran hyperparameter sweeps on Breakout, Pong, and Snake to increase mini-batch sizes and learning rates, achieving up to 3 million steps per second. Fixed CUDA kernel alignment issues and tuned parameters for stable training across multiple environments.",
+  "topics": [
+    "PufferLib",
+    "hyperparameter tuning",
+    "mini-batch size",
+    "CUDA kernel alignment",
+    "Breakout",
+    "performance optimization"
+  ]
+}

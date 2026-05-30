@@ -1,0 +1,17 @@
+{
+  "id": "ok9sFxKSZVc",
+  "date": "2025-01-16T19:11:35+00:00",
+  "url": "https://www.youtube.com/watch?v=ok9sFxKSZVc",
+  "transcript": "/src/data/transcripts/ok9sFxKSZVc.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Integrating Isaac Gym Environments with PufferLib and Fixing Training Wrapper",
+  "summary": "Added Isaac Gym bindings to PufferLib, debugged packaging issues, and fixed a wrapper for correct episode return computation. Successfully ran an initial training session with a humanoid environment.",
+  "topics": [
+    "PufferLib",
+    "Isaac Gym",
+    "wrapper debugging",
+    "GPU simulation",
+    "hyperparameter tuning",
+    "reinforcement learning"
+  ]
+}

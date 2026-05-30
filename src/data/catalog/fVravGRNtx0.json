@@ -1,0 +1,17 @@
+{
+  "id": "fVravGRNtx0",
+  "date": "2025-08-18T18:08:50+00:00",
+  "url": "https://www.youtube.com/watch?v=fVravGRNtx0",
+  "transcript": "/src/data/transcripts/fVravGRNtx0.vtt",
+  "originalTitle": "PufferLib - world models get another chance",
+  "title": "Implementing a World Model in PufferLib Using Onestep Dynamics and Reward Prediction",
+  "summary": "Worked on implementing a simplified world model in PufferLib, starting with onestep dynamics and reward prediction based on the Dreamer formulation. Debugged the encoder and recurrent dynamics module; the implementation ran but did not yet show improved learning over baseline.",
+  "topics": [
+    "PufferLib",
+    "world models",
+    "Dreamer",
+    "off-policy RL",
+    "RSSM",
+    "onestep prediction"
+  ]
+}

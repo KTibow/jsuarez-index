@@ -1,0 +1,17 @@
+{
+  "id": "TxH2DErJAzg",
+  "date": "2025-05-10T14:58:19+00:00",
+  "url": "https://www.youtube.com/watch?v=TxH2DErJAzg",
+  "transcript": "/src/data/transcripts/TxH2DErJAzg.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Debugging PufferLib Bindings and Optimizing Training Performance",
+  "summary": "Worked on diagnosing performance bottlenecks in PufferLib, including PCIe copy overhead and CUDA kernel compilation issues. Fixed environment binding error handling and integrated community pull requests for improvements.",
+  "topics": [
+    "PufferLib",
+    "binding errors",
+    "CUDA kernels",
+    "performance optimization",
+    "neural MMO",
+    "environment debugging"
+  ]
+}

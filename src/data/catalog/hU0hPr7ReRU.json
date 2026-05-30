@@ -1,0 +1,17 @@
+{
+  "id": "hU0hPr7ReRU",
+  "date": "2025-01-31T15:45:53+00:00",
+  "url": "https://www.youtube.com/watch?v=hU0hPr7ReRU",
+  "transcript": "/src/data/transcripts/hU0hPr7ReRU.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Agent Movement and Running First Training Run on Procedural Mazes",
+  "summary": "Debugged a movement bug in a procedurally generated maze environment where agents were getting stuck due to tank control issues. Ran an initial training run showing the agent learned better than random policy, though tuning and logging were still needed.",
+  "topics": [
+    "PufferLib",
+    "procedurally generated maze",
+    "tank controls",
+    "movement debugging",
+    "training loop",
+    "baseline model"
+  ]
+}

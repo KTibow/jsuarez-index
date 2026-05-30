@@ -1,0 +1,16 @@
+{
+  "id": "51lyIwd5rAw",
+  "date": "2026-01-15T15:06:33+00:00",
+  "url": "https://www.youtube.com/watch?v=51lyIwd5rAw",
+  "transcript": "/src/data/transcripts/51lyIwd5rAw.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Setting Up Profiling and NSYS Integration for PufferLib C++ Backend",
+  "summary": "Worked on profiling infrastructure for PufferLib, integrating NSYS for kernel-level profiling and cleaning up test code. Discussed multi-threaded GPU batch designs with a contributor but deferred further optimization due to fatigue.",
+  "topics": [
+    "profiling",
+    "NSYS",
+    "CUDA streams",
+    "PufferLib C++ backend",
+    "multi-threaded environment vectorization"
+  ]
+}

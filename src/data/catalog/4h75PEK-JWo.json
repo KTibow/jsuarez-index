@@ -1,0 +1,17 @@
+{
+  "id": "4h75PEK-JWo",
+  "date": "2025-12-31T15:54:48+00:00",
+  "url": "https://www.youtube.com/watch?v=4h75PEK-JWo",
+  "transcript": "/src/data/transcripts/4h75PEK-JWo.vtt",
+  "originalTitle": "Live RL dev on PufferLib",
+  "title": "Debugging CUDA Graphs and Kernel Optimizations for Breakout in Puffer 4",
+  "summary": "Worked on CUDA graph integration, fixed synchronization bugs in multi-threaded vectorization, and optimized kernels to achieve a 20-second breakout solve time (new state-of-the-art).",
+  "topics": [
+    "CUDA graphs",
+    "multi-threaded environment vectorization",
+    "custom CUDA kernels",
+    "RMS norm optimization",
+    "breakout solve time",
+    "Puffer 4"
+  ]
+}

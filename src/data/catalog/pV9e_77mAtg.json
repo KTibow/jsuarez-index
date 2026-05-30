@@ -1,0 +1,17 @@
+{
+  "id": "pV9e_77mAtg",
+  "date": "2026-04-30T15:40:09+00:00",
+  "url": "https://www.youtube.com/watch?v=pV9e_77mAtg",
+  "transcript": "/src/data/transcripts/pV9e_77mAtg.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Building a Multi-Agent Demo Environment and Preparing Puffer 4 Presentation",
+  "summary": "Worked on a multi-agent coordination environment with colored stars and cool-downs for a tutorial, prepared presentation slides for Puffer 4, and reviewed community PRs including a Dr. Mario environment.",
+  "topics": [
+    "PufferLib",
+    "multi-agent environment",
+    "presentation",
+    "code review",
+    "environment design",
+    "RL training"
+  ]
+}

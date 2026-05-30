@@ -1,0 +1,17 @@
+{
+  "id": "MHdzUf5s_as",
+  "date": "2025-09-12T21:56:24+00:00",
+  "url": "https://www.youtube.com/watch?v=MHdzUf5s_as",
+  "transcript": "/src/data/transcripts/MHdzUf5s_as.vtt",
+  "originalTitle": "PufferLib - New frontiers in RL",
+  "title": "Building Hyperparameter Sensitivity Analysis Tools for PufferLib",
+  "summary": "Worked on creating a hyperparameter sensitivity analysis toolkit for PufferLib, including plotting interfaces for learning rate sweeps and seed sensitivity. Developed automated experiment queuing and data visualization for scaling laws research.",
+  "topics": [
+    "hyperparameter sensitivity",
+    "learning rate sweeps",
+    "data visualization",
+    "PufferLib",
+    "scaling laws",
+    "experiment automation"
+  ]
+}

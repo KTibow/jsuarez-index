@@ -1,0 +1,17 @@
+{
+  "id": "UZZ7eNk9Vwg",
+  "date": "2025-04-19T16:22:04+00:00",
+  "url": "https://www.youtube.com/watch?v=UZZ7eNk9Vwg",
+  "transcript": "/src/data/transcripts/UZZ7eNk9Vwg.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Implementing MuZero-Style Search with World Model for Model-Based RL in PufferLib",
+  "summary": "Implemented and debugged a MuZero-inspired search-based model-based RL algorithm in PufferLib, focusing on world model forward passes, action conditioning, and reward prediction. Achieved on-par performance with the on-policy baseline but not yet surpassing it.",
+  "topics": [
+    "MuZero",
+    "world model",
+    "model-based RL",
+    "PufferLib",
+    "reward prediction",
+    "action encoder"
+  ]
+}

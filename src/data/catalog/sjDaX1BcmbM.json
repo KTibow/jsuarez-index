@@ -1,0 +1,17 @@
+{
+  "id": "sjDaX1BcmbM",
+  "date": "2025-04-18T12:40:37+00:00",
+  "url": "https://www.youtube.com/watch?v=sjDaX1BcmbM",
+  "transcript": "/src/data/transcripts/sjDaX1BcmbM.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Configuring Environments and Adding Normalized Scores for PufferLib Benchmark Suite",
+  "summary": "Worked on configuring multiple environments (Enduro, Breakout, CartPole, etc.) for a unified benchmark suite, added normalized score variables to enable cross-environment comparison, and debugged experience buffer instability.",
+  "topics": [
+    "environment configuration",
+    "normalized score",
+    "experience buffer",
+    "Muesli optimizer",
+    "profiler",
+    "hyperparameter tuning"
+  ]
+}

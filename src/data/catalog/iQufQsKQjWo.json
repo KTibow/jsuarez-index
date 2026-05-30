@@ -1,0 +1,17 @@
+{
+  "id": "iQufQsKQjWo",
+  "date": "2025-07-31T19:54:44+00:00",
+  "url": "https://www.youtube.com/watch?v=iQufQsKQjWo",
+  "transcript": "/src/data/transcripts/iQufQsKQjWo.vtt",
+  "originalTitle": "PufferLib and Chill",
+  "title": "Debugging LAMMPS Integration and Reviewing HL Gaussian Policy Paper",
+  "summary": "Worked on hooking PufferLib to LAMMPS for material science simulation, attempting to compute thermal conductivity per atom but struggling with LAMMPS's string-based command interface. Later, reviewed a recent RL paper on HL Gaussian policy and auxiliary loss, concluding the main benefit is the Gaussian policy and noting weak baseline tuning.",
+  "topics": [
+    "PufferLib",
+    "LAMMPS",
+    "material science",
+    "thermal conductivity",
+    "HL Gaussian policy",
+    "maximum entropy RL"
+  ]
+}

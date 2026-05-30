@@ -1,0 +1,17 @@
+{
+  "id": "S_czpsTmh7o",
+  "date": "2025-01-17T00:19:59+00:00",
+  "url": "https://www.youtube.com/watch?v=S_czpsTmh7o",
+  "transcript": "/src/data/transcripts/S_czpsTmh7o.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Reviewing Bet's Blaster Refactor and Setting Up Breakout Hyperparameter Sweeps",
+  "summary": "Reviewed Bet's Blaster code refactor, removing prototypes and fixing asset map indexing. Set up a CARBS hyperparameter sweep for breakout to optimize training wall-clock time, including adding a num_minibatches parameter. Discussed Neptune dashboard features for experiment tracking.",
+  "topics": [
+    "code review",
+    "Blaster",
+    "breakout",
+    "hyperparameter sweep",
+    "CARBS",
+    "Neptune"
+  ]
+}

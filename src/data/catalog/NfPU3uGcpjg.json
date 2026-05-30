@@ -1,0 +1,16 @@
+{
+  "id": "NfPU3uGcpjg",
+  "date": "2024-11-22T13:54:04+00:00",
+  "url": "https://www.youtube.com/watch?v=NfPU3uGcpjg",
+  "transcript": "/src/data/transcripts/NfPU3uGcpjg.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Cleaning Up Documentation and Polishing Rough Edges in PufferLib",
+  "summary": "Worked on improving documentation, setting up automated docs tests, and sanding off rough edges in PufferLib. Addressed warning suppression and minor API cleanup in preparation for release.",
+  "topics": [
+    "documentation",
+    "automated testing",
+    "API cleanup",
+    "warning suppression",
+    "PufferLib"
+  ]
+}

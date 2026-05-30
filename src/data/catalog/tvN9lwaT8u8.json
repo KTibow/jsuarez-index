@@ -1,0 +1,17 @@
+{
+  "id": "tvN9lwaT8u8",
+  "date": "2026-04-03T17:26:09+00:00",
+  "url": "https://www.youtube.com/watch?v=tvN9lwaT8u8",
+  "transcript": "/src/data/transcripts/tvN9lwaT8u8.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Final Release Prep for Puffer 4: Docker, Builds, and Articles",
+  "summary": "Worked on finalizing Docker setup, fixing build system issues, updating release articles and images, and discussing hardware challenges in RL research. Made progress toward the upcoming Puffer 4 release.",
+  "topics": [
+    "PufferLib",
+    "Docker",
+    "build system",
+    "release preparation",
+    "hardware discussion",
+    "RL development"
+  ]
+}

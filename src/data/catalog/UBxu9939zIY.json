@@ -1,0 +1,17 @@
+{
+  "id": "UBxu9939zIY",
+  "date": "2025-10-14T22:34:20+00:00",
+  "url": "https://www.youtube.com/watch?v=UBxu9939zIY",
+  "transcript": "/src/data/transcripts/UBxu9939zIY.vtt",
+  "originalTitle": "PufferLib - RL dev",
+  "title": "Polishing Puffer Constellation Dashboard UI and Visualization",
+  "summary": "Worked on Puffer Constellation, the RL experiment visualization dashboard. Cleaned up UI layout, fixed font loading, adjusted color schemes, and fixed UI draw order to prevent overlap. Improved overall responsiveness and styling.",
+  "topics": [
+    "Puffer Constellation",
+    "UI styling",
+    "color scheme selection",
+    "font integration",
+    "3D scatter plot",
+    "raylib components"
+  ]
+}

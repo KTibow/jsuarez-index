@@ -1,0 +1,17 @@
+{
+  "id": "kOuDD4_BkC8",
+  "date": "2025-07-19T16:18:00+00:00",
+  "url": "https://www.youtube.com/watch?v=kOuDD4_BkC8",
+  "transcript": "/src/data/transcripts/kOuDD4_BkC8.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Debugging Reward Formulation for Drone Racing and Swarming Policies",
+  "summary": "Worked on writing a quick article about reinforcement learning scaling and network size. Debugged a reward mismatch in the drone racing simulation where the agent optimized a metric not aligned with passing rings. Trained a sparse reward policy and observed improved behavior. Also planned to debug a GPU driving simulator with Spencer.",
+  "topics": [
+    "reward design",
+    "drone simulation",
+    "policy training",
+    "swarming",
+    "racing",
+    "RL debugging"
+  ]
+}

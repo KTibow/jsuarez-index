@@ -1,0 +1,16 @@
+{
+  "id": "UFXLOIzHvPo",
+  "date": "2026-04-28T14:56:49+00:00",
+  "url": "https://www.youtube.com/watch?v=UFXLOIzHvPo",
+  "transcript": "/src/data/transcripts/UFXLOIzHvPo.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Debugging Reward Bugs in Compute Marketplace Simulator",
+  "summary": "Worked on an open-source compute marketplace simulator for a client, debugging reward bugs and refactoring tests to get training working again.",
+  "topics": [
+    "compute marketplace simulator",
+    "reward debugging",
+    "client project",
+    "open-source environment",
+    "PufferLib"
+  ]
+}

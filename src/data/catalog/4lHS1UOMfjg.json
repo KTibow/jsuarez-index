@@ -1,0 +1,17 @@
+{
+  "id": "4lHS1UOMfjg",
+  "date": "2025-05-19T12:56:18+00:00",
+  "url": "https://www.youtube.com/watch?v=4lHS1UOMfjg",
+  "transcript": "/src/data/transcripts/4lHS1UOMfjg.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Applying Band-Aid Patch and Finalizing Hyperparameter Sweeps for PufferLib Release",
+  "summary": "Applied a band-aid patch to the setup to simplify builds, debugged hyperparameter sweep configurations on maze-solving experiments, merged a Triple Triad environment PR, and updated environment bindings for the upcoming release.",
+  "topics": [
+    "band-aid patch",
+    "hyperparameter sweep",
+    "maze solving",
+    "environment bindings",
+    "triple triad",
+    "PufferLib release"
+  ]
+}

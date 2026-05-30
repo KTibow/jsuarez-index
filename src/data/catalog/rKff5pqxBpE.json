@@ -1,0 +1,17 @@
+{
+  "id": "rKff5pqxBpE",
+  "date": "2026-02-06T14:23:12+00:00",
+  "url": "https://www.youtube.com/watch?v=rKff5pqxBpE",
+  "transcript": "/src/data/transcripts/rKff5pqxBpE.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Fixing Sweep Metrics and Running 2048 Experiments in PufferLib",
+  "summary": "Debugged and fixed broken sweep metric configuration in PufferLib, then initiated a 2048 training run with default encoder to test stability and performance.",
+  "topics": [
+    "PufferLib",
+    "hyperparameter sweeps",
+    "2048",
+    "PPO",
+    "debugging",
+    "GPU performance"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "73oixfld2Vs",
+  "date": "2024-08-21T21:18:06+00:00",
+  "url": "https://www.youtube.com/watch?v=73oixfld2Vs",
+  "transcript": "/src/data/transcripts/73oixfld2Vs.vtt",
+  "originalTitle": "Live Reinforcement Learning Dev",
+  "title": "Debugging Sweep Hanging and Adding Map Shader to MOBA",
+  "summary": "Worked on debugging a sweep hanging bug in the MOBA, implemented a shader for the map using Raylib, reviewed Atari sweep results with carbs hyperparameter tuning, and discussed performance and future plans.",
+  "topics": [
+    "PufferLib",
+    "MOBA",
+    "shader",
+    "carbs",
+    "Atari",
+    "debug hanging"
+  ]
+}

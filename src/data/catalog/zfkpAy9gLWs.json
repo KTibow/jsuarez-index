@@ -1,0 +1,17 @@
+{
+  "id": "zfkpAy9gLWs",
+  "date": "2024-07-10T01:28:59+00:00",
+  "url": "https://www.youtube.com/watch?v=zfkpAy9gLWs",
+  "transcript": "/src/data/transcripts/zfkpAy9gLWs.vtt",
+  "originalTitle": "Reinforcement learning dev: continuous control in PufferLib",
+  "title": "Debugging Continuous Control Training Stability in PufferLib",
+  "summary": "Debugged continuous control implementation in PufferLib, investigating training instability and clipping fraction anomalies. Identified that off-policy updates unexpectedly improved learning, and adjusted environment rewards to prevent degenerate behavior.",
+  "topics": [
+    "continuous control",
+    "PufferLib",
+    "hyperparameter tuning",
+    "reward shaping",
+    "training stability",
+    "clipping fraction"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "zAmewQ7LAdU",
+  "date": "2026-02-03T14:54:22+00:00",
+  "url": "https://www.youtube.com/watch?v=zAmewQ7LAdU",
+  "transcript": "/src/data/transcripts/zAmewQ7LAdU.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Fixing Memory Leaks and Integrating Constellation for PufferLib Sweeps",
+  "summary": "Worked on cleaning up environment shutdown and memory leaks in PufferLib, particularly with CUDA graphs and cuBLAS workspace. Integrated the constellation visualizer for hyperparameter sweeps and fixed BF16 numerical stability by correcting a custom kernel issue, achieving stable sweeps and pre-alpha readiness.",
+  "topics": [
+    "memory leak debugging",
+    "CUDA graphs",
+    "constellation visualizer",
+    "hyperparameter sweeps",
+    "BF16 numerical stability",
+    "custom CUDA kernels"
+  ]
+}

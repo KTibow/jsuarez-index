@@ -1,0 +1,16 @@
+{
+  "id": "OQ9HnR6-X4c",
+  "date": "2026-02-06T20:42:22+00:00",
+  "url": "https://www.youtube.com/watch?v=OQ9HnR6-X4c",
+  "transcript": "/src/data/transcripts/OQ9HnR6-X4c.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Cleaning Up Dead Code and Refactoring Dtype Handling in PufferLib",
+  "summary": "Worked on cleaning up PufferLib by removing hundreds of lines of dead code from kernels and modules, and refactored dtype handling to simplify kernel dispatch. Debugged sweep configuration issues that caused experiments to run without parameter sweeps.",
+  "topics": [
+    "dead code removal",
+    "C++ kernel refactoring",
+    "dtype dispatch",
+    "sweep debugging",
+    "PufferLib cleanup"
+  ]
+}

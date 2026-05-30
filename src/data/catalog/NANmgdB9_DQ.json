@@ -1,0 +1,17 @@
+{
+  "id": "NANmgdB9_DQ",
+  "date": "2025-05-06T14:50:13+00:00",
+  "url": "https://www.youtube.com/watch?v=NANmgdB9_DQ",
+  "transcript": "/src/data/transcripts/NANmgdB9_DQ.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Debugging NaN Crashes and Hyperparameter Sweeps in PufferLib",
+  "summary": "Debugged NaN crashes in Torch multinomial sampling by replacing NaN values in logits before action sampling. Fixed hyperparameter sweep data logging and cost normalization issues, and collaborated with Spencer on GPU Drive environment integration and performance.",
+  "topics": [
+    "PufferLib",
+    "CUDA",
+    "hyperparameter tuning",
+    "nan detection",
+    "GPU Drive",
+    "Torch"
+  ]
+}

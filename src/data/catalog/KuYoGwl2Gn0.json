@@ -1,0 +1,17 @@
+{
+  "id": "KuYoGwl2Gn0",
+  "date": "2026-04-18T14:54:17+00:00",
+  "url": "https://www.youtube.com/watch?v=KuYoGwl2Gn0",
+  "transcript": "/src/data/transcripts/KuYoGwl2Gn0.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Debugging Reward Hacking in Inferno Agent Training with Healer Fixes",
+  "summary": "Worked on training an RL agent for Old School RuneScape's Inferno minigame. Debugged a reward hacking issue caused by healers healing the boss, fixed by tracking minimum HP per enemy, and tested various gear setups to improve performance.",
+  "topics": [
+    "PufferLib",
+    "reward hacking",
+    "Inferno",
+    "healer reward bug",
+    "gear optimization",
+    "RL agent training"
+  ]
+}

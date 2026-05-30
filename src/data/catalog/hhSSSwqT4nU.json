@@ -1,0 +1,17 @@
+{
+  "id": "hhSSSwqT4nU",
+  "date": "2026-05-14T19:39:10+00:00",
+  "url": "https://www.youtube.com/watch?v=hhSSSwqT4nU",
+  "transcript": "/src/data/transcripts/hhSSSwqT4nU.vtt",
+  "originalTitle": "PufferLib RL dev with Joseph Suarez",
+  "title": "Comparing Maze Performance Across Puffer 4 and 5 Branches",
+  "summary": "Compared maze environment performance between Puffer 4 and 5 branches, finding a slight improvement in Puffer 5. Merged the maze changes from the 5 branch into 4 to prepare for Puffer 5 development. Also sketched the core algorithm for Puffer 5, which uses setable state to generate on-policy data from high-advantage states.",
+  "topics": [
+    "Puffer 5",
+    "Puffer 4",
+    "maze environment",
+    "performance comparison",
+    "algorithm sketch",
+    "state setable environments"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "zgoGUvKqXVg",
+  "date": "2026-03-31T23:30:00+00:00",
+  "url": "https://www.youtube.com/watch?v=zgoGUvKqXVg",
+  "transcript": "/src/data/transcripts/zgoGUvKqXVg.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Fixing Drive Bug and Refactoring Custom Encoders for PufferLib",
+  "summary": "Fixed a bug in the drive environment and a PufferLib render bug. Refactored custom encoders and discussed the new CUDA training backend.",
+  "topics": [
+    "PufferLib",
+    "drive environment",
+    "custom encoders",
+    "CUDA backend",
+    "bug fix",
+    "refactoring"
+  ]
+}

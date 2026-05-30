@@ -1,0 +1,17 @@
+{
+  "id": "BcOy-lGJCrc",
+  "date": "2024-08-10T00:38:50+00:00",
+  "url": "https://www.youtube.com/watch?v=BcOy-lGJCrc",
+  "transcript": "/src/data/transcripts/BcOy-lGJCrc.vtt",
+  "originalTitle": "Live Reinforcement Learning Dev",
+  "title": "Fixing Data Corruption Bug Preventing Game Reset in PufferLib Sim",
+  "summary": "Debugged a rare bug where the ancient would disappear without triggering a game reset, caused by stale position data in reused buffers from agent deaths. Implemented a fix by resetting positions to zero on death and spawn to prevent data corruption.",
+  "topics": [
+    "PufferLib",
+    "debugging",
+    "game reset",
+    "data corruption",
+    "high-performance simulation",
+    "DOTA-like environment"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "qETgK7n1D00",
+  "date": "2025-06-30T19:57:34+00:00",
+  "url": "https://www.youtube.com/watch?v=qETgK7n1D00",
+  "transcript": "/src/data/transcripts/qETgK7n1D00.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Setting Up Neural MMO Sweep and Debugging Asteroids Policy Issues",
+  "summary": "Set up a long sweep for neural MMO to address delayed reward signals and policy performance. Debugged the asteroids policy, identifying screen wrap misalignment and an inefficient bubble sort in the environment code.",
+  "topics": [
+    "neural MMO",
+    "sweep training",
+    "asteroids policy",
+    "screen wrap bug",
+    "bubble sort optimization",
+    "PufferLib"
+  ]
+}

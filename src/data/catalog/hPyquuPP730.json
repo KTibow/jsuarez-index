@@ -1,0 +1,16 @@
+{
+  "id": "hPyquuPP730",
+  "date": "2025-07-17T18:31:10+00:00",
+  "url": "https://www.youtube.com/watch?v=hPyquuPP730",
+  "transcript": "/src/data/transcripts/hPyquuPP730.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Fixing Ring Pass Logging and Multi-Task Training for Drone Simulation",
+  "summary": "Debugged a logging bug for rings passed in a drone simulation environment within PufferLib, caused by a compilation conflict between simultaneous code edits. Then implemented multi-task training by mixing racing and swarming tasks to train a single policy for both.",
+  "topics": [
+    "PufferLib",
+    "drone simulation",
+    "logging bug",
+    "multi-task training",
+    "off-policy RL"
+  ]
+}

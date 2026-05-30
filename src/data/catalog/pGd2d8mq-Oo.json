@@ -1,0 +1,16 @@
+{
+  "id": "pGd2d8mq-Oo",
+  "date": "2025-04-21T11:56:14+00:00",
+  "url": "https://www.youtube.com/watch?v=pGd2d8mq-Oo",
+  "transcript": "/src/data/transcripts/pGd2d8mq-Oo.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging Meta Environment Training and Hyperparameter Tuning in PufferLib",
+  "summary": "Integrated the Meta environment into PufferLib, debugging reward and reset mechanics while running hyperparameter sweeps to improve agent performance. Experiments showed baseline training but further tuning is needed for optimal results.",
+  "topics": [
+    "PufferLib",
+    "Meta environment",
+    "hyperparameter tuning",
+    "training loop debugging",
+    "environment integration"
+  ]
+}

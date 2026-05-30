@@ -1,0 +1,16 @@
+{
+  "id": "AleWr-poH0I",
+  "date": "2025-01-24T19:49:05+00:00",
+  "url": "https://www.youtube.com/watch?v=AleWr-poH0I",
+  "transcript": "/src/data/transcripts/AleWr-poH0I.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging e3b Stability with PufferLib and Pong Parameters",
+  "summary": "Worked on stabilizing e3b using PufferLib, referencing pong environment parameters from a previous hyperparameter sweep. Also discussed performance discrepancies with H100 tensor cores for reinforcement learning workloads.",
+  "topics": [
+    "PufferLib",
+    "e3b stability",
+    "pong environment",
+    "GPU performance",
+    "hyperparameter sweep"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "DgiVGEKrtFU",
+  "date": "2025-03-14T12:47:29+00:00",
+  "url": "https://www.youtube.com/watch?v=DgiVGEKrtFU",
+  "transcript": "/src/data/transcripts/DgiVGEKrtFU.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging 3D Rendering Offsets and Hyperparameter Sweeps for Impulse Wars",
+  "summary": "Debugged rendering offsets in the 3D port of Impulse Wars, fixing aim guide rotations, explosion transparency, wall positioning, and coordinate system issues. Reviewed hyperparameter sweep results and experimented with a GPU Drive driving simulation.",
+  "topics": [
+    "PufferLib",
+    "3D rendering",
+    "hyperparameter tuning",
+    "Impulse Wars",
+    "raylib",
+    "coordinate systems"
+  ]
+}

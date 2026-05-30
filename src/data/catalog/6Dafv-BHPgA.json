@@ -1,0 +1,16 @@
+{
+  "id": "6Dafv-BHPgA",
+  "date": "2026-05-05T17:45:59+00:00",
+  "url": "https://www.youtube.com/watch?v=6Dafv-BHPgA",
+  "transcript": "/src/data/transcripts/6Dafv-BHPgA.vtt",
+  "originalTitle": "PufferLib RL dev with Joseph Suarez",
+  "title": "Testing Set-Based Encoder Architectures for Multi-Agent Coordination in RL",
+  "summary": "Experimented with various encoder architectures for set-based observations in a multi-agent coordination environment. Found that a simple two-layer linear+max encoder matched or outperformed attention-based variants, and discussed kernel fusion strategies for efficient implementation.",
+  "topics": [
+    "PufferLib",
+    "set observations",
+    "encoder architecture",
+    "kernel fusion",
+    "multi-agent coordination"
+  ]
+}

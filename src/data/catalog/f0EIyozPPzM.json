@@ -1,0 +1,17 @@
+{
+  "id": "f0EIyozPPzM",
+  "date": "2024-08-30T20:18:00+00:00",
+  "url": "https://www.youtube.com/watch?v=f0EIyozPPzM",
+  "transcript": "/src/data/transcripts/f0EIyozPPzM.vtt",
+  "originalTitle": "Chatting reinforcement learning. Editing videos is boring. Come say hi!",
+  "title": "Debugging GPU Drive Crashes and Achieving Sub-30 Second Training in PufferLib",
+  "summary": "Debugged GPU Drive crashes when running multiple environment copies by implementing a subprocess fix. Fixed rendering and masking bugs for variable agent counts, enabling hyperparameter sweeps that solved the environment in under 30 seconds on a 4090 GPU.",
+  "topics": [
+    "GPU Drive",
+    "PufferLib",
+    "Madrona",
+    "subprocess",
+    "masking",
+    "hyperparameter sweeps"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "zGuTURp59pA",
+  "date": "2024-11-25T20:56:08+00:00",
+  "url": "https://www.youtube.com/watch?v=zGuTURp59pA",
+  "transcript": "/src/data/transcripts/zGuTURp59pA.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Code Review of Contributor's Trash Pickup Environment in PufferLib",
+  "summary": "Conducted a thorough code review of a Pull Request for a new trash pickup environment. Provided detailed feedback on neural network architecture, Cython code structure, and observation design to improve efficiency and readability.",
+  "topics": [
+    "PufferLib",
+    "code review",
+    "grid environment",
+    "neural network architecture",
+    "contributor onboarding",
+    "trash pickup"
+  ]
+}

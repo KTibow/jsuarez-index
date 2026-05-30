@@ -1,0 +1,17 @@
+{
+  "id": "sLpws0ySjPs",
+  "date": "2025-11-25T23:13:49+00:00",
+  "url": "https://www.youtube.com/watch?v=sLpws0ySjPs",
+  "transcript": "/src/data/transcripts/sLpws0ySjPs.vtt",
+  "originalTitle": "Live RL Research on PufferLib w/ Joseph Suarez",
+  "title": "Investigating Slow Environment and Planning Puffer 4 Optimizations",
+  "summary": "Investigated a poorly-performing third-party environment, identified engineering issues causing slowness, and discussed upcoming Puffer 4 improvements including vectorization, CUDA graphs, and threaded environment handling. Also launched a $200/month business support subscription.",
+  "topics": [
+    "Puffer 4",
+    "environment debugging",
+    "vectorization optimization",
+    "CUDA graphs",
+    "threaded environment handling",
+    "business support subscription"
+  ]
+}

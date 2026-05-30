@@ -1,0 +1,17 @@
+{
+  "id": "toHrgJwyTi8",
+  "date": "2025-12-03T18:54:20+00:00",
+  "url": "https://www.youtube.com/watch?v=toHrgJwyTi8",
+  "transcript": "/src/data/transcripts/toHrgJwyTi8.vtt",
+  "originalTitle": "Live RL dev on Pufferlib w/ Joseph Suarez",
+  "title": "Debugging Tiny Grad Variable Kernels and Puffer Multi-Threaded Vectorization",
+  "summary": "Attempted to generate variable-sized fused kernels using Tiny Grad, encountering shape evaluation errors. Later debugged a multi-threaded C++ vectorization backend with GPU synchronization, identifying a buffer completion counter design to fix ordering issues.",
+  "topics": [
+    "Tiny Grad",
+    "variable kernel generation",
+    "C++ multi-threading",
+    "GPU synchronization",
+    "PufferLib vectorization",
+    "RL infrastructure"
+  ]
+}

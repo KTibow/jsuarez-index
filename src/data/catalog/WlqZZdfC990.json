@@ -1,0 +1,17 @@
+{
+  "id": "WlqZZdfC990",
+  "date": "2025-02-19T13:18:37+00:00",
+  "url": "https://www.youtube.com/watch?v=WlqZZdfC990",
+  "transcript": "/src/data/transcripts/WlqZZdfC990.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Noise Robustness in a Hyperparameter Sweep Algorithm for RL",
+  "summary": "Worked on debugging a hyperparameter sweep algorithm derived from IMB AI carbs, addressing performance collapse caused by noisy observations overestimating the Pareto front; implemented a resampling mechanism to average multiple trials and improve robustness.",
+  "topics": [
+    "hyperparameter sweep",
+    "Pareto optimality",
+    "noise robustness",
+    "Bayesian optimization",
+    "reinforcement learning",
+    "pufferlib"
+  ]
+}

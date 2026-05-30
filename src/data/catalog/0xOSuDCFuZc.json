@@ -1,0 +1,17 @@
+{
+  "id": "0xOSuDCFuZc",
+  "date": "2025-10-08T14:35:24+00:00",
+  "url": "https://www.youtube.com/watch?v=0xOSuDCFuZc",
+  "transcript": "/src/data/transcripts/0xOSuDCFuZc.vtt",
+  "originalTitle": "PufferLib - Reinforcement Learning Agents Including Me",
+  "title": "Profiling and Optimizing GPU Utilization for Small Networks in PufferLib",
+  "summary": "Worked on profiling PufferLib's hardware efficiency by measuring model FLOPs utilization (MFU) and exploring torch compile and JAX comparisons to optimize performance for small batch sizes and networks. Identified potential for significant speed improvements through better compilation and lower-precision modes.",
+  "topics": [
+    "profiling",
+    "GPU utilization",
+    "small network optimization",
+    "torch compile",
+    "JAX comparison",
+    "PufferLib performance"
+  ]
+}

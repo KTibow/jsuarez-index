@@ -1,0 +1,17 @@
+{
+  "id": "IROmCRQwNx4",
+  "date": "2024-11-19T14:36:59+00:00",
+  "url": "https://www.youtube.com/watch?v=IROmCRQwNx4",
+  "transcript": "/src/data/transcripts/IROmCRQwNx4.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Snake Segfault and Finalizing Baselines for PufferLib Release",
+  "summary": "Debugged a memory layout bug causing random segfaults in the Snake C environment, fixed it with a one-character change, and observed stable training. Ran hyperparameter sweeps for Pong and Breakout, finalized baselines for Connect 4, Pong, Breakout, and Snake, and progressed toward the 1.1 release.",
+  "topics": [
+    "PufferLib",
+    "C environment",
+    "segfault debug",
+    "hyperparameter sweep",
+    "Snake",
+    "Connect 4"
+  ]
+}

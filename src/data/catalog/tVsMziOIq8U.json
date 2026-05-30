@@ -1,0 +1,16 @@
+{
+  "id": "tVsMziOIq8U",
+  "date": "2024-11-19T14:28:50+00:00",
+  "url": "https://www.youtube.com/watch?v=tVsMziOIq8U",
+  "transcript": "/src/data/transcripts/tVsMziOIq8U.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Analyzing Hyperparameter Sweep Results for Connect 4",
+  "summary": "Analyzed a hyperparameter sweep from the previous night, filtering runs by score and relative time to identify stable configurations for Connect 4.",
+  "topics": [
+    "hyperparameter tuning",
+    "sweep analysis",
+    "Connect 4",
+    "run filtering",
+    "score thresholding"
+  ]
+}

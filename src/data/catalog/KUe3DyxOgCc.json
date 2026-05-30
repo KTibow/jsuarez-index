@@ -1,0 +1,16 @@
+{
+  "id": "KUe3DyxOgCc",
+  "date": "2025-12-28T15:10:03+00:00",
+  "url": "https://www.youtube.com/watch?v=KUe3DyxOgCc",
+  "transcript": "/src/data/transcripts/KUe3DyxOgCc.vtt",
+  "originalTitle": "Joseph Suarez fights CUDAGraphs",
+  "title": "Profiling CUDA Graph Overhead with Device Synchronize",
+  "summary": "Worked on profiling a CUDA graph to identify performance bottlenecks. Used manual device synchronize calls to separate launch overhead from actual compute, revealing 20% overhead from copies.",
+  "topics": [
+    "CUDA graph profiling",
+    "NSight",
+    "device synchronize",
+    "overhead analysis",
+    "performance tuning"
+  ]
+}

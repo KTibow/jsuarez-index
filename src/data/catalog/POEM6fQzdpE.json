@@ -1,0 +1,17 @@
+{
+  "id": "POEM6fQzdpE",
+  "date": "2025-02-04T14:00:05+00:00",
+  "url": "https://www.youtube.com/watch?v=POEM6fQzdpE",
+  "transcript": "/src/data/transcripts/POEM6fQzdpE.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Score Normalization Transform for PufferLib Hyperparameter Optimization",
+  "summary": "Worked on implementing and debugging a score normalization transform for PufferLib's hyperparameter optimization. Tested the transform on synthetic data distributions (linear, log, percentile) to ensure correct output scaling. Also assisted a user with logging issues and recommended adding a 3D renderer.",
+  "topics": [
+    "score normalization",
+    "PufferLib",
+    "hyperparameter optimization",
+    "synthetic data testing",
+    "transform debugging",
+    "logging"
+  ]
+}

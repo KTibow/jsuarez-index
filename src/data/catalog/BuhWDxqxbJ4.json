@@ -1,0 +1,17 @@
+{
+  "id": "BuhWDxqxbJ4",
+  "date": "2025-11-14T16:23:28+00:00",
+  "url": "https://www.youtube.com/watch?v=BuhWDxqxbJ4",
+  "transcript": "/src/data/transcripts/BuhWDxqxbJ4.vtt",
+  "originalTitle": "Live RL Research on PufferLib w/ Joseph Suarez",
+  "title": "Porting Muon Optimizer to C++ for PyTorch Backend",
+  "summary": "Worked on porting the Muon optimizer from Python to C++ for inclusion in PyTorch's backend. Debugged compilation issues with torch build and serialization, while also reviewing a collaborator's PR for PufferLib sweep improvements and discussing Minigru architecture.",
+  "topics": [
+    "Muon optimizer",
+    "C++ port",
+    "PyTorch",
+    "PufferLib",
+    "compilation debugging",
+    "Minigru"
+  ]
+}

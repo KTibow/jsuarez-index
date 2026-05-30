@@ -1,0 +1,17 @@
+{
+  "id": "zV8BTnmk5uI",
+  "date": "2026-04-23T15:51:43+00:00",
+  "url": "https://www.youtube.com/watch?v=zV8BTnmk5uI",
+  "transcript": "/src/data/transcripts/zV8BTnmk5uI.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Debugging RuneScape Inferno Simulator and Running Hyperparameter Sweeps",
+  "summary": "Worked on the RuneScape Inferno simulator environment, fixing a potion reset bug and launching a new hyperparameter sweep. Also reviewed PRs and discussed multi-objective reinforcement learning techniques.",
+  "topics": [
+    "PufferLib",
+    "RuneScape Inferno",
+    "hyperparameter sweep",
+    "simulation environment",
+    "multi-objective RL",
+    "debugging"
+  ]
+}

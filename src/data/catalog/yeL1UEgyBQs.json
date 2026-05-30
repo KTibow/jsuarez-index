@@ -1,0 +1,16 @@
+{
+  "id": "yeL1UEgyBQs",
+  "date": "2025-11-22T23:37:58+00:00",
+  "url": "https://www.youtube.com/watch?v=yeL1UEgyBQs",
+  "transcript": "/src/data/transcripts/yeL1UEgyBQs.vtt",
+  "originalTitle": "Live RL Research on PufferLib w/ Joseph Suarez",
+  "title": "Debugging Backward Kernel for RMS Norm in PufferLib",
+  "summary": "Implemented and debugged a custom CUDA backward kernel for RMS norm to reduce PyTorch overhead. Encountered complex cross-term gradients and numerical stability issues; kernel not yet functional.",
+  "topics": [
+    "CUDA kernels",
+    "RMS norm",
+    "gradient computation",
+    "PyTorch overhead",
+    "numerical stability"
+  ]
+}

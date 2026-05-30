@@ -1,0 +1,17 @@
+{
+  "id": "lKi26ukVy6s",
+  "date": "2025-08-28T19:49:47+00:00",
+  "url": "https://www.youtube.com/watch?v=lKi26ukVy6s",
+  "transcript": "/src/data/transcripts/lKi26ukVy6s.vtt",
+  "originalTitle": "PufferLib - world models get another chance",
+  "title": "Debugging World Model Training Loop for On-Policy RL",
+  "summary": "Worked on debugging the training loop for a world model-based reinforcement learning algorithm. Replaced world model data with real environment data as a sanity check, observed entropy crash and stability issues, and adjusted hyperparameters.",
+  "topics": [
+    "world model",
+    "reinforcement learning",
+    "on-policy RL",
+    "training loop debugging",
+    "entropy crash",
+    "sanity check"
+  ]
+}

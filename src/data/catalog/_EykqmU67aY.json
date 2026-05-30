@@ -1,0 +1,17 @@
+{
+  "id": "_EykqmU67aY",
+  "date": "2025-03-01T14:51:20+00:00",
+  "url": "https://www.youtube.com/watch?v=_EykqmU67aY",
+  "transcript": "/src/data/transcripts/_EykqmU67aY.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Profiling and Optimizing PufferLib Training Loop to 1.5 Million Steps",
+  "summary": "Profiled the PufferLib training loop, identified bottlenecks in sorting training data and copy operations, and implemented fixes including using numpy sort and asynchronous device transfers. Achieved a speedup from ~1M to 1.5M steps per second, with remaining overhead in LSTM forward pass.",
+  "topics": [
+    "profiling",
+    "PufferLib",
+    "training loop optimization",
+    "LSTM performance",
+    "asynchronous transfers",
+    "sorting bottleneck"
+  ]
+}

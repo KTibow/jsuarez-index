@@ -1,0 +1,17 @@
+{
+  "id": "GdUJD96BDzI",
+  "date": "2025-05-17T13:08:13+00:00",
+  "url": "https://www.youtube.com/watch?v=GdUJD96BDzI",
+  "transcript": "/src/data/transcripts/GdUJD96BDzI.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Setting Up Terrain Generation and Dozer Movement in Excavation Sim with PufferLib",
+  "summary": "Worked on building an excavation simulation in PufferLib, including terrain generation via Perlin noise, initial dozer entity setup, and basic movement actions. Debugged audio streaming issues and began rendering the terrain height map.",
+  "topics": [
+    "excavation sim",
+    "PufferLib",
+    "terrain generation",
+    "Perlin noise",
+    "dozer movement",
+    "entity rendering"
+  ]
+}

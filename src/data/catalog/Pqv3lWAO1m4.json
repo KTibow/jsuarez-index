@@ -1,0 +1,17 @@
+{
+  "id": "Pqv3lWAO1m4",
+  "date": "2025-05-08T13:23:42+00:00",
+  "url": "https://www.youtube.com/watch?v=Pqv3lWAO1m4",
+  "transcript": "/src/data/transcripts/Pqv3lWAO1m4.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Setting Up Meta-Sweep for Metagrid Environment in PufferLib",
+  "summary": "Configured and launched a hyperparameter sweep for the Metagrid environment, resolved Python 3.11 version mismatches, and handled dependency installation (CFFI, Neptune). The sweep started running successfully with 650k steps.",
+  "topics": [
+    "Metagrid",
+    "sweep configuration",
+    "hyperparameter tuning",
+    "PufferLib",
+    "Python environment management",
+    "dependency cleanup"
+  ]
+}

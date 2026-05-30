@@ -105,7 +105,7 @@ def metadata_date(metadata: dict) -> str | None:
 
 
 def normalize() -> int:
-    streams_dir = Path('streams')
+    streams_dir = Path('src/data/transcripts')
     metadata_file = Path(os.environ.get('RUNNER_TEMP') or '/tmp/jsuarez-index-sync') / 'stream-info.jsonl'
     caption_files = sorted(streams_dir.glob('*.vtt'))
     if not caption_files:

@@ -1,0 +1,17 @@
+{
+  "id": "p2hJQFGNlYY",
+  "date": "2025-01-17T13:05:25+00:00",
+  "url": "https://www.youtube.com/watch?v=p2hJQFGNlYY",
+  "transcript": "/src/data/transcripts/p2hJQFGNlYY.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Carbs Hyperparameter Tuning and Building a Synthetic Test",
+  "summary": "Investigated unexpected variance in carbs hyperparameter optimization runs. Discovered misconfigured Neptune charts and began building a synthetic test to validate carbs behavior with cost-awareness.",
+  "topics": [
+    "carbs",
+    "hyperparameter tuning",
+    "neptune",
+    "synthetic test",
+    "breakout",
+    "cost-aware optimization"
+  ]
+}

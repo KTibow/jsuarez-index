@@ -1,0 +1,17 @@
+{
+  "id": "9H-uBJQJ1nw",
+  "date": "2025-02-18T19:16:13+00:00",
+  "url": "https://www.youtube.com/watch?v=9H-uBJQJ1nw",
+  "transcript": "/src/data/transcripts/9H-uBJQJ1nw.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Hyperparameter Sweep Algorithm and Simplifying to Nearest Pareto Improvement",
+  "summary": "Worked on hyperparameter tuning for PufferLib, simplifying the sweep algorithm to 'expected improvement over nearest Pareto point' and integrating full training curves as training data. Also reviewed and merged a PR for the tower climb environment and discussed curriculum learning collaborations.",
+  "topics": [
+    "hyperparameter tuning",
+    "pufferlib",
+    "Pareto improvement",
+    "reinforcement learning",
+    "curriculum learning",
+    "C environment development"
+  ]
+}

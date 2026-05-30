@@ -1,0 +1,17 @@
+{
+  "id": "w_0PSlyZjEk",
+  "date": "2025-07-10T16:21:19+00:00",
+  "url": "https://www.youtube.com/watch?v=w_0PSlyZjEk",
+  "transcript": "/src/data/transcripts/w_0PSlyZjEk.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Refactoring Drone Physics into a Reusable Header for Domain Randomization",
+  "summary": "Worked on consolidating drone simulation math into a standalone drone.h header file to enable domain randomization across multiple environments. Began extracting coefficients and physics calculations from existing implementations to reduce duplication and prepare for robust sim-to-real transfer.",
+  "topics": [
+    "drone simulation",
+    "domain randomization",
+    "refactoring",
+    "C header",
+    "physics math",
+    "PufferLib"
+  ]
+}

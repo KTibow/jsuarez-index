@@ -1,0 +1,17 @@
+{
+  "id": "WDBYHVjxtFg",
+  "date": "2026-03-28T20:33:13+00:00",
+  "url": "https://www.youtube.com/watch?v=WDBYHVjxtFg",
+  "transcript": "/src/data/transcripts/WDBYHVjxtFg.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Editing Release Articles and Debugging CUDA Issues for Puffer 4",
+  "summary": "Worked on editing release articles for Puffer 4, adding mathematical content to one section, and advised a contributor on a CUDA OOM error possibly due to missing CUDA support or old GPU.",
+  "topics": [
+    "release articles",
+    "Puffer 4",
+    "CUDA error debugging",
+    "math content",
+    "contributor support",
+    "stream planning"
+  ]
+}

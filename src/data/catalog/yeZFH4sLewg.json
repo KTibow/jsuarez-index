@@ -1,0 +1,17 @@
+{
+  "id": "yeZFH4sLewg",
+  "date": "2025-03-06T00:01:38+00:00",
+  "url": "https://www.youtube.com/watch?v=yeZFH4sLewg",
+  "transcript": "/src/data/transcripts/yeZFH4sLewg.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging CUDA Advantage Kernel and Optimizing New RL Algorithm Performance",
+  "summary": "Debugged a CUDA kernel implementing a new advantage function for the P3O algorithm, achieving near-PPO speed (1.2M steps/sec). Optimized overhead by removing redundant operations and ported code to update containers for deployment.",
+  "topics": [
+    "CUDA kernel",
+    "advantage function",
+    "performance optimization",
+    "P3O algorithm",
+    "PPO comparison",
+    "container deployment"
+  ]
+}

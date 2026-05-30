@@ -1,0 +1,17 @@
+{
+  "id": "Hyujy1MT7QQ",
+  "date": "2025-01-17T23:51:42+00:00",
+  "url": "https://www.youtube.com/watch?v=Hyujy1MT7QQ",
+  "transcript": "/src/data/transcripts/Hyujy1MT7QQ.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Rescaling Hyperparameter Spaces for Carbs Sweep Algorithm",
+  "summary": "Worked on rescaling hyperparameter spaces in carbs to improve sampling. Implemented linear and log transformations to map parameters to -1 to 1 space. Testing showed significant performance improvement on a synthetic benchmark.",
+  "topics": [
+    "carbs",
+    "hyperparameter space transformation",
+    "pufferlib",
+    "reinforcement learning",
+    "log space",
+    "linear space"
+  ]
+}

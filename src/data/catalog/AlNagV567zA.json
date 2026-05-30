@@ -1,0 +1,17 @@
+{
+  "id": "AlNagV567zA",
+  "date": "2025-01-15T13:31:32+00:00",
+  "url": "https://www.youtube.com/watch?v=AlNagV567zA",
+  "transcript": "/src/data/transcripts/AlNagV567zA.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging PufferLib Packaging and Ray Linker Issues",
+  "summary": "Debugged packaging issues with PufferLib, specifically linker errors with the ray package, and implemented a workaround by bundling pre-built binaries. Also reviewed a user's hyperparameters and logging setup for a reinforcement learning environment.",
+  "topics": [
+    "PufferLib",
+    "packaging",
+    "Cython",
+    "linker errors",
+    "ray",
+    "setup.py"
+  ]
+}

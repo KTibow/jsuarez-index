@@ -1,0 +1,17 @@
+{
+  "id": "hpW3qM0m7uI",
+  "date": "2025-05-27T14:28:19+00:00",
+  "url": "https://www.youtube.com/watch?v=hpW3qM0m7uI",
+  "transcript": "/src/data/transcripts/hpW3qM0m7uI.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Debugging Memory Overwrite Bug in PufferLib Environment Binding",
+  "summary": "Debugged a memory corruption bug in a contributed environment where a log struct defined as a pointer caused an off-by-one overwrite of adjacent memory. Fixed by changing the struct to a non-pointer. Also set up new GPU servers and started hyperparameter sweeps.",
+  "topics": [
+    "PufferLib",
+    "memory debugging",
+    "C++ bindings",
+    "struct alignment",
+    "hyperparameter sweep",
+    "hardware setup"
+  ]
+}

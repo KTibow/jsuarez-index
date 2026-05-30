@@ -1,0 +1,17 @@
+{
+  "id": "MaSIoy2-eG0",
+  "date": "2025-10-22T23:07:07+00:00",
+  "url": "https://www.youtube.com/watch?v=MaSIoy2-eG0",
+  "transcript": "/src/data/transcripts/MaSIoy2-eG0.vtt",
+  "originalTitle": "PufferLib - Hardcore RL Perf Optimization",
+  "title": "Optimizing Torch Compile and Benchmarking JAX vs Torch for PufferLib",
+  "summary": "Worked on optimizing torch compile for PufferLib's training loop, comparing performance with JAX. Achieved speedups but GPU utilization remains low; plans to investigate packing multiple jobs on the same GPU.",
+  "topics": [
+    "Torch compile",
+    "JAX vs PyTorch",
+    "training loop optimization",
+    "GPU utilization",
+    "BF16 inference",
+    "functional programming"
+  ]
+}

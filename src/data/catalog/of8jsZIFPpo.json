@@ -1,0 +1,17 @@
+{
+  "id": "of8jsZIFPpo",
+  "date": "2026-05-22T17:02:04+00:00",
+  "url": "https://www.youtube.com/watch?v=of8jsZIFPpo",
+  "transcript": "/src/data/transcripts/of8jsZIFPpo.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Integrating Optimizer Improvements and Analyzing Overnight Experiments",
+  "summary": "Worked on integrating several small optimizer improvements including Polar orthogonalization, MuP learning rate scaling, and fixed orthogonalization for encoder layers. Attempted to integrate schedule-free learning rate but discarded it due to instability in RL.",
+  "topics": [
+    "PufferLib",
+    "optimizer improvements",
+    "Polar orthogonalization",
+    "MuP",
+    "schedule-free learning rate",
+    "protein hyperparameter tuning"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "PkF31GJX2Es",
+  "date": "2026-01-06T15:43:43+00:00",
+  "url": "https://www.youtube.com/watch?v=PkF31GJX2Es",
+  "transcript": "/src/data/transcripts/PkF31GJX2Es.vtt",
+  "originalTitle": "Opus 4.5 without brain damage",
+  "title": "Building a Kernel Benchmark Suite for PufferLib Custom CUDA Kernels",
+  "summary": "Worked on porting a kernel profiler from Python to C++ to benchmark custom CUDA kernels for PufferLib, supporting raw CUDA and Torch integrations. Designed a compact, verifiable profiling structure and applied it across multiple kernels.",
+  "topics": [
+    "kernel benchmarking",
+    "CUDA",
+    "Torch C++ API",
+    "PufferLib",
+    "profiling",
+    "C++ porting"
+  ]
+}

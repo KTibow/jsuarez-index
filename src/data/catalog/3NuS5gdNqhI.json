@@ -1,0 +1,17 @@
+{
+  "id": "3NuS5gdNqhI",
+  "date": "2025-03-05T19:32:20+00:00",
+  "url": "https://www.youtube.com/watch?v=3NuS5gdNqhI",
+  "transcript": "/src/data/transcripts/3NuS5gdNqhI.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Profiling and Optimizing P3O Overhead with GPU Indexing and CUDA Kernel",
+  "summary": "Profiled performance bottlenecks in the P3O algorithm, moved indexing operations to GPU to reduce CPU overhead, and began writing a custom CUDA kernel for advantage computation. The changes narrowed the performance gap with PPO, achieving a 5% speed improvement.",
+  "topics": [
+    "P3O algorithm",
+    "GPU indexing optimization",
+    "performance profiling",
+    "CUDA kernel",
+    "PPO comparison",
+    "overhead reduction"
+  ]
+}

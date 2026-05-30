@@ -1,0 +1,17 @@
+{
+  "id": "2F_n1GsYl-A",
+  "date": "2025-03-13T16:41:20+00:00",
+  "url": "https://www.youtube.com/watch?v=2F_n1GsYl-A",
+  "transcript": "/src/data/transcripts/2F_n1GsYl-A.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Implementing Adaptive Gamma for Advantage and Porting INF Warfare Renderer to 3D",
+  "summary": "Developed a novel advantage estimation method replacing GAE's fixed gamma/lambda with a learned vector of gamma values per timestep, using variance to weight rewards. Code-reviewed Captain's Box2D game code, then ported the renderer from 2D to 3D using Raylib.",
+  "topics": [
+    "advantage estimation",
+    "gamma adaptation",
+    "Box2D",
+    "code review",
+    "3D rendering",
+    "Raylib"
+  ]
+}

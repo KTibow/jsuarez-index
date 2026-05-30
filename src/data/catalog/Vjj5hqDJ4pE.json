@@ -1,0 +1,17 @@
+{
+  "id": "Vjj5hqDJ4pE",
+  "date": "2025-07-03T17:23:35+00:00",
+  "url": "https://www.youtube.com/watch?v=Vjj5hqDJ4pE",
+  "transcript": "/src/data/transcripts/Vjj5hqDJ4pE.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Implementing Multi-Task Drone Simulation with Swarm Control in PufferLib",
+  "summary": "Worked on a drone simulation environment, adding multiple task targets (hover, orbit, follow, line, conga, plane) with per-agent targets and a two-component reward function. Debugged trail rendering and trained a policy that handles all tasks simultaneously, achieving decent behavior in seconds.",
+  "topics": [
+    "drone sim",
+    "reward design",
+    "multi-task RL",
+    "swarm control",
+    "C environment",
+    "PufferLib trainer"
+  ]
+}

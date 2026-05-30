@@ -1,0 +1,17 @@
+{
+  "id": "5t_0mUZgD6U",
+  "date": "2025-12-26T14:46:47+00:00",
+  "url": "https://www.youtube.com/watch?v=5t_0mUZgD6U",
+  "transcript": "/src/data/transcripts/5t_0mUZgD6U.vtt",
+  "originalTitle": "Live RL dev on Pufferlib w/ Joseph Suarez",
+  "title": "Debugging CUDA Graph Capture for Puffer 4 C++ Implementation",
+  "summary": "Worked on integrating CUDA graphs into the native C++ training pipeline for Puffer 4 to reduce CUDA launch overhead. Encountered issues with PyTorch compile API, switched to manual CUDA graph capture, and achieved partial success with graph tracing but faced illegal memory address errors after graph creation.",
+  "topics": [
+    "CUDA graphs",
+    "torch compile",
+    "C++ vectorization",
+    "Puffer 4",
+    "launch overhead",
+    "GPU buffering"
+  ]
+}

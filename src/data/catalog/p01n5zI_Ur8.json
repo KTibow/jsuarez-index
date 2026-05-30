@@ -1,0 +1,17 @@
+{
+  "id": "p01n5zI_Ur8",
+  "date": "2025-08-01T21:11:46+00:00",
+  "url": "https://www.youtube.com/watch?v=p01n5zI_Ur8",
+  "transcript": "/src/data/transcripts/p01n5zI_Ur8.vtt",
+  "originalTitle": "PufferLib - Come help fix our build",
+  "title": "Improving PufferLib Build System with UV and Merging Whisker Racer Environment",
+  "summary": "Worked on improving the PufferLib build system to reduce user installation errors, exploring UV build isolation and restructuring dependencies. Merged the Whisker Racer environment onto the website and reviewed community contributions.",
+  "topics": [
+    "PufferLib",
+    "build system",
+    "UV",
+    "CUDA extensions",
+    "C extensions",
+    "Whisker Racer"
+  ]
+}

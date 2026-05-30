@@ -1,0 +1,17 @@
+{
+  "id": "RACmdyuHQDQ",
+  "date": "2026-03-31T18:47:30+00:00",
+  "url": "https://www.youtube.com/watch?v=RACmdyuHQDQ",
+  "transcript": "/src/data/transcripts/RACmdyuHQDQ.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Polishing Constellation Shader and Recording Release Demos for Puffer 4",
+  "summary": "Worked on the star shader for the constellation visualization tool, tuning parameters for better point clarity and reducing washout. Implemented a temporary recording feature in constellation to capture demo clips for the trailer and article, and updated the architecture diagram.",
+  "topics": [
+    "star shader",
+    "constellation visualization",
+    "release preparation",
+    "recording demos",
+    "architecture diagram",
+    "Puffer 4"
+  ]
+}

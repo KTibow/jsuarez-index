@@ -1,0 +1,17 @@
+{
+  "id": "VlkUtwBJl6k",
+  "date": "2025-04-08T22:09:44+00:00",
+  "url": "https://www.youtube.com/watch?v=VlkUtwBJl6k",
+  "transcript": "/src/data/transcripts/VlkUtwBJl6k.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Cleaning Up Prioritized Experience Replay Implementation in PufferLib",
+  "summary": "Worked on code cleanup for the new prioritized experience replay implementation. Debugged logging of sample reuse statistics, experimented with top-k vs sampling, fixed indexing and value recomputation issues, and reduced the codebase by approximately 100 lines.",
+  "topics": [
+    "prioritized experience replay",
+    "code cleanup",
+    "ppo",
+    "top-k sampling",
+    "replay buffer",
+    "debugging"
+  ]
+}

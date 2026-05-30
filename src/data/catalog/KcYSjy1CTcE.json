@@ -1,0 +1,17 @@
+{
+  "id": "KcYSjy1CTcE",
+  "date": "2025-03-26T12:28:47+00:00",
+  "url": "https://www.youtube.com/watch?v=KcYSjy1CTcE",
+  "transcript": "/src/data/transcripts/KcYSjy1CTcE.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Analyzing Muon Optimizer Plateau and Gradient Noise in PufferLib",
+  "summary": "Analyzed learning curves comparing Muon and Adam optimizers, finding Muon often plateaus after initial promise. Investigated gradient noise scale across environments and found it correlates with reward sparsity rather than task difficulty. Ran hyperparameter sweeps and debugged environment-specific issues. Planned to implement gradient accumulation.",
+  "topics": [
+    "PufferLib",
+    "Muon",
+    "gradient noise",
+    "hyperparameter tuning",
+    "gradient accumulation",
+    "RL optimization"
+  ]
+}

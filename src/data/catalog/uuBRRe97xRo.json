@@ -1,0 +1,17 @@
+{
+  "id": "uuBRRe97xRo",
+  "date": "2025-11-29T15:49:17+00:00",
+  "url": "https://www.youtube.com/watch?v=uuBRRe97xRo",
+  "transcript": "/src/data/transcripts/uuBRRe97xRo.vtt",
+  "originalTitle": "Live RL dev on Pufferlib w/ Joseph Suarez",
+  "title": "Debugging Double-Buffered Vec Backend and Profiling TinyGrad Kernels",
+  "summary": "Debugged a double-buffered multithreaded vectorization backend for Pufferlib, achieving 30 million SPS but identifying a bug with two buffers. Later profiled TinyGrad's RMS norm kernel, finding it 3x faster than PyTorch eager mode for small models, and planned further comparison for fused scan.",
+  "topics": [
+    "Pufferlib",
+    "threaded backend",
+    "CUDA stream synchronization",
+    "performance benchmarking",
+    "TinyGrad profiling",
+    "kernel optimization"
+  ]
+}

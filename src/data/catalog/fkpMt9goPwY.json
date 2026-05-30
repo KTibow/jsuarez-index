@@ -1,0 +1,16 @@
+{
+  "id": "fkpMt9goPwY",
+  "date": "2026-03-12T14:04:08+00:00",
+  "url": "https://www.youtube.com/watch?v=fkpMt9goPwY",
+  "transcript": "/src/data/transcripts/fkpMt9goPwY.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Analyzing Bad Experiment Results and Debugging CUDA Backend",
+  "summary": "Reviewed overnight experiment results which showed no good data points, suspecting log skipping. Inspected longer runs and considered unrolling a string to speed up experiments. Also planned to clean up CUDA backend code.",
+  "topics": [
+    "experiment analysis",
+    "CUDA debugging",
+    "log skipping",
+    "constellation",
+    "performance issues"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "_n8AKuRCXco",
+  "date": "2024-07-10T19:00:41+00:00",
+  "url": "https://www.youtube.com/watch?v=_n8AKuRCXco",
+  "transcript": "/src/data/transcripts/_n8AKuRCXco.vtt",
+  "originalTitle": "Reinforcement Learning Dev: Building a High-Perf Continuous Control Engine in PufferLib",
+  "title": "Building a High-Performance Continuous Control Engine in PufferLib",
+  "summary": "Worked on building a continuous control engine for PufferLib, starting from a discrete grid environment. Implemented continuous state and action spaces, ported the logic to Cython for high performance, and added a dual discrete/continuous mode. The engine achieved millions of steps per second per CPU core.",
+  "topics": [
+    "PufferLib",
+    "continuous control",
+    "Cython optimization",
+    "grid environment",
+    "multi-agent reinforcement learning",
+    "performance tuning"
+  ]
+}

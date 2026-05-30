@@ -1,0 +1,17 @@
+{
+  "id": "Ixj-i3VyE74",
+  "date": "2025-02-04T00:18:19+00:00",
+  "url": "https://www.youtube.com/watch?v=Ixj-i3VyE74",
+  "transcript": "/src/data/transcripts/Ixj-i3VyE74.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging a PufferLib Environment and Implementing Pareto Hyperparameter Search",
+  "summary": "Worked on debugging a PufferLib environment with continuous action space shape mismatches and implemented a Pareto-optimal hyperparameter selection algorithm using Gaussian process models. Fixed the environment issue and identified needed refinements in the acquisition function's variance estimates.",
+  "topics": [
+    "PufferLib",
+    "Cython debugging",
+    "continuous action spaces",
+    "Gaussian process",
+    "Pareto front",
+    "hyperparameter tuning"
+  ]
+}

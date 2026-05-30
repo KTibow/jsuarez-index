@@ -1,0 +1,17 @@
+{
+  "id": "XtmzH7-c4xM",
+  "date": "2025-06-03T19:55:18+00:00",
+  "url": "https://www.youtube.com/watch?v=XtmzH7-c4xM",
+  "transcript": "/src/data/transcripts/XtmzH7-c4xM.vtt",
+  "originalTitle": "PufferLib + TinyBox - Live Reinforcement Learning Dev",
+  "title": "Debugging DDP Training and Ant Simulation Environment in PufferLib",
+  "summary": "Worked on debugging distributed data parallel (DDP) training for neural MMO and ant simulation environment. Discovered that the training was not recompiling code changes, resolved compilation issue, and implemented reward improvements for ant environment including speed increase and dense reward shaping.",
+  "topics": [
+    "distributed data parallel",
+    "PufferLib",
+    "ant simulation",
+    "reward shaping",
+    "multi-GPU training",
+    "compilation debugging"
+  ]
+}

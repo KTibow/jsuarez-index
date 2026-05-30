@@ -1,0 +1,17 @@
+{
+  "id": "dcfrk_RZnN0",
+  "date": "2024-10-16T19:11:05+00:00",
+  "url": "https://www.youtube.com/watch?v=dcfrk_RZnN0",
+  "transcript": "/src/data/transcripts/dcfrk_RZnN0.vtt",
+  "originalTitle": "Live RL dev on PufferLib",
+  "title": "Training and Debugging a MOBA Policy in PufferLib",
+  "summary": "Worked on training a MOBA agent in PufferLib, tuning hyperparameters and fixing logging to diagnose training stability. Identified and fixed a memory corruption bug in the new multiprocessing API that caused hangs.",
+  "topics": [
+    "PufferLib",
+    "MOBA environment",
+    "hyperparameter tuning",
+    "multiprocessing bug",
+    "logging",
+    "memory corruption"
+  ]
+}

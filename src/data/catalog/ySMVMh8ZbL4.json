@@ -1,0 +1,16 @@
+{
+  "id": "ySMVMh8ZbL4",
+  "date": "2024-10-24T23:55:29+00:00",
+  "url": "https://www.youtube.com/watch?v=ySMVMh8ZbL4",
+  "transcript": "/src/data/transcripts/ySMVMh8ZbL4.vtt",
+  "originalTitle": "Fixing GPUDrive in PufferLib because I broke it",
+  "title": "Debugging GPUDrive Integration in PufferLib and Refactoring to Native Format",
+  "summary": "Worked on fixing a broken GPUDrive environment in PufferLib. Debugged segmentation faults caused by excessive world and agent counts, refactored the environment into a PufferLib native format, and addressed padding and tensor shape issues.",
+  "topics": [
+    "GPUDrive",
+    "PufferLib",
+    "native environment format",
+    "segmentation fault",
+    "tensor shape debugging"
+  ]
+}

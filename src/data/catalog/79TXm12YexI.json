@@ -1,0 +1,17 @@
+{
+  "id": "79TXm12YexI",
+  "date": "2025-07-08T20:53:36+00:00",
+  "url": "https://www.youtube.com/watch?v=79TXm12YexI",
+  "transcript": "/src/data/transcripts/79TXm12YexI.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Finalizing RLC Manuscript and Discussing 2048 Scaling Result",
+  "summary": "Worked on the RLC manuscript, adding a versioning note and submitting the camera-ready version. Reviewed a model scaling result for 2048 from Yanick.",
+  "topics": [
+    "RLC manuscript",
+    "versioning note",
+    "model scaling",
+    "2048",
+    "PufferLib",
+    "camera-ready submission"
+  ]
+}

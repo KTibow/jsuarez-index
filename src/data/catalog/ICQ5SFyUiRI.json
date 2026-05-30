@@ -1,0 +1,17 @@
+{
+  "id": "ICQ5SFyUiRI",
+  "date": "2024-10-11T18:53:16+00:00",
+  "url": "https://www.youtube.com/watch?v=ICQ5SFyUiRI",
+  "transcript": "/src/data/transcripts/ICQ5SFyUiRI.vtt",
+  "originalTitle": "Live RL dev. This patch must ship now",
+  "title": "Shipping the Core Patch: Debugging C Logging and Training Pong Baseline",
+  "summary": "Worked on finalizing the PufferLib patch, refactored C environment logging to fix aggregation errors and address sanitizer issues, then ran hyperparameter sweeps to train a Pong baseline.",
+  "topics": [
+    "PufferLib",
+    "C environment logging",
+    "address sanitizer",
+    "hyperparameter sweep",
+    "Atari Pong",
+    "breakout"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "_PXS1QEv87k",
+  "date": "2024-09-03T23:57:06+00:00",
+  "url": "https://www.youtube.com/watch?v=_PXS1QEv87k",
+  "transcript": "/src/data/transcripts/_PXS1QEv87k.vtt",
+  "originalTitle": "Freedom at last! Reinforcement learning dev in C",
+  "title": "Porting MOBA Renderer to Pure C and Fixing Render Bugs",
+  "summary": "Fixed multiple rendering bugs in the C port of the MOBA game, including camera jitter, shader misalignment, and UI text display. Achieved smooth gameplay with a fully functional renderer written in pure C using raylib.",
+  "topics": [
+    "C porting",
+    "raylib",
+    "shader debugging",
+    "rendering pipeline",
+    "entity movement jitter",
+    "UI text formatting"
+  ]
+}

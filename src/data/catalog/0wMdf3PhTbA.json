@@ -1,0 +1,17 @@
+{
+  "id": "0wMdf3PhTbA",
+  "date": "2025-04-19T11:53:49+00:00",
+  "url": "https://www.youtube.com/watch?v=0wMdf3PhTbA",
+  "transcript": "/src/data/transcripts/0wMdf3PhTbA.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Adding Action-Conditional World Model to PufferLib for MuZero-Style Planning",
+  "summary": "Implemented a world model in PufferLib by making the encoder action-conditional and adding a loss between the recurrent hidden state and the next observation embedding. Also added reward prediction. Observed improved performance on Breakout, suggesting the approach is promising.",
+  "topics": [
+    "PufferLib",
+    "world model",
+    "action encoding",
+    "recurrent neural network",
+    "next-state prediction",
+    "reward prediction"
+  ]
+}

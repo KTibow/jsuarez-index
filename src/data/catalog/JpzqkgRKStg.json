@@ -1,0 +1,17 @@
+{
+  "id": "JpzqkgRKStg",
+  "date": "2025-05-06T22:41:32+00:00",
+  "url": "https://www.youtube.com/watch?v=JpzqkgRKStg",
+  "transcript": "/src/data/transcripts/JpzqkgRKStg.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Debugging Reward Logging and Hyperparameter Tuning for GPU Drive in PufferLib",
+  "summary": "Debugged reward logging to fix score inflation, tuned collision penalties and gamma, and compared default vs custom policy performance. Issues with observation shape and map randomization were discussed.",
+  "topics": [
+    "PufferLib",
+    "GPU Drive",
+    "reward logging",
+    "hyperparameter tuning",
+    "driving policy",
+    "data issues"
+  ]
+}

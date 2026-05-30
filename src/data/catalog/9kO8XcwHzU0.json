@@ -1,0 +1,17 @@
+{
+  "id": "9kO8XcwHzU0",
+  "date": "2025-05-14T23:00:51+00:00",
+  "url": "https://www.youtube.com/watch?v=9kO8XcwHzU0",
+  "transcript": "/src/data/transcripts/9kO8XcwHzU0.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Refactoring PufferLib's Demo Script and Planning Documentation Overhaul",
+  "summary": "Refactored the clean_puffer.py script to separate config loading from core training logic, discussed simplifying the user interface with a contributor, and planned documentation updates for the upcoming release.",
+  "topics": [
+    "PufferLib",
+    "argument parsing",
+    "config loading",
+    "code readability",
+    "documentation design",
+    "user experience"
+  ]
+}

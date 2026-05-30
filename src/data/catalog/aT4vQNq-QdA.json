@@ -1,0 +1,17 @@
+{
+  "id": "aT4vQNq-QdA",
+  "date": "2024-07-19T23:27:08+00:00",
+  "url": "https://www.youtube.com/watch?v=aT4vQNq-QdA",
+  "transcript": "/src/data/transcripts/aT4vQNq-QdA.vtt",
+  "originalTitle": "Coding a MOBA for AI/RL to play, Dev Day #5",
+  "title": "Implementing Leveling and Discussing Pre-Computed Pathing for MOBA AI Environment",
+  "summary": "Continued development of a MOBA environment for AI/RL, implementing a leveling system and discussing pre-computation of shortest paths between waypoints for efficient pathfinding. Evaluated vision mechanics in forest terrain but deferred pre-computed pathing implementation.",
+  "topics": [
+    "MOBA environment",
+    "leveling system",
+    "pre-computed pathing",
+    "waypoint pathfinding",
+    "vision mechanics",
+    "pre-processing scripts"
+  ]
+}

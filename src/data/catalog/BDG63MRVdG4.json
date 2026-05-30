@@ -1,0 +1,17 @@
+{
+  "id": "BDG63MRVdG4",
+  "date": "2025-03-02T00:52:24+00:00",
+  "url": "https://www.youtube.com/watch?v=BDG63MRVdG4",
+  "transcript": "/src/data/transcripts/BDG63MRVdG4.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging LSTM Bug in PufferLib and Code Reviewing Blaster C Environment",
+  "summary": "Worked on a bug introduced by recent performance optimizations in PufferLib that caused training to fail; identified an issue with LSTM initial hidden state handling and fixed it. Then reviewed and merged a PR for the Blaster C environment, providing code review feedback and guidance.",
+  "topics": [
+    "PufferLib",
+    "LSTM debugging",
+    "performance optimization",
+    "Cython",
+    "Blaster environment",
+    "code review"
+  ]
+}

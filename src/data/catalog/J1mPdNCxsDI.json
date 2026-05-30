@@ -1,0 +1,17 @@
+{
+  "id": "J1mPdNCxsDI",
+  "date": "2025-09-19T22:13:38+00:00",
+  "url": "https://www.youtube.com/watch?v=J1mPdNCxsDI",
+  "transcript": "/src/data/transcripts/J1mPdNCxsDI.vtt",
+  "originalTitle": "PufferLib - New frontiers in RL",
+  "title": "Analyzing GPU Speed Discrepancy and Compute-Data Tradeoff in RL Experiments",
+  "summary": "Investigated unexpected speed differences between 4090 and 5090 GPUs during PufferLib experiment analysis. Discovered that the 5090 was three times faster for small networks, nullifying the expected compute-data tradeoff and leading to a new set of hyperparameter experiments.",
+  "topics": [
+    "PufferLib",
+    "GPU performance comparison",
+    "hyperparameter tuning",
+    "compute-data tradeoff",
+    "RL experiment analysis",
+    "frame skip"
+  ]
+}

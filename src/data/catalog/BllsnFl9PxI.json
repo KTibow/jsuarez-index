@@ -1,0 +1,17 @@
+{
+  "id": "BllsnFl9PxI",
+  "date": "2026-02-04T21:28:18+00:00",
+  "url": "https://www.youtube.com/watch?v=BllsnFl9PxI",
+  "transcript": "/src/data/transcripts/BllsnFl9PxI.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Debugging Sweep Pruning for Faster Breakout Experiments in PufferLib",
+  "summary": "Debugged why PufferLib sweeps were running longer experiments instead of optimizing for speed. Identified issues with early stopping and cost tracking, then adjusted parameters and launched a new experiment.",
+  "topics": [
+    "sweeps",
+    "early stopping",
+    "cost tracking",
+    "PufferLib",
+    "constellation",
+    "breakout"
+  ]
+}

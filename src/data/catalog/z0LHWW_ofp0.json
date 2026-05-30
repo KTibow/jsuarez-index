@@ -1,0 +1,16 @@
+{
+  "id": "z0LHWW_ofp0",
+  "date": "2025-07-10T17:44:08+00:00",
+  "url": "https://www.youtube.com/watch?v=z0LHWW_ofp0",
+  "transcript": "/src/data/transcripts/z0LHWW_ofp0.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Implementing Size-Based Domain Randomization for Drone Control",
+  "summary": "Worked on implementing size-based domain randomization for drone control, adjusting physics scaling formulas for mass, inertia, and thrust. Debugged rendering and ring placement issues for different drone sizes.",
+  "topics": [
+    "domain randomization",
+    "drone control",
+    "physics scaling",
+    "PufferLib",
+    "rendering"
+  ]
+}

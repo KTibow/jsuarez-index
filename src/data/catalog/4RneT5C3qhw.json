@@ -1,0 +1,17 @@
+{
+  "id": "4RneT5C3qhw",
+  "date": "2026-02-10T13:20:05+00:00",
+  "url": "https://www.youtube.com/watch?v=4RneT5C3qhw",
+  "transcript": "/src/data/transcripts/4RneT5C3qhw.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Profiling and Refactoring PufferLib for Stable 15M SPS Training",
+  "summary": "Reviewed experiment sweeps and identified profiling overhead in the training loop. Refactored rollout code and profiling hooks, achieving stable 15-16 million steps per second with low overhead, and benchmark end reaching 18 million SPS.",
+  "topics": [
+    "profiling",
+    "refactoring",
+    "performance tuning",
+    "CUDA",
+    "training throughput",
+    "PufferLib"
+  ]
+}

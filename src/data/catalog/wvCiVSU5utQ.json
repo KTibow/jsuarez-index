@@ -1,0 +1,17 @@
+{
+  "id": "wvCiVSU5utQ",
+  "date": "2024-08-02T01:30:22+00:00",
+  "url": "https://www.youtube.com/watch?v=wvCiVSU5utQ",
+  "transcript": "/src/data/transcripts/wvCiVSU5utQ.vtt",
+  "originalTitle": "Reinforcement Learning is broken and I found out why",
+  "title": "Uncovering How Sticky Actions Break Atari Benchmarking in Reinforcement Learning",
+  "summary": "Worked on writing an article exposing that the default sticky action wrapper in Atari degrades RL performance. Demonstrated with experiments on Pong that sticky actions prevent solving the environment, contradicting the original paper's claim.",
+  "topics": [
+    "sticky actions",
+    "Atari benchmark",
+    "Pong",
+    "hyperparameter sweep",
+    "PufferLib",
+    "reinforcement learning infrastructure"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "5EKox2tZgvg",
+  "date": "2024-11-21T19:54:29+00:00",
+  "url": "https://www.youtube.com/watch?v=5EKox2tZgvg",
+  "transcript": "/src/data/transcripts/5EKox2tZgvg.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Integrating Trained Policies and Web Demo for PufferLib Environments",
+  "summary": "Worked on training final policies for MOBA, Triple Triad, and TCG environments, then integrated them into the web demo. Fixed a help menu argparse issue and updated the PufferLib website.",
+  "topics": [
+    "PufferLib",
+    "trained policy integration",
+    "argparse help menu",
+    "web demo",
+    "triple triad",
+    "MOBA"
+  ]
+}

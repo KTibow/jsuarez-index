@@ -1,0 +1,17 @@
+{
+  "id": "Wy5efE0ytoo",
+  "date": "2026-01-27T14:46:08+00:00",
+  "url": "https://www.youtube.com/watch?v=Wy5efE0ytoo",
+  "transcript": "/src/data/transcripts/Wy5efE0ytoo.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Profiling and Fixing Vectorization Scaling, Merging Kernel PR, and Achieving 11.8M SPS",
+  "summary": "Profiled and debugged vectorized environment stepping in PufferLib, fixing a bug with device synchronization and identifying memory-bound scaling limitations. Implemented a parallel buffer rollout approach using OpenMP, inspired by contributor Peru, and merged a contributor's kernel improvements, achieving 11.8 million steps per second.",
+  "topics": [
+    "PufferLib",
+    "vectorization",
+    "performance profiling",
+    "OpenMP",
+    "kernel optimization",
+    "GPU memory bandwidth"
+  ]
+}

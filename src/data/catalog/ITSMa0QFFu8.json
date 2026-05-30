@@ -1,0 +1,17 @@
+{
+  "id": "ITSMa0QFFu8",
+  "date": "2025-01-22T01:12:18+00:00",
+  "url": "https://www.youtube.com/watch?v=ITSMa0QFFu8",
+  "transcript": "/src/data/transcripts/ITSMa0QFFu8.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Optimizing GPU Simulation Performance and Fixing Infinite Loop in PufferLib",
+  "summary": "Worked on performance optimization for a GPU-driven simulation environment, debugging slow step rates caused by variable agent counts and inefficient engine handling. Fixed an infinite loop in the Triple Triad environment and queued hyperparameter sweeps.",
+  "topics": [
+    "performance optimization",
+    "GPU simulation",
+    "hyperparameter tuning",
+    "variable agents",
+    "infinite loop fix",
+    "PufferLib"
+  ]
+}

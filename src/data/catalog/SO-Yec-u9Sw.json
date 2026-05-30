@@ -1,0 +1,16 @@
+{
+  "id": "SO-Yec-u9Sw",
+  "date": "2024-06-10T01:21:22+00:00",
+  "url": "https://www.youtube.com/watch?v=SO-Yec-u9Sw",
+  "transcript": "/src/data/transcripts/SO-Yec-u9Sw.vtt",
+  "originalTitle": "Test stream - Live with PufferLib 1.0 tomorrow 9 pt / 12 et",
+  "title": "Testing Audio and Latency for Puffer 1 Livestream",
+  "summary": "Tested stream audio quality and latency, monitored laptop temperatures, and confirmed setup readiness for the upcoming Puffer 1 livestream.",
+  "topics": [
+    "test stream",
+    "audio latency",
+    "stream quality",
+    "gaming laptop",
+    "Puffer 1"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "oBa0j_URlec",
+  "date": "2025-03-18T17:10:52+00:00",
+  "url": "https://www.youtube.com/watch?v=oBa0j_URlec",
+  "transcript": "/src/data/transcripts/oBa0j_URlec.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging e3b Exploration Bonus and Testing DIAYN Integration in PufferLib",
+  "summary": "Worked on implementing and debugging the e3b exploration bonus, comparing its performance with count-based exploration. Attempted to integrate Diversity Is All You Need (DIAYN) for the multi-agent snake environment, encountering implementation issues.",
+  "topics": [
+    "e3b",
+    "count-based exploration",
+    "DIAYN",
+    "PufferLib",
+    "snake environment",
+    "exploration bonuses"
+  ]
+}

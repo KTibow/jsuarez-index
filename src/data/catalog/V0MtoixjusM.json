@@ -1,0 +1,15 @@
+{
+  "id": "V0MtoixjusM",
+  "date": "2026-04-05T14:36:10+00:00",
+  "url": "https://www.youtube.com/watch?v=V0MtoixjusM",
+  "transcript": "/src/data/transcripts/V0MtoixjusM.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Finalizing Reinforcement Learning Training Pipeline in PufferLib",
+  "summary": "Completed the last few hours of work on a reinforcement learning training pipeline, finalizing implementation details.",
+  "topics": [
+    "PufferLib",
+    "reinforcement learning",
+    "training pipeline",
+    "code finalization"
+  ]
+}

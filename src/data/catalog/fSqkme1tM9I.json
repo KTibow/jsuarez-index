@@ -1,0 +1,17 @@
+{
+  "id": "fSqkme1tM9I",
+  "date": "2026-02-21T15:58:52+00:00",
+  "url": "https://www.youtube.com/watch?v=fSqkme1tM9I",
+  "transcript": "/src/data/transcripts/fSqkme1tM9I.vtt",
+  "originalTitle": "Reinforcement Learning 10,000x Faster - Joseph Suarez, Warwick AI Summit",
+  "title": "Building Neural MMO and PufferLib for 10,000x Faster Reinforcement Learning",
+  "summary": "Presented the development journey of Neural MMO and PufferLib, showing how engineering optimizations achieved 10,000x speedups in reinforcement learning training. Demonstrated a 6-second Breakout solve using custom C environments and optimized training pipelines.",
+  "topics": [
+    "neural mmo",
+    "pufferlib",
+    "reinforcement learning",
+    "environment optimization",
+    "hyperparameter tuning",
+    "c kernels"
+  ]
+}

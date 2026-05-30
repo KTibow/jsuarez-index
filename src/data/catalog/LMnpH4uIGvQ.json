@@ -1,0 +1,17 @@
+{
+  "id": "LMnpH4uIGvQ",
+  "date": "2024-07-16T18:41:29+00:00",
+  "url": "https://www.youtube.com/watch?v=LMnpH4uIGvQ",
+  "transcript": "/src/data/transcripts/LMnpH4uIGvQ.vtt",
+  "originalTitle": "Coding a MOBA for Reinforcement Learning from scratch in C(ython)",
+  "title": "Implementing Smooth Movement, Attacks, and Skills in a Cython MOBA for RL",
+  "summary": "Implemented smooth player movement via camera system, attack targeting with mouse, tower and player health bars, and basic skills (blast and heal) in a Cython-based MOBA environment. Resolved data structure sync issues between grid and PID maps, enabling human-controlled gameplay.",
+  "topics": [
+    "Cython",
+    "entity component system",
+    "spatial hashing",
+    "MOBA prototyping",
+    "smooth movement",
+    "skill implementation"
+  ]
+}

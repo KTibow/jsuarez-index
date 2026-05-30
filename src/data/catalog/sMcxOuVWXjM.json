@@ -1,0 +1,17 @@
+{
+  "id": "sMcxOuVWXjM",
+  "date": "2025-05-23T13:22:53+00:00",
+  "url": "https://www.youtube.com/watch?v=sMcxOuVWXjM",
+  "transcript": "/src/data/transcripts/sMcxOuVWXjM.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Debugging Factory Environment and Tuning Breakout for PufferLib Release",
+  "summary": "Worked on running experiments for the upcoming PufferLib release. Debugged a factory-style resource conversion environment and tuned hyperparameters, specifically the clip coefficient, for Breakout to recover previous performance. Set up experiment sweep configurations across machines.",
+  "topics": [
+    "PufferLib",
+    "environment debugging",
+    "hyperparameter tuning",
+    "Breakout",
+    "clip coefficient",
+    "experiment sweeps"
+  ]
+}

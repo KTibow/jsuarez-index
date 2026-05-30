@@ -1,0 +1,17 @@
+{
+  "id": "dwbiFl5WJqI",
+  "date": "2025-04-16T17:10:49+00:00",
+  "url": "https://www.youtube.com/watch?v=dwbiFl5WJqI",
+  "transcript": "/src/data/transcripts/dwbiFl5WJqI.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Implementing Phasic Policy Gradient Value Function Training in PufferLib",
+  "summary": "Implemented PPG-style auxiliary value function training with policy cloning in PufferLib. Debugged issues with KL loss and optimizer, found that tuning value function coefficient can replicate PPG benefits, and tested state-based skill discrimination for diversity is all you need.",
+  "topics": [
+    "phasic policy gradients",
+    "value function training",
+    "policy cloning",
+    "skill-based policies",
+    "hyperparameter tuning",
+    "PufferLib"
+  ]
+}

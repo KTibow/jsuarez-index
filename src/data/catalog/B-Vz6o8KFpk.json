@@ -1,0 +1,17 @@
+{
+  "id": "B-Vz6o8KFpk",
+  "date": "2025-06-24T17:50:09+00:00",
+  "url": "https://www.youtube.com/watch?v=B-Vz6o8KFpk",
+  "transcript": "/src/data/transcripts/B-Vz6o8KFpk.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Debugging Meta's Factory RL Environment and Setting Up LinkedIn for Puffer",
+  "summary": "Worked on debugging the Meta third-party RL environment, which exhibited severe slowness and renderer issues. Set up a LinkedIn company page for Puffer. Also discussed the Puffer 3 release and various RL research topics.",
+  "topics": [
+    "Meta environment",
+    "debugging",
+    "renderer issues",
+    "LinkedIn page setup",
+    "RL environment speed",
+    "PufferLib"
+  ]
+}

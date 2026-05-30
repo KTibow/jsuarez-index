@@ -1,0 +1,17 @@
+{
+  "id": "KJlMZKJr0rw",
+  "date": "2024-08-13T23:40:04+00:00",
+  "url": "https://www.youtube.com/watch?v=KJlMZKJr0rw",
+  "transcript": "/src/data/transcripts/KJlMZKJr0rw.vtt",
+  "originalTitle": "C and chill for a bit",
+  "title": "Exploring C Port of PufferLib Snake Environment for WebAssembly",
+  "summary": "Worked on porting the snake environment from PufferLib to C for WebAssembly compilation using raylib and emscripten. Used Claude to translate existing Python code to C, achieving partial draft progress but not a complete working web demo.",
+  "topics": [
+    "PufferLib",
+    "WebAssembly",
+    "raylib",
+    "C porting",
+    "snake environment",
+    "emscripten"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "h-TkfyV2TSo",
+  "date": "2024-09-11T20:53:36+00:00",
+  "url": "https://www.youtube.com/watch?v=h-TkfyV2TSo",
+  "transcript": "/src/data/transcripts/h-TkfyV2TSo.vtt",
+  "originalTitle": "Portable RL models in C for WASM",
+  "title": "Porting MOBA Environment to Native C for PufferLib Training",
+  "summary": "Worked on porting the MOBA environment from Cython to native C, implementing Python bindings via Cython for PufferLib. Debugged memory layout issues causing observation corruption, fixed asset path resolution for rendering, and resolved initialization slowdowns. Achieved training on the C environment at approximately 400k steps per second.",
+  "topics": [
+    "PufferLib",
+    "Cython bindings",
+    "native C port",
+    "observation memory layout",
+    "asset path resolution",
+    "MOBA environment"
+  ]
+}

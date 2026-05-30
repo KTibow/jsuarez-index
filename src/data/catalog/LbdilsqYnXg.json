@@ -1,0 +1,17 @@
+{
+  "id": "LbdilsqYnXg",
+  "date": "2024-09-02T20:04:43+00:00",
+  "url": "https://www.youtube.com/watch?v=LbdilsqYnXg",
+  "transcript": "/src/data/transcripts/LbdilsqYnXg.vtt",
+  "originalTitle": "Freedom at last! Reinforcement learning dev in C",
+  "title": "Porting MOBA Environment from Cython to C for Web Assembly",
+  "summary": "Worked on porting the PufferLib MOBA environment from Cython to C to enable web assembly compilation. Debugged C bindings and converted static game data from YAML to hardcoded C arrays.",
+  "topics": [
+    "C",
+    "Cython",
+    "WebAssembly",
+    "MOBA environment",
+    "data serialization",
+    "game porting"
+  ]
+}

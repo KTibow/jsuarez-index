@@ -1,0 +1,16 @@
+{
+  "id": "JUFMv3ZCpGA",
+  "date": "2024-08-08T18:03:36+00:00",
+  "url": "https://www.youtube.com/watch?v=JUFMv3ZCpGA",
+  "transcript": "/src/data/transcripts/JUFMv3ZCpGA.vtt",
+  "originalTitle": "1M FPS GPU Driving Sim + Reinforcement Learning w/ PufferLib. Live dev GPUDrive + PufferLib - Liv…",
+  "title": "Integrating GPUDrive with PufferLib and Optimizing Training Throughput",
+  "summary": "Worked on integrating the GPUDrive environment with PufferLib, implementing data unpadding to eliminate padding inefficiency and achieve over 300,000 steps per second training speed. Debugged environment segfault issues during termination and prepared a containerized release.",
+  "topics": [
+    "GPUDrive",
+    "PufferLib integration",
+    "data padding optimization",
+    "training throughput",
+    "segfault debugging"
+  ]
+}

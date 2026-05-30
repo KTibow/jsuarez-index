@@ -1,0 +1,17 @@
+{
+  "id": "HiTrLX4jmE8",
+  "date": "2026-04-04T15:16:43+00:00",
+  "url": "https://www.youtube.com/watch?v=HiTrLX4jmE8",
+  "transcript": "/src/data/transcripts/HiTrLX4jmE8.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Debugging CUDA-C Model Mismatch and Finalizing Puffer 4 Release",
+  "summary": "Debugged a weight mismatch between CUDA and C model implementations for a web demo policy. Merged Spencer's pull request, trained and benchmarked policies across multiple environments, drafted release tweets, and prepared the Docker build for the Puffer 4 launch.",
+  "topics": [
+    "Puffer 4",
+    "CUDA",
+    "C",
+    "model porting",
+    "hyperparameter tuning",
+    "Docker"
+  ]
+}

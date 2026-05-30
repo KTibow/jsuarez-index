@@ -1,0 +1,17 @@
+{
+  "id": "YAZbP5IOLAU",
+  "date": "2025-09-03T19:52:19+00:00",
+  "url": "https://www.youtube.com/watch?v=YAZbP5IOLAU",
+  "transcript": "/src/data/transcripts/YAZbP5IOLAU.vtt",
+  "originalTitle": "PufferLib - summarizing 3 weeks of hard research",
+  "title": "Summarizing Three Weeks of Hyperparameter Tuning Research for PufferLib",
+  "summary": "Wrote an article summarizing three weeks of research on hyperparameter tuning and performance optimization for PufferLib. Discussed off-policy vs on-policy methods, advantage computation, and value function coefficient adjustments.",
+  "topics": [
+    "hyperparameter tuning",
+    "performance optimization",
+    "PufferLib",
+    "off-policy vs on-policy",
+    "advantage computation",
+    "value function coefficient"
+  ]
+}

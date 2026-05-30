@@ -1,0 +1,17 @@
+{
+  "id": "XBRpzGbE05k",
+  "date": "2024-09-06T01:11:34+00:00",
+  "url": "https://www.youtube.com/watch?v=XBRpzGbE05k",
+  "transcript": "/src/data/transcripts/XBRpzGbE05k.vtt",
+  "originalTitle": "CNN + LSTM in C for WASM",
+  "title": "Implementing LSTM in C for Web Assembly Inference",
+  "summary": "Worked on porting CNN and LSTM layers to plain C for web assembly compilation to run reinforcement learning policies in the browser. Got the LSTM implementation running without segmentation faults but still needs verification against a PyTorch reference.",
+  "topics": [
+    "LSTM",
+    "C implementation",
+    "web assembly",
+    "PufferLib",
+    "PyTorch",
+    "porting layers"
+  ]
+}

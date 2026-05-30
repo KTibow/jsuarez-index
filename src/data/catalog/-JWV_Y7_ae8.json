@@ -1,0 +1,16 @@
+{
+  "id": "-JWV_Y7_ae8",
+  "date": "2025-02-25T17:25:25+00:00",
+  "url": "https://www.youtube.com/watch?v=-JWV_Y7_ae8",
+  "transcript": "/src/data/transcripts/-JWV_Y7_ae8.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Analyzing RL Sweep Results Without Generalized Advantage Estimation in PufferLib",
+  "summary": "Worked on analyzing results of a reinforcement learning sweep that did not use generalized advantage estimation, checking if it can match previous performance after a prior sweep got stuck.",
+  "topics": [
+    "PufferLib",
+    "reinforcement learning",
+    "generalized advantage estimation",
+    "sweep results",
+    "performance comparison"
+  ]
+}

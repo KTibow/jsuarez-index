@@ -1,0 +1,17 @@
+{
+  "id": "tQfzYnZnHqs",
+  "date": "2025-04-17T00:38:33+00:00",
+  "url": "https://www.youtube.com/watch?v=tQfzYnZnHqs",
+  "transcript": "/src/data/transcripts/tQfzYnZnHqs.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Experimenting with Diane Exploration in Snake Environments",
+  "summary": "Experimented with the Diane exploration algorithm, tuning the loss coefficient and archive size to improve policy diversity. Debugged discriminator training on action logits and set up a hyperparameter sweep for further tuning.",
+  "topics": [
+    "Diane",
+    "exploration",
+    "action logits",
+    "trajectory segment",
+    "discriminator",
+    "hyperparameter sweep"
+  ]
+}

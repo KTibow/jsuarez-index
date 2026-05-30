@@ -1,0 +1,17 @@
+{
+  "id": "ehJxYVd1Bj4",
+  "date": "2025-07-01T23:01:34+00:00",
+  "url": "https://www.youtube.com/watch?v=ehJxYVd1Bj4",
+  "transcript": "/src/data/transcripts/ehJxYVd1Bj4.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Training and Deploying 2048 Agent to Website",
+  "summary": "Worked on training a neural network policy for the 2048 environment, exported it to web assembly, and deployed it to the Puffer website. Also debugged a Pong sweep issue for a viewer, ran preliminary robotics experiments with mixed results, and discussed RL applications in chemistry.",
+  "topics": [
+    "2048",
+    "PufferLib",
+    "web deployment",
+    "robotics",
+    "hyperparameter debugging",
+    "RL in chemistry"
+  ]
+}

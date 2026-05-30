@@ -1,0 +1,17 @@
+{
+  "id": "Y9zVYXaMM4E",
+  "date": "2025-04-07T20:08:57+00:00",
+  "url": "https://www.youtube.com/watch?v=Y9zVYXaMM4E",
+  "transcript": "/src/data/transcripts/Y9zVYXaMM4E.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Refactoring Experience Buffer into Segment-Based Storage in PufferLib",
+  "summary": "Worked on refactoring the experience buffer from a flat buffer to a segment-based buffer for contiguous memory storage. Discussed edge cases, indexing, and potential issues with async environments and LSTM state. The new buffer aims to enable new techniques and improve speed.",
+  "topics": [
+    "experience buffer",
+    "segment-based storage",
+    "PufferLib",
+    "async environments",
+    "LSTM state",
+    "data staleness"
+  ]
+}

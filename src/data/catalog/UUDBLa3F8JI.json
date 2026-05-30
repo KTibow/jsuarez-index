@@ -1,0 +1,17 @@
+{
+  "id": "UUDBLa3F8JI",
+  "date": "2025-02-26T00:51:29+00:00",
+  "url": "https://www.youtube.com/watch?v=UUDBLa3F8JI",
+  "transcript": "/src/data/transcripts/UUDBLa3F8JI.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Hyperparameter Sweeps and Implementing No-J Algorithm in PufferLib",
+  "summary": "Debugged unstable automated hyperparameter sweeps in PufferLib by adjusting scale parameters and identifying learning rate bounds. Continued development of the no-J algorithm, which removes gamma and lambda hyperparameters, achieving matching or better performance on Breakout.",
+  "topics": [
+    "hyperparameter tuning",
+    "no-J algorithm",
+    "gamma lambda removal",
+    "breakout benchmark",
+    "PufferLib dev",
+    "sweep automation"
+  ]
+}

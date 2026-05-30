@@ -1,0 +1,17 @@
+{
+  "id": "5pXHkzAjCG0",
+  "date": "2025-01-24T21:55:50+00:00",
+  "url": "https://www.youtube.com/watch?v=5pXHkzAjCG0",
+  "transcript": "/src/data/transcripts/5pXHkzAjCG0.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Evaluating E3B Exploration and Pareto Optimality in PufferLib Experiments",
+  "summary": "Ran experiments with E3B exploration in PufferLib, analyzing its performance as a baseline. Discussed Pareto optimality concepts and encountered cluster connectivity issues.",
+  "topics": [
+    "E3B",
+    "PufferLib",
+    "Pareto optimality",
+    "exploration",
+    "Docker",
+    "cluster issues"
+  ]
+}

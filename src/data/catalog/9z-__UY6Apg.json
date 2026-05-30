@@ -1,0 +1,17 @@
+{
+  "id": "9z-__UY6Apg",
+  "date": "2025-10-31T15:58:19+00:00",
+  "url": "https://www.youtube.com/watch?v=9z-__UY6Apg",
+  "transcript": "/src/data/transcripts/9z-__UY6Apg.vtt",
+  "originalTitle": "Dr Suarez Reinforces your Learning in C-- and CUDA",
+  "title": "Debugging C++ Trainer Consistency and Optimizing PufferLib Performance",
+  "summary": "Fixed consistency checks between Python and C++ trainers, stripped debugging code, benchmarked performance, and identified LSTM kernels as a bottleneck. Achieved comparable training speeds but noted slower LSTM performance.",
+  "topics": [
+    "consistency check",
+    "C++ trainer",
+    "performance optimization",
+    "LSTM kernels",
+    "CUDA debugging",
+    "Python vs C++"
+  ]
+}

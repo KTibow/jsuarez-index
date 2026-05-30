@@ -1,0 +1,17 @@
+{
+  "id": "zWXzZFYB_lI",
+  "date": "2025-02-10T13:24:05+00:00",
+  "url": "https://www.youtube.com/watch?v=zWXzZFYB_lI",
+  "transcript": "/src/data/transcripts/zWXzZFYB_lI.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Hyperparameter Sweep Algorithm in PufferLib",
+  "summary": "Worked on fixing a broken hyperparameter sweep curve in PufferLib, eventually resolving the issue by reverting a problematic change and restoring the expected log-like curve.",
+  "topics": [
+    "hyperparameter sweep",
+    "debugging",
+    "PufferLib",
+    "curve fitting",
+    "Gaussian process",
+    "cost function"
+  ]
+}

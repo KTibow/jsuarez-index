@@ -1,0 +1,17 @@
+{
+  "id": "33rrQOBqqPE",
+  "date": "2025-05-17T14:22:24+00:00",
+  "url": "https://www.youtube.com/watch?v=33rrQOBqqPE",
+  "transcript": "/src/data/transcripts/33rrQOBqqPE.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Building a Terraforming Simulator with PufferLib and Perlin Noise Terrain",
+  "summary": "Implemented a terraforming simulation environment in PufferLib, including heightmap generation via Perlin noise, mesh rendering, bulldozer agents, and RL training to flatten terrain. Fixed memory leaks and observation bugs to enable training.",
+  "topics": [
+    "PufferLib",
+    "terraforming simulation",
+    "Perlin noise",
+    "mesh generation",
+    "reinforcement learning",
+    "bulldozer agents"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "HpqJ0NsfNiM",
+  "date": "2024-07-19T18:23:32+00:00",
+  "url": "https://www.youtube.com/watch?v=HpqJ0NsfNiM",
+  "transcript": "/src/data/transcripts/HpqJ0NsfNiM.vtt",
+  "originalTitle": "Coding a MOBA for AI/RL to play, Dev Day #5",
+  "title": "Implementing Neutral Camps and DOTA Map in MOBA Environment",
+  "summary": "Extracted DOTA map and neutral camp coordinates from game files, implemented neutral camp spawning and AI with global respawn timer. Loaded full DOTA map and fixed creep pathing using extracted waypoints.",
+  "topics": [
+    "PufferLib",
+    "Cython",
+    "DOTA map extraction",
+    "neutral camps",
+    "path waypoints",
+    "game simulation"
+  ]
+}

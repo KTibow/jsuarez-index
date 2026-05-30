@@ -1,0 +1,17 @@
+{
+  "id": "e04tGj6PIC0",
+  "date": "2024-07-11T19:00:13+00:00",
+  "url": "https://www.youtube.com/watch?v=e04tGj6PIC0",
+  "transcript": "/src/data/transcripts/e04tGj6PIC0.vtt",
+  "originalTitle": "Reinforcement Learning Dev: Building a High-Perf Continuous Control Engine in PufferLib",
+  "title": "Adding Multi-Policy Support and Building a Continuous Control Grid Environment in PufferLib",
+  "summary": "Worked on adding multi-policy support to PufferLib's config loader, then built a continuous grid-based multi-agent environment with discrete and continuous action spaces. Implemented foraging, predator-prey, and grouping tasks, and trained initial policies at high speed.",
+  "topics": [
+    "PufferLib",
+    "multi-policy config",
+    "Cython grid environment",
+    "continuous control",
+    "multi-agent particle tasks",
+    "high-speed training"
+  ]
+}

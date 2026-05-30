@@ -1,0 +1,17 @@
+{
+  "id": "X1-5Iw8TYe4",
+  "date": "2026-02-12T17:38:03+00:00",
+  "url": "https://www.youtube.com/watch?v=X1-5Iw8TYe4",
+  "transcript": "/src/data/transcripts/X1-5Iw8TYe4.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Reviewing Jonah's Pull Request on Kernel Refactoring for PufferLib",
+  "summary": "Reviewed Jonah's PR with custom kernels for PufferLib. Rejected the structural refactoring that split kernels into many files and added torch dependencies, but approved integrating the select, copy, pryo, and advantage kernel improvements. Also cleaned up logging and sweep configuration code.",
+  "topics": [
+    "PufferLib",
+    "CUDA kernels",
+    "kernel refactoring",
+    "code review",
+    "pull request",
+    "logging cleanup"
+  ]
+}

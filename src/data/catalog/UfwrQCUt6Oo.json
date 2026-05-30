@@ -1,0 +1,16 @@
+{
+  "id": "UfwrQCUt6Oo",
+  "date": "2025-10-22T14:58:48+00:00",
+  "url": "https://www.youtube.com/watch?v=UfwrQCUt6Oo",
+  "transcript": "/src/data/transcripts/UfwrQCUt6Oo.vtt",
+  "originalTitle": "PufferLib - Hardcore RL Perf Optimization",
+  "title": "Fighting Torch Compile and CUDA for PufferLib Training Loop Optimization",
+  "summary": "Worked on compiling a full training loop for small reinforcement learning models using Torch compile and CUDA. Encountered issues with compile times and low flop utilization, and compared performance with Jax, finding no significant advantage. Aimed to improve PufferLib's training speed for the next major release.",
+  "topics": [
+    "torch compile",
+    "CUDA",
+    "small model optimization",
+    "flop utilization",
+    "performance profiling"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "udhuQUhxHY0",
+  "date": "2026-01-12T13:01:17+00:00",
+  "url": "https://www.youtube.com/watch?v=udhuQUhxHY0",
+  "transcript": "/src/data/transcripts/udhuQUhxHY0.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Debugging and Testing a Commerce Simulation Environment in PufferLib",
+  "summary": "Debugged and tested a commerce simulation environment for buying and selling compute. Wrote automated tests to verify revenue, energy pricing, and negotiation dynamics. Fixed double counting revenue, off-by-one ticks, and cluster capacity issues.",
+  "topics": [
+    "commerce simulation",
+    "automated testing",
+    "bug fixing",
+    "PufferLib",
+    "energy pricing",
+    "negotiation mechanics"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "Lmltuh-WwMY",
+  "date": "2024-11-22T16:36:31+00:00",
+  "url": "https://www.youtube.com/watch?v=Lmltuh-WwMY",
+  "transcript": "/src/data/transcripts/Lmltuh-WwMY.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Polishing Ocean H Demos and Fixing Website Rendering Bug",
+  "summary": "Cleaned up the Ocean H environment, fixed documentation, and resolved a rendering bug on the demo website, ensuring demos run smoothly on mobile devices.",
+  "topics": [
+    "Ocean H",
+    "documentation",
+    "rendering bug",
+    "website",
+    "demo polish",
+    "mobile testing"
+  ]
+}

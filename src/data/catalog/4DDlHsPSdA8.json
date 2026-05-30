@@ -1,0 +1,16 @@
+{
+  "id": "4DDlHsPSdA8",
+  "date": "2025-02-15T13:30:29+00:00",
+  "url": "https://www.youtube.com/watch?v=4DDlHsPSdA8",
+  "transcript": "/src/data/transcripts/4DDlHsPSdA8.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Tuning Hyperparameter Sweep Algorithm with Score Normalization and Epsilon Adjustment",
+  "summary": "Debugged a hyperparameter sweep algorithm by fixing score normalization and adjusting the epsilon scaling factor to improve cost distribution across experiments. Achieved a near-perfect Pareto front on synthetic tasks, reducing over-allocation of compute to high-cost runs.",
+  "topics": [
+    "hyperparameter tuning",
+    "score transformation",
+    "Pareto front analysis",
+    "cost-aware sampling",
+    "synthetic benchmark"
+  ]
+}

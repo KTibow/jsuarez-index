@@ -1,0 +1,17 @@
+{
+  "id": "2-FVRm2uwZk",
+  "date": "2026-02-02T14:10:24+00:00",
+  "url": "https://www.youtube.com/watch?v=2-FVRm2uwZk",
+  "transcript": "/src/data/transcripts/2-FVRm2uwZk.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Debugging Profit Calculation for Compute Marketplace Sim Test",
+  "summary": "Worked on a test case for a compute marketplace simulation, debugging profit calculations for a cluster spec with 5090 GPUs.",
+  "topics": [
+    "compute marketplace sim",
+    "profit calculation",
+    "cluster spec",
+    "debugging",
+    "test case",
+    "GPU rental"
+  ]
+}

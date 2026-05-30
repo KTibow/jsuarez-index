@@ -1,0 +1,17 @@
+{
+  "id": "gFt4Wj-1LL4",
+  "date": "2025-07-19T23:34:39+00:00",
+  "url": "https://www.youtube.com/watch?v=gFt4Wj-1LL4",
+  "transcript": "/src/data/transcripts/gFt4Wj-1LL4.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Debugging Drone Racing Sim and Fixing Ring Registration Bug",
+  "summary": "Debugged a combined drone swarm and racing simulation where ring passes were not registering, causing drones to get stuck. Fixed the bug by correcting versioning issues in the environment, then evaluated hover and racing tasks.",
+  "topics": [
+    "drone simulation",
+    "PufferLib",
+    "reward hacking",
+    "selfplay",
+    "debugging",
+    "domain randomization"
+  ]
+}

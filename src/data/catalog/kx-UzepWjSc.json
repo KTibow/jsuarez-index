@@ -1,0 +1,17 @@
+{
+  "id": "kx-UzepWjSc",
+  "date": "2026-01-30T23:33:34+00:00",
+  "url": "https://www.youtube.com/watch?v=kx-UzepWjSc",
+  "transcript": "/src/data/transcripts/kx-UzepWjSc.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Porting Environments to Static Linking and Merging BF16 PR for Faster Training",
+  "summary": "Worked on porting environments to static linking, fixed failing tests, and merged a BF16 pull request from Jonah that boosted training speed to 13 million steps per second and doubled performance for larger networks. Also discussed cleaning up LLM-generated code and planning for Puffer 5.",
+  "topics": [
+    "PufferLib",
+    "static linking",
+    "BF16 optimization",
+    "CUDA kernels",
+    "training speed",
+    "environment porting"
+  ]
+}

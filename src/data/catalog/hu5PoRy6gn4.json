@@ -1,0 +1,17 @@
+{
+  "id": "hu5PoRy6gn4",
+  "date": "2025-02-18T16:58:47+00:00",
+  "url": "https://www.youtube.com/watch?v=hu5PoRy6gn4",
+  "transcript": "/src/data/transcripts/hu5PoRy6gn4.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Analyzing Cost-Biased Sampling in PufferLib Hyperparameter Tuning",
+  "summary": "Debugged the hyperparameter tuning algorithm's tendency to oversample low-cost experiments. Examined the Pareto log cost normalization and scoring function, finding that the log scaling produced overly conservative exploration. Compared behavior on real and synthetic environments, confirming the issue is not environment-specific. Planned to adjust the cost scaling to improve exploration of higher-cost experiments.",
+  "topics": [
+    "hyperparameter tuning",
+    "cost function analysis",
+    "Pareto frontier",
+    "exploration bias",
+    "PufferLib",
+    "experiment sampling"
+  ]
+}

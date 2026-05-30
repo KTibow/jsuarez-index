@@ -1,0 +1,17 @@
+{
+  "id": "HtyUTVkJUYQ",
+  "date": "2024-11-27T20:25:45+00:00",
+  "url": "https://www.youtube.com/watch?v=HtyUTVkJUYQ",
+  "transcript": "/src/data/transcripts/HtyUTVkJUYQ.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Creating Release Animations and Debugging Enduro Training",
+  "summary": "Worked on creating animations for the release announcement using Raylib Python API to visualize code distribution changes. Also helped a contributor debug Enduro training, focusing on reward logging and metrics interpretation.",
+  "topics": [
+    "Raylib",
+    "Python animation",
+    "code distribution",
+    "reward logging",
+    "Enduro",
+    "training metrics"
+  ]
+}

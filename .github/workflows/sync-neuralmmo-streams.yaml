@@ -42,7 +42,7 @@ jobs:
           YOUTUBE_COOKIE_HEADER: ${{ secrets.YOUTUBE_COOKIE_HEADER }}
         run: |
           set -euo pipefail
-          mkdir -p streams
+          mkdir -p src/data/transcripts
           metadata_file="$RUNNER_TEMP/stream-info.jsonl"
           cookie_file="$RUNNER_TEMP/youtube-cookies.txt"
           cookie_args=()
@@ -72,11 +72,11 @@ jobs:
             --sub-langs "en" \
             --sub-format "vtt" \
             --print-to-file "after_video:%()j" "$metadata_file" \
-            --output "streams/%(id)s.%(ext)s" \
+            --output "src/data/transcripts/%(id)s.%(ext)s" \
             "$CHANNEL_STREAMS_URL"
 
           shopt -s nullglob
-          caption_files=(streams/*.vtt)
+          caption_files=(src/data/transcripts/*.vtt)
           if [ "${#caption_files[@]}" -eq 0 ]; then
             printf 'No stream caption files were written\n' >&2
             exit 1
@@ -85,18 +85,26 @@ jobs:
       - name: Normalize stream files
         run: scripts/normalize-stream-vtts.py
 
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Build stream archive
+        env:
+          CROF_KEY: ${{ secrets.CROF_KEY }}
+        run: uv run scripts/build-stream-archive.py
+
       - name: Upload caption artifact
         uses: actions/upload-artifact@v4
         with:
           name: neuralmmo-stream-captions
-          path: streams/*.vtt
+          path: src/data/transcripts/*.vtt
 
       - name: Commit caption updates
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add streams
+          git add src/data/transcripts src/data/catalog
           if git diff --cached --quiet; then
             echo "No stream caption changes to commit"
             exit 0

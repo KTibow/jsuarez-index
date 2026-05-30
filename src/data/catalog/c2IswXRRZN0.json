@@ -1,0 +1,17 @@
+{
+  "id": "c2IswXRRZN0",
+  "date": "2025-05-22T14:49:15+00:00",
+  "url": "https://www.youtube.com/watch?v=c2IswXRRZN0",
+  "transcript": "/src/data/transcripts/c2IswXRRZN0.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Documenting and Refactoring Sample Environments for PufferLib Tutorial Release",
+  "summary": "Commented and cleaned up two new sample environments (single-agent and multi-agent) for the PufferLib release. Fixed a CUDA fallback bug, debugged neural network drift between C and PyTorch, and set up hyperparameter sweeps for the meta grid environment.",
+  "topics": [
+    "PufferLib",
+    "environment documentation",
+    "CUDA fallback",
+    "neural network drift",
+    "hyperparameter sweeps",
+    "C binding"
+  ]
+}

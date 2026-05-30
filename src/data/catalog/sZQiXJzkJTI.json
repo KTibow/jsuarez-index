@@ -1,0 +1,17 @@
+{
+  "id": "sZQiXJzkJTI",
+  "date": "2026-05-19T17:04:03+00:00",
+  "url": "https://www.youtube.com/watch?v=sZQiXJzkJTI",
+  "transcript": "/src/data/transcripts/sZQiXJzkJTI.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Debugging State Sets on Password Environment and Analyzing Overnight Sweeps",
+  "summary": "Worked on debugging the state-set exploration algorithm after mixed overnight results. Identified state-of-the-art performance on 2048 but struggled to create a clean test case for curriculum learning, with the baseline algorithm solving expectedly difficult tasks after hyperparameter sweeps.",
+  "topics": [
+    "PufferLib",
+    "state sets",
+    "curriculum learning",
+    "hyperparameter sweeps",
+    "password environment",
+    "2048"
+  ]
+}

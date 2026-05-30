@@ -1,0 +1,17 @@
+{
+  "id": "65D9Lm8foKk",
+  "date": "2025-05-22T23:11:34+00:00",
+  "url": "https://www.youtube.com/watch?v=65D9Lm8foKk",
+  "transcript": "/src/data/transcripts/65D9Lm8foKk.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Reviewing Pac-Man Code and Debugging Void Swarm Training",
+  "summary": "Reviewed Gabe's Pac-Man implementation for PufferLib, merged it, and helped fix animation interpolation. Debugged Plasma's voids environment by normalizing observations and discretizing actions, then tuned reward functions for swarm behavior.",
+  "topics": [
+    "PufferLib",
+    "Pac-Man",
+    "void swarm",
+    "observation normalization",
+    "reward tuning",
+    "discrete vs continuous actions"
+  ]
+}

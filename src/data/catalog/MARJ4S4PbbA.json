@@ -1,0 +1,17 @@
+{
+  "id": "MARJ4S4PbbA",
+  "date": "2024-12-30T14:24:35+00:00",
+  "url": "https://www.youtube.com/watch?v=MARJ4S4PbbA",
+  "transcript": "/src/data/transcripts/MARJ4S4PbbA.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Building RL Experiment Analysis Tooling for Hyperparameter Ranges",
+  "summary": "Worked on setting up interactive plots on the PufferLib website for RL experiment data, compared data export from W&B and Neptune, and began implementing statistical analysis to compute stable hyperparameter ranges and sensitivities.",
+  "topics": [
+    "PufferLib",
+    "data visualization",
+    "hyperparameter analysis",
+    "Neptune",
+    "W&B",
+    "experiment tracking"
+  ]
+}

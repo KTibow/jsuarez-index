@@ -1,0 +1,17 @@
+{
+  "id": "e_kFsRfsz-0",
+  "date": "2024-11-28T15:06:19+00:00",
+  "url": "https://www.youtube.com/watch?v=e_kFsRfsz-0",
+  "transcript": "/src/data/transcripts/e_kFsRfsz-0.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Fixing Input Lag and Adding Human Control in Rware for PufferLib",
+  "summary": "Debugged input lag issues in the rware environment, implemented human override of neural net actions, and uploaded the environment. Later began work on a trailer animation with a star painting effect.",
+  "topics": [
+    "input lag",
+    "human control",
+    "rware",
+    "PufferLib",
+    "game dev",
+    "render animation"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "Y-8s3BzuYzg",
+  "date": "2025-11-15T14:05:03+00:00",
+  "url": "https://www.youtube.com/watch?v=Y-8s3BzuYzg",
+  "transcript": "/src/data/transcripts/Y-8s3BzuYzg.vtt",
+  "originalTitle": "Live RL Research on PufferLib w/ Joseph Suarez - Saturday Marathon",
+  "title": "Fixing RMS Norm in C++ Backend and Solving Breakout",
+  "summary": "Fixed the missing RMS norm implementation in the C++ backend of PufferLib. After debugging, achieved a full solve of Breakout using the corrected normalization layer.",
+  "topics": [
+    "PufferLib",
+    "RMS norm",
+    "C++ backend",
+    "Breakout",
+    "normalization layers",
+    "CUDA implementation"
+  ]
+}

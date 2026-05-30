@@ -1,0 +1,17 @@
+{
+  "id": "HWv-5pwwTUo",
+  "date": "2025-02-01T00:09:20+00:00",
+  "url": "https://www.youtube.com/watch?v=HWv-5pwwTUo",
+  "transcript": "/src/data/transcripts/HWv-5pwwTUo.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Training a Procedural Maze Agent and Refining NeoCarb Hyperparameter Tuning",
+  "summary": "Trained reinforcement learning agents on a new procedural maze environment using PufferLib. Worked on hyperparameter optimization with the NeoCarb algorithm, discussing improvements to Pareto front estimation and Gaussian process modeling.",
+  "topics": [
+    "procedural maze environment",
+    "PufferLib",
+    "hyperparameter tuning",
+    "NeoCarb",
+    "Pareto front",
+    "Gaussian process"
+  ]
+}

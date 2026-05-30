@@ -1,0 +1,17 @@
+{
+  "id": "jLxJLh5n60s",
+  "date": "2025-02-25T17:43:50+00:00",
+  "url": "https://www.youtube.com/watch?v=jLxJLh5n60s",
+  "transcript": "/src/data/transcripts/jLxJLh5n60s.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Refactoring PufferLib Dev Branch for e3b, P3O, and Hyperparameter Sweeps",
+  "summary": "Cleaned up the dev branch to integrate e3b and P3O algorithms, add carbs and protein hyperparameter sweep backends, and fix training bugs including lstm state and advantage masking. Optimized a C function for faster advantage computation and validated baseline reproducibility on breakout.",
+  "topics": [
+    "PufferLib",
+    "e3b",
+    "P3O",
+    "hyperparameter sweep",
+    "Cython optimization",
+    "dev branch refactoring"
+  ]
+}

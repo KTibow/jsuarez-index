@@ -1,0 +1,17 @@
+{
+  "id": "Ky5XHc0dHKw",
+  "date": "2025-04-19T00:02:18+00:00",
+  "url": "https://www.youtube.com/watch?v=Ky5XHc0dHKw",
+  "transcript": "/src/data/transcripts/Ky5XHc0dHKw.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging Grid Environment Training in PufferLib with Hyperparameter Tuning",
+  "summary": "Debugged training failures in the grid (maze) environment, tracing the issue to hyperparameter misconfiguration. Ran ablations on learning rate, gamma, update epochs, and layer normalization to restore baseline performance and identify optimal settings.",
+  "topics": [
+    "PufferLib",
+    "grid environment",
+    "hyperparameter tuning",
+    "maze environment",
+    "ablations",
+    "experience buffer"
+  ]
+}

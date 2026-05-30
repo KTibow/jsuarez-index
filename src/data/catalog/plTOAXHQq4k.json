@@ -1,0 +1,17 @@
+{
+  "id": "plTOAXHQq4k",
+  "date": "2025-02-07T16:56:59+00:00",
+  "url": "https://www.youtube.com/watch?v=plTOAXHQq4k",
+  "transcript": "/src/data/transcripts/plTOAXHQq4k.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Integrating Isaac Gym Motion Imitation into PufferLib",
+  "summary": "Worked on porting and debugging a motion imitation training pipeline from Isaac Gym to PufferLib, addressing observation normalization, gradient magnitude issues, and code integration.",
+  "topics": [
+    "PufferLib",
+    "motion imitation",
+    "Isaac Gym",
+    "continuous control",
+    "observation normalization",
+    "training debugging"
+  ]
+}

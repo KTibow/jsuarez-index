@@ -1,0 +1,17 @@
+{
+  "id": "Sfwr_aAKMc0",
+  "date": "2025-04-23T19:53:42+00:00",
+  "url": "https://www.youtube.com/watch?v=Sfwr_aAKMc0",
+  "transcript": "/src/data/transcripts/Sfwr_aAKMc0.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Integrating GPU Drive Environment and Debugging PPG in PufferLib",
+  "summary": "Integrated the GPU Drive environment into PufferLib, adjusted rendering colors and camera perspective, and fixed aliasing issues. Analyzed PPG algorithm results, discussing critic detachment and auxiliary updates. Helped a contributor debug a custom flocking environment. Also discussed new hyperparameter sets that generalize across environments.",
+  "topics": [
+    "GPU Drive integration",
+    "PPG analysis",
+    "rendering debug",
+    "PufferLib",
+    "hyperparameter tuning",
+    "custom environment debugging"
+  ]
+}

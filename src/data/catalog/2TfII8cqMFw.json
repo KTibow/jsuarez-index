@@ -1,0 +1,17 @@
+{
+  "id": "2TfII8cqMFw",
+  "date": "2025-04-18T16:56:44+00:00",
+  "url": "https://www.youtube.com/watch?v=2TfII8cqMFw",
+  "transcript": "/src/data/transcripts/2TfII8cqMFw.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Normalizing Performance Metrics Across Dozens of Environments in PufferLib",
+  "summary": "Worked on standardizing normalized performance metrics across a large set of reinforcement learning environments. Modified environment bindings and logging to output consistent score, length, and performance values, handling edge cases like Oware and Raven where reward is based on episode length.",
+  "topics": [
+    "normalized score metrics",
+    "environment binding",
+    "performance logging",
+    "game environment integration",
+    "Cython",
+    "Syon"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2HrxvIATLu4",
+  "date": "2025-01-17T17:00:54+00:00",
+  "url": "https://www.youtube.com/watch?v=2HrxvIATLu4",
+  "transcript": "/src/data/transcripts/2HrxvIATLu4.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Carbs Hyperparameter Sampling and Reviewing E3B Exploration Paper",
+  "summary": "Investigated why Carbs hyperparameter tuning algorithm fails on synthetic tests, discovering that its sampling is hindered by flawed space transformations rather than the algorithm itself. Also reviewed the E3B paper on elliptical episodic bonuses for exploration, finding the technique promising and the codebase overly complex.",
+  "topics": [
+    "carbs",
+    "hyperparameter tuning",
+    "space transformations",
+    "elliptical episode bonuses",
+    "exploration",
+    "paper review"
+  ]
+}

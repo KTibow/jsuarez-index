@@ -1,0 +1,17 @@
+{
+  "id": "aVIW_PZWNOs",
+  "date": "2024-12-26T16:44:49+00:00",
+  "url": "https://www.youtube.com/watch?v=aVIW_PZWNOs",
+  "transcript": "/src/data/transcripts/aVIW_PZWNOs.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Policy Architecture and Mini-Batch Size for Reinforcement Learning Performance",
+  "summary": "Assisted Captain in diagnosing slow training by analyzing policy network architecture, CNN/LSTM layers, and GPU utilization. Identified oversized mini-batch size as a key bottleneck and observed numerical instability in observations.",
+  "topics": [
+    "CNN architecture",
+    "mini-batch size",
+    "GPU utilization",
+    "numerical instability",
+    "PufferLib",
+    "performance debugging"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "Jo6mnPPMWKw",
+  "date": "2025-03-12T00:13:09+00:00",
+  "url": "https://www.youtube.com/watch?v=Jo6mnPPMWKw",
+  "transcript": "/src/data/transcripts/Jo6mnPPMWKw.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging Variational Advantage Function for Credit Assignment in RL",
+  "summary": "Worked on a new variational advantage function to replace generalized advantage estimation (GAE). The function predicts values and standard deviations over a horizon and aims to learn a discount factor from uncertainty. Debugged the advantage computation in a CUDA kernel and resolved theoretical issues with value function training.",
+  "topics": [
+    "variational advantage function",
+    "generalized advantage estimation",
+    "credit assignment",
+    "CUDA kernel",
+    "value function training",
+    "discount factor learning"
+  ]
+}

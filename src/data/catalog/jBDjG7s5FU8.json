@@ -1,0 +1,17 @@
+{
+  "id": "jBDjG7s5FU8",
+  "date": "2025-05-10T12:52:49+00:00",
+  "url": "https://www.youtube.com/watch?v=jBDjG7s5FU8",
+  "transcript": "/src/data/transcripts/jBDjG7s5FU8.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Performance Tuning PufferLib for Neural MMO and Breakout",
+  "summary": "Debugged copy overhead in PufferLib and optimized training speed to over 5 million steps per second. Analyzed sweep results for Neural MMO and Breakout, discussing learning rate annealing and map randomization strategies.",
+  "topics": [
+    "PufferLib",
+    "performance tuning",
+    "copy overhead",
+    "learning rate annealing",
+    "sweep algorithm",
+    "Neural MMO"
+  ]
+}

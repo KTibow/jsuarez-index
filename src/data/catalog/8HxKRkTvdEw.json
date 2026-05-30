@@ -1,0 +1,17 @@
+{
+  "id": "8HxKRkTvdEw",
+  "date": "2025-02-05T20:15:48+00:00",
+  "url": "https://www.youtube.com/watch?v=8HxKRkTvdEw",
+  "transcript": "/src/data/transcripts/8HxKRkTvdEw.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Gaussian Process Bias for Hyperparameter Sweep Algorithm",
+  "summary": "Worked on fixing biases in a Gaussian process-based hyperparameter sweep algorithm for reinforcement learning. Identified and corrected issues with reversion to mean and linear kernel artifacts, cleaned up redundant transforms, and achieved near-perfect results on synthetic tests.",
+  "topics": [
+    "Gaussian processes",
+    "hyperparameter tuning",
+    "reinforcement learning",
+    "algorithm debugging",
+    "cost estimation",
+    "kernel selection"
+  ]
+}

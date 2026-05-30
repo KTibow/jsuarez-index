@@ -1,0 +1,17 @@
+{
+  "id": "5_uKS-8e-4w",
+  "date": "2025-02-05T13:14:53+00:00",
+  "url": "https://www.youtube.com/watch?v=5_uKS-8e-4w",
+  "transcript": "/src/data/transcripts/5_uKS-8e-4w.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Gaussian Process Variance for Hyperparameter Optimization in PufferLib",
+  "summary": "Debugged Gaussian process predictions in hyperparameter optimization, identified that cost estimates reverted to zero outside the support set, and implemented a mean function to constrain predictions to assume higher cost and lower performance for unknown points.",
+  "topics": [
+    "Gaussian processes",
+    "hyperparameter optimization",
+    "cost estimation",
+    "kernel selection",
+    "PufferLib",
+    "variance estimation"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "j1wUqU1tENw",
+  "date": "2025-08-13T18:26:16+00:00",
+  "url": "https://www.youtube.com/watch?v=j1wUqU1tENw",
+  "transcript": "/src/data/transcripts/j1wUqU1tENw.vtt",
+  "originalTitle": "PufferLib - Off-policy research",
+  "title": "Implementing HL Gaus with Off-Policy Q-Learning in PufferLib",
+  "summary": "Worked on integrating HL Gaus (distributional Q-learning) into PufferLib's off-policy framework. Debugged instability and shared network issues, achieving a working distributional RL with unshared target networks.",
+  "topics": [
+    "HL Gaus",
+    "off-policy Q-learning",
+    "distributional RL",
+    "PufferLib",
+    "target network",
+    "replay buffer"
+  ]
+}

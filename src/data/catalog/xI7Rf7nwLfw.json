@@ -1,0 +1,17 @@
+{
+  "id": "xI7Rf7nwLfw",
+  "date": "2024-09-10T20:17:41+00:00",
+  "url": "https://www.youtube.com/watch?v=xI7Rf7nwLfw",
+  "transcript": "/src/data/transcripts/xI7Rf7nwLfw.vtt",
+  "originalTitle": "Portable RL models in C for WASM",
+  "title": "Debugging Attack Range and Spawn Bugs in C Environment Port",
+  "summary": "Debugged environment bugs in a C port for a web demo, fixing range checks on attacks and identifying spawn/respawn issues. Worked on integrating a single-file C implementation of layers for portable RL models.",
+  "topics": [
+    "C environment",
+    "porting",
+    "debugging",
+    "range checks",
+    "spawn/respawn",
+    "web demo"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "uEaJWYhoB8c",
+  "date": "2024-08-19T18:46:36+00:00",
+  "url": "https://www.youtube.com/watch?v=uEaJWYhoB8c",
+  "transcript": "/src/data/transcripts/uEaJWYhoB8c.vtt",
+  "originalTitle": "Live Reinforcement Learning Dev",
+  "title": "Analyzing Breakout Hyperparameter Sweep Results and Snake Game Release",
+  "summary": "Released a browser-based snake game with toggleable RL agent control. Analyzed nearly 1000 Atari Breakout experiments on W&B, identifying effective hyperparameters and noting that the best run reached 393 score in under 20 minutes with only 20 million steps.",
+  "topics": [
+    "snake game",
+    "web deployment",
+    "Atari Breakout",
+    "hyperparameter sweep",
+    "wandb"
+  ]
+}

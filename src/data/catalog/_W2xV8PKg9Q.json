@@ -1,0 +1,17 @@
+{
+  "id": "_W2xV8PKg9Q",
+  "date": "2025-04-15T14:58:54+00:00",
+  "url": "https://www.youtube.com/watch?v=_W2xV8PKg9Q",
+  "transcript": "/src/data/transcripts/_W2xV8PKg9Q.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Combining GAE and V-Trace into a New Advantage Function for PufferLib",
+  "summary": "Integrated generalized advantage estimation (GAE) with V-trace from IMPALA to create a new advantage estimation function, Puffer Advantage. Debugged off-policy experience replay and tested the new algorithm on breakout and mazes, showing improved performance over GAE alone.",
+  "topics": [
+    "advantage estimation",
+    "GAE",
+    "V-trace",
+    "PufferLib",
+    "CUDA kernels",
+    "off-policy correction"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "-tFTBxnA9oc",
+  "date": "2025-07-12T15:53:30+00:00",
+  "url": "https://www.youtube.com/watch?v=-tFTBxnA9oc",
+  "transcript": "/src/data/transcripts/-tFTBxnA9oc.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Debugging and Merging Drone Simulators for Multi-Task RL",
+  "summary": "Debugged and merged racing and swarming drone simulators into a single multi-task environment. Fixed observation and task configuration bugs to restore the flag formation task.",
+  "topics": [
+    "drone simulation",
+    "multi-task RL",
+    "PufferLib",
+    "debugging",
+    "environment integration",
+    "neural network policy"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "Sb181Ewc0HE",
+  "date": "2024-08-14T18:37:43+00:00",
+  "url": "https://www.youtube.com/watch?v=Sb181Ewc0HE",
+  "transcript": "/src/data/transcripts/Sb181Ewc0HE.vtt",
+  "originalTitle": "Reinforcement learning but C",
+  "title": "Porting Snake Game to C and Debugging Web Model Integration",
+  "summary": "Worked on translating a Snake reinforcement learning environment from Cython to pure C, set up raylib rendering, and debugged compilation and runtime issues. Also attempted to integrate a pretrained PyTorch model for standalone web deployment via libtorch and ONNX, encountering toolchain obstacles.",
+  "topics": [
+    "C port",
+    "raylib",
+    "PyTorch C++ API",
+    "ONNX",
+    "WebAssembly",
+    "snake environment"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "33E9-Qt0X0w",
+  "date": "2024-11-20T13:51:33+00:00",
+  "url": "https://www.youtube.com/watch?v=33E9-Qt0X0w",
+  "transcript": "/src/data/transcripts/33E9-Qt0X0w.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Benchmarking Intel i9-14900K vs AMD Ryzen 9 9950X for Reinforcement Learning Workloads",
+  "summary": "Benchmarked Intel i9-14900K and AMD Ryzen 9 9950X processors to evaluate performance for reinforcement learning workloads. Investigated performance regressions, compared synthetic benchmarks and real RL tasks, and identified WSL overhead as a potential issue. Decided to dual-boot Linux on the AMD machine for further testing.",
+  "topics": [
+    "hardware benchmarking",
+    "Intel i9-14900K",
+    "AMD Ryzen 9 9950X",
+    "WSL overhead",
+    "performance regression",
+    "PufferLib"
+  ]
+}

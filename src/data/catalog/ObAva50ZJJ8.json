@@ -1,0 +1,16 @@
+{
+  "id": "ObAva50ZJJ8",
+  "date": "2025-02-24T13:57:59+00:00",
+  "url": "https://www.youtube.com/watch?v=ObAva50ZJJ8",
+  "transcript": "/src/data/transcripts/ObAva50ZJJ8.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging GAE-Free PPO with Learned Value Head Discounting",
+  "summary": "Worked on implementing a PPO variant that removes Generalized Advantage Estimation by using a multi-dimensional value head to learn discounting directly. Debugged standard deviation clipping and horizon scaling issues, achieving comparable performance to tuned PPO on Breakout.",
+  "topics": [
+    "GAE-free PPO",
+    "learned discounting",
+    "value head",
+    "hyperparameter elimination",
+    "Breakout"
+  ]
+}

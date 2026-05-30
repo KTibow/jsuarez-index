@@ -1,0 +1,17 @@
+{
+  "id": "s6lFAh5N5C8",
+  "date": "2025-02-22T15:51:54+00:00",
+  "url": "https://www.youtube.com/watch?v=s6lFAh5N5C8",
+  "transcript": "/src/data/transcripts/s6lFAh5N5C8.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Reward Clipping and Sweep Quirks for Breakout in PufferLib",
+  "summary": "Worked on understanding sweep quirks and fixing reward clipping in the PufferLib PPO implementation. Debugged value loss issues, moved reward clipping from algorithm to environment, and ran faster sweeps with improved solve times.",
+  "topics": [
+    "PufferLib",
+    "PPO",
+    "reward clipping",
+    "sweep",
+    "value function",
+    "Breakout"
+  ]
+}

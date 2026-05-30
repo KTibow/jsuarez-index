@@ -1,0 +1,17 @@
+{
+  "id": "EwlEf3-Bl4o",
+  "date": "2025-08-28T22:46:50+00:00",
+  "url": "https://www.youtube.com/watch?v=EwlEf3-Bl4o",
+  "transcript": "/src/data/transcripts/EwlEf3-Bl4o.vtt",
+  "originalTitle": "PufferLib - world models get another chance",
+  "title": "Debugging World Model Training in PufferLib on Atari Breakout and Pong",
+  "summary": "Attempted to train a world model in PufferLib for Atari environments, testing one-step observation predictions, replay buffers, and different configurations. Found instability and poor performance, concluding that world model approaches require substantial compute and face fundamental challenges.",
+  "topics": [
+    "PufferLib",
+    "world model",
+    "Atari",
+    "supervised learning",
+    "sample efficiency",
+    "off-policy RL"
+  ]
+}

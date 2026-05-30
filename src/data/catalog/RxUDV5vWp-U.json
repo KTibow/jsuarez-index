@@ -1,0 +1,17 @@
+{
+  "id": "RxUDV5vWp-U",
+  "date": "2024-07-23T19:03:09+00:00",
+  "url": "https://www.youtube.com/watch?v=RxUDV5vWp-U",
+  "transcript": "/src/data/transcripts/RxUDV5vWp-U.vtt",
+  "originalTitle": "1M FPS mini-DoTA/LoL for reinforcement learning. Dev day #7",
+  "title": "Profiling and Optimizing a MOBA Simulator for 1 Million FPS in Cython",
+  "summary": "Worked on profiling and optimizing a mini-MOBA simulator, converting tight loops from Python to C via Cython annotations and removing safety checks. Optimized compute_observation, L2 distance, and scan AOE functions, and pre-computed RNG lookups to reduce overhead. Achieved significant performance gains but did not yet reach the target of 1 million FPS.",
+  "topics": [
+    "Cython",
+    "profiling",
+    "performance optimization",
+    "MOBA environment",
+    "caching",
+    "entity scanning"
+  ]
+}

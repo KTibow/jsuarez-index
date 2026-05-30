@@ -1,0 +1,17 @@
+{
+  "id": "gH8W4zXLXnc",
+  "date": "2025-04-09T15:39:50+00:00",
+  "url": "https://www.youtube.com/watch?v=gH8W4zXLXnc",
+  "transcript": "/src/data/transcripts/gH8W4zXLXnc.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Implementing CUDA Kernel for GAE with CPU Fallback and Cleaning Up PufferLib",
+  "summary": "Worked on implementing a CUDA kernel for generalized advantage estimation (GAE) with a graceful CPU fallback in PufferLib, reducing code size from 1500 to 1075 lines. Also ported E3B and diversity all you need algorithms to the new codebase and began exploring off-policy learning limitations related to value function staleness.",
+  "topics": [
+    "CUDA kernel",
+    "CPU fallback",
+    "generalized advantage estimation",
+    "PufferLib",
+    "code cleanup",
+    "off-policy learning"
+  ]
+}

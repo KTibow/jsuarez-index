@@ -1,0 +1,17 @@
+{
+  "id": "g7KGSISr9BM",
+  "date": "2025-08-14T18:35:50+00:00",
+  "url": "https://www.youtube.com/watch?v=g7KGSISr9BM",
+  "transcript": "/src/data/transcripts/g7KGSISr9BM.vtt",
+  "originalTitle": "PufferLib - Off-policy research",
+  "title": "Analyzing Off-Policy Algorithm Similarities to Retrace and Value Function Issues",
+  "summary": "Worked on verifying the correctness of an off-policy advantage estimate, finding it closely resembles the retrace algorithm. Explored theoretical limitations of off-policy reinforcement learning, particularly the stale value function problem, and contrasted Q-learning with policy gradient updates.",
+  "topics": [
+    "off-policy RL",
+    "retrace algorithm",
+    "value function",
+    "policy gradient",
+    "Q-learning",
+    "behavioral cloning"
+  ]
+}

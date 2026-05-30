@@ -1,0 +1,17 @@
+{
+  "id": "1QndpY0UGZY",
+  "date": "2025-04-15T23:40:53+00:00",
+  "url": "https://www.youtube.com/watch?v=1QndpY0UGZY",
+  "transcript": "/src/data/transcripts/1QndpY0UGZY.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Testing Advantage Estimation Variants and PPG Integration in PufferLib",
+  "summary": "Worked on off-policy correction methods for reinforcement learning in PufferLib. Tested PPO with V-trace and detached value heads, discovered a stable improvement to advantage estimation, and explored implementing phasic policy gradients.",
+  "topics": [
+    "PufferLib",
+    "off-policy correction",
+    "advantage estimation",
+    "V-trace",
+    "phasic policy gradients",
+    "PPO"
+  ]
+}

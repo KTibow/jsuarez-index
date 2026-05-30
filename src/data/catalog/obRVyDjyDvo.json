@@ -1,0 +1,17 @@
+{
+  "id": "obRVyDjyDvo",
+  "date": "2025-08-16T16:39:15+00:00",
+  "url": "https://www.youtube.com/watch?v=obRVyDjyDvo",
+  "transcript": "/src/data/transcripts/obRVyDjyDvo.vtt",
+  "originalTitle": "PufferLib - Off-policy research",
+  "title": "Implementing and Debugging SAC in PufferLib for Off-Policy Research",
+  "summary": "Worked on integrating off-policy methods into PufferLib, implementing Soft Actor-Critic (SAC) from scratch, but encountered instability and poor performance. Debugged issues with data buffers, advantage weighting, and hyperparameters, concluding that most off-policy methods are difficult to make work efficiently.",
+  "topics": [
+    "PufferLib",
+    "soft actor-critic",
+    "off-policy reinforcement learning",
+    "sample efficiency",
+    "hyperparameter tuning",
+    "implementation debugging"
+  ]
+}

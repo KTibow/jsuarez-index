@@ -1,0 +1,17 @@
+{
+  "id": "6-QrGacs1MA",
+  "date": "2025-08-30T17:18:04+00:00",
+  "url": "https://www.youtube.com/watch?v=6-QrGacs1MA",
+  "transcript": "/src/data/transcripts/6-QrGacs1MA.vtt",
+  "originalTitle": "PufferLib - Where do we take RL from here?",
+  "title": "Investigating Sample Reuse and World Models for Efficient RL",
+  "summary": "Explored sample reuse and world model approaches to bridge the compute-efficiency gap in reinforcement learning. Debugged a Dreamer-based implementation, tested a small replay buffer for on-policy data, and ran experiments on Pong and Breakout, achieving near-solve performance on Pong but instability on Breakout.",
+  "topics": [
+    "sample reuse",
+    "world models",
+    "Dreamer",
+    "hyperparameter tuning",
+    "RL compute efficiency",
+    "Pong/Breakout"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "pQwtUHzTrMQ",
+  "date": "2025-06-03T22:44:50+00:00",
+  "url": "https://www.youtube.com/watch?v=pQwtUHzTrMQ",
+  "transcript": "/src/data/transcripts/pQwtUHzTrMQ.vtt",
+  "originalTitle": "PufferLib + TinyBox - Live Reinforcement Learning Dev",
+  "title": "Debugging Sweeps Bug and Setting Up Distributed Training with TinyBox",
+  "summary": "Debugged a non-reproducible sweep bug in PufferLib by comparing old and new sweep configurations. Set up distributed training on the new TinyBox hardware with 20 NVIDIA 4090 GPUs, confirming DDP functionality.",
+  "topics": [
+    "PufferLib",
+    "sweep bug",
+    "distributed training",
+    "TinyBox",
+    "DDP",
+    "Terraform"
+  ]
+}

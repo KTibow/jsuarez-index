@@ -1,0 +1,17 @@
+{
+  "id": "u78OaI8qzEw",
+  "date": "2024-08-06T19:54:34+00:00",
+  "url": "https://www.youtube.com/watch?v=u78OaI8qzEw",
+  "transcript": "/src/data/transcripts/u78OaI8qzEw.vtt",
+  "originalTitle": "GPU Drive Day 1 PufferLib Support - Live Reinforcement Learning Dev",
+  "title": "Porting GPU Drive to PufferLib and Starting Training Setup",
+  "summary": "Worked on adding GPU Drive, a GPU-accelerated multi-agent driving simulator, to PufferLib. Created a wrapper and environment class, set up initial training configuration, and ran into API compatibility issues and a non-deterministic bug.",
+  "topics": [
+    "PufferLib",
+    "GPU Drive",
+    "Madrona engine",
+    "gymnasium wrapper",
+    "Cython",
+    "policy network"
+  ]
+}

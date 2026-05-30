@@ -1,0 +1,17 @@
+{
+  "id": "QuJScm1sUmE",
+  "date": "2025-12-05T20:12:49+00:00",
+  "url": "https://www.youtube.com/watch?v=QuJScm1sUmE",
+  "transcript": "/src/data/transcripts/QuJScm1sUmE.vtt",
+  "originalTitle": "Live RL dev on Pufferlib w/ Joseph Suarez",
+  "title": "Redesigning Vec Threading Architecture in PufferLib",
+  "summary": "Worked on a new architecture for the vectorization threading in PufferLib, switching from per-thread atomic trackers to per-buffer atomic counters for buffer task management. Implemented the new design but encountered a bug likely related to string null termination; basic threading was functional. Also achieved a raw deadlift PR of 405 lbs.",
+  "topics": [
+    "PufferLib",
+    "vectorization",
+    "threading",
+    "atomic operations",
+    "C/C++ debugging",
+    "deadlift"
+  ]
+}

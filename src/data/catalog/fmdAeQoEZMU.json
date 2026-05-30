@@ -1,0 +1,17 @@
+{
+  "id": "fmdAeQoEZMU",
+  "date": "2026-03-23T15:54:28+00:00",
+  "url": "https://www.youtube.com/watch?v=fmdAeQoEZMU",
+  "transcript": "/src/data/transcripts/fmdAeQoEZMU.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Refactoring Python Backend for Puffer 4 Release",
+  "summary": "Worked on cleaning up the pure Python fallback for Puffer 4, reducing redundant code and simplifying the codebase. Focused on removing boilerplate and ensuring the Python backend is compact and maintainable.",
+  "topics": [
+    "PufferLib",
+    "Python backend",
+    "code refactoring",
+    "pure Python fallback",
+    "torch backend",
+    "CUDA backend"
+  ]
+}

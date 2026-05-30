@@ -1,0 +1,17 @@
+{
+  "id": "QN-378XlL04",
+  "date": "2024-08-16T17:13:57+00:00",
+  "url": "https://www.youtube.com/watch?v=QN-378XlL04",
+  "transcript": "/src/data/transcripts/QN-378XlL04.vtt",
+  "originalTitle": "Reinforcement learning but C",
+  "title": "Debugging C MLP Forward Pass for Pure C Snake Demo in PufferLib",
+  "summary": "Debugged a C implementation of an MLP forward pass for a snake environment, fixing a missing ReLU activation that caused incorrect policy behavior. Successfully ran a pure C snake demo with environment, renderer, and policy all in C, enabling future web assembly deployment. Also worked on Atari baseline sweeps and GPU Drive integration.",
+  "topics": [
+    "PufferLib",
+    "C snake environment",
+    "MLP forward pass",
+    "web assembly",
+    "hyperparameter sweeps",
+    "Atari baselines"
+  ]
+}

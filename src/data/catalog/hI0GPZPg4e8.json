@@ -1,0 +1,17 @@
+{
+  "id": "hI0GPZPg4e8",
+  "date": "2025-10-07T14:37:00+00:00",
+  "url": "https://www.youtube.com/watch?v=hI0GPZPg4e8",
+  "transcript": "/src/data/transcripts/hI0GPZPg4e8.vtt",
+  "originalTitle": "PufferLib - Reinforcement Learning Agents Including Me",
+  "title": "Porting a Large-Scale RL Visualization Dashboard to C with Raylib",
+  "summary": "Worked on porting the Puffer Constellation visualization tool from Python Dash to C using Raylib. Implemented 2D plot axes, tick labels, drop-down menus for data selection, and began exploratory 3D plot integration.",
+  "topics": [
+    "PufferLib",
+    "C plotting with Raylib",
+    "2D axes implementation",
+    "large-scale RL visualization",
+    "Raygui dropdown",
+    "3D scatter plot"
+  ]
+}

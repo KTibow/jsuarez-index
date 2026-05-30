@@ -1,0 +1,17 @@
+{
+  "id": "hmrjhCgAhBM",
+  "date": "2025-09-16T23:30:39+00:00",
+  "url": "https://www.youtube.com/watch?v=hmrjhCgAhBM",
+  "transcript": "/src/data/transcripts/hmrjhCgAhBM.vtt",
+  "originalTitle": "PufferLib - New frontiers in RL",
+  "title": "Fixing Max Cost Filter Error and Rerunning Breakout and Pong Sweeps",
+  "summary": "Debugged a max cost filter bug that invalidated previous sweep experiments in PufferLib. Launched new sweep runs with corrected budget and hidden size sweeping to validate results.",
+  "topics": [
+    "experiment debugging",
+    "max cost filter",
+    "sweep configuration",
+    "PufferLib",
+    "Breakout",
+    "Pong"
+  ]
+}

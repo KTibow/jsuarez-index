@@ -1,0 +1,17 @@
+{
+  "id": "5K06FFQcK5Y",
+  "date": "2025-10-06T23:03:23+00:00",
+  "url": "https://www.youtube.com/watch?v=5K06FFQcK5Y",
+  "transcript": "/src/data/transcripts/5K06FFQcK5Y.vtt",
+  "originalTitle": "PufferLib - Reinforcement Learning Agents Including Me",
+  "title": "Launching Puffer Constellation and Debugging Environment Setup",
+  "summary": "Worked on setting up and debugging a third-party RL environment for collaboration, then launched a large batch of experiments for the new Puffer Constellation project across multiple GPUs.",
+  "topics": [
+    "Puffer Constellation",
+    "experiment sweeps",
+    "environment debugging",
+    "GPU batch runs",
+    "PufferLib",
+    "visualization"
+  ]
+}

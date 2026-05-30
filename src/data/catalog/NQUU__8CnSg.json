@@ -1,0 +1,17 @@
+{
+  "id": "NQUU__8CnSg",
+  "date": "2026-04-12T14:23:19+00:00",
+  "url": "https://www.youtube.com/watch?v=NQUU__8CnSg",
+  "transcript": "/src/data/transcripts/NQUU__8CnSg.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Merging Box and OSRS Environments into PufferLib",
+  "summary": "Merged Tim's box environment into PufferLib, resolving merge conflicts and starting sweeps on six GPUs. Began reviewing Vault's OSRS environment, identifying setup issues and discussing integration.",
+  "topics": [
+    "PufferLib",
+    "environment merging",
+    "sweep setup",
+    "box environment",
+    "OSRS environment",
+    "code review"
+  ]
+}

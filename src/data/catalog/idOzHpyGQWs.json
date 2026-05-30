@@ -1,0 +1,17 @@
+{
+  "id": "idOzHpyGQWs",
+  "date": "2026-04-03T23:34:46+00:00",
+  "url": "https://www.youtube.com/watch?v=idOzHpyGQWs",
+  "transcript": "/src/data/transcripts/idOzHpyGQWs.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Finalizing Puffer 4 Release and Debugging Pong Performance",
+  "summary": "Worked on updating Puffernet, debugging a Pong frame-skip bug, and evaluating new Puffer 4 model performance. Planned final experiments and release readiness.",
+  "topics": [
+    "Puffer 4",
+    "Puffernet",
+    "Pong bug fix",
+    "model evaluation",
+    "release planning",
+    "RL engineering"
+  ]
+}

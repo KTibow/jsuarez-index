@@ -1,0 +1,17 @@
+{
+  "id": "xW2no9D9OkY",
+  "date": "2024-12-21T18:53:25+00:00",
+  "url": "https://www.youtube.com/watch?v=xW2no9D9OkY",
+  "transcript": "/src/data/transcripts/xW2no9D9OkY.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Reviewing Xander's Environment PR and Refactoring PufferLib Buffer Structure",
+  "summary": "Reviewed Xander's custom environment PR, identifying issues with data structures and LSTM implementation. Refactored the buffer system in PufferLib to align ocean and emulated environment internals for cleaner vectorization and multiprocessing support.",
+  "topics": [
+    "code review",
+    "data structure design",
+    "buffer refactoring",
+    "vectorization",
+    "multiprocessing",
+    "environment integration"
+  ]
+}

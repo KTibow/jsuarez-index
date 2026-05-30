@@ -1,0 +1,17 @@
+{
+  "id": "4bSAF5vqZFo",
+  "date": "2025-03-07T16:15:48+00:00",
+  "url": "https://www.youtube.com/watch?v=4bSAF5vqZFo",
+  "transcript": "/src/data/transcripts/4bSAF5vqZFo.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Advantage Normalization for Long Horizons in P3O Algorithm",
+  "summary": "Worked on normalizing the advantage function in a new algorithm (p3o) to handle long horizons without requiring lambda/gamma hyperparameters. Debugged clipping issues and adjusted the normalization factor, eventually finding a promising approach that retained signal at short horizons while zeroing out noise at long horizons.",
+  "topics": [
+    "PufferLib",
+    "advantage normalization",
+    "long horizons",
+    "p3o",
+    "hyperparameter tuning",
+    "Cuda kernel"
+  ]
+}

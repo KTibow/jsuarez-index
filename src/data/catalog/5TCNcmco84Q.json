@@ -1,0 +1,16 @@
+{
+  "id": "5TCNcmco84Q",
+  "date": "2024-07-22T19:17:00+00:00",
+  "url": "https://www.youtube.com/watch?v=5TCNcmco84Q",
+  "transcript": "/src/data/transcripts/5TCNcmco84Q.vtt",
+  "originalTitle": "Coding a MOBA for AI/RL to play, Dev Day #6",
+  "title": "Implementing Precomputed Pathfinding and Cython Optimization for MOBA",
+  "summary": "Implemented a precomputed pathfinding system using BFS for the MOBA game, ported the algorithm to Cython for speed, integrated it into the game's AI, and tested scripted agents with the new pathing.",
+  "topics": [
+    "pathfinding",
+    "precompute",
+    "Cython",
+    "MOBA",
+    "AI"
+  ]
+}

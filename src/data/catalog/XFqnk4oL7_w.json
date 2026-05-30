@@ -1,0 +1,17 @@
+{
+  "id": "XFqnk4oL7_w",
+  "date": "2025-01-14T19:41:23+00:00",
+  "url": "https://www.youtube.com/watch?v=XFqnk4oL7_w",
+  "transcript": "/src/data/transcripts/XFqnk4oL7_w.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Fixing Rare Breakout Bug and Debugging Conda Compilation Issues in PufferLib",
+  "summary": "Diagnosed and patched an infinite loop in Breakout caused by not pressing the fire button. Debugged a conda-specific compilation error that prevented environments from running, identifying it as a conda/python version issue.",
+  "topics": [
+    "Breakout",
+    "PufferLib",
+    "conda",
+    "compilation bug",
+    "infinite loop",
+    "hyperparameter sweep"
+  ]
+}

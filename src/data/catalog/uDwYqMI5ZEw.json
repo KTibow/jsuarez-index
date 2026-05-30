@@ -1,0 +1,17 @@
+{
+  "id": "uDwYqMI5ZEw",
+  "date": "2024-07-24T19:18:45+00:00",
+  "url": "https://www.youtube.com/watch?v=uDwYqMI5ZEw",
+  "transcript": "/src/data/transcripts/uDwYqMI5ZEw.vtt",
+  "originalTitle": "1M FPS mini-DoTA/LoL for reinforcement learning. Dev day #8",
+  "title": "Training First Models on the Mini-DOTA Environment and Debugging Reward Scaling",
+  "summary": "Worked on integrating neural network training with the mini-DOTA environment, including hooking up the action space, fixing a segmentation fault, and implementing a delta-distance reward function. The first training run produced agents that learned to move to lane and fight, but identified issues with reward logging and asymmetric team behavior.",
+  "topics": [
+    "PufferLib",
+    "mini-DOTA",
+    "reward shaping",
+    "action space",
+    "segmentation fault",
+    "hyperparameter tuning"
+  ]
+}

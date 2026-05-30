@@ -1,0 +1,16 @@
+{
+  "id": "LnLh0m1C2nI",
+  "date": "2026-04-02T23:19:39+00:00",
+  "url": "https://www.youtube.com/watch?v=LnLh0m1C2nI",
+  "transcript": "/src/data/transcripts/LnLh0m1C2nI.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Recording Trailer and Discussing Pure CUDA Backend for Puffer 4",
+  "summary": "Worked on recording and editing the Puffer 4 release trailer, including script adjustments and audio setup. Discussed the pure CUDA training backend, hardware-efficient architecture, and critique of Dreamer-based world models.",
+  "topics": [
+    "PufferLib",
+    "CUDA",
+    "trailer production",
+    "RL environments",
+    "Dreamer critique"
+  ]
+}

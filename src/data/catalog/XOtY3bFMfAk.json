@@ -1,0 +1,16 @@
+{
+  "id": "XOtY3bFMfAk",
+  "date": "2025-05-22T13:19:50+00:00",
+  "url": "https://www.youtube.com/watch?v=XOtY3bFMfAk",
+  "transcript": "/src/data/transcripts/XOtY3bFMfAk.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Debugging PyTorch Build System Issues and Unsticking Trick",
+  "summary": "Worked on debugging PyTorch build system issues caused by PEP 517 isolation, which leads to version conflicts. Also discussed a random respawning trick for unsticking RL agents during early training.",
+  "topics": [
+    "PyTorch build system",
+    "PEP 517",
+    "CUDA kernel compilation",
+    "random respawning trick",
+    "RL training"
+  ]
+}

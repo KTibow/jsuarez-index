@@ -1,0 +1,17 @@
+{
+  "id": "RVSwpLzn38E",
+  "date": "2025-06-16T13:02:50+00:00",
+  "url": "https://www.youtube.com/watch?v=RVSwpLzn38E",
+  "transcript": "/src/data/transcripts/RVSwpLzn38E.vtt",
+  "originalTitle": "PufferLib - Live Reinforcement Learning Dev",
+  "title": "Showcasing Expanded Ocean Environments and 400B-Steps Neural MMO Training Run",
+  "summary": "Prepared the next release by expanding the Ocean demo page to 20 environments, including Tetris and others. Debugged building Impulse Wars for the web and reviewed a 400 billion-step training run on neural MMO.",
+  "topics": [
+    "PufferLib",
+    "Ocean environments",
+    "web deployment",
+    "neural MMO",
+    "long training runs",
+    "C neural nets"
+  ]
+}

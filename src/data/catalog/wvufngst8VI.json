@@ -1,0 +1,17 @@
+{
+  "id": "wvufngst8VI",
+  "date": "2024-08-19T19:06:50+00:00",
+  "url": "https://www.youtube.com/watch?v=wvufngst8VI",
+  "transcript": "/src/data/transcripts/wvufngst8VI.vtt",
+  "originalTitle": "Live Reinforcement Learning Dev",
+  "title": "Balancing Puffer MOBA with RL Agents and Fixing Skill Cooldown Bug",
+  "summary": "Debugged a critical skill cooldown bug that caused agents to spam mobility moves. Used CARBS-tuned hyperparameters to train RL agents, then iteratively rebalanced class skills and stats based on agent usage metrics. Launched additional Atari sweeps for breakout and beam rider.",
+  "topics": [
+    "Puffer MOBA",
+    "RL game balancing",
+    "CARBS hyperparameter tuning",
+    "skill cooldown debugging",
+    "Atari sweeps",
+    "agent usage metrics"
+  ]
+}

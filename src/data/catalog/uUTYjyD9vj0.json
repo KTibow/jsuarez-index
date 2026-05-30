@@ -1,0 +1,17 @@
+{
+  "id": "uUTYjyD9vj0",
+  "date": "2025-01-31T00:27:43+00:00",
+  "url": "https://www.youtube.com/watch?v=uUTYjyD9vj0",
+  "transcript": "/src/data/transcripts/uUTYjyD9vj0.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Cython Grid Environment and Implementing Maze Generator for PufferLib",
+  "summary": "Worked on finalizing a grid environment with maze generation in PufferLib. Debugged segmentation faults in the Cython/C interface and got initial training running on generated mazes.",
+  "topics": [
+    "PufferLib",
+    "grid environment",
+    "maze generation",
+    "Cython",
+    "debugging",
+    "segfault"
+  ]
+}

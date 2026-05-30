@@ -1,0 +1,17 @@
+{
+  "id": "zgRheybp0jo",
+  "date": "2025-08-20T18:38:09+00:00",
+  "url": "https://www.youtube.com/watch?v=zgRheybp0jo",
+  "transcript": "/src/data/transcripts/zgRheybp0jo.vtt",
+  "originalTitle": "PufferLib - world models get another chance",
+  "title": "Debugging DreamerV3 World Model Implementation in PufferLib",
+  "summary": "Worked on implementing a DreamerV3-style world model in PufferLib, correcting encoder and dynamics connections and adding reconstruction and KL losses. Achieved partial functionality on CartPole but results were unstable.",
+  "topics": [
+    "world models",
+    "DreamerV3",
+    "PufferLib",
+    "architecture debugging",
+    "CartPole",
+    "KL divergence"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "OCc__Gl1AzM",
+  "date": "2025-02-12T12:57:30+00:00",
+  "url": "https://www.youtube.com/watch?v=OCc__Gl1AzM",
+  "transcript": "/src/data/transcripts/OCc__Gl1AzM.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Hyperparameter Tuning with Pareto Optimal Acquisition",
+  "summary": "Worked on debugging a hyperparameter tuning algorithm, analyzing issues with the nearest-Pareto-distance acquisition function and Gaussian process model. Identified problems with variance estimation and model predictions, and considered alternative models.",
+  "topics": [
+    "hyperparameter tuning",
+    "Pareto optimality",
+    "Gaussian process",
+    "acquisition function",
+    "PufferLib",
+    "debugging"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "W2eB3Xx38Wg",
+  "date": "2025-05-19T20:21:04+00:00",
+  "url": "https://www.youtube.com/watch?v=W2eB3Xx38Wg",
+  "transcript": "/src/data/transcripts/W2eB3Xx38Wg.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Porting Breakout and MoBA to New C Binding in PufferLib",
+  "summary": "Ported Breakout and MoBA environments from the old Cython-based system to the new C binding system in PufferLib. Debugged level generation and shared map initialization, and resolved logging issues for MoBA.",
+  "topics": [
+    "C binding",
+    "Cython deprecation",
+    "level generation",
+    "shared map initialization",
+    "MoBA",
+    "Breakout"
+  ]
+}

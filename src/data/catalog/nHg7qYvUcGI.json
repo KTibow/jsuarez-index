@@ -1,0 +1,17 @@
+{
+  "id": "nHg7qYvUcGI",
+  "date": "2025-02-23T00:27:54+00:00",
+  "url": "https://www.youtube.com/watch?v=nHg7qYvUcGI",
+  "transcript": "/src/data/transcripts/nHg7qYvUcGI.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Setting Up Hyperparameter Sweeps for Breakout and Pong with PufferLib",
+  "summary": "Worked on debugging and setting up experiment sweeps for Pong and Breakout environments using PufferLib. Discussed a new algorithm that eliminates two hyperparameters and monitored training metrics.",
+  "topics": [
+    "hyperparameter tuning",
+    "PufferLib",
+    "Breakout",
+    "Pong",
+    "advantage/value normalization",
+    "experiment sweeps"
+  ]
+}

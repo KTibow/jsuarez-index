@@ -1,0 +1,17 @@
+{
+  "id": "j0Mx7gY6S_w",
+  "date": "2026-01-07T16:52:23+00:00",
+  "url": "https://www.youtube.com/watch?v=j0Mx7gY6S_w",
+  "transcript": "/src/data/transcripts/j0Mx7gY6S_w.vtt",
+  "originalTitle": "Kernel benchmarking for PufferLib 4.0",
+  "title": "Benchmarking Custom Kernels and Profiling Overhead in Puffer 4",
+  "summary": "Worked on kernel benchmarking for Puffer 4, profiling custom CUDA kernels against torch implementations and analyzing CUDA graph overhead. Fused scan operations to reduce elementwise kernel time and gained insight into remaining bottlenecks.",
+  "topics": [
+    "kernel benchmarking",
+    "CUDA profiling",
+    "Puffer 4",
+    "kernel fusion",
+    "CUDA graphs",
+    "elementwise kernels"
+  ]
+}

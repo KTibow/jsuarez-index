@@ -1,0 +1,17 @@
+{
+  "id": "gidrSUA_TLc",
+  "date": "2025-11-27T15:56:37+00:00",
+  "url": "https://www.youtube.com/watch?v=gidrSUA_TLc",
+  "transcript": "/src/data/transcripts/gidrSUA_TLc.vtt",
+  "originalTitle": "Puffer tries Tinygrad w/ Joseph Suarez",
+  "title": "Evaluating Tinygrad Performance for Small RL Models with Mamba Architecture",
+  "summary": "Tested Tinygrad for small reinforcement learning models, comparing speed to PyTorch eager and compiled modes. Implemented a Mamba-based architecture in Tinygrad and assessed its usability for future PufferLib integration.",
+  "topics": [
+    "PufferLib",
+    "Tinygrad",
+    "performance benchmarking",
+    "small RL models",
+    "Mamba architecture",
+    "kernel generation"
+  ]
+}

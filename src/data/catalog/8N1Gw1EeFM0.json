@@ -1,0 +1,17 @@
+{
+  "id": "8N1Gw1EeFM0",
+  "date": "2025-06-10T15:08:11+00:00",
+  "url": "https://www.youtube.com/watch?v=8N1Gw1EeFM0",
+  "transcript": "/src/data/transcripts/8N1Gw1EeFM0.vtt",
+  "originalTitle": "PufferLib - Live Reinforcement Learning Dev",
+  "title": "Stabilizing Tiny Boxes for Puffer 3 Release Experiments",
+  "summary": "Worked on getting tiny boxes (GPU hardware) to run jobs stably for the Puffer 3 release. Reviewed breakout experiment results showing improved performance, and helped debug a user's environment code by advising on one-hot encoding and mem copy optimizations.",
+  "topics": [
+    "tiny boxes",
+    "GPU stability",
+    "breakout experiments",
+    "v3.0 release",
+    "environment optimization",
+    "maze agent"
+  ]
+}

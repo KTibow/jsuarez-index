@@ -1,0 +1,17 @@
+{
+  "id": "1S3rlZVe5i8",
+  "date": "2025-05-07T16:26:04+00:00",
+  "url": "https://www.youtube.com/watch?v=1S3rlZVe5i8",
+  "transcript": "/src/data/transcripts/1S3rlZVe5i8.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Porting GPU Drive to Pure C Binding and Debugging Data Issues",
+  "summary": "Worked on porting GPU Drive from Cython to a pure C binding in PufferLib, fixing agent offset bugs and ghost car issues. Analyzed maze and breakout experiments, launched hyperparameter sweeps, and achieved state-of-the-art maze solving with sub-20 second breakout solves.",
+  "topics": [
+    "PufferLib",
+    "GPU Drive",
+    "Cython to C binding",
+    "hyperparameter sweeping",
+    "maze solving",
+    "breakout"
+  ]
+}

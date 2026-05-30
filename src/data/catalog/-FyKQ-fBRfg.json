@@ -1,0 +1,17 @@
+{
+  "id": "-FyKQ-fBRfg",
+  "date": "2025-04-20T00:07:03+00:00",
+  "url": "https://www.youtube.com/watch?v=-FyKQ-fBRfg",
+  "transcript": "/src/data/transcripts/-FyKQ-fBRfg.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging World Model Training for Model-Based Reinforcement Learning",
+  "summary": "Worked on implementing and debugging a world model for model-based reinforcement learning. Experimented with different configurations including zeroing the LSTM state and adjusting model size, but was unable to beat the baseline policy. Also discussed the PufferLib environment interface for a community member.",
+  "topics": [
+    "world model",
+    "model-based RL",
+    "LSTM state",
+    "EfficientZero",
+    "PufferLib",
+    "environment interface"
+  ]
+}

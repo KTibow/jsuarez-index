@@ -1,0 +1,17 @@
+{
+  "id": "zL_owraolW0",
+  "date": "2026-02-07T00:20:27+00:00",
+  "url": "https://www.youtube.com/watch?v=zL_owraolW0",
+  "transcript": "/src/data/transcripts/zL_owraolW0.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Eliminating Templates and Dispatch Macros in PufferLib Backend",
+  "summary": "Worked on removing C++ templates and dispatch macros from PufferLib's CUDA backend by compiling only one dtype at a time, simplifying the codebase. Deleted approximately 3,500 lines, reduced backend to under 5,000 lines, and moved modules from C++ to .cu files.",
+  "topics": [
+    "PufferLib",
+    "CUDA",
+    "code simplification",
+    "dtype templating",
+    "compile-time type selection",
+    "C++ template removal"
+  ]
+}

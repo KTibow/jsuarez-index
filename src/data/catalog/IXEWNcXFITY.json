@@ -1,0 +1,17 @@
+{
+  "id": "IXEWNcXFITY",
+  "date": "2024-10-02T18:24:45+00:00",
+  "url": "https://www.youtube.com/watch?v=IXEWNcXFITY",
+  "transcript": "/src/data/transcripts/IXEWNcXFITY.vtt",
+  "originalTitle": "Building a TCG for AI to play - live RL dev",
+  "title": "Refactoring a TCG Environment with Explicit Call Stack for RL",
+  "summary": "Refactored a trading card game prototype to use an explicit call stack for managing game phases, debugged issues with blocking and combat resolution, and produced a working prototype under 600 lines.",
+  "topics": [
+    "TCG environment",
+    "explicit call stack",
+    "game phase management",
+    "C development",
+    "debugging",
+    "PufferLib"
+  ]
+}

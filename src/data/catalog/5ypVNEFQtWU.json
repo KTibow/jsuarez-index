@@ -1,0 +1,17 @@
+{
+  "id": "5ypVNEFQtWU",
+  "date": "2026-04-05T14:41:58+00:00",
+  "url": "https://www.youtube.com/watch?v=5ypVNEFQtWU",
+  "transcript": "/src/data/transcripts/5ypVNEFQtWU.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Finalizing Puffer 4 Release with Docker, Trailer, and Constellation",
+  "summary": "Prepared Docker container, pushed it, and tested the trailer for the Puffer 4 release. Updated the Constellation dashboard with experiment data, fixed bugs like the Discord link, and finalized release assets.",
+  "topics": [
+    "PufferLib",
+    "CUDA",
+    "Docker",
+    "Constellation",
+    "GPU utilization",
+    "release prep"
+  ]
+}

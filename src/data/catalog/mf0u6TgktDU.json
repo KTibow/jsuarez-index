@@ -1,0 +1,17 @@
+{
+  "id": "mf0u6TgktDU",
+  "date": "2025-04-09T11:44:44+00:00",
+  "url": "https://www.youtube.com/watch?v=mf0u6TgktDU",
+  "transcript": "/src/data/transcripts/mf0u6TgktDU.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging Prioritized Experience Replay in PufferLib for Neural MMO Mazes",
+  "summary": "Debugged a prioritized experience replay implementation in PufferLib for Neural MMO. Tested on procedurally generated maze tasks with sparse rewards and observed improved performance on single maps but not on domain-randomized ones. Investigated advantage-based prioritization and value function training.",
+  "topics": [
+    "PufferLib",
+    "prioritized experience replay",
+    "Neural MMO",
+    "sparse reward environments",
+    "advantage filtering",
+    "maze navigation"
+  ]
+}

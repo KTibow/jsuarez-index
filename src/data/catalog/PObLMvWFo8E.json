@@ -1,0 +1,17 @@
+{
+  "id": "PObLMvWFo8E",
+  "date": "2024-07-23T01:32:23+00:00",
+  "url": "https://www.youtube.com/watch?v=PObLMvWFo8E",
+  "transcript": "/src/data/transcripts/PObLMvWFo8E.vtt",
+  "originalTitle": "Coding a MOBA for AI/RL to play, Dev Day #6",
+  "title": "Implementing Game Objective and Fixing Pathfinding for AI MOBA",
+  "summary": "Added the ancient (Fort) as the game objective and debugged creep AI getting stuck on towers. Fixed nav mesh issues by removing tower locations from pathfinding, enabling scripted policies to win full games of Dota.",
+  "topics": [
+    "pathfinding",
+    "Cython",
+    "MOBA",
+    "game objective",
+    "nav mesh",
+    "AI"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "0vFaSlFzl1U",
+  "date": "2024-10-21T20:30:57+00:00",
+  "url": "https://www.youtube.com/watch?v=0vFaSlFzl1U",
+  "transcript": "/src/data/transcripts/0vFaSlFzl1U.vtt",
+  "originalTitle": "Live RL dev on PufferLib",
+  "title": "Reviewing Connect Four and Go PRs, Training a Policy in PufferLib",
+  "summary": "Reviewed and merged contributor PRs for Connect Four fixes and a new Go environment, providing code feedback and optimizations. Trained a small policy for Connect Four against a scripted opponent, debugging the opponent's search algorithm and improving training stability.",
+  "topics": [
+    "PufferLib",
+    "code review",
+    "Connect Four",
+    "Go environment",
+    "policy training",
+    "performance optimization"
+  ]
+}

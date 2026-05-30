@@ -1,0 +1,17 @@
+{
+  "id": "jlzDx8pW9yI",
+  "date": "2025-04-10T15:04:53+00:00",
+  "url": "https://www.youtube.com/watch?v=jlzDx8pW9yI",
+  "transcript": "/src/data/transcripts/jlzDx8pW9yI.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Implementing Trajectory-Level Diversity Loss and Debugging Discriminator in PufferLib",
+  "summary": "Implemented a trajectory-level diversity loss based on 'Diversity is All You Need' to encourage exploration. Debugged the discriminator to avoid cheating via logits and experimented with observation-based reward.",
+  "topics": [
+    "diversity is all you need",
+    "trajectory-level loss",
+    "discriminator cheating",
+    "observation-based reward",
+    "C binding",
+    "grid environment"
+  ]
+}

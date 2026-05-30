@@ -1,0 +1,17 @@
+{
+  "id": "l6dmYMl97C4",
+  "date": "2025-07-14T19:35:59+00:00",
+  "url": "https://www.youtube.com/watch?v=l6dmYMl97C4",
+  "transcript": "/src/data/transcripts/l6dmYMl97C4.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Debugging Drone Agent and Helping Contributor with Ant Environment in PufferLib",
+  "summary": "Debugged a reward/curriculum bug in a drone racing agent, enabling randomized drone training. Assisted a contributor in debugging an ant foraging environment, fixing configuration issues and demonstrating PufferLib defaults.",
+  "topics": [
+    "drone racing",
+    "reward bug",
+    "curriculum learning",
+    "ant foraging",
+    "PufferLib configuration",
+    "contributor debugging"
+  ]
+}

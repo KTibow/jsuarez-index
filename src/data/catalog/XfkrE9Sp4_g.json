@@ -1,0 +1,17 @@
+{
+  "id": "XfkrE9Sp4_g",
+  "date": "2025-07-02T15:25:19+00:00",
+  "url": "https://www.youtube.com/watch?v=XfkrE9Sp4_g",
+  "transcript": "/src/data/transcripts/XfkrE9Sp4_g.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Building Multi-Agent Drone Swarm with Continuous Delta Reward Functions",
+  "summary": "Worked on creating a multi-agent drone environment in PufferLib, implementing continuous delta reward functions for tasks like hover, orbit, follow, and idle. Also ordered hardware components for real drone experiments and tuned reward normalization for stable training.",
+  "topics": [
+    "PufferLib",
+    "drone simulation",
+    "multi-agent systems",
+    "continuous reward functions",
+    "delta reward",
+    "hardware ordering"
+  ]
+}

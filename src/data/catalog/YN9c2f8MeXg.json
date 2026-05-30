@@ -1,0 +1,17 @@
+{
+  "id": "YN9c2f8MeXg",
+  "date": "2025-04-08T14:36:39+00:00",
+  "url": "https://www.youtube.com/watch?v=YN9c2f8MeXg",
+  "transcript": "/src/data/transcripts/YN9c2f8MeXg.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Implementing Prioritized Experience Replay and CUDA Advantage in PufferLib PPO",
+  "summary": "Worked on integrating a prioritized experience replay buffer into PufferLib's PPO implementation to replace the standard buffer. Also replaced the CPU-based generalized advantage estimation with a custom CUDA kernel, significantly improving performance.",
+  "topics": [
+    "PufferLib",
+    "prioritized experience replay",
+    "CUDA kernel",
+    "PPO",
+    "generalized advantage estimation",
+    "code refactoring"
+  ]
+}

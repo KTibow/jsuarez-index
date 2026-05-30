@@ -1,0 +1,17 @@
+{
+  "id": "svto8l606p0",
+  "date": "2024-09-10T00:04:23+00:00",
+  "url": "https://www.youtube.com/watch?v=svto8l606p0",
+  "transcript": "/src/data/transcripts/svto8l606p0.vtt",
+  "originalTitle": "Portable RL models in C for WASM",
+  "title": "Debugging LSTM Index Bug in C Inference for RL MOBA Agents",
+  "summary": "Fixed an LSTM indexing bug that caused mismatched hidden states in a pure C inference engine. Tested CNN-LSTM-MLP policies in a C MOBA environment, resolving speed and ghosting issues to enable real-time browser execution via WebAssembly.",
+  "topics": [
+    "LSTM indexing bug",
+    "C inference engine",
+    "WebAssembly",
+    "MOBA environment",
+    "RL agent testing",
+    "bug fixing"
+  ]
+}

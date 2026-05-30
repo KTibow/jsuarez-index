@@ -1,0 +1,17 @@
+{
+  "id": "yeXLdN_c5bc",
+  "date": "2025-01-21T23:41:18+00:00",
+  "url": "https://www.youtube.com/watch?v=yeXLdN_c5bc",
+  "transcript": "/src/data/transcripts/yeXLdN_c5bc.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Analyzing Neoc Carbs Pareto Front Filling and GPU Drive Eval Gap",
+  "summary": "Worked on improving the neoc carbs hyperparameter tuning algorithm, specifically addressing the issue of not filling in the Pareto front by modeling gaps. Debugged a performance gap between training and evaluation in the GPU Drive driving simulator.",
+  "topics": [
+    "neoc carbs",
+    "hyperparameter tuning",
+    "Pareto front",
+    "gaussian process",
+    "GPU Drive",
+    "evaluation gap"
+  ]
+}

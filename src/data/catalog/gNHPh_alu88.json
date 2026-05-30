@@ -1,0 +1,17 @@
+{
+  "id": "gNHPh_alu88",
+  "date": "2025-03-28T17:18:13+00:00",
+  "url": "https://www.youtube.com/watch?v=gNHPh_alu88",
+  "transcript": "/src/data/transcripts/gNHPh_alu88.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Replacing Cython Bindings with Python C API and Reviewing Multi-Map Support for Driving Environment",
+  "summary": "Explored using the Python C API to replace Cython bindings in PufferLib, successfully creating a general-purpose wrapper that reduces per-environment binding code. Also reviewed code for the driving environment (GPU Drive) with a collaborator, focusing on multi-map initialization and observation size fixes.",
+  "topics": [
+    "PufferLib",
+    "Python C API",
+    "environment bindings",
+    "Cython",
+    "GPU Drive",
+    "multi-map support"
+  ]
+}

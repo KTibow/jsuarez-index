@@ -1,0 +1,17 @@
+{
+  "id": "4j6AbaUWAL4",
+  "date": "2026-02-08T16:49:24+00:00",
+  "url": "https://www.youtube.com/watch?v=4j6AbaUWAL4",
+  "transcript": "/src/data/transcripts/4j6AbaUWAL4.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Porting Runescape Inferno to C as a Reinforcement Learning Environment",
+  "summary": "Worked on porting the Runescape Inferno minigame to C using Raylib for graphics. Achieved basic tile rendering, player movement, and NPC pathing, with plans to add collisions and full wave logic.",
+  "topics": [
+    "PufferLib",
+    "Raylib",
+    "game engine porting",
+    "reinforcement learning environment",
+    "coordinate alignment",
+    "NPC pathing"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "VG6f-a6mYk4",
+  "date": "2025-04-14T17:19:10+00:00",
+  "url": "https://www.youtube.com/watch?v=VG6f-a6mYk4",
+  "transcript": "/src/data/transcripts/VG6f-a6mYk4.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging Test-Time Training Layer Implementation with PyTorch Autograd",
+  "summary": "Worked on implementing the TTT-linear layer from the Test-Time Training paper. Debugged autograd gradient tracking issues with stateful weights and bias, and reviewed the paper's math and pseudocode. Achieved a partial implementation that learns but still requires further debugging.",
+  "topics": [
+    "TTT layer",
+    "PyTorch autograd",
+    "stateful weights",
+    "gradient handling",
+    "paper review",
+    "debugging"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "NqKfW2Er1yw",
+  "date": "2024-10-14T17:07:26+00:00",
+  "url": "https://www.youtube.com/watch?v=NqKfW2Er1yw",
+  "transcript": "/src/data/transcripts/NqKfW2Er1yw.vtt",
+  "originalTitle": "Let's land Musk's rocket with RL",
+  "title": "Porting Legacy Rocket Landing Environment to PufferLib Modern API",
+  "summary": "Worked on modernizing a 7-year-old rocket landing environment from Python 3.5 to PufferLib's native gym API, replacing legacy rendering with Raylib and stripping unused code. Got basic rendering and training running but performance was bottlenecked by Python physics, requiring a future C port.",
+  "topics": [
+    "PufferLib",
+    "rocket landing environment",
+    "Raylib",
+    "legacy code modernization",
+    "continuous action spaces",
+    "physics simulation"
+  ]
+}

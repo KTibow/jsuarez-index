@@ -1,0 +1,17 @@
+{
+  "id": "jci75c3gTYA",
+  "date": "2025-07-17T22:07:04+00:00",
+  "url": "https://www.youtube.com/watch?v=jci75c3gTYA",
+  "transcript": "/src/data/transcripts/jci75c3gTYA.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Training Drone Racing Policies and Tuning Size Bounds in PufferLib",
+  "summary": "Worked on training fixed-size drone policies for a racing task, observing that smaller drones trained more reliably while larger ones required tuning. Integrated community PRs for PufferLib and fixed a local CUDA installation issue on Windows.",
+  "topics": [
+    "drone racing",
+    "reinforcement learning",
+    "drone size tuning",
+    "PufferLib",
+    "PR integration",
+    "environment setup"
+  ]
+}

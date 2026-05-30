@@ -1,0 +1,17 @@
+{
+  "id": "i5xkp9TDL_M",
+  "date": "2025-05-21T12:10:52+00:00",
+  "url": "https://www.youtube.com/watch?v=i5xkp9TDL_M",
+  "transcript": "/src/data/transcripts/i5xkp9TDL_M.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Crafting Multi-Agent Continuous Sample Environment for PufferLib",
+  "summary": "Created a new multi-agent continuous target environment and refactored the Squared single-agent sample for PufferLib. Also reviewed sweep results and debugged container rendering issues.",
+  "topics": [
+    "PufferLib",
+    "multi-agent environments",
+    "continuous control",
+    "sample projects",
+    "container debugging",
+    "environment refactoring"
+  ]
+}

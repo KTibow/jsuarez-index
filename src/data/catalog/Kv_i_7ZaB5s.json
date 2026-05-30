@@ -1,0 +1,17 @@
+{
+  "id": "Kv_i_7ZaB5s",
+  "date": "2024-10-15T19:00:37+00:00",
+  "url": "https://www.youtube.com/watch?v=Kv_i_7ZaB5s",
+  "transcript": "/src/data/transcripts/Kv_i_7ZaB5s.vtt",
+  "originalTitle": "Let's land Musk's rocket with RL",
+  "title": "Porting Rocket Landing Environment to C with Box2D and PufferLib",
+  "summary": "Worked on porting a seven-year-old rocket landing RL environment from Python to C using Box2D physics. Debugged coordinate system mismatches between rendering and physics, resolved joint attachment issues, and set up PufferLib training pipeline achieving 200k steps per second.",
+  "topics": [
+    "Box2D",
+    "coordinate system",
+    "physics simulation",
+    "porting C",
+    "PufferLib",
+    "rocket landing environment"
+  ]
+}

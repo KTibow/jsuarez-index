@@ -1,0 +1,17 @@
+{
+  "id": "afhclKlaeMY",
+  "date": "2025-09-18T22:01:11+00:00",
+  "url": "https://www.youtube.com/watch?v=afhclKlaeMY",
+  "transcript": "/src/data/transcripts/afhclKlaeMY.vtt",
+  "originalTitle": "PufferLib - New frontiers in RL",
+  "title": "Analyzing Hyperparameter Sweeps for Compute-Data Tradeoffs in PufferLib",
+  "summary": "Worked on debugging and analyzing experimental results for compute-data tradeoffs in PufferLib. Identified issues with frame skip affecting sweep outcomes, timing discrepancies, and hyperparameter sensitivity. Launched new experiments to investigate further.",
+  "topics": [
+    "hyperparameter sweeping",
+    "frame skip",
+    "compute-data tradeoff",
+    "timing analysis",
+    "PufferLib",
+    "GPU batch sizes"
+  ]
+}

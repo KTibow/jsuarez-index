@@ -1,0 +1,17 @@
+{
+  "id": "44Dtg6kKa94",
+  "date": "2025-01-20T22:47:59+00:00",
+  "url": "https://www.youtube.com/watch?v=44Dtg6kKa94",
+  "transcript": "/src/data/transcripts/44Dtg6kKa94.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Testing Neo-CARBS Hyperparameter Sweeps and Reviewing a Tower Climbing Environment",
+  "summary": "Tested the Neo-CARBS hyperparameter sweep algorithm on Atari environments, adjusting search bounds and adding score functions for new environments. Reviewed a pull request for a 3D tower climbing puzzle game, providing feedback on network architecture and curriculum learning.",
+  "topics": [
+    "Neo-CARBS",
+    "hyperparameter tuning",
+    "Atari environments",
+    "tower climbing environment",
+    "curriculum learning",
+    "code review"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "tx2NqCFMrdI",
+  "date": "2025-11-17T17:28:51+00:00",
+  "url": "https://www.youtube.com/watch?v=tx2NqCFMrdI",
+  "transcript": "/src/data/transcripts/tx2NqCFMrdI.vtt",
+  "originalTitle": "Live RL Research on PufferLib w/ Joseph Suarez",
+  "title": "Testing Mingru Architecture Against Baseline on 2048 Environment",
+  "summary": "Merged Kyouong's 2048 environment PR into Puffer 4 and debugged optimizer discrepancies between torch Muon and heavy ball momentum. Achieved matching learning curves after fixing num mini batches and optimizer settings, validating the Mingru architecture's performance.",
+  "topics": [
+    "PufferLib",
+    "Mingru architecture",
+    "2048 environment",
+    "optimizer comparison",
+    "hyperparameter tuning",
+    "multi-GPU sweeps"
+  ]
+}

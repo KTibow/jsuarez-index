@@ -1,0 +1,17 @@
+{
+  "id": "mUxkzFvE7CQ",
+  "date": "2025-07-07T14:54:09+00:00",
+  "url": "https://www.youtube.com/watch?v=mUxkzFvE7CQ",
+  "transcript": "/src/data/transcripts/mUxkzFvE7CQ.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Writing a Quick Start Guide for Reinforcement Learning with PufferLib",
+  "summary": "Worked on drafting a comprehensive quick start guide for learning reinforcement learning, focusing on accessible explanations of PPO and structuring educational content. Engaged with the community to shape the guide and discussed challenges in linking formal literature versus practical intuition.",
+  "topics": [
+    "RL education",
+    "PPO explanation",
+    "quick start guide",
+    "PufferLib",
+    "RL literature accessibility",
+    "community involvement"
+  ]
+}

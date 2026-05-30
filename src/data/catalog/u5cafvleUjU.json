@@ -1,0 +1,17 @@
+{
+  "id": "u5cafvleUjU",
+  "date": "2025-08-22T19:42:58+00:00",
+  "url": "https://www.youtube.com/watch?v=u5cafvleUjU",
+  "transcript": "/src/data/transcripts/u5cafvleUjU.vtt",
+  "originalTitle": "PufferLib - world models get another chance",
+  "title": "Fixing KL Divergence Loss for Dreamer World Model on CartPole",
+  "summary": "Diagnosed and corrected a KL divergence loss error in the Dreamer world model implementation, improving training stability for CartPole. Discussed fundamental challenges with off-policy reinforcement learning and Q-learning.",
+  "topics": [
+    "Dreamer",
+    "world model",
+    "KL divergence",
+    "CartPole",
+    "off-policy RL",
+    "Q-learning"
+  ]
+}

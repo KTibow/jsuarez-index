@@ -1,0 +1,17 @@
+{
+  "id": "duB-wMgg5rM",
+  "date": "2026-01-03T14:59:48+00:00",
+  "url": "https://www.youtube.com/watch?v=duB-wMgg5rM",
+  "transcript": "/src/data/transcripts/duB-wMgg5rM.vtt",
+  "originalTitle": "Joseph Suarez vs. Opus 4.5",
+  "title": "Testing Claude Opus 4.5 by Implementing a Runescape Boss Fight Environment",
+  "summary": "Tested Claude Opus 4.5's ability to write a single-file Runescape boss fight environment for PufferLib. The model produced approximately 80% of the code, which built and trained an RL agent, but the workflow was deemed depressing and required significant manual debugging for correctness.",
+  "topics": [
+    "PufferLib",
+    "Claude Opus",
+    "environment implementation",
+    "Runescape",
+    "reinforcement learning",
+    "code generation"
+  ]
+}

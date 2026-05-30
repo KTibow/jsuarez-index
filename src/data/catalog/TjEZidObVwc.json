@@ -1,0 +1,17 @@
+{
+  "id": "TjEZidObVwc",
+  "date": "2025-05-20T15:38:35+00:00",
+  "url": "https://www.youtube.com/watch?v=TjEZidObVwc",
+  "transcript": "/src/data/transcripts/TjEZidObVwc.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Fixing Environment Bindings and Beginning Containerization for Puffer 3 Release",
+  "summary": "Fixed remaining environment bindings for Neural MMO and Tower Climb, then shifted to Docker containerization work including multi-stage build simplification and host driver upgrades for CUDA 128 compatibility. Began creating a user setup script for PufferLib.",
+  "topics": [
+    "environment bindings",
+    "containerization",
+    "CUDA driver upgrade",
+    "PufferLib",
+    "neural MMO",
+    "Docker"
+  ]
+}

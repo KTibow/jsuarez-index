@@ -1,0 +1,17 @@
+{
+  "id": "kGkrcVaNWOU",
+  "date": "2024-08-09T17:41:18+00:00",
+  "url": "https://www.youtube.com/watch?v=kGkrcVaNWOU",
+  "transcript": "/src/data/transcripts/kGkrcVaNWOU.vtt",
+  "originalTitle": "Live Reinforcement Learning Dev",
+  "title": "Debugging MOBA Environment and Implementing ELO Rating System",
+  "summary": "Worked on the PufferLib MOBA environment, debugging a reset bug that caused towers and grid data to persist incorrectly. Implemented an ELO evaluation system to compare policy checkpoints and measure relative skill over training. Fixed a grid copying issue and added logic for early termination of lopsided games.",
+  "topics": [
+    "ELO rating system",
+    "Cython",
+    "MOBA environment",
+    "debug reset bug",
+    "grid copying bug",
+    "policy evaluation"
+  ]
+}

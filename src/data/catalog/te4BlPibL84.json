@@ -1,0 +1,17 @@
+{
+  "id": "te4BlPibL84",
+  "date": "2025-03-21T13:08:24+00:00",
+  "url": "https://www.youtube.com/watch?v=te4BlPibL84",
+  "transcript": "/src/data/transcripts/te4BlPibL84.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Refactoring PufferLib Policy API with State Namespace and Tensor Dict",
+  "summary": "Refactored the policy interface in PufferLib to simplify data passing, replacing tensor dict with a state namespace, reducing code paths and achieving a uniform API that runs and trains successfully. Also discussed hyperparameter sweeps for Adam parameters and viewed Impulse Wars 3D rendering progress.",
+  "topics": [
+    "PufferLib",
+    "state namespace",
+    "policy API",
+    "tensor dict",
+    "hyperparameter sweeping",
+    "Adam optimizer"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "nbLUVgrCjUg",
+  "date": "2024-08-20T20:43:49+00:00",
+  "url": "https://www.youtube.com/watch?v=nbLUVgrCjUg",
+  "transcript": "/src/data/transcripts/nbLUVgrCjUg.vtt",
+  "originalTitle": "Live Reinforcement Learning Dev",
+  "title": "Balancing MOBA Classes and Adding Visual Effects in PufferLib",
+  "summary": "Worked on balancing the MOBA simulator, fixed an XP range bug causing division by zero, adjusted tank and support scaling, added damage tint and status effect icons, implemented frame interpolation for smoother rendering, and switched from drag to click-to-move movement.",
+  "topics": [
+    "MOBA balancing",
+    "XP range bug",
+    "damage tint effects",
+    "frame interpolation",
+    "click-to-move",
+    "status icons"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "gFJFpLOH6aI",
+  "date": "2025-04-22T18:10:26+00:00",
+  "url": "https://www.youtube.com/watch?v=gFJFpLOH6aI",
+  "transcript": "/src/data/transcripts/gFJFpLOH6aI.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging Masking in Experience Buffer and Optimizing Action Sampling",
+  "summary": "Worked on handling agent death masking in the experience buffer, concluding to defer implementation. Merged a large environment PR for Impulse Wars. Optimized action sampling by refactoring multinomial code, achieving up to 2.7 million steps per second on Neural MMO.",
+  "topics": [
+    "experience buffer",
+    "masking",
+    "action sampling",
+    "multinomial optimization",
+    "impulse wars environment",
+    "neural MMO profiling"
+  ]
+}

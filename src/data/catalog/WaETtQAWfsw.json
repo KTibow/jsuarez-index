@@ -1,0 +1,17 @@
+{
+  "id": "WaETtQAWfsw",
+  "date": "2025-06-16T23:14:41+00:00",
+  "url": "https://www.youtube.com/watch?v=WaETtQAWfsw",
+  "transcript": "/src/data/transcripts/WaETtQAWfsw.vtt",
+  "originalTitle": "PufferLib - Live Reinforcement Learning Dev",
+  "title": "Collecting Clips and Debugging Ant Environment for PufferLib Trailer",
+  "summary": "Worked on recording video clips of 20+ environments for the PufferLib release trailer, and debugged the ant environment's reward signal and observation bounds with Bet.",
+  "topics": [
+    "clip collection",
+    "ant environment",
+    "reward debugging",
+    "observation bounds",
+    "trailer production",
+    "PufferLib release"
+  ]
+}

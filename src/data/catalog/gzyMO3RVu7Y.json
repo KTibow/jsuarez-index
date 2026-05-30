@@ -1,0 +1,17 @@
+{
+  "id": "gzyMO3RVu7Y",
+  "date": "2025-10-24T17:55:28+00:00",
+  "url": "https://www.youtube.com/watch?v=gzyMO3RVu7Y",
+  "transcript": "/src/data/transcripts/gzyMO3RVu7Y.vtt",
+  "originalTitle": "PufferLib - Hardcore RL Perf Optimization",
+  "title": "Testing Contrastive Loss PR and Progress on C++ Port of PufferLib",
+  "summary": "Tested a contrastive loss PR from a collaborator by setting up and running a sweep. Continued the C++ port of PufferLib, implementing the optimizer and learning rate scheduler using LibTorch's C++ API, achieving initial speed improvements.",
+  "topics": [
+    "contrastive loss",
+    "C++ port",
+    "LibTorch",
+    "optimizer",
+    "learning rate scheduler",
+    "performance optimization"
+  ]
+}

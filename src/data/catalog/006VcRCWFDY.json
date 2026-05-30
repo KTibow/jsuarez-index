@@ -1,0 +1,17 @@
+{
+  "id": "006VcRCWFDY",
+  "date": "2024-07-29T17:38:02+00:00",
+  "url": "https://www.youtube.com/watch?v=006VcRCWFDY",
+  "transcript": "/src/data/transcripts/006VcRCWFDY.vtt",
+  "originalTitle": "RL Hyperparam Sweeps for 1M FPS mini-DoTA/LoL. Dev day #9",
+  "title": "Hyperparameter Tuning with CARBS and Atari Speedup Validation",
+  "summary": "Presented a benchmark showing CARBS outperforms random search, genetic algorithms, and Bayesian optimization on a synthetic task. Fixed Python wrappers to achieve 30,000+ train steps per second in Atari, reducing training time for Pong to under five minutes. Integrated reward weight sweeping into the MOBA environment and began performance optimization of the simulation.",
+  "topics": [
+    "CARBS",
+    "hyperparameter tuning",
+    "Atari speedup",
+    "numpy wrapper optimization",
+    "MOBA environment",
+    "Cython profiling"
+  ]
+}

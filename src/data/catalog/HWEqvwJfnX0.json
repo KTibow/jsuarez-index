@@ -1,0 +1,17 @@
+{
+  "id": "HWEqvwJfnX0",
+  "date": "2024-07-12T18:05:21+00:00",
+  "url": "https://www.youtube.com/watch?v=HWEqvwJfnX0",
+  "transcript": "/src/data/transcripts/HWEqvwJfnX0.vtt",
+  "originalTitle": "Reinforcement Learning Dev: Building a High-Perf Continuous Control Engine in PufferLib",
+  "title": "Restructuring Continuous Control Environments and Training Multi-Agent Task Suite",
+  "summary": "Restructured continuous control environments to randomize agent spawns and respawns, improving data diversity and training speed. Trained policies for forging, grouping, predator-prey, and pufferlib logo tasks, added continuous action support, and implemented a pufferfish sprite renderer. Ran hyperparameter sweeps to tune learning.",
+  "topics": [
+    "PufferLib",
+    "continuous control",
+    "multi-agent environments",
+    "hyperparameter sweeps",
+    "environment design",
+    "Cython simulation"
+  ]
+}

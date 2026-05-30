@@ -1,0 +1,17 @@
+{
+  "id": "6abVMfaxHic",
+  "date": "2026-04-01T17:02:06+00:00",
+  "url": "https://www.youtube.com/watch?v=6abVMfaxHic",
+  "transcript": "/src/data/transcripts/6abVMfaxHic.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Porting Environments and Debugging Drive for PufferLib Release",
+  "summary": "Ported several environments (MOA, Terraform, Drive, Tower Climb, Snake) to Puffer 4. Debugged the Drive environment's multi-map instability and observation sorting. Merged contributor PRs and began documentation for the upcoming release.",
+  "topics": [
+    "PufferLib",
+    "environment porting",
+    "drive environment",
+    "observation sorting",
+    "release preparation",
+    "benchmarking"
+  ]
+}

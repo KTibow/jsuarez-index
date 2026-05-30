@@ -1,0 +1,16 @@
+{
+  "id": "Nsoe0p1fppY",
+  "date": "2024-11-22T14:15:23+00:00",
+  "url": "https://www.youtube.com/watch?v=Nsoe0p1fppY",
+  "transcript": "/src/data/transcripts/Nsoe0p1fppY.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Refactoring Presets and Space Handling in PufferLib",
+  "summary": "Worked on simplifying the configuration system for the next PufferLib release, removing confusing presets and cleaning up space handling to reduce code complexity.",
+  "topics": [
+    "PufferLib",
+    "configuration presets",
+    "space handling",
+    "code refactoring",
+    "open source engineering"
+  ]
+}

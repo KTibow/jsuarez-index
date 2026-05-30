@@ -1,0 +1,17 @@
+{
+  "id": "vfbPAVvISvQ",
+  "date": "2025-10-16T22:39:23+00:00",
+  "url": "https://www.youtube.com/watch?v=vfbPAVvISvQ",
+  "transcript": "/src/data/transcripts/vfbPAVvISvQ.vtt",
+  "originalTitle": "PufferLib RL Dev. C & Deadlifts",
+  "title": "Overhauling the C Plotting Library for Constellation's RL Dashboard",
+  "summary": "Refactored the C plotting interface for Constellation, aiming for a simpler, point-based signature inspired by Raylib. Discussed abstraction trade-offs, performance profiling of PufferLib, and progress toward a reusable API.",
+  "topics": [
+    "C",
+    "plotting library",
+    "refactoring",
+    "Raylib",
+    "performance profiling",
+    "Constellation"
+  ]
+}

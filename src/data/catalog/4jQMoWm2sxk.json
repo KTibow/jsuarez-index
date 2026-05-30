@@ -1,0 +1,17 @@
+{
+  "id": "4jQMoWm2sxk",
+  "date": "2024-09-10T22:12:16+00:00",
+  "url": "https://www.youtube.com/watch?v=4jQMoWm2sxk",
+  "transcript": "/src/data/transcripts/4jQMoWm2sxk.vtt",
+  "originalTitle": "Portable RL models in C for WASM",
+  "title": "Debugging and Deploying a C-based MOBA with RL Agents for WebAssembly",
+  "summary": "Fixed bugs in agent spawning, targeting, and rendering; implemented non-deterministic action sampling; built a basic website to host the game; deployed the MOBA online with trained RL agents.",
+  "topics": [
+    "PufferLib",
+    "WebAssembly",
+    "C to WASM",
+    "action sampling",
+    "bug fixing",
+    "MOBA game development"
+  ]
+}

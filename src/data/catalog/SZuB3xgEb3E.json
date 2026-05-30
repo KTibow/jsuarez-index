@@ -1,0 +1,17 @@
+{
+  "id": "SZuB3xgEb3E",
+  "date": "2025-04-17T13:25:31+00:00",
+  "url": "https://www.youtube.com/watch?v=SZuB3xgEb3E",
+  "transcript": "/src/data/transcripts/SZuB3xgEb3E.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging Experiment Results and Evaluating Dian Optimizer",
+  "summary": "Checked learning curves for snake and neural MMO experiments. Evaluated the Dian optimizer against Adam, finding no improvement on the tested task. Planned engineering work on end binding and performance optimizations.",
+  "topics": [
+    "PufferLib",
+    "experiment evaluation",
+    "Dian optimizer",
+    "Adam optimizer",
+    "learning curves",
+    "performance optimization"
+  ]
+}

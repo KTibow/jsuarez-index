@@ -1,0 +1,17 @@
+{
+  "id": "z7c0kddBKDM",
+  "date": "2025-01-30T20:21:53+00:00",
+  "url": "https://www.youtube.com/watch?v=z7c0kddBKDM",
+  "transcript": "/src/data/transcripts/z7c0kddBKDM.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Implementing a Procedurally Generated Maze Environment in C for PufferLib",
+  "summary": "Debugged an e3b memory leak and implemented a procedurally generated maze environment in C for PufferLib, including reset and state serialization.",
+  "topics": [
+    "e3b",
+    "memory leak",
+    "PCG maze",
+    "C environment",
+    "state management",
+    "PufferLib"
+  ]
+}

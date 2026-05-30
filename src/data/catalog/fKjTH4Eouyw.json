@@ -1,0 +1,17 @@
+{
+  "id": "fKjTH4Eouyw",
+  "date": "2025-01-22T21:16:04+00:00",
+  "url": "https://www.youtube.com/watch?v=fKjTH4Eouyw",
+  "transcript": "/src/data/transcripts/fKjTH4Eouyw.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Refactoring Isaac Gym Wrappers for PufferLib Integration",
+  "summary": "Worked on cleaning and compressing a 552-line Isaac Gym humanoid environment wrapper into a more concise ~323-line version, removing redundant code and consolidating methods for better readability and PufferLib compatibility.",
+  "topics": [
+    "Isaac Gym",
+    "PufferLib",
+    "Code refactoring",
+    "Tensor API",
+    "GPU simulation",
+    "Redundant code removal"
+  ]
+}

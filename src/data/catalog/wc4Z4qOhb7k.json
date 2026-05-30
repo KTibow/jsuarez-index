@@ -1,0 +1,17 @@
+{
+  "id": "wc4Z4qOhb7k",
+  "date": "2025-09-08T20:04:59+00:00",
+  "url": "https://www.youtube.com/watch?v=wc4Z4qOhb7k",
+  "transcript": "/src/data/transcripts/wc4Z4qOhb7k.vtt",
+  "originalTitle": "PufferLib - new pareto frontiers in RL",
+  "title": "Redesigning Hyperparameter Sweeps for Pareto Frontiers in PufferLib",
+  "summary": "Planned and began implementation of automated hyperparameter sweeps in PufferLib to balance steps and wall-clock time for Pareto-optimal performance. Discussed theoretical failures of off-policy algorithms and need for robust sweep infrastructure.",
+  "topics": [
+    "PufferLib",
+    "hyperparameter sweeps",
+    "Pareto frontiers",
+    "off-policy algorithms",
+    "sample efficiency",
+    "wall-clock time"
+  ]
+}

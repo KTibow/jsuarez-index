@@ -1,0 +1,17 @@
+{
+  "id": "a_I-3NlN794",
+  "date": "2024-07-31T18:48:33+00:00",
+  "url": "https://www.youtube.com/watch?v=a_I-3NlN794",
+  "transcript": "/src/data/transcripts/a_I-3NlN794.vtt",
+  "originalTitle": "Reinforcement learning & chill. Working on experiments + talks",
+  "title": "Analyzing Carb Sweep Results and Investigating Sticky Actions in Atari",
+  "summary": "Worked on hyperparameter sweeps for MoBA and Pong, debugged the shape of the carb sweep curves, and investigated a potential issue with the sticky actions wrapper from the Machado paper, which may hinder performance on long-horizon games like Pong. Planned a confirmatory experiment and continued storyboarding a talk on reinforcement learning infrastructure problems.",
+  "topics": [
+    "hyperparameter tuning",
+    "carb sweep",
+    "sticky actions",
+    "Atari",
+    "MoBA",
+    "reinforcement learning infrastructure"
+  ]
+}

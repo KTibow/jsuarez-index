@@ -1,0 +1,17 @@
+{
+  "id": "1OUHSeHpWVs",
+  "date": "2024-09-09T22:28:36+00:00",
+  "url": "https://www.youtube.com/watch?v=1OUHSeHpWVs",
+  "transcript": "/src/data/transcripts/1OUHSeHpWVs.vtt",
+  "originalTitle": "Portable RL models in C for WASM",
+  "title": "Debugging C Implementation of CNN and LSTM Layers for Portable RL Model",
+  "summary": "Worked on verifying outputs of CNN and LSTM layers in a C implementation against a Python reference. Fixed a preprocessing bug that caused mismatched data formatting and validated layer outputs up to the LSTM layer.",
+  "topics": [
+    "C implementation",
+    "CNN layers",
+    "LSTM layers",
+    "portable models",
+    "output verification",
+    "debugging"
+  ]
+}

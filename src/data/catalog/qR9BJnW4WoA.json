@@ -1,0 +1,17 @@
+{
+  "id": "qR9BJnW4WoA",
+  "date": "2024-12-26T17:31:35+00:00",
+  "url": "https://www.youtube.com/watch?v=qR9BJnW4WoA",
+  "transcript": "/src/data/transcripts/qR9BJnW4WoA.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Continuous Actions Bug in PufferLib for Physics Arena Shooter",
+  "summary": "Debugged a continuous action space issue in a physics arena shooter environment contributed by Captain. Identified that actions were incorrectly generated as discrete instead of continuous, fixed the bug, and advised on hyperparameter sweeps for policy training.",
+  "topics": [
+    "PufferLib",
+    "continuous actions",
+    "bug fix",
+    "hyperparameter tuning",
+    "physics arena shooter",
+    "debugging"
+  ]
+}

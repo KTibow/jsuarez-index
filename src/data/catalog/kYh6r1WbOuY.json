@@ -1,0 +1,16 @@
+{
+  "id": "kYh6r1WbOuY",
+  "date": "2026-01-23T20:55:07+00:00",
+  "url": "https://www.youtube.com/watch?v=kYh6r1WbOuY",
+  "transcript": "/src/data/transcripts/kYh6r1WbOuY.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Debugging Multi-Discrete Sampling Kernel and Porting Issues in PufferLib",
+  "summary": "Investigated and debugged the multi-discrete sampling kernel in PufferLib. Determined the issue was not in the CUDA kernel itself but in the porting of PyTorch operations to libtorch, likely due to incorrect buffer transposes or indexing.",
+  "topics": [
+    "PufferLib",
+    "multi-discrete action spaces",
+    "CUDA kernel debugging",
+    "PyTorch to libtorch porting",
+    "reinforcement learning infrastructure"
+  ]
+}

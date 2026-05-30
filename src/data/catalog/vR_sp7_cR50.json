@@ -1,0 +1,16 @@
+{
+  "id": "vR_sp7_cR50",
+  "date": "2024-09-18T20:34:28+00:00",
+  "url": "https://www.youtube.com/watch?v=vR_sp7_cR50",
+  "transcript": "/src/data/transcripts/vR_sp7_cR50.vtt",
+  "originalTitle": "Come build high-perf RL envs with us. Live dev",
+  "title": "Implementing and Debugging a MiniGrid Environment in PufferLib",
+  "summary": "Worked on implementing a MiniGrid environment in PufferLib, debugging action spaces, reset logic, and Cython bindings to enable fast training. Achieved initial training runs with agents beginning to solve the environment.",
+  "topics": [
+    "MiniGrid",
+    "PufferLib",
+    "Cython bindings",
+    "performance optimization",
+    "reinforcement learning"
+  ]
+}

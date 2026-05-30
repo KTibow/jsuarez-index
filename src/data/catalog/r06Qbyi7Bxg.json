@@ -1,0 +1,16 @@
+{
+  "id": "r06Qbyi7Bxg",
+  "date": "2024-08-28T01:09:06+00:00",
+  "url": "https://www.youtube.com/watch?v=r06Qbyi7Bxg",
+  "transcript": "/src/data/transcripts/r06Qbyi7Bxg.vtt",
+  "originalTitle": "Live Reinforcement Learning Dev",
+  "title": "Porting Snake Renderer to Pure C with Scyon Bindings for PufferLib",
+  "summary": "Worked on porting the Snake environment's renderer to pure C with scyon bindings for PufferLib. Got the C client rendering correctly in RB mode and resolved compilation issues with scyon extensions.",
+  "topics": [
+    "PufferLib",
+    "Cython bindings",
+    "C rendering",
+    "Snake environment",
+    "code refactoring"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "900bR0oJHrg",
+  "date": "2026-04-27T14:50:49+00:00",
+  "url": "https://www.youtube.com/watch?v=900bR0oJHrg",
+  "transcript": "/src/data/transcripts/900bR0oJHrg.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Debugging Reward Hacking and Curriculum for Inferno Agent in PufferLib",
+  "summary": "Worked on training an agent to beat Runescape's Inferno, focusing on the final boss Zuk. Debugged reward shaping issues that led to reward farming, implemented curriculum learning from different waves, and observed the agent achieving its first inferno cape from scratch. Discussed hyperparameter tuning and plans for automatic curriculum in Puffer 5.",
+  "topics": [
+    "PufferLib",
+    "reward shaping",
+    "curriculum learning",
+    "Runescape Inferno",
+    "hyperparameter tuning",
+    "agent training"
+  ]
+}

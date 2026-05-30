@@ -1,0 +1,17 @@
+{
+  "id": "YRHTpYOcZEs",
+  "date": "2025-03-08T18:39:18+00:00",
+  "url": "https://www.youtube.com/watch?v=YRHTpYOcZEs",
+  "transcript": "/src/data/transcripts/YRHTpYOcZEs.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Implementing Random Latent Exploration and Debugging GAE Replacement in PufferLib",
+  "summary": "Implemented a Random Latent Exploration (RLE) plugin in PufferLib, but encountered significant performance bugs when concatenating random noise. Later attempted to replace Generalized Advantage Estimation with a learnable per-time-step discount factor.",
+  "topics": [
+    "PufferLib",
+    "random latent exploration",
+    "generalized advantage estimation",
+    "debugging",
+    "reinforcement learning algorithms",
+    "learnable discount factor"
+  ]
+}

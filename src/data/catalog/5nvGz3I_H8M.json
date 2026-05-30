@@ -1,0 +1,17 @@
+{
+  "id": "5nvGz3I_H8M",
+  "date": "2025-03-24T23:30:25+00:00",
+  "url": "https://www.youtube.com/watch?v=5nvGz3I_H8M",
+  "transcript": "/src/data/transcripts/5nvGz3I_H8M.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Tuning Neural MMO 3 Hyperparameters After Major RL Parameter Breakthrough",
+  "summary": "Worked on tuning hyperparameters for Neural MMO 3 in PufferLib, aiming to achieve the same universal parameter success seen on other environments. Discussed the historical development of PufferLib's simple, fast code design and the breakthrough that one set of hyperparameters now works for most environments.",
+  "topics": [
+    "PufferLib",
+    "neural MMO",
+    "hyperparameter tuning",
+    "reinforcement learning",
+    "Cython",
+    "shared memory"
+  ]
+}

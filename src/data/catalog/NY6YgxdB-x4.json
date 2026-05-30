@@ -1,0 +1,17 @@
+{
+  "id": "NY6YgxdB-x4",
+  "date": "2026-02-02T21:19:09+00:00",
+  "url": "https://www.youtube.com/watch?v=NY6YgxdB-x4",
+  "transcript": "/src/data/transcripts/NY6YgxdB-x4.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Debugging Revenue Recognition for Compute Marketplace Simulator",
+  "summary": "Debugged revenue recognition logic in a compute marketplace simulator client. Fixed bugs in reward calculation and verified behavior with unit tests.",
+  "topics": [
+    "client dev",
+    "compute marketplace",
+    "revenue recognition",
+    "bug fixing",
+    "reward calculation",
+    "simulator testing"
+  ]
+}

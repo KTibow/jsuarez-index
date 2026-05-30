@@ -1,0 +1,17 @@
+{
+  "id": "bQ-Pn5EgbNw",
+  "date": "2025-02-18T00:20:14+00:00",
+  "url": "https://www.youtube.com/watch?v=bQ-Pn5EgbNw",
+  "transcript": "/src/data/transcripts/bQ-Pn5EgbNw.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Adding Distributed Data Parallel Support to PufferLib for Multi-GPU Training",
+  "summary": "Worked on integrating PyTorch's distributed data parallel (DDP) into PufferLib to enable multi-GPU training. Debugged process group initialization and logging issues, and verified functionality on a rented four-GPU machine.",
+  "topics": [
+    "distributed data parallel",
+    "PufferLib",
+    "multi-GPU training",
+    "PyTorch DDP",
+    "process group init",
+    "logging"
+  ]
+}

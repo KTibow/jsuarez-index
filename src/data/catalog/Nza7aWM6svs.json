@@ -1,0 +1,17 @@
+{
+  "id": "Nza7aWM6svs",
+  "date": "2025-01-23T00:12:27+00:00",
+  "url": "https://www.youtube.com/watch?v=Nza7aWM6svs",
+  "transcript": "/src/data/transcripts/Nza7aWM6svs.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Refactoring Isaac Gym Wrapper and Debugging Rendering for PufferLib",
+  "summary": "Worked on stripping down the Isaac Gym environment code from over 2000 lines to around 1000 lines, removing redundant PhD-student-written wrappers. Debugged a segfault in the rendering loop and integrated the cleaned environment with PufferLib for high-performance reinforcement learning.",
+  "topics": [
+    "Isaac Gym",
+    "PufferLib",
+    "Code Refactoring",
+    "Rendering Debugging",
+    "Physics Simulation",
+    "Reinforcement Learning"
+  ]
+}

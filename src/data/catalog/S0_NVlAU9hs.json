@@ -1,0 +1,17 @@
+{
+  "id": "S0_NVlAU9hs",
+  "date": "2025-07-04T15:25:50+00:00",
+  "url": "https://www.youtube.com/watch?v=S0_NVlAU9hs",
+  "transcript": "/src/data/transcripts/S0_NVlAU9hs.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Training Drone Swarms for Flag Formation and Writing a Beginner's Guide",
+  "summary": "Worked on training drone swarms with PufferLib to form various shapes including the American flag for July 4th. Debugged reward scaling and collision penalties to improve targeting accuracy, and began writing an opinionated reinforcement learning beginner's guide.",
+  "topics": [
+    "drone swarm reinforcement learning",
+    "reward function tuning",
+    "collision penalty",
+    "RL generalization",
+    "PufferLib",
+    "beginner's guide"
+  ]
+}

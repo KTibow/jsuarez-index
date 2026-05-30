@@ -1,0 +1,17 @@
+{
+  "id": "RAjmjlncRI4",
+  "date": "2024-08-06T23:14:51+00:00",
+  "url": "https://www.youtube.com/watch?v=RAjmjlncRI4",
+  "transcript": "/src/data/transcripts/RAjmjlncRI4.vtt",
+  "originalTitle": "GPU Drive Day 1 PufferLib Support - Live Reinforcement Learning Dev",
+  "title": "Debugging GPU Drive Integration with PufferLib",
+  "summary": "Worked on integrating the GPU Drive multi-agent driving simulator into PufferLib. Debugged multiprocessing hangs caused by the Madrona engine's inefficient thread usage, attempted torch and jax workarounds, and ultimately planned to implement a GPU binding.",
+  "topics": [
+    "GPU Drive",
+    "PufferLib",
+    "Madrona",
+    "multiprocessing",
+    "integration",
+    "debugging"
+  ]
+}

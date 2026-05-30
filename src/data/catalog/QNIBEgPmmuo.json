@@ -1,0 +1,17 @@
+{
+  "id": "QNIBEgPmmuo",
+  "date": "2025-03-26T17:46:29+00:00",
+  "url": "https://www.youtube.com/watch?v=QNIBEgPmmuo",
+  "transcript": "/src/data/transcripts/QNIBEgPmmuo.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Tuning psgd on Neural MMO and Reviewing a New CPR Environment",
+  "summary": "Debugged psgd hyperparameter sweeps on neural MMO 3 to find stable settings across environments. Reviewed and merged a contributed CPR (Common Pool Resource) multi-agent environment.",
+  "topics": [
+    "psgd",
+    "hyperparameter tuning",
+    "neural MMO",
+    "CPR environment",
+    "code review",
+    "gradient accumulation"
+  ]
+}

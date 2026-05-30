@@ -1,0 +1,17 @@
+{
+  "id": "EjRToN3Drb4",
+  "date": "2025-07-22T18:09:35+00:00",
+  "url": "https://www.youtube.com/watch?v=EjRToN3Drb4",
+  "transcript": "/src/data/transcripts/EjRToN3Drb4.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Debugging Drone Swarm Stability and Multitask Learning in PufferLib",
+  "summary": "Worked on stabilizing drone swarm experiments by adjusting reward functions and hyperparameters. Explored multitask policy learning combining swarming and racing tasks, with mixed results. Discussed trade-offs between JAX and C for RL environment implementations.",
+  "topics": [
+    "drone swarm",
+    "reward design",
+    "multitask RL",
+    "hyperparameter tuning",
+    "PufferLib",
+    "C vs JAX"
+  ]
+}

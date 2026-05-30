@@ -1,0 +1,16 @@
+{
+  "id": "3amjInPDeDA",
+  "date": "2025-10-17T23:04:19+00:00",
+  "url": "https://www.youtube.com/watch?v=3amjInPDeDA",
+  "transcript": "/src/data/transcripts/3amjInPDeDA.vtt",
+  "originalTitle": "PufferLib RL Dev. Refactor and chill friday",
+  "title": "Debugging Perf Threshold Bug in PufferLib Refactor",
+  "summary": "Worked on fixing a performance threshold bug in the PufferLib refactor that caused a 'best index not found' error. Resolved the issue by adjusting the threshold logic, and provided advice on hyperparameter tuning for a viewer's selfplay training setup.",
+  "topics": [
+    "PufferLib",
+    "performance threshold",
+    "selfplay training",
+    "hyperparameter tuning",
+    "RL credit assignment"
+  ]
+}

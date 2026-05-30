@@ -1,0 +1,17 @@
+{
+  "id": "Ya-0xvj2zwI",
+  "date": "2024-12-26T22:18:00+00:00",
+  "url": "https://www.youtube.com/watch?v=Ya-0xvj2zwI",
+  "transcript": "/src/data/transcripts/Ya-0xvj2zwI.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Reward and Training Issues for a Physics-Based Arena Shooter Environment",
+  "summary": "Worked with a contributor to debug a physics-based arena shooter RL environment, fixing a PufferLib action bug, adjusting reward structure and hyperparameters, and achieving basic learning behavior where agents learned to fire without self-harm. Identified further issues with self-play metrics and observation encoding.",
+  "topics": [
+    "PufferLib",
+    "environment debugging",
+    "reward design",
+    "hyperparameter tuning",
+    "self-play",
+    "observation handling"
+  ]
+}

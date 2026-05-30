@@ -1,0 +1,17 @@
+{
+  "id": "WEH3tpzfMSo",
+  "date": "2026-02-21T17:02:01+00:00",
+  "url": "https://www.youtube.com/watch?v=WEH3tpzfMSo",
+  "transcript": "/src/data/transcripts/WEH3tpzfMSo.vtt",
+  "originalTitle": "Reinforcement Learning 10,000x Faster - Joseph Suarez, Warwick AI Summit",
+  "title": "Refactoring Static Native Backend: Cleaner Encoder Registration and Simpler CUDA Code",
+  "summary": "Worked on cleaning up the static native CUDA backend for PufferLib, removing torch dependencies and simplifying encoder/decoder registration functions. Achieved a cleaner interface with fewer lines and eliminated redundant parameter registration.",
+  "topics": [
+    "CUDA kernel refactoring",
+    "static memory allocation",
+    "encoder registration",
+    "mixed precision",
+    "state space models",
+    "policy network cleanup"
+  ]
+}

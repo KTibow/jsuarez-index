@@ -1,0 +1,17 @@
+{
+  "id": "-vPqSWg_Tck",
+  "date": "2026-02-24T13:51:32+00:00",
+  "url": "https://www.youtube.com/watch?v=-vPqSWg_Tck",
+  "transcript": "/src/data/transcripts/-vPqSWg_Tck.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Debugging Numerical Instability and Determinism in Puffer 4 CUDA Backend",
+  "summary": "Debugged numerical instability and nondeterminism in the Puffer 4 raw CUDA training backend. Focused on FP32 vs BF16 precision, porting environments like 2048 and Neural MMO, and achieving stable training runs.",
+  "topics": [
+    "Puffer 4",
+    "CUDA backend",
+    "numerical precision",
+    "determinism",
+    "2048 environment",
+    "environment porting"
+  ]
+}

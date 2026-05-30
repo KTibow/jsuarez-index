@@ -1,0 +1,17 @@
+{
+  "id": "Fd6b5mXC8pE",
+  "date": "2025-04-11T23:54:11+00:00",
+  "url": "https://www.youtube.com/watch?v=Fd6b5mXC8pE",
+  "transcript": "/src/data/transcripts/Fd6b5mXC8pE.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging Episode Index Bug and Reviewing Enduro C Bindings Port",
+  "summary": "Diagnosed a multiprocessing crash in the experience buffer, identified a one-character bug in an episode index comparison using git bisect, and fixed it. Also reviewed a contributor's PR porting the Enduro environment to the new C binding format, suggesting simplifications and code improvements.",
+  "topics": [
+    "pufferlib",
+    "experience buffer",
+    "multiprocessing bug",
+    "git bisect",
+    "enduro environment",
+    "c bindings"
+  ]
+}

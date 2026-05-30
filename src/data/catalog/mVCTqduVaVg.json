@@ -1,0 +1,16 @@
+{
+  "id": "mVCTqduVaVg",
+  "date": "2025-04-14T12:24:48+00:00",
+  "url": "https://www.youtube.com/watch?v=mVCTqduVaVg",
+  "transcript": "/src/data/transcripts/mVCTqduVaVg.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Implementing Test Time Training Layer for LSTM Replacement in PufferLib",
+  "summary": "Implemented a Test Time Training (TTT) layer as a potential LSTM replacement in PufferLib. Debugged gradient issues arising from in-place parameter updates during the forward pass.",
+  "topics": [
+    "test time training",
+    "LSTM replacement",
+    "implementation",
+    "gradient issues",
+    "PufferLib"
+  ]
+}

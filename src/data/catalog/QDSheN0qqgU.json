@@ -1,0 +1,17 @@
+{
+  "id": "QDSheN0qqgU",
+  "date": "2024-09-03T21:21:42+00:00",
+  "url": "https://www.youtube.com/watch?v=QDSheN0qqgU",
+  "transcript": "/src/data/transcripts/QDSheN0qqgU.vtt",
+  "originalTitle": "Freedom at last! Reinforcement learning dev in C",
+  "title": "Porting MOBA Render Client to Native C and Debugging Pathing",
+  "summary": "Worked on porting the MOBA render client from Cython to native C, fixing a pathing bug caused by flipped coordinates in neutral camp waypoints, and beginning to refactor the renderer into C structs and functions.",
+  "topics": [
+    "C porting",
+    "pathing bug",
+    "neutral camp waypoints",
+    "render client",
+    "raylib",
+    "MOBA simulator"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "6s3_0v_HU18",
+  "date": "2026-03-31T15:46:20+00:00",
+  "url": "https://www.youtube.com/watch?v=6s3_0v_HU18",
+  "transcript": "/src/data/transcripts/6s3_0v_HU18.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Animating Trailer and Porting Star Shader to Constellation",
+  "summary": "Adjusted trailer animation to reduce dizziness by slowing rotation and repositioning text. Began planning to port the star shader into Constellation for improved visuals.",
+  "topics": [
+    "trailer animation",
+    "shader porting",
+    "UI feedback",
+    "PufferLib release"
+  ]
+}

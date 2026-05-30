@@ -1,0 +1,17 @@
+{
+  "id": "821NpM8Djrc",
+  "date": "2024-07-18T19:34:55+00:00",
+  "url": "https://www.youtube.com/watch?v=821NpM8Djrc",
+  "transcript": "/src/data/transcripts/821NpM8Djrc.vtt",
+  "originalTitle": "MOBA for Reinforcement Learning, Dev Day #4",
+  "title": "Implementing 15 Hero Abilities and Refactoring Core Systems for RL MOBA",
+  "summary": "Worked on implementing 15 hero abilities for a miniature MOBA environment, including stuns, slows, teleports, and heals. Refactored entity system from PID-based to pointer-based for performance, added HUD with cooldown display, and debugged skill targeting issues. Environment now at ~850 lines of Cython.",
+  "topics": [
+    "Cython",
+    "entity component system",
+    "MOBA game mechanics",
+    "PufferLib",
+    "performance optimization",
+    "RL environment design"
+  ]
+}

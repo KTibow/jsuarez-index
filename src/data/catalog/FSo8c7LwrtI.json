@@ -1,0 +1,17 @@
+{
+  "id": "FSo8c7LwrtI",
+  "date": "2025-05-31T11:45:34+00:00",
+  "url": "https://www.youtube.com/watch?v=FSo8c7LwrtI",
+  "transcript": "/src/data/transcripts/FSo8c7LwrtI.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Analyzing Hyperparameter Sweeps and Debugging Environment Configs for PufferLib",
+  "summary": "Analyzed overnight experiment sweeps for Pac-Man and Snake environments, extracting and verifying hyperparameter trends from best runs. Debugged configuration issues causing segfaults in Connect Four and parameter mismatches in Snake repro runs. Launched new sweeps for Grid, TowerClimb, and Terraform environments.",
+  "topics": [
+    "hyperparameter analysis",
+    "experiment sweeps",
+    "environment debugging",
+    "PufferLib",
+    "repro runs",
+    "configuration fixes"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "BJZi-FptnLc",
+  "date": "2025-02-21T14:17:18+00:00",
+  "url": "https://www.youtube.com/watch?v=BJZi-FptnLc",
+  "transcript": "/src/data/transcripts/BJZi-FptnLc.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Analyzing Hyperparameter Sweeps and Debugging Multi-Agent Masks",
+  "summary": "Analyzed hyperparameter sweep results for Pong and Breakout using a new ParEGO-based algorithm. Debugged mask handling in multi-agent reinforcement learning with Captain, identifying a potential issue with terminal observation boundaries and trajectory bounds.",
+  "topics": [
+    "hyperparameter sweep",
+    "multi-agent RL",
+    "mask handling",
+    "trajectory bounds",
+    "PufferLib"
+  ]
+}

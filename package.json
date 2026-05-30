@@ -1,0 +1,25 @@
+{
+  "name": "jsuarez-index",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "pnpm build:data && astro build",
+    "build:data": "uv run scripts/build-stream-archive.py",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.5",
+    "astro": "^6.4.2",
+    "fuse.js": "^7.1.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {},
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "sharp"]
+  }
+}

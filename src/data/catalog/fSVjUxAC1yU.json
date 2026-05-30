@@ -1,0 +1,17 @@
+{
+  "id": "fSVjUxAC1yU",
+  "date": "2025-01-17T20:17:23+00:00",
+  "url": "https://www.youtube.com/watch?v=fSVjUxAC1yU",
+  "transcript": "/src/data/transcripts/fSVjUxAC1yU.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Implementing E3B Exploration Bonus and Fixing CARBS Hyperparameter Sampling in PufferLib",
+  "summary": "Implemented the e3b exploration bonus algorithm into PufferLib, debugging matrix inversion and reward scaling. Then fixed transformation and sampling issues in the CARBS hyperparameter tuning algorithm.",
+  "topics": [
+    "e3b",
+    "PufferLib",
+    "CARBS",
+    "hyperparameter tuning",
+    "exploration bonus",
+    "matrix inversion"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ZCOs6yQ73yE",
+  "date": "2025-02-27T22:00:30+00:00",
+  "url": "https://www.youtube.com/watch?v=ZCOs6yQ73yE",
+  "transcript": "/src/data/transcripts/ZCOs6yQ73yE.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Analyzing Hyperparameter Sweep Results for PufferLib Breakout Training",
+  "summary": "Reviewed sweep data for PufferLib's PPO hyperparameters on Breakout, identifying stable parameter regions and precise Lambda requirements. Set up additional comparison experiments without E3B to evaluate efficiency.",
+  "topics": [
+    "PufferLib",
+    "hyperparameter sweep",
+    "PPO",
+    "Breakout",
+    "Lambda precision",
+    "experiment setup"
+  ]
+}

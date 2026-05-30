@@ -1,0 +1,17 @@
+{
+  "id": "kao6tMtSPyg",
+  "date": "2025-05-02T23:05:43+00:00",
+  "url": "https://www.youtube.com/watch?v=kao6tMtSPyg",
+  "transcript": "/src/data/transcripts/kao6tMtSPyg.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Refactoring PufferLib Training Code and Experimenting with Value Function Distribution",
+  "summary": "Worked on refactoring the PufferLib train function, streamlining advantage computation and removing unused code paths. Restored performance profiling and began implementing a discretized value function with cross-entropy loss, though completion was deferred to the next day.",
+  "topics": [
+    "PufferLib",
+    "training refactor",
+    "advantage computation",
+    "value function distribution",
+    "performance profiling",
+    "C environment bindings"
+  ]
+}

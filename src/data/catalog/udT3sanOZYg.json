@@ -1,0 +1,17 @@
+{
+  "id": "udT3sanOZYg",
+  "date": "2025-06-14T12:54:29+00:00",
+  "url": "https://www.youtube.com/watch?v=udT3sanOZYg",
+  "transcript": "/src/data/transcripts/udT3sanOZYg.vtt",
+  "originalTitle": "PufferLib - Live Reinforcement Learning Dev",
+  "title": "Finalizing PufferLib Release with Neural MMO Analysis and Contributor Support",
+  "summary": "Worked on final tasks for the upcoming PufferLib release, including reviewing Neural MMO training sweeps, optimizing network architectures by removing communication layers for speed, and helping a contributor rename an environment for clarity. Also addressed power outage issues and monitored new training runs.",
+  "topics": [
+    "pufferlib",
+    "release preparation",
+    "neural mmo",
+    "hyperparameter sweeps",
+    "environment development",
+    "multi-agent rl"
+  ]
+}

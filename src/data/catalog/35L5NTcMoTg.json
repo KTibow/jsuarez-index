@@ -1,0 +1,16 @@
+{
+  "id": "35L5NTcMoTg",
+  "date": "2024-09-04T02:32:45+00:00",
+  "url": "https://www.youtube.com/watch?v=35L5NTcMoTg",
+  "transcript": "/src/data/transcripts/35L5NTcMoTg.vtt",
+  "originalTitle": "Freedom at last! Reinforcement learning dev in C",
+  "title": "Debugging Character Abilities in C Game Port",
+  "summary": "Debugged and fixed several character skills in a C-based game port, including hook, push, and retreat abilities. Reviewed a UI mockup featuring a water motif and tower designs.",
+  "topics": [
+    "C port",
+    "game development",
+    "ability debugging",
+    "UI mockup",
+    "sprite design"
+  ]
+}

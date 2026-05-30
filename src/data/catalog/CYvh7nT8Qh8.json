@@ -1,0 +1,17 @@
+{
+  "id": "CYvh7nT8Qh8",
+  "date": "2025-05-31T22:39:04+00:00",
+  "url": "https://www.youtube.com/watch?v=CYvh7nT8Qh8",
+  "transcript": "/src/data/transcripts/CYvh7nT8Qh8.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Debugging Terraform Observation and Shader Visualization in PufferLib",
+  "summary": "Worked on the terraforming environment, fixed a delta calculation bug by switching from unsigned to signed char, and developed a shader overlay to visualize the gap between target and current terrain. Discussed sweep parameter issues and agent behavior with Spencer.",
+  "topics": [
+    "PufferLib",
+    "terraforming environment",
+    "observation delta bug",
+    "signed char",
+    "shader programming",
+    "visualization overlay"
+  ]
+}

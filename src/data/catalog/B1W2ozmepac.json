@@ -1,0 +1,17 @@
+{
+  "id": "B1W2ozmepac",
+  "date": "2026-01-22T14:04:48+00:00",
+  "url": "https://www.youtube.com/watch?v=B1W2ozmepac",
+  "transcript": "/src/data/transcripts/B1W2ozmepac.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Refactoring PufferLib for Multi-Environment Support and CUDA Kernel Cleanup",
+  "summary": "Worked on refactoring PufferLib to support multiple environments, fixing CUDA kernel launch functions and C++ binding redundancy, porting Snake and other environments, and implementing multi-discrete sampling support.",
+  "topics": [
+    "PufferLib",
+    "CUDA kernel refactoring",
+    "multi-environment support",
+    "C++/Python bindings",
+    "multi-discrete sampling",
+    "Claude code usage"
+  ]
+}

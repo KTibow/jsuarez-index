@@ -1,0 +1,17 @@
+{
+  "id": "8rpnTpi5yCc",
+  "date": "2024-10-04T18:40:26+00:00",
+  "url": "https://www.youtube.com/watch?v=8rpnTpi5yCc",
+  "transcript": "/src/data/transcripts/8rpnTpi5yCc.vtt",
+  "originalTitle": "Robocode with Reinforcement Learning",
+  "title": "Porting Robocode to C with Python Bindings for Reinforcement Learning",
+  "summary": "Worked on building a fast Robocode clone in C with Python bindings for use as a reinforcement learning environment. Implemented tank movement, radar, gun, bullet physics, collision detection, and a basic scripted opponent, getting a playable prototype running.",
+  "topics": [
+    "PufferLib",
+    "C",
+    "Python bindings",
+    "Robocode",
+    "game physics",
+    "reinforcement learning"
+  ]
+}

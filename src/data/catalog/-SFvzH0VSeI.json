@@ -1,0 +1,16 @@
+{
+  "id": "-SFvzH0VSeI",
+  "date": "2025-02-03T21:50:40+00:00",
+  "url": "https://www.youtube.com/watch?v=-SFvzH0VSeI",
+  "transcript": "/src/data/transcripts/-SFvzH0VSeI.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Cost Estimation and Gaussian Process Variance in Hyperparameter Sweep",
+  "summary": "Worked on identifying and fixing issues with cost estimation and variance in a hyperparameter sweep for multi-objective optimization. Debugged problems with normalized scores and conservative estimates, and analyzed Gaussian process uncertainty.",
+  "topics": [
+    "hyperparameter sweep",
+    "cost estimation",
+    "Gaussian processes",
+    "multi-objective optimization",
+    "variance"
+  ]
+}

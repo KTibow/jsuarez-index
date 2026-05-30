@@ -1,0 +1,17 @@
+{
+  "id": "WC4nLDRiKDI",
+  "date": "2025-01-18T16:14:29+00:00",
+  "url": "https://www.youtube.com/watch?v=WC4nLDRiKDI",
+  "transcript": "/src/data/transcripts/WC4nLDRiKDI.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Improving CARBS Hyperparameter Tuning with Conservative Expected Improvement and Sampling Adjustments",
+  "summary": "Worked on fixing and enhancing the CARBS hyperparameter optimization algorithm. Debugged acquisition functions, replaced soft trust region with conservative expected improvement, adjusted sampling distributions, and benchmarked against random search and Asha on synthetic tasks, achieving substantial performance gains.",
+  "topics": [
+    "CARBS",
+    "hyperparameter tuning",
+    "conservative expected improvement",
+    "Gaussian process",
+    "sampling distribution",
+    "synthetic benchmark"
+  ]
+}

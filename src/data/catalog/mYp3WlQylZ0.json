@@ -1,0 +1,17 @@
+{
+  "id": "mYp3WlQylZ0",
+  "date": "2024-11-26T15:05:23+00:00",
+  "url": "https://www.youtube.com/watch?v=mYp3WlQylZ0",
+  "transcript": "/src/data/transcripts/mYp3WlQylZ0.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Testing and Fixing PufferLib Environments for Upcoming Release",
+  "summary": "Tested multiple PufferLib environments including Atari, mini grid, and others, fixing a mini grid bug and adding docstrings. Updated documentation and prepared for a release within two weeks.",
+  "topics": [
+    "PufferLib",
+    "environment testing",
+    "mini grid",
+    "docstrings",
+    "release preparation",
+    "Atari"
+  ]
+}

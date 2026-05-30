@@ -1,0 +1,16 @@
+{
+  "id": "ov_KU0BMsZ0",
+  "date": "2025-10-16T16:59:29+00:00",
+  "url": "https://www.youtube.com/watch?v=ov_KU0BMsZ0",
+  "transcript": "/src/data/transcripts/ov_KU0BMsZ0.vtt",
+  "originalTitle": "PufferLib RL Dev. C & Deadlifts",
+  "title": "Refactoring Data Structures and Tooltip Prototype for Plotting Dashboard",
+  "summary": "Restructured point plotting data from nested dicts to flat format. Built a tooltip prototype for the dashboard.",
+  "topics": [
+    "data structure refactor",
+    "point plotting",
+    "tooltip prototype",
+    "dashboard optimization",
+    "performance tuning"
+  ]
+}

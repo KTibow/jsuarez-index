@@ -1,0 +1,17 @@
+{
+  "id": "66-MBBDW-tc",
+  "date": "2025-08-19T19:42:14+00:00",
+  "url": "https://www.youtube.com/watch?v=66-MBBDW-tc",
+  "transcript": "/src/data/transcripts/66-MBBDW-tc.vtt",
+  "originalTitle": "PufferLib - world models get another chance",
+  "title": "Implementing and Debugging a World Model for Reinforcement Learning",
+  "summary": "Worked on implementing a world model for RL, struggling to get it to train above random. Discussed issues with Dreamer paper's architecture and notation. Eventually achieved unstable learning on CartPole by forcing teacher-forced actions and removing policy clipping.",
+  "topics": [
+    "world model",
+    "Dreamer paper critique",
+    "latent encoding",
+    "teacher forcing",
+    "on-policy RL",
+    "reward clamping"
+  ]
+}

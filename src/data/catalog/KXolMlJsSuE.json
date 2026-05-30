@@ -1,0 +1,17 @@
+{
+  "id": "KXolMlJsSuE",
+  "date": "2024-09-24T19:14:45+00:00",
+  "url": "https://www.youtube.com/watch?v=KXolMlJsSuE",
+  "transcript": "/src/data/transcripts/KXolMlJsSuE.vtt",
+  "originalTitle": "One more push and RL envs will be fast and easy",
+  "title": "Refactoring PufferLib's Environment API for Simpler Buffer Handling",
+  "summary": "Worked on stripping the last bits of fat from PufferLib's custom environment API by making the native vectorized API the primary interface. Merged a Triple Triad environment PR and debugged buffer allocation and reset/step methods to reduce boilerplate for new environments.",
+  "topics": [
+    "PufferLib",
+    "environment API",
+    "buffer allocation",
+    "native vectorized API",
+    "Triple Triad",
+    "boilerplate reduction"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "8ECMggU1Q6Y",
+  "date": "2025-07-08T14:44:49+00:00",
+  "url": "https://www.youtube.com/watch?v=8ECMggU1Q6Y",
+  "transcript": "/src/data/transcripts/8ECMggU1Q6Y.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Composing a Prequel Article and Proofreading an Opinionated RL Guide",
+  "summary": "Wrote a prequel article offering practical advice on learning programming and ML, added a new section on experience-based tips, and proofread both the prequel and the main opinionated reinforcement learning guide. Completed the draft of the prequel and reviewed the main guide for final edits.",
+  "topics": [
+    "guide writing",
+    "reinforcement learning",
+    "practical advice",
+    "programming fundamentals",
+    "ML research",
+    "proofreading"
+  ]
+}

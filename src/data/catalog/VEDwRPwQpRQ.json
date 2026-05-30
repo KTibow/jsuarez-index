@@ -1,0 +1,17 @@
+{
+  "id": "VEDwRPwQpRQ",
+  "date": "2024-11-22T14:36:39+00:00",
+  "url": "https://www.youtube.com/watch?v=VEDwRPwQpRQ",
+  "transcript": "/src/data/transcripts/VEDwRPwQpRQ.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Refactoring PufferLib Ocean Module Imports and Cleaning Up Environments",
+  "summary": "Worked on simplifying the import system for PufferLib's ocean environments by removing the need for an EndCreator registry and making environments directly importable. Cleaned up the snake environment by removing deprecated code and precompute pathing.",
+  "topics": [
+    "pufferlib",
+    "ocean module",
+    "environment imports",
+    "python packaging",
+    "code cleanup",
+    "snake environment"
+  ]
+}

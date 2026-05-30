@@ -1,0 +1,17 @@
+{
+  "id": "cr_VzRMrSe8",
+  "date": "2024-07-23T22:57:59+00:00",
+  "url": "https://www.youtube.com/watch?v=cr_VzRMrSe8",
+  "transcript": "/src/data/transcripts/cr_VzRMrSe8.vtt",
+  "originalTitle": "1M FPS mini-DoTA/LoL for reinforcement learning. Dev day #7",
+  "title": "Optimizing MOBA Simulator to 1M+ FPS and Beginning RL Integration",
+  "summary": "Worked on performance optimization of the game simulation, implementing caching and data structure changes to achieve over 1 million steps per second single-threaded. Then began integrating with PyTorch policies and multi-environment vectorization, achieving 600-800k training steps per second.",
+  "topics": [
+    "performance optimization",
+    "Cython",
+    "caching",
+    "multi-environment vectorization",
+    "PyTorch integration",
+    "entity-based simulation"
+  ]
+}

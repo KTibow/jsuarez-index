@@ -1,0 +1,17 @@
+{
+  "id": "pcibitiWBQM",
+  "date": "2026-03-21T16:52:47+00:00",
+  "url": "https://www.youtube.com/watch?v=pcibitiWBQM",
+  "transcript": "/src/data/transcripts/pcibitiWBQM.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Fixing Integer Overflow and Planning Sweeps for Puffer 4 Release",
+  "summary": "Debugged integer overflow in constellation logging for multi-billion step runs. Coordinated with Spencer to run environment sweeps, standardize metrics, and clean up experiment infrastructure for the upcoming release.",
+  "topics": [
+    "Puffer 4",
+    "constellation",
+    "integer overflow",
+    "experiment sweeps",
+    "environment porting",
+    "training harness"
+  ]
+}

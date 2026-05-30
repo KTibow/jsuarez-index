@@ -1,0 +1,17 @@
+{
+  "id": "5_FyqUU1FJA",
+  "date": "2025-02-10T19:01:54+00:00",
+  "url": "https://www.youtube.com/watch?v=5_FyqUU1FJA",
+  "transcript": "/src/data/transcripts/5_FyqUU1FJA.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging PufferLib Cython Bindings and Isaac Gym Renderer",
+  "summary": "Debugged PufferLib's Cython bindings for Isaac Gym, fixed a pointer semantics issue in environment observations, and applied fixes for the humanoid PHC renderer and action clipping. Discussed zero-copy optimization and Python memory management.",
+  "topics": [
+    "PufferLib",
+    "Cython",
+    "Isaac Gym",
+    "zero-copy optimization",
+    "pointer semantics",
+    "humanoid PHC"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "hQL6GEZMnOA",
+  "date": "2025-10-29T15:36:04+00:00",
+  "url": "https://www.youtube.com/watch?v=hQL6GEZMnOA",
+  "transcript": "/src/data/transcripts/hQL6GEZMnOA.vtt",
+  "originalTitle": "PufferLib - Hardcore RL Perf Optimization",
+  "title": "Debugging C++ Port Numeric Mismatch in PufferLib Training",
+  "summary": "Worked on a C++ backend for PufferLib, debugging a small numeric mismatch in policy gradient loss between Python and C++ implementations. Also discussed PufferLib documentation improvements and future plans for 10M steps/second training.",
+  "topics": [
+    "PufferLib",
+    "C++ port",
+    "numerical precision",
+    "policy gradient loss",
+    "Muon optimizer",
+    "LSTM alternatives"
+  ]
+}

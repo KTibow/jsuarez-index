@@ -1,0 +1,17 @@
+{
+  "id": "zcodGbjQ_sA",
+  "date": "2024-08-30T00:44:56+00:00",
+  "url": "https://www.youtube.com/watch?v=zcodGbjQ_sA",
+  "transcript": "/src/data/transcripts/zcodGbjQ_sA.vtt",
+  "originalTitle": "Answering reinforcement learning questions while editing the next video",
+  "title": "Editing PufferLib Video While Discussing LSTM vs GRU and Transformer in RL",
+  "summary": "Worked on editing a high-production video about PufferLib, completing half of section 8 of 12. Answered viewer questions on LSTM versus GRU, frame stacking utility, and transformer performance in reinforcement learning.",
+  "topics": [
+    "PufferLib",
+    "LSTM vs GRU",
+    "frame stacking",
+    "transformer architectures",
+    "reinforcement learning",
+    "video editing"
+  ]
+}

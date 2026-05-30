@@ -1,0 +1,17 @@
+{
+  "id": "eZUZNWl2waA",
+  "date": "2025-01-18T12:46:13+00:00",
+  "url": "https://www.youtube.com/watch?v=eZUZNWl2waA",
+  "transcript": "/src/data/transcripts/eZUZNWl2waA.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Refactoring CARBS Hyperparameter Sweep Code in PufferLib",
+  "summary": "Worked on restructuring the CARBS hyperparameter tuning code, removing unnecessary dependencies on WANDB and simplifying the sampling and scoring logic. Achieved a working baseline and started cleaning up the codebase for better single-node performance.",
+  "topics": [
+    "PufferLib",
+    "CARBS",
+    "hyperparameter tuning",
+    "code refactoring",
+    "gaussian process",
+    "CLI plotting"
+  ]
+}

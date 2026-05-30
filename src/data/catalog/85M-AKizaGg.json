@@ -1,0 +1,17 @@
+{
+  "id": "85M-AKizaGg",
+  "date": "2025-03-07T22:03:10+00:00",
+  "url": "https://www.youtube.com/watch?v=85M-AKizaGg",
+  "transcript": "/src/data/transcripts/85M-AKizaGg.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Deriving Learned Discount Factors for an Improved Advantage Estimation",
+  "summary": "Worked on replacing fixed discount parameters in generalized advantage estimation with learned variance-based estimates. Identified a formulation using a variational value function to enable flexible discounting, potentially improving upon PPO.",
+  "topics": [
+    "generalized advantage estimation",
+    "variational value function",
+    "learned discount factor",
+    "PPO",
+    "reinforcement learning algorithm",
+    "confidence-based discounting"
+  ]
+}

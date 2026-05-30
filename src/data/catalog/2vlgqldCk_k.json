@@ -1,0 +1,17 @@
+{
+  "id": "2vlgqldCk_k",
+  "date": "2025-11-11T23:35:05+00:00",
+  "url": "https://www.youtube.com/watch?v=2vlgqldCk_k",
+  "transcript": "/src/data/transcripts/2vlgqldCk_k.vtt",
+  "originalTitle": "Live RL Research on PufferLib w/ Joseph Suarez",
+  "title": "Debugging Gradient Numerical Issues in PufferLib Custom Kernels",
+  "summary": "Debugged numerical inaccuracies in custom gradient kernels for Puffer 4, specifically fixing a missing clipped gradient in the policy loss and attempting to resolve entropy gradient discrepancies. Achieved stable training with near-perfect policy loss gradient agreement but the entropy gradient remained slightly off.",
+  "topics": [
+    "PufferLib",
+    "custom CUDA kernels",
+    "gradient debugging",
+    "entropy gradient",
+    "clipped policy loss",
+    "PyTorch bindings"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rKDRmCzw0Z0",
+  "date": "2026-01-24T14:09:35+00:00",
+  "url": "https://www.youtube.com/watch?v=rKDRmCzw0Z0",
+  "transcript": "/src/data/transcripts/rKDRmCzw0Z0.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Fixing Multi-Discrete Bug and Integrating Fuse Scan Kernel in Puffer 4",
+  "summary": "Fixed the multi-discrete sampling bug using a custom CUDA kernel and integrated a community kernel PR that improved fuse scan forward speed by 2-3x. Added variable num agent support across environments and began porting the drive environment to Puffer 4, though CUDA graph memory issues remain.",
+  "topics": [
+    "multi-discrete sampling",
+    "CUDA kernel development",
+    "fuse scan optimization",
+    "variable num agents",
+    "Puffer 4",
+    "drive environment"
+  ]
+}

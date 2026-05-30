@@ -1,0 +1,17 @@
+{
+  "id": "-oZKHkKgvoQ",
+  "date": "2025-04-12T23:08:22+00:00",
+  "url": "https://www.youtube.com/watch?v=-oZKHkKgvoQ",
+  "transcript": "/src/data/transcripts/-oZKHkKgvoQ.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Implementing Prioritized Experience Replay and V-Trace in PufferLib",
+  "summary": "Implemented prioritized experience replay with importance sampling and V-trace off-policy correction in PufferLib. Debugged V-trace across environments, finding it worked on Breakout but failed on others like snake. Tested prioritized replay on neural MMO with improved learning curves.",
+  "topics": [
+    "prioritized experience replay",
+    "V-trace",
+    "off-policy correction",
+    "importance sampling",
+    "neural MMO",
+    "PufferLib"
+  ]
+}

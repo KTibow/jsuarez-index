@@ -1,0 +1,17 @@
+{
+  "id": "MjUinTR1MJs",
+  "date": "2026-02-20T00:34:40+00:00",
+  "url": "https://www.youtube.com/watch?v=MjUinTR1MJs",
+  "transcript": "/src/data/transcripts/MjUinTR1MJs.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Refactoring PufferLib Training Backend to C-Style CUDA",
+  "summary": "Worked on refactoring PufferLib's training backend from C++ classes to simpler C-style CUDA code to reduce bloat and improve maintainability. Encountered issues with LLM-generated code that introduced bugs and performance regressions, resulting in partial progress and a planned revert.",
+  "topics": [
+    "PufferLib",
+    "CUDA",
+    "C++ refactoring",
+    "training backend",
+    "code bloat",
+    "LLM code generation"
+  ]
+}

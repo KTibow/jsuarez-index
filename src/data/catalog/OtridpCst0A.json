@@ -1,0 +1,17 @@
+{
+  "id": "OtridpCst0A",
+  "date": "2025-02-05T00:18:50+00:00",
+  "url": "https://www.youtube.com/watch?v=OtridpCst0A",
+  "transcript": "/src/data/transcripts/OtridpCst0A.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Gaussian Process Variance for Hyperparameter Tuning",
+  "summary": "Debugged Gaussian process variance issues in PufferLib's hyperparameter tuning algorithm through synthetic tests evaluating GP accuracy and error patterns. Also provided hyperparameter tuning advice to a user working on a drone environment.",
+  "topics": [
+    "Gaussian process",
+    "hyperparameter tuning",
+    "PufferLib",
+    "synthetic testing",
+    "GP error patterns",
+    "kernel selection"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "GXshuyodlVM",
+  "date": "2026-01-13T14:25:22+00:00",
+  "url": "https://www.youtube.com/watch?v=GXshuyodlVM",
+  "transcript": "/src/data/transcripts/GXshuyodlVM.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Achieving 10 Million Steps Per Second in PufferLib Training Loop",
+  "summary": "Worked on optimizing PufferLib's evaluation and training loops, focusing on fusing element-wise kernels and eliminating redundant CUDA operations. Reached approximately 10 million steps per second in training, with a cleaned-up profile showing reduced overhead.",
+  "topics": [
+    "PufferLib",
+    "CUDA kernel fusion",
+    "performance profiling",
+    "element-wise ops",
+    "training loop optimization",
+    "10M SPS"
+  ]
+}

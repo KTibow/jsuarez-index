@@ -1,0 +1,17 @@
+{
+  "id": "mov0Y31EYqA",
+  "date": "2025-06-28T14:19:04+00:00",
+  "url": "https://www.youtube.com/watch?v=mov0Y31EYqA",
+  "transcript": "/src/data/transcripts/mov0Y31EYqA.vtt",
+  "originalTitle": "Reinforcement Learning Research Live",
+  "title": "Debugging Battle Sim Observations and Tuning ManiSkill Robotics with PufferLib",
+  "summary": "Worked on a multi-agent tactical battle simulator, fixing agent observations and adding scripted opponents. Then ported ManiSkill robotics tasks to PufferLib, tuning hyperparameters and simulation fidelity to achieve fast solve times on pick cube task. Discussed advanced PufferLib features including the CUDA advantage kernel and muon optimizer with Stone.",
+  "topics": [
+    "multi-agent battle sim",
+    "PufferLib",
+    "ManiSkill robotics",
+    "simulation fidelity tuning",
+    "CUDA advantage kernel",
+    "hyperparameter tuning"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "SsGOUWvDfC0",
+  "date": "2025-05-06T20:46:04+00:00",
+  "url": "https://www.youtube.com/watch?v=SsGOUWvDfC0",
+  "transcript": "/src/data/transcripts/SsGOUWvDfC0.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Fixing Hyperparameter Sweep Bug and Exploring CUDA Packaging Options",
+  "summary": "Fixed a bug in the hyperparameter sweep where minimization was used instead of maximization, causing incorrect experiment selection. Discussed approaches for automating CUDA builds and CI pipeline improvements for PufferLib.",
+  "topics": [
+    "hyperparameter sweep",
+    "hyperopt",
+    "CUDA packaging",
+    "CI builds",
+    "GPU drive",
+    "respawning mechanics"
+  ]
+}

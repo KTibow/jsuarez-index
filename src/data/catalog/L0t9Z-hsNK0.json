@@ -1,0 +1,16 @@
+{
+  "id": "L0t9Z-hsNK0",
+  "date": "2025-03-06T17:15:10+00:00",
+  "url": "https://www.youtube.com/watch?v=L0t9Z-hsNK0",
+  "transcript": "/src/data/transcripts/L0t9Z-hsNK0.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Horizon Parameter Issues in a New RL Algorithm",
+  "summary": "Worked on debugging a new reinforcement learning algorithm that performs worse with longer horizons due to data contamination from incomplete environment segments. Identified the need to fix advantage normalization and CUDA kernel indexing to properly handle boundary conditions.",
+  "topics": [
+    "horizon parameter",
+    "advantage normalization",
+    "CUDA kernel debugging",
+    "PufferLib",
+    "boundary contamination"
+  ]
+}

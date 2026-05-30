@@ -1,0 +1,17 @@
+{
+  "id": "kDQoKwQn8d4",
+  "date": "2025-05-15T14:42:31+00:00",
+  "url": "https://www.youtube.com/watch?v=kDQoKwQn8d4",
+  "transcript": "/src/data/transcripts/kDQoKwQn8d4.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Cleaning Entry Points and Packaging for PufferLib Release",
+  "summary": "Refactored training code to provide CLI entry points (`puffer train`, `puffer eval`, `puffer sweep`) and a flatter importable API. Debugged C extension binding issues (float64 action dtype) and resolved package build failures caused by pip's build isolation reinstalling incompatible PyTorch versions.",
+  "topics": [
+    "entry points",
+    "packaging",
+    "C extension bindings",
+    "build isolation",
+    "sweep defaults",
+    "end binding debugging"
+  ]
+}

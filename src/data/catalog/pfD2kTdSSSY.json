@@ -1,0 +1,16 @@
+{
+  "id": "pfD2kTdSSSY",
+  "date": "2026-01-29T14:14:19+00:00",
+  "url": "https://www.youtube.com/watch?v=pfD2kTdSSSY",
+  "transcript": "/src/data/transcripts/pfD2kTdSSSY.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Debugging Performance Disparity in Multi-Threaded Vectorization for PufferLib",
+  "summary": "Diagnosed and fixed a performance gap in the multi-threaded environment vectorization backend. Addressed compiler optimization issues, shared library symbol exports, and CUDA stream synchronization, achieving 12 million steps per second. Began general refactoring for pre-alpha release.",
+  "topics": [
+    "multi-threaded vectorization",
+    "CUDA stream synchronization",
+    "performance debugging",
+    "Cython/C integration",
+    "environment binding refactoring"
+  ]
+}

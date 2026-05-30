@@ -1,0 +1,17 @@
+{
+  "id": "gixBalV2h3g",
+  "date": "2025-06-06T17:47:24+00:00",
+  "url": "https://www.youtube.com/watch?v=gixBalV2h3g",
+  "transcript": "/src/data/transcripts/gixBalV2h3g.vtt",
+  "originalTitle": "PufferLib - Live Reinforcement Learning Dev",
+  "title": "Adding Combat and Heterogeneous Ship Types to a Multi-Agent Simulator in C",
+  "summary": "Worked on adding combat mechanics and heterogeneous ship types (fighters, frigates, mothership) to a new multi-agent simulator built in C with PufferLib. Trained policies that learned to fight, demonstrated large-scale battles with up to 4096 agents. Also debugged Puffer 3 issues and hardware problems.",
+  "topics": [
+    "PufferLib",
+    "multi-agent RL",
+    "combat simulator",
+    "heterogeneous agents",
+    "C environment",
+    "training policies"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "nTkyy4plHE8",
+  "date": "2024-10-24T23:25:52+00:00",
+  "url": "https://www.youtube.com/watch?v=nTkyy4plHE8",
+  "transcript": "/src/data/transcripts/nTkyy4plHE8.vtt",
+  "originalTitle": "Fixing GPUDrive in PufferLib because I broke it",
+  "title": "Fixing GPUDrive Integration in PufferLib After Native End Refactor",
+  "summary": "Worked on restoring GPUDrive support in PufferLib following a native end refactor that broke compatibility. Set up the GPUDrive Docker container to test fixes but encountered a disk space issue requiring a system reboot.",
+  "topics": [
+    "PufferLib",
+    "GPUDrive",
+    "Docker",
+    "native end refactor",
+    "WSL",
+    "disk space"
+  ]
+}

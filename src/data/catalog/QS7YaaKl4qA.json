@@ -1,0 +1,17 @@
+{
+  "id": "QS7YaaKl4qA",
+  "date": "2025-11-19T19:26:39+00:00",
+  "url": "https://www.youtube.com/watch?v=QS7YaaKl4qA",
+  "transcript": "/src/data/transcripts/QS7YaaKl4qA.vtt",
+  "originalTitle": "Live RL Research on PufferLib w/ Joseph Suarez",
+  "title": "Integrating Multi-Threaded Vectorization Backend into PufferLib",
+  "summary": "Worked on integrating a multi-threaded vectorization backend using C threads, based on a PR from Peru. Discussed model-based RL criticism and progress on Mingru architecture.",
+  "topics": [
+    "PufferLib",
+    "multi-threading",
+    "vectorization backend",
+    "C threads",
+    "model-based RL",
+    "Mingru architecture"
+  ]
+}

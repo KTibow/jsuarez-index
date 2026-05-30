@@ -1,0 +1,17 @@
+{
+  "id": "dW10MQ6hKDE",
+  "date": "2024-08-05T18:52:08+00:00",
+  "url": "https://www.youtube.com/watch?v=dW10MQ6hKDE",
+  "transcript": "/src/data/transcripts/dW10MQ6hKDE.vtt",
+  "originalTitle": "Reinforcement learning live dev",
+  "title": "Debugging Atari Hyperparameter Sweeps and Implementing MOBA Tower Randomization",
+  "summary": "Analyzed weekend Atari hyperparameter sweeps and fixed logging to produce stable evaluation metrics for sweeps. Added tower HP randomization to the MOBA environment to desynchronize games and produce smoother training curves. Began prototyping an ELO system for the MOBA and made Atari environments human-playable via RB rendering with correct key mappings.",
+  "topics": [
+    "hyperparameter sweeps",
+    "logging improvements",
+    "evaluation stability",
+    "MOBA environment",
+    "tower HP randomization",
+    "ELO system"
+  ]
+}

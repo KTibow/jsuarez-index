@@ -1,0 +1,17 @@
+{
+  "id": "S3V84wIaa9c",
+  "date": "2024-07-09T01:27:25+00:00",
+  "url": "https://www.youtube.com/watch?v=S3V84wIaa9c",
+  "transcript": "/src/data/transcripts/S3V84wIaa9c.vtt",
+  "originalTitle": "Is JAX fast? Quick dev stream testing YT + X",
+  "title": "Testing JAX RL Library Performance and Dependency Issues",
+  "summary": "Evaluated Kevin Frans' JAX-based RL library, encountering dependency conflicts and broken packages. Compared speed against PyTorch/PufferLib, finding no performance advantage and criticizing JAX's code complexity. Also demonstrated a high-speed multi-agent snake environment achieving 14 million steps per second in pure Python.",
+  "topics": [
+    "JAX",
+    "dependency conflicts",
+    "RL performance",
+    "code complexity",
+    "snake environment",
+    "PyTorch"
+  ]
+}

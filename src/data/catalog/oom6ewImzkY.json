@@ -1,0 +1,16 @@
+{
+  "id": "oom6ewImzkY",
+  "date": "2025-06-06T13:09:53+00:00",
+  "url": "https://www.youtube.com/watch?v=oom6ewImzkY",
+  "transcript": "/src/data/transcripts/oom6ewImzkY.vtt",
+  "originalTitle": "PufferLib - Live Reinforcement Learning Dev",
+  "title": "Analyzing Hyperparameter Sweep Reproducibility in PufferLib",
+  "summary": "Worked on reproducing a performance discrepancy between old and new hyperparameter sweeps. Compared best runs and identified a potential gamma range issue limiting performance.",
+  "topics": [
+    "hyperparameter sweep",
+    "performance regression",
+    "gamma analysis",
+    "reproducibility",
+    "pufferlib"
+  ]
+}

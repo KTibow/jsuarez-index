@@ -1,0 +1,17 @@
+{
+  "id": "G_AqwWdooSk",
+  "date": "2025-06-06T15:35:54+00:00",
+  "url": "https://www.youtube.com/watch?v=G_AqwWdooSk",
+  "transcript": "/src/data/transcripts/G_AqwWdooSk.vtt",
+  "originalTitle": "PufferLib - Live Reinforcement Learning Dev",
+  "title": "Debugging Sweep Reproducibility and Terraforming Sim Quadrant Mechanics",
+  "summary": "Investigated a persistent hyperparameter sweep reproducibility bug by comparing run distributions and identifying time step length as a key factor. Discussed improving the terraforming simulation with quadrant-based learning, structured flats, and reward engineering to prevent exploitation.",
+  "topics": [
+    "hyperparameter sweeps",
+    "reproducibility",
+    "reward engineering",
+    "terraforming simulation",
+    "quadrant learning",
+    "RL for robotics"
+  ]
+}

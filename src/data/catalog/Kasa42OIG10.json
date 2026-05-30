@@ -1,0 +1,17 @@
+{
+  "id": "Kasa42OIG10",
+  "date": "2025-02-22T21:24:20+00:00",
+  "url": "https://www.youtube.com/watch?v=Kasa42OIG10",
+  "transcript": "/src/data/transcripts/Kasa42OIG10.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Experimental Replacement of Generalized Advantage Estimation in PPO",
+  "summary": "Worked on replacing GAE with a multi-step reward prediction to eliminate gamma and lambda hyperparameters. Implemented a prototype and tested on Breakout with promising results.",
+  "topics": [
+    "generalized advantage estimation",
+    "PPO",
+    "hyperparameter tuning",
+    "multi-step value head",
+    "reward prediction",
+    "Breakout"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "T2P3hsXBlkY",
+  "date": "2026-01-12T20:40:02+00:00",
+  "url": "https://www.youtube.com/watch?v=T2P3hsXBlkY",
+  "transcript": "/src/data/transcripts/T2P3hsXBlkY.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Debugging Observation and Reward Bugs in Compute Marketplace Sim for PufferLib",
+  "summary": "Debugged observation size mismatch and reward scale errors in the open-source client M (a cloud compute marketplace simulator) for PufferLib. Verified training policy behavior and corrected unit scaling issues.",
+  "topics": [
+    "PufferLib",
+    "client M",
+    "compute marketplace simulator",
+    "observation debugging",
+    "reward scaling",
+    "training validation"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "wy0i7e8Wa_c",
+  "date": "2025-07-28T19:03:19+00:00",
+  "url": "https://www.youtube.com/watch?v=wy0i7e8Wa_c",
+  "transcript": "/src/data/transcripts/wy0i7e8Wa_c.vtt",
+  "originalTitle": "PufferLib and Chill",
+  "title": "Designing a PufferLib Conference Poster and Discussing RL Career Advice",
+  "summary": "Worked on creating a 6x4 ft conference poster for PufferLib, incorporating environment screenshots and updated logos. Also discussed reinforcement learning career paths, programming guides, and answered viewer questions.",
+  "topics": [
+    "conference poster",
+    "PufferLib",
+    "reinforcement learning",
+    "hyperparameter sweeps",
+    "credit assignment",
+    "open-source tools"
+  ]
+}

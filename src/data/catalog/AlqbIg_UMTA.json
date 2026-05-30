@@ -1,0 +1,17 @@
+{
+  "id": "AlqbIg_UMTA",
+  "date": "2024-10-18T18:41:53+00:00",
+  "url": "https://www.youtube.com/watch?v=AlqbIg_UMTA",
+  "transcript": "/src/data/transcripts/AlqbIg_UMTA.vtt",
+  "originalTitle": "RL Dev on PufferLib - reviewing PRs, onboarding new contributors!",
+  "title": "Reviewing Connect 4 Bitboard PR, Debugging Rocket Lander, and Integrating Tactical RPG",
+  "summary": "Reviewed and merged a Connect 4 PR using bitboard representation, provided feedback on code style and bit logic. Debugged reward shaping and training instability in the Rocket Lander environment, eventually attributing issues to reward structure and physics. Integrated Nathan's tactical RPG environment (Coco) into the PufferLib demo page, adjusting web assembly build flags. Fixed a race condition in PufferLib's async reset by adding a flush method.",
+  "topics": [
+    "PufferLib",
+    "bitboard",
+    "reward shaping",
+    "Cython bindings",
+    "web assembly",
+    "race condition"
+  ]
+}

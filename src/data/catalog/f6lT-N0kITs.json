@@ -1,0 +1,17 @@
+{
+  "id": "f6lT-N0kITs",
+  "date": "2025-03-03T20:38:03+00:00",
+  "url": "https://www.youtube.com/watch?v=f6lT-N0kITs",
+  "transcript": "/src/data/transcripts/f6lT-N0kITs.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Optimizing P3O Advantage Computation with Cython in PufferLib",
+  "summary": "Worked on porting the advantage normalization function for the P3O algorithm from NumPy to Cython to reduce overhead. Identified that the Cython-generated code was still slow due to inefficient loop constructs and lack of SIMD, and explored moving log standard deviation computation to the GPU to bypass CPU bottlenecks.",
+  "topics": [
+    "PufferLib",
+    "Cython optimization",
+    "advantage normalization",
+    "GPU offloading",
+    "SIMD",
+    "P3O"
+  ]
+}

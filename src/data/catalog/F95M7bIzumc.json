@@ -1,0 +1,17 @@
+{
+  "id": "F95M7bIzumc",
+  "date": "2024-07-09T18:54:34+00:00",
+  "url": "https://www.youtube.com/watch?v=F95M7bIzumc",
+  "transcript": "/src/data/transcripts/F95M7bIzumc.vtt",
+  "originalTitle": "Fixing Reinforcement Learning Infrastructure: Adding continuous control",
+  "title": "Implementing Continuous Control in PufferLib and Debugging Car Racing Environment",
+  "summary": "Worked on two major tasks: provided feedback to the wandb team on integrating carbs hyperparameter tuning into wandb sweeps, and implemented continuous control support in PufferLib. This involved adding a box2d wrapper, modifying the policy network and training loop for continuous actions, and creating a simple continuous control test environment. Debugged issues with car racing and mountain car environments.",
+  "topics": [
+    "continuous control",
+    "PufferLib",
+    "wandb sweeps",
+    "carbs",
+    "gymnasium wrappers",
+    "policy network"
+  ]
+}

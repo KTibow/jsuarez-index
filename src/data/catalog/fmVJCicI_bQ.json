@@ -1,0 +1,17 @@
+{
+  "id": "fmVJCicI_bQ",
+  "date": "2025-05-02T14:27:23+00:00",
+  "url": "https://www.youtube.com/watch?v=fmVJCicI_bQ",
+  "transcript": "/src/data/transcripts/fmVJCicI_bQ.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Refactoring PufferLib Trainer into a Class and Integrating Custom CUDA Ops",
+  "summary": "Worked on refactoring Clean Puffer's trainer into a class structure to improve readability and maintainability. Debugged missing imports in non-recurrent policies and fixed CUDA extension registration with PyTorch custom operators, eliminating pybind11 dependency. Continued line-by-line cleanup of the training code, cutting lines and improving logical grouping.",
+  "topics": [
+    "class refactoring",
+    "custom CUDA ops",
+    "PyTorch extension",
+    "non-recurrent policy fix",
+    "code cleanup",
+    "pybind11 removal"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ojLIw89jAtg",
+  "date": "2024-12-30T21:20:15+00:00",
+  "url": "https://www.youtube.com/watch?v=ojLIw89jAtg",
+  "transcript": "/src/data/transcripts/ojLIw89jAtg.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Evaluating Neptune vs. WandB for PufferLib Experiment Tracking and Prototyping Dual Support",
+  "summary": "Evaluated migrating experiment tracking from WandB to Neptune for PufferLib. Prototyped a dual-support implementation using carbs for hyperparameter sweeps, dropping the WandB sweeps API.",
+  "topics": [
+    "PufferLib",
+    "experiment tracking",
+    "WandB",
+    "Neptune",
+    "hyperparameter sweeps",
+    "carbs"
+  ]
+}

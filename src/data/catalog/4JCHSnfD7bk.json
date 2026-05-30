@@ -1,0 +1,17 @@
+{
+  "id": "4JCHSnfD7bk",
+  "date": "2024-10-08T18:54:44+00:00",
+  "url": "https://www.youtube.com/watch?v=4JCHSnfD7bk",
+  "transcript": "/src/data/transcripts/4JCHSnfD7bk.vtt",
+  "originalTitle": "Making ultra high perf reinforcement learning simple",
+  "title": "Porting Multiple Environments to Simplified PufferLib API and Debugging Training",
+  "summary": "Ported Breakout, Connect Four, Triple Triad, and Snake environments to a new streamlined C binding interface, removing significant boilerplate. Debugged observation scaling, reward functions, and terminal signals to get basic training working for each.",
+  "topics": [
+    "PufferLib",
+    "C environments",
+    "binding simplification",
+    "reward function",
+    "observation normalization",
+    "training debugging"
+  ]
+}

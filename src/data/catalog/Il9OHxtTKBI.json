@@ -1,0 +1,17 @@
+{
+  "id": "Il9OHxtTKBI",
+  "date": "2024-07-29T23:29:55+00:00",
+  "url": "https://www.youtube.com/watch?v=Il9OHxtTKBI",
+  "transcript": "/src/data/transcripts/Il9OHxtTKBI.vtt",
+  "originalTitle": "RL Hyperparam Sweeps for 1M FPS mini-DoTA/LoL. Dev day #9",
+  "title": "Fixing Hyperparameter Sweeps and Profiling Performance for Mini-DOTA Environment",
+  "summary": "Debugged a sweep failure caused by a zero reward metric and replaced it with normalized reward. Profiled and optimized compute observations, fixed a tower indexing bug, and started a hyperparameter sweep.",
+  "topics": [
+    "PufferLib",
+    "hyperparameter tuning",
+    "carb sweep",
+    "performance profiling",
+    "MOBA environment",
+    "reward normalization"
+  ]
+}

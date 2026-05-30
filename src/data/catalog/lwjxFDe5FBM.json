@@ -1,0 +1,17 @@
+{
+  "id": "lwjxFDe5FBM",
+  "date": "2025-05-07T12:11:06+00:00",
+  "url": "https://www.youtube.com/watch?v=lwjxFDe5FBM",
+  "transcript": "/src/data/transcripts/lwjxFDe5FBM.vtt",
+  "originalTitle": "Reinforcement Learning Dev on PufferLib",
+  "title": "Analyzing Hyperparameter Sweep Results for Breakout and Maze",
+  "summary": "Analyzed hyperparameter sweep results for Breakout and Maze environments, finding stable hyperparameter regimes for Breakout and stronger dependencies for Maze. Replicated top runs, evaluated new maze policy achieving state-of-the-art performance, and identified key parameters like learning rate, gamma, and prioritized replay.",
+  "topics": [
+    "hyperparameter sweep",
+    "pufferlib",
+    "breakout",
+    "maze environment",
+    "prioritized replay",
+    "gamma tuning"
+  ]
+}

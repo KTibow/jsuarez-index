@@ -1,0 +1,17 @@
+{
+  "id": "uMFmtR49b68",
+  "date": "2025-01-21T18:36:38+00:00",
+  "url": "https://www.youtube.com/watch?v=uMFmtR49b68",
+  "transcript": "/src/data/transcripts/uMFmtR49b68.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Fixing PufferLib Logging and Hyperparameter Issues for GPU Drive",
+  "summary": "Debugged logging configuration and hyperparameter mismatches in PufferLib integration for GPU Drive. Worked on merging fixes and set up eval script while troubleshooting multi-discrete action space.",
+  "topics": [
+    "PufferLib",
+    "GPU Drive",
+    "logging debugging",
+    "hyperparameter tuning",
+    "eval script",
+    "multi-discrete action space"
+  ]
+}

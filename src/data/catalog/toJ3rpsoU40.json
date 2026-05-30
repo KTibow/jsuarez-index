@@ -1,0 +1,17 @@
+{
+  "id": "toJ3rpsoU40",
+  "date": "2026-03-05T13:45:58+00:00",
+  "url": "https://www.youtube.com/watch?v=toJ3rpsoU40",
+  "transcript": "/src/data/transcripts/toJ3rpsoU40.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Reviewing Box-Pushing Environment PR and Refactoring Puffer 4 Logging System",
+  "summary": "Reviewed a box-pushing environment PR with focus on efficient memory layout and reward structure. Refactored Puffer 4's logging downsampling and training loop evaluation logic to stabilize log format.",
+  "topics": [
+    "code review",
+    "environment development",
+    "memory layout",
+    "reward structure",
+    "logging downsampling",
+    "training loop refactoring"
+  ]
+}

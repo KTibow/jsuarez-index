@@ -1,0 +1,17 @@
+{
+  "id": "VAp-dWAJGLE",
+  "date": "2025-02-27T01:03:39+00:00",
+  "url": "https://www.youtube.com/watch?v=VAp-dWAJGLE",
+  "transcript": "/src/data/transcripts/VAp-dWAJGLE.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Sweep Configuration Bug and Discussing Jax Compatibility",
+  "summary": "Debugged a bug in hyperparameter sweep configuration where Gaussian process settings were incorrectly auto-scaled, causing slow launches. Also explored adding bindings for JAX environments from a collaboration, and discussed frustrations with JAX's complexity.",
+  "topics": [
+    "PufferLib",
+    "hyperparameter sweeps",
+    "Gaussian process",
+    "JAX compatibility",
+    "environment bindings",
+    "configuration bug"
+  ]
+}

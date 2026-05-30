@@ -1,0 +1,17 @@
+{
+  "id": "1kGah5dPKXw",
+  "date": "2025-08-29T19:52:19+00:00",
+  "url": "https://www.youtube.com/watch?v=1kGah5dPKXw",
+  "transcript": "/src/data/transcripts/1kGah5dPKXw.vtt",
+  "originalTitle": "PufferLib - the hard problem in RL",
+  "title": "Investigating On-Policy Assumptions in Policy Gradient Algorithms",
+  "summary": "Worked through the mathematical derivation of vanilla policy gradients to understand why they require on-policy data. Identified that the core issue is the value function's dependence on current policy, not the policy gradient itself. Conducted experiments to separate value and policy learning, but found challenges in getting baseline performance without LSTM.",
+  "topics": [
+    "policy gradient",
+    "on-policy vs off-policy",
+    "value function",
+    "generalized advantage estimation",
+    "sample reuse",
+    "behavioral cloning"
+  ]
+}

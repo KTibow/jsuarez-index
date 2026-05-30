@@ -1,0 +1,17 @@
+{
+  "id": "ynj_ATHBKh0",
+  "date": "2025-12-27T14:08:33+00:00",
+  "url": "https://www.youtube.com/watch?v=ynj_ATHBKh0",
+  "transcript": "/src/data/transcripts/ynj_ATHBKh0.vtt",
+  "originalTitle": "Joseph Suarez fights CUDAGraphs",
+  "title": "Debugging CUDAGraph Tracing in PufferLib Training Loop",
+  "summary": "Worked on fixing CUDA Graph tracing for PufferLib's forward and backward passes. Resolved stream synchronization bugs and successfully traced the entire training loop, achieving approximately 9 million steps per second.",
+  "topics": [
+    "CUDA Graphs",
+    "torch C++ extension",
+    "stream synchronization",
+    "kernel launch overhead",
+    "PufferLib",
+    "training loop optimization"
+  ]
+}

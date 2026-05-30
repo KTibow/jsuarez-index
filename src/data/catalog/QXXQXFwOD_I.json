@@ -1,0 +1,17 @@
+{
+  "id": "QXXQXFwOD_I",
+  "date": "2026-05-13T19:33:15+00:00",
+  "url": "https://www.youtube.com/watch?v=QXXQXFwOD_I",
+  "transcript": "/src/data/transcripts/QXXQXFwOD_I.vtt",
+  "originalTitle": "PufferLib RL dev with Joseph Suarez",
+  "title": "Reviewing Inferno Environment PR and Debugging Eval Issues",
+  "summary": "Reviewed a new environment PR (Inferno) and provided code feedback. Debugged evaluation bugs and model loading issues on Windows. Discussed plans for a two-week Puffer 5 algorithm sprint.",
+  "topics": [
+    "environment review",
+    "debug eval bugs",
+    "model loading",
+    "Puffer 5 planning",
+    "Runescape environment",
+    "PR merging"
+  ]
+}

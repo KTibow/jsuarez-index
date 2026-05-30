@@ -1,0 +1,17 @@
+{
+  "id": "cdnmpU36hEY",
+  "date": "2025-02-02T18:47:09+00:00",
+  "url": "https://www.youtube.com/watch?v=cdnmpU36hEY",
+  "transcript": "/src/data/transcripts/cdnmpU36hEY.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging and Simplifying CARBS Hyperparameter Optimization for PufferLib",
+  "summary": "Worked on debugging a simplified implementation of the CARBS hyperparameter optimization algorithm, removing unnecessary dependencies and cleaning up convoluted code. Also discussed potential new environments for contributors.",
+  "topics": [
+    "hyperparameter optimization",
+    "CARBS",
+    "code cleanup",
+    "gaussian processes",
+    "pufferlib",
+    "reinforcement learning"
+  ]
+}

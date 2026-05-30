@@ -1,0 +1,17 @@
+{
+  "id": "LulHfLEixlk",
+  "date": "2025-01-21T12:58:44+00:00",
+  "url": "https://www.youtube.com/watch?v=LulHfLEixlk",
+  "transcript": "/src/data/transcripts/LulHfLEixlk.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Debugging Eval Hang and Configuring neoc Carbs Baselines for PufferLib Environments",
+  "summary": "Debugged an eval hang during data collection, fixed a name mismatch in logging, and cleaned up configs for multiple environments. Ran neoc carbs hyperparameter sweeps on pong, triple triad, and connect four to establish baselines.",
+  "topics": [
+    "eval hang",
+    "data collection",
+    "neoc carbs",
+    "hyperparameter sweep",
+    "environment configs",
+    "logging fix"
+  ]
+}

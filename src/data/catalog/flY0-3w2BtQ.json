@@ -1,0 +1,17 @@
+{
+  "id": "flY0-3w2BtQ",
+  "date": "2026-02-09T13:18:35+00:00",
+  "url": "https://www.youtube.com/watch?v=flY0-3w2BtQ",
+  "transcript": "/src/data/transcripts/flY0-3w2BtQ.vtt",
+  "originalTitle": "Live RL dev on PufferLib with Joseph Suarez",
+  "title": "Refactoring PufferLib's Kernel Code and Reducing Build Complexity",
+  "summary": "Cleaned up PufferLib's kernel and test files, removing outdated kernels and redundant code. Fixed build issues by excluding NCCL from the profiler build. Experiment sweeps showed high scores up to 65K.",
+  "topics": [
+    "PufferLib",
+    "kernel cleanup",
+    "CUDA",
+    "build system",
+    "NCCL",
+    "profiling"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "-ybWSylTnVg",
+  "date": "2026-03-16T20:44:46+00:00",
+  "url": "https://www.youtube.com/watch?v=-ybWSylTnVg",
+  "transcript": "/src/data/transcripts/-ybWSylTnVg.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Debugging Neural MMO Training in PufferLib's Python Backend",
+  "summary": "Worked on fixing the Python backend of PufferLib to isolate training issues in Neural MMO. Debugged a bug related to the float32 backend and ratio parameter, then committed the fix.",
+  "topics": [
+    "PufferLib",
+    "Neural MMO",
+    "Python backend",
+    "debugging",
+    "float32 backend",
+    "training performance"
+  ]
+}

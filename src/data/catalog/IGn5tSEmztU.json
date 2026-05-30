@@ -1,0 +1,17 @@
+{
+  "id": "IGn5tSEmztU",
+  "date": "2026-05-03T14:48:35+00:00",
+  "url": "https://www.youtube.com/watch?v=IGn5tSEmztU",
+  "transcript": "/src/data/transcripts/IGn5tSEmztU.vtt",
+  "originalTitle": "CUDA with Joseph Suarez",
+  "title": "Learning CUDA Primitives and Refactoring Maze Environment for State Sets",
+  "summary": "Worked on understanding CUDA synchronization primitives and shared memory patterns, then refactored the maze environment to support static memory allocation for state sets in preparation for Puffer 5 algorithm development.",
+  "topics": [
+    "CUDA",
+    "synchronization primitives",
+    "shared memory",
+    "maze environment",
+    "state sets",
+    "kernel optimization"
+  ]
+}

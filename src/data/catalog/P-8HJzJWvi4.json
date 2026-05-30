@@ -1,0 +1,17 @@
+{
+  "id": "P-8HJzJWvi4",
+  "date": "2024-07-24T23:39:47+00:00",
+  "url": "https://www.youtube.com/watch?v=P-8HJzJWvi4",
+  "transcript": "/src/data/transcripts/P-8HJzJWvi4.vtt",
+  "originalTitle": "1M FPS mini-DoTA/LoL for reinforcement learning. Dev day #8",
+  "title": "Debugging Reward Scaling and Training Sanity for Mini-MOBA RL Environment",
+  "summary": "Debugged reward scaling issues in a mini-MOBA environment where negative rewards were causing overflow in observation encoding. Made the environment human-playable to verify control and reward mechanics. Investigated why agents failed to learn simple movement to center despite correct observations and rewards, discovering potential policy collapse or action space bugs.",
+  "topics": [
+    "reward scaling",
+    "observation encoding",
+    "human-playable debugging",
+    "mini-MOBA",
+    "policy collapse",
+    "hyperparameter tuning"
+  ]
+}

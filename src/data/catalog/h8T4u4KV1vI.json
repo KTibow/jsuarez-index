@@ -1,0 +1,16 @@
+{
+  "id": "h8T4u4KV1vI",
+  "date": "2025-10-16T20:59:45+00:00",
+  "url": "https://www.youtube.com/watch?v=h8T4u4KV1vI",
+  "transcript": "/src/data/transcripts/h8T4u4KV1vI.vtt",
+  "originalTitle": "PufferLib RL Dev. C & Deadlifts",
+  "title": "Compressing Two C Functions in PufferLib Refactor",
+  "summary": "Worked on refactoring PufferLib by merging two similar C functions that differed by a single argument. Encountered issues with variable-length buffers and memory allocation in C.",
+  "topics": [
+    "PufferLib",
+    "C refactoring",
+    "function compression",
+    "buffer allocation",
+    "variable-length buffers"
+  ]
+}

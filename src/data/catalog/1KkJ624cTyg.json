@@ -1,0 +1,17 @@
+{
+  "id": "1KkJ624cTyg",
+  "date": "2025-03-11T16:20:34+00:00",
+  "url": "https://www.youtube.com/watch?v=1KkJ624cTyg",
+  "transcript": "/src/data/transcripts/1KkJ624cTyg.vtt",
+  "originalTitle": "Live Dev - PufferLib is Fixing Reinforcement Learning",
+  "title": "Debugging the P3O Advantage Kernel in Cuda",
+  "summary": "Debugged indexing bugs in the Cuda advantage kernel for the new P3O algorithm. Fixed the kernel and confirmed successful training after debugging.",
+  "topics": [
+    "P3O",
+    "advantage kernel",
+    "Cuda",
+    "indexing bug",
+    "debugging",
+    "PufferLib"
+  ]
+}

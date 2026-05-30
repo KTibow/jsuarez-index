@@ -1,0 +1,17 @@
+{
+  "id": "Q79MagkKu1I",
+  "date": "2025-08-12T18:42:13+00:00",
+  "url": "https://www.youtube.com/watch?v=Q79MagkKu1I",
+  "transcript": "/src/data/transcripts/Q79MagkKu1I.vtt",
+  "originalTitle": "PufferLib - Environments and IL",
+  "title": "Testing Imitation Learning Without Expert Data and Adding Contextual RL Variables to CartPole and Breakout",
+  "summary": "Modified CartPole and Breakout environments to expose physical parameters for contextual RL experiments. Ran imitation learning experiments without expert data, using best-segment selection, and observed mixed results: solved CartPole and Pong instantly, partially solved Breakout, but failed on harder tasks. Also planned further off-policy research and benchmark design.",
+  "topics": [
+    "PufferLib",
+    "imitation learning",
+    "contextual reinforcement learning",
+    "environment modification",
+    "off-policy reinforcement learning",
+    "benchmark design"
+  ]
+}

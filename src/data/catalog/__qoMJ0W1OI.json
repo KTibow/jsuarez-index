@@ -1,0 +1,17 @@
+{
+  "id": "__qoMJ0W1OI",
+  "date": "2024-12-23T21:44:50+00:00",
+  "url": "https://www.youtube.com/watch?v=__qoMJ0W1OI",
+  "transcript": "/src/data/transcripts/__qoMJ0W1OI.vtt",
+  "originalTitle": "Fixing Reinforcement Learning with PufferLib - Live Dev",
+  "title": "Porting Trash Pickup Policy to C and Deploying on Website",
+  "summary": "Worked on the trash pickup environment: fixed observation space by changing from float to signed char and adding a carrying channel, optimized memory layout for C, trained a policy, ported it to C using pufferlib, and deployed it on the website. Also updated documentation and helped a contributor with import issues.",
+  "topics": [
+    "trash pickup",
+    "pufferlib",
+    "observation space",
+    "memory layout",
+    "porting to C",
+    "web deployment"
+  ]
+}

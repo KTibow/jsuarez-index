@@ -1,0 +1,17 @@
+{
+  "id": "4QSRmmHuqtU",
+  "date": "2024-09-24T22:25:40+00:00",
+  "url": "https://www.youtube.com/watch?v=4QSRmmHuqtU",
+  "transcript": "/src/data/transcripts/4QSRmmHuqtU.vtt",
+  "originalTitle": "One more push and RL envs will be fast and easy",
+  "title": "Designing Buffer Assignment for Native Environments in PufferLib",
+  "summary": "Worked on designing the buffer assignment architecture for native environments in PufferLib. Decided on an `assign_buffers` method to propagate shared memory directly to environments, avoiding breaking API changes.",
+  "topics": [
+    "PufferLib",
+    "native environments",
+    "shared memory",
+    "buffer assignment",
+    "Cython",
+    "RL environment architecture"
+  ]
+}

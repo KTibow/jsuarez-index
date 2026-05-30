@@ -1,0 +1,17 @@
+{
+  "id": "47VzScidIJI",
+  "date": "2025-09-13T17:58:15+00:00",
+  "url": "https://www.youtube.com/watch?v=47VzScidIJI",
+  "transcript": "/src/data/transcripts/47VzScidIJI.vtt",
+  "originalTitle": "PufferLib - New frontiers in RL",
+  "title": "Building Custom Experiment Tracking for Hyperparameter Sweeps in PufferLib",
+  "summary": "Built a custom experiment tracking and visualization system for large-scale hyperparameter sweeps, focusing on compute-data Pareto frontiers. Fixed Pareto optimality calculation for multi-dimensional costs and improved suggestion throughput for multi-GPU sweeps.",
+  "topics": [
+    "experiment tracking",
+    "Pareto frontier",
+    "hyperparameter sensitivity",
+    "compute-data tradeoff",
+    "sweep optimization",
+    "custom logger"
+  ]
+}
