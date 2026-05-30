@@ -1,0 +1,2832 @@
+WEBVTT
+
+NOTE
+metadata:
+title: Live Reinforcement Learning Dev
+id: 0cAVo4AVMiM
+url: https://www.youtube.com/watch?v=0cAVo4AVMiM
+date: 2024-08-23T21:16:56+00:00
+language: en
+Kind: captions
+Language: en
+
+00:00:00.919 --> 00:00:03.990 align:start position:0%
+ 
+let's<00:00:01.199><c> dive</c><00:00:01.439><c> a</c><00:00:01.560><c> bit</c><00:00:01.760><c> deeper</c><00:00:02.679><c> level</c><00:00:03.000><c> three</c><00:00:03.560><c> is</c>
+
+00:00:03.990 --> 00:00:04.000 align:start position:0%
+let's dive a bit deeper level three is
+ 
+
+00:00:04.000 --> 00:00:06.829 align:start position:0%
+let's dive a bit deeper level three is
+algorithms<00:00:05.000><c> open</c><00:00:05.319><c> AI</c><00:00:05.600><c> beat</c><00:00:05.879><c> top</c><00:00:06.120><c> pros</c><00:00:06.359><c> at</c><00:00:06.520><c> DOTA</c>
+
+00:00:06.829 --> 00:00:06.839 align:start position:0%
+algorithms open AI beat top pros at DOTA
+ 
+
+00:00:06.839 --> 00:00:09.549 align:start position:0%
+algorithms open AI beat top pros at DOTA
+in<00:00:07.240><c> 2019</c><00:00:08.240><c> I</c><00:00:08.400><c> consider</c><00:00:08.760><c> this</c><00:00:08.920><c> the</c><00:00:09.080><c> top</c><00:00:09.280><c> result</c>
+
+00:00:09.549 --> 00:00:09.559 align:start position:0%
+in 2019 I consider this the top result
+ 
+
+00:00:09.559 --> 00:00:11.350 align:start position:0%
+in 2019 I consider this the top result
+in<00:00:09.639><c> the</c><00:00:09.760><c> field</c><00:00:10.559><c> how</c><00:00:10.759><c> advanced</c><00:00:11.120><c> was</c><00:00:11.240><c> the</c>
+
+00:00:11.350 --> 00:00:11.360 align:start position:0%
+in the field how advanced was the
+ 
+
+00:00:11.360 --> 00:00:14.350 align:start position:0%
+in the field how advanced was the
+algorithm<00:00:11.799><c> used</c><00:00:12.040><c> for</c><00:00:12.160><c> this</c><00:00:12.280><c> feed</c><00:00:13.000><c> pause</c><00:00:13.200><c> and</c>
+
+00:00:14.350 --> 00:00:14.360 align:start position:0%
+algorithm used for this feed pause and
+ 
+
+00:00:14.360 --> 00:00:19.109 align:start position:0%
+algorithm used for this feed pause and
+guess<00:00:15.680><c> ready</c><00:00:16.680><c> the</c><00:00:16.840><c> solution</c><00:00:17.199><c> was</c><00:00:17.439><c> Po</c><00:00:18.000><c> and</c><00:00:18.279><c> 158</c>
+
+00:00:19.109 --> 00:00:19.119 align:start position:0%
+guess ready the solution was Po and 158
+ 
+
+00:00:19.119 --> 00:00:21.029 align:start position:0%
+guess ready the solution was Po and 158
+million<00:00:19.520><c> parameter</c><00:00:19.960><c> network</c><00:00:20.560><c> with</c><00:00:20.680><c> a</c><00:00:20.840><c> on</c>
+
+00:00:21.029 --> 00:00:21.039 align:start position:0%
+million parameter network with a on
+ 
+
+00:00:21.039 --> 00:00:22.029 align:start position:0%
+million parameter network with a on
+layer
+
+00:00:22.029 --> 00:00:22.039 align:start position:0%
+layer
+ 
+
+00:00:22.039 --> 00:00:24.870 align:start position:0%
+layer
+lstm<00:00:23.039><c> that's</c><00:00:23.199><c> a</c><00:00:23.320><c> model</c><00:00:23.560><c> you</c><00:00:23.680><c> can</c><00:00:23.800><c> run</c><00:00:24.039><c> at</c><00:00:24.199><c> home</c>
+
+00:00:24.870 --> 00:00:24.880 align:start position:0%
+lstm that's a model you can run at home
+ 
+
+00:00:24.880 --> 00:00:27.390 align:start position:0%
+lstm that's a model you can run at home
+and<00:00:25.039><c> while</c><00:00:25.199><c> the</c><00:00:25.359><c> 1024</c><00:00:26.279><c> gpus</c><00:00:26.720><c> used</c><00:00:26.960><c> to</c><00:00:27.080><c> train</c><00:00:27.279><c> it</c>
+
+00:00:27.390 --> 00:00:27.400 align:start position:0%
+and while the 1024 gpus used to train it
+ 
+
+00:00:27.400 --> 00:00:30.109 align:start position:0%
+and while the 1024 gpus used to train it
+were<00:00:27.599><c> a</c><00:00:27.720><c> lot</c><00:00:27.960><c> by</c><00:00:28.119><c> 2019</c><00:00:28.800><c> standards</c><00:00:29.560><c> that's</c><00:00:29.759><c> only</c>
+
+00:00:30.109 --> 00:00:30.119 align:start position:0%
+were a lot by 2019 standards that's only
+ 
+
+00:00:30.119 --> 00:00:32.069 align:start position:0%
+were a lot by 2019 standards that's only
+around<00:00:30.400><c> 1%</c><00:00:30.880><c> of</c><00:00:31.000><c> the</c><00:00:31.080><c> scale</c><00:00:31.320><c> of</c>
+
+00:00:32.069 --> 00:00:32.079 align:start position:0%
+around 1% of the scale of
+ 
+
+00:00:32.079 --> 00:00:35.670 align:start position:0%
+around 1% of the scale of
+gp4<00:00:33.079><c> Po</c><00:00:33.559><c> was</c><00:00:33.719><c> published</c><00:00:34.040><c> in</c><00:00:34.399><c> 2017</c><00:00:35.399><c> and</c><00:00:35.520><c> is</c>
+
+00:00:35.670 --> 00:00:35.680 align:start position:0%
+gp4 Po was published in 2017 and is
+ 
+
+00:00:35.680 --> 00:00:37.310 align:start position:0%
+gp4 Po was published in 2017 and is
+still<00:00:35.920><c> the</c><00:00:36.040><c> most</c><00:00:36.239><c> widely</c><00:00:36.520><c> used</c><00:00:36.800><c> algorithm</c><00:00:37.200><c> in</c>
+
+00:00:37.310 --> 00:00:37.320 align:start position:0%
+still the most widely used algorithm in
+ 
+
+00:00:37.320 --> 00:00:40.549 align:start position:0%
+still the most widely used algorithm in
+RL<00:00:38.120><c> outside</c><00:00:38.480><c> of</c><00:00:38.680><c> maybe</c><00:00:39.079><c> soft</c><00:00:39.480><c> after</c><00:00:39.960><c> critic</c><00:00:40.320><c> in</c>
+
+00:00:40.549 --> 00:00:40.559 align:start position:0%
+RL outside of maybe soft after critic in
+ 
+
+00:00:40.559 --> 00:00:43.310 align:start position:0%
+RL outside of maybe soft after critic in
+parts<00:00:40.760><c> of</c><00:00:41.239><c> Robotics</c><00:00:42.239><c> keep</c><00:00:42.399><c> in</c><00:00:42.559><c> mind</c>
+
+00:00:43.310 --> 00:00:43.320 align:start position:0%
+parts of Robotics keep in mind
+ 
+
+00:00:43.320 --> 00:00:46.029 align:start position:0%
+parts of Robotics keep in mind
+algorithms<00:00:43.960><c> are</c><00:00:44.280><c> academic</c><00:00:44.800><c> bread</c><00:00:45.079><c> and</c><00:00:45.280><c> butter</c>
+
+00:00:46.029 --> 00:00:46.039 align:start position:0%
+algorithms are academic bread and butter
+ 
+
+00:00:46.039 --> 00:00:47.830 align:start position:0%
+algorithms are academic bread and butter
+there<00:00:46.120><c> is</c><00:00:46.399><c> tremendous</c><00:00:47.039><c> incentive</c><00:00:47.440><c> to</c><00:00:47.600><c> make</c>
+
+00:00:47.830 --> 00:00:47.840 align:start position:0%
+there is tremendous incentive to make
+ 
+
+00:00:47.840 --> 00:00:49.670 align:start position:0%
+there is tremendous incentive to make
+progress<00:00:48.120><c> in</c><00:00:48.320><c> publish</c><00:00:48.680><c> here</c><00:00:49.280><c> and</c><00:00:49.399><c> there</c><00:00:49.520><c> have</c>
+
+00:00:49.670 --> 00:00:49.680 align:start position:0%
+progress in publish here and there have
+ 
+
+00:00:49.680 --> 00:00:51.310 align:start position:0%
+progress in publish here and there have
+been<00:00:49.879><c> dozens</c><00:00:50.239><c> to</c><00:00:50.440><c> hundreds</c><00:00:50.760><c> of</c><00:00:50.920><c> papers</c>
+
+00:00:51.310 --> 00:00:51.320 align:start position:0%
+been dozens to hundreds of papers
+ 
+
+00:00:51.320 --> 00:00:52.750 align:start position:0%
+been dozens to hundreds of papers
+claiming<00:00:51.640><c> to</c><00:00:51.760><c> beat</c>
+
+00:00:52.750 --> 00:00:52.760 align:start position:0%
+claiming to beat
+ 
+
+00:00:52.760 --> 00:00:56.310 align:start position:0%
+claiming to beat
+po<00:00:53.760><c> but</c><00:00:53.960><c> none</c><00:00:54.120><c> of</c><00:00:54.239><c> them</c><00:00:54.359><c> have</c><00:00:54.559><c> caught</c><00:00:54.800><c> on</c><00:00:55.000><c> more</c>
+
+00:00:56.310 --> 00:00:56.320 align:start position:0%
+po but none of them have caught on more
+ 
+
+00:00:56.320 --> 00:00:58.509 align:start position:0%
+po but none of them have caught on more
+generally<00:00:57.320><c> as</c><00:00:57.399><c> you</c><00:00:57.559><c> might</c><00:00:57.800><c> expect</c><00:00:58.160><c> from</c><00:00:58.359><c> the</c>
+
+00:00:58.509 --> 00:00:58.519 align:start position:0%
+generally as you might expect from the
+ 
+
+00:00:58.519 --> 00:01:00.790 align:start position:0%
+generally as you might expect from the
+previous<00:00:58.879><c> section</c><00:00:59.640><c> it's</c><00:01:00.039><c> a</c><00:01:00.160><c> common</c><00:01:00.359><c> story</c><00:01:00.640><c> in</c>
+
+00:01:00.790 --> 00:01:00.800 align:start position:0%
+previous section it's a common story in
+ 
+
+00:01:00.800 --> 00:01:03.549 align:start position:0%
+previous section it's a common story in
+RL<00:01:01.280><c> to</c><00:01:01.440><c> try</c><00:01:01.719><c> out</c><00:01:02.000><c> a</c><00:01:02.160><c> newly</c><00:01:02.559><c> published</c><00:01:03.000><c> method</c>
+
+00:01:03.549 --> 00:01:03.559 align:start position:0%
+RL to try out a newly published method
+ 
+
+00:01:03.559 --> 00:01:05.310 align:start position:0%
+RL to try out a newly published method
+on<00:01:03.719><c> a</c><00:01:03.879><c> different</c><00:01:04.159><c> environment</c><00:01:04.879><c> only</c><00:01:05.080><c> for</c><00:01:05.239><c> it</c>
+
+00:01:05.310 --> 00:01:05.320 align:start position:0%
+on a different environment only for it
+ 
+
+00:01:05.320 --> 00:01:07.350 align:start position:0%
+on a different environment only for it
+to<00:01:05.640><c> significantly</c><00:01:06.280><c> underperform</c><00:01:07.040><c> the</c><00:01:07.159><c> much</c>
+
+00:01:07.350 --> 00:01:07.360 align:start position:0%
+to significantly underperform the much
+ 
+
+00:01:07.360 --> 00:01:09.830 align:start position:0%
+to significantly underperform the much
+simpler<00:01:07.680><c> Bas</c><00:01:08.080><c> Line</c><00:01:09.040><c> This</c><00:01:09.159><c> is</c><00:01:09.320><c> going</c><00:01:09.439><c> to</c><00:01:09.600><c> change</c>
+
+00:01:09.830 --> 00:01:09.840 align:start position:0%
+simpler Bas Line This is going to change
+ 
+
+00:01:09.840 --> 00:01:12.429 align:start position:0%
+simpler Bas Line This is going to change
+with<00:01:09.960><c> puffer</c><00:01:10.320><c> lib</c><00:01:11.200><c> algorithmic</c><00:01:11.920><c> progress</c><00:01:12.320><c> is</c>
+
+00:01:12.429 --> 00:01:12.439 align:start position:0%
+with puffer lib algorithmic progress is
+ 
+
+00:01:12.439 --> 00:01:14.429 align:start position:0%
+with puffer lib algorithmic progress is
+not<00:01:12.600><c> our</c><00:01:12.799><c> immediate</c><00:01:13.200><c> goal</c><00:01:13.960><c> because</c><00:01:14.200><c> it</c><00:01:14.320><c> will</c>
+
+00:01:14.429 --> 00:01:14.439 align:start position:0%
+not our immediate goal because it will
+ 
+
+00:01:14.439 --> 00:01:16.870 align:start position:0%
+not our immediate goal because it will
+soon<00:01:14.680><c> become</c><00:01:14.920><c> an</c><00:01:15.080><c> inevitable</c><00:01:15.720><c> byproduct</c><00:01:16.720><c> you</c>
+
+00:01:16.870 --> 00:01:16.880 align:start position:0%
+soon become an inevitable byproduct you
+ 
+
+00:01:16.880 --> 00:01:18.590 align:start position:0%
+soon become an inevitable byproduct you
+can<00:01:17.080><c> already</c><00:01:17.360><c> run</c><00:01:17.640><c> exhaustive</c><00:01:18.159><c> experiments</c>
+
+00:01:18.590 --> 00:01:18.600 align:start position:0%
+can already run exhaustive experiments
+ 
+
+00:01:18.600 --> 00:01:20.230 align:start position:0%
+can already run exhaustive experiments
+on<00:01:18.720><c> a</c><00:01:18.840><c> few</c><00:01:19.080><c> environments</c><00:01:19.640><c> overnight</c><00:01:20.079><c> with</c>
+
+00:01:20.230 --> 00:01:20.240 align:start position:0%
+on a few environments overnight with
+ 
+
+00:01:20.240 --> 00:01:22.630 align:start position:0%
+on a few environments overnight with
+puffer<00:01:20.600><c> lip</c><00:01:21.360><c> as</c><00:01:21.479><c> soon</c><00:01:21.640><c> as</c><00:01:21.799><c> we</c><00:01:22.000><c> accumulate</c><00:01:22.479><c> just</c>
+
+00:01:22.630 --> 00:01:22.640 align:start position:0%
+puffer lip as soon as we accumulate just
+ 
+
+00:01:22.640 --> 00:01:24.749 align:start position:0%
+puffer lip as soon as we accumulate just
+a<00:01:22.759><c> few</c><00:01:23.000><c> more</c><00:01:23.320><c> fast</c><00:01:23.600><c> environments</c><00:01:24.159><c> of</c><00:01:24.360><c> varying</c>
+
+00:01:24.749 --> 00:01:24.759 align:start position:0%
+a few more fast environments of varying
+ 
+
+00:01:24.759 --> 00:01:27.190 align:start position:0%
+a few more fast environments of varying
+type<00:01:24.960><c> and</c><00:01:25.200><c> complexity</c><00:01:26.200><c> the</c><00:01:26.439><c> pace</c><00:01:26.840><c> and</c>
+
+00:01:27.190 --> 00:01:27.200 align:start position:0%
+type and complexity the pace and
+ 
+
+00:01:27.200 --> 00:01:29.270 align:start position:0%
+type and complexity the pace and
+accuracy<00:01:27.759><c> of</c><00:01:27.960><c> evaluating</c><00:01:28.560><c> methods</c><00:01:29.079><c> will</c>
+
+00:01:29.270 --> 00:01:29.280 align:start position:0%
+accuracy of evaluating methods will
+ 
+
+00:01:29.280 --> 00:01:31.429 align:start position:0%
+accuracy of evaluating methods will
+increase<00:01:29.680><c> so</c><00:01:29.920><c> so</c><00:01:30.159><c> dramatically</c><00:01:31.159><c> as</c><00:01:31.280><c> to</c>
+
+00:01:31.429 --> 00:01:31.439 align:start position:0%
+increase so so dramatically as to
+ 
+
+00:01:31.439 --> 00:01:34.069 align:start position:0%
+increase so so dramatically as to
+virtually<00:01:31.920><c> automate</c><00:01:32.360><c> this</c><00:01:32.880><c> process</c><00:01:33.880><c> but</c>
+
+00:01:34.069 --> 00:01:34.079 align:start position:0%
+virtually automate this process but
+ 
+
+00:01:34.079 --> 00:01:36.870 align:start position:0%
+virtually automate this process but
+until<00:01:34.439><c> then</c><00:01:35.360><c> po</c><00:01:35.799><c> solves</c><00:01:36.119><c> DOTA</c><00:01:36.439><c> and</c><00:01:36.520><c> it</c><00:01:36.640><c> will</c>
+
+00:01:36.870 --> 00:01:36.880 align:start position:0%
+until then po solves DOTA and it will
+ 
+
+00:01:36.880 --> 00:01:38.870 align:start position:0%
+until then po solves DOTA and it will
+probably<00:01:37.200><c> solve</c><00:01:37.479><c> your</c><00:01:37.680><c> problem</c>
+
+00:01:38.870 --> 00:01:38.880 align:start position:0%
+probably solve your problem
+ 
+
+00:01:38.880 --> 00:01:42.789 align:start position:0%
+probably solve your problem
+too<00:01:39.880><c> level</c><00:01:40.159><c> four</c><00:01:40.799><c> is</c><00:01:41.280><c> libraries</c><00:01:42.280><c> in</c><00:01:42.479><c> language</c>
+
+00:01:42.789 --> 00:01:42.799 align:start position:0%
+too level four is libraries in language
+ 
+
+00:01:42.799 --> 00:01:44.990 align:start position:0%
+too level four is libraries in language
+and<00:01:43.040><c> vision</c><00:01:43.759><c> most</c><00:01:44.040><c> researchers</c><00:01:44.600><c> just</c><00:01:44.759><c> need</c>
+
+00:01:44.990 --> 00:01:45.000 align:start position:0%
+and vision most researchers just need
+ 
+
+00:01:45.000 --> 00:01:47.389 align:start position:0%
+and vision most researchers just need
+pie<00:01:45.240><c> torch</c><00:01:45.880><c> a</c><00:01:46.040><c> data</c><00:01:46.280><c> set</c><00:01:46.840><c> and</c><00:01:46.960><c> a</c><00:01:47.079><c> stack</c><00:01:47.280><c> of</c>
+
+00:01:47.389 --> 00:01:47.399 align:start position:0%
+pie torch a data set and a stack of
+ 
+
+00:01:47.399 --> 00:01:49.590 align:start position:0%
+pie torch a data set and a stack of
+papers<00:01:47.719><c> to</c><00:01:47.920><c> read</c><00:01:48.719><c> reinforcement</c><00:01:49.320><c> learning</c>
+
+00:01:49.590 --> 00:01:49.600 align:start position:0%
+papers to read reinforcement learning
+ 
+
+00:01:49.600 --> 00:01:52.510 align:start position:0%
+papers to read reinforcement learning
+isn't<00:01:49.880><c> like</c><00:01:50.119><c> that</c><00:01:50.840><c> our</c><00:01:51.040><c> data</c><00:01:51.360><c> comes</c><00:01:51.840><c> from</c>
+
+00:01:52.510 --> 00:01:52.520 align:start position:0%
+isn't like that our data comes from
+ 
+
+00:01:52.520 --> 00:01:54.389 align:start position:0%
+isn't like that our data comes from
+simulators<00:01:53.520><c> we'll</c><00:01:53.719><c> talk</c><00:01:54.000><c> about</c><00:01:54.159><c> all</c><00:01:54.280><c> the</c>
+
+00:01:54.389 --> 00:01:54.399 align:start position:0%
+simulators we'll talk about all the
+ 
+
+00:01:54.399 --> 00:01:55.709 align:start position:0%
+simulators we'll talk about all the
+different<00:01:54.600><c> tools</c><00:01:54.920><c> that</c><00:01:55.040><c> go</c><00:01:55.159><c> into</c><00:01:55.360><c> dealing</c>
+
+00:01:55.709 --> 00:01:55.719 align:start position:0%
+different tools that go into dealing
+ 
+
+00:01:55.719 --> 00:01:57.789 align:start position:0%
+different tools that go into dealing
+with<00:01:55.920><c> these</c><00:01:56.560><c> but</c><00:01:56.719><c> for</c><00:01:56.880><c> now</c><00:01:57.159><c> let's</c><00:01:57.479><c> just</c><00:01:57.640><c> look</c>
+
+00:01:57.789 --> 00:01:57.799 align:start position:0%
+with these but for now let's just look
+ 
+
+00:01:57.799 --> 00:02:00.350 align:start position:0%
+with these but for now let's just look
+at<00:01:58.000><c> off</c><00:01:58.200><c> the-shelf</c><00:01:58.600><c> bundles</c><00:01:58.960><c> of</c><00:01:59.119><c> tools</c><00:02:00.200><c> the</c>
+
+00:02:00.350 --> 00:02:00.360 align:start position:0%
+at off the-shelf bundles of tools the
+ 
+
+00:02:00.360 --> 00:02:01.630 align:start position:0%
+at off the-shelf bundles of tools the
+best<00:02:00.560><c> known</c><00:02:00.759><c> one</c><00:02:00.920><c> is</c><00:02:01.079><c> probably</c><00:02:01.320><c> stable</c>
+
+00:02:01.630 --> 00:02:01.640 align:start position:0%
+best known one is probably stable
+ 
+
+00:02:01.640 --> 00:02:03.870 align:start position:0%
+best known one is probably stable
+baselines<00:02:02.159><c> 3</c><00:02:02.759><c> which</c><00:02:02.920><c> makes</c><00:02:03.159><c> something</c>
+
+00:02:03.870 --> 00:02:03.880 align:start position:0%
+baselines 3 which makes something
+ 
+
+00:02:03.880 --> 00:02:05.109 align:start position:0%
+baselines 3 which makes something
+getting<00:02:04.159><c> something</c><00:02:04.399><c> working</c><00:02:04.719><c> quick</c><00:02:04.920><c> for</c>
+
+00:02:05.109 --> 00:02:05.119 align:start position:0%
+getting something working quick for
+ 
+
+00:02:05.119 --> 00:02:07.590 align:start position:0%
+getting something working quick for
+beginners<00:02:05.960><c> tan</c><00:02:06.399><c> show</c><00:02:06.600><c> shares</c><00:02:07.079><c> a</c><00:02:07.240><c> similar</c>
+
+00:02:07.590 --> 00:02:07.600 align:start position:0%
+beginners tan show shares a similar
+ 
+
+00:02:07.600 --> 00:02:10.589 align:start position:0%
+beginners tan show shares a similar
+design<00:02:08.039><c> but</c><00:02:08.119><c> is</c><00:02:08.280><c> much</c><00:02:08.479><c> less</c><00:02:08.640><c> known</c><00:02:08.879><c> in</c><00:02:09.080><c> the</c><00:02:09.599><c> US</c>
+
+00:02:10.589 --> 00:02:10.599 align:start position:0%
+design but is much less known in the US
+ 
+
+00:02:10.599 --> 00:02:12.350 align:start position:0%
+design but is much less known in the US
+then<00:02:10.720><c> there</c><00:02:10.840><c> are</c><00:02:11.000><c> higher</c><00:02:11.280><c> perf</c><00:02:11.640><c> libraries</c>
+
+00:02:12.350 --> 00:02:12.360 align:start position:0%
+then there are higher perf libraries
+ 
+
+00:02:12.360 --> 00:02:14.790 align:start position:0%
+then there are higher perf libraries
+like<00:02:12.520><c> sample</c><00:02:13.000><c> Factory</c><00:02:13.319><c> and</c><00:02:13.440><c> mulb</c><00:02:14.440><c> which</c><00:02:14.560><c> run</c>
+
+00:02:14.790 --> 00:02:14.800 align:start position:0%
+like sample Factory and mulb which run
+ 
+
+00:02:14.800 --> 00:02:17.949 align:start position:0%
+like sample Factory and mulb which run
+like<00:02:14.920><c> Swiss</c><00:02:15.440><c> watches</c><00:02:16.440><c> smooth</c><00:02:16.879><c> and</c><00:02:17.040><c> beautiful</c>
+
+00:02:17.949 --> 00:02:17.959 align:start position:0%
+like Swiss watches smooth and beautiful
+ 
+
+00:02:17.959 --> 00:02:20.750 align:start position:0%
+like Swiss watches smooth and beautiful
+just<00:02:18.360><c> don't</c><00:02:18.560><c> try</c><00:02:18.720><c> to</c><00:02:18.879><c> modify</c><00:02:19.280><c> them</c><00:02:19.760><c> yourself</c>
+
+00:02:20.750 --> 00:02:20.760 align:start position:0%
+just don't try to modify them yourself
+ 
+
+00:02:20.760 --> 00:02:22.910 align:start position:0%
+just don't try to modify them yourself
+there's<00:02:21.000><c> also</c><00:02:21.200><c> torch</c><00:02:21.560><c> lib</c><00:02:22.040><c> a</c><00:02:22.160><c> newer</c><00:02:22.519><c> library</c>
+
+00:02:22.910 --> 00:02:22.920 align:start position:0%
+there's also torch lib a newer library
+ 
+
+00:02:22.920 --> 00:02:25.030 align:start position:0%
+there's also torch lib a newer library
+with<00:02:23.080><c> quite</c><00:02:23.200><c> a</c><00:02:23.280><c> bit</c><00:02:23.400><c> of</c><00:02:23.640><c> Promise</c><00:02:24.640><c> all</c><00:02:24.879><c> these</c>
+
+00:02:25.030 --> 00:02:25.040 align:start position:0%
+with quite a bit of Promise all these
+ 
+
+00:02:25.040 --> 00:02:26.589 align:start position:0%
+with quite a bit of Promise all these
+take<00:02:25.239><c> some</c><00:02:25.440><c> time</c><00:02:25.599><c> to</c><00:02:25.760><c> learn</c><00:02:26.080><c> and</c><00:02:26.239><c> none</c><00:02:26.360><c> of</c><00:02:26.480><c> them</c>
+
+00:02:26.589 --> 00:02:26.599 align:start position:0%
+take some time to learn and none of them
+ 
+
+00:02:26.599 --> 00:02:29.110 align:start position:0%
+take some time to learn and none of them
+will<00:02:26.879><c> suit</c><00:02:27.120><c> your</c><00:02:27.239><c> needs</c><00:02:27.480><c> in</c><00:02:27.599><c> all</c><00:02:27.920><c> cases</c><00:02:28.920><c> My</c>
+
+00:02:29.110 --> 00:02:29.120 align:start position:0%
+will suit your needs in all cases My
+ 
+
+00:02:29.120 --> 00:02:31.470 align:start position:0%
+will suit your needs in all cases My
+overall<00:02:29.480><c> pick</c><00:02:29.640><c> is</c><00:02:29.879><c> clean</c><00:02:30.080><c> RL</c><00:02:30.800><c> which</c><00:02:31.040><c> provides</c>
+
+00:02:31.470 --> 00:02:31.480 align:start position:0%
+overall pick is clean RL which provides
+ 
+
+00:02:31.480 --> 00:02:33.350 align:start position:0%
+overall pick is clean RL which provides
+short<00:02:31.879><c> single</c><00:02:32.239><c> file</c><00:02:32.519><c> implementations</c><00:02:33.160><c> of</c>
+
+00:02:33.350 --> 00:02:33.360 align:start position:0%
+short single file implementations of
+ 
+
+00:02:33.360 --> 00:02:36.470 align:start position:0%
+short single file implementations of
+major<00:02:33.720><c> algorithms</c><00:02:34.720><c> RL</c><00:02:35.080><c> is</c><00:02:35.200><c> an</c><00:02:35.319><c> emerging</c><00:02:35.720><c> field</c>
+
+00:02:36.470 --> 00:02:36.480 align:start position:0%
+major algorithms RL is an emerging field
+ 
+
+00:02:36.480 --> 00:02:38.710 align:start position:0%
+major algorithms RL is an emerging field
+and<00:02:36.640><c> users</c><00:02:37.000><c> need</c><00:02:37.239><c> white</c><00:02:37.480><c> box</c><00:02:37.879><c> software</c><00:02:38.560><c> that</c>
+
+00:02:38.710 --> 00:02:38.720 align:start position:0%
+and users need white box software that
+ 
+
+00:02:38.720 --> 00:02:41.869 align:start position:0%
+and users need white box software that
+they<00:02:38.840><c> can</c><00:02:39.000><c> easily</c><00:02:39.400><c> edit</c><00:02:39.760><c> any</c><00:02:40.080><c> portion</c><00:02:40.480><c> of</c><00:02:41.480><c> so</c>
+
+00:02:41.869 --> 00:02:41.879 align:start position:0%
+they can easily edit any portion of so
+ 
+
+00:02:41.879 --> 00:02:44.430 align:start position:0%
+they can easily edit any portion of so
+how<00:02:42.000><c> does</c><00:02:42.200><c> puffer</c><00:02:42.480><c> lib</c><00:02:42.640><c> fit</c><00:02:42.800><c> in</c><00:02:43.680><c> our</c><00:02:43.920><c> demos</c><00:02:44.280><c> run</c>
+
+00:02:44.430 --> 00:02:44.440 align:start position:0%
+how does puffer lib fit in our demos run
+ 
+
+00:02:44.440 --> 00:02:46.550 align:start position:0%
+how does puffer lib fit in our demos run
+on<00:02:44.560><c> an</c><00:02:44.800><c> optimized</c><00:02:45.239><c> version</c><00:02:45.440><c> of</c><00:02:45.560><c> clean</c><00:02:45.879><c> RL</c><00:02:46.400><c> with</c>
+
+00:02:46.550 --> 00:02:46.560 align:start position:0%
+on an optimized version of clean RL with
+ 
+
+00:02:46.560 --> 00:02:48.750 align:start position:0%
+on an optimized version of clean RL with
+a<00:02:46.720><c> severalfold</c><00:02:47.120><c> increase</c><00:02:47.680><c> in</c><00:02:47.920><c> performance</c>
+
+00:02:48.750 --> 00:02:48.760 align:start position:0%
+a severalfold increase in performance
+ 
+
+00:02:48.760 --> 00:02:50.830 align:start position:0%
+a severalfold increase in performance
+but<00:02:48.959><c> really</c><00:02:49.400><c> the</c><00:02:49.560><c> core</c><00:02:49.840><c> of</c><00:02:50.000><c> puffer</c><00:02:50.360><c> lib</c><00:02:50.560><c> is</c><00:02:50.680><c> not</c>
+
+00:02:50.830 --> 00:02:50.840 align:start position:0%
+but really the core of puffer lib is not
+ 
+
+00:02:50.840 --> 00:02:53.229 align:start position:0%
+but really the core of puffer lib is not
+just<00:02:51.000><c> another</c><00:02:51.319><c> training</c><00:02:51.680><c> Library</c><00:02:52.680><c> we</c><00:02:52.840><c> instead</c>
+
+00:02:53.229 --> 00:02:53.239 align:start position:0%
+just another training Library we instead
+ 
+
+00:02:53.239 --> 00:02:55.550 align:start position:0%
+just another training Library we instead
+focus<00:02:53.560><c> on</c><00:02:53.720><c> lower</c><00:02:54.120><c> level</c><00:02:54.440><c> optimizations</c><00:02:55.440><c> that</c>
+
+00:02:55.550 --> 00:02:55.560 align:start position:0%
+focus on lower level optimizations that
+ 
+
+00:02:55.560 --> 00:02:58.110 align:start position:0%
+focus on lower level optimizations that
+enable<00:02:56.040><c> efficient</c><00:02:56.440><c> and</c><00:02:56.599><c> general</c><00:02:57.120><c> simulation</c>
+
+00:02:58.110 --> 00:02:58.120 align:start position:0%
+enable efficient and general simulation
+ 
+
+00:02:58.120 --> 00:03:01.110 align:start position:0%
+enable efficient and general simulation
+and<00:02:58.280><c> for</c><00:02:58.560><c> that</c><00:02:59.040><c> we'll</c><00:02:59.239><c> have</c><00:02:59.360><c> to</c><00:02:59.480><c> dive</c>
+
+00:03:01.110 --> 00:03:01.120 align:start position:0%
+and for that we'll have to dive
+ 
+
+00:03:01.120 --> 00:03:03.509 align:start position:0%
+and for that we'll have to dive
+deeper<00:03:02.120><c> this</c><00:03:02.239><c> is</c><00:03:02.440><c> where</c><00:03:02.720><c> we</c><00:03:02.840><c> start</c><00:03:03.159><c> getting</c>
+
+00:03:03.509 --> 00:03:03.519 align:start position:0%
+deeper this is where we start getting
+ 
+
+00:03:03.519 --> 00:03:05.710 align:start position:0%
+deeper this is where we start getting
+into<00:03:03.959><c> major</c><00:03:04.319><c> advancements</c><00:03:05.000><c> exclusive</c><00:03:05.560><c> to</c>
+
+00:03:05.710 --> 00:03:05.720 align:start position:0%
+into major advancements exclusive to
+ 
+
+00:03:05.720 --> 00:03:08.830 align:start position:0%
+into major advancements exclusive to
+puffer<00:03:06.080><c> Li</c><00:03:06.760><c> level</c><00:03:07.120><c> five</c><00:03:07.400><c> is</c><00:03:07.840><c> vectorization</c>
+
+00:03:08.830 --> 00:03:08.840 align:start position:0%
+puffer Li level five is vectorization
+ 
+
+00:03:08.840 --> 00:03:10.309 align:start position:0%
+puffer Li level five is vectorization
+the<00:03:09.040><c> process</c><00:03:09.319><c> of</c><00:03:09.480><c> getting</c><00:03:09.799><c> data</c><00:03:10.120><c> from</c>
+
+00:03:10.309 --> 00:03:10.319 align:start position:0%
+the process of getting data from
+ 
+
+00:03:10.319 --> 00:03:12.110 align:start position:0%
+the process of getting data from
+parallel<00:03:10.760><c> simulators</c><00:03:11.280><c> running</c><00:03:11.640><c> on</c><00:03:11.840><c> different</c>
+
+00:03:12.110 --> 00:03:12.120 align:start position:0%
+parallel simulators running on different
+ 
+
+00:03:12.120 --> 00:03:15.270 align:start position:0%
+parallel simulators running on different
+cores<00:03:12.440><c> to</c><00:03:12.599><c> the</c><00:03:12.959><c> GPU</c><00:03:13.959><c> to</c><00:03:14.159><c> illustrate</c><00:03:14.680><c> just</c><00:03:14.840><c> how</c>
+
+00:03:15.270 --> 00:03:15.280 align:start position:0%
+cores to the GPU to illustrate just how
+ 
+
+00:03:15.280 --> 00:03:17.670 align:start position:0%
+cores to the GPU to illustrate just how
+difficult<00:03:15.480><c> this</c><00:03:15.640><c> is</c><00:03:16.239><c> llms</c><00:03:16.879><c> with</c><00:03:17.080><c> thousands</c><00:03:17.480><c> of</c>
+
+00:03:17.670 --> 00:03:17.680 align:start position:0%
+difficult this is llms with thousands of
+ 
+
+00:03:17.680 --> 00:03:19.949 align:start position:0%
+difficult this is llms with thousands of
+gpus<00:03:18.280><c> are</c><00:03:18.400><c> trained</c><00:03:18.760><c> on</c><00:03:18.920><c> the</c><00:03:19.040><c> order</c><00:03:19.360><c> of</c><00:03:19.519><c> tens</c><00:03:19.799><c> of</c>
+
+00:03:19.949 --> 00:03:19.959 align:start position:0%
+gpus are trained on the order of tens of
+ 
+
+00:03:19.959 --> 00:03:23.350 align:start position:0%
+gpus are trained on the order of tens of
+terabytes<00:03:20.440><c> of</c><00:03:20.599><c> data</c><00:03:21.280><c> total</c><00:03:22.280><c> our</c><00:03:22.519><c> single</c><00:03:22.879><c> GPU</c>
+
+00:03:23.350 --> 00:03:23.360 align:start position:0%
+terabytes of data total our single GPU
+ 
+
+00:03:23.360 --> 00:03:26.149 align:start position:0%
+terabytes of data total our single GPU
+demos<00:03:24.080><c> can</c><00:03:24.319><c> consume</c><00:03:24.920><c> over</c><00:03:25.200><c> a</c><00:03:25.480><c> terabyte</c><00:03:26.000><c> of</c>
+
+00:03:26.149 --> 00:03:26.159 align:start position:0%
+demos can consume over a terabyte of
+ 
+
+00:03:26.159 --> 00:03:28.910 align:start position:0%
+demos can consume over a terabyte of
+data<00:03:26.720><c> per</c><00:03:27.000><c> hour</c><00:03:28.000><c> and</c><00:03:28.120><c> this</c><00:03:28.239><c> is</c><00:03:28.360><c> not</c><00:03:28.519><c> read</c><00:03:28.720><c> from</c>
+
+00:03:28.910 --> 00:03:28.920 align:start position:0%
+data per hour and this is not read from
+ 
+
+00:03:28.920 --> 00:03:31.190 align:start position:0%
+data per hour and this is not read from
+disk<00:03:29.519><c> but</c><00:03:29.840><c> gathered</c><00:03:30.120><c> from</c><00:03:30.319><c> over</c><00:03:30.599><c> a</c><00:03:30.799><c> billion</c>
+
+00:03:31.190 --> 00:03:31.200 align:start position:0%
+disk but gathered from over a billion
+ 
+
+00:03:31.200 --> 00:03:33.509 align:start position:0%
+disk but gathered from over a billion
+interactions<00:03:32.200><c> with</c><00:03:32.400><c> hundreds</c><00:03:32.799><c> to</c><00:03:33.000><c> tens</c><00:03:33.239><c> of</c>
+
+00:03:33.509 --> 00:03:33.519 align:start position:0%
+interactions with hundreds to tens of
+ 
+
+00:03:33.519 --> 00:03:35.910 align:start position:0%
+interactions with hundreds to tens of
+thousands<00:03:33.920><c> of</c><00:03:34.080><c> parallel</c><00:03:34.920><c> simulations</c>
+
+00:03:35.910 --> 00:03:35.920 align:start position:0%
+thousands of parallel simulations
+ 
+
+00:03:35.920 --> 00:03:37.630 align:start position:0%
+thousands of parallel simulations
+nothing<00:03:36.239><c> else</c><00:03:36.560><c> matters</c><00:03:36.959><c> if</c><00:03:37.080><c> you</c><00:03:37.239><c> can't</c><00:03:37.439><c> get</c>
+
+00:03:37.630 --> 00:03:37.640 align:start position:0%
+nothing else matters if you can't get
+ 
+
+00:03:37.640 --> 00:03:39.990 align:start position:0%
+nothing else matters if you can't get
+that<00:03:37.920><c> data</c><00:03:38.599><c> fast</c><00:03:38.920><c> enough</c><00:03:39.680><c> if</c><00:03:39.799><c> your</c>
+
+00:03:39.990 --> 00:03:40.000 align:start position:0%
+that data fast enough if your
+ 
+
+00:03:40.000 --> 00:03:42.429 align:start position:0%
+that data fast enough if your
+vectorization<00:03:40.799><c> caps</c><00:03:41.120><c> out</c><00:03:41.360><c> at</c><00:03:41.560><c> 5,000</c><00:03:42.040><c> frames</c>
+
+00:03:42.429 --> 00:03:42.439 align:start position:0%
+vectorization caps out at 5,000 frames
+ 
+
+00:03:42.439 --> 00:03:44.149 align:start position:0%
+vectorization caps out at 5,000 frames
+per<00:03:42.599><c> second</c><00:03:43.080><c> your</c><00:03:43.200><c> training</c><00:03:43.599><c> caps</c><00:03:43.879><c> out</c><00:03:44.000><c> at</c>
+
+00:03:44.149 --> 00:03:44.159 align:start position:0%
+per second your training caps out at
+ 
+
+00:03:44.159 --> 00:03:47.149 align:start position:0%
+per second your training caps out at
+5,000<00:03:44.599><c> frames</c><00:03:45.000><c> per</c><00:03:45.360><c> second</c><00:03:46.360><c> optimizing</c><00:03:46.959><c> this</c>
+
+00:03:47.149 --> 00:03:47.159 align:start position:0%
+5,000 frames per second optimizing this
+ 
+
+00:03:47.159 --> 00:03:49.550 align:start position:0%
+5,000 frames per second optimizing this
+process<00:03:47.439><c> is</c><00:03:47.680><c> hard</c><00:03:48.519><c> because</c><00:03:48.840><c> vectorization</c>
+
+00:03:49.550 --> 00:03:49.560 align:start position:0%
+process is hard because vectorization
+ 
+
+00:03:49.560 --> 00:03:51.350 align:start position:0%
+process is hard because vectorization
+has<00:03:49.680><c> to</c><00:03:49.840><c> handle</c><00:03:50.360><c> a</c><00:03:50.519><c> ton</c><00:03:50.720><c> of</c><00:03:50.879><c> different</c><00:03:51.159><c> types</c>
+
+00:03:51.350 --> 00:03:51.360 align:start position:0%
+has to handle a ton of different types
+ 
+
+00:03:51.360 --> 00:03:53.589 align:start position:0%
+has to handle a ton of different types
+of<00:03:51.519><c> simulators</c><00:03:52.439><c> to</c><00:03:52.640><c> name</c><00:03:52.959><c> but</c><00:03:53.079><c> a</c><00:03:53.239><c> few</c>
+
+00:03:53.589 --> 00:03:53.599 align:start position:0%
+of simulators to name but a few
+ 
+
+00:03:53.599 --> 00:03:55.710 align:start position:0%
+of simulators to name but a few
+complications<00:03:54.599><c> some</c><00:03:54.879><c> en</c><00:03:55.079><c> very</c><00:03:55.439><c> some</c>
+
+00:03:55.710 --> 00:03:55.720 align:start position:0%
+complications some en very some
+ 
+
+00:03:55.720 --> 00:03:58.270 align:start position:0%
+complications some en very some
+environments<00:03:56.239><c> run</c><00:03:56.599><c> at</c><00:03:56.840><c> inconsistent</c><00:03:57.519><c> rates</c>
+
+00:03:58.270 --> 00:03:58.280 align:start position:0%
+environments run at inconsistent rates
+ 
+
+00:03:58.280 --> 00:03:59.910 align:start position:0%
+environments run at inconsistent rates
+some<00:03:58.599><c> have</c><00:03:58.840><c> high</c><00:03:59.000><c> bandwidth</c><00:03:59.400><c> requirements</c>
+
+00:03:59.910 --> 00:03:59.920 align:start position:0%
+some have high bandwidth requirements
+ 
+
+00:03:59.920 --> 00:04:01.670 align:start position:0%
+some have high bandwidth requirements
+ments<00:04:00.519><c> some</c><00:04:00.760><c> have</c><00:04:00.920><c> variable</c><00:04:01.280><c> numbers</c><00:04:01.519><c> of</c>
+
+00:04:01.670 --> 00:04:01.680 align:start position:0%
+ments some have variable numbers of
+ 
+
+00:04:01.680 --> 00:04:04.190 align:start position:0%
+ments some have variable numbers of
+agents<00:04:02.439><c> and</c><00:04:02.599><c> many</c><00:04:02.879><c> require</c><00:04:03.319><c> handling</c><00:04:03.879><c> highly</c>
+
+00:04:04.190 --> 00:04:04.200 align:start position:0%
+agents and many require handling highly
+ 
+
+00:04:04.200 --> 00:04:06.710 align:start position:0%
+agents and many require handling highly
+structured<00:04:04.760><c> data</c><00:04:05.720><c> I</c><00:04:05.879><c> rewrote</c><00:04:06.280><c> this</c><00:04:06.400><c> layer</c><00:04:06.640><c> of</c>
+
+00:04:06.710 --> 00:04:06.720 align:start position:0%
+structured data I rewrote this layer of
+ 
+
+00:04:06.720 --> 00:04:08.830 align:start position:0%
+structured data I rewrote this layer of
+the<00:04:06.840><c> RL</c><00:04:07.200><c> stack</c><00:04:07.480><c> from</c><00:04:07.599><c> the</c><00:04:07.760><c> ground</c><00:04:08.040><c> up</c><00:04:08.400><c> based</c><00:04:08.640><c> on</c>
+
+00:04:08.830 --> 00:04:08.840 align:start position:0%
+the RL stack from the ground up based on
+ 
+
+00:04:08.840 --> 00:04:10.750 align:start position:0%
+the RL stack from the ground up based on
+my<00:04:09.079><c> experience</c><00:04:09.560><c> developing</c><00:04:10.000><c> neural</c><00:04:10.319><c> MMO</c>
+
+00:04:10.750 --> 00:04:10.760 align:start position:0%
+my experience developing neural MMO
+ 
+
+00:04:10.760 --> 00:04:12.869 align:start position:0%
+my experience developing neural MMO
+throughout<00:04:11.079><c> my</c><00:04:11.360><c> PhD</c><00:04:12.360><c> puffer</c><00:04:12.680><c> lip</c>
+
+00:04:12.869 --> 00:04:12.879 align:start position:0%
+throughout my PhD puffer lip
+ 
+
+00:04:12.879 --> 00:04:14.550 align:start position:0%
+throughout my PhD puffer lip
+vectorization<00:04:13.640><c> can</c><00:04:13.840><c> handle</c><00:04:14.159><c> tens</c><00:04:14.400><c> of</c>
+
+00:04:14.550 --> 00:04:14.560 align:start position:0%
+vectorization can handle tens of
+ 
+
+00:04:14.560 --> 00:04:16.189 align:start position:0%
+vectorization can handle tens of
+gigabytes<00:04:15.000><c> of</c><00:04:15.120><c> data</c><00:04:15.360><c> per</c><00:04:15.519><c> second</c><00:04:15.959><c> with</c>
+
+00:04:16.189 --> 00:04:16.199 align:start position:0%
+gigabytes of data per second with
+ 
+
+00:04:16.199 --> 00:04:17.670 align:start position:0%
+gigabytes of data per second with
+virtually<00:04:16.720><c> zero</c><00:04:17.079><c> overhead</c><00:04:17.519><c> from</c>
+
+00:04:17.670 --> 00:04:17.680 align:start position:0%
+virtually zero overhead from
+ 
+
+00:04:17.680 --> 00:04:20.030 align:start position:0%
+virtually zero overhead from
+interprocess<00:04:18.600><c> communication</c><00:04:19.600><c> you</c><00:04:19.720><c> can</c><00:04:19.880><c> read</c>
+
+00:04:20.030 --> 00:04:20.040 align:start position:0%
+interprocess communication you can read
+ 
+
+00:04:20.040 --> 00:04:21.870 align:start position:0%
+interprocess communication you can read
+the<00:04:20.160><c> full</c><00:04:20.400><c> details</c><00:04:20.759><c> of</c><00:04:20.880><c> our</c><00:04:21.079><c> architecture</c><00:04:21.720><c> in</c>
+
+00:04:21.870 --> 00:04:21.880 align:start position:0%
+the full details of our architecture in
+ 
+
+00:04:21.880 --> 00:04:23.790 align:start position:0%
+the full details of our architecture in
+the<00:04:22.040><c> puffer</c><00:04:22.360><c> lib</c><00:04:22.600><c> white</c><00:04:22.800><c> paper</c><00:04:23.400><c> but</c><00:04:23.520><c> as</c><00:04:23.639><c> a</c>
+
+00:04:23.790 --> 00:04:23.800 align:start position:0%
+the puffer lib white paper but as a
+ 
+
+00:04:23.800 --> 00:04:26.189 align:start position:0%
+the puffer lib white paper but as a
+quick<00:04:23.960><c> summary</c><00:04:24.919><c> our</c><00:04:25.120><c> biggest</c><00:04:25.520><c> improvements</c>
+
+00:04:26.189 --> 00:04:26.199 align:start position:0%
+quick summary our biggest improvements
+ 
+
+00:04:26.199 --> 00:04:28.550 align:start position:0%
+quick summary our biggest improvements
+include<00:04:26.639><c> optimized</c><00:04:27.120><c> shared</c><00:04:27.400><c> memory</c><00:04:27.720><c> layout</c>
+
+00:04:28.550 --> 00:04:28.560 align:start position:0%
+include optimized shared memory layout
+ 
+
+00:04:28.560 --> 00:04:30.830 align:start position:0%
+include optimized shared memory layout
+asynchronous<00:04:29.160><c> buffering</c><00:04:29.960><c> custom</c><00:04:30.320><c> signaling</c>
+
+00:04:30.830 --> 00:04:30.840 align:start position:0%
+asynchronous buffering custom signaling
+ 
+
+00:04:30.840 --> 00:04:32.830 align:start position:0%
+asynchronous buffering custom signaling
+between<00:04:31.199><c> processes</c><00:04:32.120><c> and</c><00:04:32.360><c> multiple</c>
+
+00:04:32.830 --> 00:04:32.840 align:start position:0%
+between processes and multiple
+ 
+
+00:04:32.840 --> 00:04:34.830 align:start position:0%
+between processes and multiple
+strategies<00:04:33.400><c> based</c><00:04:33.639><c> on</c><00:04:33.800><c> an</c><00:04:33.960><c> automatic</c><00:04:34.520><c> profile</c>
+
+00:04:34.830 --> 00:04:34.840 align:start position:0%
+strategies based on an automatic profile
+ 
+
+00:04:34.840 --> 00:04:35.790 align:start position:0%
+strategies based on an automatic profile
+of<00:04:34.960><c> your</c>
+
+00:04:35.790 --> 00:04:35.800 align:start position:0%
+of your
+ 
+
+00:04:35.800 --> 00:04:38.550 align:start position:0%
+of your
+environment<00:04:36.800><c> in</c><00:04:36.919><c> more</c><00:04:37.199><c> practical</c><00:04:37.680><c> terms</c><00:04:38.440><c> if</c>
+
+00:04:38.550 --> 00:04:38.560 align:start position:0%
+environment in more practical terms if
+ 
+
+00:04:38.560 --> 00:04:41.070 align:start position:0%
+environment in more practical terms if
+your<00:04:38.720><c> environment</c><00:04:39.160><c> is</c><00:04:39.280><c> a</c><00:04:39.600><c> is</c><00:04:39.919><c> complex</c><00:04:40.759><c> puffer</c>
+
+00:04:41.070 --> 00:04:41.080 align:start position:0%
+your environment is a is complex puffer
+ 
+
+00:04:41.080 --> 00:04:42.830 align:start position:0%
+your environment is a is complex puffer
+lib<00:04:41.280><c> will</c><00:04:41.440><c> make</c><00:04:41.560><c> it</c><00:04:41.720><c> work</c><00:04:42.039><c> where</c><00:04:42.240><c> Alternatives</c>
+
+00:04:42.830 --> 00:04:42.840 align:start position:0%
+lib will make it work where Alternatives
+ 
+
+00:04:42.840 --> 00:04:45.390 align:start position:0%
+lib will make it work where Alternatives
+will<00:04:43.039><c> not</c><00:04:43.240><c> run</c><00:04:44.000><c> if</c><00:04:44.120><c> your</c><00:04:44.240><c> environment</c><00:04:44.639><c> is</c><00:04:44.759><c> slow</c>
+
+00:04:45.390 --> 00:04:45.400 align:start position:0%
+will not run if your environment is slow
+ 
+
+00:04:45.400 --> 00:04:46.909 align:start position:0%
+will not run if your environment is slow
+puffer<00:04:45.759><c> lib</c><00:04:45.960><c> will</c><00:04:46.080><c> make</c><00:04:46.199><c> it</c><00:04:46.400><c> faster</c><00:04:46.720><c> than</c>
+
+00:04:46.909 --> 00:04:46.919 align:start position:0%
+puffer lib will make it faster than
+ 
+
+00:04:46.919 --> 00:04:48.550 align:start position:0%
+puffer lib will make it faster than
+existing<00:04:47.280><c> Alternatives</c><00:04:48.199><c> and</c><00:04:48.320><c> if</c><00:04:48.440><c> your</c>
+
+00:04:48.550 --> 00:04:48.560 align:start position:0%
+existing Alternatives and if your
+ 
+
+00:04:48.560 --> 00:04:50.749 align:start position:0%
+existing Alternatives and if your
+environment<00:04:49.000><c> is</c><00:04:49.240><c> fast</c><00:04:49.800><c> puffer</c><00:04:50.120><c> lib</c><00:04:50.320><c> can</c><00:04:50.440><c> scale</c>
+
+00:04:50.749 --> 00:04:50.759 align:start position:0%
+environment is fast puffer lib can scale
+ 
+
+00:04:50.759 --> 00:04:52.510 align:start position:0%
+environment is fast puffer lib can scale
+linearly<00:04:51.360><c> where</c><00:04:51.600><c> existing</c><00:04:51.960><c> methods</c><00:04:52.280><c> are</c>
+
+00:04:52.510 --> 00:04:52.520 align:start position:0%
+linearly where existing methods are
+ 
+
+00:04:52.520 --> 00:04:54.590 align:start position:0%
+linearly where existing methods are
+often<00:04:52.800><c> slower</c><00:04:53.160><c> than</c><00:04:53.320><c> single</c>
+
+00:04:54.590 --> 00:04:54.600 align:start position:0%
+often slower than single
+ 
+
+00:04:54.600 --> 00:04:57.990 align:start position:0%
+often slower than single
+thread<00:04:55.600><c> level</c><00:04:55.960><c> six</c><00:04:56.320><c> is</c><00:04:56.680><c> compatibility</c><00:04:57.680><c> making</c>
+
+00:04:57.990 --> 00:04:58.000 align:start position:0%
+thread level six is compatibility making
+ 
+
+00:04:58.000 --> 00:05:00.350 align:start position:0%
+thread level six is compatibility making
+RL<00:04:58.400><c> work</c><00:04:58.720><c> with</c><00:04:58.960><c> tons</c><00:04:59.240><c> of</c><00:04:59.400><c> different</c><00:04:59.919><c> types</c><00:05:00.160><c> of</c>
+
+00:05:00.350 --> 00:05:00.360 align:start position:0%
+RL work with tons of different types of
+ 
+
+00:05:00.360 --> 00:05:03.029 align:start position:0%
+RL work with tons of different types of
+simulators<00:05:01.360><c> until</c><00:05:01.720><c> just</c><00:05:01.840><c> a</c><00:05:01.960><c> few</c><00:05:02.120><c> months</c><00:05:02.440><c> ago</c>
+
+00:05:03.029 --> 00:05:03.039 align:start position:0%
+simulators until just a few months ago
+ 
+
+00:05:03.039 --> 00:05:04.510 align:start position:0%
+simulators until just a few months ago
+this<00:05:03.160><c> was</c><00:05:03.320><c> the</c><00:05:03.520><c> biggest</c><00:05:03.840><c> bottleneck</c><00:05:04.360><c> in</c>
+
+00:05:04.510 --> 00:05:04.520 align:start position:0%
+this was the biggest bottleneck in
+ 
+
+00:05:04.520 --> 00:05:06.230 align:start position:0%
+this was the biggest bottleneck in
+pushing<00:05:04.880><c> reinforcement</c><00:05:05.479><c> learning</c><00:05:05.800><c> to</c><00:05:05.960><c> work</c>
+
+00:05:06.230 --> 00:05:06.240 align:start position:0%
+pushing reinforcement learning to work
+ 
+
+00:05:06.240 --> 00:05:08.350 align:start position:0%
+pushing reinforcement learning to work
+on<00:05:06.400><c> more</c><00:05:06.680><c> interesting</c><00:05:07.240><c> problems</c><00:05:08.039><c> and</c><00:05:08.160><c> it</c><00:05:08.240><c> was</c>
+
+00:05:08.350 --> 00:05:08.360 align:start position:0%
+on more interesting problems and it was
+ 
+
+00:05:08.360 --> 00:05:10.070 align:start position:0%
+on more interesting problems and it was
+the<00:05:08.479><c> bane</c><00:05:08.759><c> of</c><00:05:08.919><c> my</c><00:05:09.120><c> existence</c><00:05:09.639><c> developing</c>
+
+00:05:10.070 --> 00:05:10.080 align:start position:0%
+the bane of my existence developing
+ 
+
+00:05:10.080 --> 00:05:12.870 align:start position:0%
+the bane of my existence developing
+neural<00:05:10.400><c> MMO</c><00:05:10.880><c> during</c><00:05:11.120><c> my</c><00:05:11.320><c> PhD</c><00:05:12.199><c> I</c><00:05:12.280><c> saw</c><00:05:12.600><c> many</c>
+
+00:05:12.870 --> 00:05:12.880 align:start position:0%
+neural MMO during my PhD I saw many
+ 
+
+00:05:12.880 --> 00:05:15.670 align:start position:0%
+neural MMO during my PhD I saw many
+amazing<00:05:13.199><c> RL</c><00:05:13.680><c> projects</c><00:05:14.039><c> fail</c><00:05:14.400><c> because</c><00:05:14.600><c> of</c><00:05:14.759><c> it</c>
+
+00:05:15.670 --> 00:05:15.680 align:start position:0%
+amazing RL projects fail because of it
+ 
+
+00:05:15.680 --> 00:05:17.950 align:start position:0%
+amazing RL projects fail because of it
+there<00:05:15.800><c> was</c><00:05:16.039><c> just</c><00:05:16.360><c> no</c><00:05:16.880><c> efficient</c><00:05:17.360><c> method</c><00:05:17.720><c> for</c>
+
+00:05:17.950 --> 00:05:17.960 align:start position:0%
+there was just no efficient method for
+ 
+
+00:05:17.960 --> 00:05:19.790 align:start position:0%
+there was just no efficient method for
+getting<00:05:18.199><c> structur</c><00:05:18.759><c> data</c><00:05:19.120><c> from</c><00:05:19.360><c> complex</c>
+
+00:05:19.790 --> 00:05:19.800 align:start position:0%
+getting structur data from complex
+ 
+
+00:05:19.800 --> 00:05:21.909 align:start position:0%
+getting structur data from complex
+simulators<00:05:20.600><c> into</c><00:05:20.919><c> standard</c><00:05:21.240><c> learning</c>
+
+00:05:21.909 --> 00:05:21.919 align:start position:0%
+simulators into standard learning
+ 
+
+00:05:21.919 --> 00:05:24.110 align:start position:0%
+simulators into standard learning
+implementations<00:05:22.919><c> the</c><00:05:23.080><c> solution</c><00:05:23.479><c> was</c><00:05:23.800><c> so</c>
+
+00:05:24.110 --> 00:05:24.120 align:start position:0%
+implementations the solution was so
+ 
+
+00:05:24.120 --> 00:05:25.909 align:start position:0%
+implementations the solution was so
+obvious<00:05:24.479><c> in</c><00:05:24.680><c> retrospect</c><00:05:25.520><c> but</c><00:05:25.639><c> I</c><00:05:25.759><c> can</c>
+
+00:05:25.909 --> 00:05:25.919 align:start position:0%
+obvious in retrospect but I can
+ 
+
+00:05:25.919 --> 00:05:27.510 align:start position:0%
+obvious in retrospect but I can
+confidently<00:05:26.400><c> say</c><00:05:26.560><c> it</c><00:05:26.639><c> is</c><00:05:26.759><c> unique</c><00:05:27.039><c> to</c><00:05:27.199><c> puffer</c>
+
+00:05:27.510 --> 00:05:27.520 align:start position:0%
+confidently say it is unique to puffer
+ 
+
+00:05:27.520 --> 00:05:29.230 align:start position:0%
+confidently say it is unique to puffer
+lip<00:05:28.080><c> because</c><00:05:28.280><c> if</c><00:05:28.440><c> anybody</c><00:05:28.759><c> had</c><00:05:28.880><c> come</c><00:05:29.039><c> up</c><00:05:29.160><c> with</c>
+
+00:05:29.230 --> 00:05:29.240 align:start position:0%
+lip because if anybody had come up with
+ 
+
+00:05:29.240 --> 00:05:31.110 align:start position:0%
+lip because if anybody had come up with
+a<00:05:29.360><c> general</c><00:05:29.880><c> formulation</c><00:05:30.639><c> it</c><00:05:30.759><c> would</c><00:05:30.919><c> be</c>
+
+00:05:31.110 --> 00:05:31.120 align:start position:0%
+a general formulation it would be
+ 
+
+00:05:31.120 --> 00:05:33.830 align:start position:0%
+a general formulation it would be
+everywhere<00:05:31.560><c> by</c><00:05:31.759><c> now</c><00:05:32.759><c> puffer</c><00:05:33.120><c> lib</c><00:05:33.360><c> packs</c><00:05:33.639><c> up</c>
+
+00:05:33.830 --> 00:05:33.840 align:start position:0%
+everywhere by now puffer lib packs up
+ 
+
+00:05:33.840 --> 00:05:35.469 align:start position:0%
+everywhere by now puffer lib packs up
+all<00:05:34.000><c> the</c><00:05:34.120><c> data</c><00:05:34.400><c> from</c><00:05:34.560><c> your</c><00:05:34.759><c> environment</c><00:05:35.240><c> into</c>
+
+00:05:35.469 --> 00:05:35.479 align:start position:0%
+all the data from your environment into
+ 
+
+00:05:35.479 --> 00:05:38.150 align:start position:0%
+all the data from your environment into
+flat<00:05:35.880><c> buffers</c><00:05:36.880><c> then</c><00:05:37.520><c> right</c><00:05:37.800><c> before</c><00:05:38.000><c> your</c>
+
+00:05:38.150 --> 00:05:38.160 align:start position:0%
+flat buffers then right before your
+ 
+
+00:05:38.160 --> 00:05:39.629 align:start position:0%
+flat buffers then right before your
+model<00:05:38.440><c> needs</c><00:05:38.680><c> to</c><00:05:38.800><c> know</c><00:05:39.000><c> the</c><00:05:39.160><c> structure</c><00:05:39.479><c> of</c>
+
+00:05:39.629 --> 00:05:39.639 align:start position:0%
+model needs to know the structure of
+ 
+
+00:05:39.639 --> 00:05:43.590 align:start position:0%
+model needs to know the structure of
+that<00:05:39.800><c> data</c><00:05:40.400><c> it</c><00:05:40.560><c> unpacks</c><00:05:41.039><c> it</c><00:05:41.800><c> simple</c><00:05:42.600><c> right</c>
+
+00:05:43.590 --> 00:05:43.600 align:start position:0%
+that data it unpacks it simple right
+ 
+
+00:05:43.600 --> 00:05:45.270 align:start position:0%
+that data it unpacks it simple right
+well<00:05:43.759><c> this</c><00:05:43.880><c> means</c><00:05:44.120><c> that</c><00:05:44.240><c> the</c><00:05:44.360><c> whole</c>
+
+00:05:45.270 --> 00:05:45.280 align:start position:0%
+well this means that the whole
+ 
+
+00:05:45.280 --> 00:05:47.350 align:start position:0%
+well this means that the whole
+vectorization<00:05:46.280><c> library</c><00:05:46.720><c> and</c><00:05:46.880><c> algorithm</c>
+
+00:05:47.350 --> 00:05:47.360 align:start position:0%
+vectorization library and algorithm
+ 
+
+00:05:47.360 --> 00:05:48.830 align:start position:0%
+vectorization library and algorithm
+layers<00:05:47.759><c> do</c><00:05:47.919><c> not</c><00:05:48.039><c> need</c><00:05:48.199><c> to</c><00:05:48.360><c> care</c><00:05:48.600><c> what</c><00:05:48.680><c> your</c>
+
+00:05:48.830 --> 00:05:48.840 align:start position:0%
+layers do not need to care what your
+ 
+
+00:05:48.840 --> 00:05:50.909 align:start position:0%
+layers do not need to care what your
+data<00:05:49.080><c> looks</c><00:05:49.360><c> like</c><00:05:49.880><c> your</c><00:05:50.080><c> simulator</c><00:05:50.560><c> can</c><00:05:50.720><c> be</c>
+
+00:05:50.909 --> 00:05:50.919 align:start position:0%
+data looks like your simulator can be
+ 
+
+00:05:50.919 --> 00:05:52.830 align:start position:0%
+data looks like your simulator can be
+anything<00:05:51.520><c> and</c><00:05:51.639><c> you</c><00:05:51.720><c> can</c><00:05:51.880><c> eliminate</c><00:05:52.440><c> thousands</c>
+
+00:05:52.830 --> 00:05:52.840 align:start position:0%
+anything and you can eliminate thousands
+ 
+
+00:05:52.840 --> 00:05:54.629 align:start position:0%
+anything and you can eliminate thousands
+of<00:05:53.000><c> lines</c><00:05:53.240><c> of</c><00:05:53.400><c> inefficient</c><00:05:53.919><c> structure</c><00:05:54.360><c> data</c>
+
+00:05:54.629 --> 00:05:54.639 align:start position:0%
+of lines of inefficient structure data
+ 
+
+00:05:54.639 --> 00:05:56.629 align:start position:0%
+of lines of inefficient structure data
+processing<00:05:55.120><c> code</c><00:05:55.600><c> from</c><00:05:55.759><c> your</c><00:05:55.880><c> RL</c>
+
+00:05:56.629 --> 00:05:56.639 align:start position:0%
+processing code from your RL
+ 
+
+00:05:56.639 --> 00:05:58.469 align:start position:0%
+processing code from your RL
+infrastructure<00:05:57.639><c> instead</c><00:05:57.880><c> of</c><00:05:58.039><c> keeping</c><00:05:58.319><c> this</c>
+
+00:05:58.469 --> 00:05:58.479 align:start position:0%
+infrastructure instead of keeping this
+ 
+
+00:05:58.479 --> 00:06:00.110 align:start position:0%
+infrastructure instead of keeping this
+technique<00:05:58.800><c> a</c><00:05:58.960><c> secret</c><00:05:59.639><c> I've</c><00:05:59.800><c> made</c><00:05:59.960><c> it</c>
+
+00:06:00.110 --> 00:06:00.120 align:start position:0%
+technique a secret I've made it
+ 
+
+00:06:00.120 --> 00:06:02.150 align:start position:0%
+technique a secret I've made it
+available<00:06:00.479><c> for</c><00:06:00.639><c> free</c><00:06:00.919><c> in</c><00:06:01.120><c> puffer</c>
+
+00:06:02.150 --> 00:06:02.160 align:start position:0%
+available for free in puffer
+ 
+
+00:06:02.160 --> 00:06:04.909 align:start position:0%
+available for free in puffer
+lib<00:06:03.160><c> we're</c><00:06:03.319><c> nearing</c><00:06:03.639><c> the</c><00:06:03.759><c> Bottom</c><00:06:04.120><c> now</c><00:06:04.800><c> these</c>
+
+00:06:04.909 --> 00:06:04.919 align:start position:0%
+lib we're nearing the Bottom now these
+ 
+
+00:06:04.919 --> 00:06:07.390 align:start position:0%
+lib we're nearing the Bottom now these
+are<00:06:05.240><c> the</c><00:06:05.759><c> esoteric</c><00:06:06.479><c> depths</c><00:06:06.960><c> where</c>
+
+00:06:07.390 --> 00:06:07.400 align:start position:0%
+are the esoteric depths where
+ 
+
+00:06:07.400 --> 00:06:10.230 align:start position:0%
+are the esoteric depths where
+discoveries<00:06:07.800><c> are</c><00:06:08.199><c> made</c><00:06:09.199><c> level</c><00:06:09.520><c> seven</c><00:06:09.960><c> is</c>
+
+00:06:10.230 --> 00:06:10.240 align:start position:0%
+discoveries are made level seven is
+ 
+
+00:06:10.240 --> 00:06:12.670 align:start position:0%
+discoveries are made level seven is
+rappers<00:06:11.240><c> code</c><00:06:11.560><c> that</c><00:06:11.720><c> runs</c><00:06:12.080><c> on</c><00:06:12.280><c> top</c><00:06:12.479><c> of</c>
+
+00:06:12.670 --> 00:06:12.680 align:start position:0%
+rappers code that runs on top of
+ 
+
+00:06:12.680 --> 00:06:14.950 align:start position:0%
+rappers code that runs on top of
+existing<00:06:13.400><c> environments</c><00:06:14.000><c> to</c><00:06:14.199><c> modify</c><00:06:14.599><c> how</c><00:06:14.759><c> they</c>
+
+00:06:14.950 --> 00:06:14.960 align:start position:0%
+existing environments to modify how they
+ 
+
+00:06:14.960 --> 00:06:17.950 align:start position:0%
+existing environments to modify how they
+behave<00:06:15.919><c> wrappers</c><00:06:16.319><c> are</c><00:06:16.520><c> pervasive</c><00:06:17.479><c> virtually</c>
+
+00:06:17.950 --> 00:06:17.960 align:start position:0%
+behave wrappers are pervasive virtually
+ 
+
+00:06:17.960 --> 00:06:19.629 align:start position:0%
+behave wrappers are pervasive virtually
+all<00:06:18.280><c> commonly</c><00:06:18.680><c> used</c><00:06:18.960><c> environments</c><00:06:19.479><c> have</c>
+
+00:06:19.629 --> 00:06:19.639 align:start position:0%
+all commonly used environments have
+ 
+
+00:06:19.639 --> 00:06:21.629 align:start position:0%
+all commonly used environments have
+several<00:06:19.960><c> post-processing</c><00:06:20.759><c> steps</c><00:06:21.319><c> such</c><00:06:21.479><c> as</c>
+
+00:06:21.629 --> 00:06:21.639 align:start position:0%
+several post-processing steps such as
+ 
+
+00:06:21.639 --> 00:06:24.550 align:start position:0%
+several post-processing steps such as
+gray<00:06:22.000><c> staling</c><00:06:22.680><c> or</c><00:06:22.880><c> resizing</c><00:06:23.400><c> frames</c><00:06:24.120><c> stacking</c>
+
+00:06:24.550 --> 00:06:24.560 align:start position:0%
+gray staling or resizing frames stacking
+ 
+
+00:06:24.560 --> 00:06:26.670 align:start position:0%
+gray staling or resizing frames stacking
+observations<00:06:25.319><c> together</c><00:06:25.919><c> repeating</c><00:06:26.360><c> actions</c>
+
+00:06:26.670 --> 00:06:26.680 align:start position:0%
+observations together repeating actions
+ 
+
+00:06:26.680 --> 00:06:28.629 align:start position:0%
+observations together repeating actions
+for<00:06:26.840><c> multiple</c><00:06:27.240><c> frames</c><00:06:27.759><c> and</c><00:06:28.000><c> adding</c><00:06:28.319><c> extra</c>
+
+00:06:28.629 --> 00:06:28.639 align:start position:0%
+for multiple frames and adding extra
+ 
+
+00:06:28.639 --> 00:06:30.510 align:start position:0%
+for multiple frames and adding extra
+logging<00:06:29.639><c> and</c><00:06:29.800><c> they're</c><00:06:30.000><c> almost</c><00:06:30.280><c> all</c>
+
+00:06:30.510 --> 00:06:30.520 align:start position:0%
+logging and they're almost all
+ 
+
+00:06:30.520 --> 00:06:33.629 align:start position:0%
+logging and they're almost all
+unoptimized<00:06:31.759><c> python</c><00:06:32.759><c> this</c><00:06:32.840><c> is</c><00:06:32.960><c> the</c><00:06:33.120><c> resize</c>
+
+00:06:33.629 --> 00:06:33.639 align:start position:0%
+unoptimized python this is the resize
+ 
+
+00:06:33.639 --> 00:06:35.469 align:start position:0%
+unoptimized python this is the resize
+operation<00:06:34.160><c> used</c><00:06:34.479><c> in</c><00:06:34.599><c> the</c><00:06:34.720><c> most</c><00:06:34.919><c> common</c><00:06:35.199><c> rapper</c>
+
+00:06:35.469 --> 00:06:35.479 align:start position:0%
+operation used in the most common rapper
+ 
+
+00:06:35.479 --> 00:06:38.469 align:start position:0%
+operation used in the most common rapper
+for<00:06:35.960><c> Atari</c><00:06:36.960><c> this</c><00:06:37.120><c> one</c><00:06:37.319><c> little</c><00:06:37.639><c> interpolation</c>
+
+00:06:38.469 --> 00:06:38.479 align:start position:0%
+for Atari this one little interpolation
+ 
+
+00:06:38.479 --> 00:06:39.909 align:start position:0%
+for Atari this one little interpolation
+right<00:06:38.680><c> here</c><00:06:39.120><c> probably</c><00:06:39.400><c> accounts</c><00:06:39.680><c> for</c><00:06:39.800><c> a</c>
+
+00:06:39.909 --> 00:06:39.919 align:start position:0%
+right here probably accounts for a
+ 
+
+00:06:39.919 --> 00:06:41.830 align:start position:0%
+right here probably accounts for a
+quarter<00:06:40.240><c> of</c><00:06:40.319><c> the</c><00:06:40.440><c> CPU</c><00:06:40.960><c> time</c><00:06:41.240><c> allocated</c><00:06:41.680><c> to</c>
+
+00:06:41.830 --> 00:06:41.840 align:start position:0%
+quarter of the CPU time allocated to
+ 
+
+00:06:41.840 --> 00:06:43.469 align:start position:0%
+quarter of the CPU time allocated to
+reinforcement<00:06:42.479><c> learning</c><00:06:42.919><c> in</c><00:06:43.080><c> the</c><00:06:43.240><c> last</c>
+
+00:06:43.469 --> 00:06:43.479 align:start position:0%
+reinforcement learning in the last
+ 
+
+00:06:43.479 --> 00:06:46.150 align:start position:0%
+reinforcement learning in the last
+decade<00:06:44.400><c> I</c><00:06:44.560><c> rewrote</c><00:06:44.919><c> it</c><00:06:45.000><c> in</c><00:06:45.120><c> one</c><00:06:45.319><c> line</c><00:06:46.000><c> and</c>
+
+00:06:46.150 --> 00:06:46.160 align:start position:0%
+decade I rewrote it in one line and
+ 
+
+00:06:46.160 --> 00:06:47.870 align:start position:0%
+decade I rewrote it in one line and
+immediately<00:06:46.680><c> doubled</c><00:06:47.120><c> the</c><00:06:47.240><c> overall</c><00:06:47.599><c> training</c>
+
+00:06:47.870 --> 00:06:47.880 align:start position:0%
+immediately doubled the overall training
+ 
+
+00:06:47.880 --> 00:06:50.550 align:start position:0%
+immediately doubled the overall training
+speed<00:06:48.120><c> of</c><00:06:48.240><c> Atari</c><00:06:49.000><c> with</c><00:06:49.319><c> no</c><00:06:49.560><c> performance</c>
+
+00:06:50.550 --> 00:06:50.560 align:start position:0%
+speed of Atari with no performance
+ 
+
+00:06:50.560 --> 00:06:53.029 align:start position:0%
+speed of Atari with no performance
+degradation<00:06:51.560><c> shortly</c><00:06:51.960><c> thereafter</c><00:06:52.720><c> I</c><00:06:52.840><c> found</c>
+
+00:06:53.029 --> 00:06:53.039 align:start position:0%
+degradation shortly thereafter I found
+ 
+
+00:06:53.039 --> 00:06:54.790 align:start position:0%
+degradation shortly thereafter I found
+an<00:06:53.199><c> error</c><00:06:53.560><c> in</c><00:06:53.680><c> another</c><00:06:53.919><c> standard</c><00:06:54.280><c> rapper</c><00:06:54.639><c> that</c>
+
+00:06:54.790 --> 00:06:54.800 align:start position:0%
+an error in another standard rapper that
+ 
+
+00:06:54.800 --> 00:06:56.469 align:start position:0%
+an error in another standard rapper that
+prevented<00:06:55.160><c> Agents</c><00:06:55.479><c> from</c><00:06:55.599><c> learning</c><00:06:56.080><c> multiple</c>
+
+00:06:56.469 --> 00:06:56.479 align:start position:0%
+prevented Agents from learning multiple
+ 
+
+00:06:56.479 --> 00:06:59.070 align:start position:0%
+prevented Agents from learning multiple
+different<00:06:57.039><c> games</c><00:06:58.039><c> the</c><00:06:58.160><c> same</c><00:06:58.400><c> day</c><00:06:58.560><c> I</c><00:06:58.680><c> removed</c>
+
+00:06:59.070 --> 00:06:59.080 align:start position:0%
+different games the same day I removed
+ 
+
+00:06:59.080 --> 00:07:00.550 align:start position:0%
+different games the same day I removed
+the<00:06:59.160><c> rest</c><00:06:59.319><c> of</c><00:06:59.599><c> the</c><00:06:59.720><c> python</c><00:07:00.000><c> wrappers</c><00:07:00.400><c> and</c>
+
+00:07:00.550 --> 00:07:00.560 align:start position:0%
+the rest of the python wrappers and
+ 
+
+00:07:00.560 --> 00:07:03.189 align:start position:0%
+the rest of the python wrappers and
+replace<00:07:00.919><c> them</c><00:07:01.039><c> with</c><00:07:01.440><c> C++</c><00:07:02.440><c> which</c><00:07:02.639><c> ironically</c>
+
+00:07:03.189 --> 00:07:03.199 align:start position:0%
+replace them with C++ which ironically
+ 
+
+00:07:03.199 --> 00:07:04.950 align:start position:0%
+replace them with C++ which ironically
+enough<00:07:03.599><c> was</c><00:07:03.840><c> already</c><00:07:04.160><c> available</c><00:07:04.560><c> in</c><00:07:04.639><c> the</c><00:07:04.759><c> Bas</c>
+
+00:07:04.950 --> 00:07:04.960 align:start position:0%
+enough was already available in the Bas
+ 
+
+00:07:04.960 --> 00:07:07.990 align:start position:0%
+enough was already available in the Bas
+Atari<00:07:05.759><c> package</c><00:07:06.759><c> other</c><00:07:07.000><c> common</c><00:07:07.280><c> errors</c><00:07:07.639><c> I</c><00:07:07.759><c> see</c>
+
+00:07:07.990 --> 00:07:08.000 align:start position:0%
+Atari package other common errors I see
+ 
+
+00:07:08.000 --> 00:07:09.589 align:start position:0%
+Atari package other common errors I see
+include<00:07:08.360><c> rendering</c><00:07:08.759><c> the</c><00:07:08.879><c> environment</c><00:07:09.319><c> at</c><00:07:09.440><c> a</c>
+
+00:07:09.589 --> 00:07:09.599 align:start position:0%
+include rendering the environment at a
+ 
+
+00:07:09.599 --> 00:07:11.589 align:start position:0%
+include rendering the environment at a
+high<00:07:09.800><c> resolution</c><00:07:10.319><c> and</c><00:07:10.440><c> then</c><00:07:10.599><c> downscaling</c>
+
+00:07:11.589 --> 00:07:11.599 align:start position:0%
+high resolution and then downscaling
+ 
+
+00:07:11.599 --> 00:07:13.150 align:start position:0%
+high resolution and then downscaling
+instead<00:07:11.879><c> of</c><00:07:11.960><c> rendering</c><00:07:12.319><c> at</c><00:07:12.400><c> a</c><00:07:12.520><c> low</c><00:07:12.720><c> resolution</c>
+
+00:07:13.150 --> 00:07:13.160 align:start position:0%
+instead of rendering at a low resolution
+ 
+
+00:07:13.160 --> 00:07:14.950 align:start position:0%
+instead of rendering at a low resolution
+to<00:07:13.319><c> begin</c><00:07:13.599><c> with</c><00:07:14.240><c> I</c><00:07:14.360><c> found</c><00:07:14.599><c> this</c><00:07:14.720><c> in</c><00:07:14.840><c> the</c>
+
+00:07:14.950 --> 00:07:14.960 align:start position:0%
+to begin with I found this in the
+ 
+
+00:07:14.960 --> 00:07:16.629 align:start position:0%
+to begin with I found this in the
+standard<00:07:15.240><c> Doom</c><00:07:15.639><c> package</c><00:07:15.919><c> and</c><00:07:16.039><c> got</c><00:07:16.199><c> a</c><00:07:16.319><c> several</c>
+
+00:07:16.629 --> 00:07:16.639 align:start position:0%
+standard Doom package and got a several
+ 
+
+00:07:16.639 --> 00:07:19.510 align:start position:0%
+standard Doom package and got a several
+fold<00:07:16.919><c> speed</c><00:07:17.160><c> up</c><00:07:17.680><c> just</c><00:07:18.000><c> by</c><00:07:18.479><c> enabling</c><00:07:18.919><c> an</c><00:07:19.080><c> unused</c>
+
+00:07:19.510 --> 00:07:19.520 align:start position:0%
+fold speed up just by enabling an unused
+ 
+
+00:07:19.520 --> 00:07:21.510 align:start position:0%
+fold speed up just by enabling an unused
+resolution<00:07:20.039><c> option</c><00:07:20.360><c> that</c><00:07:20.479><c> was</c><00:07:20.599><c> in</c><00:07:20.759><c> an</c><00:07:21.039><c> obscure</c>
+
+00:07:21.510 --> 00:07:21.520 align:start position:0%
+resolution option that was in an obscure
+ 
+
+00:07:21.520 --> 00:07:24.029 align:start position:0%
+resolution option that was in an obscure
+config<00:07:21.960><c> file</c><00:07:22.840><c> for</c><00:07:23.039><c> ultra</c><00:07:23.440><c> high</c><00:07:23.599><c> performance</c>
+
+00:07:24.029 --> 00:07:24.039 align:start position:0%
+config file for ultra high performance
+ 
+
+00:07:24.039 --> 00:07:26.189 align:start position:0%
+config file for ultra high performance
+environments<00:07:24.800><c> the</c><00:07:24.960><c> standard</c><00:07:25.280><c> rla</c><00:07:25.599><c> apis</c>
+
+00:07:26.189 --> 00:07:26.199 align:start position:0%
+environments the standard rla apis
+ 
+
+00:07:26.199 --> 00:07:27.629 align:start position:0%
+environments the standard rla apis
+provided<00:07:26.560><c> by</c><00:07:26.680><c> Jim</c><00:07:26.840><c> and</c><00:07:27.000><c> petting</c><00:07:27.319><c> zoo</c>
+
+00:07:27.629 --> 00:07:27.639 align:start position:0%
+provided by Jim and petting zoo
+ 
+
+00:07:27.639 --> 00:07:29.790 align:start position:0%
+provided by Jim and petting zoo
+themselves<00:07:27.879><c> are</c><00:07:28.080><c> too</c><00:07:28.240><c> slow</c><00:07:28.919><c> because</c><00:07:29.120><c> they</c>
+
+00:07:29.790 --> 00:07:29.800 align:start position:0%
+themselves are too slow because they
+ 
+
+00:07:29.800 --> 00:07:31.150 align:start position:0%
+themselves are too slow because they
+they<00:07:29.919><c> require</c><00:07:30.319><c> processing</c><00:07:30.800><c> python</c>
+
+00:07:31.150 --> 00:07:31.160 align:start position:0%
+they require processing python
+ 
+
+00:07:31.160 --> 00:07:33.029 align:start position:0%
+they require processing python
+dictionaries<00:07:32.039><c> though</c><00:07:32.360><c> this</c><00:07:32.520><c> really</c><00:07:32.759><c> only</c>
+
+00:07:33.029 --> 00:07:33.039 align:start position:0%
+dictionaries though this really only
+ 
+
+00:07:33.039 --> 00:07:35.029 align:start position:0%
+dictionaries though this really only
+becomes<00:07:33.319><c> a</c><00:07:33.479><c> concern</c><00:07:33.919><c> above</c><00:07:34.120><c> a</c><00:07:34.280><c> million</c><00:07:34.680><c> steps</c>
+
+00:07:35.029 --> 00:07:35.039 align:start position:0%
+becomes a concern above a million steps
+ 
+
+00:07:35.039 --> 00:07:38.309 align:start position:0%
+becomes a concern above a million steps
+per<00:07:35.560><c> second</c><00:07:36.560><c> speaking</c><00:07:36.919><c> of</c><00:07:37.120><c> which</c><00:07:37.759><c> level</c><00:07:38.039><c> eight</c>
+
+00:07:38.309 --> 00:07:38.319 align:start position:0%
+per second speaking of which level eight
+ 
+
+00:07:38.319 --> 00:07:40.350 align:start position:0%
+per second speaking of which level eight
+is<00:07:38.520><c> environments</c><00:07:39.440><c> the</c><00:07:39.599><c> set</c><00:07:39.759><c> of</c><00:07:39.960><c> existing</c>
+
+00:07:40.350 --> 00:07:40.360 align:start position:0%
+is environments the set of existing
+ 
+
+00:07:40.360 --> 00:07:42.909 align:start position:0%
+is environments the set of existing
+simulations<00:07:41.160><c> available</c><00:07:42.160><c> there</c><00:07:42.280><c> are</c><00:07:42.479><c> tons</c><00:07:42.720><c> of</c>
+
+00:07:42.909 --> 00:07:42.919 align:start position:0%
+simulations available there are tons of
+ 
+
+00:07:42.919 --> 00:07:44.710 align:start position:0%
+simulations available there are tons of
+interesting<00:07:43.280><c> RL</c><00:07:43.720><c> environments</c><00:07:44.319><c> but</c><00:07:44.440><c> few</c><00:07:44.639><c> of</c>
+
+00:07:44.710 --> 00:07:44.720 align:start position:0%
+interesting RL environments but few of
+ 
+
+00:07:44.720 --> 00:07:47.430 align:start position:0%
+interesting RL environments but few of
+them<00:07:44.879><c> are</c><00:07:45.120><c> fast</c><00:07:45.879><c> in</c><00:07:46.080><c> many</c><00:07:46.400><c> cases</c><00:07:46.919><c> I</c><00:07:47.039><c> question</c>
+
+00:07:47.430 --> 00:07:47.440 align:start position:0%
+them are fast in many cases I question
+ 
+
+00:07:47.440 --> 00:07:49.309 align:start position:0%
+them are fast in many cases I question
+how<00:07:47.560><c> it</c><00:07:47.680><c> is</c><00:07:47.879><c> even</c><00:07:48.280><c> possible</c><00:07:48.680><c> for</c><00:07:48.840><c> them</c><00:07:49.000><c> to</c><00:07:49.120><c> be</c>
+
+00:07:49.309 --> 00:07:49.319 align:start position:0%
+how it is even possible for them to be
+ 
+
+00:07:49.319 --> 00:07:51.670 align:start position:0%
+how it is even possible for them to be
+this<00:07:49.479><c> slow</c><00:07:50.479><c> here's</c><00:07:50.720><c> the</c><00:07:50.879><c> popular</c><00:07:51.240><c> crafter</c>
+
+00:07:51.670 --> 00:07:51.680 align:start position:0%
+this slow here's the popular crafter
+ 
+
+00:07:51.680 --> 00:07:53.749 align:start position:0%
+this slow here's the popular crafter
+environment<00:07:52.400><c> designed</c><00:07:52.759><c> in</c><00:07:52.879><c> part</c><00:07:53.080><c> to</c><00:07:53.240><c> reduce</c>
+
+00:07:53.749 --> 00:07:53.759 align:start position:0%
+environment designed in part to reduce
+ 
+
+00:07:53.759 --> 00:07:57.189 align:start position:0%
+environment designed in part to reduce
+computational<00:07:54.400><c> requirements</c><00:07:55.360><c> it</c><00:07:55.520><c> runs</c><00:07:56.000><c> at</c>
+
+00:07:57.189 --> 00:07:57.199 align:start position:0%
+computational requirements it runs at
+ 
+
+00:07:57.199 --> 00:08:00.029 align:start position:0%
+computational requirements it runs at
+320<00:07:58.199><c> steps</c><00:07:58.599><c> per</c><00:07:58.800><c> second</c><00:07:59.520><c> on</c><00:07:59.599><c> a</c><00:07:59.720><c> high-end</c>
+
+00:08:00.029 --> 00:08:00.039 align:start position:0%
+320 steps per second on a high-end
+ 
+
+00:08:00.039 --> 00:08:01.950 align:start position:0%
+320 steps per second on a high-end
+desktop<00:08:00.960><c> and</c><00:08:01.080><c> it</c><00:08:01.199><c> also</c><00:08:01.599><c> receives</c><00:08:01.800><c> no</c>
+
+00:08:01.950 --> 00:08:01.960 align:start position:0%
+desktop and it also receives no
+ 
+
+00:08:01.960 --> 00:08:03.670 align:start position:0%
+desktop and it also receives no
+noticeable<00:08:02.560><c> acceleration</c><00:08:03.159><c> with</c><00:08:03.319><c> standard</c>
+
+00:08:03.670 --> 00:08:03.680 align:start position:0%
+noticeable acceleration with standard
+ 
+
+00:08:03.680 --> 00:08:06.430 align:start position:0%
+noticeable acceleration with standard
+vectorization<00:08:04.560><c> methods</c><00:08:05.560><c> it</c><00:08:05.720><c> does</c><00:08:05.879><c> run</c><00:08:06.120><c> up</c><00:08:06.280><c> to</c>
+
+00:08:06.430 --> 00:08:06.440 align:start position:0%
+vectorization methods it does run up to
+ 
+
+00:08:06.440 --> 00:08:08.990 align:start position:0%
+vectorization methods it does run up to
+2,800<00:08:07.120><c> steps</c><00:08:07.479><c> per</c><00:08:07.639><c> second</c><00:08:07.879><c> with</c><00:08:08.039><c> puffer</c><00:08:08.360><c> lib</c>
+
+00:08:08.990 --> 00:08:09.000 align:start position:0%
+2,800 steps per second with puffer lib
+ 
+
+00:08:09.000 --> 00:08:10.550 align:start position:0%
+2,800 steps per second with puffer lib
+but<00:08:09.159><c> that's</c><00:08:09.360><c> still</c><00:08:09.560><c> unusably</c>
+
+00:08:10.550 --> 00:08:10.560 align:start position:0%
+but that's still unusably
+ 
+
+00:08:10.560 --> 00:08:14.869 align:start position:0%
+but that's still unusably
+slow<00:08:11.560><c> the</c><00:08:11.960><c> reason</c><00:08:12.960><c> atrociously</c><00:08:13.599><c> optimize</c>
+
+00:08:14.869 --> 00:08:14.879 align:start position:0%
+slow the reason atrociously optimize
+ 
+
+00:08:14.879 --> 00:08:17.149 align:start position:0%
+slow the reason atrociously optimize
+python<00:08:15.879><c> this</c><00:08:16.000><c> trend</c><00:08:16.319><c> continues</c><00:08:16.720><c> in</c><00:08:16.840><c> several</c>
+
+00:08:17.149 --> 00:08:17.159 align:start position:0%
+python this trend continues in several
+ 
+
+00:08:17.159 --> 00:08:19.110 align:start position:0%
+python this trend continues in several
+other<00:08:17.400><c> environments</c><00:08:18.280><c> such</c><00:08:18.440><c> as</c><00:08:18.599><c> this</c><00:08:18.720><c> racing</c>
+
+00:08:19.110 --> 00:08:19.120 align:start position:0%
+other environments such as this racing
+ 
+
+00:08:19.120 --> 00:08:20.830 align:start position:0%
+other environments such as this racing
+environment<00:08:19.599><c> which</c><00:08:19.720><c> runs</c><00:08:20.039><c> at</c><00:08:20.199><c> low</c><00:08:20.479><c> hundreds</c>
+
+00:08:20.830 --> 00:08:20.840 align:start position:0%
+environment which runs at low hundreds
+ 
+
+00:08:20.840 --> 00:08:22.790 align:start position:0%
+environment which runs at low hundreds
+of<00:08:20.960><c> steps</c><00:08:21.319><c> per</c><00:08:21.479><c> second</c><00:08:22.120><c> and</c><00:08:22.280><c> this</c><00:08:22.440><c> traffic</c>
+
+00:08:22.790 --> 00:08:22.800 align:start position:0%
+of steps per second and this traffic
+ 
+
+00:08:22.800 --> 00:08:25.909 align:start position:0%
+of steps per second and this traffic
+simulator<00:08:23.680><c> which</c><00:08:24.319><c> somehow</c><00:08:24.879><c> runs</c><00:08:25.400><c> dozens</c><00:08:25.720><c> of</c>
+
+00:08:25.909 --> 00:08:25.919 align:start position:0%
+simulator which somehow runs dozens of
+ 
+
+00:08:25.919 --> 00:08:29.550 align:start position:0%
+simulator which somehow runs dozens of
+steps<00:08:26.280><c> per</c><00:08:26.800><c> second</c><00:08:27.800><c> we</c><00:08:27.960><c> do</c><00:08:28.199><c> have</c><00:08:28.800><c> some</c><00:08:29.159><c> at</c>
+
+00:08:29.550 --> 00:08:29.560 align:start position:0%
+steps per second we do have some at
+ 
+
+00:08:29.560 --> 00:08:31.629 align:start position:0%
+steps per second we do have some at
+least<00:08:29.919><c> reasonably</c><00:08:30.520><c> fast</c><00:08:30.800><c> environments</c><00:08:31.440><c> that</c>
+
+00:08:31.629 --> 00:08:31.639 align:start position:0%
+least reasonably fast environments that
+ 
+
+00:08:31.639 --> 00:08:33.990 align:start position:0%
+least reasonably fast environments that
+would<00:08:31.840><c> be</c><00:08:32.000><c> usable</c><00:08:32.880><c> if</c><00:08:33.039><c> we</c><00:08:33.200><c> sto</c><00:08:33.440><c> slowing</c><00:08:33.839><c> them</c>
+
+00:08:33.990 --> 00:08:34.000 align:start position:0%
+would be usable if we sto slowing them
+ 
+
+00:08:34.000 --> 00:08:36.509 align:start position:0%
+would be usable if we sto slowing them
+down<00:08:34.200><c> with</c><00:08:34.360><c> bad</c><00:08:34.680><c> wrappers</c><00:08:35.680><c> I've</c><00:08:35.839><c> gotten</c><00:08:36.080><c> Atari</c>
+
+00:08:36.509 --> 00:08:36.519 align:start position:0%
+down with bad wrappers I've gotten Atari
+ 
+
+00:08:36.519 --> 00:08:38.430 align:start position:0%
+down with bad wrappers I've gotten Atari
+up<00:08:36.640><c> to</c><00:08:36.800><c> 60,000</c><00:08:37.479><c> frames</c><00:08:37.800><c> per</c><00:08:37.919><c> second</c><00:08:38.159><c> on</c><00:08:38.279><c> a</c>
+
+00:08:38.430 --> 00:08:38.440 align:start position:0%
+up to 60,000 frames per second on a
+ 
+
+00:08:38.440 --> 00:08:41.389 align:start position:0%
+up to 60,000 frames per second on a
+desktop<00:08:39.080><c> and</c><00:08:39.240><c> proc</c><00:08:39.479><c> gen</c><00:08:39.640><c> to</c><00:08:40.240><c> 150k</c><00:08:41.240><c> that's</c>
+
+00:08:41.389 --> 00:08:41.399 align:start position:0%
+desktop and proc gen to 150k that's
+ 
+
+00:08:41.399 --> 00:08:43.269 align:start position:0%
+desktop and proc gen to 150k that's
+still<00:08:41.599><c> not</c><00:08:41.839><c> amazing</c><00:08:42.640><c> but</c><00:08:42.800><c> it's</c><00:08:42.959><c> pretty</c><00:08:43.159><c> good</c>
+
+00:08:43.269 --> 00:08:43.279 align:start position:0%
+still not amazing but it's pretty good
+ 
+
+00:08:43.279 --> 00:08:45.750 align:start position:0%
+still not amazing but it's pretty good
+for<00:08:43.479><c> something</c><00:08:43.800><c> being</c><00:08:44.000><c> rendered</c><00:08:44.320><c> to</c><00:08:44.760><c> pixels</c>
+
+00:08:45.750 --> 00:08:45.760 align:start position:0%
+for something being rendered to pixels
+ 
+
+00:08:45.760 --> 00:08:48.030 align:start position:0%
+for something being rendered to pixels
+Doom<00:08:46.120><c> is</c><00:08:46.320><c> reasonably</c><00:08:46.839><c> fast</c><00:08:47.120><c> as</c><00:08:47.279><c> well</c><00:08:47.720><c> but</c><00:08:47.839><c> the</c>
+
+00:08:48.030 --> 00:08:48.040 align:start position:0%
+Doom is reasonably fast as well but the
+ 
+
+00:08:48.040 --> 00:08:50.230 align:start position:0%
+Doom is reasonably fast as well but the
+project<00:08:48.320><c> would</c><00:08:48.480><c> need</c><00:08:48.680><c> quite</c><00:08:48.880><c> some</c><00:08:49.120><c> work</c><00:08:50.040><c> some</c>
+
+00:08:50.230 --> 00:08:50.240 align:start position:0%
+project would need quite some work some
+ 
+
+00:08:50.240 --> 00:08:52.750 align:start position:0%
+project would need quite some work some
+older<00:08:50.560><c> M's</c><00:08:50.880><c> are</c><00:08:51.080><c> surprisingly</c><00:08:51.880><c> fast</c><00:08:52.519><c> one</c><00:08:52.640><c> of</c>
+
+00:08:52.750 --> 00:08:52.760 align:start position:0%
+older M's are surprisingly fast one of
+ 
+
+00:08:52.760 --> 00:08:54.590 align:start position:0%
+older M's are surprisingly fast one of
+my<00:08:52.880><c> favorites</c><00:08:53.240><c> being</c><00:08:53.519><c> net</c><00:08:53.760><c> hack</c><00:08:54.240><c> which</c><00:08:54.360><c> is</c><00:08:54.480><c> an</c>
+
+00:08:54.590 --> 00:08:54.600 align:start position:0%
+my favorites being net hack which is an
+ 
+
+00:08:54.600 --> 00:08:56.870 align:start position:0%
+my favorites being net hack which is an
+80s<00:08:55.000><c> terminal</c><00:08:55.399><c> based</c><00:08:55.640><c> Dungeon</c><00:08:55.959><c> Crawler</c><00:08:56.760><c> it's</c>
+
+00:08:56.870 --> 00:08:56.880 align:start position:0%
+80s terminal based Dungeon Crawler it's
+ 
+
+00:08:56.880 --> 00:08:58.990 align:start position:0%
+80s terminal based Dungeon Crawler it's
+an<00:08:57.080><c> insanely</c><00:08:57.640><c> complicated</c><00:08:58.160><c> M</c><00:08:58.519><c> but</c><00:08:58.640><c> I</c><00:08:58.720><c> can</c><00:08:58.839><c> run</c>
+
+00:08:58.990 --> 00:08:59.000 align:start position:0%
+an insanely complicated M but I can run
+ 
+
+00:08:59.000 --> 00:09:00.750 align:start position:0%
+an insanely complicated M but I can run
+it<00:08:59.079><c> at</c><00:08:59.279><c> 100</c><00:08:59.480><c> 100,000</c><00:08:59.920><c> steps</c><00:09:00.240><c> per</c><00:09:00.399><c> second</c><00:09:00.600><c> in</c>
+
+00:09:00.750 --> 00:09:00.760 align:start position:0%
+it at 100 100,000 steps per second in
+ 
+
+00:09:00.760 --> 00:09:03.030 align:start position:0%
+it at 100 100,000 steps per second in
+puffer<00:09:01.120><c> lib</c><00:09:02.040><c> many</c><00:09:02.279><c> environments</c><00:09:02.680><c> are</c><00:09:02.839><c> 10</c>
+
+00:09:03.030 --> 00:09:03.040 align:start position:0%
+puffer lib many environments are 10
+ 
+
+00:09:03.040 --> 00:09:04.790 align:start position:0%
+puffer lib many environments are 10
+times<00:09:03.279><c> slower</c><00:09:03.640><c> outside</c><00:09:04.040><c> puffer</c><00:09:04.320><c> lib</c>
+
+00:09:04.790 --> 00:09:04.800 align:start position:0%
+times slower outside puffer lib
+ 
+
+00:09:04.800 --> 00:09:07.310 align:start position:0%
+times slower outside puffer lib
+especially<00:09:05.160><c> with</c><00:09:05.320><c> gym</c><00:09:05.519><c> or</c><00:09:05.839><c> sp3</c><00:09:06.320><c> vectorization</c>
+
+00:09:07.310 --> 00:09:07.320 align:start position:0%
+especially with gym or sp3 vectorization
+ 
+
+00:09:07.320 --> 00:09:09.190 align:start position:0%
+especially with gym or sp3 vectorization
+but<00:09:07.440><c> if</c><00:09:07.560><c> you</c><00:09:07.640><c> know</c><00:09:07.760><c> of</c><00:09:07.880><c> any</c><00:09:08.079><c> others</c><00:09:08.920><c> that</c><00:09:09.040><c> are</c>
+
+00:09:09.190 --> 00:09:09.200 align:start position:0%
+but if you know of any others that are
+ 
+
+00:09:09.200 --> 00:09:11.310 align:start position:0%
+but if you know of any others that are
+at<00:09:09.320><c> least</c><00:09:09.560><c> fast</c><00:09:09.800><c> single</c><00:09:10.120><c> threaded</c><00:09:10.760><c> let</c><00:09:10.880><c> me</c>
+
+00:09:11.310 --> 00:09:11.320 align:start position:0%
+at least fast single threaded let me
+ 
+
+00:09:11.320 --> 00:09:13.389 align:start position:0%
+at least fast single threaded let me
+know<00:09:12.320><c> there</c><00:09:12.399><c> are</c><00:09:12.519><c> some</c><00:09:12.680><c> newer</c><00:09:12.959><c> GPU</c>
+
+00:09:13.389 --> 00:09:13.399 align:start position:0%
+know there are some newer GPU
+ 
+
+00:09:13.399 --> 00:09:15.910 align:start position:0%
+know there are some newer GPU
+accelerated<00:09:14.040><c> environments</c><00:09:15.040><c> but</c><00:09:15.320><c> only</c><00:09:15.600><c> a</c><00:09:15.720><c> few</c>
+
+00:09:15.910 --> 00:09:15.920 align:start position:0%
+accelerated environments but only a few
+ 
+
+00:09:15.920 --> 00:09:18.310 align:start position:0%
+accelerated environments but only a few
+of<00:09:16.000><c> them</c><00:09:16.240><c> like</c><00:09:16.399><c> GPU</c><00:09:16.880><c> Drive</c><00:09:17.680><c> U</c><00:09:17.800><c> Madrona</c>
+
+00:09:18.310 --> 00:09:18.320 align:start position:0%
+of them like GPU Drive U Madrona
+ 
+
+00:09:18.320 --> 00:09:21.030 align:start position:0%
+of them like GPU Drive U Madrona
+hide-and<00:09:18.720><c> seek</c><00:09:19.399><c> and</c><00:09:19.600><c> craftex</c><00:09:20.240><c> are</c><00:09:20.600><c> complex</c>
+
+00:09:21.030 --> 00:09:21.040 align:start position:0%
+hide-and seek and craftex are complex
+ 
+
+00:09:21.040 --> 00:09:23.550 align:start position:0%
+hide-and seek and craftex are complex
+enough<00:09:21.240><c> to</c><00:09:21.360><c> be</c><00:09:21.519><c> worth</c>
+
+00:09:23.550 --> 00:09:23.560 align:start position:0%
+enough to be worth
+ 
+
+00:09:23.560 --> 00:09:26.509 align:start position:0%
+enough to be worth
+mentioning<00:09:24.560><c> welcome</c><00:09:24.839><c> to</c><00:09:25.000><c> the</c><00:09:25.399><c> trenches</c><00:09:26.399><c> this</c>
+
+00:09:26.509 --> 00:09:26.519 align:start position:0%
+mentioning welcome to the trenches this
+ 
+
+00:09:26.519 --> 00:09:28.590 align:start position:0%
+mentioning welcome to the trenches this
+is<00:09:26.680><c> the</c><00:09:26.800><c> realm</c><00:09:27.079><c> of</c><00:09:27.240><c> things</c><00:09:27.560><c> nobody</c><00:09:28.000><c> has</c><00:09:28.320><c> ever</c>
+
+00:09:28.590 --> 00:09:28.600 align:start position:0%
+is the realm of things nobody has ever
+ 
+
+00:09:28.600 --> 00:09:29.910 align:start position:0%
+is the realm of things nobody has ever
+even<00:09:28.839><c> attempted</c>
+
+00:09:29.910 --> 00:09:29.920 align:start position:0%
+even attempted
+ 
+
+00:09:29.920 --> 00:09:32.910 align:start position:0%
+even attempted
+level<00:09:30.240><c> nine</c><00:09:30.680><c> is</c><00:09:30.880><c> custom</c><00:09:31.680><c> simulation</c><00:09:32.680><c> what</c><00:09:32.800><c> if</c>
+
+00:09:32.910 --> 00:09:32.920 align:start position:0%
+level nine is custom simulation what if
+ 
+
+00:09:32.920 --> 00:09:34.470 align:start position:0%
+level nine is custom simulation what if
+we<00:09:33.079><c> replaced</c><00:09:33.560><c> all</c><00:09:33.680><c> the</c><00:09:33.839><c> standard</c><00:09:34.160><c> training</c>
+
+00:09:34.470 --> 00:09:34.480 align:start position:0%
+we replaced all the standard training
+ 
+
+00:09:34.480 --> 00:09:35.990 align:start position:0%
+we replaced all the standard training
+environments<00:09:35.040><c> with</c><00:09:35.200><c> ones</c><00:09:35.480><c> that</c><00:09:35.640><c> run</c><00:09:35.839><c> a</c>
+
+00:09:35.990 --> 00:09:36.000 align:start position:0%
+environments with ones that run a
+ 
+
+00:09:36.000 --> 00:09:38.269 align:start position:0%
+environments with ones that run a
+thousand<00:09:36.399><c> times</c><00:09:36.680><c> faster</c><00:09:37.640><c> that's</c><00:09:37.800><c> what</c><00:09:37.959><c> puffer</c>
+
+00:09:38.269 --> 00:09:38.279 align:start position:0%
+thousand times faster that's what puffer
+ 
+
+00:09:38.279 --> 00:09:41.430 align:start position:0%
+thousand times faster that's what puffer
+AI<00:09:38.560><c> is</c><00:09:38.680><c> doing</c><00:09:39.320><c> right</c><00:09:39.519><c> now</c><00:09:40.480><c> Atari</c><00:09:40.920><c> games</c><00:09:41.160><c> run</c><00:09:41.360><c> at</c>
+
+00:09:41.430 --> 00:09:41.440 align:start position:0%
+AI is doing right now Atari games run at
+ 
+
+00:09:41.440 --> 00:09:43.910 align:start position:0%
+AI is doing right now Atari games run at
+a<00:09:41.560><c> few</c><00:09:41.760><c> thousand</c><00:09:42.120><c> steps</c><00:09:42.440><c> per</c><00:09:42.600><c> second</c><00:09:42.839><c> per</c><00:09:43.000><c> core</c>
+
+00:09:43.910 --> 00:09:43.920 align:start position:0%
+a few thousand steps per second per core
+ 
+
+00:09:43.920 --> 00:09:45.750 align:start position:0%
+a few thousand steps per second per core
+this<00:09:44.079><c> snake</c><00:09:44.440><c> game</c><00:09:44.640><c> runs</c><00:09:44.880><c> at</c><00:09:45.000><c> over</c><00:09:45.200><c> 10</c><00:09:45.480><c> million</c>
+
+00:09:45.750 --> 00:09:45.760 align:start position:0%
+this snake game runs at over 10 million
+ 
+
+00:09:45.760 --> 00:09:47.870 align:start position:0%
+this snake game runs at over 10 million
+steps<00:09:46.079><c> per</c><00:09:46.240><c> second</c><00:09:46.480><c> per</c><00:09:46.640><c> core</c><00:09:47.440><c> this</c><00:09:47.600><c> common</c>
+
+00:09:47.870 --> 00:09:47.880 align:start position:0%
+steps per second per core this common
+ 
+
+00:09:47.880 --> 00:09:49.990 align:start position:0%
+steps per second per core this common
+grid<00:09:48.120><c> environment</c><00:09:48.519><c> runs</c><00:09:48.760><c> at</c><00:09:48.959><c> 16,000</c><00:09:49.680><c> steps</c>
+
+00:09:49.990 --> 00:09:50.000 align:start position:0%
+grid environment runs at 16,000 steps
+ 
+
+00:09:50.000 --> 00:09:52.710 align:start position:0%
+grid environment runs at 16,000 steps
+per<00:09:50.160><c> second</c><00:09:50.760><c> ours</c><00:09:51.079><c> runs</c><00:09:51.279><c> at</c><00:09:51.440><c> over</c><00:09:51.640><c> 10</c><00:09:51.880><c> million</c>
+
+00:09:52.710 --> 00:09:52.720 align:start position:0%
+per second ours runs at over 10 million
+ 
+
+00:09:52.720 --> 00:09:54.030 align:start position:0%
+per second ours runs at over 10 million
+it's<00:09:52.880><c> not</c><00:09:53.040><c> just</c><00:09:53.160><c> limited</c><00:09:53.560><c> to</c><00:09:53.720><c> simple</c>
+
+00:09:54.030 --> 00:09:54.040 align:start position:0%
+it's not just limited to simple
+ 
+
+00:09:54.040 --> 00:09:57.150 align:start position:0%
+it's not just limited to simple
+simulations<00:09:54.839><c> either</c><00:09:55.839><c> this</c><00:09:56.000><c> mini</c><00:09:56.279><c> MOBA</c><00:09:56.720><c> runs</c>
+
+00:09:57.150 --> 00:09:57.160 align:start position:0%
+simulations either this mini MOBA runs
+ 
+
+00:09:57.160 --> 00:09:58.910 align:start position:0%
+simulations either this mini MOBA runs
+at<00:09:57.399><c> over</c><00:09:57.600><c> a</c><00:09:57.760><c> million</c><00:09:58.079><c> steps</c><00:09:58.399><c> per</c><00:09:58.560><c> second</c><00:09:58.760><c> per</c>
+
+00:09:58.910 --> 00:09:58.920 align:start position:0%
+at over a million steps per second per
+ 
+
+00:09:58.920 --> 00:10:00.630 align:start position:0%
+at over a million steps per second per
+core<00:09:59.200><c> and</c><00:09:59.440><c> it</c><00:09:59.600><c> has</c><00:09:59.760><c> many</c><00:09:59.920><c> of</c><00:10:00.040><c> the</c><00:10:00.160><c> elements</c><00:10:00.440><c> of</c>
+
+00:10:00.630 --> 00:10:00.640 align:start position:0%
+core and it has many of the elements of
+ 
+
+00:10:00.640 --> 00:10:02.829 align:start position:0%
+core and it has many of the elements of
+DOTA<00:10:01.640><c> we</c><00:10:01.760><c> have</c><00:10:01.839><c> a</c><00:10:01.959><c> couple</c><00:10:02.200><c> more</c><00:10:02.399><c> projects</c><00:10:02.720><c> in</c>
+
+00:10:02.829 --> 00:10:02.839 align:start position:0%
+DOTA we have a couple more projects in
+ 
+
+00:10:02.839 --> 00:10:05.829 align:start position:0%
+DOTA we have a couple more projects in
+the<00:10:02.959><c> works</c><00:10:03.279><c> too</c><00:10:04.160><c> so</c><00:10:04.360><c> how's</c><00:10:04.640><c> this</c><00:10:04.839><c> possible</c>
+
+00:10:05.829 --> 00:10:05.839 align:start position:0%
+the works too so how's this possible
+ 
+
+00:10:05.839 --> 00:10:08.110 align:start position:0%
+the works too so how's this possible
+these<00:10:06.040><c> simulations</c><00:10:06.640><c> all</c><00:10:06.839><c> run</c><00:10:07.040><c> in</c><00:10:07.200><c> pure</c><00:10:07.519><c> C</c><00:10:07.920><c> with</c>
+
+00:10:08.110 --> 00:10:08.120 align:start position:0%
+these simulations all run in pure C with
+ 
+
+00:10:08.120 --> 00:10:09.949 align:start position:0%
+these simulations all run in pure C with
+zero<00:10:08.480><c> dynamic</c><00:10:08.959><c> memory</c>
+
+00:10:09.949 --> 00:10:09.959 align:start position:0%
+zero dynamic memory
+ 
+
+00:10:09.959 --> 00:10:12.470 align:start position:0%
+zero dynamic memory
+allocations<00:10:10.959><c> but</c><00:10:11.480><c> provided</c><00:10:11.880><c> you</c><00:10:12.320><c> understand</c>
+
+00:10:12.470 --> 00:10:12.480 align:start position:0%
+allocations but provided you understand
+ 
+
+00:10:12.480 --> 00:10:14.590 align:start position:0%
+allocations but provided you understand
+the<00:10:12.640><c> computational</c><00:10:13.279><c> requirements</c><00:10:13.720><c> of</c><00:10:13.839><c> RL</c>
+
+00:10:14.590 --> 00:10:14.600 align:start position:0%
+the computational requirements of RL
+ 
+
+00:10:14.600 --> 00:10:16.710 align:start position:0%
+the computational requirements of RL
+they<00:10:14.720><c> don't</c><00:10:14.920><c> take</c><00:10:15.079><c> that</c><00:10:15.200><c> long</c><00:10:15.399><c> to</c><00:10:15.560><c> build</c><00:10:16.519><c> most</c>
+
+00:10:16.710 --> 00:10:16.720 align:start position:0%
+they don't take that long to build most
+ 
+
+00:10:16.720 --> 00:10:18.350 align:start position:0%
+they don't take that long to build most
+of<00:10:16.839><c> these</c><00:10:16.959><c> are</c><00:10:17.079><c> written</c><00:10:17.279><c> in</c><00:10:17.440><c> scon</c><00:10:17.880><c> that</c><00:10:18.000><c> reads</c>
+
+00:10:18.350 --> 00:10:18.360 align:start position:0%
+of these are written in scon that reads
+ 
+
+00:10:18.360 --> 00:10:20.790 align:start position:0%
+of these are written in scon that reads
+like<00:10:18.560><c> simple</c><00:10:18.959><c> procedural</c><00:10:19.519><c> python</c><00:10:20.399><c> the</c><00:10:20.560><c> snake</c>
+
+00:10:20.790 --> 00:10:20.800 align:start position:0%
+like simple procedural python the snake
+ 
+
+00:10:20.800 --> 00:10:22.150 align:start position:0%
+like simple procedural python the snake
+and<00:10:20.959><c> grid</c><00:10:21.200><c> environments</c><00:10:21.560><c> are</c><00:10:21.720><c> a</c><00:10:21.800><c> few</c><00:10:21.959><c> hundred</c>
+
+00:10:22.150 --> 00:10:22.160 align:start position:0%
+and grid environments are a few hundred
+ 
+
+00:10:22.160 --> 00:10:23.829 align:start position:0%
+and grid environments are a few hundred
+lines<00:10:22.360><c> of</c><00:10:22.519><c> code</c><00:10:22.760><c> each</c><00:10:23.200><c> and</c><00:10:23.360><c> the</c><00:10:23.440><c> m</c><00:10:23.720><c> is</c>
+
+00:10:23.829 --> 00:10:23.839 align:start position:0%
+lines of code each and the m is
+ 
+
+00:10:23.839 --> 00:10:26.310 align:start position:0%
+lines of code each and the m is
+currently<00:10:24.200><c> around</c><00:10:24.680><c> 1400</c><00:10:25.680><c> I</c><00:10:25.760><c> did</c><00:10:25.880><c> a</c><00:10:26.040><c> port</c><00:10:26.200><c> of</c>
+
+00:10:26.310 --> 00:10:26.320 align:start position:0%
+currently around 1400 I did a port of
+ 
+
+00:10:26.320 --> 00:10:28.590 align:start position:0%
+currently around 1400 I did a port of
+the<00:10:26.399><c> snake</c><00:10:26.640><c> game</c><00:10:26.800><c> to</c><00:10:27.000><c> Native</c><00:10:27.279><c> C</c><00:10:27.880><c> but</c><00:10:28.120><c> really</c>
+
+00:10:28.590 --> 00:10:28.600 align:start position:0%
+the snake game to Native C but really
+ 
+
+00:10:28.600 --> 00:10:30.030 align:start position:0%
+the snake game to Native C but really
+that<00:10:28.720><c> was</c><00:10:28.880><c> just</c><00:10:29.000><c> so</c><00:10:29.120><c> we</c><00:10:29.360><c> could</c><00:10:29.480><c> run</c><00:10:29.640><c> it</c><00:10:29.720><c> on</c><00:10:29.839><c> our</c>
+
+00:10:30.030 --> 00:10:30.040 align:start position:0%
+that was just so we could run it on our
+ 
+
+00:10:30.040 --> 00:10:32.230 align:start position:0%
+that was just so we could run it on our
+website<00:10:30.360><c> as</c><00:10:30.480><c> a</c><00:10:30.640><c> demo</c><00:10:31.200><c> try</c><00:10:31.360><c> it</c>
+
+00:10:32.230 --> 00:10:32.240 align:start position:0%
+website as a demo try it
+ 
+
+00:10:32.240 --> 00:10:34.430 align:start position:0%
+website as a demo try it
+out<00:10:33.240><c> all</c><00:10:33.440><c> these</c><00:10:33.600><c> Sims</c><00:10:33.839><c> are</c><00:10:34.040><c> publicly</c>
+
+00:10:34.430 --> 00:10:34.440 align:start position:0%
+out all these Sims are publicly
+ 
+
+00:10:34.440 --> 00:10:36.790 align:start position:0%
+out all these Sims are publicly
+available<00:10:34.800><c> in</c><00:10:34.880><c> the</c><00:10:35.040><c> dev</c><00:10:35.360><c> branch</c><00:10:36.360><c> and</c><00:10:36.480><c> you</c><00:10:36.600><c> can</c>
+
+00:10:36.790 --> 00:10:36.800 align:start position:0%
+available in the dev branch and you can
+ 
+
+00:10:36.800 --> 00:10:39.350 align:start position:0%
+available in the dev branch and you can
+often<00:10:37.040><c> find</c><00:10:37.279><c> me</c><00:10:37.399><c> building</c><00:10:37.680><c> them</c><00:10:38.200><c> live</c><00:10:39.200><c> these</c>
+
+00:10:39.350 --> 00:10:39.360 align:start position:0%
+often find me building them live these
+ 
+
+00:10:39.360 --> 00:10:41.870 align:start position:0%
+often find me building them live these
+will<00:10:39.519><c> be</c><00:10:39.680><c> part</c><00:10:39.880><c> of</c><00:10:40.000><c> our</c><00:10:40.200><c> next</c><00:10:40.639><c> update</c><00:10:41.639><c> and</c><00:10:41.800><c> I</c>
+
+00:10:41.870 --> 00:10:41.880 align:start position:0%
+will be part of our next update and I
+ 
+
+00:10:41.880 --> 00:10:43.150 align:start position:0%
+will be part of our next update and I
+believe<00:10:42.120><c> they</c><00:10:42.240><c> will</c><00:10:42.360><c> be</c><00:10:42.519><c> the</c><00:10:42.639><c> basis</c><00:10:42.920><c> for</c><00:10:43.040><c> a</c>
+
+00:10:43.150 --> 00:10:43.160 align:start position:0%
+believe they will be the basis for a
+ 
+
+00:10:43.160 --> 00:10:44.350 align:start position:0%
+believe they will be the basis for a
+whole<00:10:43.320><c> new</c><00:10:43.519><c> wave</c><00:10:43.720><c> of</c><00:10:43.920><c> progress</c><00:10:44.200><c> in</c>
+
+00:10:44.350 --> 00:10:44.360 align:start position:0%
+whole new wave of progress in
+ 
+
+00:10:44.360 --> 00:10:46.590 align:start position:0%
+whole new wave of progress in
+reinforcement
+
+00:10:46.590 --> 00:10:46.600 align:start position:0%
+reinforcement
+ 
+
+00:10:46.600 --> 00:10:49.750 align:start position:0%
+reinforcement
+learning<00:10:47.600><c> level</c><00:10:47.880><c> 10</c><00:10:48.680><c> is</c>
+
+00:10:49.750 --> 00:10:49.760 align:start position:0%
+learning level 10 is
+ 
+
+00:10:49.760 --> 00:10:52.470 align:start position:0%
+learning level 10 is
+open-endedness<00:10:50.760><c> for</c><00:10:50.959><c> the</c><00:10:51.160><c> last</c><00:10:51.399><c> stop</c><00:10:52.320><c> I'd</c>
+
+00:10:52.470 --> 00:10:52.480 align:start position:0%
+open-endedness for the last stop I'd
+ 
+
+00:10:52.480 --> 00:10:54.030 align:start position:0%
+open-endedness for the last stop I'd
+like<00:10:52.600><c> to</c><00:10:52.720><c> talk</c><00:10:52.880><c> about</c><00:10:53.079><c> the</c><00:10:53.200><c> only</c><00:10:53.600><c> problem</c><00:10:53.880><c> on</c>
+
+00:10:54.030 --> 00:10:54.040 align:start position:0%
+like to talk about the only problem on
+ 
+
+00:10:54.040 --> 00:10:56.110 align:start position:0%
+like to talk about the only problem on
+this<00:10:54.200><c> list</c><00:10:54.399><c> that</c><00:10:54.519><c> I</c><00:10:54.600><c> don't</c><00:10:54.760><c> know</c><00:10:54.920><c> how</c><00:10:55.000><c> to</c><00:10:55.160><c> solve</c>
+
+00:10:56.110 --> 00:10:56.120 align:start position:0%
+this list that I don't know how to solve
+ 
+
+00:10:56.120 --> 00:10:58.030 align:start position:0%
+this list that I don't know how to solve
+building<00:10:56.519><c> an</c><00:10:56.720><c> environment</c><00:10:57.279><c> in</c><00:10:57.399><c> which</c><00:10:57.600><c> agents</c>
+
+00:10:58.030 --> 00:10:58.040 align:start position:0%
+building an environment in which agents
+ 
+
+00:10:58.040 --> 00:11:00.310 align:start position:0%
+building an environment in which agents
+can<00:10:58.279><c> continue</c><00:10:58.720><c> to</c><00:10:58.880><c> learn</c><00:10:59.680><c> and</c><00:10:59.880><c> develop</c>
+
+00:11:00.310 --> 00:11:00.320 align:start position:0%
+can continue to learn and develop
+ 
+
+00:11:00.320 --> 00:11:02.350 align:start position:0%
+can continue to learn and develop
+interesting<00:11:00.800><c> Solutions</c>
+
+00:11:02.350 --> 00:11:02.360 align:start position:0%
+interesting Solutions
+ 
+
+00:11:02.360 --> 00:11:04.790 align:start position:0%
+interesting Solutions
+forever<00:11:03.360><c> we</c><00:11:03.519><c> only</c><00:11:03.760><c> have</c><00:11:03.880><c> one</c><00:11:04.120><c> example</c><00:11:04.440><c> of</c><00:11:04.639><c> what</c>
+
+00:11:04.790 --> 00:11:04.800 align:start position:0%
+forever we only have one example of what
+ 
+
+00:11:04.800 --> 00:11:07.870 align:start position:0%
+forever we only have one example of what
+might<00:11:05.000><c> be</c><00:11:05.120><c> an</c><00:11:05.279><c> open-ended</c><00:11:05.839><c> system</c><00:11:06.720><c> human</c>
+
+00:11:07.870 --> 00:11:07.880 align:start position:0%
+might be an open-ended system human
+ 
+
+00:11:07.880 --> 00:11:09.990 align:start position:0%
+might be an open-ended system human
+civilization<00:11:08.880><c> the</c><00:11:09.040><c> original</c><00:11:09.399><c> motivation</c><00:11:09.839><c> for</c>
+
+00:11:09.990 --> 00:11:10.000 align:start position:0%
+civilization the original motivation for
+ 
+
+00:11:10.000 --> 00:11:13.269 align:start position:0%
+civilization the original motivation for
+neural<00:11:10.360><c> MMO</c><00:11:11.120><c> the</c><00:11:11.320><c> topic</c><00:11:11.600><c> of</c><00:11:11.720><c> my</c><00:11:12.000><c> PhD</c><00:11:13.000><c> was</c><00:11:13.160><c> to</c>
+
+00:11:13.269 --> 00:11:13.279 align:start position:0%
+neural MMO the topic of my PhD was to
+ 
+
+00:11:13.279 --> 00:11:14.829 align:start position:0%
+neural MMO the topic of my PhD was to
+get<00:11:13.440><c> as</c><00:11:13.560><c> close</c><00:11:13.800><c> as</c><00:11:14.000><c> possible</c><00:11:14.320><c> to</c><00:11:14.480><c> this</c><00:11:14.639><c> with</c><00:11:14.720><c> a</c>
+
+00:11:14.829 --> 00:11:14.839 align:start position:0%
+get as close as possible to this with a
+ 
+
+00:11:14.839 --> 00:11:17.870 align:start position:0%
+get as close as possible to this with a
+known<00:11:15.079><c> simulation</c><00:11:15.680><c> format</c><00:11:16.519><c> namely</c><00:11:16.959><c> MMOs</c><00:11:17.600><c> or</c>
+
+00:11:17.870 --> 00:11:17.880 align:start position:0%
+known simulation format namely MMOs or
+ 
+
+00:11:17.880 --> 00:11:20.829 align:start position:0%
+known simulation format namely MMOs or
+massively<00:11:18.320><c> multiplayer</c><00:11:18.920><c> online</c><00:11:19.720><c> games</c><00:11:20.720><c> I</c>
+
+00:11:20.829 --> 00:11:20.839 align:start position:0%
+massively multiplayer online games I
+ 
+
+00:11:20.839 --> 00:11:22.310 align:start position:0%
+massively multiplayer online games I
+still<00:11:21.040><c> think</c><00:11:21.200><c> that</c><00:11:21.360><c> this</c><00:11:21.480><c> would</c><00:11:21.680><c> work</c><00:11:22.160><c> and</c>
+
+00:11:22.310 --> 00:11:22.320 align:start position:0%
+still think that this would work and
+ 
+
+00:11:22.320 --> 00:11:23.710 align:start position:0%
+still think that this would work and
+done<00:11:22.480><c> at</c><00:11:22.680><c> scale</c><00:11:23.000><c> using</c><00:11:23.360><c> some</c><00:11:23.480><c> of</c><00:11:23.600><c> the</c>
+
+00:11:23.710 --> 00:11:23.720 align:start position:0%
+done at scale using some of the
+ 
+
+00:11:23.720 --> 00:11:25.750 align:start position:0%
+done at scale using some of the
+techniques<00:11:24.160><c> I</c><00:11:24.279><c> now</c><00:11:24.480><c> know</c><00:11:25.200><c> could</c><00:11:25.440><c> produce</c>
+
+00:11:25.750 --> 00:11:25.760 align:start position:0%
+techniques I now know could produce
+ 
+
+00:11:25.760 --> 00:11:27.430 align:start position:0%
+techniques I now know could produce
+something<00:11:26.040><c> in</c><00:11:26.160><c> order</c><00:11:26.399><c> of</c><00:11:26.519><c> a</c><00:11:26.680><c> magnitude</c><00:11:27.240><c> more</c>
+
+00:11:27.430 --> 00:11:27.440 align:start position:0%
+something in order of a magnitude more
+ 
+
+00:11:27.440 --> 00:11:29.790 align:start position:0%
+something in order of a magnitude more
+interesting<00:11:27.839><c> than</c><00:11:27.959><c> open</c><00:11:28.200><c> AI</c><00:11:28.560><c> DOTA</c><00:11:28.920><c> bot</c>
+
+00:11:29.790 --> 00:11:29.800 align:start position:0%
+interesting than open AI DOTA bot
+ 
+
+00:11:29.800 --> 00:11:33.110 align:start position:0%
+interesting than open AI DOTA bot
+but<00:11:30.000><c> beyond</c><00:11:30.440><c> that</c><00:11:31.120><c> I</c><00:11:31.200><c> don't</c><00:11:31.399><c> know</c><00:11:31.920><c> yet</c><00:11:32.920><c> if</c><00:11:33.000><c> you</c>
+
+00:11:33.110 --> 00:11:33.120 align:start position:0%
+but beyond that I don't know yet if you
+ 
+
+00:11:33.120 --> 00:11:35.350 align:start position:0%
+but beyond that I don't know yet if you
+have<00:11:33.279><c> any</c><00:11:33.480><c> ideas</c><00:11:34.399><c> let</c><00:11:34.519><c> me</c><00:11:34.639><c> know</c><00:11:34.760><c> in</c><00:11:34.880><c> the</c>
+
+00:11:35.350 --> 00:11:35.360 align:start position:0%
+have any ideas let me know in the
+ 
+
+00:11:35.360 --> 00:11:38.269 align:start position:0%
+have any ideas let me know in the
+comments<00:11:36.360><c> but</c><00:11:36.560><c> before</c><00:11:36.760><c> we</c><00:11:36.920><c> wrap</c><00:11:37.160><c> up</c><00:11:38.079><c> let's</c>
+
+00:11:38.269 --> 00:11:38.279 align:start position:0%
+comments but before we wrap up let's
+ 
+
+00:11:38.279 --> 00:11:40.310 align:start position:0%
+comments but before we wrap up let's
+look<00:11:38.399><c> at</c><00:11:38.519><c> the</c><00:11:38.639><c> whole</c><00:11:38.839><c> picture</c><00:11:39.800><c> the</c><00:11:40.000><c> master</c>
+
+00:11:40.310 --> 00:11:40.320 align:start position:0%
+look at the whole picture the master
+ 
+
+00:11:40.320 --> 00:11:41.910 align:start position:0%
+look at the whole picture the master
+plan<00:11:40.519><c> of</c><00:11:40.639><c> how</c><00:11:40.800><c> puffer</c><00:11:41.120><c> AI</c><00:11:41.440><c> will</c><00:11:41.600><c> fix</c>
+
+00:11:41.910 --> 00:11:41.920 align:start position:0%
+plan of how puffer AI will fix
+ 
+
+00:11:41.920 --> 00:11:43.629 align:start position:0%
+plan of how puffer AI will fix
+everything<00:11:42.360><c> wrong</c><00:11:42.880><c> with</c><00:11:43.040><c> reinforcement</c>
+
+00:11:43.629 --> 00:11:43.639 align:start position:0%
+everything wrong with reinforcement
+ 
+
+00:11:43.639 --> 00:11:45.829 align:start position:0%
+everything wrong with reinforcement
+learning<00:11:44.519><c> we're</c><00:11:44.760><c> building</c><00:11:45.079><c> fast</c><00:11:45.399><c> simulators</c>
+
+00:11:45.829 --> 00:11:45.839 align:start position:0%
+learning we're building fast simulators
+ 
+
+00:11:45.839 --> 00:11:47.870 align:start position:0%
+learning we're building fast simulators
+of<00:11:46.000><c> varying</c><00:11:46.279><c> types</c><00:11:46.480><c> and</c><00:11:46.720><c> complexities</c><00:11:47.720><c> these</c>
+
+00:11:47.870 --> 00:11:47.880 align:start position:0%
+of varying types and complexities these
+ 
+
+00:11:47.880 --> 00:11:49.550 align:start position:0%
+of varying types and complexities these
+will<00:11:48.079><c> replace</c><00:11:48.399><c> the</c><00:11:48.519><c> slow</c><00:11:48.839><c> simulators</c><00:11:49.399><c> in</c>
+
+00:11:49.550 --> 00:11:49.560 align:start position:0%
+will replace the slow simulators in
+ 
+
+00:11:49.560 --> 00:11:51.590 align:start position:0%
+will replace the slow simulators in
+environments<00:11:50.079><c> used</c><00:11:50.360><c> in</c><00:11:50.560><c> Academia</c><00:11:51.279><c> and</c><00:11:51.399><c> in</c>
+
+00:11:51.590 --> 00:11:51.600 align:start position:0%
+environments used in Academia and in
+ 
+
+00:11:51.600 --> 00:11:54.190 align:start position:0%
+environments used in Academia and in
+industry<00:11:52.480><c> for</c><00:11:52.680><c> testing</c><00:11:53.000><c> new</c><00:11:53.279><c> methods</c><00:11:54.079><c> they</c>
+
+00:11:54.190 --> 00:11:54.200 align:start position:0%
+industry for testing new methods they
+ 
+
+00:11:54.200 --> 00:11:55.590 align:start position:0%
+industry for testing new methods they
+will<00:11:54.360><c> not</c><00:11:54.480><c> be</c><00:11:54.600><c> slowed</c><00:11:54.920><c> down</c><00:11:55.120><c> by</c><00:11:55.240><c> clunky</c>
+
+00:11:55.590 --> 00:11:55.600 align:start position:0%
+will not be slowed down by clunky
+ 
+
+00:11:55.600 --> 00:11:58.230 align:start position:0%
+will not be slowed down by clunky
+rappers<00:11:56.279><c> or</c><00:11:56.480><c> by</c><00:11:56.639><c> compatibility</c><00:11:57.320><c> issues</c><00:11:58.160><c> they</c>
+
+00:11:58.230 --> 00:11:58.240 align:start position:0%
+rappers or by compatibility issues they
+ 
+
+00:11:58.240 --> 00:12:00.069 align:start position:0%
+rappers or by compatibility issues they
+will<00:11:58.399><c> run</c><00:11:58.639><c> with</c><00:11:58.800><c> linear</c><00:11:59.279><c> speed</c><00:11:59.480><c> UPS</c><00:11:59.680><c> across</c>
+
+00:12:00.069 --> 00:12:00.079 align:start position:0%
+will run with linear speed UPS across
+ 
+
+00:12:00.079 --> 00:12:02.269 align:start position:0%
+will run with linear speed UPS across
+processes<00:12:01.040><c> fast</c><00:12:01.320><c> enough</c><00:12:01.480><c> to</c><00:12:01.639><c> saturate</c><00:12:02.079><c> even</c>
+
+00:12:02.269 --> 00:12:02.279 align:start position:0%
+processes fast enough to saturate even
+ 
+
+00:12:02.279 --> 00:12:04.870 align:start position:0%
+processes fast enough to saturate even
+multi-gpu<00:12:03.120><c> machines</c><00:12:03.800><c> using</c><00:12:04.160><c> only</c><00:12:04.480><c> locally</c>
+
+00:12:04.870 --> 00:12:04.880 align:start position:0%
+multi-gpu machines using only locally
+ 
+
+00:12:04.880 --> 00:12:07.710 align:start position:0%
+multi-gpu machines using only locally
+available<00:12:05.519><c> cores</c><00:12:06.519><c> puffer</c><00:12:06.839><c> Li</c><00:12:07.040><c> simple</c><00:12:07.360><c> demos</c>
+
+00:12:07.710 --> 00:12:07.720 align:start position:0%
+available cores puffer Li simple demos
+ 
+
+00:12:07.720 --> 00:12:09.269 align:start position:0%
+available cores puffer Li simple demos
+already<00:12:07.920><c> train</c><00:12:08.240><c> at</c><00:12:08.360><c> over</c><00:12:08.519><c> a</c><00:12:08.639><c> million</c><00:12:08.920><c> steps</c>
+
+00:12:09.269 --> 00:12:09.279 align:start position:0%
+already train at over a million steps
+ 
+
+00:12:09.279 --> 00:12:11.310 align:start position:0%
+already train at over a million steps
+per<00:12:09.440><c> second</c><00:12:09.959><c> and</c><00:12:10.079><c> will</c><00:12:10.200><c> soon</c><00:12:10.519><c> scale</c><00:12:10.839><c> linearly</c>
+
+00:12:11.310 --> 00:12:11.320 align:start position:0%
+per second and will soon scale linearly
+ 
+
+00:12:11.320 --> 00:12:13.910 align:start position:0%
+per second and will soon scale linearly
+with<00:12:11.480><c> more</c><00:12:11.639><c> gpus</c><00:12:12.200><c> too</c><00:12:13.199><c> well</c><00:12:13.360><c> we</c><00:12:13.519><c> will</c><00:12:13.680><c> not</c>
+
+00:12:13.910 --> 00:12:13.920 align:start position:0%
+with more gpus too well we will not
+ 
+
+00:12:13.920 --> 00:12:15.509 align:start position:0%
+with more gpus too well we will not
+initially<00:12:14.399><c> focus</c><00:12:14.639><c> on</c><00:12:14.839><c> developing</c><00:12:15.320><c> new</c>
+
+00:12:15.509 --> 00:12:15.519 align:start position:0%
+initially focus on developing new
+ 
+
+00:12:15.519 --> 00:12:16.949 align:start position:0%
+initially focus on developing new
+algorithms<00:12:16.040><c> or</c><00:12:16.199><c> improving</c><00:12:16.560><c> sample</c>
+
+00:12:16.949 --> 00:12:16.959 align:start position:0%
+algorithms or improving sample
+ 
+
+00:12:16.959 --> 00:12:18.550 align:start position:0%
+algorithms or improving sample
+efficiency<00:12:17.800><c> these</c><00:12:18.000><c> improvements</c><00:12:18.399><c> are</c>
+
+00:12:18.550 --> 00:12:18.560 align:start position:0%
+efficiency these improvements are
+ 
+
+00:12:18.560 --> 00:12:20.670 align:start position:0%
+efficiency these improvements are
+inevitable<00:12:19.120><c> byproducts</c><00:12:19.720><c> of</c><00:12:19.839><c> running</c><00:12:20.160><c> tens</c><00:12:20.480><c> of</c>
+
+00:12:20.670 --> 00:12:20.680 align:start position:0%
+inevitable byproducts of running tens of
+ 
+
+00:12:20.680 --> 00:12:22.710 align:start position:0%
+inevitable byproducts of running tens of
+billions<00:12:21.000><c> of</c><00:12:21.160><c> steps</c><00:12:21.480><c> per</c><00:12:21.680><c> experiments</c><00:12:22.519><c> per</c>
+
+00:12:22.710 --> 00:12:22.720 align:start position:0%
+billions of steps per experiments per
+ 
+
+00:12:22.720 --> 00:12:25.069 align:start position:0%
+billions of steps per experiments per
+GPU<00:12:23.519><c> per</c>
+
+00:12:25.069 --> 00:12:25.079 align:start position:0%
+GPU per
+ 
+
+00:12:25.079 --> 00:12:27.310 align:start position:0%
+GPU per
+day<00:12:26.079><c> if</c><00:12:26.160><c> you're</c><00:12:26.320><c> an</c><00:12:26.519><c> industry</c><00:12:26.880><c> working</c><00:12:27.120><c> on</c>
+
+00:12:27.310 --> 00:12:27.320 align:start position:0%
+day if you're an industry working on
+ 
+
+00:12:27.320 --> 00:12:28.949 align:start position:0%
+day if you're an industry working on
+reinforcement<00:12:27.920><c> learning</c><00:12:28.519><c> our</c><00:12:28.639><c> tools</c><00:12:28.839><c> are</c>
+
+00:12:28.949 --> 00:12:28.959 align:start position:0%
+reinforcement learning our tools are
+ 
+
+00:12:28.959 --> 00:12:31.790 align:start position:0%
+reinforcement learning our tools are
+free<00:12:29.240><c> an</c><00:12:29.399><c> open</c><00:12:29.600><c> source</c><00:12:30.600><c> as</c><00:12:30.680><c> of</c><00:12:30.920><c> right</c><00:12:31.120><c> now</c><00:12:31.680><c> you</c>
+
+00:12:31.790 --> 00:12:31.800 align:start position:0%
+free an open source as of right now you
+ 
+
+00:12:31.800 --> 00:12:33.829 align:start position:0%
+free an open source as of right now you
+can<00:12:32.040><c> also</c><00:12:32.279><c> purchase</c><00:12:32.680><c> extended</c><00:12:33.160><c> support</c>
+
+00:12:33.829 --> 00:12:33.839 align:start position:0%
+can also purchase extended support
+ 
+
+00:12:33.839 --> 00:12:36.230 align:start position:0%
+can also purchase extended support
+priority<00:12:34.240><c> features</c><00:12:34.880><c> and</c><00:12:35.079><c> other</c><00:12:35.320><c> services</c>
+
+00:12:36.230 --> 00:12:36.240 align:start position:0%
+priority features and other services
+ 
+
+00:12:36.240 --> 00:12:39.030 align:start position:0%
+priority features and other services
+email<00:12:36.600><c> J</c><00:12:36.839><c> Suarez</c><00:12:37.279><c> at</c><00:12:37.440><c> puffer</c><00:12:37.800><c> doai</c><00:12:38.560><c> or</c><00:12:38.760><c> message</c>
+
+00:12:39.030 --> 00:12:39.040 align:start position:0%
+email J Suarez at puffer doai or message
+ 
+
+00:12:39.040 --> 00:12:41.710 align:start position:0%
+email J Suarez at puffer doai or message
+me<00:12:39.199><c> on</c><00:12:39.360><c> X</c><00:12:39.639><c> for</c><00:12:39.800><c> more</c><00:12:40.320><c> information</c><00:12:41.320><c> we</c><00:12:41.480><c> also</c>
+
+00:12:41.710 --> 00:12:41.720 align:start position:0%
+me on X for more information we also
+ 
+
+00:12:41.720 --> 00:12:43.430 align:start position:0%
+me on X for more information we also
+have<00:12:41.880><c> special</c><00:12:42.160><c> deals</c><00:12:42.480><c> available</c><00:12:42.880><c> for</c><00:12:43.040><c> small</c>
+
+00:12:43.430 --> 00:12:43.440 align:start position:0%
+have special deals available for small
+ 
+
+00:12:43.440 --> 00:12:45.710 align:start position:0%
+have special deals available for small
+startups<00:12:44.440><c> if</c><00:12:44.560><c> you're</c><00:12:44.680><c> an</c><00:12:44.880><c> Academia</c><00:12:45.440><c> and</c><00:12:45.560><c> would</c>
+
+00:12:45.710 --> 00:12:45.720 align:start position:0%
+startups if you're an Academia and would
+ 
+
+00:12:45.720 --> 00:12:48.230 align:start position:0%
+startups if you're an Academia and would
+like<00:12:45.839><c> to</c><00:12:46.040><c> collaborate</c><00:12:46.760><c> let</c><00:12:46.880><c> us</c><00:12:47.079><c> know</c><00:12:47.920><c> puffer</c>
+
+00:12:48.230 --> 00:12:48.240 align:start position:0%
+like to collaborate let us know puffer
+ 
+
+00:12:48.240 --> 00:12:49.910 align:start position:0%
+like to collaborate let us know puffer
+AI<00:12:48.560><c> provides</c><00:12:48.880><c> free</c><00:12:49.120><c> support</c><00:12:49.399><c> to</c><00:12:49.519><c> multiple</c>
+
+00:12:49.910 --> 00:12:49.920 align:start position:0%
+AI provides free support to multiple
+ 
+
+00:12:49.920 --> 00:12:51.910 align:start position:0%
+AI provides free support to multiple
+academic<00:12:50.320><c> labs</c><00:12:50.839><c> and</c><00:12:50.959><c> we</c><00:12:51.120><c> intend</c><00:12:51.360><c> to</c><00:12:51.560><c> expand</c>
+
+00:12:51.910 --> 00:12:51.920 align:start position:0%
+academic labs and we intend to expand
+ 
+
+00:12:51.920 --> 00:12:54.189 align:start position:0%
+academic labs and we intend to expand
+this<00:12:52.160><c> program</c><00:12:52.480><c> in</c><00:12:52.560><c> the</c><00:12:52.760><c> future</c><00:12:53.760><c> and</c><00:12:53.880><c> if</c><00:12:54.000><c> you're</c>
+
+00:12:54.189 --> 00:12:54.199 align:start position:0%
+this program in the future and if you're
+ 
+
+00:12:54.199 --> 00:12:55.269 align:start position:0%
+this program in the future and if you're
+just<00:12:54.360><c> generally</c><00:12:54.800><c> interested</c><00:12:55.160><c> in</c>
+
+00:12:55.269 --> 00:12:55.279 align:start position:0%
+just generally interested in
+ 
+
+00:12:55.279 --> 00:12:57.110 align:start position:0%
+just generally interested in
+reinforcement<00:12:55.880><c> learning</c><00:12:56.480><c> you</c><00:12:56.600><c> can</c><00:12:56.760><c> follow</c><00:12:57.000><c> me</c>
+
+00:12:57.110 --> 00:12:57.120 align:start position:0%
+reinforcement learning you can follow me
+ 
+
+00:12:57.120 --> 00:13:00.110 align:start position:0%
+reinforcement learning you can follow me
+on<00:12:57.279><c> X</c><00:12:57.920><c> chat</c><00:12:58.160><c> with</c><00:12:58.320><c> us</c><00:12:58.440><c> on</c><00:12:58.639><c> Discord</c><00:12:59.160><c> .</c><00:12:59.360><c> g/p</c>
+
+00:13:00.110 --> 00:13:00.120 align:start position:0%
+on X chat with us on Discord . g/p
+ 
+
+00:13:00.120 --> 00:13:02.069 align:start position:0%
+on X chat with us on Discord . g/p
+puffer<00:13:00.760><c> and</c><00:13:00.880><c> swing</c><00:13:01.160><c> by</c><00:13:01.279><c> the</c><00:13:01.399><c> dev</c><00:13:01.600><c> streams</c><00:13:01.959><c> to</c>
+
+00:13:02.069 --> 00:13:02.079 align:start position:0%
+puffer and swing by the dev streams to
+ 
+
+00:13:02.079 --> 00:13:04.550 align:start position:0%
+puffer and swing by the dev streams to
+see<00:13:02.279><c> many</c><00:13:02.440><c> of</c><00:13:02.560><c> these</c><00:13:02.720><c> tools</c><00:13:03.000><c> being</c><00:13:03.199><c> built</c><00:13:03.560><c> live</c>
+
+00:13:04.550 --> 00:13:04.560 align:start position:0%
+see many of these tools being built live
+ 
+
+00:13:04.560 --> 00:13:06.110 align:start position:0%
+see many of these tools being built live
+thank<00:13:04.720><c> you</c><00:13:04.800><c> for</c><00:13:04.959><c> your</c><00:13:05.120><c> interest</c><00:13:05.760><c> and</c><00:13:05.920><c> don't</c>
+
+00:13:06.110 --> 00:13:06.120 align:start position:0%
+thank you for your interest and don't
+ 
+
+00:13:06.120 --> 00:13:10.240 align:start position:0%
+thank you for your interest and don't
+forget<00:13:06.720><c> to</c><00:13:06.880><c> feed</c><00:13:07.120><c> the</c><00:13:07.240><c> puffer</c>
+

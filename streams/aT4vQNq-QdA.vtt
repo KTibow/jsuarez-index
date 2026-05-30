@@ -1,0 +1,576 @@
+WEBVTT
+
+NOTE
+metadata:
+title: Coding a MOBA for AI/RL to play, Dev Day #5
+id: aT4vQNq-QdA
+url: https://www.youtube.com/watch?v=aT4vQNq-QdA
+date: 2024-07-19T23:27:08+00:00
+language: en
+Kind: captions
+Language: en
+
+00:00:02.879 --> 00:00:08.070 align:start position:0%
+ 
+are<00:00:03.080><c> we</c>
+
+00:00:08.070 --> 00:00:08.080 align:start position:0%
+ 
+ 
+
+00:00:08.080 --> 00:00:11.390 align:start position:0%
+ 
+good
+
+00:00:11.390 --> 00:00:11.400 align:start position:0%
+ 
+ 
+
+00:00:11.400 --> 00:00:13.230 align:start position:0%
+ 
+huh
+
+00:00:13.230 --> 00:00:13.240 align:start position:0%
+huh
+ 
+
+00:00:13.240 --> 00:00:22.230 align:start position:0%
+huh
+uh<00:00:14.240><c> I</c><00:00:14.360><c> think</c><00:00:14.559><c> we're</c>
+
+00:00:22.230 --> 00:00:22.240 align:start position:0%
+ 
+ 
+
+00:00:22.240 --> 00:00:24.870 align:start position:0%
+ 
+back<00:00:23.240><c> that's</c><00:00:23.519><c> was</c>
+
+00:00:24.870 --> 00:00:24.880 align:start position:0%
+back that's was
+ 
+
+00:00:24.880 --> 00:00:27.070 align:start position:0%
+back that's was
+weird<00:00:25.880><c> internet</c><00:00:26.240><c> didn't</c><00:00:26.519><c> go</c><00:00:26.679><c> down</c><00:00:26.880><c> I</c><00:00:26.960><c> think</c>
+
+00:00:27.070 --> 00:00:27.080 align:start position:0%
+weird internet didn't go down I think
+ 
+
+00:00:27.080 --> 00:00:52.630 align:start position:0%
+weird internet didn't go down I think
+restream<00:00:27.640><c> iio</c><00:00:27.960><c> went</c><00:00:28.160><c> down</c><00:00:28.320><c> for</c><00:00:28.519><c> a</c><00:00:28.720><c> second</c>
+
+00:00:52.630 --> 00:00:52.640 align:start position:0%
+ 
+ 
+
+00:00:52.640 --> 00:01:18.630 align:start position:0%
+ 
+h
+
+00:01:18.630 --> 00:01:18.640 align:start position:0%
+ 
+ 
+
+00:01:18.640 --> 00:01:21.510 align:start position:0%
+ 
+okay<00:01:19.640><c> well</c><00:01:19.840><c> view</c><00:01:20.079><c> count</c><00:01:20.320><c> is</c><00:01:20.479><c> working</c><00:01:20.920><c> again</c><00:01:21.280><c> so</c>
+
+00:01:21.510 --> 00:01:21.520 align:start position:0%
+okay well view count is working again so
+ 
+
+00:01:21.520 --> 00:01:24.109 align:start position:0%
+okay well view count is working again so
+I<00:01:21.720><c> guess</c><00:01:22.200><c> uh</c><00:01:23.000><c> I</c><00:01:23.079><c> don't</c><00:01:23.240><c> know</c><00:01:23.400><c> it</c><00:01:23.479><c> went</c><00:01:23.720><c> down</c><00:01:23.960><c> for</c>
+
+00:01:24.109 --> 00:01:24.119 align:start position:0%
+I guess uh I don't know it went down for
+ 
+
+00:01:24.119 --> 00:01:26.109 align:start position:0%
+I guess uh I don't know it went down for
+a<00:01:24.280><c> second</c><00:01:24.600><c> that</c><00:01:24.720><c> was</c><00:01:24.920><c> weird</c><00:01:25.680><c> wasn't</c><00:01:25.960><c> my</c>
+
+00:01:26.109 --> 00:01:26.119 align:start position:0%
+a second that was weird wasn't my
+ 
+
+00:01:26.119 --> 00:01:45.069 align:start position:0%
+a second that was weird wasn't my
+internet
+
+00:01:45.069 --> 00:01:45.079 align:start position:0%
+ 
+ 
+
+00:01:45.079 --> 00:02:11.830 align:start position:0%
+ 
+on
+
+00:02:11.830 --> 00:02:11.840 align:start position:0%
+ 
+ 
+
+00:02:11.840 --> 00:02:13.390 align:start position:0%
+ 
+what<00:02:12.000><c> was</c><00:02:12.200><c> left</c><00:02:12.360><c> on</c><00:02:12.480><c> the</c><00:02:12.599><c> to-do</c><00:02:13.040><c> list</c><00:02:13.239><c> to</c>
+
+00:02:13.390 --> 00:02:13.400 align:start position:0%
+what was left on the to-do list to
+ 
+
+00:02:13.400 --> 00:02:16.869 align:start position:0%
+what was left on the to-do list to
+implement
+
+00:02:16.869 --> 00:02:16.879 align:start position:0%
+ 
+ 
+
+00:02:16.879 --> 00:02:37.229 align:start position:0%
+ 
+anyways<00:02:17.879><c> let's</c><00:02:18.120><c> go</c><00:02:18.319><c> check</c><00:02:18.519><c> the</c><00:02:18.680><c> dock</c>
+
+00:02:37.229 --> 00:02:37.239 align:start position:0%
+ 
+ 
+
+00:02:37.239 --> 00:02:40.390 align:start position:0%
+ 
+we<00:02:37.400><c> don't</c><00:02:37.560><c> have</c><00:02:37.680><c> the</c>
+
+00:02:40.390 --> 00:02:40.400 align:start position:0%
+ 
+ 
+
+00:02:40.400 --> 00:02:44.149 align:start position:0%
+ 
+Nexus<00:02:41.400><c> that's</c><00:02:41.599><c> not</c><00:02:41.840><c> that</c>
+
+00:02:44.149 --> 00:02:44.159 align:start position:0%
+ 
+ 
+
+00:02:44.159 --> 00:02:48.229 align:start position:0%
+ 
+hard<00:02:45.159><c> we</c><00:02:45.319><c> got</c><00:02:45.599><c> this</c><00:02:45.879><c> we</c><00:02:46.040><c> got</c><00:02:46.720><c> this</c><00:02:47.720><c> not</c><00:02:47.920><c> doing</c>
+
+00:02:48.229 --> 00:02:48.239 align:start position:0%
+hard we got this we got this not doing
+ 
+
+00:02:48.239 --> 00:02:50.790 align:start position:0%
+hard we got this we got this not doing
+that<00:02:48.400><c> screw</c>
+
+00:02:50.790 --> 00:02:50.800 align:start position:0%
+that screw
+ 
+
+00:02:50.800 --> 00:02:55.509 align:start position:0%
+that screw
+that<00:02:51.800><c> uh</c><00:02:52.519><c> Missing</c>
+
+00:02:55.509 --> 00:02:55.519 align:start position:0%
+ 
+ 
+
+00:02:55.519 --> 00:02:58.830 align:start position:0%
+ 
+stuff<00:02:56.599><c> missing</c>
+
+00:02:58.830 --> 00:02:58.840 align:start position:0%
+stuff missing
+ 
+
+00:02:58.840 --> 00:03:01.910 align:start position:0%
+stuff missing
+features<00:03:00.159><c> leveling</c><00:03:01.159><c> it's</c>
+
+00:03:01.910 --> 00:03:01.920 align:start position:0%
+features leveling it's
+ 
+
+00:03:01.920 --> 00:03:05.390 align:start position:0%
+features leveling it's
+important<00:03:02.920><c> we've</c><00:03:03.159><c> got</c><00:03:03.680><c> Oops</c><00:03:04.200><c> why</c><00:03:04.720><c> why</c><00:03:04.799><c> do</c><00:03:05.040><c> this</c>
+
+00:03:05.390 --> 00:03:05.400 align:start position:0%
+important we've got Oops why why do this
+ 
+
+00:03:05.400 --> 00:03:08.309 align:start position:0%
+important we've got Oops why why do this
+stupid<00:03:05.760><c> thing</c>
+
+00:03:08.309 --> 00:03:08.319 align:start position:0%
+ 
+ 
+
+00:03:08.319 --> 00:03:11.990 align:start position:0%
+ 
+happen<00:03:09.319><c> got</c><00:03:09.519><c> leveling</c><00:03:10.319><c> we've</c><00:03:10.680><c> got</c>
+
+00:03:11.990 --> 00:03:12.000 align:start position:0%
+happen got leveling we've got
+ 
+
+00:03:12.000 --> 00:03:15.030 align:start position:0%
+happen got leveling we've got
+um
+
+00:03:15.030 --> 00:03:15.040 align:start position:0%
+ 
+ 
+
+00:03:15.040 --> 00:03:18.589 align:start position:0%
+ 
+tuning<00:03:16.040><c> idea</c><00:03:16.480><c> for</c><00:03:16.760><c> pathing</c><00:03:17.239><c> before</c>
+
+00:03:18.589 --> 00:03:18.599 align:start position:0%
+tuning idea for pathing before
+ 
+
+00:03:18.599 --> 00:03:20.949 align:start position:0%
+tuning idea for pathing before
+runtime<00:03:19.599><c> compute</c><00:03:19.959><c> shortest</c><00:03:20.400><c> paths</c><00:03:20.680><c> between</c>
+
+00:03:20.949 --> 00:03:20.959 align:start position:0%
+runtime compute shortest paths between
+ 
+
+00:03:20.959 --> 00:03:23.110 align:start position:0%
+runtime compute shortest paths between
+all<00:03:21.120><c> way</c><00:03:21.360><c> points</c><00:03:21.560><c> is</c><00:03:21.640><c> a</c><00:03:21.760><c> pre-processing</c>
+
+00:03:23.110 --> 00:03:23.120 align:start position:0%
+all way points is a pre-processing
+ 
+
+00:03:23.120 --> 00:03:25.990 align:start position:0%
+all way points is a pre-processing
+step<00:03:24.120><c> then</c><00:03:24.440><c> have</c><00:03:24.720><c> the</c><00:03:24.879><c> creeps</c><00:03:25.280><c> follow</c><00:03:25.799><c> the</c>
+
+00:03:25.990 --> 00:03:26.000 align:start position:0%
+step then have the creeps follow the
+ 
+
+00:03:26.000 --> 00:03:32.350 align:start position:0%
+step then have the creeps follow the
+pre-computed<00:03:26.640><c> path</c><00:03:26.840><c> with</c><00:03:27.040><c> B</c><00:03:27.360><c> sck</c><00:03:27.720><c> pit</c><00:03:28.000><c> control</c>
+
+00:03:32.350 --> 00:03:32.360 align:start position:0%
+ 
+ 
+
+00:03:32.360 --> 00:03:36.910 align:start position:0%
+ 
+that<00:03:32.519><c> would</c><00:03:32.720><c> be</c><00:03:32.879><c> a</c><00:03:33.000><c> smart</c><00:03:33.280><c> thing</c><00:03:33.439><c> to</c><00:03:33.599><c> do</c>
+
+00:03:36.910 --> 00:03:36.920 align:start position:0%
+ 
+ 
+
+00:03:36.920 --> 00:03:39.830 align:start position:0%
+ 
+yes<00:03:37.920><c> you're</c><00:03:38.319><c> completely</c><00:03:38.879><c> right</c><00:03:39.239><c> um</c><00:03:39.439><c> I</c><00:03:39.519><c> could</c>
+
+00:03:39.830 --> 00:03:39.840 align:start position:0%
+yes you're completely right um I could
+ 
+
+00:03:39.840 --> 00:03:41.470 align:start position:0%
+yes you're completely right um I could
+compute<00:03:40.360><c> I</c><00:03:40.439><c> could</c>
+
+00:03:41.470 --> 00:03:41.480 align:start position:0%
+compute I could
+ 
+
+00:03:41.480 --> 00:03:43.670 align:start position:0%
+compute I could
+pre-compute
+
+00:03:43.670 --> 00:03:43.680 align:start position:0%
+pre-compute
+ 
+
+00:03:43.680 --> 00:03:46.270 align:start position:0%
+pre-compute
+the<00:03:44.680><c> I</c><00:03:44.760><c> could</c><00:03:44.959><c> literally</c><00:03:45.360><c> pre</c>
+
+00:03:46.270 --> 00:03:46.280 align:start position:0%
+the I could literally pre
+ 
+
+00:03:46.280 --> 00:03:49.550 align:start position:0%
+the I could literally pre
+compute<00:03:47.280><c> shortest</c><00:03:47.879><c> path</c><00:03:48.799><c> from</c><00:03:49.120><c> every</c><00:03:49.360><c> point</c>
+
+00:03:49.550 --> 00:03:49.560 align:start position:0%
+compute shortest path from every point
+ 
+
+00:03:49.560 --> 00:03:52.589 align:start position:0%
+compute shortest path from every point
+on<00:03:49.720><c> the</c><00:03:49.879><c> map</c><00:03:50.080><c> to</c><00:03:50.239><c> every</c><00:03:50.519><c> Waypoint</c><00:03:51.480><c> right</c><00:03:52.480><c> that</c>
+
+00:03:52.589 --> 00:03:52.599 align:start position:0%
+on the map to every Waypoint right that
+ 
+
+00:03:52.599 --> 00:04:06.309 align:start position:0%
+on the map to every Waypoint right that
+wouldn't<00:03:52.879><c> even</c><00:03:53.079><c> be</c><00:03:53.280><c> that</c><00:03:53.480><c> bad</c>
+
+00:04:06.309 --> 00:04:06.319 align:start position:0%
+ 
+ 
+
+00:04:06.319 --> 00:04:08.390 align:start position:0%
+ 
+you<00:04:06.519><c> can't</c><00:04:06.799><c> compute</c><00:04:07.400><c> shortest</c><00:04:08.000><c> path</c><00:04:08.200><c> from</c>
+
+00:04:08.390 --> 00:04:08.400 align:start position:0%
+you can't compute shortest path from
+ 
+
+00:04:08.400 --> 00:04:11.030 align:start position:0%
+you can't compute shortest path from
+every<00:04:08.599><c> Waypoint</c><00:04:09.000><c> to</c><00:04:09.239><c> every</c>
+
+00:04:11.030 --> 00:04:11.040 align:start position:0%
+every Waypoint to every
+ 
+
+00:04:11.040 --> 00:04:14.270 align:start position:0%
+every Waypoint to every
+tile<00:04:12.040><c> but</c><00:04:12.159><c> you</c><00:04:12.280><c> can</c><00:04:12.439><c> do</c><00:04:12.640><c> it</c><00:04:12.879><c> from</c><00:04:13.480><c> every</c><00:04:14.000><c> tile</c>
+
+00:04:14.270 --> 00:04:14.280 align:start position:0%
+tile but you can do it from every tile
+ 
+
+00:04:14.280 --> 00:04:19.909 align:start position:0%
+tile but you can do it from every tile
+to<00:04:14.480><c> every</c>
+
+00:04:19.909 --> 00:04:19.919 align:start position:0%
+ 
+ 
+
+00:04:19.919 --> 00:04:25.950 align:start position:0%
+ 
+Waypoint<00:04:20.919><c> that's</c><00:04:21.079><c> a</c><00:04:21.199><c> good</c>
+
+00:04:25.950 --> 00:04:25.960 align:start position:0%
+ 
+ 
+
+00:04:25.960 --> 00:04:28.070 align:start position:0%
+ 
+idea<00:04:26.960><c> and</c><00:04:27.040><c> then</c><00:04:27.199><c> we</c><00:04:27.320><c> wouldn't</c><00:04:27.560><c> even</c><00:04:27.759><c> need</c><00:04:27.960><c> the</c>
+
+00:04:28.070 --> 00:04:28.080 align:start position:0%
+idea and then we wouldn't even need the
+ 
+
+00:04:28.080 --> 00:04:30.870 align:start position:0%
+idea and then we wouldn't even need the
+linear<00:04:28.520><c> pathing</c><00:04:28.880><c> cuz</c><00:04:29.039><c> that's</c><00:04:29.199><c> just</c><00:04:29.320><c> a</c><00:04:29.440><c> look</c><00:04:29.880><c> up</c>
+
+00:04:30.870 --> 00:04:30.880 align:start position:0%
+linear pathing cuz that's just a look up
+ 
+
+00:04:30.880 --> 00:04:33.110 align:start position:0%
+linear pathing cuz that's just a look up
+right<00:04:31.880><c> I'm</c><00:04:32.000><c> not</c><00:04:32.120><c> going</c><00:04:32.240><c> to</c><00:04:32.360><c> do</c><00:04:32.520><c> that</c><00:04:32.720><c> right</c><00:04:32.880><c> now</c>
+
+00:04:33.110 --> 00:04:33.120 align:start position:0%
+right I'm not going to do that right now
+ 
+
+00:04:33.120 --> 00:04:36.790 align:start position:0%
+right I'm not going to do that right now
+cuz<00:04:33.280><c> that's</c><00:04:33.520><c> actually</c><00:04:33.720><c> a</c><00:04:33.840><c> fair</c><00:04:34.039><c> bit</c><00:04:34.160><c> of</c><00:04:34.840><c> work</c>
+
+00:04:36.790 --> 00:04:36.800 align:start position:0%
+cuz that's actually a fair bit of work
+ 
+
+00:04:36.800 --> 00:04:40.950 align:start position:0%
+cuz that's actually a fair bit of work
+um<00:04:37.800><c> but</c><00:04:37.960><c> yeah</c><00:04:38.120><c> that's</c><00:04:38.240><c> a</c><00:04:38.440><c> great</c>
+
+00:04:40.950 --> 00:04:40.960 align:start position:0%
+ 
+ 
+
+00:04:40.960 --> 00:04:43.310 align:start position:0%
+ 
+idea<00:04:41.960><c> I</c><00:04:42.039><c> think</c><00:04:42.240><c> we</c><00:04:42.360><c> could</c><00:04:42.560><c> even</c><00:04:42.759><c> do</c><00:04:42.919><c> that</c><00:04:43.039><c> as</c><00:04:43.160><c> a</c>
+
+00:04:43.310 --> 00:04:43.320 align:start position:0%
+idea I think we could even do that as a
+ 
+
+00:04:43.320 --> 00:04:45.029 align:start position:0%
+idea I think we could even do that as a
+pre-processing
+
+00:04:45.029 --> 00:04:45.039 align:start position:0%
+pre-processing
+ 
+
+00:04:45.039 --> 00:04:47.029 align:start position:0%
+pre-processing
+script<00:04:46.039><c> right</c><00:04:46.160><c> we</c><00:04:46.280><c> could</c><00:04:46.400><c> literally</c><00:04:46.800><c> just</c><00:04:46.880><c> do</c>
+
+00:04:47.029 --> 00:04:47.039 align:start position:0%
+script right we could literally just do
+ 
+
+00:04:47.039 --> 00:04:50.029 align:start position:0%
+script right we could literally just do
+that<00:04:47.160><c> as</c><00:04:47.280><c> a</c><00:04:47.440><c> pre-processing</c><00:04:48.360><c> script</c><00:04:49.360><c> um</c><00:04:49.919><c> we</c>
+
+00:04:50.029 --> 00:04:50.039 align:start position:0%
+that as a pre-processing script um we
+ 
+
+00:04:50.039 --> 00:04:51.790 align:start position:0%
+that as a pre-processing script um we
+can<00:04:50.240><c> just</c><00:04:50.400><c> have</c><00:04:50.560><c> a</c><00:04:50.800><c> a</c><00:04:50.960><c> python</c><00:04:51.360><c> script</c><00:04:51.680><c> that</c>
+
+00:04:51.790 --> 00:04:51.800 align:start position:0%
+can just have a a python script that
+ 
+
+00:04:51.800 --> 00:04:55.670 align:start position:0%
+can just have a a python script that
+takes<00:04:52.000><c> in</c><00:04:52.199><c> the</c><00:04:52.360><c> map</c><00:04:53.240><c> it'll</c><00:04:53.720><c> return</c><00:04:54.320><c> an</c><00:04:54.680><c> array</c>
+
+00:04:55.670 --> 00:04:55.680 align:start position:0%
+takes in the map it'll return an array
+ 
+
+00:04:55.680 --> 00:04:57.550 align:start position:0%
+takes in the map it'll return an array
+will<00:04:55.840><c> you</c><00:04:56.000><c> have</c><00:04:56.280><c> like</c><00:04:56.400><c> you</c><00:04:56.520><c> know</c><00:04:56.840><c> the</c><00:04:57.080><c> the</c><00:04:57.199><c> move</c>
+
+00:04:57.550 --> 00:04:57.560 align:start position:0%
+will you have like you know the the move
+ 
+
+00:04:57.560 --> 00:05:01.710 align:start position:0%
+will you have like you know the the move
+that<00:04:57.639><c> you</c><00:04:57.759><c> want</c><00:04:57.880><c> to</c><00:04:58.080><c> take</c><00:04:58.280><c> or</c><00:04:58.479><c> whatever</c>
+
+00:05:01.710 --> 00:05:01.720 align:start position:0%
+ 
+ 
+
+00:05:01.720 --> 00:05:24.749 align:start position:0%
+ 
+yeah<00:05:01.880><c> it's</c><00:05:02.080><c> literally</c><00:05:02.400><c> just</c><00:05:02.720><c> returns</c><00:05:02.960><c> an</c>
+
+00:05:24.749 --> 00:05:24.759 align:start position:0%
+ 
+ 
+
+00:05:24.759 --> 00:05:26.790 align:start position:0%
+ 
+array<00:05:25.759><c> I</c><00:05:25.840><c> don't</c><00:05:25.960><c> know</c><00:05:26.120><c> why</c><00:05:26.199><c> I</c><00:05:26.319><c> didn't</c><00:05:26.520><c> think</c><00:05:26.639><c> of</c>
+
+00:05:26.790 --> 00:05:26.800 align:start position:0%
+array I don't know why I didn't think of
+ 
+
+00:05:26.800 --> 00:05:29.150 align:start position:0%
+array I don't know why I didn't think of
+pre-computing<00:05:27.479><c> pathing</c><00:05:28.479><c> that's</c><00:05:28.600><c> a</c><00:05:28.800><c> very</c><00:05:29.000><c> good</c>
+
+00:05:29.150 --> 00:05:29.160 align:start position:0%
+pre-computing pathing that's a very good
+ 
+
+00:05:29.160 --> 00:05:35.670 align:start position:0%
+pre-computing pathing that's a very good
+suggestion
+
+00:05:35.670 --> 00:05:35.680 align:start position:0%
+ 
+ 
+
+00:05:35.680 --> 00:05:37.110 align:start position:0%
+ 
+and<00:05:35.800><c> then</c><00:05:35.919><c> we</c><00:05:36.039><c> won't</c><00:05:36.240><c> have</c><00:05:36.319><c> to</c><00:05:36.479><c> change</c><00:05:36.759><c> the</c><00:05:36.919><c> map</c>
+
+00:05:37.110 --> 00:05:37.120 align:start position:0%
+and then we won't have to change the map
+ 
+
+00:05:37.120 --> 00:05:38.390 align:start position:0%
+and then we won't have to change the map
+at<00:05:37.199><c> all</c><00:05:37.360><c> we'll</c><00:05:37.520><c> be</c><00:05:37.600><c> able</c><00:05:37.800><c> to</c><00:05:37.880><c> use</c><00:05:38.039><c> the</c><00:05:38.160><c> exact</c>
+
+00:05:38.390 --> 00:05:38.400 align:start position:0%
+at all we'll be able to use the exact
+ 
+
+00:05:38.400 --> 00:05:56.670 align:start position:0%
+at all we'll be able to use the exact
+DOTA
+
+00:05:56.670 --> 00:05:56.680 align:start position:0%
+ 
+ 
+
+00:05:56.680 --> 00:06:01.070 align:start position:0%
+ 
+map<00:05:57.680><c> how</c><00:05:57.800><c> does</c><00:05:58.039><c> vision</c><00:05:58.400><c> work</c><00:05:58.600><c> in</c><00:05:58.759><c> the</c><00:05:58.960><c> forest</c>
+
+00:06:01.070 --> 00:06:01.080 align:start position:0%
+map how does vision work in the forest
+ 
+
+00:06:01.080 --> 00:06:02.830 align:start position:0%
+map how does vision work in the forest
+is<00:06:01.199><c> it</c><00:06:01.400><c> like</c><00:06:01.560><c> as</c><00:06:01.680><c> soon</c><00:06:01.880><c> as</c><00:06:02.000><c> you</c><00:06:02.199><c> step</c><00:06:02.520><c> into</c><00:06:02.759><c> the</c>
+
+00:06:02.830 --> 00:06:02.840 align:start position:0%
+is it like as soon as you step into the
+ 
+
+00:06:02.840 --> 00:06:20.629 align:start position:0%
+is it like as soon as you step into the
+forest<00:06:03.280><c> you</c><00:06:03.400><c> can</c><00:06:03.759><c> see</c><00:06:04.759><c> the</c>
+
+00:06:20.629 --> 00:06:20.639 align:start position:0%
+ 
+ 
+
+00:06:20.639 --> 00:06:23.749 align:start position:0%
+ 
+enemy<00:06:21.639><c> is</c><00:06:21.759><c> it</c><00:06:21.960><c> just</c><00:06:22.240><c> like</c><00:06:23.240><c> oh</c><00:06:23.440><c> there's</c>
+
+00:06:23.749 --> 00:06:23.759 align:start position:0%
+enemy is it just like oh there's
+ 
+
+00:06:23.759 --> 00:06:30.110 align:start position:0%
+enemy is it just like oh there's
+actually<00:06:24.080><c> vision</c><00:06:24.360><c> checks</c><00:06:24.720><c> and</c><00:06:24.960><c> stuff</c><00:06:25.280><c> huh</c>
+
+00:06:30.110 --> 00:06:30.120 align:start position:0%
+ 
+ 
+
+00:06:30.120 --> 00:06:33.360 align:start position:0%
+ 
+that's<00:06:30.360><c> hard</c>
+

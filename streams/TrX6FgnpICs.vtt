@@ -1,0 +1,432 @@
+WEBVTT
+
+NOTE
+metadata:
+title: Reinforcement Learning Dev on PufferLib
+id: TrX6FgnpICs
+url: https://www.youtube.com/watch?v=TrX6FgnpICs
+date: 2025-05-20T18:07:15+00:00
+language: en
+Kind: captions
+Language: en
+
+00:00:00.800 --> 00:00:02.350 align:start position:0%
+ 
+I<00:00:01.040><c> am</c>
+
+00:00:02.350 --> 00:00:02.360 align:start position:0%
+I am
+ 
+
+00:00:02.360 --> 00:00:06.430 align:start position:0%
+I am
+back.<00:00:03.360><c> Uh,</c><00:00:03.760><c> we</c><00:00:04.000><c> still</c><00:00:04.160><c> have</c><00:00:04.240><c> the</c><00:00:04.400><c> same</c>
+
+00:00:06.430 --> 00:00:06.440 align:start position:0%
+back. Uh, we still have the same
+ 
+
+00:00:06.440 --> 00:00:15.310 align:start position:0%
+back. Uh, we still have the same
+problem.<00:00:07.440><c> We</c><00:00:07.680><c> still</c><00:00:07.919><c> have</c><00:00:08.160><c> the</c><00:00:08.639><c> exact</c><00:00:09.120><c> same</c>
+
+00:00:15.310 --> 00:00:15.320 align:start position:0%
+ 
+ 
+
+00:00:15.320 --> 00:00:20.189 align:start position:0%
+ 
+problem.<00:00:16.320><c> Very</c>
+
+00:00:20.189 --> 00:00:20.199 align:start position:0%
+ 
+ 
+
+00:00:20.199 --> 00:00:22.710 align:start position:0%
+ 
+weird.<00:00:21.199><c> So,</c><00:00:21.359><c> is</c><00:00:21.600><c> this</c><00:00:21.760><c> like</c><00:00:22.000><c> some</c><00:00:22.240><c> cache</c><00:00:22.560><c> in</c>
+
+00:00:22.710 --> 00:00:22.720 align:start position:0%
+weird. So, is this like some cache in
+ 
+
+00:00:22.720 --> 00:00:24.390 align:start position:0%
+weird. So, is this like some cache in
+the<00:00:22.880><c> Docker</c><00:00:23.279><c> container</c><00:00:23.680><c> itself</c><00:00:24.160><c> or</c>
+
+00:00:24.390 --> 00:00:24.400 align:start position:0%
+the Docker container itself or
+ 
+
+00:00:24.400 --> 00:00:31.990 align:start position:0%
+the Docker container itself or
+something?
+
+00:00:31.990 --> 00:00:32.000 align:start position:0%
+ 
+ 
+
+00:00:32.000 --> 00:01:04.630 align:start position:0%
+ 
+this<00:00:32.160><c> under</c><00:00:32.480><c> the</c><00:00:32.719><c> camera.</c>
+
+00:01:04.630 --> 00:01:04.640 align:start position:0%
+ 
+ 
+
+00:01:04.640 --> 00:01:08.830 align:start position:0%
+ 
+This<00:01:04.879><c> seems</c><00:01:05.119><c> like</c><00:01:05.280><c> DNS,</c>
+
+00:01:08.830 --> 00:01:08.840 align:start position:0%
+ 
+ 
+
+00:01:08.840 --> 00:01:11.270 align:start position:0%
+ 
+right?<00:01:09.840><c> Like</c><00:01:10.080><c> it's</c><00:01:10.320><c> clearly</c><00:01:10.640><c> like</c><00:01:10.960><c> something</c>
+
+00:01:11.270 --> 00:01:11.280 align:start position:0%
+right? Like it's clearly like something
+ 
+
+00:01:11.280 --> 00:01:16.270 align:start position:0%
+right? Like it's clearly like something
+wrong<00:01:11.600><c> with</c><00:01:11.760><c> the</c><00:01:12.000><c> whole</c>
+
+00:01:16.270 --> 00:01:16.280 align:start position:0%
+ 
+ 
+
+00:01:16.280 --> 00:01:20.030 align:start position:0%
+ 
+system.<00:01:17.280><c> Like</c><00:01:17.600><c> look,</c><00:01:17.920><c> X</c><00:01:18.320><c> doesn't</c>
+
+00:01:20.030 --> 00:01:20.040 align:start position:0%
+system. Like look, X doesn't
+ 
+
+00:01:20.040 --> 00:01:31.990 align:start position:0%
+system. Like look, X doesn't
+load.<00:01:21.040><c> I</c><00:01:21.360><c> have</c><00:01:21.520><c> internet.</c>
+
+00:01:31.990 --> 00:01:32.000 align:start position:0%
+ 
+ 
+
+00:01:32.000 --> 00:01:33.590 align:start position:0%
+ 
+I<00:01:32.240><c> mean,</c><00:01:32.400><c> this</c><00:01:32.640><c> would</c><00:01:32.799><c> just</c><00:01:32.960><c> be</c><00:01:33.119><c> cash,</c>
+
+00:01:33.590 --> 00:01:33.600 align:start position:0%
+I mean, this would just be cash,
+ 
+
+00:01:33.600 --> 00:01:59.270 align:start position:0%
+I mean, this would just be cash,
+wouldn't<00:01:33.840><c> it?</c>
+
+00:01:59.270 --> 00:01:59.280 align:start position:0%
+ 
+ 
+
+00:01:59.280 --> 00:02:00.950 align:start position:0%
+ 
+Yeah.<00:01:59.600><c> I</c><00:01:59.840><c> like</c><00:02:00.079><c> something's</c><00:02:00.560><c> got</c><00:02:00.719><c> to</c><00:02:00.880><c> be</c>
+
+00:02:00.950 --> 00:02:00.960 align:start position:0%
+Yeah. I like something's got to be
+ 
+
+00:02:00.960 --> 00:02:03.749 align:start position:0%
+Yeah. I like something's got to be
+weirdly<00:02:01.439><c> cached</c><00:02:01.840><c> or</c><00:02:02.079><c> like</c><00:02:02.520><c> Right.</c><00:02:03.520><c> I</c><00:02:03.680><c> don't</c>
+
+00:02:03.749 --> 00:02:03.759 align:start position:0%
+weirdly cached or like Right. I don't
+ 
+
+00:02:03.759 --> 00:02:10.150 align:start position:0%
+weirdly cached or like Right. I don't
+know<00:02:03.840><c> what</c><00:02:04.000><c> the</c><00:02:04.159><c> hell</c><00:02:04.320><c> else</c><00:02:04.560><c> it</c><00:02:04.719><c> would</c><00:02:04.880><c> be.</c>
+
+00:02:10.150 --> 00:02:10.160 align:start position:0%
+ 
+ 
+
+00:02:10.160 --> 00:02:13.229 align:start position:0%
+ 
+I<00:02:10.399><c> mean,</c><00:02:10.479><c> it's</c><00:02:10.800><c> like</c><00:02:10.959><c> I</c><00:02:11.200><c> have</c>
+
+00:02:13.229 --> 00:02:13.239 align:start position:0%
+I mean, it's like I have
+ 
+
+00:02:13.239 --> 00:02:15.589 align:start position:0%
+I mean, it's like I have
+internet,<00:02:14.239><c> but</c><00:02:14.560><c> it's</c><00:02:14.720><c> not</c><00:02:14.879><c> just</c><00:02:15.120><c> browser</c>
+
+00:02:15.589 --> 00:02:15.599 align:start position:0%
+internet, but it's not just browser
+ 
+
+00:02:15.599 --> 00:02:17.510 align:start position:0%
+internet, but it's not just browser
+cache<00:02:16.000><c> because</c><00:02:16.239><c> I'm</c><00:02:16.480><c> getting</c><00:02:16.720><c> it</c><00:02:16.879><c> here</c><00:02:17.200><c> on</c>
+
+00:02:17.510 --> 00:02:17.520 align:start position:0%
+cache because I'm getting it here on
+ 
+
+00:02:17.520 --> 00:02:22.030 align:start position:0%
+cache because I'm getting it here on
+this<00:02:17.760><c> Syon</c><00:02:18.239><c> file</c><00:02:18.480><c> as</c>
+
+00:02:22.030 --> 00:02:22.040 align:start position:0%
+ 
+ 
+
+00:02:22.040 --> 00:02:46.630 align:start position:0%
+ 
+well.<00:02:23.040><c> DNS</c><00:02:23.760><c> error</c>
+
+00:02:46.630 --> 00:02:46.640 align:start position:0%
+ 
+ 
+
+00:02:46.640 --> 00:02:48.710 align:start position:0%
+ 
+Well,<00:02:46.959><c> everything</c><00:02:47.280><c> is</c><00:02:47.519><c> like</c><00:02:47.760><c> super</c><00:02:48.160><c> slow</c><00:02:48.480><c> even</c>
+
+00:02:48.710 --> 00:02:48.720 align:start position:0%
+Well, everything is like super slow even
+ 
+
+00:02:48.720 --> 00:03:05.350 align:start position:0%
+Well, everything is like super slow even
+though<00:02:48.800><c> it</c><00:02:49.040><c> says</c><00:02:49.200><c> I</c><00:02:49.360><c> have</c><00:02:49.519><c> good</c><00:02:49.680><c> speeds.</c>
+
+00:03:05.350 --> 00:03:05.360 align:start position:0%
+ 
+ 
+
+00:03:05.360 --> 00:03:06.869 align:start position:0%
+ 
+But<00:03:05.599><c> why</c><00:03:05.760><c> would</c><00:03:05.920><c> this</c><00:03:06.159><c> have</c><00:03:06.319><c> just</c><00:03:06.480><c> suddenly</c>
+
+00:03:06.869 --> 00:03:06.879 align:start position:0%
+But why would this have just suddenly
+ 
+
+00:03:06.879 --> 00:03:08.350 align:start position:0%
+But why would this have just suddenly
+freaking<00:03:07.280><c> broken</c>
+
+00:03:08.350 --> 00:03:08.360 align:start position:0%
+freaking broken
+ 
+
+00:03:08.360 --> 00:03:21.550 align:start position:0%
+freaking broken
+today?<00:03:09.360><c> Isn't</c><00:03:09.599><c> that</c>
+
+00:03:21.550 --> 00:03:21.560 align:start position:0%
+ 
+ 
+
+00:03:21.560 --> 00:03:25.630 align:start position:0%
+ 
+bizarre?<00:03:22.560><c> Like</c><00:03:22.800><c> I</c><00:03:22.959><c> got</c><00:03:23.120><c> an</c><00:03:23.360><c> internet</c>
+
+00:03:25.630 --> 00:03:25.640 align:start position:0%
+bizarre? Like I got an internet
+ 
+
+00:03:25.640 --> 00:03:28.070 align:start position:0%
+bizarre? Like I got an internet
+blip.<00:03:26.640><c> Oh,</c><00:03:26.879><c> maybe</c><00:03:27.040><c> my</c><00:03:27.280><c> router</c><00:03:27.599><c> did</c><00:03:27.840><c> something</c>
+
+00:03:28.070 --> 00:03:28.080 align:start position:0%
+blip. Oh, maybe my router did something
+ 
+
+00:03:28.080 --> 00:03:29.589 align:start position:0%
+blip. Oh, maybe my router did something
+weird<00:03:28.319><c> because</c><00:03:28.560><c> there</c><00:03:28.720><c> was</c><00:03:28.879><c> like</c><00:03:29.040><c> an</c><00:03:29.200><c> internet</c>
+
+00:03:29.589 --> 00:03:29.599 align:start position:0%
+weird because there was like an internet
+ 
+
+00:03:29.599 --> 00:03:31.550 align:start position:0%
+weird because there was like an internet
+blip,
+
+00:03:31.550 --> 00:03:31.560 align:start position:0%
+blip,
+ 
+
+00:03:31.560 --> 00:03:39.390 align:start position:0%
+blip,
+right?
+
+00:03:39.390 --> 00:03:39.400 align:start position:0%
+ 
+ 
+
+00:03:39.400 --> 00:03:47.309 align:start position:0%
+ 
+Shouldn't<00:03:40.400><c> it</c><00:03:40.560><c> be</c><00:03:40.640><c> at</c>
+
+00:03:47.309 --> 00:03:47.319 align:start position:0%
+ 
+ 
+
+00:03:47.319 --> 00:03:50.830 align:start position:0%
+ 
+1270.1?<00:03:48.319><c> I</c><00:03:48.640><c> should</c><00:03:48.799><c> be</c><00:03:48.959><c> able</c><00:03:49.120><c> to</c><00:03:49.280><c> get</c><00:03:49.440><c> to</c>
+
+00:03:50.830 --> 00:03:50.840 align:start position:0%
+1270.1? I should be able to get to
+ 
+
+00:03:50.840 --> 00:03:54.350 align:start position:0%
+1270.1? I should be able to get to
+my<00:03:51.840><c> my</c>
+
+00:03:54.350 --> 00:03:54.360 align:start position:0%
+ 
+ 
+
+00:03:54.360 --> 00:04:29.430 align:start position:0%
+ 
+router.<00:03:55.440><c> The</c><00:03:55.680><c> heck?</c>
+
+00:04:29.430 --> 00:04:29.440 align:start position:0%
+ 
+ 
+
+00:04:29.440 --> 00:04:31.830 align:start position:0%
+ 
+I<00:04:29.759><c> really</c><00:04:30.080><c> prefer</c><00:04:30.479><c> not</c><00:04:30.720><c> to</c><00:04:30.880><c> have</c><00:04:31.040><c> to</c><00:04:31.199><c> reset</c><00:04:31.600><c> the</c>
+
+00:04:31.830 --> 00:04:31.840 align:start position:0%
+I really prefer not to have to reset the
+ 
+
+00:04:31.840 --> 00:04:33.710 align:start position:0%
+I really prefer not to have to reset the
+router<00:04:32.160><c> if</c><00:04:32.400><c> I</c><00:04:32.560><c> don't</c><00:04:32.800><c> have</c>
+
+00:04:33.710 --> 00:04:33.720 align:start position:0%
+router if I don't have
+ 
+
+00:04:33.720 --> 00:04:36.150 align:start position:0%
+router if I don't have
+to.<00:04:34.720><c> But</c><00:04:34.880><c> like</c><00:04:35.040><c> I</c><00:04:35.280><c> can't</c><00:04:35.440><c> look</c><00:04:35.600><c> at</c><00:04:35.680><c> this.</c><00:04:35.919><c> I</c>
+
+00:04:36.150 --> 00:04:36.160 align:start position:0%
+to. But like I can't look at this. I
+ 
+
+00:04:36.160 --> 00:04:49.909 align:start position:0%
+to. But like I can't look at this. I
+can't<00:04:36.240><c> even</c><00:04:36.479><c> get</c><00:04:36.639><c> to</c><00:04:36.800><c> it.</c>
+
+00:04:49.909 --> 00:04:49.919 align:start position:0%
+ 
+ 
+
+00:04:49.919 --> 00:04:52.390 align:start position:0%
+ 
+Oh<00:04:50.160><c> no,</c><00:04:50.320><c> I'm</c><00:04:50.560><c> dumb.</c><00:04:51.280><c> 192.</c><00:04:51.759><c> Yeah.</c><00:04:52.000><c> Yeah,</c><00:04:52.240><c> I'm</c>
+
+00:04:52.390 --> 00:04:52.400 align:start position:0%
+Oh no, I'm dumb. 192. Yeah. Yeah, I'm
+ 
+
+00:04:52.400 --> 00:05:16.270 align:start position:0%
+Oh no, I'm dumb. 192. Yeah. Yeah, I'm
+just
+
+00:05:16.270 --> 00:05:16.280 align:start position:0%
+ 
+ 
+
+00:05:16.280 --> 00:05:18.550 align:start position:0%
+ 
+dumb.<00:05:17.280><c> Doesn't</c><00:05:17.520><c> let</c><00:05:17.680><c> me</c><00:05:17.840><c> log</c><00:05:18.080><c> in</c><00:05:18.240><c> either,</c>
+
+00:05:18.550 --> 00:05:18.560 align:start position:0%
+dumb. Doesn't let me log in either,
+ 
+
+00:05:18.560 --> 00:05:28.070 align:start position:0%
+dumb. Doesn't let me log in either,
+which<00:05:18.800><c> is</c><00:05:18.960><c> kind</c><00:05:19.120><c> of</c><00:05:19.199><c> jank.</c>
+
+00:05:28.070 --> 00:05:28.080 align:start position:0%
+ 
+ 
+
+00:05:28.080 --> 00:05:46.110 align:start position:0%
+ 
+Stupid
+
+00:05:46.110 --> 00:05:46.120 align:start position:0%
+ 
+ 
+
+00:05:46.120 --> 00:05:48.550 align:start position:0%
+ 
+router.<00:05:47.120><c> I</c><00:05:47.360><c> want</c><00:05:47.520><c> to</c><00:05:47.600><c> have</c><00:05:47.759><c> to</c><00:05:47.840><c> reset</c><00:05:48.160><c> the</c><00:05:48.320><c> damn</c>
+
+00:05:48.550 --> 00:05:48.560 align:start position:0%
+router. I want to have to reset the damn
+ 
+
+00:05:48.560 --> 00:05:51.270 align:start position:0%
+router. I want to have to reset the damn
+router.
+
+00:05:51.270 --> 00:05:51.280 align:start position:0%
+router.
+ 
+
+00:05:51.280 --> 00:05:53.029 align:start position:0%
+router.
+I'm<00:05:51.520><c> just</c><00:05:51.680><c> going</c><00:05:51.759><c> to</c><00:05:51.840><c> turn</c><00:05:52.000><c> it</c><00:05:52.240><c> off</c><00:05:52.639><c> and</c><00:05:52.800><c> back</c>
+
+00:05:53.029 --> 00:05:53.039 align:start position:0%
+I'm just going to turn it off and back
+ 
+
+00:05:53.039 --> 00:05:54.550 align:start position:0%
+I'm just going to turn it off and back
+on<00:05:53.280><c> again</c><00:05:53.520><c> instead</c><00:05:53.759><c> of</c><00:05:53.919><c> actually</c><00:05:54.240><c> trying</c><00:05:54.400><c> to</c>
+
+00:05:54.550 --> 00:05:54.560 align:start position:0%
+on again instead of actually trying to
+ 
+
+00:05:54.560 --> 00:05:57.350 align:start position:0%
+on again instead of actually trying to
+doom<00:05:54.960><c> too</c><00:05:55.240><c> much.</c><00:05:56.240><c> I'll</c><00:05:56.479><c> be</c><00:05:56.639><c> back</c><00:05:56.880><c> in</c><00:05:57.039><c> a</c><00:05:57.199><c> few</c>
+
+00:05:57.350 --> 00:05:57.360 align:start position:0%
+doom too much. I'll be back in a few
+ 
+
+00:05:57.360 --> 00:05:59.510 align:start position:0%
+doom too much. I'll be back in a few
+minutes.<00:05:58.080><c> I</c><00:05:58.320><c> guess</c><00:05:58.479><c> today</c><00:05:58.720><c> is</c><00:05:58.960><c> just</c><00:05:59.120><c> internet</c>
+
+00:05:59.510 --> 00:05:59.520 align:start position:0%
+minutes. I guess today is just internet
+ 
+
+00:05:59.520 --> 00:06:03.080 align:start position:0%
+minutes. I guess today is just internet
+janitor<00:06:00.080><c> work.</c>
+
