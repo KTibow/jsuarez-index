@@ -18,7 +18,7 @@ env:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 360
 
     steps:
       - name: Check out repository
@@ -68,8 +68,6 @@ jobs:
             --yes-playlist \
             --sleep-requests 3 \
             --sleep-subtitles 5 \
-            --sleep-interval 10 \
-            --max-sleep-interval 30 \
             --write-auto-subs \
             --sub-langs "en" \
             --sub-format "vtt" \
