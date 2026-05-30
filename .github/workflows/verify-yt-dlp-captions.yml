@@ -34,8 +34,8 @@ jobs:
             --extractor-args "youtube:player_client=web" \
             --user-agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
             --output "captions/%(id)s.%(ext)s" \
-            "https://www.youtube.com/watch?v=BaW_jenozKc"
-          test -s captions/BaW_jenozKc.en.vtt || test -s captions/BaW_jenozKc.en-US.vtt
+            "https://www.youtube.com/watch?v=QXXQXFwOD_I&pp=0gcJCR4LAYcqIYzv"
+          test -s captions/QXXQXFwOD_I.en.vtt || test -s captions/QXXQXFwOD_I.en-US.vtt
 
       - name: Show caption preview
         run: |
