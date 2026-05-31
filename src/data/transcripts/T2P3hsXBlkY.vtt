@@ -1209,7 +1209,7 @@ But then the thing is the LSTM call,
 it's
 
 00:32:07.919 --> 00:32:10.070
-it's like a CUDN kernel, so it's
+like a CUDN kernel, so it's
 
 00:32:10.080 --> 00:32:12.230
 monolithic. You can't really do anything
@@ -1653,7 +1653,7 @@ one
 and
 
 00:40:34.160 --> 00:40:41.270
-and now he's doing real client work.
+now he's doing real client work.
 
 00:40:44.390 --> 00:40:44.400
 So, this stuff can be learned. Um I'm

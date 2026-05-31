@@ -1563,7 +1563,7 @@ all we have left to uh sort out. Now
 this is the
 
 01:10:50.800 --> 01:10:53.030
-this is the forward pass of our torch
+forward pass of our torch
 
 01:10:53.040 --> 01:10:54.950
 wrapped kernel.
@@ -4302,7 +4302,7 @@ we finally will have enlightenment.
 where are
 
 03:45:11.040 --> 03:45:21.349
-where are our kernel names?
+our kernel names?
 
 03:45:25.429 --> 03:45:25.439
 Oh, there was also the um
@@ -5055,7 +5055,7 @@ Oh no, that's exactly what I'm getting.
 I'm done.
 
 04:24:05.600 --> 04:24:07.349
-I'm done. Colonel table. What the heck
+Colonel table. What the heck
 
 04:24:07.359 --> 04:24:15.670
 is that?
@@ -6939,7 +6939,7 @@ I'm going to intentionally only compile
 the
 
 05:50:39.600 --> 05:50:43.990
-the PyTorch uh version of the test.
+PyTorch uh version of the test.
 
 05:50:44.000 --> 05:50:45.590
 Also, this launch. See, like there are a

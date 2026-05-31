@@ -2697,7 +2697,7 @@ being the issue, right? is that it
 doesn't
 
 01:31:54.239 --> 01:32:25.030
-doesn't learn anywhere near as Well,
+learn anywhere near as Well,
 
 01:32:28.070 --> 01:32:28.080
 Getting started with RL. Welcome.
@@ -2757,7 +2757,7 @@ Realistically,
 I'd have to add
 
 01:34:22.159 --> 01:34:25.030
-I'd have to add multiGPU
+multiGPU
 
 01:34:25.040 --> 01:35:14.870
 sweeps, I think.

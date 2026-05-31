@@ -5064,7 +5064,7 @@ equals
 buffer
 
 02:18:36.880 --> 02:18:39.830
-buffer pointer
+pointer
 
 02:18:39.840 --> 02:18:42.349
 zero and then what we do is we have
@@ -5685,7 +5685,7 @@ one
 plus
 
 02:37:39.359 --> 02:37:44.830
-plus plus
+plus
 
 02:37:47.150 --> 02:37:47.160
 minus minus
@@ -5898,9 +5898,6 @@ it grid CNP ND array paths
 CNP Ray buff and we got
 
 02:41:32.399 --> 02:41:33.910
-int
-
-02:41:33.920 --> 02:41:36.870
 int
 
 02:41:36.880 --> 02:41:40.349
@@ -9747,7 +9744,7 @@ on
 entity
 
 04:38:06.719 --> 04:38:11.789
-entity um
+um
 
 04:38:15.510 --> 04:38:15.520
 entity. y plus what the [ __ ] are these
@@ -10236,7 +10233,7 @@ different
 L2
 
 04:50:33.480 --> 04:50:36.350
-L2 does less than
+does less than
 
 04:50:36.360 --> 04:50:39.070
 two then you path towards your spawn if

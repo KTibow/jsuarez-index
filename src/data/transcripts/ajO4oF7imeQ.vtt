@@ -1347,7 +1347,7 @@ Atari breakout Prito Frontiers. Okay, so
 this is
 
 00:55:56.160 --> 00:55:58.309
-this is like almost the right thing
+like almost the right thing
 
 00:55:58.319 --> 00:56:03.109
 except this is like this is compute cost
@@ -2799,7 +2799,7 @@ Let me make sure I'm scaling the
 learning rate correctly.
 
 01:57:20.390 --> 01:57:20.400
-Proportional to 1 over<unk> of width.
+Proportional to 1 over of width.
 
 01:57:20.400 --> 01:57:22.629
 1 over square root of width. Right? So
@@ -4971,7 +4971,7 @@ puffer
 you can almost
 
 03:42:10.640 --> 03:42:12.950
-you can almost copy paste puffer
+copy paste puffer
 
 03:42:12.960 --> 03:42:14.870
 environment code into CUDA and just run

@@ -2597,9 +2597,6 @@ what's this like API?
 01:32:47.990 --> 01:32:48.000
 Start.
 
-01:32:48.000 --> 01:32:57.910
-Start.
-
 01:33:00.950 --> 01:33:00.960
 Joseph nut paper.
 
@@ -7053,7 +7050,7 @@ this copy and set this flag to true.
 Actions ready on GPU.
 
 04:23:33.439 --> 04:23:35.510
-Actions ready on GPU. We should set this
+We should set this
 
 04:23:35.520 --> 04:23:40.309
 to false.

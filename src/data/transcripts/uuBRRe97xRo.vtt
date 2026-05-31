@@ -1320,7 +1320,7 @@ actually working on uh like their
 distributed infrastructure and
 
 00:44:57.359 --> 00:44:59.109
-distributed infrastructure and a few of
+a few of
 
 00:44:59.119 --> 00:45:01.430
 the kernels I think are probably the
@@ -1893,7 +1893,7 @@ Okay, so it seems like we're capped at
 20
 
 01:03:06.240 --> 01:03:19.349
-20 million SPS.
+million SPS.
 
 01:03:28.549 --> 01:03:28.559
 it's annoying because I can't isolate
@@ -4908,7 +4908,7 @@ Uh this inst
 buffers
 
 02:31:03.920 --> 02:31:09.190
-buffers block size.
+block size.
 
 02:31:40.550 --> 02:31:40.560
 Oh, that that's actually fine. Buffers.
@@ -8580,7 +8580,7 @@ I just do not see anything that could
 possibly
 
 04:23:10.159 --> 04:23:12.950
-possibly be different. It can't be any
+be different. It can't be any
 
 04:23:12.960 --> 04:23:15.189
 of the D types.
