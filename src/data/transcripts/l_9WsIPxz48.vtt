@@ -1,0 +1,1029 @@
+WEBVTT
+
+NOTE
+metadata:
+title: Reinforcement Learning dev with Joseph Suarez
+id: l_9WsIPxz48
+url: https://www.youtube.com/watch?v=l_9WsIPxz48
+date: 2026-03-14T23:05:01+00:00
+language: en
+
+00:00:11.590 --> 00:00:11.600
+Do a little bit of work. I wanted to
+
+00:00:11.600 --> 00:00:14.670
+play with this thing as well.
+
+00:00:14.680 --> 00:00:17.310
+I think that this should now um
+
+00:00:17.320 --> 00:00:23.230
+this should ask for perms.
+
+00:00:28.590 --> 00:00:28.600
+Let's make sure this doesn't try to like
+
+00:00:28.600 --> 00:00:57.350
+auto do stuff.
+
+00:01:00.990 --> 00:01:01.000
+Let me see what tasks I have left.
+
+00:01:01.000 --> 00:01:02.910
+for release
+
+00:01:02.920 --> 00:01:14.990
+I know there's some junk in here.
+
+00:01:25.910 --> 00:01:25.920
+No, but the rest of them are gone, so we
+
+00:01:25.920 --> 00:01:31.030
+should be fine.
+
+00:01:32.270 --> 00:01:32.280
+All right, so there's a little tiny bit
+
+00:01:32.280 --> 00:01:34.950
+of blood on this.
+
+00:01:34.960 --> 00:01:40.190
+Not bad though.
+
+00:01:41.630 --> 00:01:41.640
+I might want to do some renames or
+
+00:01:41.640 --> 00:01:43.790
+whatever.
+
+00:01:43.800 --> 00:01:47.190
+I think it's not bad.
+
+00:02:35.790 --> 00:02:35.800
+Yeah, this is super easy. Let's use this
+
+00:02:35.800 --> 00:03:24.670
+to test the model.
+
+00:03:28.070 --> 00:03:28.080
+This should ask for perms.
+
+00:03:28.080 --> 00:03:30.229
+Oh, perfect.
+
+00:03:30.239 --> 00:03:42.830
+This is exactly what we want, right?
+
+00:03:43.990 --> 00:03:44.000
+I don't like how it doesn't have a
+
+00:03:44.000 --> 00:03:49.229
+comment option.
+
+00:06:20.510 --> 00:06:20.520
+Done.
+
+00:06:20.520 --> 00:06:27.830
+Nice.
+
+00:07:40.870 --> 00:07:40.880
+Hey Jess.
+
+00:07:40.880 --> 00:07:42.190
+Yeah, this is going to be way better
+
+00:07:42.200 --> 00:07:44.750
+than um cloud.
+
+00:07:44.760 --> 00:07:47.750
+It's a very stupid model,
+
+00:07:47.760 --> 00:09:27.510
+but it's very fast.
+
+00:09:39.510 --> 00:09:39.520
+Oh, there's the tracker up there. That's
+
+00:09:39.520 --> 00:10:01.390
+nice.
+
+00:11:19.270 --> 00:11:19.280
+Very nice.
+
+00:11:19.280 --> 00:11:20.750
+Yeah, this is definitely replacing
+
+00:11:20.760 --> 00:11:24.110
+flood.
+
+00:12:33.990 --> 00:12:34.000
+I think this is a much healthier
+
+00:12:34.000 --> 00:12:36.350
+thing as well.
+
+00:12:36.360 --> 00:12:37.670
+It's not really smart. It's not
+
+00:12:37.680 --> 00:12:40.510
+pretending to be smart.
+
+00:12:40.520 --> 00:12:44.630
+Just making these little edits.
+
+00:13:50.910 --> 00:13:50.920
+>> New session.
+
+00:13:50.920 --> 00:14:09.230
+Oh.
+
+00:16:15.550 --> 00:16:15.560
+>> How are we doing this at the moment?
+
+00:16:15.560 --> 00:16:38.310
+I think
+
+00:17:57.470 --> 00:17:57.480
+>> You can let it do it in um
+
+00:17:57.480 --> 00:18:05.270
+in bits like this.
+
+00:18:07.550 --> 00:18:07.560
+What model are you using? This is GLM
+
+00:18:07.560 --> 00:18:09.710
+4.7.
+
+00:18:09.720 --> 00:18:11.510
+Uh the model is not the big deal though.
+
+00:18:11.520 --> 00:18:19.030
+The big deal is the Cerebrus.
+
+00:18:32.110 --> 00:18:32.120
+Why is this window so small? Like I
+
+00:18:32.120 --> 00:18:48.070
+would want this to be
+
+00:18:49.470 --> 00:18:49.480
+Is this a button? This is a button,
+
+00:18:49.480 --> 00:18:51.310
+isn't it?
+
+00:18:51.320 --> 00:18:53.430
+A little terminal you can plug things
+
+00:18:53.440 --> 00:18:56.710
+in.
+
+00:18:57.750 --> 00:18:57.760
+Huh.
+
+00:18:57.760 --> 00:19:00.230
+That actually works.
+
+00:19:00.240 --> 00:19:10.230
+That's bizarre.
+
+00:19:12.030 --> 00:19:12.040
+Well, we'll see if it breaks it in the
+
+00:19:12.040 --> 00:19:14.390
+process of doing this.
+
+00:19:14.400 --> 00:20:45.110
+I think it's quite likely.
+
+00:20:47.270 --> 00:20:47.280
+This variable might break.
+
+00:20:47.280 --> 00:20:48.430
+And then I'll have to think about the
+
+00:20:48.440 --> 00:21:02.950
+way we're using streams.
+
+00:21:05.910 --> 00:21:05.920
+Oh, is it literally the same?
+
+00:21:05.920 --> 00:21:27.350
+That's kind of awesome.
+
+00:21:28.870 --> 00:21:28.880
+I wasn't sure we could treat the streams
+
+00:21:28.880 --> 00:23:34.350
+that way.
+
+00:23:42.070 --> 00:23:42.080
+Oh, it keeps it the same size, actually.
+
+00:23:42.080 --> 00:24:24.670
+That's perfect.
+
+00:25:22.230 --> 00:25:22.240
+I don't know why I did that. That's
+
+00:25:22.240 --> 00:25:54.310
+freaking bizarre.
+
+00:25:56.750 --> 00:25:56.760
+And this has been 16 cents as well so
+
+00:25:56.760 --> 00:26:18.350
+far for this.
+
+00:26:19.910 --> 00:26:19.920
+Nice.
+
+00:26:19.920 --> 00:26:27.870
+Hit the works.
+
+00:27:17.310 --> 00:27:17.320
+>> I do wish the screen would be slightly
+
+00:27:17.320 --> 00:27:18.590
+bigger.
+
+00:27:18.600 --> 00:27:38.230
+Like the edit window by default.
+
+00:27:40.230 --> 00:27:40.240
+This be out of the article? Probably,
+
+00:27:40.240 --> 00:27:41.310
+Jess.
+
+00:27:41.320 --> 00:28:28.470
+I might make a little tweet about this.
+
+00:28:39.510 --> 00:28:39.520
+And do this. That shouldn't hurt
+
+00:28:39.520 --> 00:28:59.590
+anything, right?
+
+00:31:03.630 --> 00:31:03.640
+What else is on my little list of
+
+00:31:03.640 --> 00:31:54.430
+to-do's?
+
+00:31:55.830 --> 00:31:55.840
+I don't know if this model will be good
+
+00:31:55.840 --> 00:31:59.430
+enough to do stuff like write tasks.
+
+00:31:59.440 --> 00:34:34.590
+We will see.
+
+00:36:40.030 --> 00:36:40.040
+>> Oops.
+
+00:36:40.040 --> 00:36:41.630
+Well, this will be super verifiable,
+
+00:36:41.640 --> 00:37:02.150
+right?
+
+00:44:31.070 --> 00:44:31.080
+>> That was actually quite good of it to
+
+00:44:31.080 --> 00:44:34.590
+find.
+
+00:46:29.630 --> 00:46:29.640
+>> Which model are you training?
+
+00:46:29.640 --> 00:46:31.310
+>> I'm not training anything at the moment.
+
+00:46:31.320 --> 00:46:33.830
+I'm debugging neural MMOs.
+
+00:46:33.840 --> 00:46:40.470
+I'm debugging the neural MMO model.
+
+00:46:42.830 --> 00:46:42.840
+Oh, this is just breakout of the test.
+
+00:46:42.840 --> 00:47:42.710
+Let's see.
+
+00:47:52.350 --> 00:47:52.360
+Payment required. I didn't think I'd use
+
+00:47:52.360 --> 00:47:54.150
+that much um
+
+00:47:54.160 --> 00:47:55.550
+I'd only used a couple bucks worth of
+
+00:47:55.560 --> 00:47:57.750
+credits according to the
+
+00:47:57.760 --> 00:48:01.150
+console.
+
+00:49:04.510 --> 00:49:04.520
+Yay, instant. Works instantly.
+
+00:49:04.520 --> 00:52:10.270
+Good job, Cerberus.
+
+00:52:20.030 --> 00:52:20.040
+I didn't break this.
+
+00:52:20.040 --> 00:52:25.630
+Let me commit these real quick.
+
+00:52:27.830 --> 00:52:27.840
+Really liking this model.
+
+00:52:27.840 --> 00:52:29.150
+Let me make sure the billing is actually
+
+00:52:29.160 --> 00:52:35.470
+what I expect it to be.
+
+00:52:38.110 --> 00:52:38.120
+I used 20
+
+00:52:38.120 --> 00:52:41.910
+uh 18s. Ooh, wait, a dollar.
+
+00:52:41.920 --> 00:52:44.710
+And
+
+00:52:44.720 --> 00:52:46.190
+Okay, so the costs are not being
+
+00:52:46.200 --> 00:53:08.550
+displayed correctly, it seems.
+
+00:53:54.270 --> 00:53:54.280
+>> Interesting.
+
+00:53:54.280 --> 00:53:55.910
+We'll monitor that and we'll see how
+
+00:53:55.920 --> 00:53:58.270
+much um
+
+00:53:58.280 --> 00:55:55.630
+us
+
+00:56:00.350 --> 00:56:00.360
+Oh.
+
+00:56:00.360 --> 00:56:03.670
+Just cuz it is test files, no biggie.
+
+00:56:03.680 --> 00:56:09.470
+That's no biggie.
+
+00:57:08.950 --> 00:57:08.960
+3.4 score
+
+00:57:08.960 --> 00:57:29.150
+and 291 bill.
+
+00:57:32.390 --> 00:57:32.400
+I don't think that's very good.
+
+00:57:32.400 --> 00:57:38.190
+Right?
+
+00:57:53.150 --> 00:57:53.160
+Yeah, I think this was the
+
+00:57:53.160 --> 00:57:55.510
+This is at most 640 bill steps, probably
+
+00:57:55.520 --> 00:57:57.470
+less.
+
+00:57:57.480 --> 00:58:02.550
+Uh maybe it's around that, 640 bill.
+
+00:58:04.350 --> 00:58:04.360
+So yeah, it's supposed to be way better,
+
+00:58:04.360 --> 01:00:19.030
+way faster.
+
+01:00:20.550 --> 01:00:20.560
+>> Let's have a go see if there's anything
+
+01:00:20.560 --> 01:00:41.670
+obvious.
+
+01:00:43.790 --> 01:00:43.800
+Tokens per minute limit exceeded,
+
+01:00:43.800 --> 01:00:46.470
+really?
+
+01:01:04.430 --> 01:01:04.440
+500k tokens?
+
+01:01:04.440 --> 01:01:39.750
+This is 100k context.
+
+01:02:04.070 --> 01:02:04.080
+The Cerebras is supposed to be $2 per
+
+01:02:04.080 --> 01:02:12.790
+mil tokens.
+
+01:02:14.710 --> 01:02:14.720
+Okay.
+
+01:02:14.720 --> 01:02:16.350
+That's not good if I'm getting rate
+
+01:02:16.360 --> 01:02:21.870
+limited that easily.
+
+01:02:24.310 --> 01:02:24.320
+Open code any better than cloud?
+
+01:02:24.320 --> 01:02:26.270
+Uh the point is not open code versus
+
+01:02:26.280 --> 01:02:28.670
+cloud. The point is that it's Cerebras,
+
+01:02:28.680 --> 01:02:30.070
+the hardware.
+
+01:02:30.080 --> 01:02:32.670
+So, it serves like literally 10x plus
+
+01:02:32.680 --> 01:03:11.790
+faster.
+
+01:05:13.830 --> 01:05:13.840
+It'd be very surprising like if I had
+
+01:05:13.840 --> 01:05:16.110
+the dims backwards
+
+01:05:16.120 --> 01:05:33.950
+it should totally break.
+
+01:05:35.350 --> 01:05:35.360
+Yeah, I'm getting rate limited very
+
+01:05:35.360 --> 01:07:45.790
+quickly on this thing.
+
+01:08:08.350 --> 01:08:08.360
+It should pet Wait, no, it's checking
+
+01:08:08.360 --> 01:08:14.230
+both.
+
+01:08:22.269 --> 01:08:22.279
+one or don't and they're able to take on
+
+01:08:22.279 --> 01:08:24.110
+a lot more requests.
+
+01:08:24.120 --> 01:08:28.710
+I just want this Arabesque model, Jess.
+
+01:08:30.309 --> 01:08:30.319
+Um
+
+01:08:30.319 --> 01:08:38.390
+Like this thing serves way faster.
+
+01:08:39.749 --> 01:08:39.759
+I can probably use one of their other
+
+01:08:39.759 --> 01:08:42.630
+ones as well if I don't want um
+
+01:08:42.640 --> 01:08:46.150
+like the rate limits are too low.
+
+01:08:46.160 --> 01:08:49.110
+Like let's say
+
+01:08:50.630 --> 01:08:50.640
+there's like planner or whatever on here
+
+01:08:50.640 --> 01:10:04.310
+as well.
+
+01:10:33.470 --> 01:10:43.350
+Respect. I mean, this is how you debug
+
+01:10:46.790 --> 01:10:46.800
+Like, I'm just basically going fishing.
+
+01:10:46.800 --> 01:10:48.030
+I don't know if it's correct on the
+
+01:10:48.040 --> 01:10:49.310
+transpose. We might just have a
+
+01:10:49.320 --> 01:11:48.590
+different memory layout.
+
+01:12:01.350 --> 01:12:01.360
+Okay, this does not have ocean in it.
+
+01:12:01.360 --> 01:12:20.550
+That's fine.
+
+01:12:26.430 --> 01:12:26.440
+Okay.
+
+01:12:26.440 --> 01:12:27.670
+I was just making sure it's actually
+
+01:12:27.680 --> 01:13:16.670
+re-compiling.
+
+01:13:18.030 --> 01:13:18.040
+>> Oh, that's why it got stupidly
+
+01:13:18.040 --> 01:13:46.110
+compressed.
+
+01:13:53.110 --> 01:13:53.120
+Hey, what's up? Um hey, how's it going?
+
+01:13:53.120 --> 01:13:54.590
+I'm basically I'm playing around with
+
+01:13:54.600 --> 01:13:55.910
+this new model and I'm debugging a
+
+01:13:55.920 --> 01:14:06.630
+couple of things.
+
+01:14:08.590 --> 01:14:08.600
+Okay, that's actually pretty egregious
+
+01:14:08.600 --> 01:14:12.510
+is the thing. How long have I been live?
+
+01:14:12.520 --> 01:14:15.030
+hour
+
+01:14:15.040 --> 01:14:24.550
+Eight bucks of credits already.
+
+01:14:26.270 --> 01:14:26.280
+It's using way more tokens than it's
+
+01:14:26.280 --> 01:14:47.590
+showing me then in the router.
+
+01:14:48.910 --> 01:14:48.920
+So, they got
+
+01:14:48.920 --> 01:14:49.950
+This is the
+
+01:14:49.960 --> 01:14:53.630
+the most limited.
+
+01:14:53.640 --> 01:15:18.790
+Where are their model pricing?
+
+01:16:24.590 --> 01:16:24.600
+This one is 60.
+
+01:16:24.600 --> 01:16:35.190
+It's a 16.
+
+01:17:01.710 --> 01:17:01.720
+And then this is going to be a meme,
+
+01:17:01.720 --> 01:17:03.710
+right?
+
+01:17:03.720 --> 01:17:08.470
+Not even on there.
+
+01:17:10.430 --> 01:17:10.440
+Yeah, so I think this is the only usable
+
+01:17:10.440 --> 01:17:37.270
+model, right?
+
+01:17:38.750 --> 01:17:38.760
+But why don't just
+
+01:17:38.760 --> 01:17:40.390
+see
+
+01:17:40.400 --> 01:17:43.190
+See, I
+
+01:18:15.670 --> 01:18:15.680
+Yeah, that's actually So, I this is like
+
+01:18:15.680 --> 01:18:17.870
+a decent enough model.
+
+01:18:17.880 --> 01:18:19.310
+I think that I can't really switch to
+
+01:18:19.320 --> 01:18:22.670
+anything else, though.
+
+01:18:24.950 --> 01:18:24.960
+Cuz it's just like um
+
+01:18:24.960 --> 01:18:29.310
+I think it just becomes unusable, right?
+
+01:18:40.870 --> 01:18:40.880
+And nothing else here is served under
+
+01:18:40.880 --> 01:18:45.110
+Cerberus.
+
+01:18:57.510 --> 01:18:57.520
+That's not terrible though.
+
+01:18:57.520 --> 01:18:58.550
+Uh,
+
+01:18:58.560 --> 01:19:08.230
+um.
+
+01:19:17.110 --> 01:19:17.120
+Is that on here?
+
+01:19:17.120 --> 01:19:27.550
+I don't see it on there.
+
+01:19:30.030 --> 01:19:30.040
+Uh, yeah, I mean that looks like it's
+
+01:19:30.040 --> 01:19:33.430
+That's a nice bump.
+
+01:19:35.310 --> 01:19:35.320
+The thing is for whatever reason it just
+
+01:19:35.320 --> 01:19:40.390
+like eats tokens super fast.
+
+01:19:42.750 --> 01:19:42.760
+That's just plum three.
+
+01:19:42.760 --> 01:19:44.710
+Oh, did I do it wrong?
+
+01:19:44.720 --> 01:20:00.950
+Yeah, it's plum three.
+
+01:20:02.870 --> 01:20:02.880
+Yeah, they don't have it in um in
+
+01:20:02.880 --> 01:20:04.590
+Cerberus.
+
+01:20:04.600 --> 01:20:06.430
+They really got to get some better
+
+01:20:06.440 --> 01:20:08.030
+models on here. I don't think it's their
+
+01:20:08.040 --> 01:21:13.590
+main business is the thing.
+
+01:21:15.070 --> 01:21:15.080
+>> It's actually kind of funny. I was
+
+01:21:15.080 --> 01:21:16.950
+looking at their page.
+
+01:21:16.960 --> 01:21:21.670
+You literally cannot buy um
+
+01:21:23.350 --> 01:21:23.360
+you can't buy their plans anymore,
+
+01:21:23.360 --> 01:21:24.630
+either.
+
+01:21:24.640 --> 01:21:26.270
+Like they're just like, "Nah, we're sold
+
+01:21:26.280 --> 01:22:04.390
+out."
+
+01:22:06.230 --> 01:22:06.240
+Okay, this is just hooking in my actual
+
+01:22:06.240 --> 01:22:44.990
+kernels, which is fine.
+
+01:24:04.110 --> 01:24:04.120
+What did the plan include? It's the same
+
+01:24:04.120 --> 01:24:06.070
+as everything else, just like, you know,
+
+01:24:06.080 --> 01:24:10.510
+tokens per day.
+
+01:24:11.790 --> 01:24:11.800
+It's like the standard that all the
+
+01:24:11.800 --> 01:24:14.390
+companies do. It's like, you know, $50
+
+01:24:14.400 --> 01:24:16.670
+of tokens a month gives you $50 of
+
+01:24:16.680 --> 01:24:42.950
+tokens per day or whatever.
+
+01:24:44.470 --> 01:24:44.480
+>> If this thing just bleeds a lot of
+
+01:24:44.480 --> 01:25:34.310
+tokens, that's the thing.
+
+01:25:36.550 --> 01:25:36.560
+Honestly, this is not
+
+01:25:36.560 --> 01:25:44.110
+This is not good.
+
+01:26:46.230 --> 01:26:46.240
+Yeah, this is way too complex of a task
+
+01:26:46.240 --> 01:27:41.470
+for this thing.
+
+01:27:43.790 --> 01:27:43.800
+Which app and equipment do you use?
+
+01:27:43.800 --> 01:27:45.510
+Uh this is a restream at the moment, but
+
+01:27:45.520 --> 01:27:47.070
+I'm probably going to swap that
+
+01:27:47.080 --> 01:27:48.670
+tomorrow, honestly. I've had so many
+
+01:27:48.680 --> 01:27:52.030
+problems with restream.
+
+01:27:53.670 --> 01:27:53.680
+So, it does broadcast to multiple
+
+01:27:53.680 --> 01:27:55.030
+platforms, but there's quite a bit of a
+
+01:27:55.040 --> 01:27:56.670
+delay in there and some issues with it
+
+01:27:56.680 --> 01:28:03.230
+as well.
+
+01:28:05.150 --> 01:28:05.160
+This is not my main setup as well. This
+
+01:28:05.160 --> 01:28:09.350
+is my kind of like jank setup.
+
+01:28:11.190 --> 01:28:11.200
+I'll be back to my main setup Monday or
+
+01:28:11.200 --> 01:28:27.550
+Tuesday.
+
+01:29:02.670 --> 01:29:02.680
+Droid Cam
+
+01:29:02.680 --> 01:29:06.070
+Well, yeah, I've got OBS.
+
+01:29:06.080 --> 01:29:07.670
+I need something for restreaming,
+
+01:29:07.680 --> 01:29:09.390
+though.
+
+01:29:09.400 --> 01:29:12.470
+What's Droid Cam? Does that give you um
+
+01:29:12.480 --> 01:29:26.550
+I need something for restreaming.
+
+01:29:29.150 --> 01:29:29.160
+Well, to be fair, like this is this
+
+01:29:29.160 --> 01:29:32.390
+section of code was messed by Claude, so
+
+01:29:32.400 --> 01:29:34.070
+I can't figure out messed by
+
+01:29:34.080 --> 01:29:37.830
+Claude.
+
+01:29:39.430 --> 01:29:39.440
+Not this model's code. I wouldn't let it
+
+01:29:39.440 --> 01:29:41.470
+touch this, but the ocean code was like
+
+01:29:41.480 --> 01:29:43.750
+throwaway.
+
+01:29:43.760 --> 01:30:04.030
+And I think the verification is wrong.
+
+01:30:05.990 --> 01:30:06.000
+This is honestly way better, though,
+
+01:30:06.000 --> 01:30:07.750
+because this is like
+
+01:30:07.760 --> 01:30:10.350
+you run the thing, it fails, you do it
+
+01:30:10.360 --> 01:30:12.030
+yourself. Not you run the thing, you
+
+01:30:12.040 --> 01:30:14.190
+wait 15 minutes, it fails, and now
+
+01:30:14.200 --> 01:30:15.950
+you're like bored and no longer in the
+
+01:30:15.960 --> 01:30:37.030
+like the flow of things anymore, right?
+
+01:30:42.190 --> 01:30:42.200
+Yeah, the encoder shouldn't have the in
+
+01:30:42.200 --> 01:30:51.110
+dim.
+
+01:31:13.670 --> 01:31:13.680
+Which is a void start. Should be a
+
+01:31:13.680 --> 01:31:28.510
+neural memo 3 encoder.
+
+01:31:30.510 --> 01:31:30.520
+From originally
+
+01:31:30.520 --> 01:31:32.590
+the USA.
+
+01:31:32.600 --> 01:33:02.950
+A guy in New England.
+
+01:33:04.310 --> 01:33:04.320
+>> Yeah, this is kind of untenable,
+
+01:33:04.320 --> 01:33:12.030
+honestly.
+
+01:33:15.950 --> 01:33:15.960
+Might be able to just pull pull this in.
+
+01:33:15.960 --> 01:34:25.870
+Colonels.
+
+01:34:38.510 --> 01:34:38.520
+Yeah, the problem is needing this
+
+01:34:38.520 --> 01:34:50.910
+encoder wrap at all.
+
+01:37:07.550 --> 01:37:07.560
+I mean, this test is just ass.
+
+01:37:07.560 --> 01:37:09.430
+Like this whole section of code is just
+
+01:37:09.440 --> 01:38:47.350
+unusable garbage.
+
+01:39:44.390 --> 01:39:44.400
+Yep, there we go. There goes the stupid
+
+01:39:44.400 --> 01:39:54.310
+array.
+
+01:39:57.070 --> 01:39:57.080
+Really stupid workflow.
+
+01:39:57.080 --> 01:40:25.950
+It's better at least.
+
+01:43:30.230 --> 01:43:30.240
+Just disgusting, man.
+
+01:43:30.240 --> 01:44:39.990
+What a mess.
+
+01:44:41.750 --> 01:44:41.760
+What Why do we not have an internet for
+
+01:44:41.760 --> 01:44:43.710
+activations? What the is wrong with
+
+01:44:43.720 --> 01:44:51.350
+this?
+
+01:45:44.510 --> 01:45:44.520
+Where the does this thing get
+
+01:45:44.520 --> 01:46:06.910
+called normally?
+
+01:48:17.470 --> 01:48:17.480
+>> Okay, this is now just a bunch of
+
+01:48:17.480 --> 01:49:01.750
+copies.
+
+01:49:55.470 --> 01:49:55.480
+I mean, the thing is this whole thing is
+
+01:49:55.480 --> 01:50:10.790
+stupid in the first place.
+
+01:50:12.150 --> 01:50:12.160
+Yeah, I think I'm going to just call it
+
+01:50:12.160 --> 01:50:13.750
+for a night for the night. I'm
+
+01:50:13.760 --> 01:50:16.190
+exhausted. I've spent like 20 hours in
+
+01:50:16.200 --> 01:50:22.190
+the last 2 days.
+
+01:50:23.590 --> 01:50:23.600
+All right. Yeah, I'm going to just
+
+01:50:23.600 --> 01:50:24.870
+follow you guys.
+
+01:50:24.880 --> 01:50:26.390
+Um I'm going to do a couple last things
+
+01:50:26.400 --> 01:50:27.310
+off stream and then I'm going to get
+
+01:50:27.320 --> 01:50:28.710
+some rest.
+
+01:50:28.720 --> 01:50:31.870
+Thank you all for tuning in.
+
+01:50:31.880 --> 01:50:33.310
+Uh if you're interested in my stuff
+
+01:50:33.320 --> 01:50:34.750
+generally, you want to support my work
+
+01:50:34.760 --> 01:50:37.070
+for free.
+
+01:50:37.080 --> 01:50:38.990
+Star the pepper on GitHub.
+
+01:50:39.000 --> 01:50:40.910
+Helps me a lot.
+
+01:50:40.920 --> 01:50:43.030
+And join Discord to get involved.
+
+01:50:43.040 --> 01:50:44.870
+Tomorrow is my day off.
+
+01:50:44.880 --> 01:50:46.750
+I probably will not stream and I will be
+
+01:50:46.760 --> 01:50:48.070
+back
+
+01:50:48.080 --> 01:50:50.190
+like Monday or Tuesday.
+
+01:50:50.200 --> 01:50:52.760
+See you all.

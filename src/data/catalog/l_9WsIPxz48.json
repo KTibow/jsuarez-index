@@ -1,0 +1,17 @@
+{
+  "id": "l_9WsIPxz48",
+  "date": "2026-03-14T23:05:01+00:00",
+  "url": "https://www.youtube.com/watch?v=l_9WsIPxz48",
+  "transcript": "/src/data/transcripts/l_9WsIPxz48.vtt",
+  "originalTitle": "Reinforcement Learning dev with Joseph Suarez",
+  "title": "Debugging Neural MMO Encoder and Testing Cerebras Model",
+  "summary": "Debugged an encoder wrapper issue in Neural MMO and identified problematic code sections. Tested a fast but token-inefficient Cerebras-hosted model for code editing, noting rate limits and high token usage.",
+  "topics": [
+    "neural MMO",
+    "encoder debugging",
+    "Cerebras hardware",
+    "token efficiency",
+    "code editing model",
+    "GitHub"
+  ]
+}
