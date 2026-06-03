@@ -1,0 +1,17 @@
+{
+  "id": "X-uu17VFpYs",
+  "date": "2026-06-02T17:30:19+00:00",
+  "url": "https://www.youtube.com/watch?v=X-uu17VFpYs",
+  "transcript": "/src/data/transcripts/X-uu17VFpYs.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Ablating Domain Knowledge from State Set Algorithm on Soabox Benchmark",
+  "summary": "Tested a state set algorithm on a 15-level Soabox benchmark, removing the mastery gate domain hack and achieving a full solve. Continued stripping domain assumptions to find a generalizable method.",
+  "topics": [
+    "reinforcement learning",
+    "state sets",
+    "curriculum learning",
+    "Soabox",
+    "domain knowledge ablation",
+    "PufferLib"
+  ]
+}
