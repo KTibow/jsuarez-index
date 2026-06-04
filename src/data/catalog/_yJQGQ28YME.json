@@ -1,0 +1,17 @@
+{
+  "id": "_yJQGQ28YME",
+  "date": "2026-06-03T18:03:34+00:00",
+  "url": "https://www.youtube.com/watch?v=_yJQGQ28YME",
+  "transcript": "/src/data/transcripts/_yJQGQ28YME.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Ablating Domain Knowledge from Puffer 5 State Set Algorithm",
+  "summary": "Worked on removing domain-specific heuristics from the Puffer 5 state set algorithm for curriculum learning. Successfully eliminated two-thirds of the domain knowledge, reducing reliance on score-based buffer admission to a single remaining heuristic.",
+  "topics": [
+    "Puffer 5",
+    "state set algorithm",
+    "curriculum learning",
+    "domain knowledge ablation",
+    "advantage-based buffer",
+    "CUDA prototyping"
+  ]
+}
