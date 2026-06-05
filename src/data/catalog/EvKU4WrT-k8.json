@@ -1,0 +1,17 @@
+{
+  "id": "EvKU4WrT-k8",
+  "date": "2026-06-04T17:28:20+00:00",
+  "url": "https://www.youtube.com/watch?v=EvKU4WrT-k8",
+  "transcript": "/src/data/transcripts/EvKU4WrT-k8.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Replacing Score-Based Admission with Advantage in Puffer 5 Curriculum Learning",
+  "summary": "Worked on generalizing the curriculum learning algorithm in Puffer 5 by replacing score-based segment admission and retention with advantage metrics. Removed most domain knowledge dependencies, reducing to about 10% remaining, while debugging latching issues and dealing with problematic LLM-generated code.",
+  "topics": [
+    "curriculum learning",
+    "advantage-based admission",
+    "state-set algorithm",
+    "Puffer 5",
+    "domain knowledge ablation",
+    "LLM code generation"
+  ]
+}
