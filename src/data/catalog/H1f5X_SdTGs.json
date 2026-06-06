@@ -1,0 +1,17 @@
+{
+  "id": "H1f5X_SdTGs",
+  "date": "2026-06-05T18:58:25+00:00",
+  "url": "https://www.youtube.com/watch?v=H1f5X_SdTGs",
+  "transcript": "/src/data/transcripts/H1f5X_SdTGs.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Debugging Advantage Metrics for No-Domain-Knowledge Sparse Exploration",
+  "summary": "Worked on replacing score-based segment selection with an advantage-based metric to remove domain knowledge from the exploration algorithm. Debugged why advantage was not tracking the frontier, tested L-infinity, L1, and L2 value error, and achieved a 14/15 solve using L2 normalization.",
+  "topics": [
+    "advantage-based buffer selection",
+    "sparse exploration",
+    "domain knowledge reduction",
+    "value error L2",
+    "Puffer 5",
+    "segment prioritization"
+  ]
+}
