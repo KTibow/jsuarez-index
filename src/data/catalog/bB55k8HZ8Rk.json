@@ -1,0 +1,17 @@
+{
+  "id": "bB55k8HZ8Rk",
+  "date": "2026-06-08T15:14:19+00:00",
+  "url": "https://www.youtube.com/watch?v=bB55k8HZ8Rk",
+  "transcript": "/src/data/transcripts/bB55k8HZ8Rk.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Debugging Advantage Spikes in Puffer Algorithm Buffer Admission",
+  "summary": "Worked on identifying why advantage spikes on solved levels prevent frontier segments from being admitted to the buffer. Discovered a misunderstanding of the advantage calculation that explains the issue.",
+  "topics": [
+    "algorithm debugging",
+    "advantage calculation",
+    "buffer admission",
+    "PufferLib",
+    "frontier segments",
+    "diagnostics"
+  ]
+}

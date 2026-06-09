@@ -1,0 +1,17 @@
+{
+  "id": "51B-j1MTVoE",
+  "date": "2026-06-08T18:58:41+00:00",
+  "url": "https://www.youtube.com/watch?v=51B-j1MTVoE",
+  "transcript": "/src/data/transcripts/51B-j1MTVoE.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Debugging Advantage Scaling and Segment Admission in Puffer 5 Algorithm",
+  "summary": "Diagnosed and debugged advantage scaling errors causing high value function residuals on solved levels. Implemented diagnostic logging and adjusted segment admission metrics for the state buffer to improve curriculum learning.",
+  "topics": [
+    "Puffer 5",
+    "advantage scaling",
+    "value function",
+    "segment admission",
+    "state buffer",
+    "curriculum learning"
+  ]
+}
