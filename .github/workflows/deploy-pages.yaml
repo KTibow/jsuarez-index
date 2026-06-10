@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch: {}
+  workflow_run:
+    workflows: ["Sync Neural MMO streams"]
+    types: [completed]
 
 permissions:
   contents: read
