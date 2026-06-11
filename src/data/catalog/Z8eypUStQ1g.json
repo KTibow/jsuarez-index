@@ -1,0 +1,16 @@
+{
+  "id": "Z8eypUStQ1g",
+  "date": "2026-06-09T18:17:58+00:00",
+  "url": "https://www.youtube.com/watch?v=Z8eypUStQ1g",
+  "transcript": "/src/data/transcripts/Z8eypUStQ1g.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Debugging Segment Admission in State-Set Algorithm",
+  "summary": "Worked on a new state-set reinforcement learning algorithm, debugging issues with advantage-based segment admission and code complexity from codeex. Explored alternative approaches including go explore and planned code cleanup.",
+  "topics": [
+    "state-set RL",
+    "advantage-based segment admission",
+    "curriculum learning",
+    "code cleanup",
+    "go explore comparison"
+  ]
+}

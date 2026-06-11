@@ -1,0 +1,17 @@
+{
+  "id": "2bH_yXGx8AM",
+  "date": "2026-06-10T19:09:54+00:00",
+  "url": "https://www.youtube.com/watch?v=2bH_yXGx8AM",
+  "transcript": "/src/data/transcripts/2bH_yXGx8AM.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Developing a Simpler State-Set Algorithm for Puffer 5",
+  "summary": "Implemented a new state-set algorithm that stores the highest-return trajectory and spawns environments along it. The algorithm solved the test environment but remains unoptimized and requires manual refactoring.",
+  "topics": [
+    "Puffer 5",
+    "state-set algorithm",
+    "Go Explore",
+    "trajectory refinement",
+    "codex prototyping",
+    "reward-based selection"
+  ]
+}
