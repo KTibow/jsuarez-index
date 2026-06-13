@@ -1,0 +1,17 @@
+{
+  "id": "hvqac_bjIoM",
+  "date": "2026-06-12T18:29:49+00:00",
+  "url": "https://www.youtube.com/watch?v=hvqac_bjIoM",
+  "transcript": "/src/data/transcripts/hvqac_bjIoM.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Refactoring Codex-Generated Curriculum Code for Puffer 5",
+  "summary": "Worked on cleaning up and restructuring the new state-set curriculum algorithm code written by Codex. Made progress on reducing code complexity and fixing synchronization issues, but the code remains messy and requires further manual refactoring.",
+  "topics": [
+    "curriculum learning",
+    "code refactoring",
+    "Codex",
+    "performance optimization",
+    "PufferLib",
+    "state set algorithm"
+  ]
+}
