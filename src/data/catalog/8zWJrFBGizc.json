@@ -1,0 +1,17 @@
+{
+  "id": "8zWJrFBGizc",
+  "date": "2026-06-15T17:41:09+00:00",
+  "url": "https://www.youtube.com/watch?v=8zWJrFBGizc",
+  "transcript": "/src/data/transcripts/8zWJrFBGizc.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Refactoring Curriculum Algorithm and Running 2048 Sweeps on Puffer 5",
+  "summary": "Refactored the curriculum algorithm code, cleaning up messy pointer accesses and defensive programming. Fixed RNG and seeding issues, reduced code size from 1000 to ~500 lines, and launched initial sweeps on 2048 to validate the new state set curriculum.",
+  "topics": [
+    "curriculum learning",
+    "state sets",
+    "code refactoring",
+    "CUDA/C",
+    "RNG seeding",
+    "Puffer 5"
+  ]
+}
