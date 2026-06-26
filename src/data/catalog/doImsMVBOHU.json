@@ -1,0 +1,17 @@
+{
+  "id": "doImsMVBOHU",
+  "date": "2026-06-24T19:01:46+00:00",
+  "url": "https://www.youtube.com/watch?v=doImsMVBOHU",
+  "transcript": "/src/data/transcripts/doImsMVBOHU.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Debugging Self-Play Robustness with Exploiter Agents and Hyperparameter Sweeps in RoboCode",
+  "summary": "Tested historical self-play and exploiter agents on the RoboCode benchmark to achieve robust policy diversity. Found that exploiter agents failed to improve held-out performance, leading to a new approach using hyperparameter sweeps to generate diverse opponent policies.",
+  "topics": [
+    "self-play",
+    "historical self-play",
+    "exploiter agents",
+    "RoboCode",
+    "hyperparameter sweep",
+    "non-transitive game"
+  ]
+}
