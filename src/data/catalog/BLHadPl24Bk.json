@@ -1,0 +1,17 @@
+{
+  "id": "BLHadPl24Bk",
+  "date": "2026-06-25T19:44:03+00:00",
+  "url": "https://www.youtube.com/watch?v=BLHadPl24Bk",
+  "transcript": "/src/data/transcripts/BLHadPl24Bk.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Debugging Self-Play and Implementing Elo-Based Sweeps for PufferLib",
+  "summary": "Debugged environment bugs and implemented an Elo-based sweep system for self-play in PufferLib. Ran multi-GPU experiments with dedicated Elo computation to inform hyperparameter optimization.",
+  "topics": [
+    "self-play",
+    "Elo evaluation",
+    "hyperparameter sweep",
+    "environment debugging",
+    "multi-GPU training",
+    "PufferLib"
+  ]
+}
