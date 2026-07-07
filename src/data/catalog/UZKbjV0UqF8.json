@@ -1,0 +1,17 @@
+{
+  "id": "UZKbjV0UqF8",
+  "date": "2026-07-06T20:02:08+00:00",
+  "url": "https://www.youtube.com/watch?v=UZKbjV0UqF8",
+  "transcript": "/src/data/transcripts/UZKbjV0UqF8.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Refactoring Puffer's CUDA/C Code and Reducing Line Count",
+  "summary": "Worked on cleaning up and refactoring the experimental branch of Puffer with CUDA and C code, merging files and cutting lines from over 14K to under 13K. Removed dead code, merged small files, and improved structure for the upcoming release.",
+  "topics": [
+    "Puffer",
+    "CUDA/C port",
+    "code refactoring",
+    "file merging",
+    "selfplay code",
+    "AI-generated code cleanup"
+  ]
+}
