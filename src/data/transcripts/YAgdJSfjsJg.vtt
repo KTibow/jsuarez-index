@@ -1,0 +1,1308 @@
+WEBVTT
+
+NOTE
+metadata:
+title: Reinforcement learning research with Joseph Suarez
+id: YAgdJSfjsJg
+url: https://www.youtube.com/watch?v=YAgdJSfjsJg
+date: 2026-07-07T19:31:34+00:00
+language: en
+
+00:00:15.430 --> 00:00:15.440
+Okay,
+
+00:00:15.440 --> 00:00:26.070
+should be live. Let me set the title.
+
+00:00:30.070 --> 00:00:30.080
+All right, that should be good.
+
+00:00:30.080 --> 00:00:32.630
+Um,
+
+00:00:32.640 --> 00:00:35.590
+short stream
+
+00:00:35.600 --> 00:00:39.830
+on a crappy morning.
+
+00:00:41.590 --> 00:00:41.600
+I just [clears throat]
+
+00:00:41.600 --> 00:00:43.110
+felt like streaming a little bit of this
+
+00:00:43.120 --> 00:01:54.870
+refactoring work.
+
+00:02:28.790 --> 00:02:28.800
+Well, hang on.
+
+00:02:28.800 --> 00:02:34.949
+This need to be here.
+
+00:03:02.470 --> 00:03:02.480
+depends on puff roll should just be in
+
+00:03:02.480 --> 00:03:14.710
+there.
+
+00:03:17.830 --> 00:03:17.840
+We're getting closer, I'd say.
+
+00:03:17.840 --> 00:03:26.710
+One, two, three.
+
+00:03:46.229 --> 00:03:46.239
+Uh, okay.
+
+00:03:46.239 --> 00:03:49.190
+Welcome
+
+00:03:49.200 --> 00:03:50.869
+Yeah. So, we have to we have to route
+
+00:03:50.879 --> 00:04:15.670
+this a little differently, right?
+
+00:04:17.349 --> 00:04:17.359
+There's got to be some sort of shared
+
+00:04:17.359 --> 00:04:25.030
+thing. No,
+
+00:06:02.390 --> 00:06:02.400
+it's the wrong split because this
+
+00:06:02.400 --> 00:06:08.230
+shouldn't be here, right?
+
+00:07:16.870 --> 00:07:16.880
+Hey, Jess. Yeah, pretty much.
+
+00:07:16.880 --> 00:07:18.390
+I mean, it's going to take a while,
+
+00:07:18.400 --> 00:07:23.909
+right?
+
+00:07:25.990 --> 00:07:26.000
+That nice out. This is just my normal
+
+00:07:26.000 --> 00:07:30.550
+jacket.
+
+00:07:32.390 --> 00:07:32.400
+Also, I have the camera angled weird. I
+
+00:07:32.400 --> 00:07:34.870
+always do this where I'm like
+
+00:07:34.880 --> 00:07:38.390
+super low on the screen, but whatever.
+
+00:07:38.400 --> 00:07:40.230
+It's cuz if I actually sit up for
+
+00:07:40.240 --> 00:07:42.870
+meetings now, I'm centered, but like I'm
+
+00:07:42.880 --> 00:08:03.589
+not going to do that working all day.
+
+00:08:06.070 --> 00:08:06.080
+To be fair, this is my this is like the
+
+00:08:06.080 --> 00:08:09.270
+uh my favorite jacket I've ever gotten.
+
+00:08:09.280 --> 00:08:11.029
+Um
+
+00:08:11.039 --> 00:08:14.550
+it's from uh Vory.
+
+00:08:14.560 --> 00:08:16.070
+It's the only place where I actually
+
+00:08:16.080 --> 00:08:18.869
+like getting stuff. It's just like
+
+00:08:18.879 --> 00:08:20.629
+really really comfortable hybrid
+
+00:08:20.639 --> 00:10:11.990
+athletic wear.
+
+00:10:14.630 --> 00:10:14.640
+enough fun with Codeex. Yeah. Nothing
+
+00:10:14.640 --> 00:10:34.790
+but joy, I'll tell you.
+
+00:10:36.389 --> 00:10:36.399
+I mean, I there's still quite a bit of
+
+00:10:36.399 --> 00:10:50.069
+we can clean up.
+
+00:10:59.590 --> 00:10:59.600
+Yeah. So that's the whole reason for
+
+00:10:59.600 --> 00:11:02.069
+having this Jess.
+
+00:11:02.079 --> 00:11:03.670
+That's why Puffer's been able to do
+
+00:11:03.680 --> 00:11:06.310
+stuff so fast.
+
+00:11:06.320 --> 00:11:09.190
+We invested in the
+
+00:11:09.200 --> 00:11:14.389
+those really really fast tests.
+
+00:11:15.910 --> 00:11:15.920
+you know, like the jacks people have
+
+00:11:15.920 --> 00:11:18.470
+minotaur and whatever, but that's really
+
+00:11:18.480 --> 00:11:19.829
+first of all, it's much slower and
+
+00:11:19.839 --> 00:11:21.110
+second of all, you can't just make the
+
+00:11:21.120 --> 00:11:24.870
+task arbitrarily easy
+
+00:11:24.880 --> 00:11:27.750
+and still get meaningful results.
+
+00:11:27.760 --> 00:11:29.509
+There's a threshold above which you have
+
+00:11:29.519 --> 00:12:25.269
+to
+
+00:12:31.670 --> 00:12:31.680
+We do have your uh your latest stuff
+
+00:12:31.680 --> 00:12:34.550
+pulled in now. It's pretty nice. I'll
+
+00:12:34.560 --> 00:12:36.710
+show you.
+
+00:12:36.720 --> 00:12:39.750
+Oops.
+
+00:12:47.910 --> 00:12:47.920
+Too many files, too much code. But this
+
+00:12:47.920 --> 00:12:49.990
+is down like minus 10 files and minus
+
+00:12:50.000 --> 00:12:53.430
+1,200 lines since yesterday
+
+00:12:53.440 --> 00:12:55.269
+or during yesterday I should I haven't
+
+00:12:55.279 --> 00:13:14.470
+done much yet today.
+
+00:13:16.870 --> 00:13:16.880
+49K.
+
+00:13:16.880 --> 00:13:22.870
+Where do you see 49K?
+
+00:13:24.550 --> 00:13:24.560
+That's not lines. That's characters,
+
+00:13:24.560 --> 00:13:35.829
+dude. It's 1300 lines by 13,000 lines.
+
+00:13:37.829 --> 00:13:37.839
+To be fair, the line count thing is not
+
+00:13:37.839 --> 00:13:40.550
+great. Um,
+
+00:13:40.560 --> 00:13:42.069
+and I've kind of wanted to just make
+
+00:13:42.079 --> 00:13:45.350
+like a basic tokenizer at some point.
+
+00:13:45.360 --> 00:13:46.790
+I think you could get a much more
+
+00:13:46.800 --> 00:13:49.990
+accurate count of the code size if you
+
+00:13:50.000 --> 00:13:53.910
+just count like symbols separately.
+
+00:13:53.920 --> 00:13:57.430
+Not like LM tokens. That's different.
+
+00:13:57.440 --> 00:14:01.269
+But you know, every operator
+
+00:15:30.949 --> 00:15:30.959
+Yeah. So, I already did that, man. I
+
+00:15:30.959 --> 00:15:33.110
+haven't done uh I have not done any
+
+00:15:33.120 --> 00:15:36.230
+edits to it otherwise, but the GP is
+
+00:15:36.240 --> 00:15:38.710
+merged into one file and then the
+
+00:15:38.720 --> 00:15:41.110
+proteins merged into one file. So, I
+
+00:15:41.120 --> 00:15:48.150
+took your four and I put them in two.
+
+00:15:49.749 --> 00:15:49.759
+I also I deleted the like the
+
+00:15:49.759 --> 00:15:51.749
+polymorphic
+
+00:15:51.759 --> 00:15:53.829
+weird interface for supporting lots of
+
+00:15:53.839 --> 00:15:55.189
+different kernels since we don't need
+
+00:15:55.199 --> 00:15:58.150
+that but I haven't really uh refactored
+
+00:15:58.160 --> 00:16:00.790
+anything else yet.
+
+00:16:00.800 --> 00:16:05.670
+So protein now is total
+
+00:18:37.350 --> 00:18:37.360
+Certain estimate for the acquisition
+
+00:18:37.360 --> 00:18:38.870
+functions is a chance the variance was
+
+00:18:38.880 --> 00:18:41.590
+crap. The coariance kernel wasn't a good
+
+00:18:41.600 --> 00:18:44.150
+fit.
+
+00:18:44.160 --> 00:18:53.270
+That could be the case.
+
+00:18:56.710 --> 00:18:56.720
+But then glitzy like
+
+00:18:56.720 --> 00:18:58.710
+you kind of have to test it across a
+
+00:18:58.720 --> 00:19:00.870
+bunch of different problems unless we're
+
+00:19:00.880 --> 00:19:04.470
+going to come up with ways to make um
+
+00:19:04.480 --> 00:19:06.230
+like very strong guarantees about the
+
+00:19:06.240 --> 00:19:07.669
+type of data that you put into these
+
+00:19:07.679 --> 00:20:31.669
+things.
+
+00:21:03.029 --> 00:21:03.039
+that was um inherited from carbs. I
+
+00:21:03.039 --> 00:21:05.830
+think I tried a couple things, but it
+
+00:21:05.840 --> 00:21:07.430
+did seem you needed the linear plus
+
+00:21:07.440 --> 00:21:58.549
+return.
+
+00:22:00.070 --> 00:22:00.080
+I wouldn't be surprised ends up being
+
+00:22:00.080 --> 00:22:56.549
+shorter.
+
+00:23:28.230 --> 00:23:28.240
+Let's see. I honestly I'm going to be
+
+00:23:28.240 --> 00:23:30.549
+honest. I have no idea. I do not have
+
+00:23:30.559 --> 00:23:39.510
+the background to make sense of that.
+
+00:23:41.270 --> 00:23:41.280
+I have no idea how different it is from
+
+00:23:41.280 --> 00:23:46.710
+just like a Gaussian plus linear
+
+00:23:50.070 --> 00:23:50.080
+or I mean that poly was it poly plus
+
+00:23:50.080 --> 00:24:34.149
+linear that doesn't make sense.
+
+00:24:36.149 --> 00:24:36.159
+This is separate.
+
+00:24:36.159 --> 00:24:47.510
+We know this will go away.
+
+00:24:49.830 --> 00:24:49.840
+I mean, like that's kind of the ideal
+
+00:24:49.840 --> 00:24:55.590
+background for you, let's say. Um,
+
+00:24:57.350 --> 00:24:57.360
+and the goal is basically to figure out
+
+00:24:57.360 --> 00:24:59.110
+whether this is the right approach. From
+
+00:24:59.120 --> 00:25:01.750
+what everything I see, it seems like the
+
+00:25:01.760 --> 00:25:03.510
+only thing that actually makes sense for
+
+00:25:03.520 --> 00:25:05.029
+hyperparam
+
+00:25:05.039 --> 00:25:08.390
+is um, Gaussian process,
+
+00:25:08.400 --> 00:25:10.149
+what form of it makes sense, and then
+
+00:25:10.159 --> 00:25:11.590
+what's the simplest way that we can use
+
+00:25:11.600 --> 00:25:13.110
+it that's going to actually be robust
+
+00:25:13.120 --> 00:25:15.190
+across all the different ends and not
+
+00:25:15.200 --> 00:25:19.190
+have any like stupid edge cases to it,
+
+00:25:19.200 --> 00:26:16.070
+right?
+
+00:26:17.590 --> 00:26:17.600
+See, that's not at all how I was
+
+00:26:17.600 --> 00:26:21.430
+introduced to Gaussian processes.
+
+00:26:21.440 --> 00:26:22.950
+See, I was introduced to them as just
+
+00:26:22.960 --> 00:26:25.830
+putting a bump everywhere that you have
+
+00:26:25.840 --> 00:26:31.190
+existing data.
+
+00:26:33.750 --> 00:26:33.760
+and that being useful because what the
+
+00:26:33.760 --> 00:26:35.430
+heck else do you do when you have 50
+
+00:26:35.440 --> 00:26:41.990
+data points in R50
+
+00:26:43.830 --> 00:26:43.840
+and then linear is like are you going is
+
+00:26:43.840 --> 00:26:46.149
+gives you a a prior that you extrapolate
+
+00:26:46.159 --> 00:26:49.269
+linearly globally where some of the
+
+00:26:49.279 --> 00:27:09.029
+functions are more Vocal
+
+00:28:11.830 --> 00:28:11.840
+You kind of just have to test all this
+
+00:28:11.840 --> 00:28:15.750
+stuff empirically, don't you?
+
+00:28:17.510 --> 00:28:17.520
+Nice thing. Well, nice thing is they
+
+00:28:17.520 --> 00:28:20.549
+have um they have closed form solutions,
+
+00:28:20.559 --> 00:28:30.310
+right?
+
+00:28:38.950 --> 00:28:38.960
+uh note that we don't really have to
+
+00:28:38.960 --> 00:28:41.909
+care about learning rate free.
+
+00:28:41.919 --> 00:28:43.510
+It's nice, but that's like nowhere near
+
+00:28:43.520 --> 00:28:45.430
+as big of a deal as just given schedule
+
+00:28:45.440 --> 00:28:53.909
+free to work.
+
+00:29:22.470 --> 00:29:22.480
+Proctor and Puffer would use CNN
+
+00:29:22.480 --> 00:29:25.510
+right out of the box bufferet.
+
+00:29:25.520 --> 00:29:28.710
+So it depends.
+
+00:29:28.720 --> 00:29:30.470
+If you're going to put the pixel data
+
+00:29:30.480 --> 00:29:34.549
+in, then you need a convenencer.
+
+00:29:34.559 --> 00:29:36.630
+If you check out the entity gem blog
+
+00:29:36.640 --> 00:29:39.669
+post by Clemens Winter, he has a
+
+00:29:39.679 --> 00:29:42.389
+tilebased encoding,
+
+00:29:42.399 --> 00:29:45.430
+I think derived from state. I think that
+
+00:29:45.440 --> 00:29:47.110
+if you use the tilebased encoding, you
+
+00:29:47.120 --> 00:30:05.909
+wouldn't need coms.
+
+00:30:07.430 --> 00:30:07.440
+Like they might still help in samples,
+
+00:30:07.440 --> 00:30:08.870
+but you can probably just solve it in
+
+00:30:08.880 --> 00:30:15.269
+wall clock without
+
+00:30:18.870 --> 00:30:18.880
+Isaac sim or go to RL.
+
+00:30:18.880 --> 00:30:20.710
+Neither.
+
+00:30:20.720 --> 00:30:25.750
+Both of those are trolling.
+
+00:30:27.590 --> 00:30:27.600
+Both of those are talking like minimum
+
+00:30:27.600 --> 00:30:29.430
+four orders of magnitude slower than
+
+00:30:29.440 --> 00:30:59.190
+puffer.
+
+00:31:01.830 --> 00:31:01.840
+Torch isn't terrible glitzy. It's the
+
+00:31:01.840 --> 00:31:04.389
+second best thing.
+
+00:31:04.399 --> 00:31:06.070
+It's a bad implementation of a good
+
+00:31:06.080 --> 00:31:08.870
+design
+
+00:31:08.880 --> 00:31:11.029
+at the very least.
+
+00:31:11.039 --> 00:31:24.789
+That's something.
+
+00:31:26.230 --> 00:31:26.240
+Let me see what else we want to merge
+
+00:31:26.240 --> 00:31:31.029
+here
+
+00:31:33.269 --> 00:31:33.279
+for small neural nets with RL. Yes, it's
+
+00:31:33.279 --> 00:31:36.549
+literally C and CUDA. The good news is
+
+00:31:36.559 --> 00:31:38.950
+we've kind of already done it for you
+
+00:31:38.960 --> 00:31:42.149
+and it's really not that hard.
+
+00:31:42.159 --> 00:31:44.630
+Like we the entirety of Puffer is less
+
+00:31:44.640 --> 00:31:47.909
+code than a lot of the um really bulky
+
+00:31:47.919 --> 00:31:51.110
+annoying robotics code bases or RL and
+
+00:31:51.120 --> 00:31:55.990
+even some of the game RL code bases
+
+00:31:58.230 --> 00:31:58.240
+like this is just logging. This is like
+
+00:31:58.240 --> 00:31:59.750
+visualization.
+
+00:31:59.760 --> 00:32:01.669
+This is hyperparameter sweep. The core
+
+00:32:01.679 --> 00:32:18.549
+is 5K lines.
+
+00:32:20.230 --> 00:32:20.240
+And you see the amount of effort that I
+
+00:32:20.240 --> 00:32:22.230
+put into like cutting it down, cutting
+
+00:32:22.240 --> 00:32:23.590
+it down, trying to make it simpler and
+
+00:32:23.600 --> 00:32:37.990
+simpler, right?
+
+00:33:23.509 --> 00:33:23.519
+What choice do I have? Yeah. So, that's
+
+00:33:23.519 --> 00:33:25.590
+the It depends on your timelines, right?
+
+00:33:25.600 --> 00:33:27.750
+And your skill levels.
+
+00:33:27.760 --> 00:33:30.870
+Um
+
+00:33:32.870 --> 00:33:32.880
+I think that the if you don't want to do
+
+00:33:32.880 --> 00:33:35.350
+everything fully fully from scratch,
+
+00:33:35.360 --> 00:33:40.470
+you'd basically just grab um warp
+
+00:33:40.480 --> 00:33:43.669
+like do stuff around warp in the
+
+00:33:43.679 --> 00:33:46.789
+simplest way you can still in C or CUDA
+
+00:33:46.799 --> 00:33:49.509
+and then bind it to existing puffer for
+
+00:33:49.519 --> 00:33:51.830
+training. That's probably your best bet
+
+00:33:51.840 --> 00:33:53.669
+instead of fully fully re-implementing
+
+00:33:53.679 --> 00:33:58.950
+everything.
+
+00:34:00.710 --> 00:34:00.720
+But if it's like, oh well, I don't
+
+00:34:00.720 --> 00:34:02.549
+really do systems or I don't really like
+
+00:34:02.559 --> 00:34:04.470
+how do I just do this fast in Python?
+
+00:34:04.480 --> 00:34:07.029
+You you don't. That's the thing. There's
+
+00:34:07.039 --> 00:34:09.510
+just no way to do that.
+
+00:34:09.520 --> 00:34:13.109
+Like, sorry. The um the tool stack that
+
+00:34:13.119 --> 00:34:15.109
+the field uses is just the wrong one.
+
+00:34:15.119 --> 00:34:16.550
+That's why they haven't made enough
+
+00:34:16.560 --> 00:34:20.550
+progress in the last several years.
+
+00:34:20.560 --> 00:34:23.270
+They've kind of just all
+
+00:34:23.280 --> 00:34:25.829
+they've all sort of um agreed upon a bad
+
+00:34:25.839 --> 00:34:32.310
+tool stack. That's just what happens.
+
+00:34:34.149 --> 00:34:34.159
+And it's very hard to recognize because
+
+00:34:34.159 --> 00:34:36.950
+you really really have to replace a lot
+
+00:34:36.960 --> 00:34:39.669
+of stuff before this becomes obvious.
+
+00:34:39.679 --> 00:34:41.030
+But then you can look at the speeds we
+
+00:34:41.040 --> 00:34:44.470
+get in Puffer and you go, "Oh yeah,
+
+00:34:44.480 --> 00:34:46.470
+that's why."
+
+00:34:46.480 --> 00:35:07.670
+Right?
+
+00:35:10.150 --> 00:35:10.160
+Yeah, let's see. The um contributions to
+
+00:35:10.160 --> 00:35:12.230
+hyper pram sweep are tremendously
+
+00:35:12.240 --> 00:35:18.950
+useful.
+
+00:35:25.589 --> 00:35:25.599
+The thing is like you can't just say,
+
+00:35:25.599 --> 00:35:29.349
+"Oh, C++ good." C++ is like at least has
+
+00:35:29.359 --> 00:35:31.030
+the potential to be good, but usually
+
+00:35:31.040 --> 00:35:35.190
+people make a mess of it.
+
+00:35:54.230 --> 00:35:54.240
+Yeah. But I the more I've sort of done
+
+00:35:54.240 --> 00:35:56.870
+stuff in RL, the more I've realized it's
+
+00:35:56.880 --> 00:35:58.550
+just not worth it to try to work around
+
+00:35:58.560 --> 00:36:00.870
+the existing infrastructure.
+
+00:36:00.880 --> 00:36:07.750
+You'll just waste years of your life.
+
+00:36:27.990 --> 00:36:28.000
+That's not what I said. FBR. I said that
+
+00:36:28.000 --> 00:36:30.790
+there was a project that was adjacent
+
+00:36:30.800 --> 00:36:34.310
+but using them in a different way.
+
+00:36:34.320 --> 00:36:37.109
+It's sort of on holdish. Parts of it
+
+00:36:37.119 --> 00:36:40.710
+made it into Puffer 5 um into Puffer 5
+
+00:36:40.720 --> 00:36:42.230
+though
+
+00:36:42.240 --> 00:36:44.390
+where I guess Puffer 5 and six are
+
+00:36:44.400 --> 00:36:47.750
+getting swapped now. But there was some
+
+00:36:47.760 --> 00:37:03.510
+initial promising results.
+
+00:37:05.829 --> 00:37:05.839
+stuff calculation from hand to
+
+00:37:05.839 --> 00:37:07.829
+understand them.
+
+00:37:07.839 --> 00:37:11.829
+I will say neuro um the good news with
+
+00:37:11.839 --> 00:37:15.109
+puffer it's very very accessible
+
+00:37:15.119 --> 00:37:18.150
+like the tools we use it's just loops
+
+00:37:18.160 --> 00:37:21.349
+and conditionals over data in static
+
+00:37:21.359 --> 00:37:24.310
+memory like if you read our code it's
+
+00:37:24.320 --> 00:37:26.550
+first year undergraduate level systems
+
+00:37:26.560 --> 00:37:29.270
+code most of it
+
+00:37:29.280 --> 00:37:32.310
+and all the CUDA is basically the same
+
+00:37:32.320 --> 00:37:35.990
+there's very very little that's hard to
+
+00:37:36.000 --> 00:37:38.710
+get into now the rationale for
+
+00:37:38.720 --> 00:37:40.150
+everything and how I came up with this
+
+00:37:40.160 --> 00:37:42.310
+specific architecture that takes years
+
+00:37:42.320 --> 00:37:44.710
+of experience to actually look at what
+
+00:37:44.720 --> 00:37:46.230
+we're doing and understand what it is
+
+00:37:46.240 --> 00:37:53.349
+and how it works very accessible
+
+00:38:11.750 --> 00:38:11.760
+I don't know why I'm stalled here so
+
+00:38:11.760 --> 00:38:14.310
+badly here. I just want to know what we
+
+00:38:14.320 --> 00:38:25.430
+can merge.
+
+00:38:27.829 --> 00:38:27.839
+So this is kept because this gets used
+
+00:38:27.839 --> 00:38:29.670
+by
+
+00:38:29.680 --> 00:38:31.510
+how many different compilation units do
+
+00:38:31.520 --> 00:38:33.990
+we have here?
+
+00:38:34.000 --> 00:38:36.230
+One,
+
+00:38:36.240 --> 00:38:38.230
+two,
+
+00:38:38.240 --> 00:38:40.710
+three.
+
+00:38:40.720 --> 00:39:19.109
+Three compilation units.
+
+00:39:25.750 --> 00:39:25.760
+I don't know if that can be made fast.
+
+00:39:25.760 --> 00:39:30.069
+Glitzy,
+
+00:39:31.910 --> 00:39:31.920
+I think that the most important thing is
+
+00:39:31.920 --> 00:39:35.430
+just making protein itself better. like
+
+00:39:35.440 --> 00:39:38.310
+take fewer samples.
+
+00:39:38.320 --> 00:39:39.829
+um
+
+00:39:39.839 --> 00:40:26.390
+have fewer degeneracies.
+
+00:44:35.670 --> 00:44:35.680
+But for six, just the algorithm
+
+00:44:35.680 --> 00:44:37.190
+improvements, Jess, that are likely
+
+00:44:37.200 --> 00:44:39.589
+going to get um
+
+00:44:39.599 --> 00:44:41.270
+I'd like to ship something at the end of
+
+00:44:41.280 --> 00:44:44.390
+the summer here. So,
+
+00:44:44.400 --> 00:44:46.390
+max plus one month because the client
+
+00:44:46.400 --> 00:44:48.790
+work. I just don't want another very
+
+00:44:48.800 --> 00:44:56.790
+long update.
+
+00:46:08.390 --> 00:46:08.400
+I don't like this kernels file.
+
+00:46:08.400 --> 00:48:35.109
+But I think it's mostly just the
+
+00:48:41.910 --> 00:48:41.920
+If we drain some of stuff in Puffer, it
+
+00:48:41.920 --> 00:49:45.589
+can merge to dashboard.
+
+00:52:52.069 --> 00:52:52.079
+Ops
+
+00:52:52.079 --> 00:52:56.390
+Fox 3D.
+
+00:52:58.790 --> 00:52:58.800
+Let's see. Um,
+
+00:52:58.800 --> 00:53:05.349
+so possibly. I will tell you though, the
+
+00:53:05.359 --> 00:53:08.870
+the one end that somebody tried to make
+
+00:53:08.880 --> 00:53:13.349
+with box 2D ended up being like the
+
+00:53:13.359 --> 00:53:15.910
+biggest PR ever, way longer than it
+
+00:53:15.920 --> 00:53:18.390
+should have been, and having major
+
+00:53:18.400 --> 00:53:19.910
+performance issues to the point that
+
+00:53:19.920 --> 00:53:21.990
+it's not even like commonly used at the
+
+00:53:22.000 --> 00:53:25.910
+moment.
+
+00:53:27.589 --> 00:53:27.599
+Now, if you want to go clean up Impulse
+
+00:53:27.599 --> 00:53:29.109
+Wars, it's on the website. It's an
+
+00:53:29.119 --> 00:53:33.430
+awesome end, but like it was so slow
+
+00:53:33.440 --> 00:53:44.230
+because of the box 2D dep.
+
+00:53:45.910 --> 00:53:45.920
+And we've not had this issue in any
+
+00:53:45.920 --> 00:53:47.430
+other end since that we've just done
+
+00:53:47.440 --> 00:54:27.430
+with uh no engine.
+
+00:54:29.990 --> 00:54:30.000
+2D robot arm.
+
+00:54:30.000 --> 00:54:33.990
+Oh yeah, physics is definitely a badass.
+
+00:54:34.000 --> 00:54:35.670
+But the question is not whether it's a
+
+00:54:35.680 --> 00:54:37.589
+bit ass. The question is, is it worse
+
+00:54:37.599 --> 00:54:39.910
+than
+
+00:54:39.920 --> 00:54:51.670
+dealing with the damn engine?
+
+00:54:54.390 --> 00:54:54.400
+custom physics sim.
+
+00:54:54.400 --> 00:54:57.430
+Yeah, honestly could be, but it wouldn't
+
+00:54:57.440 --> 00:55:03.829
+be that type of physics sim.
+
+00:55:06.230 --> 00:55:06.240
+Much more interested in like molecular
+
+00:55:06.240 --> 00:56:31.910
+level physics.
+
+00:56:40.630 --> 00:56:40.640
+Honestly, I'm happy with everything
+
+00:56:40.640 --> 00:56:44.549
+else.
+
+00:56:46.230 --> 00:56:46.240
+I think the main thing is the colonel's
+
+00:56:46.240 --> 00:57:17.829
+file.
+
+00:57:57.510 --> 00:57:57.520
+I mean the most base thing to do right
+
+00:57:57.520 --> 00:58:02.630
+now would be to merge advantage kernels
+
+00:58:02.640 --> 00:58:06.630
+loss model
+
+00:58:06.640 --> 00:58:08.870
+like just merge and puffer into a like a
+
+00:58:08.880 --> 00:58:11.030
+four to 5,000line
+
+00:58:11.040 --> 00:58:20.710
+single file implementation.
+
+00:58:22.390 --> 00:58:22.400
+I don't think that's the play, but it
+
+00:58:22.400 --> 00:58:25.589
+would be funny.
+
+00:58:25.599 --> 00:58:27.589
+It's also not terrible, actually. That's
+
+00:58:27.599 --> 00:58:29.589
+nowhere near as bad as it would as you
+
+00:58:29.599 --> 00:58:39.510
+would think. Hey, Liberty.
+
+00:58:43.190 --> 00:58:43.200
+Maybe it is actually. Let's see.
+
+00:58:43.200 --> 00:58:46.150
+as prow.
+
+00:58:46.160 --> 00:58:57.670
+No, because see this is kind of still
+
+00:59:07.190 --> 00:59:07.200
+Wait, how's this not include anything?
+
+00:59:07.200 --> 00:59:14.789
+Oh, because it gets include. Okay.
+
+00:59:16.789 --> 00:59:16.799
+I mean, I do kind of like the idea in
+
+00:59:16.799 --> 00:59:18.390
+the sense that we know how long our full
+
+00:59:18.400 --> 00:59:21.510
+trainer is
+
+00:59:21.520 --> 00:59:23.589
+and it becomes a much more easy explicit
+
+00:59:23.599 --> 00:59:31.510
+target.
+
+00:59:33.430 --> 00:59:33.440
+That is one way to not have to fiddle
+
+00:59:33.440 --> 00:59:56.549
+about um
+
+00:59:58.630 --> 00:59:58.640
+I wonder what is stopping me from doing
+
+00:59:58.640 --> 01:01:13.829
+that.
+
+01:01:31.510 --> 01:01:31.520
+It's kind of troll, but it's kind of
+
+01:01:31.520 --> 01:01:41.030
+not.
+
+01:01:45.270 --> 01:01:45.280
+If it's under 5k, we consider
+
+01:01:45.280 --> 01:01:53.510
+let's say 200 from kernels.
+
+01:02:07.670 --> 01:02:07.680
+I am genuinely thinking like
+
+01:02:07.680 --> 01:02:10.870
+do we just merge all the core files and
+
+01:02:10.880 --> 01:03:21.109
+then aggressively simplify
+
+01:03:41.589 --> 01:03:41.599
+convert I don't know
+
+01:03:41.599 --> 01:03:43.670
+from the archive title What paper that
+
+01:03:43.680 --> 01:03:47.109
+is
+
+01:04:38.470 --> 01:04:38.480
+We're not going to do this now before we
+
+01:04:38.480 --> 01:06:00.069
+commit. Obviously.
+
+01:06:03.109 --> 01:06:03.119
+I think it's worth at least trying out.
+
+01:06:03.119 --> 01:06:15.990
+What time is it? It's 1:36.
+
+01:06:17.510 --> 01:06:17.520
+I think I have to chat with Spencer
+
+01:06:17.520 --> 01:06:48.870
+first. Let me see.
+
+01:07:55.910 --> 01:07:55.920
+merging like half of these files.
+
+01:07:55.920 --> 01:07:57.510
+I'm trying to think like what happens if
+
+01:07:57.520 --> 01:08:00.870
+we just aggressively merge um the entire
+
+01:08:00.880 --> 01:08:03.990
+backend into one file
+
+01:08:04.000 --> 01:08:07.109
+like the whole trainer
+
+01:08:07.119 --> 01:08:08.789
+and then we end up with maybe like a
+
+01:08:08.799 --> 01:08:17.590
+total of less than 10 files
+
+01:08:20.470 --> 01:08:20.480
+like
+
+01:08:20.480 --> 01:08:23.590
+so we'd basically just end up with
+
+01:08:23.600 --> 01:08:24.870
+buffer
+
+01:08:24.880 --> 01:08:30.550
+Puffer lib sweep
+
+01:08:36.709 --> 01:08:36.719
+probably like this anything
+
+01:08:36.719 --> 01:08:38.789
+eval
+
+01:08:38.799 --> 01:08:41.990
+constellation maybe
+
+01:08:42.000 --> 01:09:55.750
+be very minimal.
+
+01:09:58.070 --> 01:09:58.080
+Well, I like the one thing I really
+
+01:09:58.080 --> 01:10:01.669
+really like about having um
+
+01:10:01.679 --> 01:10:04.149
+one file makes it very very obvious when
+
+01:10:04.159 --> 01:10:06.950
+you're bloating stuff.
+
+01:10:06.960 --> 01:10:08.870
+Otherwise, plus 20 lines here, plus 20
+
+01:10:08.880 --> 01:10:43.270
+lines there.
+
+01:10:45.669 --> 01:10:45.679
+We'll probably make this puff RL.CU as
+
+01:10:45.679 --> 01:11:36.790
+well.
+
+01:11:38.630 --> 01:11:38.640
+That's a lot less bullshitting over what
+
+01:11:38.640 --> 01:11:41.350
+should live where, right? It also just
+
+01:11:41.360 --> 01:12:15.430
+solves that problem.
+
+01:13:12.550 --> 01:13:12.560
+You sort of just end up pouring code
+
+01:13:12.560 --> 01:13:55.430
+back and forth until you have it right.
+
+01:13:58.630 --> 01:13:58.640
+Beck and
+
+01:13:58.640 --> 01:14:17.750
+probably Beck and gets
+
+01:14:38.229 --> 01:14:38.239
+eight tabs open.
+
+01:14:38.239 --> 01:14:42.709
+Absolutely.
+
+01:14:45.189 --> 01:14:45.199
+This is just other crap. I have one open
+
+01:14:45.199 --> 01:14:47.669
+right now, which is arguably one too
+
+01:14:47.679 --> 01:14:49.350
+many.
+
+01:14:49.360 --> 01:14:51.590
+This is a very, very large and obnoxious
+
+01:14:51.600 --> 01:14:58.229
+refactor though.
+
+01:15:00.470 --> 01:15:00.480
+I mean, my initial goal is if I can just
+
+01:15:00.480 --> 01:15:03.350
+with codeex get the code that should go
+
+01:15:03.360 --> 01:15:06.470
+in each file to be in the correct files
+
+01:15:06.480 --> 01:15:09.350
+so I'm happy with the structure,
+
+01:15:09.360 --> 01:15:11.030
+then I start going through and with
+
+01:15:11.040 --> 01:15:13.350
+codeex again fixing obviously stupid
+
+01:15:13.360 --> 01:15:15.510
+things. Then I go in manually and fix
+
+01:15:15.520 --> 01:15:18.470
+the smaller things.
+
+01:15:18.480 --> 01:15:22.070
+That's the idea.
+
+01:15:58.470 --> 01:15:58.480
+All right, I'm going to call it here
+
+01:15:58.480 --> 01:16:00.149
+though because I have uh I got a meeting
+
+01:16:00.159 --> 01:16:02.550
+that I got to get ready for
+
+01:16:02.560 --> 01:16:04.229
+and
+
+01:16:04.239 --> 01:16:06.070
+might be back later this afternoon,
+
+01:16:06.080 --> 01:16:08.470
+probably tomorrow, though. For anybody
+
+01:16:08.480 --> 01:16:10.390
+new around here, Star Puffer on GitHub.
+
+01:16:10.400 --> 01:16:12.870
+It's all free and open source. I'm going
+
+01:16:12.880 --> 01:16:15.110
+to finish this uh refactor up over the
+
+01:16:15.120 --> 01:16:16.709
+next few days, at least the first pass
+
+01:16:16.719 --> 01:16:19.760
+of it.

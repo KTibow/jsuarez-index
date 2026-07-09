@@ -1,0 +1,17 @@
+{
+  "id": "YAgdJSfjsJg",
+  "date": "2026-07-07T19:31:34+00:00",
+  "url": "https://www.youtube.com/watch?v=YAgdJSfjsJg",
+  "transcript": "/src/data/transcripts/YAgdJSfjsJg.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Refactoring PufferLib Core into Fewer Files and Simplifying the Codebase",
+  "summary": "Merged multiple core files of PufferLib into single files to reduce complexity and improve maintainability. Discussed the rationale behind aggressive code consolidation and the importance of a minimal codebase for performance.",
+  "topics": [
+    "PufferLib",
+    "code refactoring",
+    "codebase simplification",
+    "Gaussian process",
+    "hyperparameter tuning",
+    "Cython"
+  ]
+}
