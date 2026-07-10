@@ -1,0 +1,17 @@
+{
+  "id": "ApefdVEF7-s",
+  "date": "2026-07-08T18:11:22+00:00",
+  "url": "https://www.youtube.com/watch?v=ApefdVEF7-s",
+  "transcript": "/src/data/transcripts/ApefdVEF7-s.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Refactoring PufferLib into Eight Clean Files and Moving Code to CUDA",
+  "summary": "Worked on refactoring PufferLib's codebase from 19 files down to 8, moving all algorithmic code into an algo.cu file and infrastructure into pufferlib.cu. Began cleaning up AI-generated code and ensured end-to-end training runs, with performance at 20 million samples per second.",
+  "topics": [
+    "PufferLib",
+    "CUDA",
+    "code refactoring",
+    "Cython",
+    "selfplay",
+    "training performance"
+  ]
+}

@@ -1,0 +1,3129 @@
+WEBVTT
+
+NOTE
+metadata:
+title: Reinforcement learning research with Joseph Suarez
+id: _OMFJpRZuMs
+url: https://www.youtube.com/watch?v=_OMFJpRZuMs
+date: 2026-07-09T17:19:06+00:00
+language: en
+
+00:00:04.870 --> 00:00:04.880
+Okay,
+
+00:00:04.880 --> 00:00:06.869
+we're alive.
+
+00:00:06.879 --> 00:00:16.150
+Wish I would remember the category.
+
+00:00:29.830 --> 00:00:29.840
+So, little something different today.
+
+00:00:29.840 --> 00:00:32.470
+Um,
+
+00:00:32.480 --> 00:00:34.150
+every so often we kind of just need
+
+00:00:34.160 --> 00:00:37.110
+something timely for a client. And um,
+
+00:00:37.120 --> 00:00:38.790
+sometimes that is something that's very
+
+00:00:38.800 --> 00:00:40.549
+closely tied to a project that I can't
+
+00:00:40.559 --> 00:00:44.549
+really talk about.
+
+00:00:46.950 --> 00:00:46.960
+But sometimes it's just ends up being um
+
+00:00:46.960 --> 00:00:48.869
+a piece of sort of general research that
+
+00:00:48.879 --> 00:00:51.590
+just needs to be rush ordered is what we
+
+00:00:51.600 --> 00:00:55.510
+have at the moment going on.
+
+00:00:55.520 --> 00:00:56.950
+So I have to mess around with some
+
+00:00:56.960 --> 00:01:01.670
+kernels. Um this is mostly codec crap,
+
+00:01:01.680 --> 00:01:04.070
+but
+
+00:01:04.080 --> 00:01:07.510
+I think we can probably
+
+00:01:07.520 --> 00:01:42.630
+get somewhere with this.
+
+00:02:25.030 --> 00:02:25.040
+Presumably, this can be made
+
+00:02:25.040 --> 00:02:27.110
+substantially faster than the uh the
+
+00:02:27.120 --> 00:02:39.270
+torch version. We will see.
+
+00:02:41.190 --> 00:02:41.200
+Hey,
+
+00:02:41.200 --> 00:02:44.150
+welcome. Long time no see.
+
+00:02:44.160 --> 00:02:49.270
+Hope you're doing well.
+
+00:02:50.790 --> 00:02:50.800
+I suppose I've seen you in the uh the
+
+00:02:50.800 --> 00:02:56.470
+Discord more.
+
+00:02:58.710 --> 00:02:58.720
+Currently, I need to take a couple hours
+
+00:02:58.720 --> 00:03:00.309
+today. Today is a short stream day, but
+
+00:03:00.319 --> 00:03:03.110
+I have just like a oneoff task. the
+
+00:03:03.120 --> 00:03:04.710
+custom encoder that we did a little bit
+
+00:03:04.720 --> 00:03:07.750
+of research on. Um, we now need this for
+
+00:03:07.760 --> 00:03:10.550
+a client project. So, I need to like
+
+00:03:10.560 --> 00:03:12.869
+test this, get this integrated, etc.,
+
+00:03:12.879 --> 00:03:19.190
+etc.
+
+00:03:21.030 --> 00:03:21.040
+This is
+
+00:03:21.040 --> 00:03:24.550
+fairly straightforward, I'd say.
+
+00:03:24.560 --> 00:03:26.229
+Um, there are a few possible points
+
+00:03:26.239 --> 00:03:28.550
+where things are a little questionable,
+
+00:03:28.560 --> 00:03:30.789
+but actually, here's what we'll do.
+
+00:03:30.799 --> 00:03:32.470
+We'll make this fun.
+
+00:03:32.480 --> 00:03:34.229
+Instead of me just being boring for yet
+
+00:03:34.239 --> 00:03:36.630
+another day in a row, I will um I'll
+
+00:03:36.640 --> 00:03:40.630
+kind of draw out what I'm doing.
+
+00:03:42.229 --> 00:03:42.239
+Well, uh because otherwise we just have
+
+00:03:42.239 --> 00:03:44.470
+to wait for this stupid
+
+00:03:44.480 --> 00:03:49.589
+stupid codeex loop.
+
+00:03:52.149 --> 00:03:52.159
+All right, so this is how it works,
+
+00:03:52.159 --> 00:03:55.350
+right? You have some entities. Let's say
+
+00:03:55.360 --> 00:03:57.670
+that you have, you know, a screen. I
+
+00:03:57.680 --> 00:04:01.670
+think the task we have is like targets.
+
+00:04:01.680 --> 00:04:08.309
+And then there's like fish.
+
+00:04:09.830 --> 00:04:09.840
+That's not how you draw a fish at all,
+
+00:04:09.840 --> 00:04:13.670
+is it?
+
+00:04:15.110 --> 00:04:15.120
+How do you draw the fish like this?
+
+00:04:15.120 --> 00:04:17.030
+Right.
+
+00:04:17.040 --> 00:04:18.229
+Yeah. So you have fish and you have
+
+00:04:18.239 --> 00:04:22.390
+targets, right? So there lots of fish
+
+00:04:22.400 --> 00:04:23.670
+or lots of targets. These are all
+
+00:04:23.680 --> 00:04:26.550
+entities. The observations for these,
+
+00:04:26.560 --> 00:04:31.990
+right? This is going to be like X Y.
+
+00:04:32.000 --> 00:04:34.870
+But it also can see
+
+00:04:34.880 --> 00:04:48.390
+all these which have their own like X Y
+
+00:04:50.230 --> 00:04:50.240
+positions.
+
+00:04:50.240 --> 00:04:53.430
+And one thing you could do
+
+00:04:53.440 --> 00:04:56.230
+so like flat
+
+00:04:56.240 --> 00:04:58.230
+is you just concatenate everything. So
+
+00:04:58.240 --> 00:05:00.550
+you just get like x
+
+00:05:00.560 --> 00:05:02.550
+x
+
+00:05:02.560 --> 00:05:09.830
+like obviously with subscripts, right?
+
+00:05:13.510 --> 00:05:13.520
+But you can also do this type of cool
+
+00:05:13.520 --> 00:05:19.990
+pointwise
+
+00:05:55.350 --> 00:05:55.360
+16 dim
+
+00:05:55.360 --> 00:05:57.590
+and then
+
+00:05:57.600 --> 00:06:02.310
+eight max.
+
+00:06:05.510 --> 00:06:05.520
+So 16 dim hidden layer with a reu and
+
+00:06:05.520 --> 00:06:08.629
+then 128 dim layer with a max. And the
+
+00:06:08.639 --> 00:06:13.830
+key is that this operation
+
+00:06:16.950 --> 00:06:16.960
+fused kernel
+
+00:06:16.960 --> 00:06:18.790
+super slow operation without a fused
+
+00:06:18.800 --> 00:06:21.510
+kernel. But the insight is that each of
+
+00:06:21.520 --> 00:06:23.830
+these intermediates doesn't need to be
+
+00:06:23.840 --> 00:06:27.590
+very big. The output needs to be big.
+
+00:06:27.600 --> 00:06:29.110
+But as long as you have several
+
+00:06:29.120 --> 00:06:31.430
+intermediates here, you can project
+
+00:06:31.440 --> 00:06:34.629
+these to the output de and fuse the max.
+
+00:06:34.639 --> 00:06:37.029
+That's the architecture. We already have
+
+00:06:37.039 --> 00:06:39.510
+this uh validated. We have a very clean
+
+00:06:39.520 --> 00:06:42.469
+experiment on this in torch. Now we're
+
+00:06:42.479 --> 00:06:43.430
+going to see if we can get this into
+
+00:06:43.440 --> 00:06:45.990
+CUDA and fast
+
+00:06:46.000 --> 00:07:02.629
+entity encoder address.
+
+00:07:06.070 --> 00:07:06.080
+We uh it turns out we need
+
+00:07:06.080 --> 00:07:08.550
+Yep, we have a big client project at the
+
+00:07:08.560 --> 00:07:18.710
+moment.
+
+00:07:21.110 --> 00:07:21.120
+It's kind of cool though the way that
+
+00:07:21.120 --> 00:07:23.430
+Puffer works, right? like we kind of
+
+00:07:23.440 --> 00:07:26.550
+have all this cutting edge research and
+
+00:07:26.560 --> 00:07:29.110
+um it's sort of like we have our own
+
+00:07:29.120 --> 00:07:31.909
+agenda for what needs to be prioritized
+
+00:07:31.919 --> 00:07:33.589
+but then when companies hire us for
+
+00:07:33.599 --> 00:07:36.150
+stuff we kind of just shift stuff around
+
+00:07:36.160 --> 00:07:38.950
+um in order to make stuff ready in the
+
+00:07:38.960 --> 00:07:41.909
+order that the client needs it.
+
+00:07:41.919 --> 00:07:43.270
+That's one of the big perks of working
+
+00:07:43.280 --> 00:07:45.589
+with us.
+
+00:07:45.599 --> 00:07:46.950
+Are you batching? So you don't need to
+
+00:07:46.960 --> 00:07:50.150
+batch the relu. Um yes we are going to
+
+00:07:50.160 --> 00:07:52.230
+fuse this probably but it this doesn't
+
+00:07:52.240 --> 00:07:54.629
+matter. This operation is fast because
+
+00:07:54.639 --> 00:07:58.550
+this is uh points to dim 16. This is
+
+00:07:58.560 --> 00:08:00.230
+very low compute very low memory
+
+00:08:00.240 --> 00:08:02.469
+pressure.
+
+00:08:02.479 --> 00:08:05.110
+This operation from 16 to 128 is low
+
+00:08:05.120 --> 00:08:07.830
+compute but high memory pressure
+
+00:08:07.840 --> 00:08:11.189
+without fusing the max. So this whole op
+
+00:08:11.199 --> 00:08:13.430
+very few flops but very high memory
+
+00:08:13.440 --> 00:08:14.790
+pressure if you don't fuse this thing at
+
+00:08:14.800 --> 00:08:17.510
+the end.
+
+00:08:17.520 --> 00:08:21.189
+Love for community is fun.
+
+00:08:21.199 --> 00:08:22.869
+There's so much cool stuff in the works
+
+00:08:22.879 --> 00:08:25.909
+at the moment.
+
+00:08:25.919 --> 00:08:27.110
+Only thing that's a little bit annoying
+
+00:08:27.120 --> 00:08:28.950
+is I really don't like this codeex
+
+00:08:28.960 --> 00:08:30.950
+bullshitting workflow and I end up
+
+00:08:30.960 --> 00:08:32.790
+working far fewer hours when I have to
+
+00:08:32.800 --> 00:08:34.870
+do this type of stuff versus like, you
+
+00:08:34.880 --> 00:08:37.909
+know, doing some real
+
+00:08:37.919 --> 00:08:51.430
+but that's fine.
+
+00:08:53.509 --> 00:08:53.519
+Now, so the key thing to understand
+
+00:08:53.519 --> 00:08:56.070
+here, right, it's so the architecture
+
+00:08:56.080 --> 00:08:58.150
+looks like this.
+
+00:08:58.160 --> 00:09:02.710
+So it's like a very small input, right?
+
+00:09:02.720 --> 00:09:07.910
+A very small intermediate
+
+00:09:11.430 --> 00:09:11.440
+and then a big output,
+
+00:09:11.440 --> 00:09:13.030
+right?
+
+00:09:13.040 --> 00:09:23.350
+So this here this is high me pressure
+
+00:09:26.230 --> 00:09:26.240
+because you materialize for every
+
+00:09:26.240 --> 00:09:29.190
+embedding for every single entity right
+
+00:09:29.200 --> 00:09:30.870
+so number of entities times number of
+
+00:09:30.880 --> 00:09:33.750
+observations times 128 you materialize a
+
+00:09:33.760 --> 00:09:35.430
+huge amount of data and this is how
+
+00:09:35.440 --> 00:09:37.590
+torch does it like this is basically how
+
+00:09:37.600 --> 00:09:38.949
+you have to do it if you're just using
+
+00:09:38.959 --> 00:09:41.350
+your normal torch net but because this
+
+00:09:41.360 --> 00:09:45.269
+is actually going to get max.
+
+00:10:05.030 --> 00:10:05.040
+It's going to just be some minor
+
+00:10:05.040 --> 00:10:06.870
+incremental update. If they didn't
+
+00:10:06.880 --> 00:10:08.550
+change the if they didn't change the
+
+00:10:08.560 --> 00:10:09.910
+version number, I guarantee you I
+
+00:10:09.920 --> 00:11:10.550
+wouldn't notice.
+
+00:11:12.389 --> 00:11:12.399
+Why use codeex then versus handcrafted
+
+00:11:12.399 --> 00:11:14.710
+real end?
+
+00:11:14.720 --> 00:11:18.550
+So a few reasons. One, this is not like
+
+00:11:18.560 --> 00:11:22.310
+this project doesn't get a clean slate.
+
+00:11:22.320 --> 00:11:25.430
+Okay. Um puffer is now basically pure
+
+00:11:25.440 --> 00:11:29.269
+cudac. Um, but it sort of inherited crap
+
+00:11:29.279 --> 00:11:32.389
+from torch and we are cutting that bit
+
+00:11:32.399 --> 00:11:35.269
+by bit. Um, in fact in Puffer 5 there
+
+00:11:35.279 --> 00:11:37.110
+will finally be no more Python, no more
+
+00:11:37.120 --> 00:11:40.150
+Torch at all. But because of that, like
+
+00:11:40.160 --> 00:11:42.150
+there's still a bunch of bloat and
+
+00:11:42.160 --> 00:11:43.590
+things that had to match existing
+
+00:11:43.600 --> 00:11:47.030
+implementations such that it's kind of
+
+00:11:47.040 --> 00:11:49.350
+tricky to handedit until we get it cut
+
+00:11:49.360 --> 00:11:51.350
+down a little bit more, which aside from
+
+00:11:51.360 --> 00:11:52.630
+today, that's what I've been streaming
+
+00:11:52.640 --> 00:11:54.710
+the last few days is trying to refactor
+
+00:11:54.720 --> 00:11:57.750
+it down into a more manageable shape.
+
+00:11:57.760 --> 00:11:59.910
+The second reason is, frankly, I'm just
+
+00:11:59.920 --> 00:12:02.069
+somewhat new to CUDA still. Uh, I've
+
+00:12:02.079 --> 00:12:04.230
+been doing low-level for a few years and
+
+00:12:04.240 --> 00:12:05.750
+of course I've been doing RL for a
+
+00:12:05.760 --> 00:12:09.350
+decade, but I'm relatively new to CUDA
+
+00:12:09.360 --> 00:12:11.190
+and while I do understand what's going
+
+00:12:11.200 --> 00:12:14.629
+on here, um, at the syntax level, I
+
+00:12:14.639 --> 00:12:17.269
+would be quite slow with this stuff.
+
+00:12:17.279 --> 00:12:19.509
+And, um, especially for things like this
+
+00:12:19.519 --> 00:12:21.269
+where this is essentially a standard
+
+00:12:21.279 --> 00:12:23.750
+tiled matmo application. Uh, this is a
+
+00:12:23.760 --> 00:12:26.629
+standard tiled maple that is fused with
+
+00:12:26.639 --> 00:12:29.910
+just an activation. like this thing has
+
+00:12:29.920 --> 00:12:31.829
+a billion instances of this in the
+
+00:12:31.839 --> 00:12:34.870
+training data. And in fact, in a more
+
+00:12:34.880 --> 00:12:36.790
+reasonable world, instead of having
+
+00:12:36.800 --> 00:12:39.350
+sight highle libraries like torch, we
+
+00:12:39.360 --> 00:12:41.910
+would just have nice clean kernels for
+
+00:12:41.920 --> 00:12:43.509
+all these operations that you could just
+
+00:12:43.519 --> 00:12:45.910
+grab and paste into your project. We
+
+00:12:45.920 --> 00:12:47.750
+unfortunately don't live in that world.
+
+00:12:47.760 --> 00:12:52.470
+So, it's very very slow um to do this
+
+00:12:52.480 --> 00:12:55.110
+stuff by hand. Yeah, I guess it's just a
+
+00:12:55.120 --> 00:12:57.670
+combination of like
+
+00:12:57.680 --> 00:12:59.350
+it's a combination of having inherited
+
+00:12:59.360 --> 00:13:01.910
+stuff from old like other projects, but
+
+00:13:01.920 --> 00:13:04.150
+also just the type of thing we're doing
+
+00:13:04.160 --> 00:13:06.150
+being obviously a very reasonable thing,
+
+00:13:06.160 --> 00:13:09.269
+but they're just not being resources or
+
+00:13:09.279 --> 00:13:12.710
+references whatsoever in this area.
+
+00:13:12.720 --> 00:13:17.430
+CPU, MPS, etc. drop in Puffer 5. Um,
+
+00:13:17.440 --> 00:13:21.750
+so in Puffer 5, no, so CPU actually is
+
+00:13:21.760 --> 00:13:23.430
+going to have better eval support than
+
+00:13:23.440 --> 00:13:26.710
+ever. Eval support. Um, in fact, there's
+
+00:13:26.720 --> 00:13:28.629
+a single standalone C file that will
+
+00:13:28.639 --> 00:13:30.949
+just work with everything. Super easy to
+
+00:13:30.959 --> 00:13:34.470
+understand. Um, really portable. You can
+
+00:13:34.480 --> 00:13:37.590
+run it on anything. Torch CPU will be
+
+00:13:37.600 --> 00:13:39.350
+dropped though cuz we're not going to do
+
+00:13:39.360 --> 00:13:41.910
+that. I might might still have a
+
+00:13:41.920 --> 00:13:43.750
+reference torch implementation. I'm not
+
+00:13:43.760 --> 00:13:46.629
+sure yet. We're going to see on that. I
+
+00:13:46.639 --> 00:13:48.870
+might still do that. But I think for the
+
+00:13:48.880 --> 00:13:51.590
+main architecture, like the main what we
+
+00:13:51.600 --> 00:13:53.509
+want to support, it's going to be really
+
+00:13:53.519 --> 00:13:56.710
+good GPU training. Very simple CPU
+
+00:13:56.720 --> 00:13:59.990
+evalu.
+
+00:14:01.350 --> 00:14:01.360
+Frankly, I don't think it's worth
+
+00:14:01.360 --> 00:14:05.189
+maintaining that [ __ ] Um I could be
+
+00:14:05.199 --> 00:14:06.629
+swayed, but it would have to be really
+
+00:14:06.639 --> 00:14:09.829
+something good.
+
+00:14:09.839 --> 00:14:11.350
+Soon we'll live in that. Yeah, exactly.
+
+00:14:11.360 --> 00:14:13.990
+like we're making we're making strides
+
+00:14:14.000 --> 00:14:15.670
+towards it, right? We're getting to a
+
+00:14:15.680 --> 00:14:17.590
+place where we have just sane
+
+00:14:17.600 --> 00:14:19.269
+implementations of all this stuff we
+
+00:14:19.279 --> 00:14:21.509
+need. It's just very difficult, right?
+
+00:14:21.519 --> 00:14:25.350
+Nobody does stuff this way at all.
+
+00:14:25.360 --> 00:14:28.230
+And it shows because like this is not
+
+00:14:28.240 --> 00:14:30.629
+that much code. I mean, if you were to
+
+00:14:30.639 --> 00:14:32.710
+think about making a field a thousandx
+
+00:14:32.720 --> 00:14:35.030
+faster, you would think that that would
+
+00:14:35.040 --> 00:14:36.870
+take just massive massive amounts of
+
+00:14:36.880 --> 00:14:38.629
+engineering. And it's taken me a lot of
+
+00:14:38.639 --> 00:14:40.629
+time and contributors a lot of time, but
+
+00:14:40.639 --> 00:14:42.389
+that's like a small handful of people
+
+00:14:42.399 --> 00:14:44.389
+for a couple years. And it's only 13k
+
+00:14:44.399 --> 00:14:46.310
+lines of code. Actually, quite a bit
+
+00:14:46.320 --> 00:14:47.509
+less if you cut out some of the
+
+00:14:47.519 --> 00:14:54.710
+visualization software.
+
+00:14:57.670 --> 00:14:57.680
+100 mil updates.
+
+00:14:57.680 --> 00:14:59.590
+Yes, torch is just not written for
+
+00:14:59.600 --> 00:15:01.590
+networks below a certain uh a certain
+
+00:15:01.600 --> 00:15:05.670
+size
+
+00:15:07.110 --> 00:15:07.120
+like
+
+00:15:07.120 --> 00:15:08.790
+I don't know the make everything simple
+
+00:15:08.800 --> 00:15:11.110
+by abstracting away the details. It's
+
+00:15:11.120 --> 00:15:13.750
+just like Python cancer.
+
+00:15:13.760 --> 00:15:15.590
+I'm very I'm going to be very very happy
+
+00:15:15.600 --> 00:15:17.509
+to get rid of Python from my workflow
+
+00:15:17.519 --> 00:15:19.350
+finally.
+
+00:15:19.360 --> 00:15:27.030
+It's just so bad. It really is.
+
+00:15:37.590 --> 00:15:37.600
+No, I'm never really excited for the
+
+00:15:37.600 --> 00:15:39.990
+model launches. It's just like whatever.
+
+00:15:40.000 --> 00:15:48.550
+Small incremental update.
+
+00:15:51.269 --> 00:15:51.279
+I missed some stuff. Um I didn't see
+
+00:15:51.279 --> 00:15:54.470
+your term agent uh a lock. Like good job
+
+00:15:54.480 --> 00:15:56.550
+on that though. Like you should be uh
+
+00:15:56.560 --> 00:15:58.230
+you should basically just be doing tons
+
+00:15:58.240 --> 00:16:00.550
+of projects while you're learning. I do
+
+00:16:00.560 --> 00:16:02.150
+strongly recommend though that if you've
+
+00:16:02.160 --> 00:16:04.629
+been doing um
+
+00:16:04.639 --> 00:16:08.150
+if you've been doing uh highle dev just
+
+00:16:08.160 --> 00:16:12.230
+yeah get some lowlevel in.
+
+00:16:12.240 --> 00:16:13.829
+Yeah, I saw I there were a bunch of
+
+00:16:13.839 --> 00:16:16.949
+people talking at the same time. So
+
+00:16:16.959 --> 00:16:18.949
+just read I actually I think you should
+
+00:16:18.959 --> 00:16:20.790
+reread my programming guide like every
+
+00:16:20.800 --> 00:16:23.110
+couple months because it's one of those
+
+00:16:23.120 --> 00:16:24.710
+resources where all the information that
+
+00:16:24.720 --> 00:16:26.949
+you need it truly is there. It's just
+
+00:16:26.959 --> 00:16:27.990
+you're not going to be able to
+
+00:16:28.000 --> 00:16:29.670
+appreciate everything that's there until
+
+00:16:29.680 --> 00:16:31.670
+you're much more experienced. But every
+
+00:16:31.680 --> 00:16:33.110
+couple months, like if you come back to
+
+00:16:33.120 --> 00:16:35.990
+it, you'll pick up something new.
+
+00:16:36.000 --> 00:16:38.790
+Um
+
+00:16:38.800 --> 00:16:40.550
+I the one of the very nice things with
+
+00:16:40.560 --> 00:16:43.030
+lowlevel, frankly,
+
+00:16:43.040 --> 00:16:45.189
+if you're like doing a standalone end or
+
+00:16:45.199 --> 00:16:46.870
+something like that, C really doesn't
+
+00:16:46.880 --> 00:16:48.949
+have that much syntax. It's very very
+
+00:16:48.959 --> 00:16:51.829
+light on the amount of crap to remember.
+
+00:16:51.839 --> 00:16:53.110
+You just need to know some basic
+
+00:16:53.120 --> 00:16:54.790
+fundamentals and you can build a lot
+
+00:16:54.800 --> 00:17:01.030
+with it.
+
+00:17:02.550 --> 00:17:02.560
+There's some exceptions like string
+
+00:17:02.560 --> 00:17:06.710
+processing is a pain in the ass, right?
+
+00:17:06.720 --> 00:17:08.549
+But for like just most logic heavy
+
+00:17:08.559 --> 00:17:11.909
+applications, it's really easy.
+
+00:17:11.919 --> 00:17:17.270
+I'd argue easier than Python
+
+00:17:24.230 --> 00:17:24.240
+because the thing is Python's a really
+
+00:17:24.240 --> 00:17:25.750
+big language, right? There's a huge
+
+00:17:25.760 --> 00:17:27.110
+standard library with a bunch of stuff
+
+00:17:27.120 --> 00:17:39.669
+in it.
+
+00:17:41.830 --> 00:17:41.840
+Um physical application it depends on
+
+00:17:41.840 --> 00:17:50.950
+clients entirely.
+
+00:17:52.870 --> 00:17:52.880
+I mean, if a drone company calls me up
+
+00:17:52.880 --> 00:17:54.549
+tomorrow and wants a big contract,
+
+00:17:54.559 --> 00:17:57.590
+right, then it'll be drones.
+
+00:17:57.600 --> 00:18:00.310
+Definitely not physical Atari.
+
+00:18:00.320 --> 00:18:02.549
+That is,
+
+00:18:02.559 --> 00:18:04.390
+man, I can appreciate the engine, the
+
+00:18:04.400 --> 00:18:06.070
+research that goes into that stuff, but
+
+00:18:06.080 --> 00:18:08.549
+like that problem setup that they have
+
+00:18:08.559 --> 00:18:11.190
+is just it was literally a joke at
+
+00:18:11.200 --> 00:18:12.950
+OpenAI when I was there that somebody
+
+00:18:12.960 --> 00:18:14.630
+was going to do it that way. Like that
+
+00:18:14.640 --> 00:18:16.549
+was literally a common joke. It's they
+
+00:18:16.559 --> 00:18:25.350
+kind of did the meme
+
+00:18:27.510 --> 00:18:27.520
+and even like physical applications we
+
+00:18:27.520 --> 00:18:30.150
+do will not be let's learn from a single
+
+00:18:30.160 --> 00:18:32.310
+stream of data in real time. It will be
+
+00:18:32.320 --> 00:18:35.669
+let's simulate a millennia of data with
+
+00:18:35.679 --> 00:18:37.669
+lots of randomization and then transfer
+
+00:18:37.679 --> 00:18:41.350
+it.
+
+00:18:47.430 --> 00:18:47.440
+The Cbook is a nice reference, but like
+
+00:18:47.440 --> 00:19:18.950
+you really need to build Enough.
+
+00:19:52.230 --> 00:19:52.240
+Hey, we're open to contracts if you have
+
+00:19:52.240 --> 00:19:55.909
+um RSM problems.
+
+00:19:55.919 --> 00:19:57.669
+We have a little bit of capacity left at
+
+00:19:57.679 --> 00:20:04.870
+the moment.
+
+00:20:39.590 --> 00:20:39.600
+Which of these looks fun that we don't
+
+00:20:39.600 --> 00:21:04.310
+have and isn't too hard to implement?
+
+00:21:07.750 --> 00:21:07.760
+maybe river raid.
+
+00:21:07.760 --> 00:21:09.590
+You basically just pick an end that
+
+00:21:09.600 --> 00:21:11.830
+looks like it would be cool and it
+
+00:21:11.840 --> 00:21:13.669
+doesn't and that if you like just do a
+
+00:21:13.679 --> 00:21:15.990
+basic a little bit of research is not
+
+00:21:16.000 --> 00:21:18.070
+going to be insanely difficult to uh
+
+00:21:18.080 --> 00:21:27.669
+implement.
+
+00:21:35.510 --> 00:21:35.520
+it's better to do a project that you can
+
+00:21:35.520 --> 00:21:38.070
+like fully complete and do very well
+
+00:21:38.080 --> 00:21:39.510
+rather than doing something that's too
+
+00:21:39.520 --> 00:21:41.430
+big that you can only sort of like 80%
+
+00:21:41.440 --> 00:22:05.669
+finish.
+
+00:22:08.149 --> 00:22:08.159
+This is good.
+
+00:22:08.159 --> 00:22:11.190
+It's a nice policy.
+
+00:22:11.200 --> 00:23:18.070
+Very nice policy.
+
+00:23:19.590 --> 00:23:19.600
+Bet you would added a bunch of extra
+
+00:23:19.600 --> 00:23:25.190
+stuff.
+
+00:23:27.590 --> 00:23:27.600
+Recommend the end goal to be like as an
+
+00:23:27.600 --> 00:23:29.990
+exercise how to wrap it up.
+
+00:23:30.000 --> 00:23:31.909
+You want to have a stable, fast
+
+00:23:31.919 --> 00:23:33.750
+environment that you can train a
+
+00:23:33.760 --> 00:23:36.549
+reasonable agent on and that you can PR,
+
+00:23:36.559 --> 00:23:39.350
+right? Like ideally it's human playable
+
+00:23:39.360 --> 00:23:41.750
+with like the standalone demo. You can
+
+00:23:41.760 --> 00:23:43.190
+PR it. You can put it on the website
+
+00:23:43.200 --> 00:23:47.270
+with your agent.
+
+00:23:50.310 --> 00:23:50.320
+Code is like reasonably clean. You know,
+
+00:23:50.320 --> 00:23:52.710
+I'm not going to be like crosseyed
+
+00:23:52.720 --> 00:23:54.549
+looking through the code. We have lots
+
+00:23:54.559 --> 00:23:59.830
+of nice examples of that.
+
+00:24:04.230 --> 00:24:04.240
+from X. Ah, yeah. Yeah. Okay. Light.
+
+00:24:04.240 --> 00:24:06.630
+All right.
+
+00:24:06.640 --> 00:24:10.070
+Um,
+
+00:24:11.990 --> 00:24:12.000
+and I do merge in. Sometimes it takes me
+
+00:24:12.000 --> 00:24:13.830
+a while to go through a big batch of PRs
+
+00:24:13.840 --> 00:24:18.630
+because I have all this stuff to do.
+
+00:24:21.110 --> 00:24:21.120
+But be good.
+
+00:24:21.120 --> 00:24:24.149
+I wanted to look at right the
+
+00:24:24.159 --> 00:25:26.549
+buffer.
+
+00:25:29.269 --> 00:25:29.279
+Oh yeah, it totally refactored my entire
+
+00:25:29.279 --> 00:26:22.789
+thing.
+
+00:26:24.870 --> 00:26:24.880
+Does PR have value if I don't expect it
+
+00:26:24.880 --> 00:26:28.470
+to be merged? It depends. Sometimes I
+
+00:26:28.480 --> 00:26:30.630
+pull stuff out of PRs without merging
+
+00:26:30.640 --> 00:26:33.430
+them, but that's more for like core
+
+00:26:33.440 --> 00:26:35.190
+infrastructure and like performance
+
+00:26:35.200 --> 00:26:38.630
+stuff. Um, for environments, typically
+
+00:26:38.640 --> 00:26:41.269
+it has value if like you're let's say
+
+00:26:41.279 --> 00:26:43.269
+that you're like you're relatively new
+
+00:26:43.279 --> 00:26:45.669
+low-level dev and you just want me to
+
+00:26:45.679 --> 00:26:48.230
+take a quick look at something so that
+
+00:26:48.240 --> 00:26:49.830
+you can get some feedback and then start
+
+00:26:49.840 --> 00:26:51.990
+on a more complex project that you do
+
+00:26:52.000 --> 00:26:54.710
+expect to be merged. That's typically
+
+00:26:54.720 --> 00:26:59.669
+the way it goes.
+
+00:27:01.350 --> 00:27:01.360
+I'm generally pretty generous with my
+
+00:27:01.360 --> 00:27:03.029
+time for people who are at least trying
+
+00:27:03.039 --> 00:27:06.630
+though.
+
+00:27:09.029 --> 00:27:09.039
+You know, like I get annoyed when people
+
+00:27:09.039 --> 00:27:10.710
+make mistakes that are very clearly
+
+00:27:10.720 --> 00:27:12.630
+outlined. Like, you know, I gave you two
+
+00:27:12.640 --> 00:27:14.630
+pages to read. It says do it this, this,
+
+00:27:14.640 --> 00:27:17.269
+and this. And you clearly just did not
+
+00:27:17.279 --> 00:27:19.510
+pay attention to that. But, I mean, if
+
+00:27:19.520 --> 00:27:21.590
+you're just like generally doing stuff
+
+00:27:21.600 --> 00:27:23.350
+and making mistakes that are sensible
+
+00:27:23.360 --> 00:27:24.789
+that you would expect from a new
+
+00:27:24.799 --> 00:27:27.350
+programmer or a new low-level dev or new
+
+00:27:27.360 --> 00:27:41.269
+to RL, like that's all fine.
+
+00:27:42.870 --> 00:27:42.880
+Like I get annoyed for instance when
+
+00:27:42.880 --> 00:27:44.950
+people submit me like super abstracted
+
+00:27:44.960 --> 00:27:47.669
+crap where like you know they've made
+
+00:27:47.679 --> 00:27:49.350
+like four levels of nested function
+
+00:27:49.360 --> 00:27:51.750
+calls where they just need one right
+
+00:27:51.760 --> 00:27:53.350
+because like that took conscious effort
+
+00:27:53.360 --> 00:27:55.110
+on your part. that's not the default
+
+00:27:55.120 --> 00:28:03.110
+thing. You know,
+
+00:28:04.389 --> 00:28:04.399
+there are lots and lots of things you
+
+00:28:04.399 --> 00:28:06.630
+can take from uh
+
+00:28:06.640 --> 00:28:44.470
+the examples and guides though.
+
+00:28:46.070 --> 00:28:46.080
+convert. Make sure that whatever you're
+
+00:28:46.080 --> 00:28:47.830
+doing, there's like a reasonable way to
+
+00:28:47.840 --> 00:28:50.310
+represent ops and action spaces. That's
+
+00:28:50.320 --> 00:28:52.310
+a big killer for more complex projects
+
+00:28:52.320 --> 00:28:54.789
+is like, you know, doesn't run without
+
+00:28:54.799 --> 00:28:56.470
+huge fancy encoder that we don't know
+
+00:28:56.480 --> 00:29:00.070
+how to make fast.
+
+00:29:01.990 --> 00:29:02.000
+Those are more good for like scale up
+
+00:29:02.000 --> 00:29:04.149
+target projects
+
+00:29:04.159 --> 00:29:07.909
+than they are for uh baseline ends.
+
+00:29:07.919 --> 00:29:09.909
+Yeah, but like just getting state is not
+
+00:29:09.919 --> 00:29:11.909
+enough because if state is a bunch of
+
+00:29:11.919 --> 00:29:13.350
+sets for instance, then we need this
+
+00:29:13.360 --> 00:29:15.350
+entity encoder which is what I'm working
+
+00:29:15.360 --> 00:29:17.590
+on now. If it has like 2D data, do we
+
+00:29:17.600 --> 00:29:19.510
+need comms? Can we just put it in flat?
+
+00:29:19.520 --> 00:29:22.230
+Right.
+
+00:29:22.240 --> 00:29:24.149
+Next big RL algo improvement that truly
+
+00:29:24.159 --> 00:29:26.230
+generalizes
+
+00:29:26.240 --> 00:29:29.029
+um setable simulator state. Actually, we
+
+00:29:29.039 --> 00:29:31.029
+were working on that a couple weeks ago
+
+00:29:31.039 --> 00:29:34.149
+in research, but priorities had to get
+
+00:29:34.159 --> 00:29:36.230
+shifted around for a a client. So, we're
+
+00:29:36.240 --> 00:29:38.549
+basically just going to swap some of the
+
+00:29:38.559 --> 00:29:39.909
+stuff that was going to go into puffer
+
+00:29:39.919 --> 00:29:41.909
+six is now going to go into puffer 5,
+
+00:29:41.919 --> 00:29:43.029
+and some of the stuff that was going to
+
+00:29:43.039 --> 00:29:45.110
+go into puffer five is going to go into
+
+00:29:45.120 --> 00:29:47.110
+six.
+
+00:29:47.120 --> 00:29:50.389
+Progress is still being made though.
+
+00:29:50.399 --> 00:31:03.830
+Either way.
+
+00:31:05.269 --> 00:31:05.279
+giving the agent. No, we already have
+
+00:31:05.279 --> 00:31:07.830
+memory.
+
+00:31:07.840 --> 00:31:09.350
+Simulator state is different. So
+
+00:31:09.360 --> 00:31:11.190
+simulator state is basically letting an
+
+00:31:11.200 --> 00:31:14.230
+agent to jump to any portion of the end
+
+00:31:14.240 --> 00:31:16.710
+of it has seen before
+
+00:31:16.720 --> 00:31:18.549
+in order to be able to practice things
+
+00:31:18.559 --> 00:31:22.870
+that is that are still difficult for it
+
+00:31:22.880 --> 00:32:26.149
+or to refine skills.
+
+00:32:28.710 --> 00:32:28.720
+faster architecture
+
+00:32:28.720 --> 00:32:32.470
+most likely, Jess.
+
+00:32:32.480 --> 00:32:35.509
+It would just take some work.
+
+00:32:35.519 --> 00:32:38.470
+Like
+
+00:32:38.480 --> 00:32:39.830
+the thing is, it's not even clear to me
+
+00:32:39.840 --> 00:32:41.350
+that comms are the right architecture
+
+00:32:41.360 --> 00:32:43.990
+for something like chess at all. you
+
+00:32:44.000 --> 00:32:45.269
+know, most of the things we're not
+
+00:32:45.279 --> 00:32:47.669
+actually doing pixels most of the time.
+
+00:32:47.679 --> 00:32:49.350
+Um, coms are probably the correct
+
+00:32:49.360 --> 00:32:53.269
+architecture there on VIT and there's
+
+00:32:53.279 --> 00:32:54.870
+just not really a good way to do that
+
+00:32:54.880 --> 00:33:02.710
+super fast.
+
+00:33:18.070 --> 00:33:18.080
+You really don't need to separate blocks
+
+00:33:18.080 --> 00:33:22.789
+of the net out like that.
+
+00:33:24.310 --> 00:33:24.320
+The pro there are problems in that
+
+00:33:24.320 --> 00:33:25.990
+space, but not exactly the ones you're
+
+00:33:26.000 --> 00:33:28.630
+describing.
+
+00:33:28.640 --> 00:35:27.670
+Um,
+
+00:35:29.670 --> 00:35:29.680
+chess architecture. I really don't just
+
+00:35:29.680 --> 00:35:32.710
+I would expect that the um like the
+
+00:35:32.720 --> 00:35:34.630
+architectures from supervised should be
+
+00:35:34.640 --> 00:35:36.710
+reasonable. There should already be lit
+
+00:35:36.720 --> 00:35:38.470
+in that space. And then you basically
+
+00:35:38.480 --> 00:35:41.510
+just have to go through and bring it
+
+00:35:41.520 --> 00:35:43.829
+down to what is in the lip that it can
+
+00:35:43.839 --> 00:37:30.310
+also be made fast.
+
+00:37:32.150 --> 00:37:32.160
+Okay. So, this is basically what we
+
+00:37:32.160 --> 00:37:33.910
+expect. The new architecture works, but
+
+00:37:33.920 --> 00:37:43.030
+we need to uh we need some speed ups.
+
+00:37:44.950 --> 00:37:44.960
+Also, I'm use rat real quick. I'll be
+
+00:37:44.960 --> 00:37:47.910
+back in a couple minutes.
+
+00:37:47.920 --> 00:37:51.190
+Transformer sparse encodings.
+
+00:37:51.200 --> 00:38:00.550
+Okay, so
+
+00:38:02.230 --> 00:38:02.240
+that's unfortunate. I'll be right back,
+
+00:38:02.240 --> 00:38:05.190
+guys. Sorry to pop on GitHub if you
+
+00:38:05.200 --> 00:38:06.390
+haven't already, by the way. It's free.
+
+00:38:06.400 --> 00:38:08.710
+It helps me out a lot.
+
+00:38:08.720 --> 00:43:46.470
+Oops. Screen. There we are.
+
+00:43:48.309 --> 00:43:48.319
+Okay.
+
+00:43:48.319 --> 00:44:02.790
+back.
+
+00:44:04.790 --> 00:44:04.800
+This is random throwaway test, so we
+
+00:44:04.800 --> 00:44:35.750
+don't really have to care.
+
+00:44:37.190 --> 00:44:37.200
+And let me do one thing on the side
+
+00:44:37.200 --> 00:46:01.990
+Here.
+
+00:46:14.630 --> 00:46:14.640
+Basic profile.
+
+00:46:14.640 --> 00:46:27.829
+Cool.
+
+00:46:29.430 --> 00:46:29.440
+So, what we're basically going to do
+
+00:46:29.440 --> 00:46:31.030
+here,
+
+00:46:31.040 --> 00:46:32.790
+um,
+
+00:46:32.800 --> 00:46:34.470
+we're just going to like on the real
+
+00:46:34.480 --> 00:46:38.069
+end, this is a real end, right? We're
+
+00:46:38.079 --> 00:46:39.510
+just going to kind of go in a loop and
+
+00:46:39.520 --> 00:46:41.030
+see if we can optimize a little bit.
+
+00:46:41.040 --> 00:46:42.470
+It's just the mat moles, I'm pretty
+
+00:46:42.480 --> 00:46:45.829
+sure. Uh, I guess I should probably
+
+00:46:45.839 --> 00:46:47.990
+compute
+
+00:46:48.000 --> 00:46:51.990
+memory pressure.
+
+00:46:58.710 --> 00:46:58.720
+What would the memory pressure of that
+
+00:46:58.720 --> 00:47:01.750
+be? It's a bigger network for sure. Um,
+
+00:47:01.760 --> 00:47:03.750
+without this I maybe the memory pressure
+
+00:47:03.760 --> 00:47:07.270
+is a little bit higher.
+
+00:47:07.280 --> 00:47:11.030
+Do obs to
+
+00:47:11.040 --> 00:47:15.990
+16 dims.
+
+00:47:38.550 --> 00:47:38.560
+So it's four each to eight. So it's like
+
+00:47:38.560 --> 00:47:41.030
+double maybe.
+
+00:47:41.040 --> 00:47:42.870
+Now, that's like an ideal use case, I
+
+00:47:42.880 --> 00:47:45.190
+think.
+
+00:47:45.200 --> 00:47:47.670
+And arguably, um, anytime where the OBS
+
+00:47:47.680 --> 00:47:50.150
+dim is
+
+00:47:50.160 --> 00:47:52.870
+greater than 16,
+
+00:47:52.880 --> 00:47:57.190
+you should save bandwidth.
+
+00:49:12.630 --> 00:49:12.640
+Where is this block for? Emmy block.
+
+00:49:12.640 --> 00:49:15.670
+Where the hell's this kid called?
+
+00:49:15.680 --> 00:49:26.710
+Oh, wra. See,
+
+00:49:46.549 --> 00:49:46.559
+It's very frustrating in some sense
+
+00:49:46.559 --> 00:49:49.030
+because they should just be fused. We
+
+00:49:49.040 --> 00:49:51.349
+literally just want to fuse a max with
+
+00:49:51.359 --> 00:50:39.750
+the output of the uh the mat mole.
+
+00:50:41.510 --> 00:50:41.520
+This should still be small, shouldn't
+
+00:50:41.520 --> 00:51:15.030
+it?
+
+00:51:17.589 --> 00:51:17.599
+how you came to your color scheme. I uh
+
+00:51:17.599 --> 00:51:21.030
+this is my own config.
+
+00:51:21.040 --> 00:51:54.150
+I know. I I made it one Okay.
+
+00:52:16.230 --> 00:52:16.240
+Oh, hang on. Wait, wait. This gives us a
+
+00:52:16.240 --> 00:52:25.750
+clue.
+
+00:53:10.710 --> 00:53:10.720
+You would think that this should have to
+
+00:53:10.720 --> 00:53:51.670
+just exist somewhere.
+
+00:53:53.270 --> 00:53:53.280
+presumably we just have a crappy
+
+00:53:53.280 --> 00:54:25.349
+backwards kernel somewhere.
+
+00:54:27.109 --> 00:54:27.119
+Am I missing something? Does anybody
+
+00:54:27.119 --> 00:54:29.990
+know? Am I missing something? Like,
+
+00:54:30.000 --> 00:54:31.910
+do you need to store activations for
+
+00:54:31.920 --> 00:54:34.230
+backwards
+
+00:54:34.240 --> 00:54:35.910
+that are bigger than I think? No, you
+
+00:54:35.920 --> 00:54:38.470
+don't. Right. There's nothing big that
+
+00:54:38.480 --> 00:54:40.069
+you have to materialize that I'm not
+
+00:54:40.079 --> 00:54:58.870
+thinking of.
+
+00:55:27.349 --> 00:55:27.359
+Yeah. Yeah, that would be skipping the
+
+00:55:27.359 --> 00:55:29.829
+layer.
+
+00:55:29.839 --> 00:55:34.150
+Okay,
+
+00:55:47.670 --> 00:55:47.680
+I do want to be doing something better
+
+00:55:47.680 --> 00:55:49.589
+than just saying, "Oh, make it faster."
+
+00:55:49.599 --> 00:55:53.510
+Um,
+
+00:55:55.109 --> 00:55:55.119
+I think I've looked all over for this
+
+00:55:55.119 --> 00:55:57.589
+already, though. Like, you know, used
+
+00:55:57.599 --> 00:56:02.870
+mat
+
+00:57:17.190 --> 00:57:17.200
+See, the very annoying thing, and this
+
+00:57:17.200 --> 00:57:19.270
+is why I hate having to do um this
+
+00:57:19.280 --> 00:57:21.670
+specific type of fusion,
+
+00:57:21.680 --> 00:57:23.829
+like the vast majority of the complexity
+
+00:57:23.839 --> 00:57:25.510
+here.
+
+00:57:25.520 --> 00:57:27.589
+There you go.
+
+00:57:27.599 --> 00:57:29.349
+The vast majority of the complexity just
+
+00:57:29.359 --> 00:57:30.789
+comes from having to match the mat
+
+00:57:30.799 --> 00:57:36.789
+moles.
+
+00:58:05.510 --> 00:58:05.520
+So I think then the interpretation of
+
+00:58:05.520 --> 00:58:07.750
+this is that the research was correct
+
+00:58:07.760 --> 00:58:10.069
+but I only modeled the forward pass and
+
+00:58:10.079 --> 00:58:11.349
+then this thing just wrote a shitty
+
+00:58:11.359 --> 00:58:16.950
+backwards kernel.
+
+00:58:32.390 --> 00:58:32.400
+optimize
+
+00:58:32.400 --> 00:58:41.349
+kernel time.
+
+00:58:43.670 --> 00:58:43.680
+So the key with this architecture right
+
+00:58:43.680 --> 00:58:45.430
+is
+
+00:58:45.440 --> 00:58:47.030
+I guess maybe in the meantime we should
+
+00:58:47.040 --> 00:58:50.390
+compute the traffic. So
+
+00:58:50.400 --> 00:58:55.510
+let's say that we do
+
+00:58:59.750 --> 00:58:59.760
+we do like 8* 16 input that gets you to
+
+00:58:59.760 --> 00:59:03.349
+128, right? So if you have um if you
+
+00:59:03.359 --> 00:59:05.589
+have 16 things with eight dimensions
+
+00:59:05.599 --> 00:59:08.470
+each let's say
+
+00:59:08.480 --> 00:59:11.109
+or eight things with 16 eight things
+
+00:59:11.119 --> 00:59:14.710
+with 16 dimensions each
+
+00:59:14.720 --> 00:59:16.870
+is nice. So with eight things with 16
+
+00:59:16.880 --> 00:59:18.950
+dimensions each,
+
+00:59:18.960 --> 00:59:28.230
+then that goes
+
+00:59:30.230 --> 00:59:30.240
+it's the same, right? So eight things
+
+00:59:30.240 --> 00:59:34.390
+with 16 you project to 16
+
+00:59:34.400 --> 00:59:42.549
+which is 128 bytes mem bandwidth.
+
+00:59:50.870 --> 00:59:50.880
+when does this become unfavorable?
+
+00:59:50.880 --> 00:59:52.390
+I think this trade-off just becomes
+
+00:59:52.400 --> 00:59:55.510
+unfavorable when the um
+
+00:59:55.520 --> 00:59:58.069
+the entities are smaller than 16 each in
+
+00:59:58.079 --> 01:00:04.630
+the original obs.
+
+01:00:07.190 --> 01:00:07.200
+That's all.
+
+01:00:07.200 --> 01:00:08.630
+Yeah, that's that's got to be it
+
+01:00:08.640 --> 01:00:10.630
+obviously.
+
+01:00:10.640 --> 01:00:13.270
+So, when you have a ton of very small
+
+01:00:13.280 --> 01:00:14.870
+entities,
+
+01:00:14.880 --> 01:00:20.069
+this gets to be somewhat unfavorable.
+
+01:00:22.230 --> 01:00:22.240
+But for any like reasonable end where
+
+01:00:22.240 --> 01:00:23.829
+you at least have a few different things
+
+01:00:23.839 --> 01:00:27.270
+than the obs,
+
+01:00:28.789 --> 01:00:28.799
+the architecture should be relatively
+
+01:00:28.799 --> 01:01:16.309
+reasonable.
+
+01:02:31.670 --> 01:02:31.680
+It added biases. So now it has the
+
+01:02:31.680 --> 01:02:36.309
+shitty bias kernels as well.
+
+01:02:48.390 --> 01:02:48.400
+I actually don't know whether this will
+
+01:02:48.400 --> 01:03:05.510
+mess up anything in the arch.
+
+01:03:07.190 --> 01:03:07.200
+Lots of little tiny kernels like that
+
+01:03:07.200 --> 01:03:10.390
+can very easily screw up uh training. It
+
+01:03:10.400 --> 01:03:11.829
+slipped those in because that wasn't in
+
+01:03:11.839 --> 01:03:55.750
+the original architecture.
+
+01:03:57.190 --> 01:03:57.200
+How do you know when you can get away
+
+01:03:57.200 --> 01:03:59.670
+with removing biases? You don't. You
+
+01:03:59.680 --> 01:04:01.589
+just do it and see if everything [ __ ]
+
+01:04:01.599 --> 01:04:04.789
+fails.
+
+01:04:06.470 --> 01:04:06.480
+It's very possible we might be able to
+
+01:04:06.480 --> 01:04:08.069
+do better with biases and I'm kind of
+
+01:04:08.079 --> 01:04:33.990
+just trolling, but soda is soda.
+
+01:04:35.829 --> 01:04:35.839
+Right. But like you can write custom
+
+01:04:35.839 --> 01:04:38.150
+kernels that are better optimized for
+
+01:04:38.160 --> 01:04:47.029
+small ops. Right.
+
+01:06:03.670 --> 01:06:03.680
+biases cuts forward backwards by another
+
+01:06:03.680 --> 01:06:47.910
+little chunk.
+
+01:06:50.150 --> 01:06:50.160
+Yep. Look at that.
+
+01:06:50.160 --> 01:06:53.910
+Plus nearly 10% PF from removing the
+
+01:06:53.920 --> 01:06:56.630
+stupid biases in just the small encoder
+
+01:06:56.640 --> 01:07:44.309
+layer. Closing the gap.
+
+01:07:52.470 --> 01:07:52.480
+Dude, most of the time it's just
+
+01:07:52.480 --> 01:07:57.990
+overhead. Like
+
+01:08:26.709 --> 01:08:26.719
+I guess one interpreta. So I guess there
+
+01:08:26.719 --> 01:08:29.189
+is one interpretation of your thing that
+
+01:08:29.199 --> 01:08:33.590
+like makes sense which is
+
+01:08:35.189 --> 01:08:35.199
+you probably there's a major
+
+01:08:35.199 --> 01:08:37.269
+inefficiency I would assume here. I
+
+01:08:37.279 --> 01:08:38.789
+don't know if it can do some intelligent
+
+01:08:38.799 --> 01:08:42.229
+packing but because the tensor cores are
+
+01:08:42.239 --> 01:08:44.470
+probably bigger than the matmo we're
+
+01:08:44.480 --> 01:08:46.870
+doing here.
+
+01:08:46.880 --> 01:08:48.470
+There's a lot that can be optimized.
+
+01:08:48.480 --> 01:08:50.309
+Look, like yes, it probably is very hard
+
+01:08:50.319 --> 01:08:53.030
+to hit like peak flops or whatever, but
+
+01:08:53.040 --> 01:08:55.349
+the thing is your standard
+
+01:08:55.359 --> 01:08:57.430
+implementation is so so so far off
+
+01:08:57.440 --> 01:09:01.829
+efficient anyways that realistically we
+
+01:09:01.839 --> 01:09:03.510
+can at least get it down to something
+
+01:09:03.520 --> 01:09:05.349
+reasonable just with some relatively
+
+01:09:05.359 --> 01:09:21.910
+simple optimizations.
+
+01:09:23.749 --> 01:09:23.759
+Oh, and yeah, this also still works by
+
+01:09:23.759 --> 01:09:25.590
+the way. You can see this is the same uh
+
+01:09:25.600 --> 01:09:29.910
+score 84. So, the biases didn't do [ __ ]
+
+01:09:29.920 --> 01:09:31.110
+You really just need the entity
+
+01:09:31.120 --> 01:10:32.390
+structure is
+
+01:11:00.310 --> 01:11:00.320
+idealistic max perf. Yeah, but the thing
+
+01:11:00.320 --> 01:11:03.830
+is like dude, everything is so so so far
+
+01:11:03.840 --> 01:11:07.110
+off max PF for small networks. Like
+
+01:11:07.120 --> 01:11:08.950
+that's not the question. Like the
+
+01:11:08.960 --> 01:11:11.590
+question is not can we get like 100%
+
+01:11:11.600 --> 01:11:13.189
+MFU.
+
+01:11:13.199 --> 01:11:15.030
+Um, the question is, can we get some
+
+01:11:15.040 --> 01:11:18.149
+nets that run a few mill SPS
+
+01:11:18.159 --> 01:11:19.990
+with like these tiny little models,
+
+01:11:20.000 --> 01:11:54.149
+which should be a lot easier. Earth.
+
+01:11:56.070 --> 01:11:56.080
+I I have to just admit here that I don't
+
+01:11:56.080 --> 01:11:58.149
+particularly know what I'm doing on this
+
+01:11:58.159 --> 01:12:02.550
+section. Um,
+
+01:12:02.560 --> 01:12:05.590
+this is kind of annoying because like
+
+01:12:05.600 --> 01:12:07.430
+realistically I shouldn't be doing any
+
+01:12:07.440 --> 01:12:09.110
+of this [ __ ] I should just be using the
+
+01:12:09.120 --> 01:12:12.310
+Kublast mat mole with a max fused in. I
+
+01:12:12.320 --> 01:12:14.470
+can't do that because the Kublast mat
+
+01:12:14.480 --> 01:12:17.270
+mole is an open source. I'm sure they
+
+01:12:17.280 --> 01:12:18.630
+have lots of different paths for
+
+01:12:18.640 --> 01:12:20.550
+different size
+
+01:12:20.560 --> 01:12:25.270
+uh different size operations,
+
+01:12:26.950 --> 01:12:26.960
+but there's just no way for me to get
+
+01:12:26.960 --> 01:12:57.030
+access to that.
+
+01:12:59.189 --> 01:12:59.199
+Ah, okay. Hang on. Hang on. We can do
+
+01:12:59.199 --> 01:13:14.470
+something with this.
+
+01:13:17.669 --> 01:13:17.679
+I think I can do
+
+01:13:17.679 --> 01:13:19.590
+let me projection re. Yeah, yeah, yeah,
+
+01:13:19.600 --> 01:13:20.950
+yeah. Hang on. We can do something with
+
+01:13:20.960 --> 01:13:37.189
+this.
+
+01:13:39.430 --> 01:13:39.440
+Can you fuse the re with the input to
+
+01:13:39.440 --> 01:13:49.350
+the next kernel? You can, right?
+
+01:13:51.270 --> 01:13:51.280
+Okay. I actually that's something I can
+
+01:13:51.280 --> 01:14:02.310
+try
+
+01:15:26.149 --> 01:15:26.159
+This is I need less [ __ ] AI on the
+
+01:15:26.159 --> 01:15:28.870
+timeline and more of this.
+
+01:15:28.880 --> 01:15:35.590
+This is good.
+
+01:16:33.189 --> 01:16:33.199
+It's funny that it actually didn't even
+
+01:16:33.199 --> 01:16:36.550
+come up with the obvious optimization
+
+01:16:36.560 --> 01:16:39.110
+at all on its own. Kind of embarrassing,
+
+01:16:39.120 --> 01:16:41.110
+isn't it?
+
+01:16:41.120 --> 01:16:42.709
+It didn't even think of just using a
+
+01:16:42.719 --> 01:16:53.110
+couplass mat for the first layer.
+
+01:16:55.990 --> 01:16:56.000
+Okay,
+
+01:16:56.000 --> 01:17:07.910
+let's see. Is this any good?
+
+01:18:12.470 --> 01:18:12.480
+We match the compute unit as well. Maybe
+
+01:18:12.480 --> 01:18:17.110
+B float
+
+01:18:19.110 --> 01:18:19.120
+or actually I think Bflat only was make
+
+01:18:19.120 --> 01:18:21.030
+a
+
+01:18:21.040 --> 01:18:29.430
+difference with tensor course probably.
+
+01:18:32.229 --> 01:18:32.239
+Can you solve
+
+01:18:32.239 --> 01:18:38.070
+threesome in linear time?
+
+01:18:40.870 --> 01:18:40.880
+What
+
+01:18:40.880 --> 01:18:43.590
+you asking me? Le code.
+
+01:18:43.600 --> 01:18:56.550
+Don't do that, man.
+
+01:19:36.070 --> 01:19:36.080
+Okay, revert this. And then I This thing
+
+01:19:36.080 --> 01:19:37.910
+is dumb. Let's just give it the obvious
+
+01:19:37.920 --> 01:19:39.350
+change.
+
+01:19:39.360 --> 01:19:41.750
+So, I I don't know why it decided to use
+
+01:19:41.760 --> 01:19:44.550
+a um
+
+01:19:44.560 --> 01:19:47.430
+I really don't know why
+
+01:19:47.440 --> 01:19:49.669
+it decided that it wanted to use a
+
+01:19:49.679 --> 01:19:53.910
+custom kernel for both of these things.
+
+01:19:53.920 --> 01:19:55.750
+It really should just have a custom
+
+01:19:55.760 --> 01:19:58.630
+kernel for the second layer. Like look
+
+01:19:58.640 --> 01:20:01.430
+at this mess that it makes.
+
+01:20:01.440 --> 01:20:05.990
+It's very stupid
+
+01:20:07.910 --> 01:20:07.920
+because it hit Yeah. Right here. So
+
+01:20:07.920 --> 01:20:10.550
+linear max this is good but look why did
+
+01:20:10.560 --> 01:20:17.990
+it write this you don't need this right
+
+01:20:56.070 --> 01:20:56.080
+No, it's not that it's labbotomized.
+
+01:20:56.080 --> 01:20:58.870
+These models are just not very they're
+
+01:20:58.880 --> 01:21:00.630
+really really dumb in ways that don't
+
+01:21:00.640 --> 01:21:03.990
+make any sense.
+
+01:21:04.000 --> 01:21:06.390
+like they've seen every possible version
+
+01:21:06.400 --> 01:21:10.950
+of you know matmo plus op kernel
+
+01:21:10.960 --> 01:21:12.470
+but then like I don't know how it
+
+01:21:12.480 --> 01:21:14.470
+doesn't occur to you right if you have a
+
+01:21:14.480 --> 01:21:16.630
+if you have a kernel like this is so
+
+01:21:16.640 --> 01:21:19.110
+easy right if you have an operation that
+
+01:21:19.120 --> 01:21:23.510
+is linear relu linear pointwise max
+
+01:21:23.520 --> 01:21:26.229
+right the key is that you need to fuse
+
+01:21:26.239 --> 01:21:29.669
+the pointwise max that's the slow op I
+
+01:21:29.679 --> 01:21:31.510
+don't know why you would also then go
+
+01:21:31.520 --> 01:21:33.350
+write a kernel
+
+01:21:33.360 --> 01:21:35.270
+or the first linear op. Just call K
+
+01:21:35.280 --> 01:21:39.750
+blast. What's wrong with you?
+
+01:21:49.350 --> 01:21:49.360
+Like yes, actually matching the
+
+01:21:49.360 --> 01:21:53.030
+pointwise max um like the Matt mold to
+
+01:21:53.040 --> 01:21:54.709
+pointwise max kernel. That's actually
+
+01:21:54.719 --> 01:21:58.470
+kind of annoying because you need to
+
+01:21:58.480 --> 01:22:00.149
+match KU blast at least for your
+
+01:22:00.159 --> 01:22:02.310
+specific case.
+
+01:22:02.320 --> 01:22:07.750
+And that's actually tough. Um,
+
+01:22:07.760 --> 01:24:03.189
+but calling coup blast is not hard.
+
+01:24:07.590 --> 01:24:07.600
+I mean, the thing is like the very like
+
+01:24:07.600 --> 01:24:30.470
+that's such an obvious thing to test.
+
+01:24:56.470 --> 01:24:56.480
+I don't think you do add an activation
+
+01:24:56.480 --> 01:25:11.590
+buffer.
+
+01:25:13.189 --> 01:25:13.199
+I'm not missing something here, I'm
+
+01:25:13.199 --> 01:25:20.070
+pretty sure. Right. So, this is
+
+01:26:29.590 --> 01:26:29.600
+Shouldn't be doing this anyways. This is
+
+01:26:29.600 --> 01:26:35.350
+completely stupid.
+
+01:26:36.950 --> 01:26:36.960
+We actually don't want it to do this
+
+01:26:36.960 --> 01:26:39.910
+because this couples us to um this
+
+01:26:39.920 --> 01:26:42.790
+couples us to the single
+
+01:26:42.800 --> 01:26:57.750
+format here.
+
+01:26:59.110 --> 01:26:59.120
+So that's actually good that this
+
+01:26:59.120 --> 01:27:01.750
+optimization is gone. We want this to be
+
+01:27:01.760 --> 01:27:16.229
+a a loop.
+
+01:27:18.629 --> 01:27:18.639
+I don't know. Viber, we just call that
+
+01:27:18.639 --> 01:27:28.870
+being stupid.
+
+01:27:31.189 --> 01:27:31.199
+Okay, I guess this is just the Yeah,
+
+01:27:31.199 --> 01:27:32.870
+it's just trying to count flops for the
+
+01:27:32.880 --> 01:27:45.350
+profile corn. It's fine.
+
+01:27:47.270 --> 01:27:47.280
+Hollow Plateau. Going to get first Sim
+
+01:27:47.280 --> 01:27:50.229
+quiver. Yeah.
+
+01:27:50.239 --> 01:27:52.709
+Well, we've gotten some uh Finn's doing
+
+01:27:52.719 --> 01:27:54.310
+some cool stuff on Net Hack as well,
+
+01:27:54.320 --> 01:27:56.709
+Valo. And uh we also have a collab now
+
+01:27:56.719 --> 01:27:58.149
+with Craft Hack. So, I think we're going
+
+01:27:58.159 --> 01:28:00.709
+to have a lot of fancy ends pretty soon.
+
+01:28:00.719 --> 01:28:02.070
+It would be awesome to have some nice
+
+01:28:02.080 --> 01:28:04.870
+demos with Colo as well.
+
+01:28:04.880 --> 01:28:07.189
+Inferno is like the Inferno plus Colo,
+
+01:28:07.199 --> 01:28:08.870
+the NH demo. I mean, this is all just
+
+01:28:08.880 --> 01:28:10.790
+going to be great. Also, the Entity
+
+01:28:10.800 --> 01:28:11.990
+Encoder. I don't know if you're still
+
+01:28:12.000 --> 01:28:14.709
+using it, but um
+
+01:28:14.719 --> 01:28:16.629
+I'm optimizing the Entity Encoder stuff
+
+01:28:16.639 --> 01:28:18.229
+now.
+
+01:28:18.239 --> 01:28:22.470
+It definitely can be made fast.
+
+01:28:22.480 --> 01:28:27.430
+It's slightly non-trivial.
+
+01:28:29.189 --> 01:28:29.199
+Obviously, these models make a mess of
+
+01:28:29.199 --> 01:28:30.709
+everything.
+
+01:28:30.719 --> 01:28:33.430
+I think there's only one like one pretty
+
+01:28:33.440 --> 01:29:03.350
+non-trivial up.
+
+01:29:05.750 --> 01:29:05.760
+was a straight up gain. All right, so
+
+01:29:05.760 --> 01:29:07.270
+I'll point you to this branch when I
+
+01:29:07.280 --> 01:29:09.430
+finish this, man. You're probably going
+
+01:29:09.440 --> 01:29:10.870
+to want to integrate some changes
+
+01:29:10.880 --> 01:29:15.189
+because
+
+01:29:17.030 --> 01:29:17.040
+the kernel actually needs to be written
+
+01:29:17.040 --> 01:30:52.550
+correctly or it's super slow.
+
+01:30:53.990 --> 01:30:54.000
+Yeah. And then it'll just have one set
+
+01:30:54.000 --> 01:30:55.510
+of kernels to iterate on which will be
+
+01:30:55.520 --> 01:31:08.550
+good.
+
+01:31:11.110 --> 01:31:11.120
+Oh, yay.
+
+01:31:11.120 --> 01:31:13.830
+I didn't realize this.
+
+01:31:13.840 --> 01:31:16.149
+Uh, okay. The grat actually that works
+
+01:31:16.159 --> 01:31:23.110
+nice
+
+01:31:26.390 --> 01:31:26.400
+and it's weight gradient. Yep.
+
+01:31:26.400 --> 01:31:28.229
+Cool. So, that's what we wanted, right?
+
+01:31:28.239 --> 01:31:29.510
+We didn't want to have a big pile of
+
+01:31:29.520 --> 01:31:33.350
+kernels. We just needed the custom max,
+
+01:31:33.360 --> 01:31:37.510
+like pointwise max up.
+
+01:31:37.520 --> 01:31:39.110
+Um, I explained this earlier, but to
+
+01:31:39.120 --> 01:31:41.830
+anybody who just joined.
+
+01:31:41.840 --> 01:31:45.110
+So, this op, it's basically
+
+01:31:45.120 --> 01:31:47.030
+it's like you have a bunch of different
+
+01:31:47.040 --> 01:31:49.990
+entities in a scene, right? So, say this
+
+01:31:50.000 --> 01:31:52.470
+fish is your agent and it can observe
+
+01:31:52.480 --> 01:31:54.070
+other fish around it and maybe some
+
+01:31:54.080 --> 01:31:55.910
+other targets.
+
+01:31:55.920 --> 01:31:57.750
+This happens in a lot of ends just where
+
+01:31:57.760 --> 01:31:59.110
+you have a thing and then you have a
+
+01:31:59.120 --> 01:32:00.870
+bunch of other things and the ordering
+
+01:32:00.880 --> 01:32:02.229
+doesn't really matter. It's sort of like
+
+01:32:02.239 --> 01:32:05.990
+a a set of observations so to speak.
+
+01:32:06.000 --> 01:32:07.270
+There are two ways you can represent
+
+01:32:07.280 --> 01:32:09.189
+this. One is you can just concat
+
+01:32:09.199 --> 01:32:11.270
+everything into a flat vector. The
+
+01:32:11.280 --> 01:32:12.790
+problem is that this doesn't capture
+
+01:32:12.800 --> 01:32:15.189
+order invariance. So like it's a totally
+
+01:32:15.199 --> 01:32:16.709
+different obs if I switch the order of
+
+01:32:16.719 --> 01:32:19.510
+this one and this one. Um that's a
+
+01:32:19.520 --> 01:32:22.229
+really bad property to have. The other
+
+01:32:22.239 --> 01:32:23.590
+thing you can do is you can build some
+
+01:32:23.600 --> 01:32:25.910
+sort of entity representation where like
+
+01:32:25.920 --> 01:32:28.310
+you concat your embedding or your
+
+01:32:28.320 --> 01:32:30.229
+features with the features of every
+
+01:32:30.239 --> 01:32:33.350
+other agent. So it's like me and agent
+
+01:32:33.360 --> 01:32:35.030
+one, me and agent two, me and agent
+
+01:32:35.040 --> 01:32:38.149
+three, so on so on and so forth. You put
+
+01:32:38.159 --> 01:32:40.310
+this into an embedding layer. So each of
+
+01:32:40.320 --> 01:32:43.430
+these gets embedded separately
+
+01:32:43.440 --> 01:32:45.510
+and then you need to do a maximum over
+
+01:32:45.520 --> 01:32:47.910
+the entities. The problem with this is
+
+01:32:47.920 --> 01:32:50.550
+this applies massive memory pressure
+
+01:32:50.560 --> 01:32:53.669
+because you get the embedding dimension
+
+01:32:53.679 --> 01:32:55.350
+for every single entity instead of just
+
+01:32:55.360 --> 01:32:58.470
+once per OBS. So the trick is that you
+
+01:32:58.480 --> 01:32:59.750
+send it through a lowdimensional
+
+01:32:59.760 --> 01:33:01.350
+bottleneck. So you only have a
+
+01:33:01.360 --> 01:33:04.310
+16dimensional encoding per entity with a
+
+01:33:04.320 --> 01:33:06.950
+relu and then you project the 16 dim
+
+01:33:06.960 --> 01:33:09.270
+back up to 128 and you fuse a max
+
+01:33:09.280 --> 01:33:12.470
+operation. If you do this you get the
+
+01:33:12.480 --> 01:33:14.470
+memory pressure of 16 times the number
+
+01:33:14.480 --> 01:33:16.629
+of entities but you don't get the memory
+
+01:33:16.639 --> 01:33:18.550
+pressure of 128 times the number of
+
+01:33:18.560 --> 01:33:21.669
+entities because of the fused max op.
+
+01:33:21.679 --> 01:33:23.430
+And the reason you structure it like two
+
+01:33:23.440 --> 01:33:25.910
+layers this way instead of one layer is
+
+01:33:25.920 --> 01:33:27.590
+you really need this second layer to
+
+01:33:27.600 --> 01:33:29.030
+have any sort of representational
+
+01:33:29.040 --> 01:33:30.950
+capacity. We have tested this
+
+01:33:30.960 --> 01:33:33.030
+extensively. You need need need two
+
+01:33:33.040 --> 01:33:37.270
+layers and um 16dimensional per entity
+
+01:33:37.280 --> 01:33:38.950
+doesn't hurt the representation because
+
+01:33:38.960 --> 01:33:40.870
+that's enough features for one entity
+
+01:33:40.880 --> 01:33:42.950
+encoding but you need a bigger
+
+01:33:42.960 --> 01:33:44.149
+representation for the whole
+
+01:33:44.159 --> 01:33:46.870
+observations. So this architecture plays
+
+01:33:46.880 --> 01:33:50.629
+very nicely. The problem is this fused
+
+01:33:50.639 --> 01:33:53.830
+linear plus max op doesn't exist like
+
+01:33:53.840 --> 01:33:55.750
+this is not a common op that you just
+
+01:33:55.760 --> 01:33:58.310
+have a kernel for unfortunately. So we
+
+01:33:58.320 --> 01:34:00.229
+have to write one and whenever you have
+
+01:34:00.239 --> 01:34:02.550
+to write a kernel that involves a matmo
+
+01:34:02.560 --> 01:34:06.310
+you're immediately up against um Kublas
+
+01:34:06.320 --> 01:34:08.390
+right the super super optimized Nvidia
+
+01:34:08.400 --> 01:34:10.870
+kernels for comparison which makes
+
+01:34:10.880 --> 01:34:12.790
+things really obnoxious like you can't
+
+01:34:12.800 --> 01:34:14.709
+just fuse a max onto their existing
+
+01:34:14.719 --> 01:34:19.189
+Imple.
+
+01:34:20.870 --> 01:34:20.880
+So that's the quick version of what I'm
+
+01:34:20.880 --> 01:34:23.910
+doing at the moment. Um this all this
+
+01:34:23.920 --> 01:34:27.990
+garbage is me just like iterate on
+
+01:34:28.000 --> 01:34:30.870
+Like in a sense I'm just trying to have
+
+01:34:30.880 --> 01:34:32.870
+it iterate on matching close enough to
+
+01:34:32.880 --> 01:34:36.629
+kublas matmo for this one specific case.
+
+01:34:36.639 --> 01:34:39.030
+Um this should not be the hard part
+
+01:34:39.040 --> 01:34:41.030
+right the hard part is this architecture
+
+01:34:41.040 --> 01:34:43.350
+and knowing that this architecture works
+
+01:34:43.360 --> 01:34:45.350
+like the first layer you can literally
+
+01:34:45.360 --> 01:34:48.870
+just call kublass. So you just need like
+
+01:34:48.880 --> 01:34:51.590
+matt mole max
+
+01:34:51.600 --> 01:34:53.270
+and then it's basically just whatever
+
+01:34:53.280 --> 01:34:54.470
+the hell tricks this thing has to
+
+01:34:54.480 --> 01:34:56.870
+iterate on for the mat mole this sort of
+
+01:34:56.880 --> 01:34:59.270
+small shape
+
+01:34:59.280 --> 01:35:01.189
+in order to get roughly close to uh
+
+01:35:01.199 --> 01:35:09.990
+Kublas.
+
+01:35:11.669 --> 01:35:11.679
+To be fair, anybody that has a better
+
+01:35:11.679 --> 01:35:13.189
+CUDA background than I have could
+
+01:35:13.199 --> 01:35:16.390
+probably do this quite easily. Um, I
+
+01:35:16.400 --> 01:35:18.070
+just personally I don't know what would
+
+01:35:18.080 --> 01:35:22.790
+be a good default way to do a mat from a
+
+01:35:22.800 --> 01:35:26.550
+low dim to a like small but bigger dim
+
+01:35:26.560 --> 01:35:28.790
+fused with a max. Like I don't know what
+
+01:35:28.800 --> 01:35:30.950
+pattern you would use for your mat mole
+
+01:35:30.960 --> 01:35:32.550
+if there's like a specific tiling
+
+01:35:32.560 --> 01:35:36.149
+structure or some other optimization.
+
+01:35:36.159 --> 01:35:37.990
+It need manual interventions. Of course
+
+01:35:38.000 --> 01:35:39.590
+it's like this thing is incredibly
+
+01:35:39.600 --> 01:35:45.270
+stupid.
+
+01:35:47.110 --> 01:35:47.120
+I don't particularly care at the moment
+
+01:35:47.120 --> 01:35:49.430
+for this because this is just like I
+
+01:35:49.440 --> 01:35:51.030
+just need to see that it's possible to
+
+01:35:51.040 --> 01:35:52.709
+get this thing to be fast on a real
+
+01:35:52.719 --> 01:35:56.070
+problem. Um, and I'm sure I can get one
+
+01:35:56.080 --> 01:35:57.669
+of my contributors who has more
+
+01:35:57.679 --> 01:35:59.830
+experience on
+
+01:35:59.840 --> 01:36:02.709
+optimizing like kernels with matt moles
+
+01:36:02.719 --> 01:36:04.870
+in them
+
+01:36:04.880 --> 01:36:07.189
+like kernel fusion with matt moles. I'm
+
+01:36:07.199 --> 01:36:08.629
+sure we have a couple contributors that
+
+01:36:08.639 --> 01:36:10.470
+can like figure out a better way to do
+
+01:36:10.480 --> 01:36:12.709
+this. I kind of just need an initial
+
+01:36:12.719 --> 01:36:15.910
+demo. I think I have the the initial
+
+01:36:15.920 --> 01:36:18.070
+thing is correct. So the initial thing
+
+01:36:18.080 --> 01:36:20.790
+is literally where is it
+
+01:36:20.800 --> 01:36:22.229
+should be in here somewhere, but it's
+
+01:36:22.239 --> 01:36:24.790
+just calling our pre-existing
+
+01:36:24.800 --> 01:36:29.750
+blast wrapper.
+
+01:36:36.550 --> 01:36:36.560
+This is good.
+
+01:36:36.560 --> 01:36:37.990
+Wait, wait. This is good. Isn't this
+
+01:36:38.000 --> 01:36:43.669
+good?
+
+01:36:45.350 --> 01:36:45.360
+Yeah, it ought to make mistake making.
+
+01:36:45.360 --> 01:36:49.109
+Oh, look at this. Look. 6.4 mil. 6.5.
+
+01:36:49.119 --> 01:36:50.310
+Yeah. Yeah. Yeah. This is almost the
+
+01:36:50.320 --> 01:36:52.709
+same speed as our original. So, I mean,
+
+01:36:52.719 --> 01:36:54.229
+we take a little bit of a per hit, but
+
+01:36:54.239 --> 01:36:57.910
+there we go. This is
+
+01:36:57.920 --> 01:36:59.510
+way, way, way, way better than we had
+
+01:36:59.520 --> 01:37:20.149
+before.
+
+01:39:11.910 --> 01:39:11.920
+What's the config?
+
+01:39:11.920 --> 01:39:15.990
+Total agents 812.
+
+01:39:20.310 --> 01:39:20.320
+And I think this is actually
+
+01:39:20.320 --> 01:39:23.590
+pretty small mini batch, right? Yeah,
+
+01:39:23.600 --> 01:39:25.910
+pretty small mini batch. And Horizon.
+
+01:39:25.920 --> 01:39:28.390
+Yeah, this is not an ideal config and
+
+01:39:28.400 --> 01:39:54.149
+it's still decent.
+
+01:39:57.430 --> 01:39:57.440
+That's pretty good overall.
+
+01:39:57.440 --> 01:40:00.870
+I would say
+
+01:42:10.870 --> 01:42:10.880
+Actually, I'm going to point Vo at this
+
+01:42:10.880 --> 01:42:13.510
+as well because he'll have a use case
+
+01:42:13.520 --> 01:42:18.310
+once this is done.
+
+01:42:24.149 --> 01:42:24.159
+Yeah. Yeah. Yeah. We don't need any of
+
+01:42:24.159 --> 01:42:55.510
+this anymore. It's good.
+
+01:42:57.990 --> 01:42:58.000
+Why is it It should be okay. Good. It's
+
+01:42:58.000 --> 01:43:00.149
+still cutting it. It shouldn't be that
+
+01:43:00.159 --> 01:43:10.070
+long.
+
+01:43:11.750 --> 01:43:11.760
+Any idea where I should start? Depends
+
+01:43:11.760 --> 01:43:15.270
+on your level of experience. Um, there's
+
+01:43:15.280 --> 01:43:18.870
+a guide on my X if you are newer to RL,
+
+01:43:18.880 --> 01:43:21.510
+sort of like a blog post style thing on
+
+01:43:21.520 --> 01:43:23.270
+how to get into RL and how to start
+
+01:43:23.280 --> 01:43:25.510
+building some ends and puffer and sort
+
+01:43:25.520 --> 01:43:27.430
+of how to learn. If you're more
+
+01:43:27.440 --> 01:43:29.510
+experienced and you're just looking for
+
+01:43:29.520 --> 01:43:32.070
+puffer specifically, most new people
+
+01:43:32.080 --> 01:43:34.870
+still find it useful to build at least
+
+01:43:34.880 --> 01:43:39.830
+some sort of uh environment just because
+
+01:43:39.840 --> 01:43:42.070
+um just because it get it sort of gets
+
+01:43:42.080 --> 01:43:43.830
+you used to the project in a reasonable
+
+01:43:43.840 --> 01:43:50.629
+way.
+
+01:43:52.550 --> 01:43:52.560
+After that there's like depending on
+
+01:43:52.560 --> 01:43:54.950
+your interest there's algo side stuff.
+
+01:43:54.960 --> 01:43:58.149
+There is a ton a ton of infraside stuff.
+
+01:43:58.159 --> 01:44:00.950
+There's like architecture work. Um
+
+01:44:00.960 --> 01:44:02.950
+there's like just sort of moonshot very
+
+01:44:02.960 --> 01:44:05.910
+hard M to solve as standalone projects.
+
+01:44:05.920 --> 01:44:07.669
+I mean we kind of do a little bit of
+
+01:44:07.679 --> 01:44:10.149
+everything at least within the realm of
+
+01:44:10.159 --> 01:44:11.990
+like hyperf
+
+01:44:12.000 --> 01:44:23.350
+higher sim plus RL.
+
+01:44:25.669 --> 01:44:25.679
+Please tell me this.
+
+01:44:25.679 --> 01:44:35.430
+Why is this so long, man?
+
+01:44:37.669 --> 01:44:37.679
+Me grad.
+
+01:44:37.679 --> 01:44:41.910
+Hang on. Let me see.
+
+01:44:44.149 --> 01:44:44.159
+Materialize. Yeah. Okay. This thing just
+
+01:44:44.159 --> 01:44:48.310
+is a mess basically.
+
+01:44:48.320 --> 01:44:51.109
+Output grad kernel.
+
+01:44:51.119 --> 01:44:57.669
+Brad entity kernel.
+
+01:45:12.310 --> 01:45:12.320
+and a materialized kernel as well.
+
+01:45:12.320 --> 01:45:18.390
+Okay, not ideal
+
+01:45:27.430 --> 01:45:27.440
+Honestly, I wouldn't mind somebody that
+
+01:45:27.440 --> 01:45:30.870
+has decent colonel experience with uh
+
+01:45:30.880 --> 01:45:33.350
+well, specifically with fusing [ __ ] with
+
+01:45:33.360 --> 01:45:35.270
+Matt Moles.
+
+01:45:35.280 --> 01:45:39.030
+Um,
+
+01:45:52.310 --> 01:45:52.320
+I will commit this for now just so we
+
+01:45:52.320 --> 01:46:12.870
+have something to point it at
+
+01:46:27.270 --> 01:46:27.280
+9 mill SPS
+
+01:46:27.280 --> 01:46:29.270
+and this to be clear you can't get this
+
+01:46:29.280 --> 01:46:31.430
+score with the default architecture so
+
+01:46:31.440 --> 01:46:34.950
+it does need this custom kernel
+
+01:46:34.960 --> 01:46:38.310
+like that's super stable
+
+01:46:38.320 --> 01:47:20.310
+I think we will just do get add
+
+01:47:26.070 --> 01:47:26.080
+Boom. Okay, good. We win.
+
+01:47:26.080 --> 01:47:30.950
+We win this. Cool. Now, let's just go
+
+01:47:30.960 --> 01:47:39.910
+point Spencer at this.
+
+01:47:41.830 --> 01:47:41.840
+If anybody wants to take a look at this
+
+01:47:41.840 --> 01:47:44.550
+as well.
+
+01:47:44.560 --> 01:48:47.510
+This is on the 5C branch.
+
+01:49:03.990 --> 01:49:04.000
+CL. It's in 5C here. I'll put this link
+
+01:49:04.000 --> 01:49:10.470
+in the chat real quick.
+
+01:49:13.669 --> 01:49:13.679
+So, it's basically just the ME kernels.
+
+01:49:13.679 --> 01:49:16.310
+It's just the fused linear.
+
+01:49:16.320 --> 01:49:18.870
+It's a fused linear max op. It's linear
+
+01:49:18.880 --> 01:49:20.950
+to pointwise max and then the grads for
+
+01:49:20.960 --> 01:49:25.350
+it.
+
+01:49:27.350 --> 01:49:27.360
+The key is you have to not materialize
+
+01:49:27.360 --> 01:49:29.430
+and then you also have to match m uh
+
+01:49:29.440 --> 01:49:33.270
+coup blast annoyingly.
+
+01:49:33.280 --> 01:49:35.270
+I think that's basically it though. I
+
+01:49:35.280 --> 01:49:36.790
+just wanted to do a short couple hour
+
+01:49:36.800 --> 01:49:40.550
+stream on this. Um I think wait is it
+
+01:49:40.560 --> 01:49:43.270
+100 p.m.? I think the thing I have to do
+
+01:49:43.280 --> 01:49:45.830
+is at 100 p.m. Let me go double check to
+
+01:49:45.840 --> 01:49:47.350
+see if I have time or not. I'll be right
+
+01:49:47.360 --> 01:50:21.270
+back.
+
+01:50:24.390 --> 01:50:24.400
+Yeah, I uh I got to get going, guys. Um,
+
+01:50:24.400 --> 01:50:26.390
+thanks for tuning in. This is kind of
+
+01:50:26.400 --> 01:50:27.830
+just like a one-off thing. We might have
+
+01:50:27.840 --> 01:50:29.030
+to do a little bit more on this, but
+
+01:50:29.040 --> 01:50:30.470
+this is enough for us to start testing
+
+01:50:30.480 --> 01:50:32.629
+this in our application. Um, we
+
+01:50:32.639 --> 01:50:34.070
+definitely want a cleaner kernel for
+
+01:50:34.080 --> 01:50:35.669
+this. Faster kernel would be great as
+
+01:50:35.679 --> 01:50:37.350
+well. We're still taking a little bit of
+
+01:50:37.360 --> 01:50:39.910
+a per hit for this, though. I think the
+
+01:50:39.920 --> 01:50:41.430
+extra layer makes that somewhat
+
+01:50:41.440 --> 01:50:45.030
+expected. Um, well, if you want to
+
+01:50:45.040 --> 01:50:47.270
+support my work for absolutely free, I
+
+01:50:47.280 --> 01:50:49.750
+stream lots of research and dev right
+
+01:50:49.760 --> 01:50:52.149
+here. Just check puffer.ai, star the
+
+01:50:52.159 --> 01:50:54.310
+GitHub, feed the puffer, star helps us
+
+01:50:54.320 --> 01:50:57.910
+out a lot. join us on Discord
+
+01:50:57.920 --> 01:51:01.840
+and uh in order to get involved with the

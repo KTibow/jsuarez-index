@@ -1,0 +1,17 @@
+{
+  "id": "_OMFJpRZuMs",
+  "date": "2026-07-09T17:19:06+00:00",
+  "url": "https://www.youtube.com/watch?v=_OMFJpRZuMs",
+  "transcript": "/src/data/transcripts/_OMFJpRZuMs.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Implementing Fused Linear-Max Kernel for Entity Encoder in Puffer 5",
+  "summary": "Implemented a fused linear plus max operation kernel for a pointwise max entity encoder in Puffer 5. Removed unnecessary biases and fused the max to reduce memory pressure, achieving comparable performance to the default architecture.",
+  "topics": [
+    "entity encoder",
+    "fused kernel",
+    "CUDA",
+    "memory pressure",
+    "Puffer 5",
+    "pointwise max"
+  ]
+}
