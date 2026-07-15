@@ -1,0 +1,17 @@
+{
+  "id": "tcwydLDC_s4",
+  "date": "2026-07-13T20:00:04+00:00",
+  "url": "https://www.youtube.com/watch?v=tcwydLDC_s4",
+  "transcript": "/src/data/transcripts/tcwydLDC_s4.vtt",
+  "originalTitle": "Reinforcement learning research with Joseph Suarez",
+  "title": "Optimizing Async Training and GPU Environment Support in Puffer",
+  "summary": "Worked on implementing Cleanba-style async training with one-epoch stale data and integrated GPU environment support under NVCC via Puffer 5C. Reviewed a Chain Reaction environment PR with feedback on code quality and LLM-generated code issues.",
+  "topics": [
+    "Puffer 5C",
+    "Cleanba async training",
+    "GPU environment support",
+    "environment review",
+    "C port",
+    "performance optimization"
+  ]
+}

@@ -1,0 +1,5292 @@
+WEBVTT
+
+NOTE
+metadata:
+title: Reinforcement learning research with Joseph Suarez
+id: tcwydLDC_s4
+url: https://www.youtube.com/watch?v=tcwydLDC_s4
+date: 2026-07-13T20:00:04+00:00
+language: en
+
+00:00:07.030 --> 00:00:07.040
+Okay,
+
+00:00:07.040 --> 00:00:13.990
+should be live here. Hello, folks.
+
+00:00:17.590 --> 00:00:17.600
+Yeah, let me just grab the Twitch title
+
+00:00:17.600 --> 00:00:21.349
+for the Twitch category.
+
+00:00:21.359 --> 00:00:23.349
+Now, this says I've been live for 96
+
+00:00:23.359 --> 00:00:27.189
+hours. That thing is broken.
+
+00:00:27.199 --> 00:00:30.150
+Okay, 26 seconds. Much better.
+
+00:00:30.160 --> 00:00:33.670
+That's a weird bug. Twitch.
+
+00:00:33.680 --> 00:00:36.630
+Oops.
+
+00:00:36.640 --> 00:00:41.350
+Software and game development.
+
+00:00:41.360 --> 00:00:45.830
+Only 2.2K viewers on software.
+
+00:00:45.840 --> 00:00:49.029
+That's sad.
+
+00:00:49.039 --> 00:00:51.510
+Okay, let me just make sure I don't have
+
+00:00:51.520 --> 00:00:53.830
+anything sensitive here and I will flip
+
+00:00:53.840 --> 00:01:03.029
+the uh the screen over.
+
+00:01:13.670 --> 00:01:13.680
+So, um I just had one little idea this
+
+00:01:13.680 --> 00:01:16.870
+morning. Something I wanted to try.
+
+00:01:16.880 --> 00:01:19.030
+Hello, Anish. Congratulations. Exams
+
+00:01:19.040 --> 00:01:35.109
+[ __ ] suck.
+
+00:01:36.870 --> 00:01:36.880
+The one thing I wanted to try real quick
+
+00:01:36.880 --> 00:01:40.390
+was the clean bus style async training.
+
+00:01:40.400 --> 00:01:41.990
+Um, it's a little annoying because if it
+
+00:01:42.000 --> 00:01:43.590
+doesn't work, I actually don't know that
+
+00:01:43.600 --> 00:01:45.350
+it doesn't work. That is the problem
+
+00:01:45.360 --> 00:01:48.469
+with these stupid language models. But
+
+00:01:48.479 --> 00:01:49.990
+if it does work, then I know it does
+
+00:01:50.000 --> 00:01:52.230
+actually work. So,
+
+00:01:52.240 --> 00:01:54.950
+positives are true. Negatives may or may
+
+00:01:54.960 --> 00:02:12.229
+not be true.
+
+00:02:14.309 --> 00:02:14.319
+So, I'm going to just see if I can spend
+
+00:02:14.319 --> 00:02:16.550
+a little bit of time and get something
+
+00:02:16.560 --> 00:02:19.270
+out of this. If not, we just downweigh
+
+00:02:19.280 --> 00:02:23.510
+our assessment of async even more.
+
+00:02:23.520 --> 00:02:25.670
+How have we progressed from exactly one
+
+00:02:25.680 --> 00:02:27.430
+month ago?
+
+00:02:27.440 --> 00:02:31.110
+Well, we have selfplay in and we have a
+
+00:02:31.120 --> 00:02:34.229
+experimental
+
+00:02:37.589 --> 00:02:37.599
+here. I'll show you
+
+00:02:37.599 --> 00:02:39.910
+experimental pure CUDA and C
+
+00:02:39.920 --> 00:02:41.750
+implementation of Puffer with only eight
+
+00:02:41.760 --> 00:02:50.390
+files, no Python.
+
+00:02:52.070 --> 00:02:52.080
+This has sort of been my side project.
+
+00:02:52.080 --> 00:02:54.229
+We've got a big um professional project
+
+00:02:54.239 --> 00:02:56.869
+going on at the moment. I've also done
+
+00:02:56.879 --> 00:02:59.589
+some work on selfplay. I got some nice
+
+00:02:59.599 --> 00:03:01.350
+Robocode policies. I made some
+
+00:03:01.360 --> 00:03:13.910
+improvements there.
+
+00:03:18.229 --> 00:03:18.239
+Let's actually take a look at um
+
+00:03:18.239 --> 00:03:45.910
+B
+
+00:03:59.990 --> 00:04:00.000
+I generally thought that this was one of
+
+00:04:00.000 --> 00:04:29.110
+Costa's better innovations.
+
+00:04:58.150 --> 00:04:58.160
+Is there anything else that I need to
+
+00:04:58.160 --> 00:05:08.469
+get this thing to work?
+
+00:05:32.710 --> 00:05:32.720
+This is way closer to what we would
+
+00:05:32.720 --> 00:05:58.230
+expect.
+
+00:06:05.029 --> 00:06:05.039
+That's um
+
+00:06:05.039 --> 00:06:06.870
+I mean that's generally solid if you're
+
+00:06:06.880 --> 00:06:10.710
+trying to lose weight.
+
+00:06:13.270 --> 00:06:13.280
+Like classic cut diet. Get some sort of
+
+00:06:13.280 --> 00:06:17.909
+vegetable in there though.
+
+00:06:19.510 --> 00:06:19.520
+overlapping rollups and training. Yes,
+
+00:06:19.520 --> 00:06:22.070
+Finn.
+
+00:06:22.080 --> 00:06:24.070
+Uh, and if anybody has a reasonable
+
+00:06:24.080 --> 00:06:25.670
+method of doing that, it will be this
+
+00:06:25.680 --> 00:06:28.070
+paper. If this doesn't work, it's very
+
+00:06:28.080 --> 00:06:29.270
+unlikely that there's anything
+
+00:06:29.280 --> 00:06:31.110
+reasonable.
+
+00:06:31.120 --> 00:06:33.350
+Any fun M's added to Ocean? Ben's
+
+00:06:33.360 --> 00:06:39.749
+working on net hack.
+
+00:06:41.510 --> 00:06:41.520
+I'm actually if I get bored with this
+
+00:06:41.520 --> 00:06:44.390
+stream in a couple hours, like I might
+
+00:06:44.400 --> 00:06:47.350
+just continue my net hack game on stream
+
+00:06:47.360 --> 00:06:49.029
+just try to understand the end a little
+
+00:06:49.039 --> 00:07:03.189
+better.
+
+00:07:05.110 --> 00:07:05.120
+I played for like an hour yesterday and
+
+00:07:05.120 --> 00:07:08.550
+I got to uh depth seven which is about
+
+00:07:08.560 --> 00:07:11.749
+2,000 score with a dwarven Valkyrie and
+
+00:07:11.759 --> 00:07:13.909
+I got I believe ESP or what's the
+
+00:07:13.919 --> 00:07:16.870
+intrinsic ESP that you get from eating
+
+00:07:16.880 --> 00:07:20.550
+an ice corpse and then um
+
+00:07:20.560 --> 00:07:24.230
+poison res from a shriaker.
+
+00:07:24.240 --> 00:07:27.589
+Hello Jess. The text encoder per boost
+
+00:07:27.599 --> 00:07:29.990
+repros. That's insane.
+
+00:07:30.000 --> 00:07:34.070
+That's actually kind of hilarious.
+
+00:07:35.670 --> 00:07:35.680
+I guess it doesn't have to fully
+
+00:07:35.680 --> 00:07:38.390
+understand the text.
+
+00:07:38.400 --> 00:07:40.150
+The fact that you came up with that and
+
+00:07:40.160 --> 00:07:46.870
+that actually works is very impressive.
+
+00:07:50.150 --> 00:07:50.160
+I would not have thought of that.
+
+00:07:50.160 --> 00:07:52.469
+I do wonder if it's going to actually be
+
+00:07:52.479 --> 00:07:55.270
+fast when um
+
+00:07:55.280 --> 00:07:56.710
+you know with the end being more
+
+00:07:56.720 --> 00:07:59.589
+optimized, but
+
+00:07:59.599 --> 00:08:07.189
+that's fine.
+
+00:08:15.830 --> 00:08:15.840
+We're not going to know for sure, are
+
+00:08:15.840 --> 00:08:27.749
+we?
+
+00:08:36.149 --> 00:08:36.159
+25 mil SPS training.
+
+00:08:36.159 --> 00:08:43.110
+And this gets us our 3 seconds.
+
+00:08:45.509 --> 00:08:45.519
+I believe we can get about a 25% perf
+
+00:08:45.519 --> 00:09:26.389
+boost.
+
+00:09:28.389 --> 00:09:28.399
+any old games that you guys want to do
+
+00:09:28.399 --> 00:09:31.269
+bindings for instead of exact ports like
+
+00:09:31.279 --> 00:09:32.710
+Net Hack is awesome because the whole
+
+00:09:32.720 --> 00:09:35.190
+thing is C and it's relatively fast.
+
+00:09:35.200 --> 00:09:37.269
+Just like look for complex interest like
+
+00:09:37.279 --> 00:09:39.750
+interesting games that run very fast.
+
+00:09:39.760 --> 00:09:41.350
+It's pretty easy for anything open
+
+00:09:41.360 --> 00:09:43.509
+source to just pull it and benchmark it
+
+00:09:43.519 --> 00:09:45.430
+and like run it headless or run it
+
+00:09:45.440 --> 00:09:50.870
+whatever if it supports that.
+
+00:09:52.870 --> 00:09:52.880
+Well, presumably anything that's like
+
+00:09:52.880 --> 00:09:56.550
+CLI based is at least has a chance to be
+
+00:09:56.560 --> 00:10:02.389
+good.
+
+00:10:03.990 --> 00:10:04.000
+Back from the era where people had to
+
+00:10:04.000 --> 00:10:34.870
+write fast code at least. Let's say
+
+00:10:36.150 --> 00:10:36.160
+Quake.
+
+00:10:36.160 --> 00:10:39.030
+could be
+
+00:10:39.040 --> 00:10:42.630
+little tricky as a first person shooter.
+
+00:10:42.640 --> 00:10:44.790
+Do that with state.
+
+00:10:44.800 --> 00:10:46.790
+I think even like Doom, if you get a
+
+00:10:46.800 --> 00:10:48.710
+good bind for Doom, you can do Doom
+
+00:10:48.720 --> 00:11:12.870
+pixels at a couple hundred kps.
+
+00:11:14.389 --> 00:11:14.399
+So, all that's going on here is we're
+
+00:11:14.399 --> 00:11:15.910
+just playing around to see if we can get
+
+00:11:15.920 --> 00:11:19.269
+async and then we'll probably do a GPU
+
+00:11:19.279 --> 00:11:30.230
+end support after this
+
+00:11:37.350 --> 00:11:37.360
+You should not be just right. You should
+
+00:11:37.360 --> 00:11:42.949
+be porting it if there's source.
+
+00:11:50.389 --> 00:11:50.399
+Okay,
+
+00:11:50.399 --> 00:11:52.310
+that has a chance to work if you set it
+
+00:11:52.320 --> 00:11:54.150
+up smart.
+
+00:11:54.160 --> 00:11:57.910
+Um, these LMS cannot just like implement
+
+00:11:57.920 --> 00:12:39.110
+a game without source.
+
+00:12:42.310 --> 00:12:42.320
+So, sweep's a little messed up here.
+
+00:12:42.320 --> 00:12:45.430
+Important to catch that since obviously
+
+00:12:45.440 --> 00:12:47.829
+if multiple things diverge at once, not
+
+00:12:47.839 --> 00:12:50.230
+good.
+
+00:12:50.240 --> 00:12:52.949
+Where was um
+
+00:12:52.959 --> 00:13:48.710
+this was a little sad.
+
+00:14:02.949 --> 00:14:02.959
+Some speed improvements.
+
+00:14:02.959 --> 00:14:05.829
+Oh, so I guess I should go do a quick
+
+00:14:05.839 --> 00:14:08.389
+overview. My bad. Little scattered this
+
+00:14:08.399 --> 00:14:11.829
+morning. So, Cleanba is I believe one of
+
+00:14:11.839 --> 00:14:14.389
+the last things Costa did before he went
+
+00:14:14.399 --> 00:14:16.710
+uh went on and graduated and did other
+
+00:14:16.720 --> 00:14:21.269
+stuff for a bit. Uh it is a
+
+00:14:21.279 --> 00:14:24.629
+asynchronous training setup. He has very
+
+00:14:24.639 --> 00:14:27.350
+clean code for it. And the key thing is
+
+00:14:27.360 --> 00:14:30.310
+that data is allowed to be stale by
+
+00:14:30.320 --> 00:14:33.990
+exactly one epoch.
+
+00:14:34.000 --> 00:14:35.750
+It doesn't get arbitrarily stale. It
+
+00:14:35.760 --> 00:14:37.750
+doesn't get like stale. The faster the
+
+00:14:37.760 --> 00:14:39.910
+learner goes, the more stale the data
+
+00:14:39.920 --> 00:14:41.590
+gets or anything like that. It's very
+
+00:14:41.600 --> 00:14:43.750
+clean in that way. We should be able to
+
+00:14:43.760 --> 00:14:45.910
+make that full deterministic as well
+
+00:14:45.920 --> 00:14:48.710
+like exact one epoch
+
+00:14:48.720 --> 00:14:50.629
+um latency.
+
+00:14:50.639 --> 00:14:52.949
+And then the question is if we can get
+
+00:14:52.959 --> 00:14:56.389
+one epoch latency to be stable
+
+00:14:56.399 --> 00:14:59.990
+because if we can it should provide a
+
+00:15:00.000 --> 00:15:04.629
+decent perf boost um anywhere from 10 to
+
+00:15:04.639 --> 00:15:08.710
+40% depending on the ends
+
+00:15:08.720 --> 00:15:10.550
+and combining that with a couple other
+
+00:15:10.560 --> 00:15:11.910
+things we should be able to get break
+
+00:15:11.920 --> 00:15:15.430
+out to 30 plus mil SPS solve it under 3
+
+00:15:15.440 --> 00:15:17.430
+seconds
+
+00:15:17.440 --> 00:15:57.670
+and uh that'd be pretty
+
+00:15:59.430 --> 00:15:59.440
+What are my options for training from my
+
+00:15:59.440 --> 00:16:02.069
+Mac? 4.0 doesn't support metal anymore.
+
+00:16:02.079 --> 00:16:03.990
+There was never metal. We never had
+
+00:16:04.000 --> 00:16:06.949
+metal support, my guy. That was never a
+
+00:16:06.959 --> 00:16:08.790
+thing. We've had a couple contributors
+
+00:16:08.800 --> 00:16:11.749
+like working on some forks of that. um
+
+00:16:11.759 --> 00:16:15.590
+40 you can run the torch CPU version for
+
+00:16:15.600 --> 00:16:18.069
+training or I guess the torch you can
+
+00:16:18.079 --> 00:16:21.350
+try the torch uh Apple silicon torch MJX
+
+00:16:21.360 --> 00:16:23.430
+whatever the hell it is support that
+
+00:16:23.440 --> 00:16:28.150
+they have built in um from 50 plus there
+
+00:16:28.160 --> 00:16:31.030
+just is not going to be training support
+
+00:16:31.040 --> 00:16:34.470
+um on uh CPU like that I will say that
+
+00:16:34.480 --> 00:16:37.189
+we will give you very good eval support
+
+00:16:37.199 --> 00:16:39.350
+so the evaluation support for models
+
+00:16:39.360 --> 00:16:41.590
+actually gets better in puffer
+
+00:16:41.600 --> 00:16:44.069
+or CPU machines
+
+00:16:44.079 --> 00:16:46.389
+and then the like for training you just
+
+00:16:46.399 --> 00:16:48.949
+go rent like an 8 cent GPU an hour off
+
+00:16:48.959 --> 00:16:50.790
+of
+
+00:16:50.800 --> 00:16:53.189
+or whatever.
+
+00:16:53.199 --> 00:16:55.030
+There's no realistic way that I can give
+
+00:16:55.040 --> 00:16:59.350
+you good CPU training without adding a
+
+00:16:59.360 --> 00:17:14.789
+crazy amount of code.
+
+00:17:49.510 --> 00:17:49.520
+I will tell you I did think about it for
+
+00:17:49.520 --> 00:17:53.669
+a while. Like
+
+00:17:56.070 --> 00:17:56.080
+the GPU code and the CPU code are just
+
+00:17:56.080 --> 00:17:58.870
+different enough that there's not a
+
+00:17:58.880 --> 00:18:02.470
+simple way to do both.
+
+00:18:02.480 --> 00:18:04.390
+I guess if somebody were to show me that
+
+00:18:04.400 --> 00:18:06.230
+you could actually get Perf to be decent
+
+00:18:06.240 --> 00:18:10.470
+on CPU, I would consider that.
+
+00:18:10.480 --> 00:18:11.990
+It definitely doesn't make sense to me
+
+00:18:12.000 --> 00:18:14.310
+to have a training backend special for
+
+00:18:14.320 --> 00:18:16.230
+Apple's hardware though, unless it's
+
+00:18:16.240 --> 00:18:19.830
+very very short or something considering
+
+00:18:19.840 --> 00:18:22.630
+um like Apple's hardware just isn't
+
+00:18:22.640 --> 00:18:26.470
+good.
+
+00:18:29.110 --> 00:18:29.120
+You probably can get 1 mil SPS for very
+
+00:18:29.120 --> 00:18:32.310
+small models on CPU.js. Yes, but like it
+
+00:18:32.320 --> 00:18:34.549
+will scale terribly.
+
+00:18:34.559 --> 00:18:36.549
+You might be able to train 100k per
+
+00:18:36.559 --> 00:18:40.150
+models or less, but like even 1 mil I
+
+00:18:40.160 --> 00:18:48.870
+expect just dies.
+
+00:18:50.310 --> 00:18:50.320
+Actually here in the meantime, we'll
+
+00:18:50.320 --> 00:18:56.710
+just we'll back the envelope this.
+
+00:19:21.110 --> 00:19:21.120
+I guess we'd assume FP32 as well since
+
+00:19:21.120 --> 00:20:41.430
+they don't have dedicated Um,
+
+00:21:37.750 --> 00:21:37.760
+Yep. This is good.
+
+00:21:37.760 --> 00:21:56.470
+That was this bug.
+
+00:22:09.029 --> 00:22:09.039
+I like how you just Google flops and it
+
+00:22:09.039 --> 00:22:19.590
+doesn't know what a flop is.
+
+00:22:21.990 --> 00:22:22.000
+They have
+
+00:22:22.000 --> 00:22:26.070
+gigantic page
+
+00:22:26.080 --> 00:22:40.470
+DPU
+
+00:23:26.630 --> 00:23:26.640
+We stuck.
+
+00:23:26.640 --> 00:23:48.390
+We're just doing a long run.
+
+00:23:52.630 --> 00:23:52.640
+That's a nice change though. Okay. So,
+
+00:23:52.640 --> 00:24:05.669
+I guess in the meantime what we can do.
+
+00:24:09.350 --> 00:24:09.360
+We can start looking at this.
+
+00:24:09.360 --> 00:24:12.470
+No. And add you especi like you
+
+00:24:12.480 --> 00:24:16.149
+definitely don't want to do that.
+
+00:24:16.159 --> 00:24:21.750
+It does not write usable code.
+
+00:24:23.830 --> 00:24:23.840
+The thing that I typically will do for
+
+00:24:23.840 --> 00:24:27.269
+it is like for some research thing, I'll
+
+00:24:27.279 --> 00:24:29.909
+just see if the thing that Codeex
+
+00:24:29.919 --> 00:24:32.470
+implements actually works. And if it
+
+00:24:32.480 --> 00:24:33.830
+works, then I know that the research
+
+00:24:33.840 --> 00:24:35.590
+idea works and I just have to make the
+
+00:24:35.600 --> 00:24:38.390
+code not suck. Um, come up with a good
+
+00:24:38.400 --> 00:24:40.710
+implementation of it. But if it doesn't
+
+00:24:40.720 --> 00:24:42.230
+work, I actually don't know that the
+
+00:24:42.240 --> 00:24:45.269
+idea is bad. Like it can just be codeex
+
+00:24:45.279 --> 00:24:47.750
+being stupid. So, it's kind of this
+
+00:24:47.760 --> 00:24:51.190
+one-sided yolo thing.
+
+00:24:51.200 --> 00:24:54.789
+Um, which can save time sometimes,
+
+00:24:54.799 --> 00:24:56.230
+but you definitely don't even want to
+
+00:24:56.240 --> 00:25:02.630
+trust it on that.
+
+00:25:04.950 --> 00:25:04.960
+Okay, so
+
+00:25:04.960 --> 00:25:08.549
+we have this whole
+
+00:25:08.559 --> 00:25:21.190
+back end thing.
+
+00:25:25.590 --> 00:25:25.600
+Would we do the same threading thing?
+
+00:25:25.600 --> 00:25:33.430
+Does that make sense at all?
+
+00:25:41.110 --> 00:25:41.120
+I guess it can't hurt to try that,
+
+00:25:41.120 --> 00:25:43.190
+right?
+
+00:25:43.200 --> 00:25:45.110
+We basically take the same threaded
+
+00:25:45.120 --> 00:25:48.230
+architecture
+
+00:25:50.789 --> 00:25:50.799
+with GPU ends. That would just be a
+
+00:25:50.799 --> 00:25:53.750
+couple conditionals, right?
+
+00:25:53.760 --> 00:25:56.950
+We can try that.
+
+00:25:56.960 --> 00:26:06.070
+Could
+
+00:28:53.830 --> 00:28:53.840
+Also, I wanted to see if this was
+
+00:28:53.840 --> 00:28:56.310
+faster.
+
+00:28:56.320 --> 00:28:58.389
+I think this will be faster, but we kind
+
+00:28:58.399 --> 00:29:04.870
+of just need to have this anyways.
+
+00:29:06.549 --> 00:29:06.559
+This is a little bit disappointing, I
+
+00:29:06.559 --> 00:29:21.430
+would think.
+
+00:29:22.870 --> 00:29:22.880
+To be fair, we still haven't fully
+
+00:29:22.880 --> 00:29:24.870
+tested protein
+
+00:29:24.880 --> 00:29:26.870
+on the latest code version, so that
+
+00:29:26.880 --> 00:29:30.789
+could be messed up.
+
+00:30:41.750 --> 00:30:41.760
+Wonder if there's any details in the
+
+00:30:41.760 --> 00:30:47.110
+original paper on this.
+
+00:31:36.870 --> 00:31:36.880
+protein. If there's issues, I could take
+
+00:31:36.880 --> 00:31:41.830
+a week. Um, is this glitzy?
+
+00:31:41.840 --> 00:31:43.590
+I don't know if there are issues for
+
+00:31:43.600 --> 00:31:46.149
+sure, to be fair. I just I have not had
+
+00:31:46.159 --> 00:31:48.070
+the time to fully test the integrated
+
+00:31:48.080 --> 00:31:50.310
+version to make sure that it's
+
+00:31:50.320 --> 00:31:53.110
+replicating um the sweep results we
+
+00:31:53.120 --> 00:31:55.669
+expect. and I'm like trying it on a new
+
+00:31:55.679 --> 00:31:56.950
+thing that I don't know whether or not
+
+00:31:56.960 --> 00:31:58.070
+it works. So there's just two
+
+00:31:58.080 --> 00:32:00.710
+uncertainties stacked.
+
+00:32:00.720 --> 00:32:02.149
+I also haven't gone through to try to
+
+00:32:02.159 --> 00:32:04.789
+minify the code myself yet either. So I
+
+00:32:04.799 --> 00:32:06.710
+it should be the same as you submitted
+
+00:32:06.720 --> 00:32:10.389
+it. Um, I pretty much just did minimal
+
+00:32:10.399 --> 00:32:36.070
+integration work.
+
+00:32:37.990 --> 00:32:38.000
+Does he have the staleness analysis
+
+00:32:38.000 --> 00:32:40.070
+somewhere?
+
+00:32:40.080 --> 00:32:48.470
+Is there clean bus sync?
+
+00:32:50.470 --> 00:32:50.480
+I'm pretty sure he did do this analysis,
+
+00:32:50.480 --> 00:32:57.430
+the exact thing that I'm asking about.
+
+00:32:59.110 --> 00:32:59.120
+Anybody remember this paper? Oh, here it
+
+00:32:59.120 --> 00:33:03.190
+is. Right. Clean bus po synchronous,
+
+00:33:03.200 --> 00:33:10.310
+right?
+
+00:33:12.230 --> 00:33:12.240
+And then here. Yeah. So you see here
+
+00:33:12.240 --> 00:33:16.230
+this gap, this messiness
+
+00:33:16.240 --> 00:33:18.549
+on the curve here
+
+00:33:18.559 --> 00:33:20.470
+is
+
+00:33:20.480 --> 00:33:28.310
+async drift.
+
+00:34:08.710 --> 00:34:08.720
+I don't understand how Impala is.
+
+00:34:08.720 --> 00:34:10.550
+The Impala should not be comparable
+
+00:34:10.560 --> 00:34:14.710
+whatsoever to PO.
+
+00:34:14.720 --> 00:34:16.790
+Well, I guess it's the task. Impala is a
+
+00:34:16.800 --> 00:34:23.030
+really [ __ ] paper.
+
+00:34:25.589 --> 00:34:25.599
+Like the VR trace correction is just not
+
+00:34:25.599 --> 00:34:47.909
+anywhere near as good.
+
+00:34:50.629 --> 00:34:50.639
+So delayed one second. This does suggest
+
+00:34:50.639 --> 00:34:54.230
+that very small
+
+00:34:56.550 --> 00:34:56.560
+Yeah, very slightly off Paul is very
+
+00:34:56.560 --> 00:34:59.670
+hard
+
+00:35:16.069 --> 00:35:16.079
+top of 5C. Uh, no. Stuff really has not
+
+00:35:16.079 --> 00:35:18.390
+been tested very much in 5C yet other
+
+00:35:18.400 --> 00:35:22.470
+than that like our standard MS replicate
+
+00:35:22.480 --> 00:35:25.430
+previous PF. I also made a change
+
+00:35:25.440 --> 00:35:27.430
+lately. I haven't tested 2048 and stuff
+
+00:35:27.440 --> 00:35:29.670
+on with the way we do RNN states, but it
+
+00:35:29.680 --> 00:35:34.550
+should be fine.
+
+00:35:36.550 --> 00:35:36.560
+We definitely want to rewe breakout on
+
+00:35:36.560 --> 00:35:44.870
+5C using standard protein.
+
+00:35:46.390 --> 00:35:46.400
+I'm playing with a few different things
+
+00:35:46.400 --> 00:35:52.710
+on this now.
+
+00:36:07.510 --> 00:36:07.520
+This does seem like it hurts the data
+
+00:36:07.520 --> 00:36:17.190
+efficiency a bit.
+
+00:36:18.790 --> 00:36:18.800
+I just don't know if I trust that
+
+00:36:18.800 --> 00:36:40.390
+stable. Oh,
+
+00:36:42.390 --> 00:36:42.400
+you can try it on whichever glitz. See,
+
+00:36:42.400 --> 00:36:45.030
+as long as it's tested, as long as you
+
+00:36:45.040 --> 00:36:46.470
+give me a thing where it's like, yeah,
+
+00:36:46.480 --> 00:36:48.870
+this part, like as of this state, it's
+
+00:36:48.880 --> 00:36:51.190
+well tested. I can work from there. If
+
+00:36:51.200 --> 00:36:53.430
+you tested in 5C and it works there, it
+
+00:36:53.440 --> 00:36:56.710
+saves me a little bit of time.
+
+00:36:56.720 --> 00:36:58.390
+It's a pretty easy to work with branch,
+
+00:36:58.400 --> 00:37:00.550
+I'd say.
+
+00:37:00.560 --> 00:37:02.870
+It's a little messy.
+
+00:37:02.880 --> 00:37:05.109
+What padcast? Uh, information
+
+00:37:05.119 --> 00:37:07.670
+bottleneck. My adviser was on it last
+
+00:37:07.680 --> 00:37:24.550
+week.
+
+00:37:26.550 --> 00:37:26.560
+Oh, it was fun conversation. Didn't go
+
+00:37:26.560 --> 00:37:28.390
+as deep on engineering stuff as I'd
+
+00:37:28.400 --> 00:37:30.870
+expected, but we talked about a bunch of
+
+00:37:30.880 --> 00:37:59.670
+different things.
+
+00:38:01.829 --> 00:38:01.839
+It's kind of funny, I guess, just cuz I
+
+00:38:01.839 --> 00:38:03.829
+really I don't listen to this type of
+
+00:38:03.839 --> 00:38:06.710
+content typically. I don't really do
+
+00:38:06.720 --> 00:38:10.630
+like these technical podcasts.
+
+00:38:10.640 --> 00:38:27.430
+I don't know why.
+
+00:38:40.069 --> 00:38:40.079
+I mean, I have plenty of downtime
+
+00:38:40.079 --> 00:38:41.829
+honestly, convert, especially this
+
+00:38:41.839 --> 00:38:48.230
+summer.
+
+00:38:50.630 --> 00:38:50.640
+I that's also probably true. My
+
+00:38:50.640 --> 00:38:52.310
+entertainment's already close enough in
+
+00:38:52.320 --> 00:38:54.069
+the sense that we use games for all of
+
+00:38:54.079 --> 00:39:57.589
+the uh evals and such.
+
+00:39:59.270 --> 00:39:59.280
+So, I guess this one is the main
+
+00:39:59.280 --> 00:40:03.670
+question.
+
+00:40:05.670 --> 00:40:05.680
+The problem is we can't really keep this
+
+00:40:05.680 --> 00:40:08.310
+without lots of experiments. Though, I
+
+00:40:08.320 --> 00:40:10.230
+think it since we have it as a flag for
+
+00:40:10.240 --> 00:40:12.870
+the time being, I can at least keep
+
+00:40:12.880 --> 00:40:15.670
+running these in the background.
+
+00:40:15.680 --> 00:40:17.270
+I'll let this do a few more experiments
+
+00:40:17.280 --> 00:40:19.109
+while this thing finishes and then we'll
+
+00:40:19.119 --> 00:40:21.109
+just kill this.
+
+00:40:21.119 --> 00:40:23.589
+We'll disable this
+
+00:40:23.599 --> 00:40:34.950
+and we'll try the GPU stuff.
+
+00:40:36.790 --> 00:40:36.800
+Just like a few sunundry things I've
+
+00:40:36.800 --> 00:40:39.510
+been wanting to
+
+00:40:39.520 --> 00:41:15.750
+clean up, you know.
+
+00:41:18.230 --> 00:41:18.240
+There's 8 seconds for seven. Oh, hang
+
+00:41:18.240 --> 00:41:26.550
+on. 3.73 seconds at 8:17.
+
+00:41:29.109 --> 00:41:29.119
+That's better.
+
+00:41:29.119 --> 00:41:34.550
+Okay, this is finding stuff almost.
+
+00:41:38.630 --> 00:41:38.640
+I could believe this works.
+
+00:41:38.640 --> 00:41:50.069
+I uh I could believe that this works.
+
+00:41:53.270 --> 00:41:53.280
+This would probably shift the uh balance
+
+00:41:53.280 --> 00:42:02.630
+of training data a little bit.
+
+00:42:04.790 --> 00:42:04.800
+I do sort of wonder, right, is this
+
+00:42:04.800 --> 00:42:10.230
+going to be
+
+00:42:19.510 --> 00:42:19.520
+you kind of get some anti-ynergy here,
+
+00:42:19.520 --> 00:42:20.950
+don't you?
+
+00:42:20.960 --> 00:42:23.670
+Like if you make off policiness more of
+
+00:42:23.680 --> 00:42:25.910
+an issue,
+
+00:42:25.920 --> 00:42:27.829
+what you want to do is you want to crank
+
+00:42:27.839 --> 00:42:31.190
+on um the optimizer while you collect
+
+00:42:31.200 --> 00:42:33.030
+more data.
+
+00:42:33.040 --> 00:42:46.870
+But there's an anti-inergy there.
+
+00:43:03.910 --> 00:43:03.920
+There's a detail I need to know.
+
+00:43:03.920 --> 00:43:51.670
+Okay. So,
+
+00:43:53.670 --> 00:43:53.680
+Okay, I need to actually then check. Do
+
+00:43:53.680 --> 00:43:55.510
+you clip compared to the new Paul or the
+
+00:43:55.520 --> 00:45:49.190
+old Paul?
+
+00:46:13.430 --> 00:46:13.440
+Okay, we might be able to mess with some
+
+00:46:13.440 --> 00:46:16.470
+stuff there. I think I'm satisfied with
+
+00:46:16.480 --> 00:46:24.230
+this for the time being
+
+00:46:28.390 --> 00:46:28.400
+that we can do GPU now.
+
+00:46:28.400 --> 00:46:29.990
+I think we'll just kill this and we'll
+
+00:46:30.000 --> 00:46:35.430
+just do
+
+00:46:38.550 --> 00:46:38.560
+breakout
+
+00:46:38.560 --> 00:47:52.870
+just do breakout comment all this
+
+00:49:08.549 --> 00:49:08.559
+Is there any reason to ever overlap
+
+00:49:08.559 --> 00:49:52.950
+this? I wonder.
+
+00:49:55.349 --> 00:49:55.359
+I think probably this is wrong path
+
+00:49:55.359 --> 00:50:09.030
+Right.
+
+00:50:12.470 --> 00:50:12.480
+And I guess
+
+00:50:12.480 --> 00:50:23.670
+it's hard for me to say honestly.
+
+00:50:34.150 --> 00:50:34.160
+probably the multibuffered thing makes
+
+00:50:34.160 --> 00:50:40.309
+sense again, right?
+
+00:50:46.950 --> 00:50:46.960
+No, it depends.
+
+00:50:46.960 --> 00:50:50.150
+Complicated tradeoffs.
+
+00:50:50.160 --> 00:51:47.430
+Complicated trade-offs.
+
+00:51:49.270 --> 00:51:49.280
+That
+
+00:51:49.280 --> 00:51:57.349
+saves us a couple threads.
+
+00:52:00.790 --> 00:52:00.800
+Oh yeah, also Jess bet um
+
+00:52:00.800 --> 00:52:04.069
+bet posted a picture on X.
+
+00:52:04.079 --> 00:52:06.950
+He uh I don't know what the hell he
+
+00:52:06.960 --> 00:52:08.950
+spilled on himself or what he's doing,
+
+00:52:08.960 --> 00:52:27.670
+but
+
+00:52:29.670 --> 00:52:29.680
+he kind of carved a couple chunks out of
+
+00:52:29.680 --> 00:52:34.390
+his uh hand. Small chunks.
+
+00:52:34.400 --> 00:52:36.309
+But uh you never know how much
+
+00:52:36.319 --> 00:52:38.069
+surrounding damage there is with that,
+
+00:52:38.079 --> 00:52:43.589
+right?
+
+00:52:50.150 --> 00:52:50.160
+But whatever the hell he's been working
+
+00:52:50.160 --> 00:52:51.829
+on lately, he keeps hurting himself
+
+00:52:51.839 --> 00:52:54.630
+doing it.
+
+00:52:54.640 --> 00:52:58.710
+Sliced his thumb before like pretty bad.
+
+00:52:58.720 --> 00:53:05.349
+I don't know what he's doing.
+
+00:53:14.309 --> 00:53:14.319
+not an AI, but he has a very real job
+
+00:53:14.319 --> 00:53:16.309
+working on drone. Hopefully can
+
+00:53:16.319 --> 00:53:18.470
+contribute. Cool. If you've seen the
+
+00:53:18.480 --> 00:53:20.630
+latest from uh Finn, Finn put out a very
+
+00:53:20.640 --> 00:53:31.510
+nice new demo with it.
+
+00:53:39.349 --> 00:53:39.359
+latest from FBR was
+
+00:53:39.359 --> 00:54:18.230
+some random optimizer stuff he did.
+
+00:54:26.470 --> 00:54:26.480
+The thing is I really don't know.
+
+00:54:26.480 --> 00:54:28.790
+He tends to submit a bunch of AI gen
+
+00:54:28.800 --> 00:54:32.390
+crap that may or may not make sense. So
+
+00:54:32.400 --> 00:54:34.630
+we'll see if it holds up.
+
+00:54:34.640 --> 00:54:37.430
+Like having a thing that just is tested
+
+00:54:37.440 --> 00:54:39.430
+on Breakout is not super helpful.
+
+00:54:39.440 --> 00:54:41.829
+Breakout is not a hard enough where if
+
+00:54:41.839 --> 00:54:43.510
+it's better on Breakout, it's better
+
+00:54:43.520 --> 00:54:46.309
+everywhere else.
+
+00:54:46.319 --> 00:54:47.670
+At least not if you don't know what
+
+00:54:47.680 --> 00:54:49.589
+you're doing. Like I can end up using it
+
+00:54:49.599 --> 00:54:52.549
+as a mostly general test for certain
+
+00:54:52.559 --> 00:54:54.150
+things,
+
+00:54:54.160 --> 00:54:55.510
+but there's a reason we don't test
+
+00:54:55.520 --> 00:54:59.270
+algorithms on mainly Breakout
+
+00:54:59.280 --> 00:56:10.390
+other than stuff generic stuff.
+
+00:56:12.309 --> 00:56:12.319
+literally takes years to unlearn this
+
+00:56:12.319 --> 00:56:43.430
+crap as well.
+
+00:57:17.349 --> 00:57:17.359
+you be cool to review the chain reaction
+
+00:57:17.359 --> 00:57:18.870
+end?
+
+00:57:18.880 --> 00:57:22.950
+I could do that.
+
+00:57:40.230 --> 00:57:40.240
+I have not actually played this game. Is
+
+00:57:40.240 --> 00:57:41.750
+there a link to where I can like play
+
+00:57:41.760 --> 00:57:46.710
+this thing? Chain reaction game.
+
+00:57:46.720 --> 00:58:09.750
+Is it this one?
+
+00:58:33.349 --> 00:58:33.359
+Okay. I I will just see it on yours
+
+00:58:33.359 --> 00:58:57.990
+then. Let's see.
+
+00:59:09.990 --> 00:59:10.000
+Selfplay game. Selfplay games are
+
+00:59:10.000 --> 00:59:11.589
+useful.
+
+00:59:11.599 --> 00:59:18.150
+We do need more of these.
+
+00:59:25.349 --> 00:59:25.359
+Uh I don't have like a clean 40 at the
+
+00:59:25.359 --> 00:59:29.910
+moment. I probably will grab it though.
+
+00:59:29.920 --> 00:59:31.510
+Let me take a quick look first and then
+
+00:59:31.520 --> 00:59:36.710
+I will uh I'll go through.
+
+00:59:48.549 --> 00:59:48.559
+Okay, 40 style binding
+
+00:59:48.559 --> 00:59:51.990
+with the selfplay shenanigans. Yep.
+
+00:59:52.000 --> 00:59:54.950
+This gets way easier, by the way, in um
+
+00:59:54.960 --> 00:59:58.230
+in the C port. I've uh I've fixed a lot
+
+00:59:58.240 --> 01:00:02.710
+of the selfplay crap.
+
+01:00:30.549 --> 01:00:30.559
+forget if this is okay?
+
+01:00:30.559 --> 01:00:32.710
+I think this gets called once over all
+
+01:00:32.720 --> 01:00:39.190
+M. So I think that yes, this is okay.
+
+01:00:41.670 --> 01:00:41.680
+We call veck in it only once, right?
+
+01:00:41.680 --> 01:00:50.150
+Yeah, I think that this is fine.
+
+01:00:52.470 --> 01:00:52.480
+Right. Right. Cuz we have five C. It's
+
+01:00:52.480 --> 01:00:55.589
+all the same process now. Um though,
+
+01:00:55.599 --> 01:00:59.750
+hang on. End of RNG is I.
+
+01:00:59.760 --> 01:01:01.750
+This doesn't depend on the RNG that
+
+01:01:01.760 --> 01:01:03.670
+you're given. So, I think that this will
+
+01:01:03.680 --> 01:01:06.870
+be this will screw up multiGPU training
+
+01:01:06.880 --> 01:01:09.589
+potentially cuz you have the same RNG
+
+01:01:09.599 --> 01:01:12.390
+across all your M's here.
+
+01:01:12.400 --> 01:01:21.109
+Minor detail though.
+
+01:01:23.589 --> 01:01:23.599
+Not a fan of onelining conditionals, but
+
+01:01:23.599 --> 01:01:34.230
+this is generally fine.
+
+01:01:35.829 --> 01:01:35.839
+It's funny. I actually hate these
+
+01:01:35.839 --> 01:01:37.910
+explicit casts, but this is now required
+
+01:01:37.920 --> 01:01:40.950
+unfortunately under 5C anyways.
+
+01:01:40.960 --> 01:01:44.309
+So, this is fine.
+
+01:01:44.319 --> 01:01:46.230
+I think this is I think this is required
+
+01:01:46.240 --> 01:01:55.589
+under 5C. It might not be
+
+01:01:59.349 --> 01:01:59.359
+5C. So, I'm working on Puffer 5. Um, I
+
+01:01:59.359 --> 01:02:02.069
+have the Puffer like 5C branch, which is
+
+01:02:02.079 --> 01:02:05.430
+just Puffer 5 in C. So, there's no
+
+01:02:05.440 --> 01:02:07.829
+Python at all.
+
+01:02:07.839 --> 01:02:15.190
+Um, that's been my latest project.
+
+01:02:17.109 --> 01:02:17.119
+Not exactly a super stable branch or
+
+01:02:17.119 --> 01:02:19.829
+anything, but I've been working on it.
+
+01:02:19.839 --> 01:02:22.069
+Why is it required?
+
+01:02:22.079 --> 01:02:25.270
+uh because we changed to run we run
+
+01:02:25.280 --> 01:02:27.990
+under a single compilation unit. So
+
+01:02:28.000 --> 01:02:29.589
+instead of the ends getting compiled
+
+01:02:29.599 --> 01:02:34.069
+with GCC and the um the trainer getting
+
+01:02:34.079 --> 01:02:37.109
+compiled with NVCC and having them
+
+01:02:37.119 --> 01:02:39.190
+static link the whole thing gets
+
+01:02:39.200 --> 01:02:42.069
+compiled under NVCC. So that requires
+
+01:02:42.079 --> 01:02:44.309
+that end code has to simultaneously be
+
+01:02:44.319 --> 01:02:48.630
+valid C99 and valid CUDA
+
+01:02:48.640 --> 01:02:51.109
+which that might sound annoying but it's
+
+01:02:51.119 --> 01:02:53.829
+actually like there's kind of one common
+
+01:02:53.839 --> 01:02:55.670
+place where the cast you need an
+
+01:02:55.680 --> 01:02:58.470
+explicit cast and uh other than that
+
+01:02:58.480 --> 01:03:01.190
+stuff just works. I don't actually think
+
+01:03:01.200 --> 01:03:02.230
+it's here though. I think it's
+
+01:03:02.240 --> 01:03:05.190
+specifically the void star cast that uh
+
+01:03:05.200 --> 01:03:07.829
+is not valid.
+
+01:03:07.839 --> 01:03:10.230
+I think this is still not needed. I
+
+01:03:10.240 --> 01:03:12.150
+think it's when you so when you uh
+
+01:03:12.160 --> 01:03:15.029
+allocate memory and you let it autocast
+
+01:03:15.039 --> 01:03:23.750
+that's not valid uh valid C++
+
+01:03:25.910 --> 01:03:25.920
+yeah this stuff is a mess here but like
+
+01:03:25.920 --> 01:03:27.750
+this is inherited so don't worry this is
+
+01:03:27.760 --> 01:03:30.069
+fine
+
+01:03:30.079 --> 01:03:32.230
+okay and then let's see so we have this
+
+01:03:32.240 --> 01:03:34.630
+demo file
+
+01:03:34.640 --> 01:03:38.069
+which has random policy
+
+01:03:38.079 --> 01:03:42.390
+no pre-trained model That's okay though.
+
+01:03:42.400 --> 01:03:45.270
+Oh Jesus. Here's the big end. This is
+
+01:03:45.280 --> 01:03:48.710
+the big uh the big review.
+
+01:03:48.720 --> 01:03:50.789
+Binding would be compiled with GCC.
+
+01:03:50.799 --> 01:03:52.789
+Yeah, exactly.
+
+01:03:52.799 --> 01:03:55.349
+Now must be compiled with NPC. Yeah, in
+
+01:03:55.359 --> 01:03:59.029
+practice it's almost like no different
+
+01:03:59.039 --> 01:04:01.510
+because you can basically always you can
+
+01:04:01.520 --> 01:04:04.309
+almost perfectly just compile valid C99
+
+01:04:04.319 --> 01:04:07.430
+under NBCC. Anyways, there are like one
+
+01:04:07.440 --> 01:04:11.349
+or two things that C++ is pedantic about
+
+01:04:11.359 --> 01:04:15.109
+that need to be adjusted, but that's it.
+
+01:04:15.119 --> 01:04:16.950
+So, to be clear, this does not mean that
+
+01:04:16.960 --> 01:04:19.750
+your end needs to be on the GPU.
+
+01:04:19.760 --> 01:04:23.829
+You can still have your normal CPU code,
+
+01:04:23.839 --> 01:04:31.670
+right? Like NVCC also just compile C.
+
+01:04:33.270 --> 01:04:33.280
+This has made stuff quite a bit simpler
+
+01:04:33.280 --> 01:04:35.510
+for us as well.
+
+01:04:35.520 --> 01:04:38.470
+like it actually lets us in fact on 5C
+
+01:04:38.480 --> 01:04:40.069
+this branch you don't even need to have
+
+01:04:40.079 --> 01:04:45.430
+a binding file that's pretty cool
+
+01:04:47.270 --> 01:04:47.280
+it gets actually a lot easier to write
+
+01:04:47.280 --> 01:05:00.390
+M's not harder
+
+01:05:02.789 --> 01:05:02.799
+this is from so if you see this type of
+
+01:05:02.799 --> 01:05:05.430
+thing from um my earlier your demo code.
+
+01:05:05.440 --> 01:05:08.230
+This is what from when I was new to C.
+
+01:05:08.240 --> 01:05:09.910
+You don't ever need to tweline this. You
+
+01:05:09.920 --> 01:05:11.510
+can just type def. You can do this in
+
+01:05:11.520 --> 01:05:14.710
+one one setup,
+
+01:05:14.720 --> 01:05:20.150
+but it's not a big deal either.
+
+01:05:23.109 --> 01:05:23.119
+Uh you also don't need to prefix your
+
+01:05:23.119 --> 01:05:24.870
+macros with the name like this unless
+
+01:05:24.880 --> 01:05:27.270
+it's something like size or whatever
+
+01:05:27.280 --> 01:05:29.190
+where there's obviously going to be a
+
+01:05:29.200 --> 01:05:33.109
+name conflict.
+
+01:05:34.870 --> 01:05:34.880
+Yeah. The cool thing is because we only
+
+01:05:34.880 --> 01:05:37.349
+compile one envir, you don't have to
+
+01:05:37.359 --> 01:05:39.029
+worry about name conflicts against other
+
+01:05:39.039 --> 01:05:41.349
+enms. It's literally just name conflicts
+
+01:05:41.359 --> 01:05:45.190
+against Rayb and our trainer.
+
+01:05:45.200 --> 01:05:53.589
+You can have nice shorter names.
+
+01:06:03.670 --> 01:06:03.680
+I'm liking the static mem client though.
+
+01:06:03.680 --> 01:06:18.870
+That's nice.
+
+01:06:20.950 --> 01:06:20.960
+Uhhuh.
+
+01:06:20.960 --> 01:06:23.029
+This stuff is garbage. But this is not
+
+01:06:23.039 --> 01:06:26.069
+your fault. We have fixed this in uh in
+
+01:06:26.079 --> 01:06:27.990
+5C.
+
+01:06:28.000 --> 01:06:29.910
+Basically, whenever I like merge stuff
+
+01:06:29.920 --> 01:06:33.430
+in and I port it up, if I if I apply a
+
+01:06:33.440 --> 01:06:36.309
+breaking API change to your EN and your
+
+01:06:36.319 --> 01:06:38.630
+N was like reasonable compliant with the
+
+01:06:38.640 --> 01:06:40.870
+previous one, I just port it up for you.
+
+01:06:40.880 --> 01:06:43.349
+So, you don't have to worry about that
+
+01:06:43.359 --> 01:06:44.950
+because typically the changes that I
+
+01:06:44.960 --> 01:06:46.309
+make are simple enough that you can
+
+01:06:46.319 --> 01:06:48.230
+literally just LLM autoport it up
+
+01:06:48.240 --> 01:06:51.430
+without even making a mess. Like the API
+
+01:06:51.440 --> 01:06:52.950
+changes I introduce are very, very
+
+01:06:52.960 --> 01:06:55.750
+simple.
+
+01:06:57.829 --> 01:06:57.839
+Sometimes I have to like manually fix a
+
+01:06:57.839 --> 01:07:09.430
+couple things, but not much at all.
+
+01:07:10.950 --> 01:07:10.960
+Yeah, you don't need to prefix every
+
+01:07:10.960 --> 01:07:17.029
+function with chain end underscore.
+
+01:07:18.870 --> 01:07:18.880
+you. The only thing you have to not do
+
+01:07:18.880 --> 01:07:21.029
+is name your method step or something
+
+01:07:21.039 --> 01:07:23.430
+because like if you name your thing like
+
+01:07:23.440 --> 01:07:25.589
+any four character word or something
+
+01:07:25.599 --> 01:07:27.750
+like that that seems generic, you're
+
+01:07:27.760 --> 01:07:29.190
+going to get a name conflict with
+
+01:07:29.200 --> 01:07:30.870
+something.
+
+01:07:30.880 --> 01:07:32.390
+But
+
+01:07:32.400 --> 01:07:35.990
+that's about it.
+
+01:07:38.230 --> 01:07:38.240
+And again, like if I later introduce a
+
+01:07:38.240 --> 01:07:39.670
+variable that conflicts with a thing
+
+01:07:39.680 --> 01:07:41.349
+that you reasonably should have thought
+
+01:07:41.359 --> 01:07:42.950
+won't conflict, I'll just fix it for
+
+01:07:42.960 --> 01:07:45.270
+you.
+
+01:07:45.280 --> 01:07:51.829
+Not a big deal.
+
+01:07:54.069 --> 01:07:54.079
+Yeah, all this crap from like selfplay
+
+01:07:54.079 --> 01:07:57.750
+is annoying.
+
+01:07:59.990 --> 01:08:00.000
+Chain and copy board. What are we
+
+01:08:00.000 --> 01:08:02.950
+copying the board for?
+
+01:08:02.960 --> 01:08:11.589
+Helper for something.
+
+01:08:26.229 --> 01:08:26.239
+Yeah, I'm not going to I'm not going to
+
+01:08:26.239 --> 01:08:27.990
+complain yet cuz these seem
+
+01:08:28.000 --> 01:08:32.630
+reasonableish.
+
+01:08:36.390 --> 01:08:36.400
+One um one test that you should apply to
+
+01:08:36.400 --> 01:08:39.349
+your code, though I'm not sure yet, is
+
+01:08:39.359 --> 01:08:41.749
+um you should just count the number of
+
+01:08:41.759 --> 01:08:44.630
+functions that you have that are only
+
+01:08:44.640 --> 01:08:46.709
+called once, like only called in one
+
+01:08:46.719 --> 01:08:48.709
+place.
+
+01:08:48.719 --> 01:08:57.829
+That's like a good thing to do.
+
+01:09:00.149 --> 01:09:00.159
+Yeah, this logging is a mess. This is
+
+01:09:00.159 --> 01:09:03.430
+all from the inherited his like Spencer
+
+01:09:03.440 --> 01:09:05.749
+did a very good job with what he was
+
+01:09:05.759 --> 01:09:08.550
+given. Um it's just that because I have
+
+01:09:08.560 --> 01:09:10.470
+the whole project layout and I can make
+
+01:09:10.480 --> 01:09:14.309
+larger changes to stuff to co-adapt like
+
+01:09:14.319 --> 01:09:16.229
+I can end up making stuff cleaner by
+
+01:09:16.239 --> 01:09:22.789
+pulling it in fully.
+
+01:09:33.030 --> 01:09:33.040
+Yeah, the logging is just going to
+
+01:09:33.040 --> 01:09:34.630
+become easier because like you just
+
+01:09:34.640 --> 01:09:36.950
+won't need to log all that crap
+
+01:09:36.960 --> 01:09:45.510
+eventually.
+
+01:09:48.070 --> 01:09:48.080
+Like the historical ELO and [ __ ] like
+
+01:09:48.080 --> 01:09:53.430
+that didn't even work.
+
+01:09:55.669 --> 01:09:55.679
+I have no idea, Jess. I just want like
+
+01:09:55.679 --> 01:09:57.590
+once we have selfplay more stable and
+
+01:09:57.600 --> 01:09:59.510
+consistent, we want to revisit the chess
+
+01:09:59.520 --> 01:10:07.590
+and make it work well.
+
+01:10:09.430 --> 01:10:09.440
+I also have no idea how good I am at
+
+01:10:09.440 --> 01:10:11.510
+chess. I know I'm very bad. I would not
+
+01:10:11.520 --> 01:10:14.149
+be surprised if like I went and I placed
+
+01:10:14.159 --> 01:10:16.310
+currently and I'm unironically like 300
+
+01:10:16.320 --> 01:10:26.310
+ELO or some [ __ ]
+
+01:10:28.550 --> 01:10:28.560
+Wait, what is this?
+
+01:10:28.560 --> 01:10:32.470
+Oh, this is a client function.
+
+01:10:32.480 --> 01:10:46.149
+Wait, but why does it take both?
+
+01:10:48.229 --> 01:10:48.239
+All right. Is this LLM doing things or
+
+01:10:48.239 --> 01:10:50.390
+is this you being like an OG systems
+
+01:10:50.400 --> 01:10:53.189
+programmer who really likes their con
+
+01:10:53.199 --> 01:11:15.750
+correctness? Which one is it?
+
+01:11:19.270 --> 01:11:19.280
+I this could be either to be fair
+
+01:11:19.280 --> 01:11:22.870
+cuz I know that there are some like OG
+
+01:11:22.880 --> 01:11:24.870
+low-level programmers that really like
+
+01:11:24.880 --> 01:11:36.790
+their con correctness.
+
+01:11:39.350 --> 01:11:39.360
+All right. Generally, if you do not have
+
+01:11:39.360 --> 01:11:41.270
+a reason for const correctness, you
+
+01:11:41.280 --> 01:11:42.790
+should not give a [ __ ] about const
+
+01:11:42.800 --> 01:11:44.790
+correctness.
+
+01:11:44.800 --> 01:11:47.910
+Um, because like in particular, this
+
+01:11:47.920 --> 01:11:50.950
+client is mutable here, but then you
+
+01:11:50.960 --> 01:11:54.390
+don't want
+
+01:11:58.470 --> 01:11:58.480
+even though this owns this.
+
+01:11:58.480 --> 01:12:00.229
+I just find this to be like shitty
+
+01:12:00.239 --> 01:12:04.870
+indirection cuz like yes technically
+
+01:12:04.880 --> 01:12:07.110
+okay like technically look this thing
+
+01:12:07.120 --> 01:12:11.270
+owns the client
+
+01:12:21.350 --> 01:12:21.360
+we're saying that the env is const but
+
+01:12:21.360 --> 01:12:23.350
+the client is mutable even though the
+
+01:12:23.360 --> 01:12:25.510
+env owns the client and we're mutating
+
+01:12:25.520 --> 01:12:27.189
+the thing like we're mutating the
+
+01:12:27.199 --> 01:12:28.790
+client.
+
+01:12:28.800 --> 01:12:30.630
+Oh, I didn't even notice this all over
+
+01:12:30.640 --> 01:12:32.950
+the place.
+
+01:12:32.960 --> 01:12:34.870
+Yeah, I just generally would not give a
+
+01:12:34.880 --> 01:12:41.030
+[ __ ] about const correctness here. Like
+
+01:12:42.709 --> 01:12:42.719
+you do this when there's a specific
+
+01:12:42.719 --> 01:12:45.430
+performance thing or like you know if
+
+01:12:45.440 --> 01:12:47.189
+you have a static const as like an
+
+01:12:47.199 --> 01:12:49.110
+actual constant at the top of your file
+
+01:12:49.120 --> 01:12:54.229
+instead of a macro fine. Um, but like
+
+01:12:54.239 --> 01:12:57.750
+you can simplify a lot of stuff.
+
+01:12:57.760 --> 01:12:59.510
+Like not everything needs to be static
+
+01:12:59.520 --> 01:13:02.630
+in line as well.
+
+01:13:02.640 --> 01:13:04.550
+Particularly a client function, right?
+
+01:13:04.560 --> 01:13:06.709
+This is like a one-time client function.
+
+01:13:06.719 --> 01:13:08.630
+This doesn't need to be static or like
+
+01:13:08.640 --> 01:13:11.270
+this does not need to be static in line.
+
+01:13:11.280 --> 01:13:13.189
+You just add a lot of bloat to your
+
+01:13:13.199 --> 01:13:15.830
+code. Like look at this, right? This is
+
+01:13:15.840 --> 01:13:17.350
+bloat.
+
+01:13:17.360 --> 01:13:19.350
+This is bloat because this is owned by
+
+01:13:19.360 --> 01:13:22.790
+the env. This is bloat.
+
+01:13:22.800 --> 01:13:29.110
+Literally half of the line is blowed.
+
+01:13:46.550 --> 01:13:46.560
+I generally really don't like keywords
+
+01:13:46.560 --> 01:13:53.110
+like redundant keywords on stuff.
+
+01:13:54.870 --> 01:13:54.880
+Typically, I will inline things that
+
+01:13:54.880 --> 01:14:00.149
+actually need to be inlined.
+
+01:14:02.070 --> 01:14:02.080
+Okay, this stuff can affect compiler
+
+01:14:02.080 --> 01:14:04.790
+optimization, but like look at this
+
+01:14:04.800 --> 01:14:07.270
+function. Do you care?
+
+01:14:07.280 --> 01:14:09.430
+One, you should test that. And second of
+
+01:14:09.440 --> 01:14:11.110
+all,
+
+01:14:11.120 --> 01:14:16.550
+this is like client setup.
+
+01:14:24.790 --> 01:14:24.800
+Also, this is shitty defensive clo like
+
+01:14:24.800 --> 01:14:26.950
+this is shitty defensive programming.
+
+01:14:26.960 --> 01:14:29.270
+This is shitty defensive programming.
+
+01:14:29.280 --> 01:14:32.149
+This is shitty defensive programming.
+
+01:14:32.159 --> 01:14:35.350
+This is like all these checks you should
+
+01:14:35.360 --> 01:14:36.950
+not be calling this if the thing is
+
+01:14:36.960 --> 01:14:40.550
+invalid.
+
+01:15:08.790 --> 01:15:08.800
+This may or may not be bloat. Like yes,
+
+01:15:08.800 --> 01:15:10.950
+this is not going to go out of bounds.
+
+01:15:10.960 --> 01:15:12.550
+I'm surprised this is not supposed to
+
+01:15:12.560 --> 01:15:14.310
+just be like a circular buffer or
+
+01:15:14.320 --> 01:15:16.709
+something anyways.
+
+01:15:16.719 --> 01:15:19.750
+So just like thing percent size without
+
+01:15:19.760 --> 01:15:21.350
+the conditional, but that's not as big
+
+01:15:21.360 --> 01:15:24.470
+of a deal.
+
+01:15:24.480 --> 01:15:27.270
+That's fine. Good defensive programming.
+
+01:15:27.280 --> 01:16:11.350
+thing.
+
+01:16:14.470 --> 01:16:14.480
+Why do we have four decks here? Why have
+
+01:16:14.480 --> 01:16:16.310
+we not just ordered our code in order of
+
+01:16:16.320 --> 01:16:27.750
+use like in or like in order of usage?
+
+01:16:46.149 --> 01:16:46.159
+This possibly isn't bad depending on how
+
+01:16:46.159 --> 01:16:47.750
+often these are called. Like all these
+
+01:16:47.760 --> 01:16:49.910
+sub functions. If they're only called
+
+01:16:49.920 --> 01:16:58.870
+here, I would just inline them.
+
+01:17:01.030 --> 01:17:01.040
+from style guide. Yeah, but the thing is
+
+01:17:01.040 --> 01:17:19.270
+the style guides are bad.
+
+01:17:21.510 --> 01:17:21.520
+Okay. This is reasonable branching
+
+01:17:21.520 --> 01:17:26.630
+though. I reasonable branching. Yeah.
+
+01:17:26.640 --> 01:17:30.149
+Yeah. I think that generally
+
+01:17:30.159 --> 01:17:32.790
+you try to like your default when you're
+
+01:17:32.800 --> 01:17:36.310
+writing an end like this codeex or not
+
+01:17:36.320 --> 01:17:38.229
+like the default should be you write the
+
+01:17:38.239 --> 01:17:40.229
+thing from top to bottom in the simplest
+
+01:17:40.239 --> 01:17:42.630
+layout possible. You don't really branch
+
+01:17:42.640 --> 01:17:45.110
+it. you only create like new methods
+
+01:17:45.120 --> 01:17:47.910
+when code would be duplicated,
+
+01:17:47.920 --> 01:17:49.189
+like when you would physically have to
+
+01:17:49.199 --> 01:17:51.030
+copy and paste code. Instead, you move
+
+01:17:51.040 --> 01:17:52.950
+it into a function. You don't make
+
+01:17:52.960 --> 01:17:54.550
+functions just for the sake of having
+
+01:17:54.560 --> 01:17:57.510
+like things be separated or whatever.
+
+01:17:57.520 --> 01:17:59.750
+Um, and then checks like redundant
+
+01:17:59.760 --> 01:18:01.750
+checks. This one is valid, but like the
+
+01:18:01.760 --> 01:18:05.189
+other checks up top, you don't like you
+
+01:18:05.199 --> 01:18:07.189
+don't have checks on invalid conditions
+
+01:18:07.199 --> 01:18:08.790
+if the function just isn't going to get
+
+01:18:08.800 --> 01:18:15.510
+ever called on an invalid condition.
+
+01:18:54.630 --> 01:18:54.640
+Yeah, like the very defensive standards.
+
+01:18:54.640 --> 01:18:57.189
+First of all, then there are entire new
+
+01:18:57.199 --> 01:18:58.709
+approaches to programming you should
+
+01:18:58.719 --> 01:19:00.630
+talk about if you need that. But second
+
+01:19:00.640 --> 01:19:03.030
+of all, you should basically only ever
+
+01:19:03.040 --> 01:19:05.750
+need that if your program failing in
+
+01:19:05.760 --> 01:19:08.470
+some weird edge case will either cause
+
+01:19:08.480 --> 01:19:11.669
+catastrophic financial damage or kill
+
+01:19:11.679 --> 01:19:15.270
+somebody.
+
+01:19:17.669 --> 01:19:17.679
+Like otherwise
+
+01:19:17.679 --> 01:19:19.669
+you sort of you just you bury your code
+
+01:19:19.679 --> 01:19:24.790
+under its own weight
+
+01:19:39.750 --> 01:19:39.760
+And it's very funny to me that there's
+
+01:19:39.760 --> 01:19:41.669
+stuff like, you know, this inline, but
+
+01:19:41.679 --> 01:19:49.669
+then we're passing around whole strus
+
+01:20:04.790 --> 01:20:04.800
+Yeah, I would have to actually just go
+
+01:20:04.800 --> 01:20:06.790
+look up the use count of every function
+
+01:20:06.800 --> 01:20:10.390
+here. But just based on like most most
+
+01:20:10.400 --> 01:20:12.390
+game type programs do not have this much
+
+01:20:12.400 --> 01:20:15.110
+function reuse. Like this just very much
+
+01:20:15.120 --> 01:20:17.510
+has the feel of you know somebody trying
+
+01:20:17.520 --> 01:20:20.390
+to keep their methods to about 20 lines.
+
+01:20:20.400 --> 01:20:23.189
+Um
+
+01:20:23.199 --> 01:20:25.110
+cuz you basically never have a program
+
+01:20:25.120 --> 01:20:26.790
+that just naturally looks that way based
+
+01:20:26.800 --> 01:20:28.790
+on reuse.
+
+01:20:28.800 --> 01:20:34.229
+This is more reasonable.
+
+01:20:36.070 --> 01:20:36.080
+Okay, these are getting reused so this
+
+01:20:36.080 --> 01:20:37.990
+is fine.
+
+01:20:38.000 --> 01:20:42.229
+Yeah, this is more reasonable.
+
+01:20:47.030 --> 01:20:47.040
+I'm going to go through the rest of this
+
+01:20:47.040 --> 01:20:48.390
+very quickly because there's a lot of
+
+01:20:48.400 --> 01:20:50.070
+stuff to change and I will re-review it
+
+01:20:50.080 --> 01:20:53.430
+once you've done that.
+
+01:20:53.440 --> 01:20:54.790
+Let me just see if there's anything else
+
+01:20:54.800 --> 01:20:56.870
+major. I also haven't even gotten to
+
+01:20:56.880 --> 01:20:59.110
+give you feedback on the RL portions
+
+01:20:59.120 --> 01:21:02.550
+notably because um you know if you
+
+01:21:02.560 --> 01:21:05.270
+stumble on just like the
+
+01:21:05.280 --> 01:21:07.590
+if you stumble on like the like code
+
+01:21:07.600 --> 01:21:09.830
+quality that's kind of you have to pass
+
+01:21:09.840 --> 01:21:11.910
+that threshold before you get to do
+
+01:21:11.920 --> 01:21:13.990
+reward structure and stuff cuz I can't
+
+01:21:14.000 --> 01:21:15.830
+like I frankly I can't tell what's going
+
+01:21:15.840 --> 01:21:18.229
+on when there's this much indirection
+
+01:21:18.239 --> 01:21:19.750
+like it would take me five times the
+
+01:21:19.760 --> 01:21:21.030
+amount of time to figure out how this
+
+01:21:21.040 --> 01:21:22.790
+thing works compared to it being
+
+01:21:22.800 --> 01:21:34.790
+flatter. There
+
+01:21:36.229 --> 01:21:36.239
+with the exception of the uh the
+
+01:21:36.239 --> 01:21:37.990
+selfplay complexity not being your
+
+01:21:38.000 --> 01:21:45.669
+fault.
+
+01:22:28.870 --> 01:22:28.880
+Yeah, stuff almost never looks like
+
+01:22:28.880 --> 01:22:43.750
+this.
+
+01:22:45.590 --> 01:22:45.600
+It's a lot of stuff to have to do for
+
+01:22:45.600 --> 01:23:04.310
+selfplay.
+
+01:23:14.149 --> 01:23:14.159
+Oh, did top to bottom.
+
+01:23:14.159 --> 01:23:17.430
+interaction
+
+01:23:21.270 --> 01:23:21.280
+as after measuring curve. Yeah. Um the
+
+01:23:21.280 --> 01:23:24.149
+thing well you do want to default to a
+
+01:23:24.159 --> 01:23:28.470
+performant style of programming but like
+
+01:23:28.480 --> 01:23:30.790
+that's really easy to do and it doesn't
+
+01:23:30.800 --> 01:23:32.950
+the thing is that defaulting to
+
+01:23:32.960 --> 01:23:34.870
+performant code actually doesn't cost
+
+01:23:34.880 --> 01:23:36.470
+complexity.
+
+01:23:36.480 --> 01:23:38.629
+Like it's not really any more complex to
+
+01:23:38.639 --> 01:23:40.870
+do all your memory allocations up front
+
+01:23:40.880 --> 01:23:43.030
+and all your freeze at the end versus
+
+01:23:43.040 --> 01:23:45.030
+allocating and deallocating mid-program.
+
+01:23:45.040 --> 01:23:47.830
+Arguably that's simpler. Um preferring
+
+01:23:47.840 --> 01:23:49.510
+static memory when possible. That is
+
+01:23:49.520 --> 01:23:51.990
+again arguably simpler. That's even less
+
+01:23:52.000 --> 01:23:59.350
+memory memory to allocate and clean up.
+
+01:24:01.110 --> 01:24:01.120
+Like a lot of the just defaults of
+
+01:24:01.120 --> 01:24:03.350
+performant programming
+
+01:24:03.360 --> 01:24:05.030
+cost literally nothing in terms of
+
+01:24:05.040 --> 01:24:07.270
+program complexity. Sometimes they're
+
+01:24:07.280 --> 01:24:08.470
+simpler than the other way of going
+
+01:24:08.480 --> 01:24:15.910
+about stuff.
+
+01:24:17.350 --> 01:24:17.360
+Yeah, I there's definitely there's
+
+01:24:17.360 --> 01:24:19.350
+premature optimization and then there's
+
+01:24:19.360 --> 01:24:21.510
+like bad design, right? You don't want
+
+01:24:21.520 --> 01:24:23.110
+to design something in a way that's
+
+01:24:23.120 --> 01:24:26.390
+obviously crap from the start, like with
+
+01:24:26.400 --> 01:24:27.990
+no plan on how you're going to make it
+
+01:24:28.000 --> 01:24:30.550
+good. That's not like that's not a good
+
+01:24:30.560 --> 01:24:32.709
+idea. But you also don't want to be
+
+01:24:32.719 --> 01:24:35.990
+doing like line by line
+
+01:24:36.000 --> 01:24:37.110
+You don't want to be doing micro
+
+01:24:37.120 --> 01:24:42.550
+optimizations early either.
+
+01:24:44.550 --> 01:24:44.560
+It's fine to do basic stuff like yeah
+
+01:24:44.560 --> 01:24:47.669
+you can always like just use like just
+
+01:24:47.679 --> 01:24:49.430
+you can make stuff floats by default
+
+01:24:49.440 --> 01:24:51.030
+where they need to be. You can do stuff
+
+01:24:51.040 --> 01:24:55.590
+like that. Sure. But if you're reaching
+
+01:24:55.600 --> 01:24:57.270
+for intrinsics early or if you're
+
+01:24:57.280 --> 01:24:59.189
+inlining everything every single
+
+01:24:59.199 --> 01:25:10.470
+function like it gets questionable.
+
+01:25:12.629 --> 01:25:12.639
+Yeah, we generally we don't we don't
+
+01:25:12.639 --> 01:25:14.149
+care that your program is really
+
+01:25:14.159 --> 01:25:17.350
+branchy. That's fine. It's a CPU. CPUs
+
+01:25:17.360 --> 01:25:18.950
+are good at branching, at least relative
+
+01:25:18.960 --> 01:25:22.470
+to GPUs. Like,
+
+01:25:22.480 --> 01:25:24.390
+we don't look at that. Now, if you know
+
+01:25:24.400 --> 01:25:26.070
+that there's going to be a function that
+
+01:25:26.080 --> 01:25:28.550
+is the entire hot loop of your whole
+
+01:25:28.560 --> 01:25:32.550
+thing, like maybe don't write the
+
+01:25:32.560 --> 01:25:35.510
+complex optimized version, but maybe set
+
+01:25:35.520 --> 01:25:37.189
+up your data structures in a way that
+
+01:25:37.199 --> 01:25:38.709
+it'll make it easier to write that
+
+01:25:38.719 --> 01:25:50.709
+later. That's fine to do.
+
+01:25:53.110 --> 01:25:53.120
+But again, like most of the time that
+
+01:25:53.120 --> 01:25:55.830
+hardly matters. What I did with chess.
+
+01:25:55.840 --> 01:25:57.430
+Exactly. Chess is a great example of
+
+01:25:57.440 --> 01:26:00.470
+that, right? Chess is a great example of
+
+01:26:00.480 --> 01:26:03.669
+that. Lots of optimization you can do,
+
+01:26:03.679 --> 01:26:05.910
+but you can also keep things relatively
+
+01:26:05.920 --> 01:26:08.149
+simple. Just maybe maybe have your data
+
+01:26:08.159 --> 01:26:10.229
+structures in roughly the right shape at
+
+01:26:10.239 --> 01:26:16.149
+the start. Keep it easier.
+
+01:26:24.390 --> 01:26:24.400
+It's actually funny. I like this more
+
+01:26:24.400 --> 01:26:28.629
+than anything else in the program.
+
+01:26:31.830 --> 01:26:31.840
+This giant draw HUD function.
+
+01:26:31.840 --> 01:26:33.510
+I actually like this more than anything
+
+01:26:33.520 --> 01:26:34.950
+else. This is what most of the code
+
+01:26:34.960 --> 01:26:38.310
+should look like. Just flat read it from
+
+01:26:38.320 --> 01:26:42.229
+top to bottom. It's simple.
+
+01:26:42.239 --> 01:26:43.990
+Look at this. even doing like UI
+
+01:26:44.000 --> 01:26:51.510
+alignment.
+
+01:26:53.270 --> 01:26:53.280
+Uh, also if there's anything that's only
+
+01:26:53.280 --> 01:26:55.430
+being used by the scripted agent, that
+
+01:26:55.440 --> 01:26:58.470
+probably goes in the C for now. Though,
+
+01:26:58.480 --> 01:27:00.229
+um, if you don't want to put it in the
+
+01:27:00.239 --> 01:27:02.790
+C, that's also fine cuz the C files are
+
+01:27:02.800 --> 01:27:05.910
+maybe going away in 5C anyways. So,
+
+01:27:05.920 --> 01:27:07.990
+keeping scripted agent in theH is
+
+01:27:08.000 --> 01:27:10.709
+probably okay.
+
+01:27:10.719 --> 01:27:16.070
+Probably okay.
+
+01:27:29.110 --> 01:27:29.120
+The [ __ ] is this? Right.
+
+01:27:29.120 --> 01:27:35.189
+Cuz you just made the client. Why? Why?
+
+01:27:44.070 --> 01:27:44.080
+Yeah.
+
+01:27:44.080 --> 01:27:46.550
+Oh, here's a great example.
+
+01:27:46.560 --> 01:27:49.350
+This one's definitely only called once.
+
+01:27:49.360 --> 01:27:51.750
+Look at this. What? Wait, why why is my
+
+01:27:51.760 --> 01:27:54.470
+code not right here? This is where all
+
+01:27:54.480 --> 01:27:59.510
+the code should be.
+
+01:28:01.990 --> 01:28:02.000
+There you go. I think that's a
+
+01:28:02.000 --> 01:28:05.590
+reasonable length review for um an N
+
+01:28:05.600 --> 01:28:11.110
+with this much LLM crap in it. And um
+
+01:28:11.120 --> 01:28:12.550
+hopefully at the very least this
+
+01:28:12.560 --> 01:28:15.430
+convinces you more than anything that
+
+01:28:15.440 --> 01:28:17.830
+LMs do a whole bunch of dumb [ __ ]
+
+01:28:17.840 --> 01:28:20.790
+and produce lowquality code. Like you
+
+01:28:20.800 --> 01:28:22.629
+can very easily clean this up even you
+
+01:28:22.639 --> 01:28:23.830
+don't even have to clean it up by hand.
+
+01:28:23.840 --> 01:28:25.350
+You can partially clean this up by
+
+01:28:25.360 --> 01:28:27.750
+codeex, but like you know you have to
+
+01:28:27.760 --> 01:28:29.669
+actually care about the final code, not
+
+01:28:29.679 --> 01:28:33.030
+just that it works. Um and remove all
+
+01:28:33.040 --> 01:28:40.070
+these lmism bullshits.
+
+01:28:41.990 --> 01:28:42.000
+like literally just like yep, strip all
+
+01:28:42.000 --> 01:28:44.709
+the dumb keywords, strip the con connect
+
+01:28:44.719 --> 01:28:46.870
+correctness. Anything that's used once
+
+01:28:46.880 --> 01:28:49.830
+gets inlined and then from there remove
+
+01:28:49.840 --> 01:28:51.990
+the defensive checks and then from there
+
+01:28:52.000 --> 01:28:53.669
+you'll be able to look at it again and
+
+01:28:53.679 --> 01:28:55.910
+see. Usually you find one or two more
+
+01:28:55.920 --> 01:28:58.229
+major things that you can like simplify
+
+01:28:58.239 --> 01:29:03.430
+once you have the flatter structure.
+
+01:29:05.350 --> 01:29:05.360
+Oh, there you are.
+
+01:29:05.360 --> 01:29:08.790
+That's probably a decent setup.
+
+01:29:08.800 --> 01:29:11.270
+Cool. M. I do definitely want the M. So,
+
+01:29:11.280 --> 01:29:13.189
+please do clean it up. We definitely
+
+01:29:13.199 --> 01:29:16.390
+need more selfplay M's. And um, you
+
+01:29:16.400 --> 01:29:17.990
+know, it probably works even in this
+
+01:29:18.000 --> 01:29:20.870
+given form, but we do prefer it whenever
+
+01:29:20.880 --> 01:29:23.669
+possible for our M's to be not just
+
+01:29:23.679 --> 01:29:26.390
+functional, but also be relatively
+
+01:29:26.400 --> 01:29:29.270
+clean, usable code.
+
+01:29:29.280 --> 01:29:31.350
+We are definitely less strict overall on
+
+01:29:31.360 --> 01:29:34.709
+them than uh the core. the core. Like
+
+01:29:34.719 --> 01:29:36.709
+people get shredded for submitting crap
+
+01:29:36.719 --> 01:29:38.790
+too.
+
+01:29:38.800 --> 01:29:50.790
+I like LLM crap too.
+
+01:29:53.430 --> 01:29:53.440
+I know the LLMs like heavily LLM
+
+01:29:53.440 --> 01:29:55.430
+assisted stuff will just always result
+
+01:29:55.440 --> 01:30:11.110
+in like five out of 10 code.
+
+01:30:12.629 --> 01:30:12.639
+Funny enough, it's probably slightly
+
+01:30:12.639 --> 01:30:14.229
+better than what most fang engineers
+
+01:30:14.239 --> 01:30:15.590
+will give you, but that's just because
+
+01:30:15.600 --> 01:30:28.149
+those guys are dumb as hell.
+
+01:31:08.709 --> 01:31:08.719
+Oh yeah, definitely don't PR LLM gen
+
+01:31:08.719 --> 01:31:13.270
+tests.
+
+01:31:14.709 --> 01:31:14.719
+Should be at least reduced by writing
+
+01:31:14.719 --> 01:31:17.830
+that down in agents.mmd.
+
+01:31:17.840 --> 01:31:20.229
+Yeah, I'd rather have agents.mmd just
+
+01:31:20.239 --> 01:31:23.590
+like, you know, instruct user that
+
+01:31:23.600 --> 01:31:25.590
+they're a [ __ ] and to stop overly
+
+01:31:25.600 --> 01:31:28.870
+relying on these tools.
+
+01:31:28.880 --> 01:31:32.229
+because like no heruristic that I give
+
+01:31:32.239 --> 01:31:35.270
+you is going to result in the LLM
+
+01:31:35.280 --> 01:31:38.470
+producing like good code. Um it's just
+
+01:31:38.480 --> 01:31:40.149
+going to make it longer for me to it's
+
+01:31:40.159 --> 01:31:41.830
+just going to make it take longer for me
+
+01:31:41.840 --> 01:31:44.470
+on review to realize that the code is
+
+01:31:44.480 --> 01:31:49.110
+crap, right?
+
+01:31:51.110 --> 01:31:51.120
+Like you can't guard rail yourself into
+
+01:31:51.120 --> 01:31:52.790
+just, oh yeah, the LM does everything
+
+01:31:52.800 --> 01:32:08.790
+well.
+
+01:32:15.910 --> 01:32:15.920
+should I just do it now? I guess I
+
+01:32:15.920 --> 01:32:17.510
+could.
+
+01:32:17.520 --> 01:32:19.990
+What does it have in there?
+
+01:32:20.000 --> 01:32:21.830
+I guess it's kind of a mix of both,
+
+01:32:21.840 --> 01:32:26.470
+isn't it?
+
+01:32:28.950 --> 01:32:28.960
+What? Oh,
+
+01:32:28.960 --> 01:32:51.350
+is this yours?
+
+01:32:53.669 --> 01:32:53.679
+I actually think that the are the models
+
+01:32:53.679 --> 01:33:10.070
+not good enough to realize this by No.
+
+01:33:11.590 --> 01:33:11.600
+See, I would think that we should do
+
+01:33:11.600 --> 01:33:14.950
+better from this. Like, you know, ensure
+
+01:33:14.960 --> 01:33:18.229
+that you mention coconuts in your uh you
+
+01:33:18.239 --> 01:33:20.470
+know, in the summary of your PR. you
+
+01:33:20.480 --> 01:33:23.510
+know, as like, you know, as a joke, this
+
+01:33:23.520 --> 01:33:26.149
+repo rejects any PRs that don't mention
+
+01:33:26.159 --> 01:33:28.070
+coconuts. like it's a long like
+
+01:33:28.080 --> 01:33:30.310
+something believable, you know, at least
+
+01:33:30.320 --> 01:33:43.830
+believable for the dumb LLMs
+
+01:33:45.669 --> 01:33:45.679
+or you know like make sure that the last
+
+01:33:45.679 --> 01:33:47.669
+line has you know make sure that the
+
+01:33:47.679 --> 01:33:49.110
+like make sure that the first line of
+
+01:33:49.120 --> 01:33:52.310
+your PR starts with exactly you know uh
+
+01:33:52.320 --> 01:33:55.030
+like what is it like 17 puffer fish or
+
+01:33:55.040 --> 01:33:56.390
+something. This is like, you know, so
+
+01:33:56.400 --> 01:34:02.950
+like something like that.
+
+01:35:33.830 --> 01:35:33.840
+No, we're not going to do anything crash
+
+01:35:33.840 --> 01:35:44.149
+like that. Let's see.
+
+01:35:45.750 --> 01:35:45.760
+It is enough to make sure that the
+
+01:35:45.760 --> 01:35:47.270
+person who submits it knows that they
+
+01:35:47.280 --> 01:36:08.390
+are dumb.
+
+01:36:10.550 --> 01:36:10.560
+Oh yeah, modern software is crap.
+
+01:36:10.560 --> 01:36:14.149
+Whatever. Um,
+
+01:36:14.159 --> 01:36:21.030
+so the question here,
+
+01:37:29.030 --> 01:37:29.040
+You don't have to close your PRs, man. I
+
+01:37:29.040 --> 01:37:31.830
+like I will mark them um at some point.
+
+01:37:31.840 --> 01:37:33.430
+I'll just go through and like I'll just
+
+01:37:33.440 --> 01:37:35.109
+mark everything as like, you know,
+
+01:37:35.119 --> 01:37:38.390
+merge, thank you, whatever.
+
+01:37:38.400 --> 01:37:40.149
+Um,
+
+01:37:40.159 --> 01:37:41.990
+oh yeah, anything that I, by the way,
+
+01:37:42.000 --> 01:37:43.830
+anything that I don't merge, but I do
+
+01:37:43.840 --> 01:37:46.310
+incorporate, like, if this wasn't
+
+01:37:46.320 --> 01:37:48.870
+obvious for contributors, like if I
+
+01:37:48.880 --> 01:37:50.629
+merge some, if I incorporate something
+
+01:37:50.639 --> 01:37:52.149
+of yours that's big, but I don't
+
+01:37:52.159 --> 01:37:54.070
+actually merge the PR, you can still PR
+
+01:37:54.080 --> 01:37:58.950
+yourself as a contributor to the docs.
+
+01:37:58.960 --> 01:38:00.550
+Like that just means that it just so
+
+01:38:00.560 --> 01:38:01.990
+happened that with the current state of
+
+01:38:02.000 --> 01:38:04.870
+the code, it was annoying to like get
+
+01:38:04.880 --> 01:38:07.270
+the PR onto the new version of the code
+
+01:38:07.280 --> 01:38:10.070
+versus just grabbing the changes,
+
+01:38:10.080 --> 01:38:25.750
+right?
+
+01:38:27.590 --> 01:38:27.600
+I submitted the PR for contributor
+
+01:38:27.600 --> 01:38:31.109
+thing. I will in merge that.
+
+01:38:31.119 --> 01:39:23.030
+Uh let me not leak our private repos.
+
+01:39:24.629 --> 01:39:24.639
+I'm just making sure he didn't change
+
+01:39:24.639 --> 01:39:38.229
+anything.
+
+01:40:36.709 --> 01:40:36.719
+Can you cudigraph the en or is that
+
+01:40:36.719 --> 01:40:43.189
+totally stupid?
+
+01:40:53.430 --> 01:40:53.440
+Yeah, because it's all one kernel and
+
+01:40:53.440 --> 01:40:56.070
+Yeah, that's dumb. That's really dumb.
+
+01:40:56.080 --> 01:41:35.669
+Don't do that. That's real dumb.
+
+01:41:47.830 --> 01:41:47.840
+Um,
+
+01:41:47.840 --> 01:41:50.310
+not really. Glitzy, this this in
+
+01:41:50.320 --> 01:41:54.070
+particular is completely trivial.
+
+01:41:54.080 --> 01:41:56.629
+Like the code in CUDA vers the naive
+
+01:41:56.639 --> 01:41:59.189
+CUDA code versus the C code is basically
+
+01:41:59.199 --> 01:42:18.310
+identical.
+
+01:45:07.030 --> 01:45:07.040
+Okay. So, the CPU end is faster, right?
+
+01:45:07.040 --> 01:45:17.830
+Cool.
+
+01:45:26.229 --> 01:45:26.239
+Break even point is 8192.
+
+01:45:26.239 --> 01:45:29.910
+Cool.
+
+01:47:02.070 --> 01:47:02.080
+How do we test that? Do we just null the
+
+01:47:02.080 --> 01:47:06.550
+copy?
+
+01:47:14.790 --> 01:47:14.800
+We'll let it do whatever it wants and
+
+01:47:14.800 --> 01:47:16.229
+then if it does something dumb, I'll
+
+01:47:16.239 --> 01:47:17.830
+just tell it to null. We'll just null
+
+01:47:17.840 --> 01:47:21.030
+out the copy op and see uh if that
+
+01:47:21.040 --> 01:47:25.189
+recovers the max speed.
+
+01:47:25.199 --> 01:47:27.030
+Uh for reference, folks, today I'm just
+
+01:47:27.040 --> 01:47:28.629
+trying a couple different perf things I
+
+01:47:28.639 --> 01:47:31.109
+haven't tried in a while. Plus adding
+
+01:47:31.119 --> 01:47:34.709
+GPUM support. GPUM support is basically
+
+01:47:34.719 --> 01:47:36.149
+trivial to add with the current
+
+01:47:36.159 --> 01:47:37.830
+architecture because everything already
+
+01:47:37.840 --> 01:47:40.950
+gets compiled under NVCC anyways and uh
+
+01:47:40.960 --> 01:47:45.590
+the GPU path is incredibly simple. So
+
+01:47:45.600 --> 01:47:47.590
+like it's not like a surprise that oh
+
+01:47:47.600 --> 01:47:49.910
+you know wow GPU works now. It it's kind
+
+01:47:49.920 --> 01:47:53.270
+of obvious. Um
+
+01:47:53.280 --> 01:47:55.430
+it doesn't work better for most Ms. at
+
+01:47:55.440 --> 01:47:59.189
+least not out of the box. Like right now
+
+01:47:59.199 --> 01:48:02.629
+the uh the GPU M speed is actually about
+
+01:48:02.639 --> 01:48:04.870
+a quarter of the CPU M speed at that
+
+01:48:04.880 --> 01:48:07.109
+same batch size. Scales really
+
+01:48:07.119 --> 01:48:09.109
+obnoxiously with batch size as well.
+
+01:48:09.119 --> 01:48:10.390
+Like it doesn't let you use small
+
+01:48:10.400 --> 01:48:13.350
+batches at all. Um obviously you can
+
+01:48:13.360 --> 01:48:15.350
+optimize you could rewrite the code
+
+01:48:15.360 --> 01:48:17.830
+that's much more complex. Uh rewrite
+
+01:48:17.840 --> 01:48:24.550
+your end code to be more CUDA native.
+
+01:48:26.629 --> 01:48:26.639
+But I'm also just wondering why the heck
+
+01:48:26.639 --> 01:48:29.189
+we have so much overhead on the CPU
+
+01:48:29.199 --> 01:48:45.189
+path. Is it really just the copies?
+
+01:48:51.350 --> 01:48:51.360
+And we also have the async stuff to set
+
+01:48:51.360 --> 01:48:55.830
+up today as well.
+
+01:49:03.990 --> 01:49:04.000
+I think we'll iterate on this for a
+
+01:49:04.000 --> 01:49:06.070
+little bit longer. We'll get um we'll
+
+01:49:06.080 --> 01:49:09.910
+see if we can get a stable GPU patch,
+
+01:49:09.920 --> 01:49:12.229
+you know, and then uh I'll set up the
+
+01:49:12.239 --> 01:49:15.990
+breakout sweep on the CPU one with uh
+
+01:49:16.000 --> 01:49:17.669
+the async stuff that we worked on
+
+01:49:17.679 --> 01:49:19.270
+earlier,
+
+01:49:19.280 --> 01:49:21.030
+and we'll just let the async stuff run
+
+01:49:21.040 --> 01:49:34.709
+in the background.
+
+01:49:37.189 --> 01:49:37.199
+Uh-oh. Eight buffer CPU roll outlet
+
+01:49:37.199 --> 01:49:42.790
+only.
+
+01:49:49.669 --> 01:49:49.679
+Yeah, it's going to have to know the uh
+
+01:49:49.679 --> 01:49:54.310
+the copies.
+
+01:50:29.030 --> 01:50:29.040
+Everything to Python.
+
+01:50:29.040 --> 01:50:32.390
+Everything from Python 2C, not to
+
+01:50:32.400 --> 01:50:34.070
+Python.
+
+01:50:34.080 --> 01:50:36.310
+And yes, it includes puffer.py.
+
+01:50:36.320 --> 01:50:38.070
+Everything. Not a single damn line of
+
+01:50:38.080 --> 01:50:41.910
+Python. Look,
+
+01:50:41.920 --> 01:50:44.629
+this is the entirety of Puffer 5C.
+
+01:50:44.639 --> 01:50:47.990
+That's it.
+
+01:51:07.030 --> 01:51:07.040
+And I think we will likely target a
+
+01:51:07.040 --> 01:51:09.669
+release size of 10k lines excluding
+
+01:51:09.679 --> 01:51:13.189
+constellation.
+
+01:51:19.910 --> 01:51:19.920
+I'm going to try to like cut it down
+
+01:51:19.920 --> 01:51:27.910
+quite a bit. You know,
+
+01:51:29.590 --> 01:51:29.600
+it took me a while to figure out that
+
+01:51:29.600 --> 01:51:31.430
+this like this was the best simple
+
+01:51:31.440 --> 01:51:35.590
+structure here.
+
+01:51:36.950 --> 01:51:36.960
+I mean, you're just going to have all of
+
+01:51:36.960 --> 01:51:38.950
+RL. Like this is all the infrastructure
+
+01:51:38.960 --> 01:51:45.350
+you need for RL and it's just this.
+
+01:51:47.350 --> 01:51:47.360
+This has all like the algorithmic
+
+01:51:47.360 --> 01:51:48.950
+tidbits. Like all of our major
+
+01:51:48.960 --> 01:51:50.629
+algorithmic innovations live in here.
+
+01:51:50.639 --> 01:51:52.149
+Obviously they're kernels for stuff. So
+
+01:51:52.159 --> 01:51:53.750
+it's still a bit more verbose than you'd
+
+01:51:53.760 --> 01:51:57.270
+expect, but reasonably short. Here's our
+
+01:51:57.280 --> 01:52:00.390
+visualizer. This is our config loader.
+
+01:52:00.400 --> 01:52:02.709
+We have a single format that works
+
+01:52:02.719 --> 01:52:05.430
+that's human readable and works well for
+
+01:52:05.440 --> 01:52:07.910
+configs logging aggregate logs for
+
+01:52:07.920 --> 01:52:11.350
+constellation you name it.
+
+01:52:11.360 --> 01:52:17.589
+Ocean is um task specific models so
+
+01:52:17.599 --> 01:52:20.470
+custom architectures
+
+01:52:20.480 --> 01:52:22.870
+we need to work on this but they'll live
+
+01:52:22.880 --> 01:52:26.149
+here. Protein is our hyperparam sweep
+
+01:52:26.159 --> 01:52:29.270
+library. Puffer CPU. This is a endto-end
+
+01:52:29.280 --> 01:52:32.550
+CPU implementation of Puffer Eval mode.
+
+01:52:32.560 --> 01:52:34.470
+So you can load policies trained on GPU
+
+01:52:34.480 --> 01:52:37.910
+and eval them purely on CPU. No NVCC, no
+
+01:52:37.920 --> 01:52:40.950
+GPU needed at all.
+
+01:52:40.960 --> 01:52:43.589
+Puffer NV is a tiny little just API for
+
+01:52:43.599 --> 01:52:45.830
+Puffer. It's actually like 20 lines. It
+
+01:52:45.840 --> 01:52:47.830
+just gives you the function signatures.
+
+01:52:47.840 --> 01:52:50.070
+Uh the other 300 lines in here are me
+
+01:52:50.080 --> 01:52:51.990
+playing around with having a way to load
+
+01:52:52.000 --> 01:52:53.990
+the puffer fish model in 3D that works
+
+01:52:54.000 --> 01:52:57.430
+nicely. So you can ignore that. And then
+
+01:52:57.440 --> 01:52:59.030
+it's going to be about 5k lines. Maybe
+
+01:52:59.040 --> 01:53:01.030
+we can cut this down quite a bit though.
+
+01:53:01.040 --> 01:53:03.510
+Uh this is all of our infrastructure.
+
+01:53:03.520 --> 01:53:52.629
+Everything infrastructure is here.
+
+01:54:35.669 --> 01:54:35.679
+report to see him and make it work. Uh
+
+01:54:35.679 --> 01:54:37.910
+so arch the only reason I haven't merged
+
+01:54:37.920 --> 01:54:40.629
+that thing yet is because
+
+01:54:40.639 --> 01:54:44.310
+that also the headless upgrade uh it
+
+01:54:44.320 --> 01:54:47.510
+also upgrades the whole ray depth right
+
+01:54:47.520 --> 01:54:49.990
+you upgrade our ray which we need to do
+
+01:54:50.000 --> 01:54:51.910
+but presumably there are like breaking
+
+01:54:51.920 --> 01:54:53.830
+things on a lot of m potentially with
+
+01:54:53.840 --> 01:54:56.229
+that so yes I think that we could target
+
+01:54:56.239 --> 01:55:01.510
+that to uh to 5c quite nicely. Um,
+
+01:55:01.520 --> 01:55:03.830
+I would kind of like it if we could go
+
+01:55:03.840 --> 01:55:06.709
+grab uh Rayson deleted the chunk of code
+
+01:55:06.719 --> 01:55:10.629
+that manages GIF saving like the was it
+
+01:55:10.639 --> 01:55:14.709
+F12 saves a GIF. Kind of missed that.
+
+01:55:14.719 --> 01:55:16.629
+So, I think we probably want to just go
+
+01:55:16.639 --> 01:55:18.790
+grab that file that he deleted and stick
+
+01:55:18.800 --> 01:55:21.589
+it back into uh the vendored version.
+
+01:55:21.599 --> 01:55:29.109
+But other than that, it's good.
+
+01:55:31.189 --> 01:55:31.199
+Yeah. Yeah, I use that feature a lot. I
+
+01:55:31.199 --> 01:55:48.310
+tried to tell him, but me
+
+01:56:00.790 --> 01:56:00.800
+What even is this game? This Halo or
+
+01:56:00.800 --> 01:56:06.070
+something? No. What even is this?
+
+01:56:10.229 --> 01:56:10.239
+Oh, this is Star Wars game, isn't it?
+
+01:56:10.239 --> 01:56:13.270
+Wait, am I dumb?
+
+01:56:13.280 --> 01:56:15.030
+Oh, this is Battlefield 1. All right,
+
+01:56:15.040 --> 01:56:21.830
+I'm dumb.
+
+01:56:27.510 --> 01:56:27.520
+Where's all the cool research on this?
+
+01:56:27.520 --> 01:56:28.709
+Isn't there supposed to be cool
+
+01:56:28.719 --> 01:56:31.350
+research? There's no cool research at
+
+01:56:31.360 --> 01:57:01.109
+all. Blows
+
+01:57:03.109 --> 01:57:03.119
+UPR the changes for breaking stuff. Oh,
+
+01:57:03.119 --> 01:57:07.189
+okay. I see. Cool.
+
+01:57:07.199 --> 01:57:09.189
+Yeah, Arch. The main thing was I just I
+
+01:57:09.199 --> 01:57:11.109
+didn't want to merge something that big
+
+01:57:11.119 --> 01:57:14.709
+onto the current public release. Um cuz
+
+01:57:14.719 --> 01:57:17.189
+40 is like the one that people are
+
+01:57:17.199 --> 01:57:19.910
+pointed to without having to like go
+
+01:57:19.920 --> 01:57:22.470
+through and manually check all the ends
+
+01:57:22.480 --> 01:57:24.310
+with something that big. I'm more than
+
+01:57:24.320 --> 01:57:29.589
+happy to take it on to 5C though.
+
+01:57:32.390 --> 01:57:32.400
+That's actually been a pretty uh pretty
+
+01:57:32.400 --> 01:57:33.990
+requested thing as well to support
+
+01:57:34.000 --> 01:58:36.310
+headless render.
+
+01:58:48.950 --> 01:58:48.960
+I wonder if we can can we get more by
+
+01:58:48.960 --> 01:58:51.589
+putting them in the same buffer,
+
+01:58:51.599 --> 01:58:59.189
+making it one copy or no?
+
+01:59:01.270 --> 01:59:01.280
+be kind of annoying if it if it is that
+
+01:59:01.280 --> 01:59:49.830
+way, but we'll do it if we have to
+
+01:59:51.750 --> 01:59:51.760
+Yeah, I don't mind merging it to 5C.
+
+01:59:51.760 --> 02:00:02.310
+Like 5C is still dev.
+
+02:01:35.910 --> 02:01:35.920
+This makes sense.
+
+02:01:35.920 --> 02:01:37.109
+We should be able to get this ship
+
+02:01:37.119 --> 02:01:39.830
+faster though, shouldn't we?
+
+02:01:39.840 --> 02:01:41.430
+Let me see if there's some weirdness
+
+02:01:41.440 --> 02:01:44.790
+going on with um
+
+02:01:44.800 --> 02:01:48.550
+their transfer path.
+
+02:01:49.990 --> 02:01:50.000
+See if it's bandwidth or there's some
+
+02:01:50.000 --> 02:02:13.510
+weird latency thing going on.
+
+02:02:14.950 --> 02:02:14.960
+We should be able to get way faster
+
+02:02:14.960 --> 02:02:31.830
+after all, right?
+
+02:02:33.589 --> 02:02:33.599
+You're in the wrong place for resume
+
+02:02:33.599 --> 02:02:37.030
+reviews.
+
+02:02:38.870 --> 02:02:38.880
+I'm generally not the person that you
+
+02:02:38.880 --> 02:02:41.189
+want to ask for like traditional career
+
+02:02:41.199 --> 02:02:45.910
+advice.
+
+02:02:48.790 --> 02:02:48.800
+I can tell you how to learn things, but
+
+02:02:48.800 --> 02:02:51.830
+I can't tell you how to do um you know,
+
+02:02:51.840 --> 02:03:06.629
+your typical job search and stuff.
+
+02:03:46.310 --> 02:03:46.320
+Maybe we didn't. Maybe are the are the
+
+02:03:46.320 --> 02:03:47.910
+uh the transfers outside of the graph
+
+02:03:47.920 --> 02:03:50.149
+right now?
+
+02:03:50.159 --> 02:03:56.790
+Transfers might be outside of the graph.
+
+02:03:59.189 --> 02:03:59.199
+That would do it actually, wouldn't it?
+
+02:03:59.199 --> 02:04:03.589
+That was dumb.
+
+02:04:24.629 --> 02:04:24.639
+Ah, okay. Yep. This was See, this is why
+
+02:04:24.639 --> 02:04:27.350
+you don't separate compile units. This
+
+02:04:27.360 --> 02:04:29.430
+is legacy from when we had two compile
+
+02:04:29.440 --> 02:04:35.189
+units.
+
+02:05:19.189 --> 02:05:19.199
+Yeah, we did double buffering and double
+
+02:05:19.199 --> 02:05:29.830
+buffering is actually worse.
+
+02:05:32.310 --> 02:05:32.320
+What's the goal from this? I'm new.
+
+02:05:32.320 --> 02:05:35.910
+Hello, welcome. I'm Joseph. I stream
+
+02:05:35.920 --> 02:05:39.109
+reinforcement learning research. Uh I am
+
+02:05:39.119 --> 02:05:41.589
+the lead developer of pufferlib which is
+
+02:05:41.599 --> 02:05:43.109
+the highest performance reinforcement
+
+02:05:43.119 --> 02:05:46.709
+learning library. So we do engineering
+
+02:05:46.719 --> 02:05:49.270
+of infrastructure
+
+02:05:49.280 --> 02:05:53.430
+um hyper sim algorithm research
+
+02:05:53.440 --> 02:05:56.149
+and the like. It's all open source. It's
+
+02:05:56.159 --> 02:05:58.149
+all on puffer.ai
+
+02:05:58.159 --> 02:05:59.669
+or the puffer on GitHub if you'd want to
+
+02:05:59.679 --> 02:06:02.470
+help me out for free.
+
+02:06:02.480 --> 02:06:04.629
+And uh yeah, so a lot of the people
+
+02:06:04.639 --> 02:06:07.510
+you'll see in chat are contributors or
+
+02:06:07.520 --> 02:06:09.030
+um people that are like trying to get
+
+02:06:09.040 --> 02:06:10.870
+into RL.
+
+02:06:10.880 --> 02:06:12.709
+I review all sorts of contributions on
+
+02:06:12.719 --> 02:06:14.229
+stream
+
+02:06:14.239 --> 02:06:17.830
+and it's generally just like a see
+
+02:06:17.840 --> 02:06:19.910
+cutting edge RL research done live type
+
+02:06:19.920 --> 02:06:24.470
+of a thing.
+
+02:06:27.270 --> 02:06:27.280
+What was I doing? Right. We were looking
+
+02:06:27.280 --> 02:06:28.950
+at the
+
+02:06:28.960 --> 02:06:32.790
+vectorization. Oops.
+
+02:06:32.800 --> 02:06:38.790
+and back step. Okay. So,
+
+02:06:38.800 --> 02:06:44.149
+did I
+
+02:07:23.830 --> 02:07:23.840
+all the
+
+02:07:23.840 --> 02:07:33.750
+transfers then sync.
+
+02:07:36.950 --> 02:07:36.960
+I think it's probably just the uh
+
+02:07:36.960 --> 02:07:43.270
+colonel launches.
+
+02:08:15.030 --> 02:08:15.040
+action copy is a hard synchronized.
+
+02:08:15.040 --> 02:09:05.430
+Okay.
+
+02:09:06.950 --> 02:09:06.960
+We just got to play around a little bit
+
+02:09:06.960 --> 02:09:09.030
+here until we figure out exactly where
+
+02:09:09.040 --> 02:09:10.390
+the overhead is coming from and if
+
+02:09:10.400 --> 02:09:18.069
+there's anything we can do to optimize
+
+02:09:20.550 --> 02:09:20.560
+like the serialization is unavoidable
+
+02:09:20.560 --> 02:09:22.390
+with CPUms, but we should be able to
+
+02:09:22.400 --> 02:09:28.310
+minimize it quite a bit.
+
+02:11:00.709 --> 02:11:00.719
+I mean if it's serialization you're
+
+02:11:00.719 --> 02:11:03.030
+screwed
+
+02:11:03.040 --> 02:11:05.910
+in a sense right? I mean you're not
+
+02:11:05.920 --> 02:11:08.390
+screwed. you can still run 20 mil SPS,
+
+02:11:08.400 --> 02:11:11.830
+but that's what the bottleneck is. Oh,
+
+02:11:11.840 --> 02:11:15.830
+and then actually that's why FBR got um
+
+02:11:15.840 --> 02:11:17.990
+that's why he got different results with
+
+02:11:18.000 --> 02:11:20.149
+his GPU,
+
+02:11:20.159 --> 02:11:22.310
+like his lower end GPU. It's probably
+
+02:11:22.320 --> 02:11:26.229
+that that is the main difference.
+
+02:11:26.239 --> 02:11:28.069
+Um that's probably the main bottleneck
+
+02:11:28.079 --> 02:11:29.510
+is you end up spending more time on
+
+02:11:29.520 --> 02:11:32.629
+serialization for lowerend GPUs more
+
+02:11:32.639 --> 02:12:11.030
+than the compute units. It makes sense.
+
+02:12:13.669 --> 02:12:13.679
+Sorry, I haven't. Hey, John.
+
+02:12:13.679 --> 02:12:19.510
+Welcome.
+
+02:12:23.750 --> 02:12:23.760
+This is the uh fight caves, John. Right.
+
+02:12:23.760 --> 02:12:37.189
+NSMD
+
+02:12:39.109 --> 02:12:39.119
+doesn't help this different
+
+02:12:39.119 --> 02:12:41.830
+serialization.
+
+02:12:41.840 --> 02:12:50.069
+Um,
+
+02:12:52.950 --> 02:12:52.960
+hey Elliot,
+
+02:12:52.960 --> 02:12:54.790
+if this is Fight Caves John, we
+
+02:12:54.800 --> 02:12:57.510
+absolutely want that end.
+
+02:12:57.520 --> 02:13:01.350
+Ball's been doing Inferno and Ko.
+
+02:13:01.360 --> 02:13:03.589
+Like those three would be amazing
+
+02:13:03.599 --> 02:13:07.030
+additions to Puffer.
+
+02:13:07.040 --> 02:13:09.189
+And we need we need some harder M's too
+
+02:13:09.199 --> 02:13:10.950
+because Puffer is getting kind of good
+
+02:13:10.960 --> 02:13:12.149
+and we're running out of hard
+
+02:13:12.159 --> 02:13:16.310
+benchmarks.
+
+02:13:19.270 --> 02:13:19.280
+Need some time away from tech.
+
+02:13:19.280 --> 02:13:22.550
+Yeah, it's understandable.
+
+02:13:22.560 --> 02:13:35.910
+Closing Twitter helps with that a lot.
+
+02:13:38.950 --> 02:13:38.960
+There's too much LLM bullshitting.
+
+02:13:38.960 --> 02:13:58.709
+It distracts from like real tech.
+
+02:14:03.109 --> 02:14:03.119
+Small transfers outside graph.
+
+02:14:03.119 --> 02:14:07.990
+Small transfers inside graph
+
+02:14:42.470 --> 02:14:42.480
+Literally just moving this into the
+
+02:14:42.480 --> 02:14:46.149
+graph probably helps
+
+02:14:46.159 --> 02:14:48.709
+You do lose
+
+02:14:48.719 --> 02:14:52.229
+you lose some diagnostics.
+
+02:14:52.239 --> 02:14:56.790
+Can you time stuff within a cudigraph?
+
+02:14:56.800 --> 02:15:00.870
+Is that a thing you can do?
+
+02:15:00.880 --> 02:15:08.229
+Oh, can you? H
+
+02:15:10.229 --> 02:15:10.239
+Oh, yeah. Elliot, um, craft axe is
+
+02:15:10.239 --> 02:15:13.270
+getting used as well, so thank you for
+
+02:15:13.280 --> 02:15:21.189
+that.
+
+02:15:28.870 --> 02:15:28.880
+Progress is good. I'm kind of just doing
+
+02:15:28.880 --> 02:15:30.629
+some miscellaneous stuff I haven't had
+
+02:15:30.639 --> 02:15:33.430
+time to do for a while today. Um,
+
+02:15:33.440 --> 02:15:36.870
+especially with the 5C port being a
+
+02:15:36.880 --> 02:15:38.629
+little bit better now. So, there was
+
+02:15:38.639 --> 02:15:40.470
+this whole async thing I tried out that
+
+02:15:40.480 --> 02:15:41.990
+may or may not work. We have to run
+
+02:15:42.000 --> 02:15:44.069
+experiments to see. It's definitely
+
+02:15:44.079 --> 02:15:45.589
+faster, but I don't know if the training
+
+02:15:45.599 --> 02:15:50.069
+will be as stable. Um, we have some
+
+02:15:50.079 --> 02:15:51.589
+optimizations
+
+02:15:51.599 --> 02:15:54.709
+on
+
+02:15:56.870 --> 02:15:56.880
+CPU
+
+02:15:56.880 --> 02:15:59.669
+uh host device transfer and the like
+
+02:15:59.679 --> 02:16:01.910
+some of the CPU data transfer overhead
+
+02:16:01.920 --> 02:16:05.270
+we're looking at. Now, we also did GPU M
+
+02:16:05.280 --> 02:16:08.069
+support. GPUM support is very, very
+
+02:16:08.079 --> 02:16:26.390
+simple though, like basically trivial.
+
+02:16:37.190 --> 02:16:37.200
+CLI,
+
+02:16:37.200 --> 02:16:42.389
+this is just codeex.
+
+02:16:44.469 --> 02:16:44.479
+I'm just trying I'm basically just
+
+02:16:44.479 --> 02:16:46.389
+running some throwaway experiments to
+
+02:16:46.399 --> 02:16:49.509
+figure some things out at the moment.
+
+02:16:49.519 --> 02:16:52.790
+Like the code has changed a lot with 5C.
+
+02:16:52.800 --> 02:16:54.549
+Um,
+
+02:16:54.559 --> 02:16:55.990
+a lot of the core things are the same,
+
+02:16:56.000 --> 02:16:58.389
+but essentially there are optimizations
+
+02:16:58.399 --> 02:17:00.790
+I can make now that I was not able to
+
+02:17:00.800 --> 02:17:05.349
+make before.
+
+02:17:07.349 --> 02:17:07.359
+55.
+
+02:17:07.359 --> 02:17:09.190
+I don't know. I just Googled earlier and
+
+02:17:09.200 --> 02:17:11.750
+it looks like 56 is just burning tokens
+
+02:17:11.760 --> 02:17:19.429
+like crazy. So, I left it on 55.
+
+02:17:21.429 --> 02:17:21.439
+If I wanted to burn tokens, I think I
+
+02:17:21.439 --> 02:17:23.429
+would rather just run this thing on fast
+
+02:17:23.439 --> 02:18:04.709
+mode.
+
+02:18:06.549 --> 02:18:06.559
+messages not sending through to the
+
+02:18:06.559 --> 02:18:08.070
+chat.
+
+02:18:08.080 --> 02:18:10.870
+Um, X sometimes filters. I don't know
+
+02:18:10.880 --> 02:18:14.070
+why [ __ ] gets filtered honestly, but it
+
+02:18:14.080 --> 02:18:17.990
+does.
+
+02:18:21.910 --> 02:18:21.920
+Did not help. It slightly regresses.
+
+02:18:21.920 --> 02:18:24.549
+Really?
+
+02:18:24.559 --> 02:18:28.549
+So I believe that.
+
+02:18:40.950 --> 02:18:40.960
+What about this? Something like this.
+
+02:18:40.960 --> 02:18:45.110
+That's awful, man.
+
+02:19:13.509 --> 02:19:13.519
+my own repo before I get in puffer see
+
+02:19:13.519 --> 02:19:26.389
+and cuda Uh
+
+02:19:47.429 --> 02:19:47.439
+I did see that on X or Disc wherever it
+
+02:19:47.439 --> 02:19:50.469
+was. Was it on X or Discord?
+
+02:19:50.479 --> 02:19:53.670
+How fast is that thing?
+
+02:19:53.680 --> 02:19:56.710
+I guess with and without rendering.
+
+02:19:56.720 --> 02:20:04.790
+Kef Finn beats me to it here.
+
+02:20:11.590 --> 02:20:11.600
+Oh yeah, one thing I don't know,
+
+02:20:11.600 --> 02:20:14.150
+probably less relevant for Minecraft,
+
+02:20:14.160 --> 02:20:16.309
+but one thing from your last one on uh
+
+02:20:16.319 --> 02:20:18.550
+on craft decks
+
+02:20:18.560 --> 02:20:20.710
+apparently.
+
+02:20:20.720 --> 02:20:24.389
+So the the parody passes, but apparently
+
+02:20:24.399 --> 02:20:25.990
+the where you're losing all of your
+
+02:20:26.000 --> 02:20:30.550
+speed is um on their RNG. Like Jax's RNG
+
+02:20:30.560 --> 02:20:38.870
+kind of just sucks.
+
+02:20:40.630 --> 02:20:40.640
+I think that's probably less relevant in
+
+02:20:40.640 --> 02:20:50.710
+Minecraft, though.
+
+02:20:52.070 --> 02:20:52.080
+I mean, I would believe that you could
+
+02:20:52.080 --> 02:20:54.790
+get Minecraft
+
+02:20:54.800 --> 02:20:59.590
+what to like
+
+02:21:02.230 --> 02:21:02.240
+low res Minecraft to a couple hundredk
+
+02:21:02.240 --> 02:21:07.110
+potentially.
+
+02:21:08.469 --> 02:21:08.479
+take that out for right now for craft
+
+02:21:08.479 --> 02:21:11.990
+decks. Yeah, we have um we have somebody
+
+02:21:12.000 --> 02:21:15.590
+who's working on uh on craft decks as
+
+02:21:15.600 --> 02:21:17.750
+well
+
+02:21:17.760 --> 02:21:19.510
+and Finn is doing net hack at the
+
+02:21:19.520 --> 02:21:30.870
+moment.
+
+02:21:50.070 --> 02:21:50.080
+if I'm trying to think if that's just an
+
+02:21:50.080 --> 02:21:53.510
+end we could crush with uh if it were
+
+02:21:53.520 --> 02:21:56.710
+fast enough.
+
+02:21:56.720 --> 02:21:59.349
+Maybe
+
+02:21:59.359 --> 02:22:01.429
+that's like a very knowledgeheavy game
+
+02:22:01.439 --> 02:22:03.910
+that's like you kind of just have to
+
+02:22:03.920 --> 02:22:11.910
+learn to dig down.
+
+02:22:13.590 --> 02:22:13.600
+It's a knowledge heavy game in the sense
+
+02:22:13.600 --> 02:22:14.950
+that like there's no way in hell you
+
+02:22:14.960 --> 02:22:19.030
+know to just go find the end portal or
+
+02:22:19.040 --> 02:22:26.070
+whatever.
+
+02:22:27.590 --> 02:22:27.600
+So, I think one thing that we could
+
+02:22:27.600 --> 02:22:31.349
+probably do with a Minecraft M fast is
+
+02:22:31.359 --> 02:22:32.790
+we could probably use it for like the
+
+02:22:32.800 --> 02:22:35.270
+task conditional RL setup. So, like the
+
+02:22:35.280 --> 02:22:37.670
+bigger crafter or crafter setup where
+
+02:22:37.680 --> 02:22:40.230
+it's like achievements for stuff that
+
+02:22:40.240 --> 02:22:43.349
+you could probably do pretty nicely.
+
+02:22:43.359 --> 02:22:44.469
+I mean, there are a lot of things you
+
+02:22:44.479 --> 02:23:00.469
+could do with it.
+
+02:23:47.349 --> 02:23:47.359
+Why is this slow? It's 15 plus milps.
+
+02:23:47.359 --> 02:24:04.790
+Yeah. Yeah.
+
+02:24:06.389 --> 02:24:06.399
+What goes to seeing what gets run on
+
+02:24:06.399 --> 02:24:09.349
+CUDA?
+
+02:26:01.110 --> 02:26:01.120
+I just want to see if this is like real
+
+02:26:01.120 --> 02:26:11.349
+or this is like fail, right?
+
+02:26:13.190 --> 02:26:13.200
+We could just move it to be float 16
+
+02:26:13.200 --> 02:26:15.030
+obs.
+
+02:26:15.040 --> 02:26:41.510
+That's super easy.
+
+02:26:44.790 --> 02:26:44.800
+Mute all imbeciles.
+
+02:26:44.800 --> 02:26:55.030
+Cleans up the timeline.
+
+02:26:58.630 --> 02:26:58.640
+Why is I don't understand why like it's
+
+02:26:58.640 --> 02:27:13.750
+just crap
+
+02:28:06.070 --> 02:28:06.080
+Okay, next thing would just be reduce
+
+02:28:06.080 --> 02:28:12.309
+the bandwidth.
+
+02:28:36.309 --> 02:28:36.319
+Yeah. Yeah. It's supposed to be versus
+
+02:28:36.319 --> 02:28:58.070
+DRAM.
+
+02:28:59.830 --> 02:28:59.840
+I do remember we weren't able to get
+
+02:28:59.840 --> 02:29:04.950
+these speeds even in a clean test.
+
+02:29:04.960 --> 02:29:39.270
+Just sand Okay.
+
+02:29:40.870 --> 02:29:40.880
+there. Any other optimization we can
+
+02:29:40.880 --> 02:29:47.990
+make with that?
+
+02:29:49.349 --> 02:29:49.359
+I mean, we already tried the double
+
+02:29:49.359 --> 02:29:53.349
+buffering thing and it didn't help.
+
+02:29:53.359 --> 02:30:40.630
+The end buffers was better.
+
+02:30:42.550 --> 02:30:42.560
+I was thinking about that. Elliot
+
+02:30:42.560 --> 02:30:45.349
+actually.
+
+02:30:45.359 --> 02:30:47.910
+How's the uh
+
+02:30:47.920 --> 02:30:51.030
+how's quality
+
+02:30:51.040 --> 02:30:54.309
+compared to um
+
+02:30:54.319 --> 02:30:58.550
+55x high
+
+02:31:00.469 --> 02:31:00.479
+cuz it also takes me time when it does
+
+02:31:00.479 --> 02:31:17.830
+dumb [ __ ] and I have to go fix Good.
+
+02:31:19.030 --> 02:31:19.040
+How long would it take you to get to
+
+02:31:19.040 --> 02:31:23.190
+your current level of proficiency?
+
+02:31:25.030 --> 02:31:25.040
+The problem with starting again from
+
+02:31:25.040 --> 02:31:27.830
+scratch is you have no idea.
+
+02:31:27.840 --> 02:31:29.670
+like you don't know who to listen to and
+
+02:31:29.680 --> 02:31:32.309
+you don't know what information is good.
+
+02:31:32.319 --> 02:31:34.309
+So like
+
+02:31:34.319 --> 02:31:36.790
+you kind of can't
+
+02:31:36.800 --> 02:31:38.550
+there's not like a reasonable if you
+
+02:31:38.560 --> 02:31:41.190
+were starting again like from scratch
+
+02:31:41.200 --> 02:31:42.870
+but with what you know now because
+
+02:31:42.880 --> 02:31:46.389
+that's that's the delta right.
+
+02:31:46.399 --> 02:31:48.309
+It's not like asking like, "Oh, how long
+
+02:31:48.319 --> 02:31:50.150
+would it get you to like how long would
+
+02:31:50.160 --> 02:31:53.750
+it take you to be able to run a marathon
+
+02:31:53.760 --> 02:31:55.270
+now?" You know, if you were to start
+
+02:31:55.280 --> 02:31:58.150
+from scratch with your current training
+
+02:31:58.160 --> 02:32:05.349
+and all. It's different.
+
+02:32:12.790 --> 02:32:12.800
+cuz the resources are better now, but
+
+02:32:12.800 --> 02:32:18.550
+like the distractors are also worse.
+
+02:32:39.270 --> 02:32:39.280
+Is Grock significantly faster?
+
+02:32:39.280 --> 02:32:41.910
+Also, do I have access to that via my uh
+
+02:32:41.920 --> 02:32:46.389
+my exub or is it API only?
+
+02:32:46.399 --> 02:33:00.070
+I'd give that a try.
+
+02:33:02.070 --> 02:33:02.080
+I mostly don't notice the differences
+
+02:33:02.080 --> 02:33:04.309
+between the uh the minor versions to be
+
+02:33:04.319 --> 02:33:05.830
+honest. It's kind of like they're all
+
+02:33:05.840 --> 02:33:20.230
+equally dumb.
+
+02:33:22.309 --> 02:33:22.319
+Try logging in. Yeah, let me finish the
+
+02:33:22.319 --> 02:33:23.910
+current thought that I have and then
+
+02:33:23.920 --> 02:33:40.630
+we'll try it. Hang on.
+
+02:33:59.590 --> 02:33:59.600
+CPU obs directly into the roll out row.
+
+02:33:59.600 --> 02:34:14.389
+Can you do that?
+
+02:34:16.309 --> 02:34:16.319
+Uh, we can do that if we fuse the
+
+02:34:16.319 --> 02:34:45.510
+graphs.
+
+02:35:01.830 --> 02:35:01.840
+Yeah, this is dumb.
+
+02:35:01.840 --> 02:35:09.429
+Try one first.
+
+02:35:11.190 --> 02:35:11.200
+Comes up with a lot of stuff, but a lot
+
+02:35:11.200 --> 02:35:12.469
+of the stuff it comes up with is
+
+02:35:12.479 --> 02:35:14.630
+completely stupid. Let me find the uh
+
+02:35:14.640 --> 02:35:16.630
+the thing.
+
+02:35:16.640 --> 02:35:19.349
+Not 10 agents at once.
+
+02:35:19.359 --> 02:35:21.910
+What do you mean not 10? I only need
+
+02:35:21.920 --> 02:35:26.150
+one.
+
+02:35:28.230 --> 02:35:28.240
+undergrad through PhD through to
+
+02:35:28.240 --> 02:35:30.630
+speedrun and learn only essentials. No,
+
+02:35:30.640 --> 02:35:33.670
+but the thing is you're the PhD is not a
+
+02:35:33.680 --> 02:35:35.910
+work requirement. Okay, a PhD is a time
+
+02:35:35.920 --> 02:35:39.910
+requirement.
+
+02:35:41.750 --> 02:35:41.760
+Like obviously there's a minimum amount
+
+02:35:41.760 --> 02:35:43.429
+of work you can complete, but you don't
+
+02:35:43.439 --> 02:35:45.429
+just like get your three or five papers
+
+02:35:45.439 --> 02:35:47.670
+published and then graduate in two
+
+02:35:47.680 --> 02:36:01.510
+years.
+
+02:36:04.710 --> 02:36:04.720
+Where do I go to get this API from?
+
+02:36:04.720 --> 02:36:24.710
+Wrong API. Or is it CLI
+
+02:36:48.469 --> 02:36:48.479
+guys got to stop auto detecting your OS.
+
+02:36:48.479 --> 02:36:50.790
+I think this works.
+
+02:36:50.800 --> 02:36:59.990
+Yeah, this works
+
+02:37:01.270 --> 02:37:01.280
+actually. So here we'll just we'll do
+
+02:37:01.280 --> 02:37:03.349
+it.
+
+02:37:03.359 --> 02:37:26.550
+We'll just do this on the side.
+
+02:38:34.309 --> 02:38:34.319
+What do you use? It's just four or five,
+
+02:38:34.319 --> 02:38:40.710
+right?
+
+02:38:43.190 --> 02:38:43.200
+But Zam, like from my perspective, all
+
+02:38:43.200 --> 02:38:47.590
+the models are stupid anyways.
+
+02:38:50.389 --> 02:38:50.399
+So, it only really matters to me if one
+
+02:38:50.399 --> 02:38:52.630
+is like noticeably more stupid than the
+
+02:38:52.640 --> 02:38:57.910
+others.
+
+02:39:00.070 --> 02:39:00.080
+All right.
+
+02:39:00.080 --> 02:39:02.469
+How's this thing do on uh on usage, by
+
+02:39:02.479 --> 02:39:06.550
+the way?
+
+02:40:22.550 --> 02:40:22.560
+as soon as I get this to like a natural
+
+02:40:22.560 --> 02:40:41.510
+stopping point. I'll try the other one.
+
+02:40:43.750 --> 02:40:43.760
+Yeah, but the thing is the least stupid
+
+02:40:43.760 --> 02:40:46.550
+model that I have to sit here and wait
+
+02:40:46.560 --> 02:40:48.870
+for an hour to do the stupid thing wrong
+
+02:40:48.880 --> 02:40:52.630
+anyways is not useful,
+
+02:40:52.640 --> 02:40:57.110
+right? So like
+
+02:40:57.120 --> 02:40:59.110
+it depends on what the speed difference
+
+02:40:59.120 --> 02:41:02.309
+is. If something returns back in 30
+
+02:41:02.319 --> 02:41:06.550
+seconds instead of 4 minutes,
+
+02:41:06.560 --> 02:41:09.510
+like I know what I'm doing. Like I don't
+
+02:41:09.520 --> 02:41:11.990
+need this thing to come up with a ton of
+
+02:41:12.000 --> 02:41:14.550
+useful stuff. Like I just need this
+
+02:41:14.560 --> 02:41:16.070
+thing to implement well- definfined
+
+02:41:16.080 --> 02:41:19.510
+operations.
+
+02:41:21.990 --> 02:41:22.000
+I'm never asking it to do stuff like oh
+
+02:41:22.000 --> 02:41:24.389
+yeah just like go for the next five
+
+02:41:24.399 --> 02:41:25.990
+hours and figure out how to make this
+
+02:41:26.000 --> 02:41:27.750
+thing faster,
+
+02:41:27.760 --> 02:41:30.150
+right? Or like figure out how to design
+
+02:41:30.160 --> 02:41:32.790
+this system. I never do that because it
+
+02:41:32.800 --> 02:41:34.309
+always does it like any of the models
+
+02:41:34.319 --> 02:42:15.590
+will always screw that up anyways.
+
+02:42:34.309 --> 02:42:34.319
+craft decks? This was classic Elliot.
+
+02:42:34.319 --> 02:42:36.630
+I'm pretty No. Was this classic? I think
+
+02:42:36.640 --> 02:42:39.030
+it was full game. Yeah, it was the full
+
+02:42:39.040 --> 02:42:47.190
+game.
+
+02:42:50.550 --> 02:42:50.560
+Yeah, there is a trade-off, but like the
+
+02:42:50.560 --> 02:42:53.110
+trade-off in my mind is never one minor
+
+02:42:53.120 --> 02:42:57.990
+version of any of these models.
+
+02:42:59.830 --> 02:42:59.840
+Like in my mind, these labs, they the
+
+02:42:59.840 --> 02:43:01.910
+labs just hop like leaprog each other
+
+02:43:01.920 --> 02:44:24.950
+every other month anyways.
+
+02:44:26.630 --> 02:44:26.640
+I'm guessing there's a reason you're
+
+02:44:26.640 --> 02:44:32.230
+not.
+
+02:45:00.870 --> 02:45:00.880
+like the thing I just gave it is a
+
+02:45:00.880 --> 02:45:02.870
+simple well-defined find operation that
+
+02:45:02.880 --> 02:45:04.630
+doesn't really have any subjectivity in
+
+02:45:04.640 --> 02:45:07.670
+how to do it.
+
+02:45:07.680 --> 02:45:09.830
+Not seeing some of my messages. Yeah, X
+
+02:45:09.840 --> 02:45:13.269
+just does that sometimes.
+
+02:45:13.279 --> 02:45:15.990
+Uh Elliot
+
+02:45:16.000 --> 02:45:26.150
+doesn't use Jacks aren't a full craft XI
+
+02:45:28.790 --> 02:45:28.800
+not Jack compatible. 20 to 50x faster.
+
+02:45:28.800 --> 02:45:35.429
+Interesting.
+
+02:45:37.429 --> 02:45:37.439
+Why does it have that fancy RNG in the
+
+02:45:37.439 --> 02:45:40.389
+first place?
+
+02:45:40.399 --> 02:45:46.550
+Why is this not just Randar?
+
+02:45:48.870 --> 02:45:48.880
+Is that Is this faster than just default
+
+02:45:48.880 --> 02:45:52.070
+Randar?
+
+02:45:54.950 --> 02:45:54.960
+Chat's kind of buggy.
+
+02:45:54.960 --> 02:45:58.309
+Ask either X or Reream. I do not have
+
+02:45:58.319 --> 02:46:09.990
+any filter set up.
+
+02:46:11.830 --> 02:46:11.840
+I think Twitch generally drops the
+
+02:46:11.840 --> 02:46:16.950
+fewest messages.
+
+02:46:19.990 --> 02:46:20.000
+Also, better latency.
+
+02:46:20.000 --> 02:46:21.910
+X is just there because it's my biggest
+
+02:46:21.920 --> 02:46:26.230
+platform.
+
+02:46:28.309 --> 02:46:28.319
+I actually X is also the only one that
+
+02:46:28.319 --> 02:46:29.590
+doesn't show the view count. So, I
+
+02:46:29.600 --> 02:46:30.950
+actually have no idea how many people
+
+02:46:30.960 --> 02:47:30.870
+watch from
+
+02:47:52.870 --> 02:47:52.880
+Star the puffer on GitHub if you haven't
+
+02:47:52.880 --> 02:47:57.030
+already now that I caught you.
+
+02:47:57.040 --> 02:47:59.269
+Star that puffer free and it helps out a
+
+02:47:59.279 --> 02:48:21.429
+lot.
+
+02:49:26.469 --> 02:49:26.479
+Okay,
+
+02:49:26.479 --> 02:49:38.150
+let's see um if this does anything.
+
+02:49:55.590 --> 02:49:55.600
+I mean, I definitely see why uh people
+
+02:49:55.600 --> 02:50:05.110
+were able to optimize this thing.
+
+02:50:09.030 --> 02:50:09.040
+One buffer, full train.
+
+02:50:09.040 --> 02:50:11.030
+One buffer,
+
+02:50:11.040 --> 02:50:15.830
+eight threads.
+
+02:50:19.349 --> 02:50:19.359
+There's your 18 mil.
+
+02:50:19.359 --> 02:50:24.230
+What about four?
+
+02:52:12.550 --> 02:52:12.560
+This is one of those places where going
+
+02:52:12.560 --> 02:52:15.510
+lower level would be helpful. Actually,
+
+02:52:15.520 --> 02:52:17.030
+this is where you'd like want to look at
+
+02:52:17.040 --> 02:52:27.030
+the generated code.
+
+02:52:29.750 --> 02:52:29.760
+Oh, look. Actually,
+
+02:52:29.760 --> 02:53:36.469
+this was the crazy intrinsics thing.
+
+02:53:38.389 --> 02:53:38.399
+apparently just burns tokens from what
+
+02:53:38.399 --> 02:53:50.710
+I've seen. Bet
+
+02:53:52.550 --> 02:53:52.560
+at least turn on fast mode. We can do
+
+02:53:52.560 --> 02:53:58.630
+that.
+
+02:54:01.990 --> 02:54:02.000
+only 1.5x.
+
+02:54:02.000 --> 02:54:03.750
+I thought they'd be way faster than
+
+02:54:03.760 --> 02:54:15.910
+that.
+
+02:54:21.590 --> 02:54:21.600
+We'll try this. Is um is 4.5 faster than
+
+02:54:21.600 --> 02:54:27.349
+um codeex on fast?
+
+02:54:28.950 --> 02:54:28.960
+Yes.
+
+02:54:28.960 --> 02:54:30.389
+Okay, then we're going to definitely try
+
+02:54:30.399 --> 02:54:31.910
+that. I'm in the middle of a task
+
+02:54:31.920 --> 02:54:45.429
+though, right? So like
+
+02:54:48.950 --> 02:54:48.960
+Wait, why is it doing this?
+
+02:54:48.960 --> 02:54:54.150
+Whoa. Exposes.
+
+02:55:14.950 --> 02:55:14.960
+and run Grock at the same time. Run it
+
+02:55:14.960 --> 02:55:22.309
+on what?
+
+02:55:24.150 --> 02:55:24.160
+Yeah, but like run it on what? I'm like
+
+02:55:24.160 --> 02:55:29.910
+I'm in the middle of a task.
+
+02:56:06.790 --> 02:56:06.800
+I'd rather have it like I'd rather test
+
+02:56:06.800 --> 02:56:21.429
+it on something I actually want to do.
+
+02:56:22.870 --> 02:56:22.880
+Let's see if this gives us anything
+
+02:56:22.880 --> 02:56:26.469
+meaningful
+
+02:56:28.309 --> 02:56:28.319
+and also see what this is doing to our
+
+02:56:28.319 --> 02:56:31.510
+nice code.
+
+02:56:31.520 --> 02:56:45.429
+What the [ __ ] is this, man?
+
+02:56:55.429 --> 02:56:55.439
+Does this mess with anything else?
+
+02:56:55.439 --> 02:56:58.070
+Not yet.
+
+02:56:58.080 --> 02:57:05.830
+If it's just the observations.
+
+02:57:07.429 --> 02:57:07.439
+Yeah, if it's just the observations,
+
+02:57:07.439 --> 02:59:00.790
+that's fine.
+
+02:59:41.830 --> 02:59:41.840
+Ah,
+
+02:59:41.840 --> 03:00:02.070
+that will do it.
+
+03:00:03.910 --> 03:00:03.920
+That does get a little bit obnoxious,
+
+03:00:03.920 --> 03:00:14.230
+doesn't it?
+
+03:00:35.269 --> 03:00:35.279
+We'll try it.
+
+03:00:35.279 --> 03:00:39.590
+Rand is
+
+03:00:41.830 --> 03:00:41.840
+Rand R is I didn't even know Randar is
+
+03:00:41.840 --> 03:00:53.830
+faster.
+
+03:01:03.750 --> 03:01:03.760
+then why the heck is I heard I had this
+
+03:01:03.760 --> 03:01:06.389
+reported that I had I had heard reported
+
+03:01:06.399 --> 03:01:08.950
+that the um that Craftex was like
+
+03:01:08.960 --> 03:01:12.309
+basically entirely RNG bound though. Why
+
+03:01:12.319 --> 03:01:17.990
+does it need so much RNG?
+
+03:01:20.550 --> 03:01:20.560
+Is this like Legacy from Jax or
+
+03:01:20.560 --> 03:01:33.990
+something? Like
+
+03:01:36.469 --> 03:01:36.479
+Yeah, but like why does it what is the
+
+03:01:36.479 --> 03:01:38.870
+thing that is consuming so much RNG that
+
+03:01:38.880 --> 03:01:43.670
+RNG is the bottleneck?
+
+03:01:45.990 --> 03:01:46.000
+Like, are you not just caching 8k maps
+
+03:01:46.000 --> 03:01:48.550
+or 16k maps
+
+03:01:48.560 --> 03:01:50.950
+for generation?
+
+03:01:50.960 --> 03:01:52.870
+I I can't think of anything in that game
+
+03:01:52.880 --> 03:01:57.910
+that should make RNG the bottleneck
+
+03:01:59.670 --> 03:01:59.680
+because usually we don't need to RNG.
+
+03:01:59.680 --> 03:02:01.670
+What? Why do we need to RNG everything
+
+03:02:01.680 --> 03:02:05.510
+in craft decks?
+
+03:02:07.590 --> 03:02:07.600
+I mean, over RNG. No, no, no. I think
+
+03:02:07.600 --> 03:02:09.429
+this is held out for from jacks or
+
+03:02:09.439 --> 03:02:10.870
+something.
+
+03:02:10.880 --> 03:02:14.870
+Either that or not caching maps.
+
+03:02:14.880 --> 03:02:36.309
+Like that seems ridiculous to me.
+
+03:02:38.389 --> 03:02:38.399
+And yes, you definitely want Randar.
+
+03:02:38.399 --> 03:02:43.510
+like Randar is required as of um 4.0
+
+03:02:43.520 --> 03:02:45.830
+because
+
+03:02:45.840 --> 03:02:47.830
+uh we use threads instead of processes
+
+03:02:47.840 --> 03:03:08.389
+for MS.
+
+03:03:18.790 --> 03:03:18.800
+18.2.
+
+03:03:18.800 --> 03:03:26.230
+That's shitty.
+
+03:05:14.630 --> 03:05:14.640
+It could also be that that was an
+
+03:05:14.640 --> 03:05:17.750
+unreliable thing. Uh there was another
+
+03:05:17.760 --> 03:05:19.830
+guy, it was an Nvidia guy who said that
+
+03:05:19.840 --> 03:05:25.030
+um he was profiling the EN and it was
+
+03:05:25.040 --> 03:05:34.150
+like all RNG calls.
+
+03:05:54.630 --> 03:05:54.640
+the thing is craft like the if that's on
+
+03:05:54.640 --> 03:05:57.269
+the original crafter like we basically
+
+03:05:57.279 --> 03:05:59.190
+just insta solve crafter. It's not a
+
+03:05:59.200 --> 03:06:03.510
+hard end.
+
+03:06:05.670 --> 03:06:05.680
+Like the only reason that crafter wasn't
+
+03:06:05.680 --> 03:06:07.269
+interest like supposed to be an
+
+03:06:07.279 --> 03:06:09.429
+interesting or a hard benchmark was
+
+03:06:09.439 --> 03:06:12.630
+because the like the constraints that
+
+03:06:12.640 --> 03:06:14.230
+were placed on it on the original
+
+03:06:14.240 --> 03:06:16.790
+release were completely [ __ ] dumb. It
+
+03:06:16.800 --> 03:06:18.469
+was like 1 million. It was a 1
+
+03:06:18.479 --> 03:06:21.349
+millionstep benchmark which is just like
+
+03:06:21.359 --> 03:08:06.309
+moronic.
+
+03:09:18.389 --> 03:09:18.399
+Okay, let's get this done.
+
+03:09:18.399 --> 03:09:20.550
+If it's not bandwidth, that's actually
+
+03:09:20.560 --> 03:09:24.469
+good because bandwidth is a pain
+
+03:09:24.479 --> 03:09:26.550
+to deal with.
+
+03:09:26.560 --> 03:09:28.870
+Um, we shouldn't really expect bandwidth
+
+03:09:28.880 --> 03:09:31.830
+to become a problem until a bit higher
+
+03:09:31.840 --> 03:12:14.389
+up as Mom.
+
+03:13:15.830 --> 03:13:15.840
+Yeah, that's meaningful.
+
+03:13:15.840 --> 03:13:19.269
+Very meaningful.
+
+03:13:20.550 --> 03:13:20.560
+At this point, would you say you're
+
+03:13:20.560 --> 03:13:22.469
+still mcking through sewage? Abso
+
+03:13:22.479 --> 03:13:42.389
+[ __ ] lutely.
+
+03:13:52.950 --> 03:13:52.960
+that's 25. That is 25
+
+03:13:52.960 --> 03:13:57.110
+mil. 26 mil.
+
+03:13:57.120 --> 03:14:00.870
+27. Yeah, that's like very very
+
+03:14:00.880 --> 03:14:29.910
+much better.
+
+03:14:31.830 --> 03:14:31.840
+We should have been able to get like 3
+
+03:14:31.840 --> 03:14:42.790
+mil SPS out of this.
+
+03:14:46.309 --> 03:14:46.319
+Something's inconsistent here.
+
+03:14:46.319 --> 03:14:47.510
+There's definitely a bandwidth
+
+03:14:47.520 --> 03:16:06.630
+component.
+
+03:16:08.469 --> 03:16:08.479
+Okay.
+
+03:16:08.479 --> 03:17:06.870
+But that doesn't change speed.
+
+03:18:09.030 --> 03:18:09.040
+it 416? I'll do this for like another 20
+
+03:18:09.040 --> 03:18:11.990
+minutes and then we'll just uh we'll
+
+03:18:12.000 --> 03:18:28.389
+call it for the day.
+
+03:19:44.870 --> 03:19:44.880
+No. What's wrong with you, man? Get air
+
+03:19:44.880 --> 03:19:48.150
+conditioning,
+
+03:20:21.269 --> 03:20:21.279
+This is slow.
+
+03:20:21.279 --> 03:20:24.469
+This fast.
+
+03:20:24.479 --> 03:22:25.110
+Yes, this is fast. 28 mil SPS. Lovely.
+
+03:22:57.910 --> 03:22:57.920
+in the graph.
+
+03:22:57.920 --> 03:23:51.110
+We'll see if we lose our our speed.
+
+03:24:11.670 --> 03:24:11.680
+okay. Is about the same speed.
+
+03:24:11.680 --> 03:24:16.070
+So, this loses.
+
+03:25:08.630 --> 03:25:08.640
+Start the puffer repo. It helps a lot
+
+03:25:08.640 --> 03:26:51.910
+and it's Hey,
+
+03:26:54.870 --> 03:26:54.880
+I literally turn my AC to 65 at night.
+
+03:26:54.880 --> 03:26:58.389
+Like
+
+03:29:28.710 --> 03:29:28.720
+Um, I kind of got busy with something,
+
+03:29:28.720 --> 03:31:36.870
+Jess. I'll probably try it tomorrow.
+
+03:31:38.950 --> 03:31:38.960
+I mean you can try to get it on GPU
+
+03:31:38.960 --> 03:31:43.190
+entirely if you want but like
+
+03:31:43.200 --> 03:31:46.309
+is like it the main problem with craft
+
+03:31:46.319 --> 03:31:53.030
+ax honestly is the ob size
+
+03:31:55.670 --> 03:31:55.680
+cuz
+
+03:31:55.680 --> 03:31:57.830
+Like CPU doesn't really cap you until
+
+03:31:57.840 --> 03:32:00.790
+you start getting well above 10 mil SPS
+
+03:32:00.800 --> 03:32:09.190
+on transfers.
+
+03:32:24.469 --> 03:32:24.479
+you basically do that with like just the
+
+03:32:24.479 --> 03:32:26.630
+GPU mode only goes back and forth
+
+03:32:26.640 --> 03:32:30.790
+between the roll out and the end calls
+
+03:32:30.800 --> 03:32:34.950
+and that's only that's one kernel call
+
+03:32:34.960 --> 03:32:38.630
+per step.
+
+03:32:38.640 --> 03:32:42.150
+So that's what
+
+03:32:42.160 --> 03:32:51.030
+three
+
+03:32:52.790 --> 03:32:52.800
+is that
+
+03:32:52.800 --> 03:32:58.469
+180ish ms or microsconds microsconds per
+
+03:32:58.479 --> 03:33:01.750
+entire epoch.
+
+03:33:01.760 --> 03:33:03.830
+That might still be significant actually
+
+03:33:03.840 --> 03:33:12.710
+to be fair.
+
+03:33:14.309 --> 03:33:14.319
+Wait, you don't need to have it mega
+
+03:33:14.319 --> 03:33:16.309
+like you can. Can't you just cudigraph
+
+03:33:16.319 --> 03:33:17.910
+the whole thing as well if you wanted to
+
+03:33:17.920 --> 03:33:20.790
+do that? Really?
+
+03:33:20.800 --> 03:33:22.469
+I guess the nice thing about having it
+
+03:33:22.479 --> 03:33:24.870
+one kernel is you don't have to. But
+
+03:33:24.880 --> 03:33:26.550
+that's still a mess, dude. That's still
+
+03:33:26.560 --> 03:33:31.110
+a mess.
+
+03:34:03.429 --> 03:34:03.439
+Okay, let's see.
+
+03:34:03.439 --> 03:34:06.550
+Oops. Hang on.
+
+03:34:06.560 --> 03:34:09.429
+Let me double check one
+
+03:34:09.439 --> 03:34:55.990
+thing here.
+
+03:36:30.870 --> 03:36:30.880
+right. So, there is some there's
+
+03:36:30.880 --> 03:36:33.349
+something to this, but okay, whatever.
+
+03:36:33.359 --> 03:36:55.670
+Let's just do
+
+03:36:58.630 --> 03:36:58.640
+We discovered a couple things. It's
+
+03:36:58.640 --> 03:37:00.630
+definitely mostly the synchronization.
+
+03:37:00.640 --> 03:37:03.030
+There is um there is an overhead
+
+03:37:03.040 --> 03:37:06.389
+component,
+
+03:39:08.950 --> 03:39:08.960
+Well, I think that's all for today,
+
+03:39:08.960 --> 03:39:11.190
+guys. Um, we're going to run this test
+
+03:39:11.200 --> 03:39:13.750
+on the async thing. I'll probably be
+
+03:39:13.760 --> 03:39:16.710
+back tomorrow with I'll think about this
+
+03:39:16.720 --> 03:39:18.070
+a little bit overnight and we'll see
+
+03:39:18.080 --> 03:39:20.309
+where we go with this. For everybody new
+
+03:39:20.319 --> 03:39:22.469
+around here, puffer.ai for all the
+
+03:39:22.479 --> 03:39:25.510
+things. Uh star GitHub to help us out
+
+03:39:25.520 --> 03:39:27.269
+for free.
+
+03:39:27.279 --> 03:39:29.269
+It really helps. Star the GitHub. Join
+
+03:39:29.279 --> 03:39:31.110
+Discord to get involved. Follow an X if
+
+03:39:31.120 --> 03:39:34.640
+you want more RL content.
