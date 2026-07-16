@@ -1,0 +1,17 @@
+{
+  "id": "4FgAikp85G8",
+  "date": "2026-07-14T23:09:00+00:00",
+  "url": "https://www.youtube.com/watch?v=4FgAikp85G8",
+  "transcript": "/src/data/transcripts/4FgAikp85G8.vtt",
+  "originalTitle": "Nethack with Joseph Suarez",
+  "title": "Playing NetHack to Understand RL Agent Challenges",
+  "summary": "Played NetHack to gain firsthand knowledge of the game for training RL agents. Died on level 6 due to incorrect information about dwarf king hostility, highlighting the importance of accurate game mechanics.",
+  "topics": [
+    "NetHack",
+    "PufferLib",
+    "gameplay experimentation",
+    "pet mechanics",
+    "price identification",
+    "wiki reliability"
+  ]
+}

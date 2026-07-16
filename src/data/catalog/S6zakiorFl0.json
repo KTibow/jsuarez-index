@@ -1,0 +1,17 @@
+{
+  "id": "S6zakiorFl0",
+  "date": "2026-07-15T19:06:24+00:00",
+  "url": "https://www.youtube.com/watch?v=S6zakiorFl0",
+  "transcript": "/src/data/transcripts/S6zakiorFl0.vtt",
+  "originalTitle": "Nethack with Joseph Suarez",
+  "title": "Refactoring Puffer 5C: Cleaning Up Code Bloat and Async Rollout Debugging",
+  "summary": "Refactored the Puffer 5C codebase, focusing on reducing line count and eliminating bloat in core files. Debugged the async rollout experimental feature, discussed its one-epoch stale policy and performance trade-offs, and reviewed LLM-generated code for quality. Used Grok for faster code review. Also played NetHack briefly.",
+  "topics": [
+    "Puffer 5C",
+    "refactoring",
+    "async rollout",
+    "code bloat",
+    "Grok",
+    "NetHack"
+  ]
+}
