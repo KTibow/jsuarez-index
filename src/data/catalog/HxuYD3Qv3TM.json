@@ -1,0 +1,17 @@
+{
+  "id": "HxuYD3Qv3TM",
+  "date": "2026-07-24T19:23:28+00:00",
+  "url": "https://www.youtube.com/watch?v=HxuYD3Qv3TM",
+  "transcript": "/src/data/transcripts/HxuYD3Qv3TM.vtt",
+  "originalTitle": "Nethack RL with Joseph Suarez",
+  "title": "Optimizing NetHack RL Performance and Debugging Reward Hacks in Puffer",
+  "summary": "Worked on Finn's NetHack bindings for PufferLib, optimizing environment speed by disabling search20 macro and improving SPS from ~200k to ~400k. Discovered and demonstrated a reward hack where the agent kicks gold piles to multiply rewards, and discussed improvements to action space and observation encoding.",
+  "topics": [
+    "PufferLib",
+    "NetHack",
+    "reward hacking",
+    "hyperparameter tuning",
+    "async training",
+    "performance optimization"
+  ]
+}
