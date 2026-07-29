@@ -1,0 +1,17 @@
+{
+  "id": "G3_7qGe2up8",
+  "date": "2026-07-27T23:13:03+00:00",
+  "url": "https://www.youtube.com/watch?v=G3_7qGe2up8",
+  "transcript": "/src/data/transcripts/G3_7qGe2up8.vtt",
+  "originalTitle": "RL dev with Joseph Suarez",
+  "title": "Adjusting Puffer Model Colors and Lighting",
+  "summary": "Worked on matching the colors and lighting of the animated Puffer model in a prototype renderer. Iteratively adjusted ambient, directional, and fill lighting parameters alongside eye position to align the 3D model with the original artist's render. Also discussed recent NetHack training progress and upcoming Puffer 5 release plans.",
+  "topics": [
+    "Puffer model",
+    "lighting adjustment",
+    "color matching",
+    "NetHack",
+    "Puffer 5",
+    "3D rendering"
+  ]
+}

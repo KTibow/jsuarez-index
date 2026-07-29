@@ -1,0 +1,16 @@
+{
+  "id": "D8XnXcSzlJA",
+  "date": "2026-07-28T19:59:35+00:00",
+  "url": "https://www.youtube.com/watch?v=D8XnXcSzlJA",
+  "transcript": "/src/data/transcripts/D8XnXcSzlJA.vtt",
+  "originalTitle": "RL dev with Joseph Suarez",
+  "title": "Refactoring CUDA C Kernels for Puffer 5 Release",
+  "summary": "Spent five hours refactoring the CUDA C codebase for Puffer 5, focusing on cleaning up kernel code, renaming variables, and reducing line count. The work aimed to improve code quality and prepare the library for an official release, with minor performance optimizations noted during the process.",
+  "topics": [
+    "Puffer 5",
+    "CUDA C",
+    "code refactoring",
+    "kernel optimization",
+    "reinforcement learning"
+  ]
+}

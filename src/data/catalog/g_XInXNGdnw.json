@@ -1,0 +1,16 @@
+{
+  "id": "g_XInXNGdnw",
+  "date": "2026-07-27T20:54:38+00:00",
+  "url": "https://www.youtube.com/watch?v=g_XInXNGdnw",
+  "transcript": "/src/data/transcripts/g_XInXNGdnw.vtt",
+  "originalTitle": "RL dev with Joseph Suarez",
+  "title": "Analyzing Net Hack Policy and Importing 3D Asset",
+  "summary": "Observed a Puffer-trained Net Hack agent's gameplay, noting emergent reward-seeking behavior like selling items for gold and navigating Mine Town. Began integrating a new 3D puffer fish mascot model into the engine, adjusting materials and lighting for better visual fidelity.",
+  "topics": [
+    "Net Hack",
+    "reward shaping",
+    "Puffer 5",
+    "3D asset integration",
+    "policy evaluation"
+  ]
+}

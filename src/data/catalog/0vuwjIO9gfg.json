@@ -1,0 +1,16 @@
+{
+  "id": "0vuwjIO9gfg",
+  "date": "2026-07-28T19:57:01+00:00",
+  "url": "https://www.youtube.com/watch?v=0vuwjIO9gfg",
+  "transcript": "/src/data/transcripts/0vuwjIO9gfg.vtt",
+  "originalTitle": "RL dev with Joseph Suarez",
+  "title": "Refactoring PufferLib During Live Stream",
+  "summary": "Conducted a live stream focused on a planned four-hour refactoring session for PufferLib. Addressed initial technical issues with Twitch stream setup and access tokens before beginning the productive work.",
+  "topics": [
+    "PufferLib",
+    "refactoring",
+    "live streaming",
+    "Twitch",
+    "software development"
+  ]
+}

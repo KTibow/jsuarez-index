@@ -1,0 +1,1209 @@
+WEBVTT
+
+NOTE
+metadata:
+title: RL dev with Joseph Suarez
+id: G3_7qGe2up8
+url: https://www.youtube.com/watch?v=G3_7qGe2up8
+date: 2026-07-27T23:13:03+00:00
+language: en
+
+00:01:03.590 --> 00:01:03.600
+Hopefully this is going to be stable
+
+00:01:03.600 --> 00:01:05.109
+enough for now. If it keeps dropping,
+
+00:01:05.119 --> 00:01:06.550
+I'll just end stream. But I think we
+
+00:01:06.560 --> 00:01:08.950
+should be fine.
+
+00:01:08.960 --> 00:02:03.350
+I wanted to do Right. I wanted to get
+
+00:03:13.190 --> 00:03:13.200
+Let's see if it actually can figure
+
+00:03:13.200 --> 00:03:16.470
+anything from that. I doubt it.
+
+00:03:16.480 --> 00:03:34.789
+That'd be cool, but I doubt it.
+
+00:06:40.309 --> 00:06:40.319
+Yeah, I actually I know the artist whose
+
+00:06:40.319 --> 00:06:49.029
+work I want to link in.
+
+00:07:05.749 --> 00:07:05.759
+Huh.
+
+00:07:05.759 --> 00:08:06.469
+That's weird.
+
+00:08:08.390 --> 00:08:08.400
+Well, lighting definitely just makes a
+
+00:08:08.400 --> 00:08:10.629
+massive difference.
+
+00:08:10.639 --> 00:08:13.589
+Um,
+
+00:08:13.599 --> 00:08:19.830
+oh, wait. Soft.
+
+00:09:32.070 --> 00:09:32.080
+I mean this definitely does control
+
+00:09:32.080 --> 00:10:00.310
+to some extent the uh softness
+
+00:10:02.790 --> 00:10:02.800
+like like
+
+00:10:02.800 --> 00:10:05.430
+Okay. What's this one?
+
+00:10:05.440 --> 00:10:09.269
+Oh, okay. So, this is actually
+
+00:10:09.279 --> 00:10:12.150
+So, this is like high ambient.
+
+00:10:12.160 --> 00:10:24.949
+Where's our other puffer?
+
+00:10:57.269 --> 00:10:57.279
+Honestly feels like partially a um
+
+00:10:57.279 --> 00:10:59.829
+a change in
+
+00:10:59.839 --> 00:11:03.350
+the geometry. Now
+
+00:11:03.360 --> 00:11:04.949
+the old one was a lot more like a
+
+00:11:04.959 --> 00:11:10.470
+pineapple.
+
+00:11:49.750 --> 00:11:49.760
+Okay. I think
+
+00:11:49.760 --> 00:11:51.990
+are the eyes in like slightly the wrong
+
+00:11:52.000 --> 00:11:53.590
+spot?
+
+00:11:53.600 --> 00:11:57.670
+If I just like look at the angle here
+
+00:11:57.680 --> 00:12:01.670
+like this. I need to be like here maybe
+
+00:12:01.680 --> 00:12:05.350
+and like here.
+
+00:12:15.829 --> 00:12:15.839
+The eyes are like slightly downcast, I
+
+00:12:15.839 --> 00:12:17.430
+think.
+
+00:12:17.440 --> 00:12:29.670
+Very small eye position difference.
+
+00:13:39.829 --> 00:13:39.839
+Should I realistically be doing this?
+
+00:13:39.839 --> 00:13:41.829
+No. But
+
+00:13:41.839 --> 00:13:43.990
+I don't know, you kind of end up just
+
+00:13:44.000 --> 00:14:33.990
+doing everything.
+
+00:16:05.350 --> 00:16:05.360
+Uh,
+
+00:16:05.360 --> 00:16:07.110
+color picker. Hang on. Let me get an
+
+00:16:07.120 --> 00:16:12.870
+HTML color picker.
+
+00:16:15.829 --> 00:16:15.839
+Do I not have one of these?
+
+00:16:15.839 --> 00:16:55.269
+I used to know what color this was.
+
+00:18:18.070 --> 00:18:18.080
+Still thinking about the net hack
+
+00:18:18.080 --> 00:18:25.750
+results. Those are really cool.
+
+00:18:27.190 --> 00:18:27.200
+Mess with the puffer fish a little bit
+
+00:18:27.200 --> 00:18:43.270
+though.
+
+00:18:44.870 --> 00:18:44.880
+I don't know. This is super just dumb
+
+00:18:44.880 --> 00:18:47.190
+easy work. There will be a little bit of
+
+00:18:47.200 --> 00:18:50.470
+code cleanup stuff I have to do
+
+00:18:50.480 --> 00:18:54.870
+once I have something reasonable,
+
+00:20:26.390 --> 00:20:26.400
+Oops.
+
+00:20:26.400 --> 00:21:29.909
+This does not work, does it?
+
+00:22:16.390 --> 00:22:16.400
+Still pretty dumb. It's quick though.
+
+00:22:16.400 --> 00:22:20.070
+It's quick to fix in a loop.
+
+00:22:20.080 --> 00:22:23.750
+And we can just mess with these
+
+00:22:23.760 --> 00:22:25.270
+till I get something that looks half
+
+00:22:25.280 --> 00:22:28.390
+decent.
+
+00:22:29.990 --> 00:22:30.000
+And yes, I could just load this into
+
+00:22:30.000 --> 00:22:33.430
+Unity, but I want to make sure that it
+
+00:22:33.440 --> 00:22:53.430
+works on our stack.
+
+00:23:46.950 --> 00:23:46.960
+Uh, okay.
+
+00:23:46.960 --> 00:23:49.270
+A 1 A.
+
+00:23:49.280 --> 00:23:54.950
+Okay, that's better,
+
+00:23:57.270 --> 00:23:57.280
+right? 61 A1 A. That's better. Yeah,
+
+00:23:57.280 --> 00:24:14.310
+that's way better.
+
+00:24:21.510 --> 00:24:21.520
+As what trains? We're not training
+
+00:24:21.520 --> 00:25:17.350
+anything right now, dude.
+
+00:25:29.830 --> 00:25:29.840
+So, I don't think it was this.
+
+00:25:29.840 --> 00:25:32.789
+Like, can I pull it up somehow?
+
+00:25:32.799 --> 00:25:34.710
+I think I probably can just figure out
+
+00:25:34.720 --> 00:25:43.190
+the exact colors used, can't I?
+
+00:25:58.549 --> 00:25:58.559
+Don't I have it somewhere here?
+
+00:25:58.559 --> 00:26:42.070
+I'm sure I do.
+
+00:26:57.110 --> 00:26:57.120
+No, this has got to be in here
+
+00:26:57.120 --> 00:27:16.950
+somewhere. No.
+
+00:27:19.590 --> 00:27:19.600
+Seriously,
+
+00:27:19.600 --> 00:27:21.430
+I can't find the damn object valve for
+
+00:27:21.440 --> 00:27:25.350
+the original. We had it somewhere.
+
+00:27:25.360 --> 00:27:27.029
+Uh, I know I had that. I'm trying to
+
+00:27:27.039 --> 00:27:29.830
+think where I put it. Wouldn't I have
+
+00:27:29.840 --> 00:27:32.710
+emailed that to myself?
+
+00:27:32.720 --> 00:27:35.510
+I probably would have, right?
+
+00:27:35.520 --> 00:27:37.110
+Or I would have put it in I would have
+
+00:27:37.120 --> 00:27:38.390
+put it in a drive, but I would have been
+
+00:27:38.400 --> 00:27:55.669
+lazy and put it in the wrong drive.
+
+00:27:58.789 --> 00:27:58.799
+I probably would have Let's
+
+00:27:58.799 --> 00:28:21.990
+try let's check.
+
+00:28:24.710 --> 00:28:24.720
+Damn, that's crazy.
+
+00:28:24.720 --> 00:28:28.630
+How do I screw that up, man?
+
+00:28:30.310 --> 00:28:30.320
+Oh, wait. Don't I literally have it in
+
+00:28:30.320 --> 00:28:33.750
+the I put it in the damn repo, didn't I?
+
+00:28:33.760 --> 00:28:35.830
+See, I was actually smart. I just forgot
+
+00:28:35.840 --> 00:28:38.149
+I was smart.
+
+00:28:38.159 --> 00:28:43.669
+Hang on.
+
+00:28:45.590 --> 00:28:45.600
+Yeah, I put it in the repo. That's what
+
+00:28:45.600 --> 00:28:47.190
+I did. I put it in the place where you
+
+00:28:47.200 --> 00:28:53.909
+can't possibly lose it.
+
+00:28:58.230 --> 00:28:58.240
+Possible on net hack. autoload.
+
+00:28:58.240 --> 00:29:00.070
+Oh yeah, I don't know what's wrong with
+
+00:29:00.080 --> 00:29:02.230
+YouTube. Is it possible for it to
+
+00:29:02.240 --> 00:29:04.950
+autoload checkpoints as it is training
+
+00:29:04.960 --> 00:29:06.950
+and watch the progress of each
+
+00:29:06.960 --> 00:29:09.350
+checkpoint?
+
+00:29:09.360 --> 00:29:11.909
+Uh, I mean, we can do that pretty easily
+
+00:29:11.919 --> 00:29:15.029
+just by like grabbing Yeah, grabbing any
+
+00:29:15.039 --> 00:29:16.630
+of the checkpoint files. That's pretty
+
+00:29:16.640 --> 00:29:20.950
+easy to do. Um, we I watched a couple
+
+00:29:20.960 --> 00:29:23.029
+full runs of it at the start of this
+
+00:29:23.039 --> 00:29:25.350
+stream, though. This stream kind of got
+
+00:29:25.360 --> 00:29:29.029
+chopped up a bunch with disconnects.
+
+00:29:29.039 --> 00:29:31.269
+I watched like two full rollouts and it
+
+00:29:31.279 --> 00:29:32.950
+was really really good. It got to the
+
+00:29:32.960 --> 00:29:38.230
+Luxe room on the first one and
+
+00:29:38.240 --> 00:29:41.430
+uh died from like basically
+
+00:29:41.440 --> 00:29:44.389
+complications of lyanthropy
+
+00:29:44.399 --> 00:29:47.190
+and then on the second one it got really
+
+00:29:47.200 --> 00:29:48.950
+far
+
+00:29:48.960 --> 00:29:52.950
+um into the main dungeon and such. But
+
+00:29:52.960 --> 00:29:54.549
+we figured out that we're giving it too
+
+00:29:54.559 --> 00:29:56.789
+much gold reward. So, it was actually
+
+00:29:56.799 --> 00:29:58.950
+just selling all of its armor and that's
+
+00:29:58.960 --> 00:30:00.710
+why it was dying because it was having
+
+00:30:00.720 --> 00:30:04.149
+uh too high AC at that level uh at that
+
+00:30:04.159 --> 00:30:12.710
+point in the game.
+
+00:30:14.310 --> 00:30:14.320
+Um, if you wanted to hook something up
+
+00:30:14.320 --> 00:30:16.710
+to autoload, like if you want to train
+
+00:30:16.720 --> 00:30:18.310
+our current thing, first of all, you can
+
+00:30:18.320 --> 00:30:20.549
+just like build net hack and run like
+
+00:30:20.559 --> 00:30:22.630
+the the fast mode demo and it'll show
+
+00:30:22.640 --> 00:30:24.630
+you the latest policy that we trained.
+
+00:30:24.640 --> 00:30:25.990
+But if you want to watch as it's
+
+00:30:26.000 --> 00:30:27.990
+training for whatever reason, yeah, you
+
+00:30:28.000 --> 00:30:29.669
+could hook that up pretty easily to the
+
+00:30:29.679 --> 00:30:31.110
+existing demo. Just point it at the
+
+00:30:31.120 --> 00:30:33.750
+checkpoint stir.
+
+00:30:33.760 --> 00:30:37.190
+I sent that message 10 minutes ago on
+
+00:30:37.200 --> 00:30:39.669
+YouTube.
+
+00:30:39.679 --> 00:30:41.909
+Yeah,
+
+00:30:41.919 --> 00:30:43.430
+YouTube's somewhat I don't know what's
+
+00:30:43.440 --> 00:30:45.510
+wrong today.
+
+00:30:45.520 --> 00:30:47.590
+Like honestly, everything's screwy. I'm
+
+00:30:47.600 --> 00:30:50.230
+dropping most of my frames. I don't know
+
+00:30:50.240 --> 00:30:53.669
+what's happening to my camera color. Um
+
+00:30:53.679 --> 00:30:55.669
+it's disconnecting every so often. So
+
+00:30:55.679 --> 00:31:05.430
+stuff is kind of just cursed today.
+
+00:31:08.549 --> 00:31:08.559
+I don't know why.
+
+00:31:08.559 --> 00:31:12.310
+There we go.
+
+00:31:29.830 --> 00:31:29.840
+Which Michael is this, by the way? Is
+
+00:31:29.840 --> 00:31:37.750
+this Net Hack Michael?
+
+00:32:32.710 --> 00:32:32.720
+What would you work on if it wasn't RL?
+
+00:32:32.720 --> 00:32:35.110
+Um, most of the things that I am
+
+00:32:35.120 --> 00:32:36.789
+interested in working on, I think that
+
+00:32:36.799 --> 00:32:40.070
+Arl is going to be probably the right
+
+00:32:40.080 --> 00:32:43.669
+way to do them.
+
+00:32:43.679 --> 00:32:48.549
+So, I don't really know.
+
+00:32:50.470 --> 00:32:50.480
+I guess I'd work on the problems that I
+
+00:32:50.480 --> 00:32:53.110
+would care about. H, you know, without
+
+00:32:53.120 --> 00:32:56.149
+without the RL edge though, like without
+
+00:32:56.159 --> 00:32:58.310
+having RL,
+
+00:32:58.320 --> 00:32:59.750
+most of the other problems that I'm
+
+00:32:59.760 --> 00:33:02.389
+interested in kind of just don't seem
+
+00:33:02.399 --> 00:33:06.630
+doable.
+
+00:33:07.990 --> 00:33:08.000
+Like there's all sorts of stuff in
+
+00:33:08.000 --> 00:33:11.590
+material science and bio, but like the
+
+00:33:11.600 --> 00:33:15.190
+typical workflow for those just suck.
+
+00:33:15.200 --> 00:33:17.590
+like and that doesn't sound like a good
+
+00:33:17.600 --> 00:33:36.950
+time trying to do it without this.
+
+00:34:51.829 --> 00:34:51.839
+That's so annoying.
+
+00:34:51.839 --> 00:34:55.510
+Sign in to access this tree.
+
+00:34:55.520 --> 00:35:05.990
+I don't remember my sign in man.
+
+00:35:38.390 --> 00:35:38.400
+Okay, this is
+
+00:35:38.400 --> 00:36:18.390
+I think the right Count.
+
+00:36:21.510 --> 00:36:21.520
+And I'm signing into this.
+
+00:36:21.520 --> 00:36:23.349
+There's lots of stupid work to do right
+
+00:36:23.359 --> 00:36:24.950
+now.
+
+00:36:24.960 --> 00:36:26.790
+Oh, great. We have to get a security
+
+00:36:26.800 --> 00:36:28.870
+code.
+
+00:36:28.880 --> 00:36:31.109
+Why the [ __ ] did you make me give a
+
+00:36:31.119 --> 00:36:32.550
+password if you were just going to ask
+
+00:36:32.560 --> 00:36:35.670
+me for a security code? Huh?
+
+00:36:35.680 --> 00:36:51.510
+What the hell's the point of that?
+
+00:36:57.589 --> 00:36:57.599
+Okay,
+
+00:36:57.599 --> 00:37:01.030
+UI just lags.
+
+00:37:01.040 --> 00:37:21.109
+Please work.
+
+00:37:23.510 --> 00:37:23.520
+Why?
+
+00:37:23.520 --> 00:38:01.030
+I hate this man.
+
+00:38:03.829 --> 00:38:03.839
+I I hate these tutorials. It's like, oh
+
+00:38:03.839 --> 00:38:05.670
+yes, just click the button that says
+
+00:38:05.680 --> 00:38:08.790
+solve the problem and then there's no
+
+00:38:08.800 --> 00:39:11.510
+button.
+
+00:39:14.150 --> 00:39:14.160
+I hate this.
+
+00:39:14.160 --> 00:39:17.910
+I honestly I hate this so much. No, I
+
+00:39:17.920 --> 00:39:19.589
+like No wonder I don't use any heavy
+
+00:39:19.599 --> 00:39:36.870
+tools. They never [ __ ] work.
+
+00:39:39.750 --> 00:39:39.760
+Oh, this is FPR. Long training run. Hook
+
+00:39:39.760 --> 00:39:41.990
+it up TV.
+
+00:39:42.000 --> 00:39:43.990
+Uh, you can you could set that up very
+
+00:39:44.000 --> 00:39:47.190
+easily.
+
+00:40:14.390 --> 00:40:14.400
+Yeah, this is just not finding the
+
+00:40:14.400 --> 00:40:38.069
+stupid thing, huh?
+
+00:40:39.829 --> 00:40:39.839
+I don't I honestly don't know what to do
+
+00:40:39.839 --> 00:40:42.310
+about this because
+
+00:40:42.320 --> 00:40:44.550
+I do sort of need to pull up the puffer
+
+00:40:44.560 --> 00:40:46.470
+in the editor.
+
+00:40:46.480 --> 00:40:48.390
+Maybe I can just have it find the colors
+
+00:40:48.400 --> 00:40:51.030
+from this actually.
+
+00:40:51.040 --> 00:41:24.870
+Actually, that's what I'll do.
+
+00:41:26.790 --> 00:41:26.800
+So funny how it's literally faster to
+
+00:41:26.800 --> 00:41:29.750
+have GPT look at a raw not human
+
+00:41:29.760 --> 00:41:43.270
+readable file.
+
+00:43:06.550 --> 00:43:06.560
+of screwing with this.
+
+00:43:06.560 --> 00:43:10.870
+Let's just not ever have to open
+
+00:43:10.880 --> 00:43:12.470
+I wouldn't just say Unity. Let's not
+
+00:43:12.480 --> 00:43:15.349
+ever have to open a program this heavy
+
+00:43:15.359 --> 00:43:24.470
+ever again would be nice.
+
+00:43:26.870 --> 00:43:26.880
+Slightly beige.
+
+00:43:26.880 --> 00:43:30.630
+Yeah. So, these colors
+
+00:43:30.640 --> 00:43:35.270
+do not look the same at all.
+
+00:44:28.710 --> 00:44:28.720
+All right.
+
+00:44:28.720 --> 00:44:30.550
+Uh, give me a second. I'll be right back
+
+00:44:30.560 --> 00:47:34.230
+as well. Well, I got to check one thing.
+
+00:47:37.430 --> 00:47:37.440
+Okay, here is the
+
+00:47:37.440 --> 00:47:42.630
+here is the plan.
+
+00:47:46.069 --> 00:47:46.079
+I'm going to order myself some food
+
+00:47:46.079 --> 00:47:48.950
+and when the food gets here in 20 some
+
+00:47:48.960 --> 00:47:51.030
+odd minutes
+
+00:47:51.040 --> 00:47:53.670
+that will be end of stream.
+
+00:47:53.680 --> 00:47:57.030
+Not that I'm doing anything that crazy
+
+00:47:57.040 --> 00:48:37.910
+in the first This
+
+00:48:59.750 --> 00:48:59.760
+to the file wrong for the original look
+
+00:48:59.760 --> 00:49:11.829
+and original render.
+
+00:49:14.870 --> 00:49:14.880
+Hey, whatever. We'll just keep let's say
+
+00:49:14.880 --> 00:49:17.750
+this could just be a render diff, right?
+
+00:49:17.760 --> 00:49:19.510
+Like if it's like this or some weird
+
+00:49:19.520 --> 00:49:24.470
+thing.
+
+00:49:26.710 --> 00:49:26.720
+Actually, there's an there's a an end
+
+00:49:26.720 --> 00:49:29.829
+where this is
+
+00:49:29.839 --> 00:49:33.589
+already included.
+
+00:49:44.790 --> 00:49:44.800
+It look beige.
+
+00:49:44.800 --> 00:49:49.349
+Yeah, it could kind of be beige.
+
+00:49:50.870 --> 00:49:50.880
+Yeah, the lighting just makes a big
+
+00:49:50.880 --> 00:52:26.710
+difference.
+
+00:52:29.829 --> 00:52:29.839
+Hey Jordan
+
+00:52:29.839 --> 00:52:32.870
+policy to choose 98% Jad.
+
+00:52:32.880 --> 00:52:36.790
+Ooh.
+
+00:52:41.270 --> 00:52:41.280
+Wait, is that on the entire fight caves?
+
+00:52:41.280 --> 00:52:45.109
+If so, I absolutely want a PR for that.
+
+00:52:45.119 --> 00:52:46.790
+You know, we're getting very close to
+
+00:52:46.800 --> 00:52:48.150
+our release where we're going to start
+
+00:52:48.160 --> 00:52:50.470
+needing all these fancy benchmark ends.
+
+00:52:50.480 --> 00:52:52.630
+Absolutely
+
+00:52:52.640 --> 00:52:59.829
+want a PR for that.
+
+00:53:09.109 --> 00:53:09.119
+Okay,
+
+00:53:09.119 --> 00:53:15.990
+this is closer.
+
+00:53:19.030 --> 00:53:19.040
+Oh yeah, this is it. Look, you see this?
+
+00:53:19.040 --> 00:53:21.910
+If you bias this up, the yellowing goes
+
+00:53:21.920 --> 00:53:23.430
+away.
+
+00:53:23.440 --> 00:53:37.270
+So that's probably what it is.
+
+00:53:57.829 --> 00:53:57.839
+Yeah.
+
+00:53:57.839 --> 00:54:07.750
+Okay.
+
+00:54:09.589 --> 00:54:09.599
+Put the colors. Let me just put Let me
+
+00:54:09.599 --> 00:54:11.510
+check one other one last thing real
+
+00:54:11.520 --> 00:54:15.030
+quick just to be sure.
+
+00:54:15.040 --> 00:54:18.069
+Hey, Muffin. Oh, I owe you a PR review,
+
+00:54:18.079 --> 00:54:20.790
+Muffin. I know. My bad.
+
+00:54:20.800 --> 00:54:22.950
+I owe you a PR review. I just finished a
+
+00:54:22.960 --> 00:54:25.670
+major client thing today.
+
+00:54:25.680 --> 00:54:30.630
+So, I owe you a a PR review this week.
+
+00:54:30.640 --> 00:57:17.270
+Got your env to the puffer
+
+00:58:12.470 --> 00:58:12.480
+presumably that'll get um 5C is much
+
+00:58:12.480 --> 00:58:15.670
+faster. It should be, you know, a minute
+
+00:58:15.680 --> 00:59:42.390
+or maybe a minute and a half.
+
+00:59:45.829 --> 00:59:45.839
+Um, so we paid an artist to do this
+
+00:59:45.839 --> 00:59:49.430
+muffin. This is not me doing animations.
+
+00:59:49.440 --> 00:59:51.510
+This is me just screwing around trying
+
+00:59:51.520 --> 00:59:53.589
+to figure out how we can get the
+
+00:59:53.599 --> 00:59:56.470
+lighting to look good enough in our like
+
+00:59:56.480 --> 00:59:59.510
+very minimal environment setup so that
+
+00:59:59.520 --> 01:00:01.910
+you can easily just include the puffer
+
+01:00:01.920 --> 01:00:04.870
+with whatever you want. This is just
+
+01:00:04.880 --> 01:00:08.710
+like a crappy random like hack together
+
+01:00:08.720 --> 01:00:10.870
+prototype engine. It's really nice
+
+01:00:10.880 --> 01:00:12.549
+actually. Raleigh is super good for
+
+01:00:12.559 --> 01:00:15.750
+this. Um,
+
+01:00:15.760 --> 01:00:17.349
+and then we'll get the lighting and
+
+01:00:17.359 --> 01:00:18.870
+stuff to be better and then he'll look
+
+01:00:18.880 --> 01:00:21.270
+really nice. I think it's pretty much
+
+01:00:21.280 --> 01:00:23.030
+their thing is it's mainly just bad
+
+01:00:23.040 --> 01:00:25.829
+lighting at the moment. And uh then we
+
+01:00:25.839 --> 01:00:41.750
+will be good to go.
+
+01:02:31.670 --> 01:02:31.680
+puff into M's.
+
+01:02:31.680 --> 01:02:32.870
+Yeah. So, we're just going to
+
+01:02:32.880 --> 01:02:36.549
+standardize that in 5 muffin
+
+01:02:36.559 --> 01:02:39.030
+2D and 3D.
+
+01:02:39.040 --> 01:02:40.710
+And it'll be like the simplest ever
+
+01:02:40.720 --> 01:02:42.230
+possible thing for this level of
+
+01:02:42.240 --> 01:02:44.470
+quality,
+
+01:02:44.480 --> 01:02:51.510
+guaranteed.
+
+01:02:53.910 --> 01:02:53.920
+Way better.
+
+01:02:53.920 --> 01:02:57.270
+Way better. Right.
+
+01:02:57.280 --> 01:02:59.910
+Okay. This is a little creepy
+
+01:02:59.920 --> 01:03:06.069
+to fix that.
+
+01:03:08.789 --> 01:03:08.799
+Much better. Good progress.
+
+01:03:08.799 --> 01:03:10.870
+This is like starting to get kind of
+
+01:03:10.880 --> 01:03:26.390
+close at least I'd say.
+
+01:03:28.150 --> 01:03:28.160
+Oh, that's actually starting to capture
+
+01:03:28.160 --> 01:03:37.109
+it, right? Like
+
+01:04:02.549 --> 01:04:02.559
+It might be very slightly off, but that
+
+01:04:02.559 --> 01:04:05.510
+matters a lot.
+
+01:04:05.520 --> 01:04:08.069
+See?
+
+01:04:08.079 --> 01:04:10.549
+Yeah. The eye position is very very
+
+01:04:10.559 --> 01:04:19.510
+slightly off.
+
+01:04:21.270 --> 01:04:21.280
+This might be something that we can
+
+01:04:21.280 --> 01:04:33.109
+change with the model.
+
+01:04:37.029 --> 01:04:37.039
+Oh yeah, the spikes as well.
+
+01:04:37.039 --> 01:05:00.470
+1414,
+
+01:05:02.549 --> 01:05:02.559
+I think. Wait, actually we can use this,
+
+01:05:02.559 --> 01:05:04.230
+right?
+
+01:05:04.240 --> 01:05:07.829
+If we just
+
+01:05:11.510 --> 01:05:11.520
+ambient needs to go down,
+
+01:05:11.520 --> 01:05:17.510
+it goes down until we get like
+
+01:05:26.549 --> 01:05:26.559
+and then Phil.
+
+01:05:26.559 --> 01:05:31.829
+No.
+
+01:05:35.270 --> 01:05:35.280
+Uh, okay. I got like 10 minutes before
+
+01:05:35.280 --> 01:05:51.029
+orders here.
+
+01:05:54.470 --> 01:05:54.480
+Is it directional or something?
+
+01:05:54.480 --> 01:05:57.990
+If I go up until
+
+01:05:58.000 --> 01:06:10.630
+like here,
+
+01:08:05.430 --> 01:08:05.440
+I think we probably can cuz it's one
+
+01:08:05.440 --> 01:09:35.829
+object.
+
+01:09:55.910 --> 01:09:55.920
+Way closer, man. This is way closer.
+
+01:09:55.920 --> 01:09:58.390
+I do think we got we pretty much did get
+
+01:09:58.400 --> 01:10:00.709
+the face right. This is camera
+
+01:10:00.719 --> 01:10:03.350
+perspective, right? Like this is the
+
+01:10:03.360 --> 01:10:04.870
+face looks too long from that
+
+01:10:04.880 --> 01:10:06.310
+perspective. But if you look here, it's
+
+01:10:06.320 --> 01:10:08.229
+pretty flat.
+
+01:10:08.239 --> 01:10:10.950
+Like this is the right shape for a fish.
+
+01:10:10.960 --> 01:10:12.630
+Actually, look here. If you zoom out
+
+01:10:12.640 --> 01:10:14.870
+more, it's fine,
+
+01:10:14.880 --> 01:10:17.350
+right? It's just this is the forced
+
+01:10:17.360 --> 01:10:19.990
+perspective. Like now it looks long, but
+
+01:10:20.000 --> 01:10:23.430
+actually it's not.
+
+01:10:23.440 --> 01:10:26.709
+So, I think that we just have to like
+
+01:10:26.719 --> 01:10:29.590
+this fix eyes, fix little colors. I
+
+01:10:29.600 --> 01:10:31.189
+mean, it take a little bit more futzing
+
+01:10:31.199 --> 01:10:37.510
+with, but it's pretty good overall.
+
+01:10:39.430 --> 01:10:39.440
+I mean, this is just dumb, silly work,
+
+01:10:39.440 --> 01:10:40.950
+right? I'm kind of tired today. I've had
+
+01:10:40.960 --> 01:10:43.110
+a lot of stuff done already this
+
+01:10:43.120 --> 01:10:45.430
+morning, so I figured this needs to be
+
+01:10:45.440 --> 01:10:47.030
+done for the release anyways. We paid
+
+01:10:47.040 --> 01:10:49.270
+quite a bit to get our puffer redone.
+
+01:10:49.280 --> 01:10:50.950
+Lots of animations and stuff, and I want
+
+01:10:50.960 --> 01:10:53.110
+them all to be nice and easy to use. And
+
+01:10:53.120 --> 01:10:55.350
+also, we want to be able to um export
+
+01:10:55.360 --> 01:10:57.270
+clips and videos and new gifts and stuff
+
+01:10:57.280 --> 01:10:59.830
+with the puffer for 50. We'll make a
+
+01:10:59.840 --> 01:11:08.310
+nice launch out of it.
+
+01:11:09.669 --> 01:11:09.679
+I don't know. We'll post some like
+
+01:11:09.679 --> 01:11:15.350
+stupid high number for training.
+
+01:11:19.590 --> 01:11:19.600
+Ever wanted to train at 400 million SPS?
+
+01:11:19.600 --> 01:11:31.350
+Now you can.
+
+01:11:35.750 --> 01:11:35.760
+Oh no. I have pabytes of data, but I
+
+01:11:35.760 --> 01:11:37.669
+only have one machine. However shall I
+
+01:11:37.679 --> 01:11:40.709
+train on it? What's that? Pabytes of
+
+01:11:40.719 --> 01:11:42.630
+data.
+
+01:11:42.640 --> 01:11:44.790
+Well, I have great news for you. That's
+
+01:11:44.800 --> 01:11:48.149
+exactly the core diet of puffer fish.
+
+01:11:48.159 --> 01:11:50.790
+Just feed it right into Puffer Lib and
+
+01:11:50.800 --> 01:11:52.390
+you will get a state-of-the-art
+
+01:11:52.400 --> 01:11:56.950
+superhuman model.
+
+01:11:59.430 --> 01:11:59.440
+How's that even possible? I don't know.
+
+01:11:59.440 --> 01:12:16.229
+It's magic.
+
+01:12:18.229 --> 01:12:18.239
+Ah, okay. So, it got me this eye nudge
+
+01:12:18.239 --> 01:12:20.070
+thing
+
+01:12:20.080 --> 01:12:22.310
+up.
+
+01:12:22.320 --> 01:13:16.229
+Oh, that's [ __ ] awful, man.
+
+01:13:19.990 --> 01:13:20.000
+What's that? A three minute run.
+
+01:13:20.000 --> 01:13:22.229
+You really should be giving us exabytes
+
+01:13:22.239 --> 01:13:23.830
+if you want it to be remotely a
+
+01:13:23.840 --> 01:13:26.950
+challenge, you know.
+
+01:13:26.960 --> 01:13:29.990
+All right, I got to go. Food is here.
+
+01:13:30.000 --> 01:13:32.550
+I'm hungry. Lots of stuff today. I'll
+
+01:13:32.560 --> 01:13:33.750
+mess with this a little bit this
+
+01:13:33.760 --> 01:13:35.430
+evening. Might do this. Might just like
+
+01:13:35.440 --> 01:13:37.110
+do this in chunks on the stream whenever
+
+01:13:37.120 --> 01:13:39.110
+I'm kind of tired. This is just like an
+
+01:13:39.120 --> 01:13:41.910
+easy task that needs to get done. Uh
+
+01:13:41.920 --> 01:13:44.709
+thank you all for tuning in.
+
+01:13:44.719 --> 01:13:47.990
+Some cool net hack results today. Uh
+
+01:13:48.000 --> 01:13:49.910
+following some good clients news, which
+
+01:13:49.920 --> 01:13:53.910
+is always good for Puffer. And if you
+
+01:13:53.920 --> 01:13:55.830
+want to support our stuff for absolutely
+
+01:13:55.840 --> 01:13:59.030
+free, Star the Puffer on GitHub really
+
+01:13:59.040 --> 01:14:02.000
+helps us out.
