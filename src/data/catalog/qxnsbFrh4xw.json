@@ -1,0 +1,17 @@
+{
+  "id": "qxnsbFrh4xw",
+  "date": "2026-07-29T18:00:50+00:00",
+  "url": "https://www.youtube.com/watch?v=qxnsbFrh4xw",
+  "transcript": "/src/data/transcripts/qxnsbFrh4xw.vtt",
+  "originalTitle": "RL dev with Joseph Suarez",
+  "title": "Refactoring PufferLib Core: Eliminating Macro Conditionals and Reducing Code Size",
+  "summary": "Worked on refactoring the core PufferLib file, eliminating macro conditionals and restructuring code to reduce line count by 80 lines. The refactor aims to unify CPU and GPU vectorization paths and improve code quality, with about 40% completion after two sessions.",
+  "topics": [
+    "PufferLib",
+    "refactoring",
+    "C++ macros",
+    "CUDA",
+    "vectorization",
+    "code cleanup"
+  ]
+}
