@@ -1,0 +1,17 @@
+{
+  "id": "axXiAsOd4UI",
+  "date": "2026-07-30T20:41:01+00:00",
+  "url": "https://www.youtube.com/watch?v=axXiAsOd4UI",
+  "transcript": "/src/data/transcripts/axXiAsOd4UI.vtt",
+  "originalTitle": "RL dev with Joseph Suarez",
+  "title": "Refactoring Puffer 5 Toward a 10K-Line Release",
+  "summary": "Refactored and cleaned up the Puffer 5 codebase ahead of release, cutting the core to roughly 10.5K lines and simplifying selfplay, evaluation, and environment-integration logic. Also reviewed contributor environments and discussed upcoming selfplay and open-world RL tasks.",
+  "topics": [
+    "code refactoring",
+    "selfplay",
+    "Puffer 5",
+    "AI-generated code",
+    "RL environments",
+    "line count reduction"
+  ]
+}
