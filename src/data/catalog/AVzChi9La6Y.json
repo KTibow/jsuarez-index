@@ -1,0 +1,17 @@
+{
+  "id": "AVzChi9La6Y",
+  "date": "2026-08-03T20:16:51+00:00",
+  "url": "https://www.youtube.com/watch?v=AVzChi9La6Y",
+  "transcript": "/src/data/transcripts/AVzChi9La6Y.vtt",
+  "originalTitle": "RL in 10,000 LoC with Joseph Suarez",
+  "title": "Investigating PPO Instability Under High Sample Reuse in Puffer",
+  "summary": "Investigated why PPO collapses at very high sample reuse in Puffer, tracing the failure to momentum-based optimizers like Muon that ignore clipping during updates. Also drafted a refactoring guide for contributors to shorten code without losing features.",
+  "topics": [
+    "PufferLib",
+    "PPO",
+    "Muon",
+    "off-policy updates",
+    "sample reuse",
+    "code refactoring"
+  ]
+}
