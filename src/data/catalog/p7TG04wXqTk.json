@@ -1,0 +1,16 @@
+{
+  "id": "p7TG04wXqTk",
+  "date": "2026-08-05T20:47:09+00:00",
+  "url": "https://www.youtube.com/watch?v=p7TG04wXqTk",
+  "transcript": "/src/data/transcripts/p7TG04wXqTk.vtt",
+  "originalTitle": "RL Research with Joseph Suarez",
+  "title": "Debugging PPO Instability Caused by Optimizer Momentum at High Reuse",
+  "summary": "Worked on diagnosing PPO training instability at high sample reuse in Puffer 5. Traced a bad interaction between optimizer momentum and the clipping mechanism, and began testing momentum-clipping corrections to stabilize updates.",
+  "topics": [
+    "PPO clipping",
+    "off-policy correction",
+    "optimizer momentum",
+    "sample reuse",
+    "Puffer 5"
+  ]
+}

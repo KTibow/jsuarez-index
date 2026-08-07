@@ -1,0 +1,16 @@
+{
+  "id": "5bvVz2v8qTg",
+  "date": "2026-08-06T19:15:58+00:00",
+  "url": "https://www.youtube.com/watch?v=5bvVz2v8qTg",
+  "transcript": "/src/data/transcripts/5bvVz2v8qTg.vtt",
+  "originalTitle": "RL Research with Joseph Suarez",
+  "title": "Debugging PPO Momentum Bias with TRPO for High Sample Reuse",
+  "summary": "Investigated a bias in PPO with momentum-based optimizers such as Adam and Muon that causes instability under high sample reuse. Implemented several corrections, then temporarily switched to TRPO to isolate momentum handling from PPO clipping, with plans to port the fixes back to Muon and PPO.",
+  "topics": [
+    "PPO",
+    "TRPO",
+    "Muon",
+    "momentum bias",
+    "sample reuse"
+  ]
+}
