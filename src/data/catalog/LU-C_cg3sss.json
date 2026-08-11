@@ -1,0 +1,17 @@
+{
+  "id": "LU-C_cg3sss",
+  "date": "2026-08-10T18:37:53+00:00",
+  "url": "https://www.youtube.com/watch?v=LU-C_cg3sss",
+  "transcript": "/src/data/transcripts/LU-C_cg3sss.vtt",
+  "originalTitle": "RL Research with Joseph Suarez",
+  "title": "Debugging Importance Sampling and V-Trace for Off-Policy Stability in Puffer 5",
+  "summary": "Debugged and cleaned up algorithmic changes targeting off-policy drift and higher sample reuse stability in Puffer 5. Fixed importance sampling wiring and clipping bugs, retuned hyperparameters with V-trace on breakout, and launched ablation runs.",
+  "topics": [
+    "Puffer 5",
+    "off-policy drift",
+    "importance sampling",
+    "V-trace",
+    "hyperparameter tuning",
+    "ablation runs"
+  ]
+}
