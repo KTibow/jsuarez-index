@@ -1,0 +1,4077 @@
+WEBVTT
+
+NOTE
+metadata:
+title: RL Research with Joseph Suarez
+id: ACaewjo_FvI
+url: https://www.youtube.com/watch?v=ACaewjo_FvI
+date: 2026-08-11T20:41:59+00:00
+language: en
+
+00:00:03.030 --> 00:00:03.040
+should be live here.
+
+00:00:03.040 --> 00:00:05.749
+Hello. Let me get the title set and
+
+00:00:05.759 --> 00:00:07.829
+stuff.
+
+00:00:07.839 --> 00:00:18.070
+Uh software and game dev. Where is it?
+
+00:00:20.790 --> 00:00:20.800
+Cool. Looking a little scruffy today. I
+
+00:00:20.800 --> 00:00:23.349
+need a haircut and a shave.
+
+00:00:23.359 --> 00:00:25.509
+That's okay.
+
+00:00:25.519 --> 00:00:28.390
+Let me switch the
+
+00:00:28.400 --> 00:00:31.029
+Can I switch the camera over?
+
+00:00:31.039 --> 00:00:35.510
+Yes, I can.
+
+00:00:37.030 --> 00:00:37.040
+Okay, so we're going to do some net hack
+
+00:00:37.040 --> 00:00:39.510
+at the moment. Um or actually in a few
+
+00:00:39.520 --> 00:00:41.430
+minutes at least. I have to clean one
+
+00:00:41.440 --> 00:00:54.310
+last thing up from this bit of work.
+
+00:01:07.109 --> 00:01:07.119
+is better.
+
+00:01:07.119 --> 00:01:11.030
+0968 live
+
+00:01:11.040 --> 00:01:22.310
+plus clip.
+
+00:01:39.030 --> 00:01:39.040
+There is a double counting effect.
+
+00:01:39.040 --> 00:01:42.149
+Cool. Uh,
+
+00:01:42.159 --> 00:01:54.469
+how do I want to handle this?
+
+00:01:59.429 --> 00:01:59.439
+Hello. Um, Finn, not quite just yet.
+
+00:01:59.439 --> 00:02:04.230
+I need to merge your PR,
+
+00:02:14.150 --> 00:02:14.160
+I'm trying to think how I want to handle
+
+00:02:14.160 --> 00:02:16.150
+this because I want to do net hack stuff
+
+00:02:16.160 --> 00:02:21.510
+now. It's just in a really weird state.
+
+00:02:23.990 --> 00:02:24.000
+Let's get your PR merged upstream first,
+
+00:02:24.000 --> 00:02:28.150
+maybe.
+
+00:02:29.589 --> 00:02:29.599
+Oops. This is the wrong browser, isn't
+
+00:02:29.599 --> 00:02:31.830
+it? No, that's fine.
+
+00:02:31.840 --> 00:02:52.390
+Hey, Liberty.
+
+00:03:42.390 --> 00:03:42.400
+Yeah, I'm not going to take a giant copy
+
+00:03:42.400 --> 00:03:44.710
+like this.
+
+00:03:44.720 --> 00:03:47.589
+What the hell? And then there's another
+
+00:03:47.599 --> 00:03:50.550
+Oh, this is [ __ ]
+
+00:03:50.560 --> 00:03:52.550
+Hang on. If this all looks out, I'm just
+
+00:03:52.560 --> 00:04:05.429
+banning this dude.
+
+00:04:26.710 --> 00:04:26.720
+Okay.
+
+00:04:26.720 --> 00:04:28.710
+Obviously, we're not merging random crap
+
+00:04:28.720 --> 00:04:30.469
+from this.
+
+00:04:30.479 --> 00:04:35.749
+Uh, where's my net hack PR?
+
+00:04:38.310 --> 00:04:38.320
+Is a bit cleaner. Oh, wait. I thought I
+
+00:04:38.320 --> 00:04:44.230
+had a Net Hack PR open. No.
+
+00:04:47.909 --> 00:04:47.919
+The PR also has
+
+00:04:47.919 --> 00:04:56.230
+huh? Is it this one?
+
+00:05:00.070 --> 00:05:00.080
+Can I merge this yet?
+
+00:05:00.080 --> 00:05:01.510
+Your is fine. Don't worry about viz. So
+
+00:05:01.520 --> 00:05:10.230
+I can merge this. Yeah,
+
+00:05:45.670 --> 00:05:45.680
+And obviously we will uh we'll
+
+00:05:45.680 --> 00:05:49.110
+eventually try to get this out of here.
+
+00:05:49.120 --> 00:05:51.830
+Fine. Cool.
+
+00:05:51.840 --> 00:05:56.310
+Thank you, Finn.
+
+00:05:59.430 --> 00:05:59.440
+Work from the fin turn.
+
+00:05:59.440 --> 00:06:02.390
+Let's get some net hack. I really really
+
+00:06:02.400 --> 00:07:14.070
+want to get some net going in here.
+
+00:07:18.150 --> 00:07:18.160
+depth config is
+
+00:07:18.160 --> 00:07:20.309
+in net hack folder. Okay. So you gave me
+
+00:07:20.319 --> 00:07:28.629
+default score I guess.
+
+00:07:35.670 --> 00:07:35.680
+do I need a new net hack build or
+
+00:07:35.680 --> 00:07:56.150
+something with Easy
+
+00:08:13.029 --> 00:08:13.039
+We do need to figure out um at some
+
+00:08:13.039 --> 00:08:15.510
+point, Finn, like how tied is Python to
+
+00:08:15.520 --> 00:08:18.230
+the NLE that you're actually using? Can
+
+00:08:18.240 --> 00:08:21.110
+we just easily delete Python from um the
+
+00:08:21.120 --> 00:08:35.029
+NLE dep? Isn't it just C?
+
+00:09:07.829 --> 00:09:07.839
+No, Python probably delete. Yeah, that's
+
+00:09:07.839 --> 00:09:10.150
+nice.
+
+00:09:10.160 --> 00:09:12.790
+Python is just straight cancer. Like it
+
+00:09:12.800 --> 00:09:14.389
+just goes as soon as you have a little
+
+00:09:14.399 --> 00:09:16.070
+bit of Python, you get Python
+
+00:09:16.080 --> 00:09:26.310
+everywhere.
+
+00:09:29.509 --> 00:09:29.519
+25 minutes. Eh,
+
+00:09:29.519 --> 00:09:37.750
+holy. Wait, only 11% M time.
+
+00:10:06.389 --> 00:10:06.399
+Interesting.
+
+00:10:06.399 --> 00:10:11.990
+I guess we'll leave this up here.
+
+00:10:23.750 --> 00:10:23.760
+like this.
+
+00:10:23.760 --> 00:10:37.110
+Mask run.
+
+00:10:58.310 --> 00:10:58.320
+It's still pretty slow.
+
+00:10:58.320 --> 00:11:00.550
+This is just like the config being slow
+
+00:11:00.560 --> 00:11:05.910
+though, man.
+
+00:11:25.750 --> 00:11:25.760
+not waiting this long for this. Let's
+
+00:11:25.760 --> 00:11:28.310
+let me try something real quick.
+
+00:11:28.320 --> 00:11:31.110
+So, we need
+
+00:11:31.120 --> 00:11:37.910
+256 agents times
+
+00:12:26.790 --> 00:12:26.800
+It's still 24 minutes. Okay.
+
+00:12:26.800 --> 00:12:40.310
+Oh, that's bad.
+
+00:12:53.350 --> 00:12:53.360
+I did ask for a faster config if I
+
+00:12:53.360 --> 00:12:55.269
+recall.
+
+00:12:55.279 --> 00:12:57.910
+We definitely want a like an HGPU config
+
+00:12:57.920 --> 00:13:08.230
+for this.
+
+00:13:23.990 --> 00:13:24.000
+Um, it's already two. Like I'm doing a
+
+00:13:24.000 --> 00:13:26.550
+two hour stream right now.
+
+00:13:26.560 --> 00:14:21.189
+Maybe a little bit over two hours.
+
+00:14:23.750 --> 00:14:23.760
+Interesting.
+
+00:14:23.760 --> 00:14:25.910
+We still have algo shenanigans going on
+
+00:14:25.920 --> 00:14:32.710
+here
+
+00:14:37.110 --> 00:14:37.120
+off last week of workers. Yeah,
+
+00:14:37.120 --> 00:14:39.670
+of course. Yeah, I think that just like
+
+00:14:39.680 --> 00:14:43.350
+once you do a good sweep basically, you
+
+00:14:43.360 --> 00:14:44.790
+have to constrain the sweep so it
+
+00:14:44.800 --> 00:14:46.550
+doesn't spawn a ton of MS and it only
+
+00:14:46.560 --> 00:14:48.470
+uses like eight cores or whatever,
+
+00:14:48.480 --> 00:14:51.750
+right? Because you need to have it be
+
+00:14:51.760 --> 00:14:53.269
+scalable.
+
+00:14:53.279 --> 00:14:56.550
+Um, so ideally you want to try to like
+
+00:14:56.560 --> 00:14:58.069
+try to do something efficient with
+
+00:14:58.079 --> 00:14:59.910
+relatively few M's and a relatively
+
+00:14:59.920 --> 00:15:03.189
+small mini batch. 8K at the very max.
+
+00:15:03.199 --> 00:15:05.990
+4096 would probably be better even. And
+
+00:15:06.000 --> 00:15:08.069
+then what you want to do, right, is then
+
+00:15:08.079 --> 00:15:10.470
+you just run the HPU version, which will
+
+00:15:10.480 --> 00:15:12.150
+essentially get you 8x the batch size
+
+00:15:12.160 --> 00:15:15.030
+and 8x the mini batch size and otherwise
+
+00:15:15.040 --> 00:15:19.509
+be identical.
+
+00:15:21.430 --> 00:15:21.440
+And then that should get like some
+
+00:15:21.440 --> 00:15:23.829
+ridiculously fast training. That's how
+
+00:15:23.839 --> 00:15:34.389
+we can do stuff in the billions.
+
+00:15:36.069 --> 00:15:36.079
+And we'll see whether this setup I have
+
+00:15:36.079 --> 00:16:21.749
+on my current branch is any
+
+00:16:24.069 --> 00:16:24.079
+more than an ish
+
+00:16:24.079 --> 00:16:27.509
+force 40 I would say max. So like in the
+
+00:16:27.519 --> 00:16:30.470
+sweep settings probably you want to cap
+
+00:16:30.480 --> 00:16:33.590
+it out at like 4096ish.
+
+00:16:33.600 --> 00:16:35.829
+Uh this is not an exact science yet by
+
+00:16:35.839 --> 00:16:37.990
+the way Finn because like the way that
+
+00:16:38.000 --> 00:16:40.069
+our multiGP works right is you just get
+
+00:16:40.079 --> 00:16:43.749
+8x batch and 8x mini batch and 8x ends.
+
+00:16:43.759 --> 00:16:45.990
+So I mean technically the best thing
+
+00:16:46.000 --> 00:16:49.910
+would be to sweep at that scale but you
+
+00:16:49.920 --> 00:16:52.150
+can't really do that. And also like the
+
+00:16:52.160 --> 00:16:55.430
+hardware perf will scale differently.
+
+00:16:55.440 --> 00:16:57.749
+So you kind of just want to assume like
+
+00:16:57.759 --> 00:16:59.430
+hey they're going to be diminishing
+
+00:16:59.440 --> 00:17:01.269
+returns to scaling batch and mini batch
+
+00:17:01.279 --> 00:17:03.189
+size. So if we find a reasonably
+
+00:17:03.199 --> 00:17:06.309
+hardware efficient single GPU config at
+
+00:17:06.319 --> 00:17:08.470
+lower batches then it should be much
+
+00:17:08.480 --> 00:17:10.710
+better if we can scale that with
+
+00:17:10.720 --> 00:20:35.990
+multiGPU.
+
+00:20:37.750 --> 00:20:37.760
+Yeah, this is this whole thing I've been
+
+00:20:37.760 --> 00:20:40.310
+working on with off Paul's very screw.
+
+00:20:40.320 --> 00:20:43.990
+Once you've made an N or two, what would
+
+00:20:44.000 --> 00:20:46.950
+you recommend?
+
+00:20:46.960 --> 00:20:49.669
+Because source code still feels scary.
+
+00:20:49.679 --> 00:20:51.350
+you probably want to do a midsize
+
+00:20:51.360 --> 00:20:54.549
+project is my guess.
+
+00:20:54.559 --> 00:20:58.070
+Like you want to do a larger end. Um the
+
+00:20:58.080 --> 00:21:01.029
+Craftax port was an example of that.
+
+00:21:01.039 --> 00:21:04.470
+Terraform is an example of that. Uh even
+
+00:21:04.480 --> 00:21:07.029
+something like 2048 that ended up
+
+00:21:07.039 --> 00:21:09.190
+actually being an incredibly useful
+
+00:21:09.200 --> 00:21:11.029
+environment.
+
+00:21:11.039 --> 00:21:12.950
+So you can do larger end stuff. If you
+
+00:21:12.960 --> 00:21:14.390
+want to get into research side stuff,
+
+00:21:14.400 --> 00:21:16.070
+you can do that. But note that there's a
+
+00:21:16.080 --> 00:21:18.950
+big jump uh to getting into research.
+
+00:21:18.960 --> 00:21:21.830
+That's when things get like I bang my
+
+00:21:21.840 --> 00:21:23.590
+head against stuff that should work for
+
+00:21:23.600 --> 00:21:26.549
+days just to find that like literally
+
+00:21:26.559 --> 00:21:29.350
+top 10 best known papers in the field
+
+00:21:29.360 --> 00:21:33.430
+don't work as you'd expect them to.
+
+00:21:33.440 --> 00:21:35.350
+So
+
+00:21:35.360 --> 00:21:37.270
+we do we generally definitely need more
+
+00:21:37.280 --> 00:21:39.029
+m if you want some examples right the
+
+00:21:39.039 --> 00:21:40.470
+craft tech stuff that's going on now
+
+00:21:40.480 --> 00:21:41.830
+there are a few people working on things
+
+00:21:41.840 --> 00:21:43.990
+around that that's super useful we're
+
+00:21:44.000 --> 00:21:45.909
+going to directly use that end once it's
+
+00:21:45.919 --> 00:21:49.830
+fast and simpler uh for research
+
+00:21:49.840 --> 00:21:52.470
+uh's runescape stuff is going to be
+
+00:21:52.480 --> 00:21:54.230
+really awesome set of ends John also has
+
+00:21:54.240 --> 00:21:56.230
+the fight caves ends those are going to
+
+00:21:56.240 --> 00:22:01.430
+be super useful once they're ready um
+
+00:22:01.440 --> 00:22:04.070
+we have uh there was PR opened as well
+
+00:22:04.080 --> 00:22:06.149
+for like a thing in neural MMO 3 that
+
+00:22:06.159 --> 00:22:09.029
+might make that much better. MMO is
+
+00:22:09.039 --> 00:22:11.430
+still or rather MOA is still relatively
+
+00:22:11.440 --> 00:22:13.190
+open in terms of it being story and
+
+00:22:13.200 --> 00:22:14.710
+needing fixes, but I I don't want
+
+00:22:14.720 --> 00:22:16.230
+anybody destroying the code of that
+
+00:22:16.240 --> 00:22:20.710
+either. Uh what else we have?
+
+00:22:20.720 --> 00:22:22.549
+Definitely we need selfplay M at the
+
+00:22:22.559 --> 00:22:25.590
+moment. A larger project at the moment
+
+00:22:25.600 --> 00:22:27.590
+that I don't know if I trust a newish
+
+00:22:27.600 --> 00:22:29.590
+contributor to do, but something that I
+
+00:22:29.600 --> 00:22:32.630
+w I am thinking about now. We kind of
+
+00:22:32.640 --> 00:22:35.270
+need a new breakout in the sense that
+
+00:22:35.280 --> 00:22:36.789
+like breakout used to be the thing that
+
+00:22:36.799 --> 00:22:38.789
+we ran in 30 seconds that was a pretty
+
+00:22:38.799 --> 00:22:42.070
+good test for us. Breakout is now solved
+
+00:22:42.080 --> 00:22:45.510
+in under a second and like basically
+
+00:22:45.520 --> 00:22:47.430
+anything we do will solve it. So it's no
+
+00:22:47.440 --> 00:22:50.230
+longer a hard enough test and our next
+
+00:22:50.240 --> 00:22:54.789
+best stuff like maze and whatnot. Um
+
+00:22:54.799 --> 00:22:56.310
+we're still looking at like several
+
+00:22:56.320 --> 00:22:59.430
+minutes and it's pretty limited. like
+
+00:22:59.440 --> 00:23:01.270
+we'd want an end that tests more
+
+00:23:01.280 --> 00:23:05.350
+different types of challenges in RL.
+
+00:23:05.360 --> 00:23:07.510
+The design of that would have to be very
+
+00:23:07.520 --> 00:23:09.430
+intentional and the difficulty would
+
+00:23:09.440 --> 00:23:11.590
+have to be well calibrated to be
+
+00:23:11.600 --> 00:23:13.029
+something where we can like get a
+
+00:23:13.039 --> 00:23:15.510
+version of it that we can speedrun
+
+00:23:15.520 --> 00:23:17.029
+starting at like a minute, let's say,
+
+00:23:17.039 --> 00:23:18.789
+and then try to get that down to 10
+
+00:23:18.799 --> 00:23:23.029
+seconds over the next few releases.
+
+00:23:24.149 --> 00:23:24.159
+But those specs are going to be
+
+00:23:24.159 --> 00:23:26.630
+inherently pretty vague because that's
+
+00:23:26.640 --> 00:23:29.909
+going to take some fiddling.
+
+00:23:29.919 --> 00:23:31.110
+Yeah, there's still a lot of low
+
+00:23:31.120 --> 00:23:33.430
+hanging. I mean, it's just it's not even
+
+00:23:33.440 --> 00:23:36.070
+that. Yeah, port NES. Yeah, there's lots
+
+00:23:36.080 --> 00:23:38.230
+of things. Um, there's lots of
+
+00:23:38.240 --> 00:23:41.270
+lowhanging fruit because basically all
+
+00:23:41.280 --> 00:23:44.710
+of the RLE is all the RLED is so bad and
+
+00:23:44.720 --> 00:23:47.750
+screwy and the ends are so slow, right?
+
+00:23:47.760 --> 00:23:49.750
+I mean, even porting stuff, right? Even
+
+00:23:49.760 --> 00:23:51.669
+porting existing stuff is pretty nice.
+
+00:23:51.679 --> 00:23:53.750
+like just getting us a binding to
+
+00:23:53.760 --> 00:23:56.789
+procgen and then trying to get our conf
+
+00:23:56.799 --> 00:24:00.149
+policy stack on procgen to actually be a
+
+00:24:00.159 --> 00:24:02.789
+reasonable throughput. Like that's
+
+00:24:02.799 --> 00:24:04.230
+something that somebody with a medium
+
+00:24:04.240 --> 00:24:06.710
+amount of experience could do. I think
+
+00:24:06.720 --> 00:24:08.870
+FBR reimplemented Doom, but literally
+
+00:24:08.880 --> 00:24:12.149
+the the actual Doom game has bindings um
+
+00:24:12.159 --> 00:24:13.750
+that can get up to like a couple hundred
+
+00:24:13.760 --> 00:24:16.710
+kps. So like there is pixel stuff that
+
+00:24:16.720 --> 00:24:18.230
+can be done if you want to do pixel
+
+00:24:18.240 --> 00:24:20.870
+stuff though it's not super super fast.
+
+00:24:20.880 --> 00:24:23.029
+I think procgen has state come to think
+
+00:24:23.039 --> 00:24:25.510
+of it. So you can probably do procgen
+
+00:24:25.520 --> 00:24:27.350
+from state as well and have that even be
+
+00:24:27.360 --> 00:24:30.710
+way faster. Um really there's a huge
+
+00:24:30.720 --> 00:24:32.549
+huge amount of stuff we that could be
+
+00:24:32.559 --> 00:24:35.029
+done at this moment. Doesn't need much
+
+00:24:35.039 --> 00:24:38.310
+compute either.
+
+00:24:38.320 --> 00:24:39.909
+I would imagine that with puffer with
+
+00:24:39.919 --> 00:24:41.909
+like a decent p would just merk procgen
+
+00:24:41.919 --> 00:24:58.870
+from state.
+
+00:25:01.190 --> 00:25:01.200
+Okay, we're learning. We're learning.
+
+00:25:01.200 --> 00:25:03.909
+We're learning. Look at this. Depth 10,
+
+00:25:03.919 --> 00:25:08.230
+depth 15.
+
+00:25:43.510 --> 00:25:43.520
+any research. We're going to give this
+
+00:25:43.520 --> 00:26:44.950
+like two scroll wheel turns.
+
+00:26:48.630 --> 00:26:48.640
+Oh, Ray is awesome.
+
+00:26:48.640 --> 00:26:51.750
+100k SPS. It was considered fast. Some
+
+00:26:51.760 --> 00:26:53.750
+of the logs don't fit on the dash. Yeah.
+
+00:26:53.760 --> 00:26:55.990
+So, we intentionally do that to like I
+
+00:26:56.000 --> 00:26:57.990
+intentionally cap the logs like this to
+
+00:26:58.000 --> 00:26:59.909
+discourage people from logging a million
+
+00:26:59.919 --> 00:27:01.510
+things.
+
+00:27:01.520 --> 00:27:02.950
+um just to be a little bit more
+
+00:27:02.960 --> 00:27:04.870
+intentional about what data you are
+
+00:27:04.880 --> 00:27:09.750
+actually tracking.
+
+00:27:12.470 --> 00:27:12.480
+Chess isn't good yet. Yeah, there's a
+
+00:27:12.480 --> 00:27:14.230
+lot of stuff with chess. There's
+
+00:27:14.240 --> 00:27:15.430
+probably still some room for
+
+00:27:15.440 --> 00:27:18.789
+architecture stuff.
+
+00:27:18.799 --> 00:27:20.710
+I don't know if eventually there will be
+
+00:27:20.720 --> 00:27:23.669
+some sort of attention based mechanism
+
+00:27:23.679 --> 00:27:25.990
+that like fixes our con nightmares.
+
+00:27:26.000 --> 00:27:29.350
+Probably not.
+
+00:27:29.360 --> 00:27:31.350
+I'm going to have to actually go through
+
+00:27:31.360 --> 00:27:33.669
+at some point. I want to just get this
+
+00:27:33.679 --> 00:27:34.870
+policy trained though. I don't want to
+
+00:27:34.880 --> 00:27:36.070
+derail myself. So, we're going to get
+
+00:27:36.080 --> 00:27:37.510
+this policy trained in the next 10
+
+00:27:37.520 --> 00:27:39.110
+minutes and then we're basically going
+
+00:27:39.120 --> 00:27:55.350
+to play with this and tweak some things.
+
+00:27:58.470 --> 00:27:58.480
+I like that the end here is at 5%.
+
+00:27:58.480 --> 00:28:01.510
+That's nice. But I think that yeah,
+
+00:28:01.520 --> 00:28:04.230
+Finn, if you swept this thing on um
+
+00:28:04.240 --> 00:28:06.710
+synchronous and then you converted it to
+
+00:28:06.720 --> 00:28:09.430
+async, for instance, it's going to push
+
+00:28:09.440 --> 00:28:12.070
+it too far in that direction, like it's
+
+00:28:12.080 --> 00:28:14.789
+going to overly crank the policy because
+
+00:28:14.799 --> 00:28:17.510
+it thinks the ENV is very very slow.
+
+00:28:17.520 --> 00:28:20.149
+Same with search 20. So that'll shift
+
+00:28:20.159 --> 00:28:27.510
+optimal hypers quite a bit.
+
+00:28:37.909 --> 00:28:37.919
+bruh. I think I'd be like four or 600
+
+00:28:37.919 --> 00:28:39.430
+ELO.
+
+00:28:39.440 --> 00:28:45.190
+I am awful at everything.
+
+00:28:47.029 --> 00:28:47.039
+Non. Okay. Can I read this out loud,
+
+00:28:47.039 --> 00:28:49.269
+Tier? Jess, I don't see anything
+
+00:28:49.279 --> 00:28:52.149
+private.
+
+00:28:52.159 --> 00:28:54.470
+Uh, I think async is good from what I've
+
+00:28:54.480 --> 00:28:56.710
+seen. Finn,
+
+00:28:56.720 --> 00:29:05.269
+non- degenerate shop use
+
+00:29:15.110 --> 00:29:15.120
+Honestly, like I think we're we're
+
+00:29:15.120 --> 00:29:17.830
+encouraging the shop too much. It needs
+
+00:29:17.840 --> 00:29:20.389
+to get the chance to like use it a
+
+00:29:20.399 --> 00:29:22.950
+couple times and buy stuff, but then
+
+00:29:22.960 --> 00:29:24.470
+like
+
+00:29:24.480 --> 00:29:26.549
+it should mostly end up being able to
+
+00:29:26.559 --> 00:29:29.029
+get uh to learn this first like by
+
+00:29:29.039 --> 00:29:31.510
+getting AC or getting other stuff.
+
+00:29:31.520 --> 00:29:33.830
+Identification is the ma the massive
+
+00:29:33.840 --> 00:29:36.389
+massive one that's really tough cuz this
+
+00:29:36.399 --> 00:29:39.269
+one is just straight up like human need
+
+00:29:39.279 --> 00:29:46.230
+to be told what to do.
+
+00:29:48.070 --> 00:29:48.080
+replacing randomized glyphs with their
+
+00:29:48.080 --> 00:29:52.149
+true griff glyphs in the obs
+
+00:29:52.159 --> 00:29:56.789
+when identified.
+
+00:29:58.710 --> 00:29:58.720
+Bunch of glyphs for different random
+
+00:29:58.720 --> 00:30:01.990
+item names is wasteful.
+
+00:30:02.000 --> 00:30:06.710
+A single this is unknown glyph per item.
+
+00:30:06.720 --> 00:30:10.470
+41 of random scrolls.
+
+00:30:10.480 --> 00:30:12.950
+Uh you could actually make the obs
+
+00:30:12.960 --> 00:30:16.630
+massively faster if you do that as well.
+
+00:30:16.640 --> 00:30:18.950
+I don't think that that helps with uh
+
+00:30:18.960 --> 00:30:20.630
+identification, but that is a speed
+
+00:30:20.640 --> 00:30:23.510
+improvement if we can't identify
+
+00:30:23.520 --> 00:30:27.190
+buck identification.
+
+00:30:29.430 --> 00:30:29.440
+Never used it. Needs rewards. Yeah. So,
+
+00:30:29.440 --> 00:30:31.190
+it doesn't
+
+00:30:31.200 --> 00:30:33.430
+The thing I don't get with this Finn is
+
+00:30:33.440 --> 00:30:35.269
+like, let's say that you don't know how
+
+00:30:35.279 --> 00:30:39.350
+to buck test. Do you not just like equip
+
+00:30:39.360 --> 00:30:41.269
+whatever is cursed and then just hope
+
+00:30:41.279 --> 00:30:46.230
+you can pray it off later?
+
+00:30:50.789 --> 00:30:50.799
+Rings and amulets not used at all
+
+00:30:50.799 --> 00:30:53.590
+are not used at all. Yeah. So like
+
+00:30:53.600 --> 00:30:55.430
+you're literally not using the strongest
+
+00:30:55.440 --> 00:31:06.389
+equipment in the game.
+
+00:31:09.590 --> 00:31:09.600
+Oh, here's a fun idea, Finn. The game
+
+00:31:09.600 --> 00:31:11.590
+knows what all the items are internally,
+
+00:31:11.600 --> 00:31:22.470
+right?
+
+00:31:23.990 --> 00:31:24.000
+Like the game knows all the items
+
+00:31:24.000 --> 00:31:26.230
+internally, right?
+
+00:31:26.240 --> 00:31:27.909
+Could we do something where we like
+
+00:31:27.919 --> 00:31:30.630
+cheat it by letting it see some of the
+
+00:31:30.640 --> 00:31:33.990
+true items during training in order for
+
+00:31:34.000 --> 00:31:36.950
+it to like get a sense of like, you
+
+00:31:36.960 --> 00:31:38.549
+know, if you actually know what the item
+
+00:31:38.559 --> 00:31:41.110
+is, how useful it is. Maybe we could get
+
+00:31:41.120 --> 00:31:47.990
+it to ID stuff based on that.
+
+00:31:50.630 --> 00:31:50.640
+Planning to try that.
+
+00:31:50.640 --> 00:31:51.909
+Well, it's a good news when you
+
+00:31:51.919 --> 00:31:53.909
+anticipate the things that I suggest.
+
+00:31:53.919 --> 00:32:12.549
+That means you're learning a lot.
+
+00:32:15.590 --> 00:32:15.600
+market worket hack helpful for my own
+
+00:32:15.600 --> 00:32:18.789
+env uh it's not like a market chest it's
+
+00:32:18.799 --> 00:32:20.789
+like a game shop where you have you just
+
+00:32:20.799 --> 00:32:22.710
+go they're items on the ground and you
+
+00:32:22.720 --> 00:32:25.190
+can pick them up in the shop and then
+
+00:32:25.200 --> 00:32:28.549
+you can hit P to pay for them
+
+00:32:28.559 --> 00:32:30.389
+as curriculum yeah that's what I'm
+
+00:32:30.399 --> 00:32:32.630
+saying Finn now I I don't think that
+
+00:32:32.640 --> 00:32:35.269
+there's an obvious link for like I know
+
+00:32:35.279 --> 00:32:37.990
+the ID of some items to I will learn how
+
+00:32:38.000 --> 00:32:41.909
+to ID items.
+
+00:32:44.470 --> 00:32:44.480
+Though I suppose
+
+00:32:44.480 --> 00:32:47.750
+if it sees how useful the rings are when
+
+00:32:47.760 --> 00:32:51.669
+it knows what the rings can do, maybe
+
+00:32:51.679 --> 00:32:53.590
+maybe that leads it to like, oh, when I
+
+00:32:53.600 --> 00:32:56.230
+don't have a ring, I can ID it. But
+
+00:32:56.240 --> 00:32:58.950
+that's kind of a stretch.
+
+00:32:58.960 --> 00:33:09.269
+That's kind of too high level logicy.
+
+00:33:11.190 --> 00:33:11.200
+We might also just be scaffolding too
+
+00:33:11.200 --> 00:33:17.509
+much. I'm trying to think like
+
+00:33:19.590 --> 00:33:19.600
+why don't here I have four minutes. Why
+
+00:33:19.600 --> 00:33:41.190
+don't we do
+
+00:33:49.590 --> 00:33:49.600
+Spell of identify.
+
+00:33:49.600 --> 00:33:53.750
+Sitting on a throne.
+
+00:35:03.589 --> 00:35:03.599
+cheat.
+
+00:35:03.599 --> 00:35:08.790
+Okay. Um,
+
+00:35:12.550 --> 00:35:12.560
+one idea for cheating Finn, if we wanted
+
+00:35:12.560 --> 00:35:14.390
+to let it cheat just a very small
+
+00:35:14.400 --> 00:35:17.510
+amount, would be to just tell it what is
+
+00:35:17.520 --> 00:35:20.390
+the scroll of identification and see if
+
+00:35:20.400 --> 00:35:22.870
+we can get it to use like to get and use
+
+00:35:22.880 --> 00:35:34.790
+those. Maybe.
+
+00:35:36.630 --> 00:35:36.640
+It is still the case though that a lot
+
+00:35:36.640 --> 00:35:38.069
+of the time you can kind of just put
+
+00:35:38.079 --> 00:35:40.550
+stuff on
+
+00:35:40.560 --> 00:35:42.310
+stuff
+
+00:35:42.320 --> 00:35:46.150
+knowledge graph approach.
+
+00:35:46.160 --> 00:35:47.829
+You definitely don't need that crap for
+
+00:35:47.839 --> 00:35:51.190
+Super Mario first of all. There are
+
+00:35:51.200 --> 00:35:53.430
+other places where it's like maybe but
+
+00:35:53.440 --> 00:35:56.710
+probably overkill
+
+00:35:56.720 --> 00:35:59.030
+would be cool. Yeah, I think it's worth.
+
+00:35:59.040 --> 00:36:00.710
+So, I don't think that this is useful
+
+00:36:00.720 --> 00:36:02.630
+for long-term progress and I really
+
+00:36:02.640 --> 00:36:05.670
+don't want to get you here. I Let me Can
+
+00:36:05.680 --> 00:36:07.349
+I Let me frame it for you out, Finn.
+
+00:36:07.359 --> 00:36:10.470
+Okay. I don't want you to get bogged
+
+00:36:10.480 --> 00:36:12.630
+down by like doing a bunch of reward
+
+00:36:12.640 --> 00:36:14.710
+scaffolding and hacky curriculum crap
+
+00:36:14.720 --> 00:36:17.430
+with this uh with Net Hack. I don't
+
+00:36:17.440 --> 00:36:20.390
+think that's useful. like making sane
+
+00:36:20.400 --> 00:36:23.750
+observation and actions that's useful.
+
+00:36:23.760 --> 00:36:27.190
+Okay. Um
+
+00:36:27.200 --> 00:36:29.430
+bunch of hacky like scaffolding not as
+
+00:36:29.440 --> 00:36:31.990
+useful. Now what I do think that that is
+
+00:36:32.000 --> 00:36:35.750
+useful for though is like let's say that
+
+00:36:35.760 --> 00:36:37.829
+you tell it what a scroll of
+
+00:36:37.839 --> 00:36:40.150
+identification is. Okay. And give it
+
+00:36:40.160 --> 00:36:42.230
+like an identify reward or whatever,
+
+00:36:42.240 --> 00:36:43.670
+right?
+
+00:36:43.680 --> 00:36:46.310
+and uh then it just like massively gets
+
+00:36:46.320 --> 00:36:49.670
+better and like merks Medusa or
+
+00:36:49.680 --> 00:36:54.310
+something. Okay, then you know that if
+
+00:36:54.320 --> 00:36:57.270
+the policy can learn this one thing,
+
+00:36:57.280 --> 00:36:59.589
+then everything else is solved. So you
+
+00:36:59.599 --> 00:37:01.190
+basically just have a really tough
+
+00:37:01.200 --> 00:37:03.910
+exploration problem where it's like um
+
+00:37:03.920 --> 00:37:06.710
+having to have a person do like figure
+
+00:37:06.720 --> 00:37:08.390
+this out on their own without reading
+
+00:37:08.400 --> 00:37:10.230
+the wiki and if the thing were written
+
+00:37:10.240 --> 00:37:15.349
+in braille, right?
+
+00:37:17.109 --> 00:37:17.119
+And then you can basically decide
+
+00:37:17.119 --> 00:37:19.109
+whether you think it is a reasonable
+
+00:37:19.119 --> 00:37:22.390
+thing for them to figure this out or
+
+00:37:22.400 --> 00:37:24.950
+whether this is external knowledge. In
+
+00:37:24.960 --> 00:37:26.950
+which case instead of trying to gently
+
+00:37:26.960 --> 00:37:29.349
+scaffold it towards that solution, you
+
+00:37:29.359 --> 00:37:31.109
+just give it the piece of information
+
+00:37:31.119 --> 00:37:33.589
+that it needs like however hacky that
+
+00:37:33.599 --> 00:37:36.230
+may be because it's like look obviously
+
+00:37:36.240 --> 00:37:38.390
+this is not learnable. Tabularasa
+
+00:37:38.400 --> 00:37:40.230
+players can't figure this out on their
+
+00:37:40.240 --> 00:37:42.310
+own. they have to be told it outside of
+
+00:37:42.320 --> 00:37:45.109
+the game uh or inside of the game by
+
+00:37:45.119 --> 00:37:48.950
+reading the text, you know, that's fine.
+
+00:37:48.960 --> 00:37:50.710
+I think that that's the way to think of
+
+00:37:50.720 --> 00:37:52.870
+it.
+
+00:37:52.880 --> 00:37:57.510
+Also, this this thing kind of sucked,
+
+00:38:01.430 --> 00:38:01.440
+but I have some local changes, so
+
+00:38:01.440 --> 00:38:02.950
+at least this will be something to look
+
+00:38:02.960 --> 00:38:06.630
+at.
+
+00:38:08.310 --> 00:38:08.320
+I would kind of prefer to look at a
+
+00:38:08.320 --> 00:38:17.349
+better policy than this, though.
+
+00:38:20.150 --> 00:38:20.160
+I do also have some local changes. Uh
+
+00:38:20.160 --> 00:38:22.470
+I've tested masking search doesn't make
+
+00:38:22.480 --> 00:38:26.390
+stuff screw up.
+
+00:38:28.150 --> 00:38:28.160
+Do you just have that policy that you
+
+00:38:28.160 --> 00:38:30.550
+can send me that you like you just
+
+00:38:30.560 --> 00:38:45.430
+linked?
+
+00:38:57.670 --> 00:38:57.680
+At least now I have I have the new net
+
+00:38:57.680 --> 00:38:59.990
+hack stuff locally. I'm very excited to
+
+00:39:00.000 --> 00:39:11.829
+play with it.
+
+00:39:14.550 --> 00:39:14.560
+to be native through that work.
+
+00:39:14.560 --> 00:39:17.670
+Oh yeah, that was a useful contribution.
+
+00:39:17.680 --> 00:39:21.270
+Thank you.
+
+00:39:22.950 --> 00:39:22.960
+If you feel you're not getting enough
+
+00:39:22.960 --> 00:39:24.790
+recognition for that, go ahead and just
+
+00:39:24.800 --> 00:39:27.030
+PR like added action masking contributed
+
+00:39:27.040 --> 00:39:29.109
+to this or that to the doc site and I
+
+00:39:29.119 --> 00:39:32.310
+will merge that.
+
+00:39:32.320 --> 00:39:49.670
+I'm always happy to add attribution.
+
+00:40:45.910 --> 00:40:45.920
+box connection being slow. O
+
+00:40:45.920 --> 00:40:49.109
+supposed to be fast, but it sometimes is
+
+00:40:49.119 --> 00:41:43.349
+not.
+
+00:41:45.750 --> 00:41:45.760
+the heck.
+
+00:41:45.760 --> 00:41:52.630
+That's enough of that.
+
+00:41:55.109 --> 00:41:55.119
+Wi-Fi weird. Yeah. Okay. Wait. Infin
+
+00:41:55.119 --> 00:42:24.390
+will send us a thing in a second.
+
+00:42:26.950 --> 00:42:26.960
+I do honestly need to just boot up a
+
+00:42:26.960 --> 00:42:28.950
+game where I book it and see what
+
+00:42:28.960 --> 00:42:30.870
+happens.
+
+00:42:30.880 --> 00:42:35.190
+Like what happens if you just
+
+00:42:57.990 --> 00:42:58.000
+Interesting.
+
+00:42:58.000 --> 00:43:01.190
+Oh, there we go. Thank you.
+
+00:43:01.200 --> 00:43:03.190
+Unmask run in search that was trained
+
+00:43:03.200 --> 00:43:31.270
+with these
+
+00:44:14.710 --> 00:44:14.720
+Why is the policy this big?
+
+00:44:14.720 --> 00:44:20.069
+Wait, 30.
+
+00:44:23.670 --> 00:44:23.680
+You got a chunky policy here, my guy.
+
+00:44:23.680 --> 00:44:27.349
+This 3 4 million params.
+
+00:44:27.359 --> 00:44:29.270
+How long you been doing RL research for?
+
+00:44:29.280 --> 00:44:31.510
+Depends how you count.
+
+00:44:31.520 --> 00:44:34.950
+um at the very
+
+00:44:34.960 --> 00:44:38.309
+latest since 2018.
+
+00:44:38.319 --> 00:44:41.990
+So realistically more 17ish or whatever
+
+00:44:42.000 --> 00:44:43.589
+2017ish
+
+00:44:43.599 --> 00:44:45.430
+nine years
+
+00:44:45.440 --> 00:44:55.030
+doing other areas of uh ML before that
+
+00:44:59.349 --> 00:44:59.359
+3.9 million parameters. Yes,
+
+00:44:59.359 --> 00:45:02.550
+obviously Finn, I'm going to need the
+
+00:45:02.560 --> 00:45:09.270
+the model size params from you, right?
+
+00:45:12.309 --> 00:45:12.319
+I need to know the model size
+
+00:45:12.319 --> 00:45:14.710
+unless uh
+
+00:45:14.720 --> 00:45:20.390
+encoded somehow.
+
+00:47:31.589 --> 00:47:31.599
+I don't know the model dims, man. Like
+
+00:47:31.599 --> 00:47:33.430
+that. Like I need the the number of
+
+00:47:33.440 --> 00:47:40.309
+layers in the hidden size.
+
+00:47:41.910 --> 00:47:41.920
+Obviously, I'm going to take the time to
+
+00:47:41.920 --> 00:47:44.870
+make sure the full demo is is good. This
+
+00:47:44.880 --> 00:47:47.510
+is just one off.
+
+00:47:47.520 --> 00:47:49.190
+Model dim's already fine. It can't
+
+00:47:49.200 --> 00:47:51.750
+possibly be fine cuz it had a 1.9 mil
+
+00:47:51.760 --> 00:47:53.349
+parameter.
+
+00:47:53.359 --> 00:48:17.109
+Oh, maybe from the score config it was
+
+00:48:21.030 --> 00:48:21.040
+depth config was 1.9 mil.
+
+00:48:21.040 --> 00:48:23.829
+That's what you sent.
+
+00:48:23.839 --> 00:48:25.750
+Not the the model that you sent, but the
+
+00:48:25.760 --> 00:51:04.309
+config egg.
+
+00:51:11.030 --> 00:51:11.040
+good job with this. Holy
+
+00:51:11.040 --> 00:51:19.190
+little spammy, but
+
+00:51:21.829 --> 00:51:21.839
+We run.
+
+00:51:21.839 --> 00:51:25.030
+We get some gold.
+
+00:51:25.040 --> 00:51:28.230
+Boom. Boom.
+
+00:51:28.240 --> 00:51:32.230
+Unencumbered.
+
+00:51:44.710 --> 00:51:44.720
+I like our agent the puffer.
+
+00:51:44.720 --> 00:51:48.309
+Are you sure dims didn't change?
+
+00:51:48.319 --> 00:51:50.630
+Uh, in this one I think we're this one.
+
+00:51:50.640 --> 00:51:52.069
+This policy is definitely loaded
+
+00:51:52.079 --> 00:51:53.829
+correctly or it would just hard fail.
+
+00:51:53.839 --> 00:52:25.990
+Oh,
+
+00:52:27.990 --> 00:52:28.000
+It doesn't consider this to be it like
+
+00:52:28.000 --> 00:52:33.030
+looks spammy because of the run key.
+
+00:52:33.040 --> 00:52:34.790
+And then the hunger thing is really hard
+
+00:52:34.800 --> 00:52:42.870
+to learn.
+
+00:52:46.710 --> 00:52:46.720
+So we are at delve level four.
+
+00:52:46.720 --> 00:52:49.349
+And is this level one? We're level one I
+
+00:52:49.359 --> 00:52:59.270
+think still, right?
+
+00:53:10.390 --> 00:53:10.400
+What are we going to do about this? Huh?
+
+00:53:10.400 --> 00:53:16.870
+That was probably a search.
+
+00:53:19.910 --> 00:53:19.920
+It's like, yo,
+
+00:53:19.920 --> 00:53:23.030
+what is this? All right, auto pickup is
+
+00:53:23.040 --> 00:53:26.790
+fully on.
+
+00:53:29.990 --> 00:53:30.000
+All right, we found it.
+
+00:53:30.000 --> 00:53:35.750
+Kill the rat.
+
+00:53:39.589 --> 00:53:39.599
+Wait, the magenta potion evaporates.
+
+00:53:39.599 --> 00:53:41.270
+Did we try to drink a potion and go
+
+00:53:41.280 --> 00:53:45.829
+blind?
+
+00:54:03.829 --> 00:54:03.839
+Oh, we got a bless spell book of sleep.
+
+00:54:03.839 --> 00:54:13.510
+That's funny.
+
+00:54:21.430 --> 00:54:21.440
+valk only
+
+00:54:21.440 --> 00:54:25.670
+oracle.
+
+00:54:33.430 --> 00:54:33.440
+We're a little bit spammy. I'm feel like
+
+00:54:33.440 --> 00:54:41.589
+we're like a little bit spammy.
+
+00:55:15.589 --> 00:55:15.599
+We avoid that.
+
+00:55:15.599 --> 00:55:17.190
+We're killing things. We're killing
+
+00:55:17.200 --> 00:55:32.470
+things. We're not just Elberth rushing.
+
+00:55:35.270 --> 00:55:35.280
+And this does look like net hack
+
+00:55:35.280 --> 00:55:39.430
+this game play.
+
+00:55:41.990 --> 00:55:42.000
+Also, are the rooms just actually can or
+
+00:55:42.000 --> 00:55:43.589
+did you make the room cyan for the
+
+00:55:43.599 --> 00:55:50.470
+puffer?
+
+00:55:54.390 --> 00:55:54.400
+We're going to We're level four.
+
+00:55:54.400 --> 00:55:58.470
+Blue jelly.
+
+00:56:08.789 --> 00:56:08.799
+You're beginning to feel hungry. Did we
+
+00:56:08.799 --> 00:56:11.349
+eat something?
+
+00:56:11.359 --> 00:56:27.589
+How did we just get rid of hunger?
+
+00:56:57.349 --> 00:56:57.359
+Growth is tough.
+
+00:56:57.359 --> 00:57:01.030
+We kill the Roth.
+
+00:57:11.829 --> 00:57:11.839
+We go around the jelly. Interesting.
+
+00:57:11.839 --> 00:57:16.230
+We kill this rockpiercer.
+
+00:57:18.309 --> 00:57:18.319
+You eat the rockpierce. Okay, so it eats
+
+00:57:18.319 --> 00:57:20.870
+the rockpiercer.
+
+00:57:20.880 --> 00:57:23.670
+It does eat corpses.
+
+00:57:23.680 --> 00:57:46.390
+Shouldn't be starving.
+
+00:57:49.109 --> 00:57:49.119
+Wait, is this up?
+
+00:57:49.119 --> 00:57:50.470
+What are we doing? We have the down
+
+00:57:50.480 --> 00:57:57.349
+right there. Are we actually exploring?
+
+00:58:03.430 --> 00:58:03.440
+we are exploring intentionally here,
+
+00:58:03.440 --> 00:58:18.630
+right?
+
+00:58:20.630 --> 00:58:20.640
+eating message getting auto skipped by
+
+00:58:20.640 --> 00:58:23.270
+macro.
+
+00:58:23.280 --> 00:58:27.030
+Uh it does show it showed the corpse
+
+00:58:27.040 --> 00:58:28.710
+like the corpse eating you finished
+
+00:58:28.720 --> 00:58:31.109
+eating the thing but yeah some stuff is
+
+00:58:31.119 --> 00:58:34.789
+getting skipped. We just yellow lighted
+
+00:58:34.799 --> 00:58:37.829
+ourselves. I think
+
+00:58:37.839 --> 00:58:40.950
+you're getting the munchies.
+
+00:58:40.960 --> 00:58:44.870
+This orange is gnarly.
+
+00:58:44.880 --> 00:58:47.829
+Uhoh.
+
+00:58:47.839 --> 00:58:52.390
+We have a hallucination.
+
+00:58:55.510 --> 00:58:55.520
+Okay. We got robbed by a nymph.
+
+00:58:55.520 --> 00:58:59.270
+We're hallucinating.
+
+00:59:00.789 --> 00:59:00.799
+You missed. Yeah, we're still
+
+00:59:00.799 --> 00:59:06.950
+hallucinating.
+
+00:59:21.109 --> 00:59:21.119
+Okay, so it's a straw golem.
+
+00:59:21.119 --> 00:59:27.990
+We kill this.
+
+00:59:30.150 --> 00:59:30.160
+Yeah, we're not hacking a little bit.
+
+00:59:30.160 --> 00:59:38.230
+Love the interview. Thank you.
+
+00:59:45.670 --> 00:59:45.680
+Every day needs to be net hack day. I
+
+00:59:45.680 --> 00:59:47.270
+wish.
+
+00:59:47.280 --> 00:59:53.910
+All right. Can we figure out
+
+00:59:56.069 --> 00:59:56.079
+um
+
+00:59:56.079 --> 00:59:59.030
+Ben,
+
+00:59:59.040 --> 01:00:00.710
+do you see something wrong with the
+
+01:00:00.720 --> 01:00:12.870
+message here?
+
+01:00:15.990 --> 01:00:16.000
+I don't know. Is that a
+
+01:00:16.000 --> 01:00:25.910
+a typical net hack message?
+
+01:01:05.829 --> 01:01:05.839
+that appears when you eat an apple or
+
+01:01:05.839 --> 01:01:07.349
+pear
+
+01:01:07.359 --> 01:01:11.190
+on a Unix system.
+
+01:01:11.200 --> 01:01:16.390
+Wait, are you [ __ ] me?
+
+01:01:18.390 --> 01:01:18.400
+Is that actually an Easter egg in the
+
+01:01:18.400 --> 01:01:31.510
+game?
+
+01:01:52.470 --> 01:01:52.480
+I had to remove the Mac one. It was
+
+01:01:52.480 --> 01:01:56.309
+messing up cross machine to
+
+01:01:56.319 --> 01:02:01.109
+you can't make this stuff up. Holy crap.
+
+01:02:01.119 --> 01:02:06.230
+That's amazing.
+
+01:02:11.430 --> 01:02:11.440
+Is it getting rewarded for seeing new
+
+01:02:11.440 --> 01:02:19.190
+rooms, by the way, or just new levels?
+
+01:02:22.069 --> 01:02:22.079
+Oh,
+
+01:02:22.079 --> 01:02:24.390
+we have um
+
+01:02:24.400 --> 01:02:41.190
+how did we ID the scroll of identify
+
+01:02:42.950 --> 01:02:42.960
+new depth. It seems a little confused.
+
+01:02:42.960 --> 01:02:52.630
+Yeah.
+
+01:02:54.069 --> 01:02:54.079
+I wonder if it's trying to kill the
+
+01:02:54.079 --> 01:02:56.630
+nymph.
+
+01:02:56.640 --> 01:02:58.230
+I would be trying to kill this nymph
+
+01:02:58.240 --> 01:03:00.069
+right now.
+
+01:03:00.079 --> 01:03:02.710
+It just stole an uncursed scroll of
+
+01:03:02.720 --> 01:03:05.670
+identify from us. That's a very very
+
+01:03:05.680 --> 01:03:13.750
+valuable item it took.
+
+01:03:15.589 --> 01:03:15.599
+But no, we don't know how to do that
+
+01:03:15.599 --> 01:03:22.789
+sadly.
+
+01:03:38.789 --> 01:03:38.799
+We just drank potion, didn't we? You
+
+01:03:38.799 --> 01:03:48.230
+feel better.
+
+01:03:50.390 --> 01:03:50.400
+I think we just yoloed a potion and got
+
+01:03:50.400 --> 01:04:00.549
+healed. I'm not positive.
+
+01:04:21.349 --> 01:04:21.359
+Oh, that's actually awesome because now
+
+01:04:21.359 --> 01:04:23.349
+we should learn identify then because if
+
+01:04:23.359 --> 01:04:25.829
+we start with the scroll,
+
+01:04:25.839 --> 01:04:27.829
+if you start with the scroll, it you
+
+01:04:27.839 --> 01:04:30.789
+know what it is. So if you start with
+
+01:04:30.799 --> 01:04:32.950
+identify scrolls, then you know every
+
+01:04:32.960 --> 01:04:37.670
+single scroll of identify.
+
+01:04:39.109 --> 01:04:39.119
+But I would agree that just like
+
+01:04:39.119 --> 01:04:42.309
+combining unknown scrolls, Finn, that
+
+01:04:42.319 --> 01:04:48.150
+actually might be pretty powerful.
+
+01:04:49.750 --> 01:04:49.760
+At the very least, it would need a bit
+
+01:04:49.760 --> 01:05:09.910
+for it.
+
+01:05:13.990 --> 01:05:14.000
+We are now on depth 13.
+
+01:05:14.000 --> 01:05:16.150
+And now we're kind of starting to yolo a
+
+01:05:16.160 --> 01:05:18.950
+little bit.
+
+01:05:18.960 --> 01:05:21.750
+Can we kill this thing?
+
+01:05:21.760 --> 01:05:23.349
+Yeah, we can kill a killer bee. We're
+
+01:05:23.359 --> 01:05:25.349
+not that weak.
+
+01:05:25.359 --> 01:05:28.710
+That's a cockatress.
+
+01:05:28.720 --> 01:05:31.829
+Are we dead here?
+
+01:05:31.839 --> 01:05:33.910
+Wait, we know not to hit the cockatress.
+
+01:05:33.920 --> 01:05:38.470
+Really? We're level six.
+
+01:05:38.480 --> 01:05:40.710
+You drop a banded mail. Okay, that's
+
+01:05:40.720 --> 01:05:44.549
+sad. We are um a monk. We drop banded
+
+01:05:44.559 --> 01:05:48.870
+mail.
+
+01:05:54.710 --> 01:05:54.720
+Oh, we're going to get stoned here,
+
+01:05:54.720 --> 01:05:57.670
+aren't we?
+
+01:05:57.680 --> 01:06:01.430
+No,
+
+01:06:04.710 --> 01:06:04.720
+we el cockatress.
+
+01:06:04.720 --> 01:06:07.430
+You don't feel sleepy. We got sleep
+
+01:06:07.440 --> 01:06:09.270
+rest.
+
+01:06:09.280 --> 01:06:12.150
+Do we just elith cockatress? That's
+
+01:06:12.160 --> 01:06:15.510
+decent, right? Those things are
+
+01:06:15.520 --> 01:06:21.510
+annoying.
+
+01:06:23.910 --> 01:06:23.920
+What are we stunned?
+
+01:06:23.920 --> 01:06:26.309
+Incredibly sick.
+
+01:06:26.319 --> 01:06:28.470
+We have food.
+
+01:06:28.480 --> 01:06:31.910
+Oh, okay.
+
+01:06:31.920 --> 01:06:36.950
+Food poison. Cool.
+
+01:06:38.549 --> 01:06:38.559
+I don't know what we got it from,
+
+01:06:38.559 --> 01:06:41.430
+though.
+
+01:06:41.440 --> 01:06:44.549
+Like what what did we have that got uh
+
+01:06:44.559 --> 01:06:53.589
+gave us nausea?
+
+01:06:55.510 --> 01:06:55.520
+You're now more skilled in martial art.
+
+01:06:55.520 --> 01:07:00.309
+Oh. Um hey Finn, can it level up?
+
+01:07:00.319 --> 01:07:08.150
+Can it level up? It's unarmed.
+
+01:07:11.029 --> 01:07:11.039
+It can. Does it do it? Like, is it
+
+01:07:11.039 --> 01:07:22.390
+scripted or what
+
+01:07:34.390 --> 01:07:34.400
+And we just get to level 14 and we find
+
+01:07:34.400 --> 01:07:38.230
+something we're not ready for with
+
+01:07:38.240 --> 01:08:34.870
+Wait, why do we have 10 You see?
+
+01:08:36.229 --> 01:08:36.239
+And now we're kind of just getting
+
+01:08:36.239 --> 01:08:38.870
+swarmed by stuff that we should not be
+
+01:08:38.880 --> 01:08:41.510
+fighting with 10 AC. I don't know if a
+
+01:08:41.520 --> 01:08:43.110
+water nymph like did we get all our
+
+01:08:43.120 --> 01:08:55.430
+armor stolen or something?
+
+01:09:12.309 --> 01:09:12.319
+And we got hit with a run, a wand of
+
+01:09:12.319 --> 01:09:15.189
+striking. Lovely.
+
+01:09:15.199 --> 01:09:16.950
+So, we kind of just got surrounded by
+
+01:09:16.960 --> 01:09:20.630
+hard stuff.
+
+01:09:22.550 --> 01:09:22.560
+So
+
+01:09:22.560 --> 01:09:25.590
+key errors honestly.
+
+01:09:25.600 --> 01:09:29.189
+So Finn, key error from this, right?
+
+01:09:29.199 --> 01:09:31.430
+It wasn't completely booking it down
+
+01:09:31.440 --> 01:09:32.950
+like way before it should. It was
+
+01:09:32.960 --> 01:09:34.789
+underleveled a little bit, but not that
+
+01:09:34.799 --> 01:09:38.229
+bad.
+
+01:09:41.829 --> 01:09:41.839
+The main issue is 10 AC. It literally
+
+01:09:41.839 --> 01:09:48.309
+had 10 AC.
+
+01:09:51.349 --> 01:09:51.359
+I didn't fully see,
+
+01:09:51.359 --> 01:09:53.749
+but
+
+01:09:53.759 --> 01:09:57.350
+I think that um
+
+01:09:57.360 --> 01:09:59.189
+I think it just had armor stolen by a
+
+01:09:59.199 --> 01:10:06.149
+nymph.
+
+01:10:09.110 --> 01:10:09.120
+Or can a nymph even steal armor you're
+
+01:10:09.120 --> 01:10:10.709
+wearing? It can steal your weapon,
+
+01:10:10.719 --> 01:10:13.189
+right? But like, can a nymph steal
+
+01:10:13.199 --> 01:10:15.830
+something you're holding?
+
+01:10:15.840 --> 01:10:25.750
+Hang on.
+
+01:10:27.830 --> 01:10:27.840
+Yes, it can
+
+01:10:27.840 --> 01:10:30.870
+cuz it charms. Okay, cool. So, we lost
+
+01:10:30.880 --> 01:10:35.990
+our armor to a nymph.
+
+01:10:38.310 --> 01:10:38.320
+And then we're on depth 14 or whatever
+
+01:10:38.320 --> 01:10:40.790
+with 10 AC.
+
+01:10:40.800 --> 01:10:43.430
+And um already a little bit
+
+01:10:43.440 --> 01:10:47.510
+underleveled. And that's JG,
+
+01:10:47.520 --> 01:10:58.790
+right?
+
+01:11:05.750 --> 01:11:05.760
+what we're going to do. Honestly,
+
+01:11:05.760 --> 01:11:07.910
+I think that the most productive thing
+
+01:11:07.920 --> 01:11:10.310
+that I can do right now, as funny as it
+
+01:11:10.320 --> 01:11:14.310
+is,
+
+01:11:15.750 --> 01:11:15.760
+Have you ever tried to play like the
+
+01:11:15.760 --> 01:12:29.750
+agent does, Finn?
+
+01:12:31.910 --> 01:12:31.920
+What is the alignment of the monk
+
+01:12:31.920 --> 01:12:36.390
+typically?
+
+01:12:38.070 --> 01:12:38.080
+What's the what was the alignment? Is it
+
+01:12:38.080 --> 01:12:43.910
+lawful?
+
+01:13:02.390 --> 01:13:02.400
+Okay, here's what we're going to do.
+
+01:13:02.400 --> 01:13:14.630
+Let's just get this keyboard.
+
+01:13:18.070 --> 01:13:18.080
+What's the show inventory setting?
+
+01:13:18.080 --> 01:13:20.950
+That's fine. I can just hit I.
+
+01:13:20.960 --> 01:13:32.790
+That's fine. So,
+
+01:13:36.709 --> 01:13:36.719
+we're going to play like the agent does.
+
+01:13:36.719 --> 01:13:42.709
+Uh we don't need to corpses
+
+01:13:44.390 --> 01:13:44.400
+or rather we're going to play like
+
+01:13:44.400 --> 01:13:46.070
+restricted. We're not going to make any
+
+01:13:46.080 --> 01:13:49.110
+highle decisions whatsoever.
+
+01:13:49.120 --> 01:13:52.950
+Plum flumemed helmet.
+
+01:13:52.960 --> 01:13:56.870
+Cool.
+
+01:14:05.430 --> 01:14:05.440
+The live button is covering his eyes.
+
+01:14:05.440 --> 01:14:07.669
+What?
+
+01:14:07.679 --> 01:14:12.070
+The live button is covering his eyes.
+
+01:14:12.080 --> 01:14:14.709
+Oh,
+
+01:14:14.719 --> 01:14:36.229
+also
+
+01:14:39.270 --> 01:14:39.280
+your mind oscillates briefly.
+
+01:14:39.280 --> 01:14:43.030
+Palm of opposite alignment. Lovely.
+
+01:14:43.040 --> 01:14:45.510
+So, I didn't even know. Yeah, don't do
+
+01:14:45.520 --> 01:14:50.870
+that.
+
+01:15:15.830 --> 01:15:15.840
+Well, actually, we can ID things on a
+
+01:15:15.840 --> 01:15:18.870
+monk, can't we? But we can't do we can
+
+01:15:18.880 --> 01:15:20.229
+only do it with a scroll of
+
+01:15:20.239 --> 01:15:21.830
+identification.
+
+01:15:21.840 --> 01:15:37.590
+I think that's reasonable.
+
+01:15:57.030 --> 01:15:57.040
+And I think it's reasonable that we just
+
+01:15:57.040 --> 01:16:10.390
+leave our pet as well, right?
+
+01:16:17.030 --> 01:16:17.040
+how far can we get while playing net
+
+01:16:17.040 --> 01:16:25.750
+hack really stupidly is the question.
+
+01:16:28.790 --> 01:16:28.800
+Oh, we also have um I've never played
+
+01:16:28.800 --> 01:16:30.709
+monk. How do we use We literally have a
+
+01:16:30.719 --> 01:16:36.870
+spell of of healing, don't we?
+
+01:16:59.430 --> 01:16:59.440
+Oh, wait. Thus spell book of protection.
+
+01:16:59.440 --> 01:17:10.149
+I see. Cool.
+
+01:17:19.830 --> 01:17:19.840
+protection is policy's favorite cuz it's
+
+01:17:19.840 --> 01:17:27.510
+easy.
+
+01:17:29.669 --> 01:17:29.679
+Why do you backstab? Because it's easy.
+
+01:17:29.679 --> 01:17:34.870
+does a lot of damage.
+
+01:18:09.510 --> 01:18:09.520
+I'm shortcutting because I think that
+
+01:18:09.520 --> 01:18:11.350
+it's reasonable for it to just learn to
+
+01:18:11.360 --> 01:18:13.270
+take everything and then drop crap it
+
+01:18:13.280 --> 01:18:15.750
+doesn't want. I think that's reasonable.
+
+01:18:15.760 --> 01:18:19.030
+Um,
+
+01:18:20.709 --> 01:18:20.719
+I'm trying to not do anything. I don't
+
+01:18:20.719 --> 01:18:22.070
+think that we could reasonably learn
+
+01:18:22.080 --> 01:18:24.390
+tabbular roster just by playing around
+
+01:18:24.400 --> 01:18:44.550
+basically.
+
+01:18:46.630 --> 01:18:46.640
+Okay. And we are not going to care too
+
+01:18:46.640 --> 01:18:49.350
+much, by the way, if um about hitting
+
+01:18:49.360 --> 01:18:52.390
+anything. So, unless we get stopped from
+
+01:18:52.400 --> 01:18:53.990
+progressing,
+
+01:18:54.000 --> 01:18:57.189
+I'm going to hit S a couple of times
+
+01:18:57.199 --> 01:18:59.910
+and then I'm just going to go.
+
+01:18:59.920 --> 01:19:02.790
+What do we have? We got a tin.
+
+01:19:02.800 --> 01:19:24.470
+We don't have any armor yet.
+
+01:19:35.830 --> 01:19:35.840
+I think it's it knows how to throw
+
+01:19:35.840 --> 01:19:38.630
+things, doesn't it? So, I think we will
+
+01:19:38.640 --> 01:19:46.070
+use those darts if I need them.
+
+01:19:47.990 --> 01:19:48.000
+It's 3 p.m. I can definitely get a good
+
+01:19:48.000 --> 01:19:50.950
+run in if I'm quick. Basically, we're
+
+01:19:50.960 --> 01:19:52.390
+just going to see how I do compared to
+
+01:19:52.400 --> 01:19:55.350
+the agent roll out. The heck is this
+
+01:19:55.360 --> 01:19:57.990
+moat? Oh, yeah. Yeah. Well, we're not
+
+01:19:58.000 --> 01:19:59.510
+going to again, we're not going to inter
+
+01:19:59.520 --> 01:20:05.510
+even interact with
+
+01:20:07.189 --> 01:20:07.199
+We're not even really going to interact.
+
+01:20:07.199 --> 01:20:12.630
+I can't wear this banded mail.
+
+01:20:21.110 --> 01:20:21.120
+Bear trap. Lovely.
+
+01:20:21.120 --> 01:20:23.270
+I'm basically just going to progress at
+
+01:20:23.280 --> 01:20:25.750
+the uh
+
+01:20:25.760 --> 01:20:28.070
+the normal
+
+01:20:28.080 --> 01:20:33.430
+exploration rate.
+
+01:20:36.790 --> 01:20:36.800
+We're playing that hack.
+
+01:20:36.800 --> 01:20:59.350
+Oh, Jesus.
+
+01:21:00.950 --> 01:21:00.960
+Okay,
+
+01:21:00.960 --> 01:21:23.030
+we learned to spell Albert.
+
+01:21:28.709 --> 01:21:28.719
+See, that's so annoying with monk,
+
+01:21:28.719 --> 01:21:31.910
+right? We have an elven myithil coat and
+
+01:21:31.920 --> 01:21:35.750
+we can't wear it.
+
+01:21:39.510 --> 01:21:39.520
+I don't think I know about Net Hack.
+
+01:21:39.520 --> 01:21:40.630
+Wait, what do you mean you don't know
+
+01:21:40.640 --> 01:21:43.350
+about Net Hack?
+
+01:21:43.360 --> 01:21:44.870
+It's like one of the most influential
+
+01:21:44.880 --> 01:21:51.030
+games of all time.
+
+01:21:53.669 --> 01:21:53.679
+Oh, note that we actually This is not
+
+01:21:53.679 --> 01:22:09.110
+our dog.
+
+01:22:18.070 --> 01:22:18.080
+Okay. Um, I can take this cloak
+
+01:22:18.080 --> 01:22:21.110
+and that's it.
+
+01:22:21.120 --> 01:22:23.350
+I can take the myith my coat to sell cuz
+
+01:22:23.360 --> 01:22:26.070
+it does know how to sell things.
+
+01:22:26.080 --> 01:22:31.350
+Uh,
+
+01:22:33.669 --> 01:22:33.679
+nope.
+
+01:22:33.679 --> 01:22:39.669
+That's super annoying though
+
+01:23:22.229 --> 01:23:22.239
+or dumped.
+
+01:23:22.239 --> 01:23:26.950
+Lovely.
+
+01:23:29.830 --> 01:23:29.840
+Uh and then what's this?
+
+01:23:29.840 --> 01:23:33.350
+Yeah, we're done with this.
+
+01:23:33.360 --> 01:23:36.790
+Okay,
+
+01:23:39.750 --> 01:23:39.760
+we're on DL level five so far with a
+
+01:23:39.760 --> 01:23:42.629
+couple close ones, but nothing like
+
+01:23:42.639 --> 01:23:44.229
+basically not really getting punished
+
+01:23:44.239 --> 01:23:46.790
+for playing this way, which is kind of
+
+01:23:46.800 --> 01:24:01.910
+funny.
+
+01:24:28.470 --> 01:24:28.480
+We even have a magic marker,
+
+01:24:28.480 --> 01:24:30.550
+which I'm going to drop even though
+
+01:24:30.560 --> 01:24:32.470
+that's an awesome item because there's
+
+01:24:32.480 --> 01:24:34.149
+just no way we would be able to use
+
+01:24:34.159 --> 01:24:37.110
+that. But let's just even though we have
+
+01:24:37.120 --> 01:24:40.229
+like we got the awesomest thing ever,
+
+01:24:40.239 --> 01:24:42.149
+our agent is not going to be able to be
+
+01:24:42.159 --> 01:25:03.030
+able to use it.
+
+01:25:38.470 --> 01:25:38.480
+Oops.
+
+01:25:38.480 --> 01:25:44.390
+I'm confused.
+
+01:25:46.629 --> 01:25:46.639
+Uh, I shouldn't have gone up and I just
+
+01:25:46.639 --> 01:25:51.510
+go up and finish exploring.
+
+01:26:11.830 --> 01:26:11.840
+Iron shoes.
+
+01:26:11.840 --> 01:26:14.629
+We do not have iron shoes. Perfect. We
+
+01:26:14.639 --> 01:26:16.790
+are allowed to wear those.
+
+01:26:16.800 --> 01:26:18.470
+This is one of the major things our
+
+01:26:18.480 --> 01:26:21.669
+agent did not do was get itself some uh
+
+01:26:21.679 --> 01:26:24.470
+some footwear. We're going to just not
+
+01:26:24.480 --> 01:26:26.550
+even bother checking if it is uh cursed
+
+01:26:26.560 --> 01:26:30.950
+or not.
+
+01:26:33.669 --> 01:26:33.679
+And we're just going to wear gee
+
+01:26:33.679 --> 01:26:37.189
+plus zero pair of iron shoes.
+
+01:26:37.199 --> 01:26:40.149
+What's this hobgoblin trapped in a web?
+
+01:26:40.159 --> 01:26:51.990
+We do not care about the hobgoblin.
+
+01:27:11.030 --> 01:27:11.040
+So, what are we on? We're on depth five
+
+01:27:11.040 --> 01:27:13.430
+with AC2.
+
+01:27:13.440 --> 01:27:15.990
+I do those. So I think that my
+
+01:27:16.000 --> 01:27:19.910
+progression so far is significantly
+
+01:27:19.920 --> 01:27:25.990
+better.
+
+01:27:29.350 --> 01:27:29.360
+However, whoops.
+
+01:27:29.360 --> 01:27:30.950
+I don't know whether I'm actually going
+
+01:27:30.960 --> 01:27:33.430
+to be able to get
+
+01:27:33.440 --> 01:27:36.790
+as deep as the agent does.
+
+01:27:36.800 --> 01:27:39.750
+I I would think that just by doing this
+
+01:27:39.760 --> 01:27:41.669
+when would I expect to get punished for
+
+01:27:41.679 --> 01:27:44.229
+playing this way?
+
+01:27:44.239 --> 01:27:46.950
+I mean, not until
+
+01:27:46.960 --> 01:27:48.790
+we're just going to skip the dwarven
+
+01:27:48.800 --> 01:27:51.030
+like the the gnomish mines entirely,
+
+01:27:51.040 --> 01:27:55.830
+right?
+
+01:28:08.229 --> 01:28:08.239
+Yeah, we're going to dip into Soabon.
+
+01:28:08.239 --> 01:28:11.030
+Going to pass a few turns here. Don't
+
+01:28:11.040 --> 01:28:13.910
+want to pass too many, but I need some
+
+01:28:13.920 --> 01:28:18.950
+heals.
+
+01:28:42.070 --> 01:28:42.080
+Well, I understand, Finn,
+
+01:28:42.080 --> 01:28:47.590
+but um that's too many turns to pass.
+
+01:28:47.600 --> 01:28:49.270
+Passing that many turns should make you
+
+01:28:49.280 --> 01:28:52.709
+anxious.
+
+01:28:55.270 --> 01:28:55.280
+Like that's your food timer. If you're
+
+01:28:55.280 --> 01:29:00.390
+using search 20 to search as well, like
+
+01:29:00.400 --> 01:29:03.510
+that's too much.
+
+01:29:03.520 --> 01:29:05.110
+Not going to take the mummy wrapping.
+
+01:29:05.120 --> 01:29:09.270
+That's too complicated to use.
+
+01:29:09.280 --> 01:29:10.709
+I don't even know what we killed. Just
+
+01:29:10.719 --> 01:29:13.430
+some nootes.
+
+01:29:13.440 --> 01:29:18.070
+Take a food ration. It's uncursed. Yay.
+
+01:29:18.080 --> 01:29:20.950
+Okay, so the monk actually does start.
+
+01:29:20.960 --> 01:29:22.629
+I'm kind of seeing why this is
+
+01:29:22.639 --> 01:29:25.990
+considered easy for the early game.
+
+01:29:26.000 --> 01:29:28.470
+Like if you start, it really does depend
+
+01:29:28.480 --> 01:29:34.310
+I think on your starting stuff,
+
+01:30:13.750 --> 01:30:13.760
+I say we drop the spell books because
+
+01:30:13.760 --> 01:30:16.310
+unless we're going to identify those, I
+
+01:30:16.320 --> 01:30:27.430
+think um
+
+01:30:29.189 --> 01:30:29.199
+I think we'll just stick to our starter
+
+01:30:29.199 --> 01:30:31.669
+book. And again, we're not trying to
+
+01:30:31.679 --> 01:30:33.510
+play well. We're trying to play simple
+
+01:30:33.520 --> 01:30:36.550
+like the agent does.
+
+01:30:36.560 --> 01:30:38.550
+Okay,
+
+01:30:38.560 --> 01:30:41.750
+I'm stunned.
+
+01:30:41.760 --> 01:31:00.709
+Interesting.
+
+01:31:03.030 --> 01:31:03.040
+Don't want to. Oops.
+
+01:31:03.040 --> 01:31:07.030
+That is a floating eye.
+
+01:31:07.040 --> 01:31:30.070
+Rot.
+
+01:31:33.110 --> 01:31:33.120
+I don't have anything else to throw.
+
+01:31:33.120 --> 01:31:38.310
+It's annoying.
+
+01:31:40.550 --> 01:31:40.560
+Well, I floating eyes are kind of off
+
+01:31:40.560 --> 01:31:45.750
+the uh off the board then for getting
+
+01:31:45.760 --> 01:31:47.830
+I mean if there's nothing that I can I
+
+01:31:47.840 --> 01:31:50.950
+could zap something at it. I guess
+
+01:31:50.960 --> 01:31:52.629
+I have no idea what this does. Let's
+
+01:31:52.639 --> 01:32:00.550
+just zap.
+
+01:32:03.350 --> 01:32:03.360
+How is it not dead?
+
+01:32:03.360 --> 01:32:04.709
+I don't even know what that one just
+
+01:32:04.719 --> 01:32:19.030
+was, but whatever.
+
+01:32:27.990 --> 01:32:28.000
+Uh, okay. This is now kind of getting
+
+01:32:28.000 --> 01:32:29.910
+weird.
+
+01:32:29.920 --> 01:32:33.189
+Where's our entrance?
+
+01:32:33.199 --> 01:32:35.910
+There it is.
+
+01:32:35.920 --> 01:32:40.550
+Jelly. That's fine.
+
+01:32:42.070 --> 01:32:42.080
+I'm just trying to get a sense of like
+
+01:32:42.080 --> 01:32:44.709
+how well you can do
+
+01:32:44.719 --> 01:32:46.950
+playing like the agent does, you know,
+
+01:32:46.960 --> 01:32:48.629
+with like a little bit of refinement
+
+01:32:48.639 --> 01:32:56.470
+even.
+
+01:33:04.310 --> 01:33:04.320
+Oh,
+
+01:33:04.320 --> 01:33:05.750
+hallucinating. Hallucinating.
+
+01:33:05.760 --> 01:33:16.310
+Hallucinating.
+
+01:34:40.149 --> 01:34:40.159
+Okay, we kill the giant ant with
+
+01:34:40.159 --> 01:34:50.310
+protection up.
+
+01:35:26.310 --> 01:35:26.320
+Oh jeez. Um,
+
+01:35:26.320 --> 01:35:28.950
+okay.
+
+01:35:28.960 --> 01:35:38.550
+I have power at the moment, so I'm fine.
+
+01:35:41.910 --> 01:35:41.920
+Okay. Zap.
+
+01:35:41.920 --> 01:35:44.629
+Boom.
+
+01:35:44.639 --> 01:35:46.790
+Boom.
+
+01:35:46.800 --> 01:35:51.510
+A wand of [ __ ] That is amazing.
+
+01:35:51.520 --> 01:35:57.990
+We can definitely zap wands.
+
+01:36:01.189 --> 01:36:01.199
+Okay. Oracle level.
+
+01:36:01.199 --> 01:36:04.470
+This is surprisingly though
+
+01:36:04.480 --> 01:36:07.430
+it's manageable,
+
+01:36:07.440 --> 01:36:56.870
+but stuff's pretty deadly. Hey,
+
+01:37:10.229 --> 01:37:10.239
+Oh, we have remove curse. We don't have
+
+01:37:10.239 --> 01:37:12.950
+identify.
+
+01:37:12.960 --> 01:37:14.629
+Well, I mean that's kind of better that
+
+01:37:14.639 --> 01:37:30.950
+we don't
+
+01:37:33.189 --> 01:37:33.199
+Okay, here's the floor down. But unlike
+
+01:37:33.199 --> 01:37:36.149
+the agent, we are going to explore a
+
+01:37:36.159 --> 01:37:39.990
+little bit more here.
+
+01:37:53.430 --> 01:37:53.440
+Oh, we can just remove that.
+
+01:37:53.440 --> 01:38:14.790
+I didn't realize that.
+
+01:38:16.870 --> 01:38:16.880
+We can pray. Oh, okay. That's it
+
+01:38:16.880 --> 01:38:18.390
+actually.
+
+01:38:18.400 --> 01:38:25.990
+Unless there is something.
+
+01:38:28.470 --> 01:38:28.480
+Oh, there's nothing here that I can see.
+
+01:38:28.480 --> 01:38:30.390
+And again, we're not going to go crazy
+
+01:38:30.400 --> 01:38:31.990
+exploring. We're just going to explore a
+
+01:38:32.000 --> 01:38:34.390
+little bit.
+
+01:38:34.400 --> 01:38:40.870
+I think we're fine on prayer, right?
+
+01:38:43.590 --> 01:38:43.600
+the hell. Pony
+
+01:38:43.600 --> 01:38:47.189
+armor and weapons randomized.
+
+01:38:47.199 --> 01:38:52.550
+Uh, they're randomized and they scale.
+
+01:38:54.229 --> 01:38:54.239
+So the reason that we're doing this
+
+01:38:54.239 --> 01:38:57.109
+right is like basically the agent has
+
+01:38:57.119 --> 01:38:59.189
+access to a subset of the mechanics if
+
+01:38:59.199 --> 01:39:01.910
+you think about it just because it's not
+
+01:39:01.920 --> 01:39:04.310
+reasonable to expect them to to learn
+
+01:39:04.320 --> 01:39:06.550
+some of the things that essentially
+
+01:39:06.560 --> 01:39:10.070
+require a lengthy text instruction set
+
+01:39:10.080 --> 01:39:13.830
+in order to pull off stuff like um you
+
+01:39:13.840 --> 01:39:16.950
+know go dilute a couple of potions and
+
+01:39:16.960 --> 01:39:19.270
+then go drop them on the altar to make
+
+01:39:19.280 --> 01:39:21.109
+holy water and then dip dip your stuff
+
+01:39:21.119 --> 01:39:23.430
+in the holy water to bless it. Like,
+
+01:39:23.440 --> 01:39:25.350
+that's not going to happen. Or, oh, you
+
+01:39:25.360 --> 01:39:27.669
+start with a magic marker. Cool. You can
+
+01:39:27.679 --> 01:39:29.270
+do that, but now you can also dip your
+
+01:39:29.280 --> 01:39:33.669
+scrolls in and you can uh write identify
+
+01:39:33.679 --> 01:39:35.350
+on your scrolls to get the
+
+01:39:35.360 --> 01:39:38.149
+identification spell. Like, that's not
+
+01:39:38.159 --> 01:39:40.790
+going to happen, right?
+
+01:39:40.800 --> 01:39:53.430
+Well, that's Soon, isn't it?
+
+01:39:56.870 --> 01:39:56.880
+Yeah. So, we can't do anything in SOAD,
+
+01:39:56.880 --> 01:40:01.270
+but we can do this and we can do this.
+
+01:40:01.280 --> 01:40:05.350
+That's allowable.
+
+01:40:06.709 --> 01:40:06.719
+We're going to assume that there's no
+
+01:40:06.719 --> 01:40:08.950
+way we can solve
+
+01:40:08.960 --> 01:40:25.669
+uh so
+
+01:40:47.350 --> 01:40:47.360
+I don't really think we have much use
+
+01:40:47.360 --> 01:40:50.709
+for um for any of this to be honest with
+
+01:40:50.719 --> 01:40:54.629
+you.
+
+01:40:59.030 --> 01:40:59.040
+like all these random potions, right?
+
+01:40:59.040 --> 01:41:03.030
+If we start with potion of healing,
+
+01:41:03.040 --> 01:41:07.270
+then we know what it is.
+
+01:41:11.030 --> 01:41:11.040
+Two mil two trillm.
+
+01:41:11.040 --> 01:41:20.310
+Yeah.
+
+01:41:22.870 --> 01:41:22.880
+annoying passive.
+
+01:41:22.880 --> 01:41:28.550
+Oh.
+
+01:42:42.470 --> 01:42:42.480
+Uhoh.
+
+01:42:42.480 --> 01:43:05.590
+Interesting.
+
+01:43:14.950 --> 01:43:14.960
+Oh, wait. You can't reach the ground.
+
+01:43:14.960 --> 01:43:19.830
+Lovely.
+
+01:43:32.149 --> 01:43:32.159
+Okay. So, I can do
+
+01:43:32.159 --> 01:43:46.709
+protection.
+
+01:43:49.750 --> 01:43:49.760
+This is going to kill me.
+
+01:43:49.760 --> 01:43:53.109
+You can't engrave here.
+
+01:43:53.119 --> 01:44:00.629
+I can zap a wand.
+
+01:44:21.189 --> 01:44:21.199
+This is the problem with using prayer as
+
+01:44:21.199 --> 01:44:27.189
+well for uh
+
+01:44:42.709 --> 01:44:42.719
+I mean, I may as well, right? Just see
+
+01:44:42.719 --> 01:44:46.870
+what happens.
+
+01:45:04.550 --> 01:45:04.560
+No, I'm dead.
+
+01:45:04.560 --> 01:45:07.750
+Well,
+
+01:45:10.550 --> 01:45:10.560
+that's with ACEG -2 and properly
+
+01:45:10.560 --> 01:45:13.669
+leveled.
+
+01:45:21.430 --> 01:45:21.440
+that's basically just because I didn't
+
+01:45:21.440 --> 01:45:23.030
+identify.
+
+01:45:23.040 --> 01:45:25.270
+Look, we had a ring of regeneration on
+
+01:45:25.280 --> 01:45:26.870
+here.
+
+01:45:26.880 --> 01:45:33.350
+gain ability,
+
+01:45:35.510 --> 01:45:35.520
+lots of spells
+
+01:45:35.520 --> 01:45:38.629
+or lots of good scrolls.
+
+01:45:38.639 --> 01:45:40.149
+How would I have handled this normally?
+
+01:45:40.159 --> 01:45:41.669
+Well, I wouldn't have left my pet.
+
+01:45:41.679 --> 01:45:43.510
+Probably
+
+01:45:43.520 --> 01:45:48.149
+maybe at this level I would have
+
+01:46:01.350 --> 01:46:01.360
+Owl Bear on level eight is not
+
+01:46:01.360 --> 01:46:05.109
+particularly unlucky either, is it?
+
+01:46:05.119 --> 01:46:18.229
+H.
+
+01:46:20.070 --> 01:46:20.080
+I mean, realistically, the mistake was
+
+01:46:20.080 --> 01:46:22.950
+[ __ ] around with this treasure room.
+
+01:46:22.960 --> 01:46:26.470
+or treasure zoo
+
+01:46:26.480 --> 01:46:45.669
+with a yellow light at the door as well.
+
+01:46:47.430 --> 01:46:47.440
+I mean, we have to try this one more
+
+01:46:47.440 --> 01:47:14.229
+time. I'm going to go quick.
+
+01:47:30.149 --> 01:47:30.159
+What in the heck?
+
+01:47:30.159 --> 01:47:32.709
+Oh, statue is okay.
+
+01:47:32.719 --> 01:47:43.189
+Or this.
+
+01:47:45.430 --> 01:47:45.440
+What do we start with? Healing this
+
+01:47:45.440 --> 01:48:17.270
+time.
+
+01:48:39.270 --> 01:48:39.280
+the hell? Just fall to de to level four,
+
+01:48:39.280 --> 01:48:42.070
+I guess, immediately.
+
+01:48:42.080 --> 01:48:47.510
+Plate mail. That would be nice to have
+
+01:48:47.520 --> 01:49:03.750
+if I could uh use that at all.
+
+01:49:06.229 --> 01:49:06.239
+It's locked.
+
+01:49:06.239 --> 01:49:07.669
+Don't really have anything to force it
+
+01:49:07.679 --> 01:49:20.390
+with either.
+
+01:49:29.189 --> 01:49:29.199
+Realistically, when I got the wands of
+
+01:49:29.199 --> 01:49:30.550
+digging, I could have just zapped them
+
+01:49:30.560 --> 01:49:39.270
+and gotten super deep.
+
+01:49:41.109 --> 01:49:41.119
+Well, this is now annoying because what
+
+01:49:41.119 --> 01:49:44.149
+am I supposed to do?
+
+01:49:44.159 --> 01:49:52.149
+Did I miss an entrance? I didn't. Right
+
+01:50:08.870 --> 01:50:08.880
+And again, I am going quick here
+
+01:50:08.880 --> 01:50:11.669
+as best as I can.
+
+01:50:11.679 --> 01:50:15.990
+I'm not exactly a uh a great player.
+
+01:50:16.000 --> 01:50:19.669
+I know the basics only.
+
+01:50:19.679 --> 01:50:30.310
+Oh, wait. Can we move this around?
+
+01:50:33.030 --> 01:50:33.040
+This train strength.
+
+01:50:33.040 --> 01:50:36.310
+I think this does right.
+
+01:50:36.320 --> 01:50:38.550
+Not push it too much.
+
+01:50:38.560 --> 01:50:46.470
+We have 17
+
+01:51:08.950 --> 01:51:08.960
+Uh, okay.
+
+01:51:08.960 --> 01:51:26.870
+Take these darts.
+
+01:51:28.790 --> 01:51:28.800
+We want lots of weak things to kill so
+
+01:51:28.800 --> 01:51:35.590
+we can get some XP.
+
+01:52:06.070 --> 01:52:06.080
+long sword.
+
+01:52:06.080 --> 01:52:07.830
+Can I use that? I don't think I can.
+
+01:52:07.840 --> 01:52:10.790
+Right. You monk punches things. Or can
+
+01:52:10.800 --> 01:52:34.470
+you use this?
+
+01:52:36.470 --> 01:52:36.480
+Yeah, just martial arts. So they are you
+
+01:52:36.480 --> 01:52:53.510
+supposed to punch things.
+
+01:52:56.550 --> 01:52:56.560
+Okay, so you cannot
+
+01:52:56.560 --> 01:52:59.030
+equip any armor or you're just screwed,
+
+01:52:59.040 --> 01:53:12.229
+which is great.
+
+01:53:14.070 --> 01:53:14.080
+I actually think that the other thing I
+
+01:53:14.080 --> 01:53:17.510
+want to do um let's go down at this
+
+01:53:17.520 --> 01:53:19.750
+point. I'm gonna try the same strat if
+
+01:53:19.760 --> 01:53:22.149
+this doesn't work probably off stream
+
+01:53:22.159 --> 01:53:24.390
+with Valk
+
+01:53:24.400 --> 01:53:26.310
+and see if we would expect it to be
+
+01:53:26.320 --> 01:53:35.270
+better.
+
+01:53:46.709 --> 01:53:46.719
+What on earth is that? I don't even know
+
+01:53:46.719 --> 01:53:50.709
+what the hell.
+
+01:53:53.189 --> 01:53:53.199
+Stethoscope. That's worthless to us
+
+01:53:53.199 --> 01:53:55.109
+because we are agent and we don't know
+
+01:53:55.119 --> 01:54:03.669
+what we're doing.
+
+01:54:11.510 --> 01:54:11.520
+I know what I'm going to do at the end
+
+01:54:11.520 --> 01:54:16.229
+of the stream with that thing.
+
+01:54:17.910 --> 01:54:17.920
+provided I don't get one shot by
+
+01:54:17.920 --> 01:54:21.510
+something stupid.
+
+01:54:24.149 --> 01:54:24.159
+I'm also going to start eating.
+
+01:54:24.159 --> 01:54:25.830
+Uh, I think we'll just eat some of our
+
+01:54:25.840 --> 01:54:28.870
+food while we still have it
+
+01:54:28.880 --> 01:54:31.030
+so we can save our prayer for if we need
+
+01:54:31.040 --> 01:54:52.790
+it in a pinch.
+
+01:54:54.950 --> 01:54:54.960
+Okay.
+
+01:54:54.960 --> 01:55:08.550
+A few apples.
+
+01:55:15.910 --> 01:55:15.920
+Farm. What's the ring? Ring.
+
+01:55:15.920 --> 01:55:26.229
+Granite ring. Very nice.
+
+01:55:27.830 --> 01:55:27.840
+Why are there just two of these guys
+
+01:55:27.840 --> 01:55:34.950
+here?
+
+01:55:51.830 --> 01:55:51.840
+We have healing. That's nice. Runed
+
+01:55:51.840 --> 01:55:54.310
+dagger.
+
+01:55:54.320 --> 01:55:57.830
+Okay.
+
+01:56:00.950 --> 01:56:00.960
+I'd like a runed dagger.
+
+01:56:00.960 --> 01:56:13.510
+We can use that to open some chests.
+
+01:56:35.270 --> 01:56:35.280
+Peaceful monkey.
+
+01:56:35.280 --> 01:56:38.470
+This Yeah, these are peaceful. Cool.
+
+01:56:38.480 --> 01:56:42.950
+What? Okay, this is Oracle room.
+
+01:56:42.960 --> 01:56:52.310
+Uh,
+
+01:56:55.030 --> 01:56:55.040
+the one on the left and on the right a
+
+01:56:55.040 --> 01:57:09.430
+little bit.
+
+01:57:37.270 --> 01:57:37.280
+Okay, we got some of this.
+
+01:57:37.280 --> 01:57:49.270
+And now we need
+
+01:58:22.390 --> 01:58:22.400
+So, notice we have not gotten any armor.
+
+01:58:22.400 --> 01:58:24.470
+We do have a ring that I'm uh attempted
+
+01:58:24.480 --> 01:58:26.550
+to put on.
+
+01:58:26.560 --> 01:58:29.030
+We found two long swords, which is
+
+01:58:29.040 --> 01:58:32.470
+funny, but we can't really uh do much
+
+01:58:32.480 --> 01:58:39.030
+with those
+
+01:58:46.229 --> 01:58:46.239
+Okay, this is a floating eye. I think
+
+01:58:46.239 --> 01:58:49.750
+it's reasonable.
+
+01:59:03.589 --> 01:59:03.599
+I think it's reasonable
+
+01:59:03.599 --> 01:59:08.390
+to do that
+
+01:59:11.830 --> 01:59:11.840
+to kill floating eye with ranged weapon
+
+01:59:11.840 --> 01:59:13.990
+and eat the uh the corpse. I think that
+
+01:59:14.000 --> 01:59:16.310
+is
+
+01:59:16.320 --> 01:59:19.510
+something we can do
+
+01:59:19.520 --> 01:59:21.669
+that like the agent could figure out in
+
+01:59:21.679 --> 01:59:23.270
+theory.
+
+01:59:23.280 --> 01:59:28.550
+Soabon ring and tripe rations.
+
+01:59:32.149 --> 01:59:32.159
+What's this? Yeah, that's all.
+
+01:59:32.159 --> 01:59:33.910
+I think that's all we're allowed to get
+
+01:59:33.920 --> 01:59:36.070
+from Soabon.
+
+01:59:36.080 --> 01:59:37.830
+I'm tempted to put some of these rings
+
+01:59:37.840 --> 01:59:40.390
+on.
+
+01:59:40.400 --> 01:59:42.470
+Do we want the agent to just be putting
+
+01:59:42.480 --> 01:59:45.830
+on random rings?
+
+01:59:45.840 --> 01:59:55.430
+Could be something very bad.
+
+01:59:57.189 --> 01:59:57.199
+I would not just be putting on random
+
+01:59:57.199 --> 02:00:08.950
+rings.
+
+02:00:11.270 --> 02:00:11.280
+Um
+
+02:00:11.280 --> 02:00:22.790
+I think what we what is the play here?
+
+02:00:24.709 --> 02:00:24.719
+So there's no way we can buck test these
+
+02:00:24.719 --> 02:00:29.109
+rings.
+
+02:00:32.870 --> 02:00:32.880
+Could we get a holy water? We can't
+
+02:00:32.880 --> 02:00:36.390
+remove curse. We like we don't
+
+02:00:36.400 --> 02:00:47.189
+uncurs scroll of enchant armor.
+
+02:02:15.030 --> 02:02:15.040
+kind of crazy how um
+
+02:02:15.040 --> 02:02:17.510
+how far the agent gets just doing crazy
+
+02:02:17.520 --> 02:02:19.669
+things.
+
+02:02:19.679 --> 02:02:22.550
+Like I would not expect the agent to get
+
+02:02:22.560 --> 02:02:24.310
+that far actually now that I've been
+
+02:02:24.320 --> 02:02:30.390
+playing.
+
+02:02:32.070 --> 02:02:32.080
+There just so many things that can
+
+02:02:32.080 --> 02:03:01.589
+randomly kill you.
+
+02:03:03.430 --> 02:03:03.440
+So, I think we have to decide soon
+
+02:03:03.440 --> 02:03:06.470
+whether I'm going to put on any random
+
+02:03:06.480 --> 02:03:08.870
+rings
+
+02:03:08.880 --> 02:03:12.550
+or if I'm going to wait
+
+02:03:12.560 --> 02:03:15.030
+put on
+
+02:03:15.040 --> 02:03:18.070
+everything at once.
+
+02:03:18.080 --> 02:03:21.350
+I'm on D level 9
+
+02:03:21.360 --> 02:03:25.030
+and I have not found a single
+
+02:03:25.040 --> 02:03:28.390
+piece of armor to wear
+
+02:03:28.400 --> 02:03:30.070
+and I have not been doing great
+
+02:03:30.080 --> 02:03:35.189
+exploration,
+
+02:03:38.870 --> 02:03:38.880
+but I have been exploring some stuff.
+
+02:03:38.880 --> 02:03:50.950
+Haven't been completely doing nothing.
+
+02:04:31.030 --> 02:04:31.040
+needs to go to the mines to gear it
+
+02:04:31.040 --> 02:04:34.390
+properly.
+
+02:04:36.790 --> 02:04:36.800
+You might be right.
+
+02:04:36.800 --> 02:04:39.189
+I mean, just to get like the monk's not
+
+02:04:39.199 --> 02:04:41.669
+even needing armor.
+
+02:04:41.679 --> 02:04:45.910
+It just needs like something, man.
+
+02:04:45.920 --> 02:04:49.910
+some boots or whatever.
+
+02:04:49.920 --> 02:04:54.470
+So, I guess if you just miss the mines,
+
+02:04:55.910 --> 02:04:55.920
+a lot of things can kill you in the
+
+02:04:55.920 --> 02:04:58.629
+mines as well
+
+02:04:58.639 --> 02:05:06.629
+to be fair.
+
+02:05:09.030 --> 02:05:09.040
+I mean, I have a couple of rings I could
+
+02:05:09.040 --> 02:05:11.589
+wear.
+
+02:05:11.599 --> 02:05:13.350
+I wonder if it's worth it just on
+
+02:05:13.360 --> 02:05:15.910
+average if you're like
+
+02:05:15.920 --> 02:05:19.510
+the hell is this.
+
+02:05:19.520 --> 02:05:22.790
+That is not a friend.
+
+02:05:22.800 --> 02:05:29.750
+Stay away from that.
+
+02:06:18.470 --> 02:06:18.480
+grab boots and pickaxe and then dip. Uh,
+
+02:06:18.480 --> 02:06:20.870
+yeah, you're right. It could. We did get
+
+02:06:20.880 --> 02:06:23.990
+a pickaxe. So, to be fair, I'm ending
+
+02:06:24.000 --> 02:06:26.310
+stream in 10 minutes and um or 15
+
+02:06:26.320 --> 02:06:28.070
+minutesish.
+
+02:06:28.080 --> 02:06:34.310
+Where's this elf?
+
+02:06:36.709 --> 02:06:36.719
+Die.
+
+02:06:36.719 --> 02:06:44.790
+Should
+
+02:07:28.229 --> 02:07:28.239
+game plan. I don't know yet.
+
+02:07:28.239 --> 02:07:33.669
+Get away from that.
+
+02:07:37.430 --> 02:07:37.440
+want to be anywhere near statues.
+
+02:07:37.440 --> 02:07:47.270
+Particularly not statues of cockatrices.
+
+02:07:49.109 --> 02:07:49.119
+Oh jeez.
+
+02:07:49.119 --> 02:07:59.750
+The cockatress pyrolisk.
+
+02:08:02.229 --> 02:08:02.239
+I would like to be not near that thing.
+
+02:08:02.239 --> 02:08:05.189
+Thank you. Leather armor. That would be
+
+02:08:05.199 --> 02:08:19.430
+amazing if I were not a monk.
+
+02:08:22.149 --> 02:08:22.159
+Do need some XP.
+
+02:08:22.159 --> 02:08:24.709
+Growth will be
+
+02:08:24.719 --> 02:08:31.350
+a little bit of XP.
+
+02:08:59.350 --> 02:08:59.360
+Lovely potion.
+
+02:08:59.360 --> 02:09:02.069
+Okay, I got some
+
+02:09:02.079 --> 02:09:06.629
+nice uh wand.
+
+02:09:20.310 --> 02:09:20.320
+I forget if those things can just cause
+
+02:09:20.320 --> 02:09:24.790
+stoning and kill you.
+
+02:09:28.390 --> 02:09:28.400
+Okay, we're on D level 11, though.
+
+02:09:28.400 --> 02:09:30.790
+And I mean, that does feel roughly
+
+02:09:30.800 --> 02:09:34.550
+reasonable so far.
+
+02:09:34.560 --> 02:09:38.709
+Stuff's getting dangerous for sure.
+
+02:09:38.719 --> 02:09:43.109
+Like right there, is that an owl bear?
+
+02:09:43.119 --> 02:09:45.910
+No, that's a peaceful ape.
+
+02:09:45.920 --> 02:09:47.750
+Okay.
+
+02:09:47.760 --> 02:09:56.870
+Don't have bananas.
+
+02:09:58.629 --> 02:09:58.639
+What is this? We're not We're not
+
+02:09:58.639 --> 02:10:01.430
+repeating the same thing from last time.
+
+02:10:01.440 --> 02:10:07.589
+Thank you. No, thank you. Goodbye.
+
+02:10:09.510 --> 02:10:09.520
+Crossbow,
+
+02:10:09.520 --> 02:10:12.629
+chain mail. This game is just like
+
+02:10:12.639 --> 02:10:15.430
+trolling me with all the armor. We had a
+
+02:10:15.440 --> 02:10:17.430
+million different pieces of armor that
+
+02:10:17.440 --> 02:10:19.430
+we could use on anything other than a
+
+02:10:19.440 --> 02:10:21.189
+monk. Well, I guess not a wizard either,
+
+02:10:21.199 --> 02:10:24.629
+huh? But still,
+
+02:10:24.639 --> 02:10:27.189
+I mean,
+
+02:10:27.199 --> 02:10:51.669
+that's a pretty feels bad.
+
+02:11:06.870 --> 02:11:06.880
+Okay. Obviously
+
+02:11:06.880 --> 02:11:11.189
+uncanny feeling. No thank you.
+
+02:11:11.199 --> 02:11:14.310
+Oh, look. There is a
+
+02:11:14.320 --> 02:11:15.910
+God damn it. There's an entrance over
+
+02:11:15.920 --> 02:11:17.589
+there.
+
+02:11:17.599 --> 02:11:19.270
+We're not dealing with this [ __ ] are
+
+02:11:19.280 --> 02:11:24.390
+we?
+
+02:12:21.350 --> 02:12:21.360
+Yeah, there's a wraith here.
+
+02:12:21.360 --> 02:12:24.550
+That's a cockatress.
+
+02:12:24.560 --> 02:12:37.830
+Um
+
+02:12:59.510 --> 02:12:59.520
+What the [ __ ] How do you dig down with
+
+02:12:59.520 --> 02:13:04.470
+a pickaxe?
+
+02:13:17.510 --> 02:13:17.520
+I apply it to the floor. Oh, dummy. I
+
+02:13:17.520 --> 02:13:19.830
+forgot the key. It's just the um It's
+
+02:13:19.840 --> 02:13:22.470
+the staircase key.
+
+02:13:22.480 --> 02:13:24.709
+Down.
+
+02:13:24.719 --> 02:13:28.550
+Down.
+
+02:13:43.589 --> 02:13:43.599
+Wait,
+
+02:13:43.599 --> 02:13:50.310
+it's literally my own,
+
+02:15:14.550 --> 02:15:14.560
+I did mess up. I definitely messed up.
+
+02:15:14.560 --> 02:15:47.910
+Uh well, we can quaff
+
+02:16:02.870 --> 02:16:02.880
+Wilar's ghost.
+
+02:16:02.880 --> 02:16:05.990
+Is this bones files?
+
+02:16:06.000 --> 02:16:08.550
+Hey Finn, are bones files dis That's on
+
+02:16:08.560 --> 02:16:13.510
+network, isn't it? Actually,
+
+02:16:17.030 --> 02:16:17.040
+bones files should beworked only,
+
+02:16:17.040 --> 02:16:24.069
+right?
+
+02:16:26.229 --> 02:16:26.239
+I mean, I can definitely get deeper now,
+
+02:16:26.239 --> 02:16:27.910
+but
+
+02:16:27.920 --> 02:16:32.790
+still very dumb
+
+02:16:34.950 --> 02:16:34.960
+cuz now I'm super underleveled from two
+
+02:16:34.960 --> 02:17:46.150
+wraiths somehow.
+
+02:17:50.230 --> 02:17:50.240
+So this is bo death to okay
+
+02:17:50.240 --> 02:17:56.950
+death to bones file
+
+02:18:15.349 --> 02:18:15.359
+Wait, I rubbed the lamp before and
+
+02:18:15.359 --> 02:18:18.070
+nothing happened.
+
+02:18:18.080 --> 02:18:21.830
+How did that happen?
+
+02:18:23.750 --> 02:18:23.760
+I rubbed this lamp and nothing happened.
+
+02:18:23.760 --> 02:18:26.230
+If we had a genie,
+
+02:18:26.240 --> 02:18:28.790
+obviously this we wouldn't be able to um
+
+02:18:28.800 --> 02:18:31.110
+do anything with this.
+
+02:18:31.120 --> 02:18:33.589
+No bones in the end. Okay, so we just
+
+02:18:33.599 --> 02:18:36.150
+died to bones file,
+
+02:18:36.160 --> 02:18:38.389
+I believe. Yeah, we died to bones file
+
+02:18:38.399 --> 02:18:41.110
+as well as me not knowing that pickaxe
+
+02:18:41.120 --> 02:18:44.070
+makes noise
+
+02:18:44.080 --> 02:18:54.950
+as well as double wraith horseshit. Um
+
+02:19:04.309 --> 02:19:04.319
+to just like just go down strat without
+
+02:19:04.319 --> 02:19:08.469
+prep is not
+
+02:19:10.309 --> 02:19:10.319
+it's not obvious that you can just
+
+02:19:10.319 --> 02:19:13.990
+steamroll doing that. I will say
+
+02:19:14.000 --> 02:19:17.030
+um it does make sense to me that you can
+
+02:19:17.040 --> 02:19:19.349
+get pretty deep on some rollouts getting
+
+02:19:19.359 --> 02:19:22.150
+lucky,
+
+02:19:22.160 --> 02:19:24.870
+but there are so many things that can go
+
+02:19:24.880 --> 02:19:28.389
+wrong.
+
+02:19:30.469 --> 02:19:30.479
+I also genuinely don't know what the
+
+02:19:30.479 --> 02:19:50.389
+heck else I would do on a monk.
+
+02:20:15.030 --> 02:20:15.040
+Let's go check the monk. I was hoping I
+
+02:20:15.040 --> 02:20:48.950
+would be able to just dig down.
+
+02:20:51.110 --> 02:20:51.120
+So these So you always know what a
+
+02:20:51.120 --> 02:20:53.830
+potion of healing is.
+
+02:20:53.840 --> 02:21:06.309
+That's like moderately useful.
+
+02:21:57.030 --> 02:21:57.040
+Not getting poison res
+
+02:21:57.040 --> 02:22:00.389
+on a Valk is very bad,
+
+02:22:00.399 --> 02:22:02.550
+but it's one of the easier ones to get
+
+02:22:02.560 --> 02:22:04.630
+early just by knowing what corpses to
+
+02:22:04.640 --> 02:22:18.550
+eat.
+
+02:22:20.950 --> 02:22:20.960
+identification plus shops is important
+
+02:22:20.960 --> 02:22:24.150
+now.
+
+02:22:41.670 --> 02:22:41.680
+There's really not a basic strat is the
+
+02:22:41.680 --> 02:22:44.550
+thing that gets you way farther without
+
+02:22:44.560 --> 02:23:01.910
+identifying a bunch of stuff.
+
+02:23:04.950 --> 02:23:04.960
+We could try. We could try this stat
+
+02:23:04.960 --> 02:23:13.910
+with everything I did.
+
+02:23:15.429 --> 02:23:15.439
+I like I'd like to know if it's
+
+02:23:15.439 --> 02:23:27.030
+literally just identification though
+
+02:24:16.070 --> 02:24:16.080
+Just I know this like I've read this
+
+02:24:16.080 --> 02:24:18.710
+article so many times. I need to just
+
+02:24:18.720 --> 02:24:23.190
+beat the game at least once.
+
+02:24:25.750 --> 02:24:25.760
+Just very difficult.
+
+02:24:25.760 --> 02:24:53.030
+They're down.
+
+02:24:55.510 --> 02:24:55.520
+No magic resist and no reflection is
+
+02:24:55.520 --> 02:24:57.349
+rough.
+
+02:24:57.359 --> 02:25:00.630
+Usually this is
+
+02:25:00.640 --> 02:25:03.590
+all wish possibly two.
+
+02:25:03.600 --> 02:25:05.429
+You get the amulet of reflection half
+
+02:25:05.439 --> 02:25:08.389
+the time from soabon
+
+02:25:08.399 --> 02:25:12.710
+poison res from corpses
+
+02:25:15.910 --> 02:25:15.920
+gnomeish mines.
+
+02:25:15.920 --> 02:25:19.910
+Donate to priest for the AC boost. Yeah,
+
+02:25:19.920 --> 02:26:40.710
+you definitely want to do That
+
+02:26:58.070 --> 02:26:58.080
+the leveling thing might not even be
+
+02:26:58.080 --> 02:28:05.190
+that Bad.
+
+02:28:07.190 --> 02:28:07.200
+How strong do you need to be to get to
+
+02:28:07.200 --> 02:28:13.349
+the castle?
+
+02:28:32.150 --> 02:28:32.160
+there are a lot of things that you want
+
+02:28:32.160 --> 02:28:36.309
+before you get here.
+
+02:28:37.990 --> 02:28:38.000
+You definitely want the amulet of
+
+02:28:38.000 --> 02:28:40.230
+reflection.
+
+02:28:40.240 --> 02:28:43.910
+You want some MR
+
+02:28:43.920 --> 02:28:48.630
+hopefully from an early wish.
+
+02:28:51.990 --> 02:28:52.000
+Decent AC possibly art artifact weapon
+
+02:28:52.000 --> 02:28:59.830
+actually for sure.
+
+02:29:01.990 --> 02:29:02.000
+Monk makes that very simple in some
+
+02:29:02.000 --> 02:29:27.030
+sense, doesn't it?
+
+02:29:30.550 --> 02:29:30.560
+But I it's time. Um I'm going to call it
+
+02:29:30.560 --> 02:29:32.790
+for here. Thank you for tuning in,
+
+02:29:32.800 --> 02:29:35.190
+folks. I'm going to play uh I'm going to
+
+02:29:35.200 --> 02:29:36.790
+play with this a little bit more, Finn.
+
+02:29:36.800 --> 02:29:38.710
+For sure.
+
+02:29:38.720 --> 02:29:40.150
+I'm definitely going to play with this a
+
+02:29:40.160 --> 02:29:42.630
+little bit more. I also I think that the
+
+02:29:42.640 --> 02:29:44.710
+main thing I really want to understand
+
+02:29:44.720 --> 02:29:50.230
+is like
+
+02:29:52.710 --> 02:29:52.720
+I was thinking, oh well, if the agent is
+
+02:29:52.720 --> 02:29:54.230
+just doing it that way and it's
+
+02:29:54.240 --> 02:29:57.349
+consistently getting pretty deep, then I
+
+02:29:57.359 --> 02:29:58.950
+should just be able to refine the
+
+02:29:58.960 --> 02:30:01.910
+strategy a little bit and uh do
+
+02:30:01.920 --> 02:30:05.590
+significantly better. But it you kind of
+
+02:30:05.600 --> 02:30:07.429
+just can't. You just eventually get
+
+02:30:07.439 --> 02:30:10.230
+screwed by something.
+
+02:30:10.240 --> 02:30:12.309
+There probably some other things I can
+
+02:30:12.319 --> 02:30:14.870
+figure out though with it. And I also I
+
+02:30:14.880 --> 02:30:16.710
+want to try that strategy with a couple
+
+02:30:16.720 --> 02:30:19.270
+different characters as well and see if
+
+02:30:19.280 --> 02:30:20.469
+there's like a smooth form of
+
+02:30:20.479 --> 02:30:22.790
+progression in. But yeah, thank you
+
+02:30:22.800 --> 02:30:26.070
+everyone. I will uh see you around. Star
+
+02:30:26.080 --> 02:30:28.230
+Puffer on GitHub if you're interested in
+
+02:30:28.240 --> 02:30:31.750
+getting involved. Net hack is the latest
+
+02:30:31.760 --> 02:30:33.670
+benchmark that we are very interested in
+
+02:30:33.680 --> 02:30:36.070
+doing better on. Uh we have some other
+
+02:30:36.080 --> 02:30:38.640
+ones as well.

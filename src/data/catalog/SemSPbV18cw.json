@@ -1,0 +1,17 @@
+{
+  "id": "SemSPbV18cw",
+  "date": "2026-08-12T19:29:33+00:00",
+  "url": "https://www.youtube.com/watch?v=SemSPbV18cw",
+  "transcript": "/src/data/transcripts/SemSPbV18cw.vtt",
+  "originalTitle": "RL Research with Joseph Suarez",
+  "title": "Porting Environment Baselines and Debugging Off-Policy Corrections for Puffer 5",
+  "summary": "Worked on porting and cleaning up environment baselines for Puffer 5, using an 8-GPU box with AI assistance to parallelize fixes and patches for broken environments. Investigated whether off-policy corrections like V-trace improve PPO, concluding that most such techniques do not work and may simplify the algorithm.",
+  "topics": [
+    "Puffer 5",
+    "environment porting",
+    "off-policy correction",
+    "V-trace",
+    "Muon optimizer",
+    "baseline sweeps"
+  ]
+}

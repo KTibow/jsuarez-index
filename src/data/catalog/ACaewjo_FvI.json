@@ -1,0 +1,17 @@
+{
+  "id": "ACaewjo_FvI",
+  "date": "2026-08-11T20:41:59+00:00",
+  "url": "https://www.youtube.com/watch?v=ACaewjo_FvI",
+  "transcript": "/src/data/transcripts/ACaewjo_FvI.vtt",
+  "originalTitle": "RL Research with Joseph Suarez",
+  "title": "Refining NetHack Agent Strategy Through Restricted Human Runs",
+  "summary": "Investigated the NetHack benchmark by running agent rollouts and manually playing NetHack under the same restrictions to compare policy behavior. Merged a contributor's NetHack PR and discussed improvements such as identification mechanics, action masking, and config scaling.",
+  "topics": [
+    "NetHack",
+    "PufferLib",
+    "RL benchmark",
+    "item identification",
+    "action masking",
+    "policy rollout"
+  ]
+}
