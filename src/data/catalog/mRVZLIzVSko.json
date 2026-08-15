@@ -1,0 +1,17 @@
+{
+  "id": "mRVZLIzVSko",
+  "date": "2026-08-14T18:58:18+00:00",
+  "url": "https://www.youtube.com/watch?v=mRVZLIzVSko",
+  "transcript": "/src/data/transcripts/mRVZLIzVSko.vtt",
+  "originalTitle": "RL Research with Joseph Suarez",
+  "title": "Cleaning Up Puffer 5 and Automating Environment Test Sweeps",
+  "summary": "Worked on Puffer 5 pre-release cleanup, refactoring the trainer and pruning features to target roughly 9.5k lines. Automated environment testing with an LLM-assisted agent on an 8-GPU box, debugging failing environments and tracking throughput improvements up to 60M SPS.",
+  "topics": [
+    "Puffer 5",
+    "pre-release testing",
+    "refactoring",
+    "CUDA kernels",
+    "environment sweeps",
+    "LLM-assisted debugging"
+  ]
+}

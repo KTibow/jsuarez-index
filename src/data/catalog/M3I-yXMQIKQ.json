@@ -1,0 +1,16 @@
+{
+  "id": "M3I-yXMQIKQ",
+  "date": "2026-08-14T15:14:14+00:00",
+  "url": "https://www.youtube.com/watch?v=M3I-yXMQIKQ",
+  "transcript": "/src/data/transcripts/M3I-yXMQIKQ.vtt",
+  "originalTitle": "RL Research with Joseph Suarez",
+  "title": "Removing Prioritized Replay and Simplifying Puffer 5 Pre-Release",
+  "summary": "Worked on pre-release cleanup for Puffer 5, stripping out prioritized replay and other unused code. Ran benchmarks confirming parity or improvement across maze and 2048 with five fewer hyperparameters.",
+  "topics": [
+    "Puffer 5",
+    "prioritized replay",
+    "code simplification",
+    "hyperparameter reduction",
+    "benchmark evaluation"
+  ]
+}
