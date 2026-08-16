@@ -1,0 +1,17 @@
+{
+  "id": "CXLm41ynjf4",
+  "date": "2026-08-15T16:23:14+00:00",
+  "url": "https://www.youtube.com/watch?v=CXLm41ynjf4",
+  "transcript": "/src/data/transcripts/CXLm41ynjf4.vtt",
+  "originalTitle": "RL Research with Joseph Suarez",
+  "title": "Finalizing All Environment Demos for the Upcoming PufferLib Release",
+  "summary": "Worked on finalizing all environment demos for the upcoming PufferLib release. Reviewed overnight Neural MMO experiments, integrated new environments, fixed compatibility issues, and verified performance baselines.",
+  "topics": [
+    "PufferLib",
+    "Neural MMO",
+    "environment integration",
+    "performance metrics",
+    "API migration",
+    "automated testing"
+  ]
+}

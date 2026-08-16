@@ -1,0 +1,17 @@
+{
+  "id": "FGcVkrb5qak",
+  "date": "2026-08-15T18:28:05+00:00",
+  "url": "https://www.youtube.com/watch?v=FGcVkrb5qak",
+  "transcript": "/src/data/transcripts/FGcVkrb5qak.vtt",
+  "originalTitle": "RL Research with Joseph Suarez",
+  "title": "Auditing and Fixing Environments for Puffer 5 Release",
+  "summary": "Worked on pre-release integration and maintenance for Puffer 5, auditing and fixing dozens of submitted environments. Used LLM subagents to apply bulk refactors, fixed rendering and training bugs, and set up gold/silver environment ratings.",
+  "topics": [
+    "Puffer 5",
+    "environment audit",
+    "LLM subagents",
+    "code refactoring",
+    "bug fixes",
+    "web demos"
+  ]
+}

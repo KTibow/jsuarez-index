@@ -1,0 +1,17 @@
+{
+  "id": "QudGiHEH9E8",
+  "date": "2026-08-15T01:50:09+00:00",
+  "url": "https://www.youtube.com/watch?v=QudGiHEH9E8",
+  "transcript": "/src/data/transcripts/QudGiHEH9E8.vtt",
+  "originalTitle": "RL Research with Joseph Suarez",
+  "title": "Triaging Environment Upgrades for Puffer 5",
+  "summary": "Worked on pre-release maintenance for Puffer 5, upgrading and smoke-testing dozens of RL environments. Automated routine porting fixes with an LLM and introduced gold/silver grading for environment quality.",
+  "topics": [
+    "Puffer 5",
+    "environment porting",
+    "LLM-assisted development",
+    "environment grading",
+    "RL environments",
+    "pre-release triage"
+  ]
+}

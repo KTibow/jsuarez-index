@@ -1,0 +1,945 @@
+WEBVTT
+
+NOTE
+metadata:
+title: RL Research with Joseph Suarez
+id: CXLm41ynjf4
+url: https://www.youtube.com/watch?v=CXLm41ynjf4
+date: 2026-08-15T16:23:14+00:00
+language: en
+
+00:00:08.150 --> 00:00:08.160
+Okay,
+
+00:00:08.160 --> 00:00:10.549
+we should be live here.
+
+00:00:10.559 --> 00:00:14.709
+Hello. Give me a moment. I will
+
+00:00:14.719 --> 00:00:17.269
+set the stream title
+
+00:00:17.279 --> 00:00:20.150
+and uh I'll go over
+
+00:00:20.160 --> 00:00:44.389
+plan for today.
+
+00:00:46.470 --> 00:00:46.480
+Okay,
+
+00:00:46.480 --> 00:00:50.470
+that works.
+
+00:00:53.110 --> 00:00:53.120
+Move this window over
+
+00:00:53.120 --> 00:00:59.110
+and we'll switch the stream.
+
+00:01:05.670 --> 00:01:05.680
+All right.
+
+00:01:05.680 --> 00:01:07.990
+There we
+
+00:01:08.000 --> 00:01:16.550
+There we go.
+
+00:01:18.630 --> 00:01:18.640
+So, we have some uh experiments from
+
+00:01:18.640 --> 00:01:27.510
+overnight.
+
+00:01:30.070 --> 00:01:30.080
+And we definitely have a new soda,
+
+00:01:30.080 --> 00:01:31.429
+though. So, it's not as much from the
+
+00:01:31.439 --> 00:01:37.030
+algorithm as it is from a major bug fix,
+
+00:01:39.910 --> 00:01:39.920
+which is still fine. I did kind of
+
+00:01:39.920 --> 00:01:41.510
+suspect that there was going to be
+
+00:01:41.520 --> 00:01:45.270
+something like this to be fair.
+
+00:01:45.280 --> 00:01:53.190
+Like it's not entirely a surprise to me
+
+00:01:55.350 --> 00:01:55.360
+because I kind of suspected that like
+
+00:01:55.360 --> 00:01:58.389
+Nurmmo should be very hard
+
+00:01:58.399 --> 00:02:00.789
+but um you know I kind of thought that
+
+00:02:00.799 --> 00:02:02.389
+our agents would be able to do quite a
+
+00:02:02.399 --> 00:02:09.190
+bit better.
+
+00:03:18.470 --> 00:03:18.480
+hello.
+
+00:03:18.480 --> 00:03:21.030
+Yeah, but it's from a bug fix. It's not
+
+00:03:21.040 --> 00:03:28.229
+from the algorithm.
+
+00:03:29.990 --> 00:03:30.000
+It still will be a very nice result,
+
+00:03:30.000 --> 00:03:50.949
+mind you.
+
+00:04:21.110 --> 00:04:21.120
+ghost jobs fix. Yeah, I mean I kind of
+
+00:04:21.120 --> 00:04:22.550
+expected that there was going to be
+
+00:04:22.560 --> 00:04:23.909
+something like that. I kind of
+
+00:04:23.919 --> 00:04:26.629
+intentionally never bothered checking
+
+00:04:26.639 --> 00:04:28.150
+cuz I figured, you know, whatever. It's
+
+00:04:28.160 --> 00:04:29.270
+still just going to be an applesto
+
+00:04:29.280 --> 00:04:31.909
+apples comparison. But since the thing
+
+00:04:31.919 --> 00:04:35.670
+was posted,
+
+00:04:37.830 --> 00:04:37.840
+I am somewhat conflicted on some sense
+
+00:04:37.840 --> 00:04:40.550
+because like fixing it doesn't like
+
+00:04:40.560 --> 00:04:43.670
+fixing it does sort of mess up
+
+00:04:43.680 --> 00:04:46.150
+um one of our evals,
+
+00:04:46.160 --> 00:05:46.150
+but I think it's I think it's fine.
+
+00:06:25.590 --> 00:06:25.600
+Hello. [sighs and gasps]
+
+00:06:25.600 --> 00:06:31.749
+Just going to pull this model here.
+
+00:06:35.590 --> 00:06:35.600
+I do find the uh the scale a little off.
+
+00:06:35.600 --> 00:06:37.270
+Actually, no. It's cuz the end is slow
+
+00:06:37.280 --> 00:06:40.150
+is why the model's that big.
+
+00:06:40.160 --> 00:06:42.150
+Or rather, not the end, the encoder is
+
+00:06:42.160 --> 00:06:44.790
+slow.
+
+00:06:44.800 --> 00:07:22.070
+We can figure that out easy.
+
+00:07:24.550 --> 00:07:24.560
+What are you building? Just right now
+
+00:07:24.560 --> 00:07:26.870
+having um we're pulling the neural MMO
+
+00:07:26.880 --> 00:07:28.550
+experiments
+
+00:07:28.560 --> 00:07:32.950
+from overnight.
+
+00:07:44.150 --> 00:07:44.160
+Yeah, this is good enough.
+
+00:07:44.160 --> 00:08:14.230
+So, we got 300 experiments.
+
+00:08:16.950 --> 00:08:16.960
+I think the goal is
+
+00:08:16.960 --> 00:08:19.350
+we basically want to have all of our
+
+00:08:19.360 --> 00:08:21.189
+demos
+
+00:08:21.199 --> 00:08:23.189
+known
+
+00:08:23.199 --> 00:08:28.790
+working
+
+00:08:40.870 --> 00:08:40.880
+hypers will change with model size,
+
+00:08:40.880 --> 00:08:43.589
+right? Though honestly the big one which
+
+00:08:43.599 --> 00:08:44.870
+is learning rate shouldn't change
+
+00:08:44.880 --> 00:09:10.550
+because of Miy
+
+00:09:31.269 --> 00:09:31.279
+I'm trying to see which of these I want
+
+00:09:31.279 --> 00:09:33.670
+to invest
+
+00:09:33.680 --> 00:09:45.590
+uh major time into.
+
+00:09:47.670 --> 00:09:47.680
+Snake is nice as a multi- aent task to
+
+00:09:47.680 --> 00:09:54.310
+have.
+
+00:09:55.910 --> 00:09:55.920
+The thing is it's weird cuz it's like
+
+00:09:55.920 --> 00:10:03.670
+semic.
+
+00:10:13.590 --> 00:10:13.600
+But we can definitely gold this.
+
+00:10:13.600 --> 00:10:15.670
+I don't know. What? One, two, three,
+
+00:10:15.680 --> 00:10:22.870
+four.
+
+00:10:26.230 --> 00:10:26.240
+Yeah, that's fine.
+
+00:10:26.240 --> 00:10:36.310
+We can basically gold these
+
+00:11:49.030 --> 00:11:49.040
+don't know if you don't know much
+
+00:11:49.040 --> 00:11:50.630
+programming this is going to be quite
+
+00:11:50.640 --> 00:11:55.670
+advanced um I would suggest my I have an
+
+00:11:55.680 --> 00:11:59.430
+article on X that is for beginners it
+
+00:11:59.440 --> 00:12:01.829
+contains all of like pretty much all of
+
+00:12:01.839 --> 00:12:10.069
+my best advice in one place.
+
+00:12:11.910 --> 00:12:11.920
+This is the thing I'm doing today is a
+
+00:12:11.920 --> 00:12:13.590
+combination of very dumb and very
+
+00:12:13.600 --> 00:12:17.670
+advanced. Like it's very dumb routine
+
+00:12:17.680 --> 00:12:20.470
+maintenance work on a very advanced
+
+00:12:20.480 --> 00:12:21.990
+project.
+
+00:12:22.000 --> 00:12:23.910
+um where I essentially just need to get
+
+00:12:23.920 --> 00:12:26.310
+this thing ready for our next release.
+
+00:12:26.320 --> 00:12:28.470
+And that involves checking a million
+
+00:12:28.480 --> 00:13:03.190
+things aren't broken before we launch.
+
+00:13:05.670 --> 00:13:05.680
+How's pre-release going? These are all
+
+00:13:05.680 --> 00:13:08.710
+the ends.
+
+00:13:08.720 --> 00:13:11.670
+Oh, we can have um
+
+00:13:11.680 --> 00:13:14.150
+the Tron end, right? We just got a PR
+
+00:13:14.160 --> 00:13:28.389
+for this overnight.
+
+00:13:31.110 --> 00:13:31.120
+robot arm
+
+00:13:31.120 --> 00:14:27.269
+and Tron.
+
+00:16:47.829 --> 00:16:47.839
+There's definitely something wrong with
+
+00:16:47.839 --> 00:16:49.829
+the uh this agent or the steps or
+
+00:16:49.839 --> 00:17:05.669
+whatever with some of these.
+
+00:17:08.710 --> 00:17:08.720
+How do you work when you don't want to?
+
+00:17:08.720 --> 00:17:21.270
+I don't for the most part.
+
+00:17:23.270 --> 00:17:23.280
+In this case, this whole merge thing is
+
+00:17:23.280 --> 00:17:26.710
+stupid and annoying, but like um I'm
+
+00:17:26.720 --> 00:17:30.230
+only going to have to do this for like
+
+00:17:30.240 --> 00:17:33.590
+probably today. I could even finish this
+
+00:17:33.600 --> 00:17:36.310
+and then we're just set
+
+00:17:36.320 --> 00:18:06.549
+for uh for this Please.
+
+00:18:09.830 --> 00:18:09.840
+And then what we do
+
+00:18:09.840 --> 00:18:29.430
+check these GPUs.
+
+00:18:37.590 --> 00:18:37.600
+If you're new to programming, you should
+
+00:18:37.600 --> 00:18:40.390
+not be anywhere near cursor
+
+00:18:40.400 --> 00:18:43.590
+or any of this AI [ __ ] You should be
+
+00:18:43.600 --> 00:18:45.990
+basically just writing. You should just
+
+00:18:46.000 --> 00:18:47.510
+be learning some low-level dev and
+
+00:18:47.520 --> 00:19:00.390
+writing code completely by hand.
+
+00:20:03.029 --> 00:20:03.039
+That's embarrassing that we can't even
+
+00:20:03.039 --> 00:20:05.430
+have
+
+00:20:05.440 --> 00:20:13.510
+like lag-free typing in terminal apps,
+
+00:20:16.390 --> 00:20:16.400
+HTML, CSS and Python.
+
+00:20:16.400 --> 00:20:18.150
+In that case, then you should learn some
+
+00:20:18.160 --> 00:20:22.870
+C.
+
+00:20:34.310 --> 00:20:34.320
+Like low-level is not hard and it kind
+
+00:20:34.320 --> 00:20:38.630
+of makes everything else very easy
+
+00:20:40.549 --> 00:20:40.559
+cuz it kind of shifts the mindset from
+
+00:20:40.559 --> 00:20:42.630
+like look at all these things in the
+
+00:20:42.640 --> 00:20:44.470
+language that I need to understand to
+
+00:20:44.480 --> 00:20:46.470
+like oh none of those things actually
+
+00:20:46.480 --> 00:21:08.549
+even need to exist. It's like gross.
+
+00:21:10.390 --> 00:21:10.400
+I didn't switch to Grock when it came
+
+00:21:10.400 --> 00:21:13.510
+out. I've been using 4.5 for the last
+
+00:21:13.520 --> 00:21:15.990
+like few weeks now because it was
+
+00:21:16.000 --> 00:21:19.029
+faster. specifically because I got sick
+
+00:21:19.039 --> 00:21:22.310
+of not the quality uh of the model. Uh
+
+00:21:22.320 --> 00:21:24.070
+they they all are quite dumb, but
+
+00:21:24.080 --> 00:21:26.070
+because uh Soul would literally take an
+
+00:21:26.080 --> 00:21:27.830
+hour and a half to do basic refactor
+
+00:21:27.840 --> 00:21:29.830
+tasks and at that point you may as well
+
+00:21:29.840 --> 00:21:47.510
+not use it.
+
+00:21:50.070 --> 00:21:50.080
+Uh C and C are very different,
+
+00:21:50.080 --> 00:21:53.110
+especially when it's wrapped in a a game
+
+00:21:53.120 --> 00:22:15.430
+engine type setting, right?
+
+00:22:44.789 --> 00:22:44.799
+The agenda for today is mostly to just
+
+00:22:44.799 --> 00:24:07.270
+finish fixing all of the ends.
+
+00:24:09.350 --> 00:24:09.360
+This PF thing is really starting to bite
+
+00:24:09.360 --> 00:24:12.470
+me in the sense that we don't know what
+
+00:24:12.480 --> 00:24:13.990
+um
+
+00:24:14.000 --> 00:24:36.710
+what max score is, right?
+
+00:24:39.350 --> 00:24:39.360
+Oh, that actually looks kind of cool.
+
+00:24:39.360 --> 00:26:03.269
+All right, nice end of port.
+
+00:26:04.870 --> 00:26:04.880
+I'm basically just trying to get it to
+
+00:26:04.880 --> 00:26:06.470
+figure out which of all these new M's
+
+00:26:06.480 --> 00:26:08.230
+just work out of the box and which ones
+
+00:26:08.240 --> 00:26:39.830
+don't.
+
+00:28:44.230 --> 00:28:44.240
+Which of these I want cleaned?
+
+00:28:44.240 --> 00:29:09.029
+Uh, I think it's all fine.
+
+00:29:16.789 --> 00:29:16.799
+This is nice, right?
+
+00:29:16.799 --> 00:29:18.389
+Maybe order it differently, but we have
+
+00:29:18.399 --> 00:29:22.310
+gold ends, silver ends,
+
+00:29:22.320 --> 00:29:40.870
+and then the rest.
+
+00:29:43.350 --> 00:29:43.360
+I have not used chess at all yet, Jess.
+
+00:29:43.360 --> 00:29:45.350
+So, I have to basically see how it works
+
+00:29:45.360 --> 00:29:47.510
+first. I'm not I haven't ranked any of
+
+00:29:47.520 --> 00:29:49.590
+the selfplays at all actually yet, come
+
+00:29:49.600 --> 00:29:51.669
+to think of it,
+
+00:29:51.679 --> 00:29:53.990
+except for Robo Code, but that's because
+
+00:29:54.000 --> 00:29:56.950
+it's um this now this thing is now very
+
+00:29:56.960 --> 00:29:59.830
+very good as a uh versus scripted
+
+00:29:59.840 --> 00:30:04.389
+opponents.
+
+00:30:06.710 --> 00:30:06.720
+It's been like had many uh many cycles
+
+00:30:06.720 --> 00:30:08.310
+of dev on it between both me and
+
+00:30:08.320 --> 00:30:38.950
+Spencer.
+
+00:30:40.549 --> 00:30:40.559
+Okay, so there are just genuinely a lot
+
+00:30:40.559 --> 00:32:56.389
+of M's with no perf on them
+
+00:32:58.630 --> 00:32:58.640
+I'm just getting uh Hi, Liberty. I'm
+
+00:32:58.640 --> 00:33:00.389
+just getting all these like automatic
+
+00:33:00.399 --> 00:33:02.710
+tests.
+
+00:33:02.720 --> 00:33:05.029
+I think that probably everything, almost
+
+00:33:05.039 --> 00:33:06.789
+everything will be able to just get a
+
+00:33:06.799 --> 00:33:08.389
+baseline.
+
+00:33:08.399 --> 00:33:10.149
+And then I basically just get to spend
+
+00:33:10.159 --> 00:33:11.669
+my time going through all of our
+
+00:33:11.679 --> 00:33:13.990
+important M's, making sure nothing's
+
+00:33:14.000 --> 00:33:16.149
+gotten screwed up. And then for the cool
+
+00:33:16.159 --> 00:33:20.870
+Ms that uh aren't fully fixed up, I can
+
+00:33:20.880 --> 00:33:22.389
+just go make sure things are at least
+
+00:33:22.399 --> 00:34:15.030
+reasonable.
+
+00:34:22.869 --> 00:34:22.879
+exercise plan. It's a pretty casual one
+
+00:34:22.879 --> 00:34:25.589
+for the summer. I did a few weights and
+
+00:34:25.599 --> 00:34:28.069
+5K this morning.
+
+00:34:28.079 --> 00:34:29.990
+Not particularly intense, just to get
+
+00:34:30.000 --> 00:34:32.389
+some exercise. This weekend for me is
+
+00:34:32.399 --> 00:34:35.750
+mostly going to be about the release.
+
+00:34:35.760 --> 00:34:37.829
+Um,
+
+00:34:37.839 --> 00:34:39.669
+after the summer, the plan is going to
+
+00:34:39.679 --> 00:34:43.430
+be to do a more heavy weights uh regime,
+
+00:34:43.440 --> 00:34:45.349
+and I should probably have some better
+
+00:34:45.359 --> 00:34:48.149
+energy then because I'll be eating more.
+
+00:34:48.159 --> 00:34:52.710
+I'm like really pretty lean right now.
+
+00:34:52.720 --> 00:34:54.629
+I kind of can't get any leaner than this
+
+00:34:54.639 --> 00:34:57.510
+without just completely crashing
+
+00:34:57.520 --> 00:35:00.069
+um without totally crashing energy
+
+00:35:00.079 --> 00:35:53.190
+levels. I weigh like 171.
+
+00:36:00.550 --> 00:36:00.560
+Much better. At least needs to load more
+
+00:36:00.560 --> 00:36:27.670
+of them, but whatever.
+
+00:36:29.430 --> 00:36:29.440
+It is moderately annoying that we don't
+
+00:36:29.440 --> 00:36:31.750
+have um we really don't have good enough
+
+00:36:31.760 --> 00:36:35.670
+perf controls.
+
+00:36:37.589 --> 00:36:37.599
+Like I'd like to have everything 0ero to
+
+00:36:37.599 --> 00:36:39.670
+one scaled, but what do you do when it's
+
+00:36:39.680 --> 00:36:42.150
+0 to one is the win rate, right? So the
+
+00:36:42.160 --> 00:36:44.710
+win rate should obviously be 0 to1, but
+
+00:36:44.720 --> 00:36:47.109
+like even if you're playing against a
+
+00:36:47.119 --> 00:36:49.430
+random opponent in practice, the max win
+
+00:36:49.440 --> 00:36:52.950
+rate is somewhere like around 80ish. I
+
+00:36:52.960 --> 00:36:54.150
+don't know what to do with that case.
+
+00:36:54.160 --> 00:36:57.109
+And that happens very often where like
+
+00:36:57.119 --> 00:36:59.190
+we sort of know roughly how well you can
+
+00:36:59.200 --> 00:37:02.790
+do, but not exactly.
+
+00:37:02.800 --> 00:37:04.790
+We could just declare a threshold for
+
+00:37:04.800 --> 00:37:12.630
+solved to be fair.
+
+00:38:03.190 --> 00:38:03.200
+Good
+
+00:38:03.200 --> 00:38:06.470
+thing actually did it. There's soccer,
+
+00:38:06.480 --> 00:38:08.950
+Tron, ants, bat,
+
+00:38:08.960 --> 00:38:16.550
+whole bunch of new ends.
+
+00:38:19.750 --> 00:38:19.760
+No, over 90% is not at all considered
+
+00:38:19.760 --> 00:38:23.190
+solved.
+
+00:38:32.630 --> 00:38:32.640
+Like for instance in mazes, maze is one
+
+00:38:32.640 --> 00:38:35.750
+of our best benchmarks. Um and in that
+
+00:38:35.760 --> 00:38:38.230
+end I was super excited that we went
+
+00:38:38.240 --> 00:38:40.470
+from 99
+
+00:38:40.480 --> 00:38:46.710
+uh.3 to 99.8.
+
+00:38:48.069 --> 00:38:48.079
+Like that's a really meaningful
+
+00:38:48.079 --> 00:38:54.550
+improvement.
+
+00:38:56.310 --> 00:38:56.320
+cuz it means it's handling the longtail
+
+00:38:56.320 --> 00:39:27.990
+way There.
+
+00:39:41.990 --> 00:39:42.000
+I think boss fight came with a policy
+
+00:39:42.000 --> 00:40:24.390
+that worked.
+
+00:40:32.550 --> 00:40:32.560
+Oh, yeah. Does your robot arm thing have
+
+00:40:32.560 --> 00:40:36.390
+like a a PF that we can get on it?
+
+00:40:36.400 --> 00:40:38.950
+Can we like Is the Perf variable well
+
+00:40:38.960 --> 00:41:39.589
+defined and does it work?
+
+00:41:44.790 --> 00:41:44.800
+Okay, apparently we got back gammon
+
+00:41:44.800 --> 00:41:51.750
+back gammon works.
+
+00:41:54.950 --> 00:41:54.960
+Flappy Pathfinder boss fight back gammon
+
+00:41:54.960 --> 00:41:58.630
+solve
+
+00:43:29.430 --> 00:43:29.440
+only robot arm doesn't have anything on
+
+00:43:29.440 --> 00:43:31.589
+it now.
+
+00:43:31.599 --> 00:43:46.150
+Don't know about Clifford Ens
+
+00:43:51.430 --> 00:43:51.440
+for 5v5 world cords for all ships.
+
+00:43:51.440 --> 00:43:53.910
+Uh you do deltas
+
+00:43:53.920 --> 00:43:55.510
+and then you hope that you don't need an
+
+00:43:55.520 --> 00:44:04.710
+entity encoder to make it work.
+
+00:44:07.510 --> 00:44:07.520
+closest to ship deltas. You can just do
+
+00:44:07.520 --> 00:44:11.910
+the deltas to each ship.
+
+00:44:13.430 --> 00:44:13.440
+Yeah, you have to hopefully you don't
+
+00:44:13.440 --> 00:44:15.829
+need entity encoder.
+
+00:44:15.839 --> 00:44:17.349
+I mean, there's several ways you can do
+
+00:44:17.359 --> 00:44:19.829
+it. You can break it into a grid if it's
+
+00:44:19.839 --> 00:44:22.870
+very coarse. Um, if it's fine grain, you
+
+00:44:22.880 --> 00:44:27.510
+just do more like delta to points.
+
+00:44:29.349 --> 00:44:29.359
+There's it's not like a limit to max
+
+00:44:29.359 --> 00:44:32.870
+obs. It's more so
+
+00:44:32.880 --> 00:44:34.470
+it depends on the structure of the
+
+00:44:34.480 --> 00:44:49.829
+problem whether you need entity or not.
+
+00:45:23.990 --> 00:45:24.000
+House dependent.
+
+00:45:24.000 --> 00:45:26.950
+based on baskets.
+
+00:45:26.960 --> 00:45:30.069
+Okay, I'll get that to run.
+
+00:45:30.079 --> 00:45:31.670
+Annoyingly, it's not going to be able to
+
+00:45:31.680 --> 00:45:33.589
+go on the web as a CUDA end though,
+
+00:45:33.599 --> 00:45:36.069
+right?
+
+00:45:36.079 --> 00:45:37.430
+Is there any I don't think there's like
+
+00:45:37.440 --> 00:45:39.270
+a reasonable way we can get it onto the
+
+00:45:39.280 --> 00:45:41.589
+website.
+
+00:45:41.599 --> 00:45:59.430
+We can have it locally, of course.
+
+00:46:01.270 --> 00:46:01.280
+Uh, Liberty, I'm just pulling in
+
+00:46:01.280 --> 00:46:03.910
+everything that was open and like
+
+00:46:03.920 --> 00:46:07.910
+upgrading it to the latest API.
+
+00:46:07.920 --> 00:46:09.910
+I'm basically seeing what works semi out
+
+00:46:09.920 --> 00:46:11.510
+of the box and then I'm manually going
+
+00:46:11.520 --> 00:46:12.950
+through and fixing anything that's more
+
+00:46:12.960 --> 00:46:17.829
+complicated than broken.
+
+00:49:55.349 --> 00:49:55.359
+I have not looked at uh the code at all
+
+00:49:55.359 --> 00:49:57.990
+yet, man. I'm just I'm doing just like
+
+00:49:58.000 --> 00:50:00.950
+pulling in everything first. I'm just
+
+00:50:00.960 --> 00:50:03.750
+seeing what actually has
+
+00:50:03.760 --> 00:50:07.750
+a model that produces reasonable PF and
+
+00:50:07.760 --> 00:50:16.630
+then I'm going through manually after.
+
+00:50:19.750 --> 00:50:19.760
+The goal for today is that we fully have
+
+00:50:19.760 --> 00:50:44.790
+all of the end of demos ready.
+
+00:50:48.950 --> 00:50:48.960
+lost functions for what? No.
+
+00:50:48.960 --> 00:50:50.950
+Is this like
+
+00:50:50.960 --> 00:50:57.109
+something blow up?
+
+00:52:05.270 --> 00:52:05.280
+Oh,
+
+00:52:05.280 --> 00:52:19.910
+nothing really.
+
+00:52:21.750 --> 00:52:21.760
+Yeah, they need to render every frame is
+
+00:52:21.760 --> 00:52:29.589
+the thing.
+
+00:52:36.710 --> 00:52:36.720
+Where's Pong?
+
+00:52:36.720 --> 00:53:44.069
+Oh, Pong's gold.
+
+00:55:36.950 --> 00:55:36.960
+Well, it's either that or frame skip,
+
+00:55:36.960 --> 00:55:38.549
+annoyingly. We'll have to figure that
+
+00:55:38.559 --> 00:55:43.030
+out.
+
+00:55:49.670 --> 00:55:49.680
+no. That's not that's not a valid uh
+
+00:55:49.680 --> 00:56:36.950
+that's not a valid use, I don't think.
+
+00:56:39.270 --> 00:56:39.280
+writing no code.
+
+00:56:39.280 --> 00:56:42.150
+I write lots of code. This is right.
+
+00:56:42.160 --> 00:56:45.280
+This is writing basically
