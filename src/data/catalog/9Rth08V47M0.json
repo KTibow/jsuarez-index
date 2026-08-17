@@ -1,0 +1,16 @@
+{
+  "id": "9Rth08V47M0",
+  "date": "2026-08-16T02:22:40+00:00",
+  "url": "https://www.youtube.com/watch?v=9Rth08V47M0",
+  "transcript": "/src/data/transcripts/9Rth08V47M0.vtt",
+  "originalTitle": "RL Research with Joseph Suarez",
+  "title": "Reviewing Contributed Environments for Puffer 5",
+  "summary": "Conducted a pre-release review of approximately 15 new RL environments submitted by community contributors for the Puffer 5 release. The work involved triaging code, checking for common LLM-generated patterns and errors, verifying training stability, and performing cleanup to ensure compatibility with the latest Puffer API.",
+  "topics": [
+    "Puffer 5",
+    "environment review",
+    "CUDA C",
+    "RL infrastructure",
+    "open source"
+  ]
+}

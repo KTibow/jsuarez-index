@@ -1,0 +1,16 @@
+{
+  "id": "l5038qsH7OE",
+  "date": "2026-08-16T20:03:13+00:00",
+  "url": "https://www.youtube.com/watch?v=l5038qsH7OE",
+  "transcript": "/src/data/transcripts/l5038qsH7OE.vtt",
+  "originalTitle": "RL Research with Joseph Suarez",
+  "title": "Fixing Turn-Based Rendering for Neural MMO and Environments",
+  "summary": "Debugged and implemented a clean rendering solution for turn-based and non-turn-based environments in PufferLib. The work involved fixing rendering jank, applying a consistent render loop across 60+ environments, and auditing the environment codebase for release.",
+  "topics": [
+    "Puffer 5",
+    "Neural MMO",
+    "rendering",
+    "environment design",
+    "code cleanup"
+  ]
+}
