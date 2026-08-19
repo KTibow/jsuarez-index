@@ -1,0 +1,17 @@
+{
+  "id": "gjDUIYf4GDw",
+  "date": "2026-08-17T19:56:20+00:00",
+  "url": "https://www.youtube.com/watch?v=gjDUIYf4GDw",
+  "transcript": "/src/data/transcripts/gjDUIYf4GDw.vtt",
+  "originalTitle": "RL Research with Joseph Suarez",
+  "title": "Debugging NetHack Item Visibility and Encoder Architecture in PufferLib",
+  "summary": "Debugged NetHack integration in PufferLib, focusing on encoder issues and agent visibility problems. Planned mechanistic interpretability tests to evaluate agent responses to items and controlled scenarios.",
+  "topics": [
+    "NetHack",
+    "PufferLib",
+    "entity encoder",
+    "mechanistic interpretability",
+    "RL environments",
+    "async"
+  ]
+}

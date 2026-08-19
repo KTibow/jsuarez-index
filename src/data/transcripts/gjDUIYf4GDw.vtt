@@ -1,0 +1,6054 @@
+WEBVTT
+
+NOTE
+metadata:
+title: RL Research with Joseph Suarez
+id: gjDUIYf4GDw
+url: https://www.youtube.com/watch?v=gjDUIYf4GDw
+date: 2026-08-17T19:56:20+00:00
+language: en
+
+00:00:07.349 --> 00:00:07.359
+Okay,
+
+00:00:07.359 --> 00:00:12.709
+should be live here.
+
+00:00:16.950 --> 00:00:16.960
+Hello folks. So I just have to set the
+
+00:00:16.960 --> 00:00:39.030
+set the stream category.
+
+00:01:00.869 --> 00:01:00.879
+Is GitHub still down?
+
+00:01:00.879 --> 00:01:13.030
+And I get um
+
+00:01:15.270 --> 00:01:15.280
+He just Hang on. Let me read what he Let
+
+00:01:15.280 --> 00:01:18.870
+me read what Finn wrote.
+
+00:01:18.880 --> 00:01:19.990
+I want to make sure I actually
+
+00:01:20.000 --> 00:01:21.830
+understand the state of everything. This
+
+00:01:21.840 --> 00:01:24.630
+is all that's missing from Net Hack 646.
+
+00:01:24.640 --> 00:01:56.310
+Okay.
+
+00:01:59.510 --> 00:01:59.520
+Wait, he didn't change the config.
+
+00:01:59.520 --> 00:02:02.630
+Change the encoder.
+
+00:02:02.640 --> 00:02:11.350
+All right, let me see what he has done.
+
+00:02:15.270 --> 00:02:15.280
+Okay, some OBS fixes.
+
+00:02:15.280 --> 00:02:22.869
+Embeddings for rolls.
+
+00:02:24.550 --> 00:02:24.560
+One hot should be equal to what?
+
+00:02:24.560 --> 00:02:30.309
+Embedding.
+
+00:02:36.550 --> 00:02:36.560
+I'm going to be working on some of
+
+00:02:36.560 --> 00:02:40.790
+Finn's net hack stuff.
+
+00:02:42.550 --> 00:02:42.560
+General net hack stuff. Rangers throw
+
+00:02:42.560 --> 00:02:51.110
+arrows instead of Sue shooting them
+
+00:04:03.830 --> 00:04:03.840
+Okay, so he's ablating off search.
+
+00:04:03.840 --> 00:04:05.830
+Oh, there's Finn. Contribute to pro.
+
+00:04:05.840 --> 00:04:08.309
+It's all open source. Most new people
+
+00:04:08.319 --> 00:04:09.910
+start by like making an env or
+
+00:04:09.920 --> 00:04:11.429
+something. That's typically the easiest
+
+00:04:11.439 --> 00:04:13.990
+way to get a feel for it and then they
+
+00:04:14.000 --> 00:04:18.069
+move on to fancier stuff from there.
+
+00:04:18.079 --> 00:04:21.670
+Yes, 5.0 is the current and release
+
+00:04:21.680 --> 00:04:33.749
+branch.
+
+00:04:35.350 --> 00:04:35.360
+So, Finn, the first thing I'm seeing
+
+00:04:35.360 --> 00:04:39.189
+with this search 20
+
+00:04:39.199 --> 00:04:43.510
+is uh x-axis here should be wall clock.
+
+00:04:43.520 --> 00:04:45.590
+The point of not using search more than
+
+00:04:45.600 --> 00:05:02.790
+anything is that it's very slow.
+
+00:05:04.310 --> 00:05:04.320
+Wall clock lower down. Okay, I'm getting
+
+00:05:04.320 --> 00:05:08.070
+to that running. So, the run command I
+
+00:05:08.080 --> 00:05:09.830
+could go either way on it. It's not
+
+00:05:09.840 --> 00:05:17.990
+super inefficient a lot of the time.
+
+00:05:42.070 --> 00:05:42.080
+Correcting discounting is also fine.
+
+00:05:42.080 --> 00:05:43.670
+Well, actually, is it? Let me think
+
+00:05:43.680 --> 00:05:46.790
+about that.
+
+00:05:46.800 --> 00:06:02.629
+No, it's not.
+
+00:06:03.990 --> 00:06:04.000
+Actually, kind of tough to say,
+
+00:06:04.000 --> 00:06:15.029
+honestly.
+
+00:06:17.110 --> 00:06:17.120
+And it is expected that it takes a few
+
+00:06:17.120 --> 00:06:19.430
+more steps to solve without search
+
+00:06:19.440 --> 00:06:21.749
+without a search 20, but it should still
+
+00:06:21.759 --> 00:06:26.710
+be faster.
+
+00:06:28.710 --> 00:06:28.720
+I actually I would argue you could even
+
+00:06:28.720 --> 00:06:30.629
+potentially give it like S3 or
+
+00:06:30.639 --> 00:06:35.189
+something,
+
+00:06:43.029 --> 00:06:43.039
+content for free. The whole library is
+
+00:06:43.039 --> 00:06:45.990
+free and open source.
+
+00:06:46.000 --> 00:06:49.110
+Oh, wait. Here's the
+
+00:06:49.120 --> 00:06:53.350
+green line matches wall clock.
+
+00:06:53.360 --> 00:07:05.270
+Wait, the green one was discounting it.
+
+00:07:07.830 --> 00:07:07.840
+Oh, but it stops doing it if you
+
+00:07:07.840 --> 00:07:09.909
+discount it,
+
+00:07:09.919 --> 00:07:17.589
+so it's faster.
+
+00:07:20.150 --> 00:07:20.160
+So, yeah, basically. And wait, where's
+
+00:07:20.160 --> 00:07:23.510
+the one with uh with orange?
+
+00:07:23.520 --> 00:07:25.830
+No,
+
+00:07:25.840 --> 00:07:29.189
+the best line is N.
+
+00:07:29.199 --> 00:07:30.950
+Wait,
+
+00:07:30.960 --> 00:07:40.390
+it's green.
+
+00:08:04.070 --> 00:08:04.080
+Not used as soon as you discount it. I
+
+00:08:04.080 --> 00:08:05.830
+don't know whether it's proper or not to
+
+00:08:05.840 --> 00:08:09.350
+be honest, Finn, but it's definitely
+
+00:08:09.360 --> 00:08:16.710
+it's definitely using it too much.
+
+00:08:18.629 --> 00:08:18.639
+Arguably discounting it should be the
+
+00:08:18.639 --> 00:08:21.350
+correct thing. It's kind of it's kind of
+
+00:08:21.360 --> 00:08:24.869
+difficult to say,
+
+00:08:24.879 --> 00:08:27.510
+but clearly it was
+
+00:08:27.520 --> 00:08:36.550
+it was overusing it
+
+00:08:38.149 --> 00:08:38.159
+on the scale to longer runs. That's
+
+00:08:38.159 --> 00:08:39.350
+probably just learning rate or
+
+00:08:39.360 --> 00:08:41.190
+something, man. Though I wouldn't worry
+
+00:08:41.200 --> 00:08:56.630
+too much about that.
+
+00:09:00.389 --> 00:09:00.399
+Where's my um where's the chart again?
+
+00:09:00.399 --> 00:09:02.949
+Do you have the chart of the PF uh by
+
+00:09:02.959 --> 00:09:06.070
+rolls on the latest thing?
+
+00:09:06.080 --> 00:09:07.910
+Like do you have like this chart for the
+
+00:09:07.920 --> 00:09:18.550
+latest the latest PR?
+
+00:09:22.150 --> 00:09:22.160
+Oh wait. Uh yo Finn, this is bad, isn't
+
+00:09:22.160 --> 00:09:25.509
+it? Look at this. I didn't realize this
+
+00:09:25.519 --> 00:09:28.310
+has good score. Very good score. But
+
+00:09:28.320 --> 00:09:29.990
+look at the depth. Is this a score
+
+00:09:30.000 --> 00:09:49.269
+config?
+
+00:09:51.670 --> 00:09:51.680
+Yeah, I I bet. Do you have multi-roll
+
+00:09:51.680 --> 00:09:54.630
+depth?
+
+00:09:54.640 --> 00:09:56.230
+Cuz like I've been saying, the score
+
+00:09:56.240 --> 00:10:19.990
+thing is kind of troll.
+
+00:10:32.550 --> 00:10:32.560
+trained one.
+
+00:10:32.560 --> 00:10:39.110
+Oh, we definitely need that.
+
+00:10:42.389 --> 00:10:42.399
+Do you have um the previous one carried
+
+00:10:42.399 --> 00:10:44.069
+over? Do you have the depth config from
+
+00:10:44.079 --> 00:10:50.870
+previous so I can try it?
+
+00:11:36.470 --> 00:11:36.480
+What am I working on? Currently, we're
+
+00:11:36.480 --> 00:11:38.470
+pulling in some of Finn's work on Net
+
+00:11:38.480 --> 00:11:40.069
+Hack and seeing if we can push it a
+
+00:11:40.079 --> 00:11:47.910
+little bit.
+
+00:11:50.150 --> 00:11:50.160
+I just moved over and score training
+
+00:11:50.160 --> 00:11:54.710
+tanked.
+
+00:11:58.710 --> 00:11:58.720
+Uh, no. I think did we repro?
+
+00:11:58.720 --> 00:12:27.590
+Oh, yeah. That did tank.
+
+00:12:39.030 --> 00:12:39.040
+I don't think we retrained with your
+
+00:12:39.040 --> 00:13:03.030
+embedding stuff.
+
+00:13:33.590 --> 00:13:33.600
+I did pull in the embedding stuff, but
+
+00:13:33.600 --> 00:13:35.430
+I'm confused, Finn, because one hot is
+
+00:13:35.440 --> 00:13:37.430
+the same as embedding.
+
+00:13:37.440 --> 00:13:39.670
+Like the way that an embedding works is
+
+00:13:39.680 --> 00:13:41.910
+it's just a lookup.
+
+00:13:41.920 --> 00:13:43.590
+And the way that a one hot works because
+
+00:13:43.600 --> 00:13:46.710
+it's one hot is you get one row lookup
+
+00:13:46.720 --> 00:13:52.389
+and everything else is zero.
+
+00:13:53.750 --> 00:13:53.760
+Like that's literally how you can
+
+00:13:53.760 --> 00:14:17.910
+implement an embedding.
+
+00:14:40.790 --> 00:14:40.800
+We definitely want to get Net Hack onto
+
+00:14:40.800 --> 00:14:42.790
+this
+
+00:14:42.800 --> 00:14:50.069
+after broken internet.
+
+00:14:52.550 --> 00:14:52.560
+The whole internet's been broken today.
+
+00:14:52.560 --> 00:14:54.470
+Well,
+
+00:14:54.480 --> 00:14:56.870
+mine was earlier
+
+00:14:56.880 --> 00:14:58.710
+with some really weird stuff. I think it
+
+00:14:58.720 --> 00:15:02.629
+might have just been GitHub, though.
+
+00:15:02.639 --> 00:15:04.870
+There was some sort of GitHub
+
+00:15:04.880 --> 00:15:57.189
+screwiness, right?
+
+00:16:41.509 --> 00:16:41.519
+Looking forward to the net hack runs.
+
+00:16:41.519 --> 00:16:53.990
+Yeah, it's going to be fun.
+
+00:17:02.710 --> 00:17:02.720
+So Finn, I had some ideas for you.
+
+00:17:02.720 --> 00:17:04.309
+I'd kind of just like to chat about some
+
+00:17:04.319 --> 00:17:05.990
+of the net hack stuff whenever you're
+
+00:17:06.000 --> 00:17:08.870
+available.
+
+00:17:08.880 --> 00:17:10.710
+I'm happy to do that on stream or off
+
+00:17:10.720 --> 00:17:11.990
+stream if you're more comfortable with
+
+00:17:12.000 --> 00:17:17.829
+that.
+
+00:17:19.669 --> 00:17:19.679
+I have a few ideas for things that we
+
+00:17:19.679 --> 00:17:22.549
+could do to figure out like what the
+
+00:17:22.559 --> 00:17:25.429
+agent isn't isn't doing correctly.
+
+00:17:25.439 --> 00:17:29.190
+Join VC now. Sure. And let me know if
+
+00:17:29.200 --> 00:17:30.549
+you'd feel more comfortable doing that
+
+00:17:30.559 --> 00:17:34.070
+off stream. That's fine by me.
+
+00:17:34.080 --> 00:17:35.909
+If not though, I'll uh I'll just hop in
+
+00:17:35.919 --> 00:18:09.430
+the the VC.
+
+00:18:11.909 --> 00:18:11.919
+Hope that works.
+
+00:18:11.919 --> 00:18:15.430
+Hey Finn, how's it going?
+
+00:18:15.440 --> 00:18:19.669
+Good. You chill doing this on stream?
+
+00:18:19.679 --> 00:18:24.789
+Okay.
+
+00:18:26.630 --> 00:18:26.640
+Oh, yeah. No, no, no. Just like you
+
+00:18:26.640 --> 00:18:29.270
+listen to me here. I It's just I keep
+
+00:18:29.280 --> 00:18:33.029
+stream running. Um, cool. Yeah. Yeah.
+
+00:18:33.039 --> 00:18:36.870
+Echo's gone. Cool. So, I think basically
+
+00:18:36.880 --> 00:18:39.430
+we need to figure out what the agent can
+
+00:18:39.440 --> 00:18:42.710
+and cannot use. Um, we need like to
+
+00:18:42.720 --> 00:18:44.390
+actually get an assessment of like
+
+00:18:44.400 --> 00:18:47.190
+specifically where it's failing.
+
+00:18:47.200 --> 00:18:50.310
+And I had an idea based on some of my
+
+00:18:50.320 --> 00:18:52.549
+earlier work like on neural MMO that
+
+00:18:52.559 --> 00:18:56.390
+might work. So, what if we just built,
+
+00:18:56.400 --> 00:18:58.070
+and I think this is so simple, you could
+
+00:18:58.080 --> 00:19:01.270
+literally just lm this crap. But, uh,
+
+00:19:01.280 --> 00:19:03.909
+what if we just built like a test level
+
+00:19:03.919 --> 00:19:07.270
+that's not actually in Net Hack, right?
+
+00:19:07.280 --> 00:19:09.190
+But just like a standalone test level.
+
+00:19:09.200 --> 00:19:11.430
+You just make like a a basic room and
+
+00:19:11.440 --> 00:19:14.789
+stuff. Um the actual actions and stuff
+
+00:19:14.799 --> 00:19:16.870
+don't need to work, but basically just
+
+00:19:16.880 --> 00:19:20.070
+have the agent walk into a room uh that
+
+00:19:20.080 --> 00:19:21.909
+has like some item or has something on
+
+00:19:21.919 --> 00:19:24.310
+the ground and we can basically change
+
+00:19:24.320 --> 00:19:27.909
+what is there and we can see whether the
+
+00:19:27.919 --> 00:19:30.070
+activations or actions change
+
+00:19:30.080 --> 00:19:31.830
+significantly in response to different
+
+00:19:31.840 --> 00:19:39.830
+items and things being available.
+
+00:19:42.070 --> 00:19:42.080
+Yeah, to be fair, we could also just
+
+00:19:42.080 --> 00:19:43.990
+very easily set do we don't have state
+
+00:19:44.000 --> 00:19:47.590
+sets with net hack, do we?
+
+00:19:47.600 --> 00:19:49.430
+Somebody was working on that at some
+
+00:19:49.440 --> 00:19:51.270
+point. That see that sounds hard. I
+
+00:19:51.280 --> 00:19:52.390
+think there was an old thing in the
+
+00:19:52.400 --> 00:20:00.950
+Discord where somebody had that. Um,
+
+00:20:02.710 --> 00:20:02.720
+if the state's in one strct and there's
+
+00:20:02.720 --> 00:20:04.070
+nothing else, you can literally just
+
+00:20:04.080 --> 00:20:09.669
+like mems set the strct, can't you?
+
+00:20:11.029 --> 00:20:11.039
+Okay, cuz that would be another thing.
+
+00:20:11.039 --> 00:20:12.150
+Then we wouldn't have to build a
+
+00:20:12.160 --> 00:20:13.909
+standalone. You could basically just
+
+00:20:13.919 --> 00:20:15.909
+like walk around in a level and like
+
+00:20:15.919 --> 00:20:18.390
+give yourself some stuff,
+
+00:20:18.400 --> 00:20:22.470
+right? And set up a scenario.
+
+00:20:24.390 --> 00:20:24.400
+Yeah. Yeah. I've seen mini hack, but
+
+00:20:24.400 --> 00:20:26.789
+it's
+
+00:20:26.799 --> 00:20:29.909
+it
+
+00:20:35.029 --> 00:20:35.039
+isn't mini hack like super slow.
+
+00:20:35.039 --> 00:20:37.830
+Yeah, I wouldn't want to train on that.
+
+00:20:37.840 --> 00:20:39.590
+We just need to get a matched eval cuz
+
+00:20:39.600 --> 00:20:41.830
+I'm just trying to think like, you know,
+
+00:20:41.840 --> 00:20:45.830
+if it sees uh a wand of digging and it
+
+00:20:45.840 --> 00:20:49.430
+just doesn't care, right?
+
+00:20:49.440 --> 00:20:52.470
+or if it can see if if it sees food
+
+00:20:52.480 --> 00:20:55.270
+ration, does it care a lot? It should.
+
+00:20:55.280 --> 00:20:58.630
+Um, I think we could probably figure out
+
+00:20:58.640 --> 00:21:01.110
+cuz like stuff like, oh, it can it can
+
+00:21:01.120 --> 00:21:03.430
+shoot it can throw the arrows. It can't
+
+00:21:03.440 --> 00:21:05.909
+shoot them. Like this should be
+
+00:21:05.919 --> 00:21:15.110
+instantly solved in my mind. No.
+
+00:21:21.110 --> 00:21:21.120
+Yeah. So, I honestly think it's just
+
+00:21:21.120 --> 00:21:23.270
+obs, right? It's like the agent can't
+
+00:21:23.280 --> 00:21:27.830
+actually see correctly,
+
+00:21:29.350 --> 00:21:29.360
+but we need a way of figuring that out
+
+00:21:29.360 --> 00:21:31.590
+in a sort of automated way cuz I mean,
+
+00:21:31.600 --> 00:21:33.510
+it is pretty effective to just watch the
+
+00:21:33.520 --> 00:21:36.310
+agent play the game a bunch, but we
+
+00:21:36.320 --> 00:21:37.510
+would ideally have something more
+
+00:21:37.520 --> 00:21:41.669
+directed.
+
+00:21:44.230 --> 00:21:44.240
+I I think at least for this it would
+
+00:21:44.240 --> 00:21:45.909
+make sense. Now, there's some higher
+
+00:21:45.919 --> 00:21:47.590
+level stuff that I honestly don't know
+
+00:21:47.600 --> 00:21:49.990
+what we're going to do cuz I tried a few
+
+00:21:50.000 --> 00:21:52.470
+times off stream the agents just to rush
+
+00:21:52.480 --> 00:21:55.669
+like just rush down strategy. It doesn't
+
+00:21:55.679 --> 00:21:57.350
+work.
+
+00:21:57.360 --> 00:22:00.870
+Like you just need to get very lucky if
+
+00:22:00.880 --> 00:22:02.310
+you're not going to actually take the
+
+00:22:02.320 --> 00:22:05.350
+time to go and like, you know, there are
+
+00:22:05.360 --> 00:22:06.950
+strategies that are almost mandatory.
+
+00:22:06.960 --> 00:22:08.310
+Like you kind of need to do a little bit
+
+00:22:08.320 --> 00:22:10.390
+of price ID at the very least. You need
+
+00:22:10.400 --> 00:22:12.630
+to have an identify scroll, right? You
+
+00:22:12.640 --> 00:22:15.590
+need to be able to identify stuff.
+
+00:22:15.600 --> 00:22:17.510
+Should we not hear the other in
+
+00:22:17.520 --> 00:22:19.110
+conversation?
+
+00:22:19.120 --> 00:22:20.950
+I thought I fixed that. Say something,
+
+00:22:20.960 --> 00:22:24.070
+Finn.
+
+00:22:25.909 --> 00:22:25.919
+>> Oh, my bad. I I unmuted the wrong
+
+00:22:25.919 --> 00:22:26.149
+channel.
+
+00:22:26.159 --> 00:22:27.830
+>> Should we not hear the other in
+
+00:22:27.840 --> 00:22:29.190
+conversation?
+
+00:22:29.200 --> 00:22:30.390
+>> You got to tell me when I messed
+
+00:22:30.400 --> 00:22:33.029
+something up. All right.
+
+00:22:33.039 --> 00:22:33.990
+>> Um
+
+00:22:34.000 --> 00:22:35.909
+>> Oh, my bad. I I unmuted the wrong
+
+00:22:35.919 --> 00:22:37.270
+channel. Thanks for that, guys.
+
+00:22:37.280 --> 00:22:39.909
+>> So, anyways,
+
+00:22:39.919 --> 00:22:46.149
+>> something. multiroll is very good.
+
+00:22:49.909 --> 00:22:49.919
+>> Okay. So anyways,
+
+00:22:49.919 --> 00:22:52.070
+>> I think multi roll is very good.
+
+00:22:52.080 --> 00:22:55.270
+>> Oh,
+
+00:22:59.590 --> 00:22:59.600
+to not attack. Isn't that just conduct?
+
+00:22:59.600 --> 00:23:04.789
+>> Yeah, you're just screwed. Oh,
+
+00:23:09.590 --> 00:23:09.600
+to not attack. Isn't that just conduct?
+
+00:23:09.600 --> 00:23:19.029
+How to win with healer net hack.
+
+00:23:19.750 --> 00:23:19.760
+>> Quarter staff.
+
+00:23:19.760 --> 00:23:23.990
+>> Healer artifact.
+
+00:23:26.230 --> 00:23:26.240
+>> Training quarter staffs.
+
+00:23:26.240 --> 00:23:28.549
+Claim the staff. Quarter staff. Quest
+
+00:23:28.559 --> 00:23:30.870
+artifact. Drain resistance and passive
+
+00:23:30.880 --> 00:23:34.310
+healing. Training quarter staffs.
+
+00:23:34.320 --> 00:23:37.110
+Claim the staff
+
+00:23:37.120 --> 00:23:38.950
+grants drain resistance and passive
+
+00:23:38.960 --> 00:24:01.430
+healing.
+
+00:24:07.750 --> 00:24:07.760
+interesting.
+
+00:24:07.760 --> 00:24:10.950
+>> That's
+
+00:24:12.390 --> 00:24:12.400
+there's just a lot of stuff that you
+
+00:24:12.400 --> 00:24:14.230
+have to do. I don't know. I I watch a
+
+00:24:14.240 --> 00:24:16.710
+fair number of net hack runs. Um
+
+00:24:16.720 --> 00:24:17.990
+>> there's just a lot of stuff that you
+
+00:24:18.000 --> 00:24:18.470
+have to do.
+
+00:24:18.480 --> 00:24:19.990
+>> Typically people that are trying to win,
+
+00:24:20.000 --> 00:24:21.350
+they just they take their early game
+
+00:24:21.360 --> 00:24:23.190
+very slow and they really squeeze quite
+
+00:24:23.200 --> 00:24:24.870
+a lot of typically people that are
+
+00:24:24.880 --> 00:24:27.029
+trying to take their early game very
+
+00:24:27.039 --> 00:24:29.590
+slow want to know at least what identify
+
+00:24:29.600 --> 00:24:30.390
+scroll is.
+
+00:24:30.400 --> 00:24:32.310
+>> They'll really like price ID stuff. Some
+
+00:24:32.320 --> 00:24:35.190
+people want to know what the identify
+
+00:24:35.200 --> 00:24:35.909
+scroll is
+
+00:24:35.919 --> 00:24:37.510
+>> so that they can bless everything and
+
+00:24:37.520 --> 00:24:37.830
+then
+
+00:24:37.840 --> 00:24:39.190
+>> some people will just make a bunch of
+
+00:24:39.200 --> 00:24:41.669
+holy water. I see that pretty often. So
+
+00:24:41.679 --> 00:24:43.269
+that they can bless everything and then
+
+00:24:43.279 --> 00:24:45.669
+they can have blessed identification.
+
+00:24:45.679 --> 00:24:46.870
+>> Right.
+
+00:24:46.880 --> 00:24:49.269
+>> I hear you. How the heck do you hear me?
+
+00:24:49.279 --> 00:24:52.149
+Okay, hang on.
+
+00:24:52.159 --> 00:24:54.630
+>> I hear you. How the heck do you hear me?
+
+00:24:54.640 --> 00:24:57.269
+Okay, hang on guys.
+
+00:24:57.279 --> 00:25:02.310
+How about this? Does this work?
+
+00:25:07.590 --> 00:25:07.600
+professional researcher. All right. Not
+
+00:25:07.600 --> 00:25:09.269
+a professional streamer. The streaming
+
+00:25:09.279 --> 00:25:19.110
+is for fun. Are we good?
+
+00:25:38.310 --> 00:25:38.320
+Let me check Twitch
+
+00:25:38.320 --> 00:25:44.470
+this
+
+00:25:50.070 --> 00:25:50.080
+Well, now wait. Now I'm going to hear
+
+00:25:50.080 --> 00:25:51.830
+myself three times if I have the stream
+
+00:25:51.840 --> 00:25:54.549
+on.
+
+00:25:54.559 --> 00:25:57.350
+Wait, we are good now. Voice is
+
+00:25:57.360 --> 00:26:04.470
+different, but we're good.
+
+00:26:23.990 --> 00:26:24.000
+I don't understand how it's possible
+
+00:26:24.000 --> 00:26:30.470
+that they can't hear you.
+
+00:26:47.590 --> 00:26:47.600
+isn't an option to only record Discord.
+
+00:26:47.600 --> 00:26:49.590
+Okay, this one is me. This is the one
+
+00:26:49.600 --> 00:27:09.110
+that's me that's not janky, right?
+
+00:27:13.110 --> 00:27:13.120
+You can keep it as a separate channel.
+
+00:27:13.120 --> 00:27:15.190
+I don't see how you add a channel to OBS
+
+00:27:15.200 --> 00:27:17.269
+for an application.
+
+00:27:17.279 --> 00:27:20.789
+Can you do that?
+
+00:27:22.950 --> 00:27:22.960
+You can say whatever, Finn. It's I have
+
+00:27:22.960 --> 00:27:25.430
+it like temporarily.
+
+00:27:25.440 --> 00:27:27.110
+Hang on. Can you add Oh, wait. You can
+
+00:27:27.120 --> 00:27:29.029
+add application audio capture. It's in
+
+00:27:29.039 --> 00:27:31.029
+beta.
+
+00:27:31.039 --> 00:27:34.710
+Uh, okay.
+
+00:27:34.720 --> 00:27:48.070
+Window is Discord
+
+00:27:50.630 --> 00:27:50.640
+>> testing.
+
+00:27:50.640 --> 00:27:54.710
+Hello. Does this work, guys?
+
+00:27:54.720 --> 00:27:57.750
+>> Hello world. We are hopefully back.
+
+00:27:57.760 --> 00:27:59.590
+>> You should be able to hear us both now.
+
+00:27:59.600 --> 00:28:02.230
+That was good advice. Yeah. Yeah. I
+
+00:28:02.240 --> 00:28:03.669
+didn't realize you could add It actually
+
+00:28:03.679 --> 00:28:07.029
+says beta, so I that you can add like an
+
+00:28:07.039 --> 00:28:10.310
+audio capture for just an application.
+
+00:28:10.320 --> 00:28:10.950
+Thanks, Jess.
+
+00:28:10.960 --> 00:28:11.990
+>> So, we are we good now?
+
+00:28:12.000 --> 00:28:13.750
+>> Yeah. Yeah, we should be good.
+
+00:28:13.760 --> 00:28:16.230
+>> Amazing. Very good.
+
+00:28:16.240 --> 00:28:17.990
+>> Okay. I also have uh while we're
+
+00:28:18.000 --> 00:28:19.750
+talking, I have this thing retraining on
+
+00:28:19.760 --> 00:28:22.630
+the box. Um, by the way, I it's probably
+
+00:28:22.640 --> 00:28:24.710
+the degradation. My guess is that there
+
+00:28:24.720 --> 00:28:25.990
+uh there was a change with the way we do
+
+00:28:26.000 --> 00:28:28.389
+advantage advantage and there was also
+
+00:28:28.399 --> 00:28:31.830
+more importantly the async thing. So
+
+00:28:31.840 --> 00:28:33.830
+>> yeah, it looked like a like a norm got
+
+00:28:33.840 --> 00:28:34.630
+removed, was it?
+
+00:28:34.640 --> 00:28:37.750
+>> Yes, I removed the norm on advantage.
+
+00:28:37.760 --> 00:28:39.190
+>> Yeah. So that probably just wants a
+
+00:28:39.200 --> 00:28:42.789
+reweep should be fine. God damn it.
+
+00:28:42.799 --> 00:28:50.789
+Okay.
+
+00:28:54.310 --> 00:28:54.320
+managed to get my finger stuck in the
+
+00:28:54.320 --> 00:29:04.149
+the plastic cup. Whatever. Um,
+
+00:29:05.510 --> 00:29:05.520
+I'm trying to think what we should do
+
+00:29:05.520 --> 00:29:07.590
+with this next. So, multiroll is good.
+
+00:29:07.600 --> 00:29:10.149
+We definitely want depth sweeps on with
+
+00:29:10.159 --> 00:29:15.590
+like the latest thing on on multi- roll.
+
+00:29:15.600 --> 00:29:16.789
+Yeah,
+
+00:29:16.799 --> 00:29:19.110
+>> score went up. So, presumably depth will
+
+00:29:19.120 --> 00:29:20.549
+also go up once we're actually
+
+00:29:20.559 --> 00:29:22.549
+optimizing for it.
+
+00:29:22.559 --> 00:29:24.630
+>> Yeah, I I think depth will benefit more
+
+00:29:24.640 --> 00:29:27.669
+as well because pickaxes are are a lot
+
+00:29:27.679 --> 00:29:29.430
+more common for like archaeologists and
+
+00:29:29.440 --> 00:29:30.470
+some of the other roles.
+
+00:29:30.480 --> 00:29:33.190
+>> I would be very curious to see whether
+
+00:29:33.200 --> 00:29:35.190
+this means that if you get the agent to
+
+00:29:35.200 --> 00:29:37.350
+nomish mines and it gets a pickaxe if it
+
+00:29:37.360 --> 00:29:39.750
+will just start digging down.
+
+00:29:39.760 --> 00:29:41.430
+>> Yeah. Well, like archaeologist already
+
+00:29:41.440 --> 00:29:43.830
+does that for score. So, like
+
+00:29:43.840 --> 00:29:45.269
+>> Right. Right. But if the other ones get
+
+00:29:45.279 --> 00:29:47.110
+the pickaxe, will they then know to dig
+
+00:29:47.120 --> 00:29:48.870
+down since archaeologist knows to dig
+
+00:29:48.880 --> 00:29:49.669
+down?
+
+00:29:49.679 --> 00:29:49.990
+>> Yeah,
+
+00:29:50.000 --> 00:29:51.750
+>> I I I'm pretty sure I've seen the other
+
+00:29:51.760 --> 00:29:53.510
+roles as well using the pickaxes.
+
+00:29:53.520 --> 00:29:55.269
+>> Good.
+
+00:29:55.279 --> 00:29:59.269
+Okay, good. Um,
+
+00:29:59.279 --> 00:30:01.190
+some of the roles being awful is just
+
+00:30:01.200 --> 00:30:03.669
+expected. Like,
+
+00:30:03.679 --> 00:30:07.909
+>> yeah. Yeah,
+
+00:30:09.269 --> 00:30:09.279
+>> I don't know. I should probably just
+
+00:30:09.279 --> 00:30:11.110
+play some games on healer and see what
+
+00:30:11.120 --> 00:30:13.830
+happens.
+
+00:30:13.840 --> 00:30:15.830
+I think I could probably get deeper than
+
+00:30:15.840 --> 00:30:19.350
+five, but
+
+00:30:19.360 --> 00:30:21.190
+>> yeah, probably. I think it's just like
+
+00:30:21.200 --> 00:30:23.909
+kiting and using your pet and things
+
+00:30:23.919 --> 00:30:25.590
+like this. I think it also throws knives
+
+00:30:25.600 --> 00:30:28.389
+as well or something like that.
+
+00:30:28.399 --> 00:30:29.750
+>> Scalpel that's apparently pretty
+
+00:30:29.760 --> 00:30:31.590
+worthless.
+
+00:30:31.600 --> 00:30:32.470
+>> Yeah.
+
+00:30:32.480 --> 00:30:34.230
+>> Oh, and for the the chat, this is this
+
+00:30:34.240 --> 00:30:36.070
+is Finn who's working on Net Hack. He's
+
+00:30:36.080 --> 00:30:37.750
+interning with us this summer. He also
+
+00:30:37.760 --> 00:30:41.110
+built the drone env. And uh we're
+
+00:30:41.120 --> 00:30:42.389
+essentially just trying to figure out
+
+00:30:42.399 --> 00:30:43.909
+integration for net hack and then what
+
+00:30:43.919 --> 00:30:45.350
+other experiments we can do to push it
+
+00:30:45.360 --> 00:30:47.269
+even more.
+
+00:30:47.279 --> 00:30:50.230
+>> Yeah.
+
+00:30:50.240 --> 00:30:52.630
+>> Trying to figure out I definitely think
+
+00:30:52.640 --> 00:30:55.350
+we need some sort of like
+
+00:30:55.360 --> 00:30:58.070
+is that what people call mechinp? If it
+
+00:30:58.080 --> 00:30:59.830
+is, sure, but just some sort of like
+
+00:30:59.840 --> 00:31:02.710
+viz, some sort of ability to test
+
+00:31:02.720 --> 00:31:06.149
+specific sensitivity to items and things
+
+00:31:06.159 --> 00:31:07.830
+>> because things like the bow is like
+
+00:31:07.840 --> 00:31:09.590
+that's ridiculous, right? That it can't
+
+00:31:09.600 --> 00:31:11.590
+see something that basic. Do you know
+
+00:31:11.600 --> 00:31:13.909
+what it was? Is it like
+
+00:31:13.919 --> 00:31:16.310
+>> is it like one specific item encoding or
+
+00:31:16.320 --> 00:31:17.669
+something like what was the thing that
+
+00:31:17.679 --> 00:31:18.950
+you added that made that learn
+
+00:31:18.960 --> 00:31:20.789
+instantly?
+
+00:31:20.799 --> 00:31:23.029
+It was I don't know which of the three
+
+00:31:23.039 --> 00:31:25.029
+of these it was, but it was like a bit
+
+00:31:25.039 --> 00:31:27.029
+for you have a bow that you haven't
+
+00:31:27.039 --> 00:31:29.430
+wielded and then like a bit for you like
+
+00:31:29.440 --> 00:31:32.389
+the bow you're wielding has correct ammo
+
+00:31:32.399 --> 00:31:33.750
+like in your inventory. And then there
+
+00:31:33.760 --> 00:31:35.110
+was a third one that I can't remember,
+
+00:31:35.120 --> 00:31:37.350
+but it it was just like three flags for
+
+00:31:37.360 --> 00:31:39.669
+just like you have a bow and then you
+
+00:31:39.679 --> 00:31:40.630
+have ammo.
+
+00:31:40.640 --> 00:31:42.310
+>> See, that leads me to suspect that the
+
+00:31:42.320 --> 00:31:44.470
+encoding that you have for items is
+
+00:31:44.480 --> 00:31:46.149
+really hard for them to learn or
+
+00:31:46.159 --> 00:31:48.230
+something, right? because it should just
+
+00:31:48.240 --> 00:31:49.750
+be able to see like bow, arrow,
+
+00:31:49.760 --> 00:31:51.350
+whatever.
+
+00:31:51.360 --> 00:31:53.110
+>> It's really easy cuz it's your starting
+
+00:31:53.120 --> 00:31:54.710
+item, right? It's not like, oh, you have
+
+00:31:54.720 --> 00:31:56.310
+to randomly get a bow and randomly get
+
+00:31:56.320 --> 00:31:59.509
+arrows and randomly equip both. Like,
+
+00:31:59.519 --> 00:32:01.909
+you start with it,
+
+00:32:01.919 --> 00:32:02.710
+right?
+
+00:32:02.720 --> 00:32:04.950
+>> Yeah. It's probably the entity encoder
+
+00:32:04.960 --> 00:32:07.430
+just like compressing everything down a
+
+00:32:07.440 --> 00:32:07.750
+bit.
+
+00:32:07.760 --> 00:32:09.750
+>> Have you tried to like see if that works
+
+00:32:09.760 --> 00:32:12.950
+if you just trained ranger?
+
+00:32:12.960 --> 00:32:14.789
+>> I haven't done ranger only. I've tried
+
+00:32:14.799 --> 00:32:17.750
+pretty much every like combination of
+
+00:32:17.760 --> 00:32:19.830
+increasing model dims that you could
+
+00:32:19.840 --> 00:32:21.830
+think of and none of them seem to help
+
+00:32:21.840 --> 00:32:22.789
+that much. They're all
+
+00:32:22.799 --> 00:32:24.710
+>> be useful if I just sanity checked your
+
+00:32:24.720 --> 00:32:27.190
+encoding structure.
+
+00:32:27.200 --> 00:32:28.630
+>> Yeah, that would be good. I mean the
+
+00:32:28.640 --> 00:32:32.630
+whole like cuda is is vibe cuda but
+
+00:32:32.640 --> 00:32:34.389
+>> yeah that's why I'm a little sketched
+
+00:32:34.399 --> 00:32:36.389
+about looking at that code. Would you
+
+00:32:36.399 --> 00:32:38.470
+like to either explain or diagram or
+
+00:32:38.480 --> 00:32:40.549
+whatever the encoder structure at the
+
+00:32:40.559 --> 00:32:43.110
+very least? What? At least like let's
+
+00:32:43.120 --> 00:32:45.029
+diagram if you like what you think it is
+
+00:32:45.039 --> 00:32:46.789
+and then we can also if it looks sane
+
+00:32:46.799 --> 00:32:49.909
+then I guess we can try to debug it.
+
+00:32:49.919 --> 00:32:53.029
+>> Yeah, let me grab um
+
+00:32:53.039 --> 00:32:54.710
+>> I got Claude to make a pretty nice
+
+00:32:54.720 --> 00:32:56.870
+little visual the other day. Let me grab
+
+00:32:56.880 --> 00:32:57.750
+that.
+
+00:32:57.760 --> 00:33:00.470
+>> Also, did did it help did it actually
+
+00:33:00.480 --> 00:33:02.389
+help telling the agent its role? We have
+
+00:33:02.399 --> 00:33:03.669
+that question in the chat. I would
+
+00:33:03.679 --> 00:33:04.870
+expect that it should just know
+
+00:33:04.880 --> 00:33:06.310
+immediately its role based on its
+
+00:33:06.320 --> 00:33:09.110
+starting inventory.
+
+00:33:09.120 --> 00:33:12.070
+Um, I never actually tried not having
+
+00:33:12.080 --> 00:33:14.310
+the one hop. Um,
+
+00:33:14.320 --> 00:33:16.389
+>> I'd be shocked if it doesn't just like
+
+00:33:16.399 --> 00:33:19.110
+learn instantly cuz it's inventory.
+
+00:33:19.120 --> 00:33:21.190
+>> I guess it could help if it like forgets
+
+00:33:21.200 --> 00:33:25.350
+somehow later on, but yeah.
+
+00:33:25.360 --> 00:33:27.990
+>> Yeah, it feels like a free win just
+
+00:33:28.000 --> 00:33:29.590
+having the one hot, but yeah, it might
+
+00:33:29.600 --> 00:33:31.350
+be worth testing.
+
+00:33:31.360 --> 00:33:34.389
+>> Let's see if it does anything.
+
+00:33:34.399 --> 00:33:35.830
+I mean, I'm going to be ablating even
+
+00:33:35.840 --> 00:33:37.669
+like the neural MMO 3 net now that we
+
+00:33:37.679 --> 00:33:39.269
+have the major bug fixed to just delete
+
+00:33:39.279 --> 00:33:40.870
+all the biases and delete all the other
+
+00:33:40.880 --> 00:33:43.350
+crap that we have in there.
+
+00:33:43.360 --> 00:33:45.190
+>> Yeah, I'd be interested to see how like
+
+00:33:45.200 --> 00:33:48.070
+the like if the AR architecture I'm
+
+00:33:48.080 --> 00:33:50.149
+using for this transfers. It does it
+
+00:33:50.159 --> 00:33:51.509
+does seem to work quite well.
+
+00:33:51.519 --> 00:33:53.509
+>> Entity encoder architectures generally
+
+00:33:53.519 --> 00:33:55.350
+work. It's just very obnoxious to make
+
+00:33:55.360 --> 00:33:57.669
+them fast.
+
+00:33:57.679 --> 00:33:59.830
+>> Yeah. Yeah. Like the the 16 dim
+
+00:33:59.840 --> 00:34:02.789
+bottleneck into 128 max is pretty is
+
+00:34:02.799 --> 00:34:04.310
+pretty great for that.
+
+00:34:04.320 --> 00:34:05.269
+That was a good point.
+
+00:34:05.279 --> 00:34:06.470
+>> Yeah. Yeah. I really like that
+
+00:34:06.480 --> 00:34:08.149
+architecture that was we have that on
+
+00:34:08.159 --> 00:34:10.389
+the website now for the minimal like the
+
+00:34:10.399 --> 00:34:12.790
+little minimal anvil.
+
+00:34:12.800 --> 00:34:14.790
+>> Even a problem as simple as this minimal
+
+00:34:14.800 --> 00:34:16.790
+one. I have it on the stream now. This
+
+00:34:16.800 --> 00:34:18.069
+does not solve without an entity
+
+00:34:18.079 --> 00:34:20.389
+encoder.
+
+00:34:20.399 --> 00:34:21.829
+>> Okay. I've sent you I've sent you
+
+00:34:21.839 --> 00:34:23.909
+Claude's
+
+00:34:23.919 --> 00:34:26.470
+look at the the architecture which is
+
+00:34:26.480 --> 00:34:26.790
+correct.
+
+00:34:26.800 --> 00:34:29.109
+>> Is this private?
+
+00:34:29.119 --> 00:34:31.990
+>> Uh no.
+
+00:34:32.000 --> 00:34:33.909
+blog can help, but finding this page is
+
+00:34:33.919 --> 00:34:35.750
+not one of Does that link resolve for
+
+00:34:35.760 --> 00:34:37.750
+you?
+
+00:34:37.760 --> 00:34:39.829
+>> Oh, I may need to h Yeah, I'll need to
+
+00:34:39.839 --> 00:34:41.430
+give it to anyone with the link. Here we
+
+00:34:41.440 --> 00:34:44.790
+go. Copy.
+
+00:34:44.800 --> 00:34:45.430
+>> Did you leave?
+
+00:34:45.440 --> 00:34:51.030
+>> Second one should work.
+
+00:34:54.069 --> 00:34:54.079
+>> Uh, we are training we're training on
+
+00:34:54.079 --> 00:34:55.750
+net hack now. We train lots of different
+
+00:34:55.760 --> 00:34:59.030
+models for question chat.
+
+00:34:59.040 --> 00:34:59.910
+>> Does that second
+
+00:34:59.920 --> 00:35:01.270
+>> I didn't say they were limited. I said
+
+00:35:01.280 --> 00:35:03.349
+that they were narrow.
+
+00:35:03.359 --> 00:35:05.349
+>> Yes, this works.
+
+00:35:05.359 --> 00:35:07.030
+>> Perfect.
+
+00:35:07.040 --> 00:35:09.430
+>> What on earth is this?
+
+00:35:09.440 --> 00:35:11.349
+>> It's basically just like a lot of entity
+
+00:35:11.359 --> 00:35:12.870
+encoders and then
+
+00:35:12.880 --> 00:35:15.109
+>> it's like clawed vibe coding a mini
+
+00:35:15.119 --> 00:35:16.870
+website.
+
+00:35:16.880 --> 00:35:20.230
+>> Yeah, I think it's fun. I quite like the
+
+00:35:20.240 --> 00:35:21.030
+quite like the
+
+00:35:21.040 --> 00:35:24.310
+>> Do I want to click this button?
+
+00:35:24.320 --> 00:35:26.550
+Is this act is this just HTML or is this
+
+00:35:26.560 --> 00:35:29.349
+some absolute disaster? I wonder.
+
+00:35:29.359 --> 00:35:32.390
+>> Let me see what you got. Oh jeez.
+
+00:35:32.400 --> 00:35:37.109
+>> Yeah. Okay.
+
+00:35:42.470 --> 00:35:42.480
+>> mute the stream though.
+
+00:35:42.480 --> 00:35:42.790
+>> All right.
+
+00:35:42.800 --> 00:35:43.829
+>> Yeah, I've muted it.
+
+00:35:43.839 --> 00:35:44.390
+>> Okay. So,
+
+00:35:44.400 --> 00:35:45.990
+>> yeah, I never learned there for a
+
+00:35:46.000 --> 00:35:46.790
+reason. This is
+
+00:35:46.800 --> 00:35:49.030
+>> auto ascend mean. This is their mean
+
+00:35:49.040 --> 00:35:51.270
+over classes.
+
+00:35:51.280 --> 00:35:54.950
+>> No. So, that is um that's 7,000 mean is
+
+00:35:54.960 --> 00:35:57.109
+is ours. Yeah. Auto ascend mean is
+
+00:35:57.119 --> 00:36:01.190
+3,800. Their median though is like 5,300
+
+00:36:01.200 --> 00:36:03.670
+and ours is what? 45,500.
+
+00:36:03.680 --> 00:36:04.150
+>> Okay.
+
+00:36:04.160 --> 00:36:06.390
+>> So, we we absolutely smashed the mean,
+
+00:36:06.400 --> 00:36:08.069
+but not we're not quite there on the
+
+00:36:08.079 --> 00:36:10.390
+median yet.
+
+00:36:10.400 --> 00:36:13.030
+>> Okay.
+
+00:36:13.040 --> 00:36:17.910
+When did you get is 330k with async?
+
+00:36:20.470 --> 00:36:20.480
+>> Uh, yes, that will have been with Async.
+
+00:36:20.480 --> 00:36:21.510
+I've done I've done everything with
+
+00:36:21.520 --> 00:36:22.470
+async in the last
+
+00:36:22.480 --> 00:36:23.190
+>> Oh, very good.
+
+00:36:23.200 --> 00:36:23.910
+>> week or so.
+
+00:36:23.920 --> 00:36:26.310
+>> Very good. Yeah, async is good. There is
+
+00:36:26.320 --> 00:36:27.990
+a little bit of a degradation, but in
+
+00:36:28.000 --> 00:36:29.910
+all of my tests, uh, I've gotten soda
+
+00:36:29.920 --> 00:36:35.109
+with it, so it's worth it's worth using.
+
+00:36:35.119 --> 00:36:37.430
+>> Yeah, it it's it's done its job so far
+
+00:36:37.440 --> 00:36:38.470
+for me as well.
+
+00:36:38.480 --> 00:36:41.670
+>> Mhm.
+
+00:36:49.589 --> 00:36:49.599
+>> Yeah. So, those check that we're
+
+00:36:49.599 --> 00:36:53.750
+actually parsing in 16 correctly.
+
+00:36:53.760 --> 00:36:55.910
+in. What do you mean by that?
+
+00:36:55.920 --> 00:37:03.190
+>> I see map glyphs 21 by 79 are in int 16.
+
+00:37:05.670 --> 00:37:05.680
+>> Uh well, I haven't I haven't checked
+
+00:37:05.680 --> 00:37:06.069
+that.
+
+00:37:06.079 --> 00:37:08.390
+>> Well, cuz I never added in6 support to
+
+00:37:08.400 --> 00:37:10.710
+anything. So, I don't know if I merged
+
+00:37:10.720 --> 00:37:12.630
+it without noticing,
+
+00:37:12.640 --> 00:37:14.550
+>> but I'm hoping that it's actually seeing
+
+00:37:14.560 --> 00:37:15.990
+correctly because that would explain a
+
+00:37:16.000 --> 00:37:18.069
+lot.
+
+00:37:18.079 --> 00:37:20.310
+>> Yeah, I'll I'll check that. I I would be
+
+00:37:20.320 --> 00:37:21.990
+surprised if you get as good results as
+
+00:37:22.000 --> 00:37:23.990
+you have without being able to see like
+
+00:37:24.000 --> 00:37:26.470
+something that important, but you never
+
+00:37:26.480 --> 00:37:29.750
+know. Are all pretty OP.
+
+00:37:29.760 --> 00:37:34.710
+>> 27 BL stats, 20 77 extras, 55 inventory
+
+00:37:34.720 --> 00:37:40.310
+glyphs, 55 X8 item state, and then
+
+00:37:40.320 --> 00:37:42.390
+>> so those
+
+00:37:42.400 --> 00:37:44.870
+those are 55, but they're pointer nets.
+
+00:37:44.880 --> 00:37:47.270
+So it's like maximum 55. Otherwise, it's
+
+00:37:47.280 --> 00:37:52.310
+just like a a no op for any empty slots.
+
+00:37:52.320 --> 00:37:54.710
+>> So, local crop
+
+00:37:54.720 --> 00:37:57.670
+9 by9 egocentric and that does
+
+00:37:57.680 --> 00:38:00.230
+something.
+
+00:38:00.240 --> 00:38:02.390
+>> Yeah, that that seemed to help a lot.
+
+00:38:02.400 --> 00:38:05.829
+>> Okay. I am not I'm not surprised that
+
+00:38:05.839 --> 00:38:10.150
+that helps. Um
+
+00:38:30.390 --> 00:38:30.400
+Wait, you have like a weird Do you have
+
+00:38:30.400 --> 00:38:32.310
+like a non-over overlapping patch
+
+00:38:32.320 --> 00:38:34.069
+encoder?
+
+00:38:34.079 --> 00:38:37.109
+Yeah, that's it.
+
+00:38:37.119 --> 00:38:39.670
+It's a conf.
+
+00:38:39.680 --> 00:38:42.710
+Well, it Yeah. So each patch is like
+
+00:38:42.720 --> 00:38:45.430
+it's equivalent to like one conf like
+
+00:38:45.440 --> 00:38:46.950
+kernel I guess.
+
+00:38:46.960 --> 00:38:48.870
+>> But is it separate per
+
+00:38:48.880 --> 00:38:50.710
+>> but yeah there's no it's like a comp but
+
+00:38:50.720 --> 00:38:52.310
+there's no overlap between
+
+00:38:52.320 --> 00:38:54.390
+>> that's so funny. I was just thinking
+
+00:38:54.400 --> 00:38:56.550
+that was literally like a type of layer
+
+00:38:56.560 --> 00:38:58.710
+that was used in some of the first
+
+00:38:58.720 --> 00:39:00.710
+comnet architectures ever before it was
+
+00:39:00.720 --> 00:39:02.630
+dropped because images you want it to be
+
+00:39:02.640 --> 00:39:04.550
+shared. Yeah. Yeah. You found out the
+
+00:39:04.560 --> 00:39:06.870
+thing here where like the actual where
+
+00:39:06.880 --> 00:39:08.950
+it is in the image matters meaning that
+
+00:39:08.960 --> 00:39:11.589
+the con prior that the thing that the
+
+00:39:11.599 --> 00:39:13.750
+con gives you about locality is not
+
+00:39:13.760 --> 00:39:15.270
+perfect.
+
+00:39:15.280 --> 00:39:18.310
+Um
+
+00:39:20.470 --> 00:39:20.480
+>> yeah so the the important point as well
+
+00:39:20.480 --> 00:39:23.190
+is the the global patches have like dx
+
+00:39:23.200 --> 00:39:25.349
+and dy from the player as well. So that
+
+00:39:25.359 --> 00:39:28.710
+that helps.
+
+00:39:30.470 --> 00:39:30.480
+>> Okay. There's probably some ablation we
+
+00:39:30.480 --> 00:39:32.710
+can do there but cool.
+
+00:39:32.720 --> 00:39:33.270
+Yeah.
+
+00:39:33.280 --> 00:39:35.030
+>> Do you know how fast the net is, by the
+
+00:39:35.040 --> 00:39:38.150
+way, with the like relative to the
+
+00:39:38.160 --> 00:39:49.030
+envoder,
+
+00:39:50.870 --> 00:39:50.880
+but that was this was like several weeks
+
+00:39:50.880 --> 00:39:51.670
+ago.
+
+00:39:51.680 --> 00:39:53.670
+>> Okay. I'm just wondering if we can like
+
+00:39:53.680 --> 00:39:55.750
+if we can optimize the net and then just
+
+00:39:55.760 --> 00:40:00.310
+crank it even faster
+
+00:40:02.390 --> 00:40:02.400
+>> cuz with Async now you can get 2x sample
+
+00:40:02.400 --> 00:40:05.270
+reuse if your net's faster, right?
+
+00:40:05.280 --> 00:40:07.990
+>> Yeah, the M is definitely a bit slow.
+
+00:40:08.000 --> 00:40:09.430
+But it's not it's not like
+
+00:40:09.440 --> 00:40:11.750
+>> but with async it's no longer it's no
+
+00:40:11.760 --> 00:40:13.270
+longer the case that it's not worth
+
+00:40:13.280 --> 00:40:15.270
+making your net faster,
+
+00:40:15.280 --> 00:40:17.349
+>> right? Because the env is slower because
+
+00:40:17.359 --> 00:40:20.150
+you can still crank more reuse on your
+
+00:40:20.160 --> 00:40:21.829
+data.
+
+00:40:21.839 --> 00:40:23.510
+Yeah, I'll see if I can I'll see if I
+
+00:40:23.520 --> 00:40:24.950
+can make it faster then.
+
+00:40:24.960 --> 00:40:26.710
+>> Oh, yeah.
+
+00:40:26.720 --> 00:40:28.630
+It's a useful little thing to look at at
+
+00:40:28.640 --> 00:40:32.150
+least. Okay. Inventory
+
+00:40:32.160 --> 00:40:36.950
+status.
+
+00:40:39.750 --> 00:40:39.760
+You get the character triagrams.
+
+00:40:39.760 --> 00:40:42.870
+Wait, that are hashed into buckets.
+
+00:40:42.880 --> 00:40:45.270
+>> Yeah, those are those are funny.
+
+00:40:45.280 --> 00:40:46.310
+That's sketchy as
+
+00:40:46.320 --> 00:40:47.750
+>> I remember when I when I implemented
+
+00:40:47.760 --> 00:40:49.670
+that I got like plus a thousand score
+
+00:40:49.680 --> 00:40:51.109
+just like immediately and I was like
+
+00:40:51.119 --> 00:40:53.510
+wait that is like unbelievable for how
+
+00:40:53.520 --> 00:40:56.230
+simple it is but the yeah the message
+
+00:40:56.240 --> 00:40:58.470
+encoding kind of just worked. That's
+
+00:40:58.480 --> 00:41:00.069
+weird
+
+00:41:00.079 --> 00:41:03.109
+which is completely ridiculous.
+
+00:41:03.119 --> 00:41:07.750
+Bill embedding eight slots with level
+
+00:41:07.760 --> 00:41:10.470
+fail percent and return
+
+00:41:10.480 --> 00:41:18.710
+16 per slot.
+
+00:41:23.510 --> 00:41:23.520
+Why is roll 13 by 16?
+
+00:41:23.520 --> 00:41:24.870
+>> Uh where are you looking?
+
+00:41:24.880 --> 00:41:29.190
+>> Race is 5 * 8 identity.
+
+00:41:29.200 --> 00:41:30.390
+>> Ah so that is
+
+00:41:30.400 --> 00:41:33.349
+>> oh x16 bits. Wait. Huh? No,
+
+00:41:33.359 --> 00:41:34.950
+>> this might be before I changed it to
+
+00:41:34.960 --> 00:41:36.950
+embedding. And that's like the one hot.
+
+00:41:36.960 --> 00:41:39.349
+>> Okay.
+
+00:41:39.359 --> 00:41:40.309
+Zoom in a little bit.
+
+00:41:40.319 --> 00:41:42.870
+>> Not sure why it's 13.
+
+00:41:42.880 --> 00:41:44.630
+>> But yeah, it's just like a I don't know.
+
+00:41:44.640 --> 00:41:47.349
+I think it's a 16 dim and like embed for
+
+00:41:47.359 --> 00:41:50.230
+the the roll and then eight for race and
+
+00:41:50.240 --> 00:41:56.870
+gender and alignment.
+
+00:41:58.710 --> 00:41:58.720
+I guess that's one for each roll. But
+
+00:41:58.720 --> 00:42:01.030
+yeah, that makes sense.
+
+00:42:01.040 --> 00:42:03.990
+But like you only use one
+
+00:42:04.000 --> 00:42:09.430
+>> 13 queries.
+
+00:42:11.430 --> 00:42:11.440
+Oh yeah. Did we we didn't really talk
+
+00:42:11.440 --> 00:42:12.630
+about the way that you were doing the
+
+00:42:12.640 --> 00:42:16.309
+action decoding, did we?
+
+00:42:16.319 --> 00:42:19.750
+>> Uh I don't think so yet. Yeah. Like
+
+00:42:19.760 --> 00:42:22.550
+>> you had a lot of heads.
+
+00:42:22.560 --> 00:42:24.309
+>> Yeah, that that that is that is one of
+
+00:42:24.319 --> 00:42:26.390
+the things at the moment. So like you
+
+00:42:26.400 --> 00:42:27.990
+can get the benefit the most of the
+
+00:42:28.000 --> 00:42:29.510
+benefits of the conditional action tree
+
+00:42:29.520 --> 00:42:32.390
+stuff just by like I guess unrolling the
+
+00:42:32.400 --> 00:42:34.309
+tree like you just instead of having
+
+00:42:34.319 --> 00:42:36.069
+this this nested structure you just have
+
+00:42:36.079 --> 00:42:37.670
+everything out flat and you just pick
+
+00:42:37.680 --> 00:42:38.790
+the heads you want
+
+00:42:38.800 --> 00:42:41.109
+>> and that way it is it is conditioned
+
+00:42:41.119 --> 00:42:44.150
+exactly how you'd want but you get less
+
+00:42:44.160 --> 00:42:49.750
+parameter sharing I guess
+
+00:42:51.430 --> 00:42:51.440
+I think there is a there is an edge case
+
+00:42:51.440 --> 00:42:53.750
+where like if you need slot and
+
+00:42:53.760 --> 00:42:55.109
+direction that isn't conditioned
+
+00:42:55.119 --> 00:42:57.589
+properly as I have it set up now.
+
+00:42:57.599 --> 00:42:58.630
+>> Mhm.
+
+00:42:58.640 --> 00:43:00.150
+>> Um
+
+00:43:00.160 --> 00:43:01.589
+but yeah, that's that's another thing to
+
+00:43:01.599 --> 00:43:03.589
+look at.
+
+00:43:03.599 --> 00:43:05.589
+See, so let me answer it. So CV for
+
+00:43:05.599 --> 00:43:07.670
+actions you do RL that's a different
+
+00:43:07.680 --> 00:43:09.910
+objective entirely. That's the whole
+
+00:43:09.920 --> 00:43:13.030
+point. Um
+
+00:43:13.040 --> 00:43:16.150
+and number of parameters is this 3x 512
+
+00:43:16.160 --> 00:43:18.470
+plus the encoder like couple mil
+
+00:43:18.480 --> 00:43:21.270
+parameters or something.
+
+00:43:21.280 --> 00:43:22.870
+It's somewhere between a few hundred
+
+00:43:22.880 --> 00:43:29.109
+thousand and a couple million
+
+00:43:47.430 --> 00:43:47.440
+This is a lot of glyphs.
+
+00:43:47.440 --> 00:43:50.230
+Yeah, it is. It is a lot.
+
+00:43:50.240 --> 00:43:52.470
+And that that's not helped by the like
+
+00:43:52.480 --> 00:43:55.430
+the randomized names either.
+
+00:43:55.440 --> 00:43:59.030
+>> No. Well,
+
+00:43:59.040 --> 00:44:00.309
+and it's annoying because technically
+
+00:44:00.319 --> 00:44:02.230
+the randomized names even matter because
+
+00:44:02.240 --> 00:44:03.829
+you need to be able to know like, oh,
+
+00:44:03.839 --> 00:44:06.309
+it's the same one.
+
+00:44:06.319 --> 00:44:08.790
+>> Yeah. So, for for like when the engine
+
+00:44:08.800 --> 00:44:10.790
+doesn't give you the explicit ID when
+
+00:44:10.800 --> 00:44:12.230
+you I don't know,
+
+00:44:12.240 --> 00:44:13.910
+>> engrave a wand, then yeah, you kind of
+
+00:44:13.920 --> 00:44:15.670
+just need to remember or you I guess you
+
+00:44:15.680 --> 00:44:18.309
+could you could just have some rule that
+
+00:44:18.319 --> 00:44:20.309
+IDs it for you.
+
+00:44:20.319 --> 00:44:20.870
+Um,
+
+00:44:20.880 --> 00:44:22.470
+>> but it was funny because even when you
+
+00:44:22.480 --> 00:44:24.230
+you gave it the true glyphs, it didn't
+
+00:44:24.240 --> 00:44:26.470
+get much better.
+
+00:44:26.480 --> 00:44:28.230
+>> Yeah, that that was weird. That was
+
+00:44:28.240 --> 00:44:29.190
+surprising
+
+00:44:29.200 --> 00:44:30.870
+>> cuz I think that if you give me a build
+
+00:44:30.880 --> 00:44:32.710
+where you everything is IDed, the game
+
+00:44:32.720 --> 00:44:36.550
+becomes way easier,
+
+00:44:36.560 --> 00:44:37.270
+>> right?
+
+00:44:37.280 --> 00:44:38.710
+>> Yeah. I'd be interested to see if that
+
+00:44:38.720 --> 00:44:40.550
+changes with like the multiroll stuff
+
+00:44:40.560 --> 00:44:42.550
+now that it's seeing more items. But
+
+00:44:42.560 --> 00:44:43.510
+>> Mhm.
+
+00:44:43.520 --> 00:44:46.230
+>> Yeah, that was definitely weird.
+
+00:44:46.240 --> 00:44:51.030
+I mean, even knowing just beatitude.
+
+00:44:53.109 --> 00:44:53.119
+Well, admittedly, you get beatitude for
+
+00:44:53.119 --> 00:44:54.550
+free as long as you don't ditch your
+
+00:44:54.560 --> 00:45:00.069
+pet.
+
+00:45:06.230 --> 00:45:06.240
+Yeah, I guess the main thing you'd want
+
+00:45:06.240 --> 00:45:08.309
+to ID early game are scrolls. And it
+
+00:45:08.319 --> 00:45:13.270
+doesn't really use scrolls that much,
+
+00:45:15.270 --> 00:45:15.280
+assuming it's not getting beatitude from
+
+00:45:15.280 --> 00:45:17.190
+anywhere else. You need beatitude,
+
+00:45:17.200 --> 00:45:35.109
+though.
+
+00:45:37.190 --> 00:45:37.200
+I'm trying to think what we do about all
+
+00:45:37.200 --> 00:45:53.589
+of these glyphs. Like,
+
+00:46:00.150 --> 00:46:00.160
+I mean, you only see a subset of them in
+
+00:46:00.160 --> 00:46:02.950
+the early game at least. That's like I
+
+00:46:02.960 --> 00:46:07.030
+guess the the saving grace in some ways.
+
+00:46:07.040 --> 00:46:09.430
+Well, I know for sure that the encoding
+
+00:46:09.440 --> 00:46:11.349
+is going to be slow if we ever need to
+
+00:46:11.359 --> 00:46:16.309
+optimize that more. But
+
+00:46:18.150 --> 00:46:18.160
+people have used the weird like pixel
+
+00:46:18.160 --> 00:46:19.829
+encoder before. That seems kind of
+
+00:46:19.839 --> 00:46:35.270
+janky.
+
+00:46:39.510 --> 00:46:39.520
+And then wait, how are you conving?
+
+00:46:39.520 --> 00:46:41.510
+You're embedding each of these. So you
+
+00:46:41.520 --> 00:46:45.190
+have like width by height by 32 and then
+
+00:46:45.200 --> 00:46:49.829
+you have con over that
+
+00:46:53.109 --> 00:46:53.119
+>> for what part of the network?
+
+00:46:53.119 --> 00:46:55.109
+the like the initial encoding for like
+
+00:46:55.119 --> 00:46:56.870
+the map.
+
+00:46:56.880 --> 00:46:59.030
+>> It's equivalent to just a flatten and
+
+00:46:59.040 --> 00:47:03.750
+then MLP just flatten into linear.
+
+00:47:03.760 --> 00:47:05.109
+>> Wait, is that
+
+00:47:05.119 --> 00:47:06.390
+>> Well,
+
+00:47:06.400 --> 00:47:07.990
+>> this doesn't look like it. This AD
+
+00:47:08.000 --> 00:47:11.109
+patches thing looks different.
+
+00:47:11.119 --> 00:47:14.390
+>> I guess each patch is a flatten into a
+
+00:47:14.400 --> 00:47:18.630
+linear and that's like one com like
+
+00:47:18.640 --> 00:47:21.589
+kernel I guess.
+
+00:47:21.599 --> 00:47:23.030
+because that that is exactly what it
+
+00:47:23.040 --> 00:47:24.950
+computes if I if I understand.
+
+00:47:24.960 --> 00:47:31.670
+>> Oh, that's really weird. Hang on.
+
+00:47:34.630 --> 00:47:34.640
+>> It's just like a really like sparse
+
+00:47:34.640 --> 00:47:39.910
+comp.
+
+00:47:41.589 --> 00:47:41.599
+Well, it's not a con first of all
+
+00:47:41.599 --> 00:47:43.510
+because it's it miss it's missing the
+
+00:47:43.520 --> 00:47:45.430
+fundamental thing of a con which is
+
+00:47:45.440 --> 00:47:49.670
+shared weights
+
+00:47:51.349 --> 00:47:51.359
+>> formulation that enables planning.
+
+00:47:51.359 --> 00:47:51.829
+>> Yes.
+
+00:47:51.839 --> 00:47:54.069
+>> Uh CV it's policy gradients. You should
+
+00:47:54.079 --> 00:47:56.150
+check my like my intro guide to RL for
+
+00:47:56.160 --> 00:47:59.030
+that on X.
+
+00:47:59.040 --> 00:48:00.950
+>> But reinforcement learning this is this
+
+00:48:00.960 --> 00:48:02.550
+is the mechanism by which you take
+
+00:48:02.560 --> 00:48:05.430
+actions observe rewards and get a
+
+00:48:05.440 --> 00:48:08.710
+gradient from that.
+
+00:48:08.720 --> 00:48:11.349
+Uh very close to Q-learning. Yes, very
+
+00:48:11.359 --> 00:48:14.230
+close to Q-learning.
+
+00:48:14.240 --> 00:48:17.030
+>> Related but distinct. Ours is on policy
+
+00:48:17.040 --> 00:48:20.950
+but close enough.
+
+00:48:24.470 --> 00:48:24.480
+Patches and a vision transformer. Yeah,
+
+00:48:24.480 --> 00:48:26.069
+they're nonover overlapping though and
+
+00:48:26.079 --> 00:48:28.069
+it's weird.
+
+00:48:28.079 --> 00:48:31.030
+>> I did try a big just like a big con a
+
+00:48:31.040 --> 00:48:33.829
+while ago and it it didn't seem to help.
+
+00:48:33.839 --> 00:48:34.630
+But again, this is
+
+00:48:34.640 --> 00:48:36.150
+>> No, no, no. I don't I don't think it
+
+00:48:36.160 --> 00:48:37.910
+should necessarily be shared either. I'm
+
+00:48:37.920 --> 00:48:38.950
+trying to figure out what the correct
+
+00:48:38.960 --> 00:48:40.950
+thing is, though.
+
+00:48:40.960 --> 00:48:49.990
+>> I see.
+
+00:48:52.150 --> 00:48:52.160
+>> If I were going to mess with the
+
+00:48:52.160 --> 00:48:53.910
+architecture,
+
+00:48:53.920 --> 00:49:04.069
+right?
+
+00:49:06.069 --> 00:49:06.079
+Okay, if I were going to mess with the
+
+00:49:06.079 --> 00:49:10.710
+architecture and try something out,
+
+00:49:13.349 --> 00:49:13.359
+I would probably do like a very short
+
+00:49:13.359 --> 00:49:15.349
+like small channel comp just for the
+
+00:49:15.359 --> 00:49:16.790
+level architecture.
+
+00:49:16.800 --> 00:49:18.230
+>> So without all the fancy glyph
+
+00:49:18.240 --> 00:49:20.549
+embeddings
+
+00:49:20.559 --> 00:49:22.150
+just like to get the structure of the
+
+00:49:22.160 --> 00:49:23.430
+map and stuff.
+
+00:49:23.440 --> 00:49:25.589
+>> And I probably would have like a
+
+00:49:25.599 --> 00:49:27.270
+>> kind of like the snakeet. I'd have a
+
+00:49:27.280 --> 00:49:30.069
+very small shared conf and then quickly
+
+00:49:30.079 --> 00:49:33.030
+flatten it into the global features
+
+00:49:33.040 --> 00:49:34.790
+and then I would probably do the entity
+
+00:49:34.800 --> 00:49:37.670
+encoder to all the items and mobs or
+
+00:49:37.680 --> 00:49:40.230
+whatever on the level.
+
+00:49:40.240 --> 00:49:42.870
+That's probably what I would do.
+
+00:49:42.880 --> 00:49:45.750
+>> So like including positions.
+
+00:49:45.760 --> 00:49:47.510
+>> Yeah. So I'd basically separate out the
+
+00:49:47.520 --> 00:49:50.390
+map layer. Actually, I wonder if you
+
+00:49:50.400 --> 00:49:52.870
+just do terrain like that terrain
+
+00:49:52.880 --> 00:49:54.630
+feature command, how many glyphs can
+
+00:49:54.640 --> 00:49:59.349
+there be?
+
+00:50:01.190 --> 00:50:01.200
+What do you mean for for terrain?
+
+00:50:01.200 --> 00:50:03.589
+>> Mhm. Isn't there a command that just
+
+00:50:03.599 --> 00:50:07.910
+shows the terrain?
+
+00:50:09.910 --> 00:50:09.920
+>> It's just like like pound terrain,
+
+00:50:09.920 --> 00:50:23.510
+right?
+
+00:50:25.990 --> 00:50:26.000
+Is this like in the net hack game?
+
+00:50:26.000 --> 00:50:28.870
+Yeah. Yeah. It's a net hack. You never
+
+00:50:28.880 --> 00:50:31.270
+used that?
+
+00:50:31.280 --> 00:50:32.870
+>> Nope.
+
+00:50:32.880 --> 00:50:34.870
+All right.
+
+00:50:34.880 --> 00:50:40.630
+Do I have it on here?
+
+00:50:42.390 --> 00:50:42.400
+Is this the right Wait, what's packages
+
+00:50:42.400 --> 00:50:45.910
+net hack
+
+00:50:49.109 --> 00:50:49.119
+and not install some?
+
+00:50:49.119 --> 00:50:50.710
+Wait, are there different glyphs for all
+
+00:50:50.720 --> 00:50:54.710
+of the different types of wall as well?
+
+00:50:54.720 --> 00:50:56.390
+Surely not.
+
+00:50:56.400 --> 00:50:58.470
+>> That's what I was wondering.
+
+00:50:58.480 --> 00:51:01.750
+>> Like the tile map. That's funny.
+
+00:51:01.760 --> 00:51:05.589
+No way. There's 96 according to Claude
+
+00:51:05.599 --> 00:51:28.549
+and it's got access to the engine.
+
+00:51:30.790 --> 00:51:30.800
+Okay. So, if I if I just walk around in
+
+00:51:30.800 --> 00:51:37.750
+here a little bit, right?
+
+00:51:40.950 --> 00:51:40.960
+The terrain can command known map
+
+00:51:40.960 --> 00:51:46.069
+without monsters, objects, and traps.
+
+00:51:46.079 --> 00:51:47.670
+It does still show you a bunch of stuff.
+
+00:51:47.680 --> 00:51:51.030
+It has doors and fountains and things.
+
+00:51:51.040 --> 00:51:54.470
+Presumably, we could prune it
+
+00:51:54.480 --> 00:51:58.150
+and just get like a pretty small set
+
+00:51:58.160 --> 00:52:00.630
+>> just for terrain and then entity and
+
+00:52:00.640 --> 00:52:04.630
+code. the mobs and stuff.
+
+00:52:04.640 --> 00:52:09.430
+I wonder if that's better.
+
+00:52:12.630 --> 00:52:12.640
+Yeah, that could work.
+
+00:52:12.640 --> 00:52:20.950
+I think
+
+00:52:22.390 --> 00:52:22.400
+I mean I would have a feeling that with
+
+00:52:22.400 --> 00:52:24.950
+the global I guess you do have dxdy with
+
+00:52:24.960 --> 00:52:27.670
+everything which is pretty close I'd say
+
+00:52:27.680 --> 00:52:30.069
+to correct.
+
+00:52:30.079 --> 00:52:31.750
+I'm trying to think how we can test this
+
+00:52:31.760 --> 00:52:33.109
+squash.
+
+00:52:33.119 --> 00:52:34.790
+>> There's a lot to squash,
+
+00:52:34.800 --> 00:52:36.630
+>> you know. Actually, Finn, we can test
+
+00:52:36.640 --> 00:52:38.390
+all of this stuff without having to even
+
+00:52:38.400 --> 00:52:42.870
+retrain. Like
+
+00:52:45.030 --> 00:52:45.040
+you I think that this is kind of the
+
+00:52:45.040 --> 00:52:47.750
+time where it seems to me like this type
+
+00:52:47.760 --> 00:52:51.270
+of stuff, it probably things aren't it's
+
+00:52:51.280 --> 00:52:53.430
+not super clear like where exactly
+
+00:52:53.440 --> 00:52:55.750
+things are breaking and why and like
+
+00:52:55.760 --> 00:52:57.829
+what you can like specifically do to fix
+
+00:52:57.839 --> 00:52:59.589
+stuff.
+
+00:52:59.599 --> 00:53:01.670
+Um,
+
+00:53:01.680 --> 00:53:02.950
+that's my impression at least. Do you
+
+00:53:02.960 --> 00:53:04.390
+feel like you know like, oh no, I know
+
+00:53:04.400 --> 00:53:05.589
+exactly what to try next, next, next
+
+00:53:05.599 --> 00:53:08.470
+next to fix all the problems?
+
+00:53:08.480 --> 00:53:09.910
+>> No, it's not it's not super clear at
+
+00:53:09.920 --> 00:53:11.589
+all. I mean, there are there are maybe
+
+00:53:11.599 --> 00:53:13.430
+like two things that it's like you can
+
+00:53:13.440 --> 00:53:15.510
+sort of mine the variance between high
+
+00:53:15.520 --> 00:53:17.589
+performing runs to get like more
+
+00:53:17.599 --> 00:53:19.270
+consistent runs, but there's nothing
+
+00:53:19.280 --> 00:53:20.710
+clearly to
+
+00:53:20.720 --> 00:53:23.430
+>> bring the ceiling up. So in that case,
+
+00:53:23.440 --> 00:53:25.829
+let me make some suggestions because I
+
+00:53:25.839 --> 00:53:27.829
+think that the main thing is figuring
+
+00:53:27.839 --> 00:53:32.390
+out what the agent is and is not
+
+00:53:32.400 --> 00:53:33.910
+doing.
+
+00:53:33.920 --> 00:53:35.990
+And the best thing I can think of for
+
+00:53:36.000 --> 00:53:39.190
+that is like we can basically set up
+
+00:53:39.200 --> 00:53:41.030
+some scenarios
+
+00:53:41.040 --> 00:53:42.790
+uh either with the mini hack or just if
+
+00:53:42.800 --> 00:53:44.549
+you have some level of control over net
+
+00:53:44.559 --> 00:53:47.349
+hack just with net hack directly
+
+00:53:47.359 --> 00:53:49.990
+like can we just get a level right with
+
+00:53:50.000 --> 00:53:52.309
+the agent in it run it for a few steps
+
+00:53:52.319 --> 00:53:54.870
+so the RNN state is reasonable and then
+
+00:53:54.880 --> 00:53:57.910
+if you just like spawn a specific enemy
+
+00:53:57.920 --> 00:54:00.309
+far away does it change what it's doing
+
+00:54:00.319 --> 00:54:02.950
+does it change its action logs at all
+
+00:54:02.960 --> 00:54:05.510
+Um, if you spawn an item a couple rooms
+
+00:54:05.520 --> 00:54:09.109
+over, does it notice? Like,
+
+00:54:09.119 --> 00:54:10.790
+there are lots of things we can do
+
+00:54:10.800 --> 00:54:13.270
+essentially to test whether it's
+
+00:54:13.280 --> 00:54:16.230
+actually reacting correctly.
+
+00:54:16.240 --> 00:54:17.990
+And then we can do it to both longtail
+
+00:54:18.000 --> 00:54:19.190
+things where like it probably hasn't
+
+00:54:19.200 --> 00:54:21.670
+seen very many vampire lords, but maybe
+
+00:54:21.680 --> 00:54:23.270
+it doesn't know that that's a bad thing.
+
+00:54:23.280 --> 00:54:24.390
+Maybe it doesn't even know it's an
+
+00:54:24.400 --> 00:54:26.230
+enemy.
+
+00:54:26.240 --> 00:54:29.349
+But then if it sees I don't know what's
+
+00:54:29.359 --> 00:54:33.349
+like a common dangerous enemy early on
+
+00:54:33.359 --> 00:54:35.750
+a couple of ants maybe a couple a couple
+
+00:54:35.760 --> 00:54:36.470
+of ants.
+
+00:54:36.480 --> 00:54:36.790
+>> Yeah.
+
+00:54:36.800 --> 00:54:39.349
+>> If you spawn that like a room over
+
+00:54:39.359 --> 00:54:42.309
+>> it should like that should dramatically
+
+00:54:42.319 --> 00:54:44.150
+change the value function. That should
+
+00:54:44.160 --> 00:54:46.390
+change a lot of stuff. Right. And if it
+
+00:54:46.400 --> 00:54:48.069
+doesn't
+
+00:54:48.079 --> 00:54:49.910
+is it cuz it can't see you know if we
+
+00:54:49.920 --> 00:54:51.750
+put it in that 9 by9 window does it
+
+00:54:51.760 --> 00:54:53.349
+suddenly change? If we put it like one
+
+00:54:53.359 --> 00:54:55.670
+tile outside the 9 by9, does it suddenly
+
+00:54:55.680 --> 00:54:58.630
+like drop off?
+
+00:54:58.640 --> 00:54:59.990
+>> Yeah, that's a good idea.
+
+00:55:00.000 --> 00:55:01.510
+>> I'm just trying to think how we can get
+
+00:55:01.520 --> 00:55:03.990
+you like a tight dev loop again where
+
+00:55:04.000 --> 00:55:05.910
+you can actually test this stuff cuz
+
+00:55:05.920 --> 00:55:07.750
+without that, I understand like research
+
+00:55:07.760 --> 00:55:09.430
+projects kind of they just tend to drag
+
+00:55:09.440 --> 00:55:12.069
+and start feeling pretty awful cuz it's
+
+00:55:12.079 --> 00:55:15.430
+not clear how to make progress.
+
+00:55:15.440 --> 00:55:17.589
+>> Yeah, it it does take a long time at the
+
+00:55:17.599 --> 00:55:18.150
+moment.
+
+00:55:18.160 --> 00:55:19.750
+>> I've done that for years, my guy. This
+
+00:55:19.760 --> 00:55:21.750
+is why I'm trying to avoid this.
+
+00:55:21.760 --> 00:55:24.870
+>> And uh basically you you do this by
+
+00:55:24.880 --> 00:55:26.470
+finding ways that you can make progress
+
+00:55:26.480 --> 00:55:29.349
+that are like pretty straightforward and
+
+00:55:29.359 --> 00:55:32.309
+have a tight loop on them.
+
+00:55:32.319 --> 00:55:34.870
+Yeah. I think in this case like the
+
+00:55:34.880 --> 00:55:38.069
+mechan stuff would actually I think that
+
+00:55:38.079 --> 00:55:41.750
+would work
+
+00:55:43.990 --> 00:55:44.000
+because I like my main fear when I see
+
+00:55:44.000 --> 00:55:45.670
+custom encodings like this like you
+
+00:55:45.680 --> 00:55:49.349
+obviously need custom encoders but most
+
+00:55:49.359 --> 00:55:52.710
+of the errors are
+
+00:55:52.720 --> 00:55:54.309
+okay they're reward space errors are
+
+00:55:54.319 --> 00:55:56.390
+pretty common but most of the errors
+
+00:55:56.400 --> 00:55:58.309
+otherwise are because the model can't
+
+00:55:58.319 --> 00:56:00.549
+see something clearly
+
+00:56:00.559 --> 00:56:02.630
+to give you an idea right the neural MMO
+
+00:56:02.640 --> 00:56:04.789
+bug we've just fixed. Now, we just got
+
+00:56:04.799 --> 00:56:06.950
+soda with 1/ 1,000th of the data after
+
+00:56:06.960 --> 00:56:09.430
+that fix.
+
+00:56:09.440 --> 00:56:12.630
+>> Yeah, that that's that's crazy.
+
+00:56:12.640 --> 00:56:14.630
+>> And I kind of suspected that there was a
+
+00:56:14.640 --> 00:56:16.390
+bug. It's just funny. The end is still
+
+00:56:16.400 --> 00:56:18.390
+not solved yet, by the way. Not even
+
+00:56:18.400 --> 00:56:21.190
+close. Um, but we did get soda with a
+
+00:56:21.200 --> 00:56:24.630
+tiny amount of data. So, I think that we
+
+00:56:24.640 --> 00:56:26.789
+should kind of rule out all instances of
+
+00:56:26.799 --> 00:56:29.190
+like the model can't see something that
+
+00:56:29.200 --> 00:56:36.230
+it very obviously should be able to see.
+
+00:56:38.630 --> 00:56:38.640
+Yeah, I agree. That sounds like a good
+
+00:56:38.640 --> 00:56:39.270
+idea.
+
+00:56:39.280 --> 00:56:41.910
+>> Yeah. Um,
+
+00:56:41.920 --> 00:56:45.030
+how hard is it to like add stuff into
+
+00:56:45.040 --> 00:56:47.670
+like a existing Net Hack game? Like, is
+
+00:56:47.680 --> 00:56:49.109
+the structure of the game simple enough
+
+00:56:49.119 --> 00:56:51.109
+that you could just get Claude or or
+
+00:56:51.119 --> 00:56:54.390
+Grock to like wire up like a thing to
+
+00:56:54.400 --> 00:56:56.309
+just edit mobs into the game or
+
+00:56:56.319 --> 00:56:57.829
+whatever? Edit things into the game at
+
+00:56:57.839 --> 00:56:59.589
+different spots.
+
+00:56:59.599 --> 00:57:00.789
+>> Yeah, I don't think that should be too
+
+00:57:00.799 --> 00:57:02.870
+bad. And if that is bad, then Minihack
+
+00:57:02.880 --> 00:57:04.549
+does it somehow. So we can we can look
+
+00:57:04.559 --> 00:57:09.109
+at what they do.
+
+00:57:10.549 --> 00:57:10.559
+>> Okay. Then that that would be my
+
+00:57:10.559 --> 00:57:12.390
+recommendation. I would say would be the
+
+00:57:12.400 --> 00:57:14.150
+next stage for this like the next thing
+
+00:57:14.160 --> 00:57:15.670
+for you to if you want to make this
+
+00:57:15.680 --> 00:57:17.910
+thing way better is going to be to see
+
+00:57:17.920 --> 00:57:21.430
+what it can and cannot see. Um I think
+
+00:57:21.440 --> 00:57:22.870
+you want to ablate all the different
+
+00:57:22.880 --> 00:57:25.670
+things in the encoder and in the decoder
+
+00:57:25.680 --> 00:57:27.829
+based on that, not just randomly, not
+
+00:57:27.839 --> 00:57:29.670
+having to do a new training run every
+
+00:57:29.680 --> 00:57:31.190
+single time.
+
+00:57:31.200 --> 00:57:32.870
+We definitely want to start with a good
+
+00:57:32.880 --> 00:57:35.109
+depth config where you've watched a few
+
+00:57:35.119 --> 00:57:36.710
+games with the policy though and you see
+
+00:57:36.720 --> 00:57:40.150
+it's mostly doing reasonable stuff.
+
+00:57:40.160 --> 00:57:41.670
+Um,
+
+00:57:41.680 --> 00:57:44.549
+so I would definitely want to have that.
+
+00:57:44.559 --> 00:57:46.630
+I think you can ablate from there based
+
+00:57:46.640 --> 00:57:49.190
+on those scenarios. And then there
+
+00:57:49.200 --> 00:57:50.710
+should also you should have a simplicity
+
+00:57:50.720 --> 00:57:54.230
+bias. So, you know, the goal should be
+
+00:57:54.240 --> 00:57:57.109
+to have the simplest or fastest way of
+
+00:57:57.119 --> 00:58:00.789
+encoding that matches Perf and that, you
+
+00:58:00.799 --> 00:58:03.910
+know, fixes those scenarios.
+
+00:58:03.920 --> 00:58:06.549
+>> Yeah.
+
+00:58:06.559 --> 00:58:07.829
+How do you identify what it can and
+
+00:58:07.839 --> 00:58:09.030
+cannot see without a bunch of training
+
+00:58:09.040 --> 00:58:11.270
+runs? So, Jess, if you take the agent in
+
+00:58:11.280 --> 00:58:13.589
+a scenario and you drop a monster next
+
+00:58:13.599 --> 00:58:16.390
+to it, does it massively just shift its
+
+00:58:16.400 --> 00:58:18.150
+action props? Does it shift the value
+
+00:58:18.160 --> 00:58:22.710
+function? Does it react at all?
+
+00:58:22.720 --> 00:58:24.230
+State sets might be very useful there,
+
+00:58:24.240 --> 00:58:25.589
+Finn. So you can see what it does with
+
+00:58:25.599 --> 00:58:28.390
+and without. To be fair, um, if it's
+
+00:58:28.400 --> 00:58:30.549
+already if all the data is already in
+
+00:58:30.559 --> 00:58:32.950
+one big strruct, that's literally one
+
+00:58:32.960 --> 00:58:34.870
+mem copy.
+
+00:58:34.880 --> 00:58:36.870
+I think you can probably get a lot of
+
+00:58:36.880 --> 00:58:39.430
+that stuff uh validated automatically as
+
+00:58:39.440 --> 00:58:42.549
+well.
+
+00:58:49.510 --> 00:58:49.520
+The means. Oops.
+
+00:58:49.520 --> 00:58:54.710
+What?
+
+00:58:58.390 --> 00:58:58.400
+A I was hoping we would get genie.
+
+00:58:58.400 --> 00:58:59.270
+>> Oops.
+
+00:58:59.280 --> 00:59:00.390
+>> Yeah, it would be it would be
+
+00:59:00.400 --> 00:59:01.910
+interesting to see if you can like
+
+00:59:01.920 --> 00:59:04.789
+recover the location of the entrance and
+
+00:59:04.799 --> 00:59:05.670
+exit
+
+00:59:05.680 --> 00:59:07.349
+>> from the the hidden state or something
+
+00:59:07.359 --> 00:59:08.870
+like that
+
+00:59:08.880 --> 00:59:10.470
+>> because it's not obvious that it it
+
+00:59:10.480 --> 00:59:12.150
+knows where it is at all times. Like
+
+00:59:12.160 --> 00:59:13.589
+sometimes it does just kind of wander
+
+00:59:13.599 --> 00:59:15.670
+around. Whether that be because it
+
+00:59:15.680 --> 00:59:16.870
+doesn't know where it is or because it
+
+00:59:16.880 --> 00:59:18.549
+it just wants to wander for a bit. I
+
+00:59:18.559 --> 00:59:19.670
+don't know.
+
+00:59:19.680 --> 00:59:23.510
+>> Mhm.
+
+01:00:11.190 --> 01:00:11.200
+Just checking on whether this depth run
+
+01:00:11.200 --> 01:00:17.430
+is done.
+
+01:00:19.190 --> 01:00:19.200
+I'd like to look at that fast package as
+
+01:00:19.200 --> 01:00:21.109
+well. Fast. Was it fast NLA? Do you have
+
+01:00:21.119 --> 01:00:23.349
+the link?
+
+01:00:23.359 --> 01:00:26.390
+>> Uh, yeah. So, this is just like my vibe
+
+01:00:26.400 --> 01:00:27.190
+port.
+
+01:00:27.200 --> 01:00:27.829
+>> Mhm.
+
+01:00:27.839 --> 01:00:29.990
+>> Uh, let me grab it. Well,
+
+01:00:30.000 --> 01:00:31.430
+>> it's not even a port. It's just like
+
+01:00:31.440 --> 01:00:33.349
+your optimizations on the original,
+
+01:00:33.359 --> 01:00:35.030
+right?
+
+01:00:35.040 --> 01:00:37.270
+>> Yeah. It's very mild. So mostly it's
+
+01:00:37.280 --> 01:00:41.430
+like bin the Python, fix a ridiculous
+
+01:00:41.440 --> 01:00:43.430
+number of bugs in in just like the
+
+01:00:43.440 --> 01:00:45.829
+environment and then go from there. Let
+
+01:00:45.839 --> 01:00:47.109
+me DM this to you.
+
+01:00:47.119 --> 01:00:48.630
+>> Mhm.
+
+01:00:48.640 --> 01:00:52.230
+Just want to see how close this is to uh
+
+01:00:52.240 --> 01:00:59.990
+is this just like C99 with a bunch of
+
+01:01:01.750 --> 01:01:01.760
+like what's the build setup for this? So
+
+01:01:01.760 --> 01:01:04.069
+we have
+
+01:01:04.079 --> 01:01:06.470
+Python lib Z
+
+01:01:06.480 --> 01:01:09.270
+does this what what does Net Hack itself
+
+01:01:09.280 --> 01:01:13.030
+does this thing have dependencies
+
+01:01:13.040 --> 01:01:16.150
+um let me have a look I don't I I kind
+
+01:01:16.160 --> 01:01:18.390
+of doubt it
+
+01:01:18.400 --> 01:01:19.910
+nothing heavy
+
+01:01:19.920 --> 01:01:23.829
+>> there's still Python here but presumably
+
+01:01:23.839 --> 01:01:26.150
+>> I'm just wondering if it is just C99
+
+01:01:26.160 --> 01:01:26.789
+like
+
+01:01:26.799 --> 01:01:28.789
+>> we can build it for the web and then we
+
+01:01:28.799 --> 01:01:30.230
+can put it on the website which would be
+
+01:01:30.240 --> 01:01:31.750
+pretty awesome.
+
+01:01:31.760 --> 01:01:33.430
+Oh yeah, we can we can definitely find a
+
+01:01:33.440 --> 01:01:34.470
+way to do that.
+
+01:01:34.480 --> 01:01:36.470
+>> I mean, that would be really sweet,
+
+01:01:36.480 --> 01:01:37.670
+right?
+
+01:01:37.680 --> 01:01:39.349
+>> I would be wounded if we couldn't get it
+
+01:01:39.359 --> 01:01:40.710
+on the website.
+
+01:01:40.720 --> 01:01:42.870
+>> I will I will code is it? It's not It
+
+01:01:42.880 --> 01:01:44.390
+shouldn't The binary shouldn't be that
+
+01:01:44.400 --> 01:01:47.349
+big, right?
+
+01:01:47.359 --> 01:01:49.190
+>> I mean, it's a it's a lot of lines of
+
+01:01:49.200 --> 01:01:51.349
+code. I think it's several hundred
+
+01:01:51.359 --> 01:01:53.990
+thousand, but
+
+01:01:54.000 --> 01:01:54.309
+a
+
+01:01:54.319 --> 01:01:56.470
+>> couple megs though, like
+
+01:01:56.480 --> 01:02:00.870
+>> Yeah, it's not it's not like ridiculous.
+
+01:02:00.880 --> 01:02:04.789
+It should be fine.
+
+01:02:19.829 --> 01:02:19.839
+What's happening? Is the tra Did the
+
+01:02:19.839 --> 01:02:21.589
+training run not work?
+
+01:02:21.599 --> 01:02:23.430
+>> Yeah, it did very poorly.
+
+01:02:23.440 --> 01:02:25.990
+>> Yeah, that that'll be the the same with
+
+01:02:26.000 --> 01:02:27.670
+score then. It'll just be some mismatch
+
+01:02:27.680 --> 01:02:31.510
+between like the new 5 and the 5C.
+
+01:02:31.520 --> 01:02:32.549
+>> Uhhuh.
+
+01:02:32.559 --> 01:02:33.349
+>> Stuff.
+
+01:02:33.359 --> 01:02:36.069
+>> Get it on a different page.
+
+01:02:36.079 --> 01:02:37.589
+>> Oh, it won't slow the main page
+
+01:02:37.599 --> 01:02:39.430
+regardless. It only loads it when you
+
+01:02:39.440 --> 01:02:45.430
+click it.
+
+01:02:47.829 --> 01:02:47.839
+Yeah, I'll I'll have to rewe probably if
+
+01:02:47.839 --> 01:02:49.270
+if there's a couple of things that have
+
+01:02:49.280 --> 01:02:53.589
+changed.
+
+01:02:55.430 --> 01:02:55.440
+Yeah, that is not that is not good.
+
+01:02:55.440 --> 01:02:59.030
+That's
+
+01:03:09.190 --> 01:03:09.200
+>> Yeah, you can get that thing rewept.
+
+01:03:09.200 --> 01:03:09.990
+I'll have it merge.
+
+01:03:10.000 --> 01:03:11.430
+>> What was the pryo?
+
+01:03:11.440 --> 01:03:13.030
+>> What was the pryo in the config? I
+
+01:03:13.040 --> 01:03:13.829
+wonder.
+
+01:03:13.839 --> 01:03:15.670
+>> Uh oh, that's another big one. We
+
+01:03:15.680 --> 01:03:17.750
+deleted pryo, man.
+
+01:03:17.760 --> 01:03:19.190
+>> Yeah, that's what I'm thinking. Cuz like
+
+01:03:19.200 --> 01:03:21.750
+if it was using it heavily, then
+
+01:03:21.760 --> 01:03:26.470
+>> actually, let me see.
+
+01:03:29.510 --> 01:03:29.520
+I don't see pryo at all in here. It was
+
+01:03:29.520 --> 01:03:32.789
+on default potentially.
+
+01:03:32.799 --> 01:03:35.349
+But then Horizon,
+
+01:03:35.359 --> 01:03:39.029
+where's your Horizon? 128. So pryo. The
+
+01:03:39.039 --> 01:03:40.630
+reason we could get rid of pryo is it
+
+01:03:40.640 --> 01:03:44.069
+basically does nothing for long horizon
+
+01:03:44.079 --> 01:03:47.670
+and uh all of the sweeps tend towards
+
+01:03:47.680 --> 01:03:50.230
+long horizon. Now
+
+01:03:50.240 --> 01:03:52.309
+>> were they getting like 512? because I
+
+01:03:52.319 --> 01:03:54.950
+saw the the limit is still 512.
+
+01:03:54.960 --> 01:03:56.870
+>> Typically it doesn't go that high.
+
+01:03:56.880 --> 01:04:01.430
+Typically we see 128 or 256.
+
+01:04:01.440 --> 01:04:03.910
+>> Yeah. Okay, that makes sense
+
+01:04:03.920 --> 01:04:05.750
+cuz the the more recent sweeps have been
+
+01:04:05.760 --> 01:04:08.230
+tending towards well for net hack 512
+
+01:04:08.240 --> 01:04:11.430
+and then the gamma like 0.999
+
+01:04:11.440 --> 01:04:15.029
+like seven or something like super super
+
+01:04:15.039 --> 01:04:17.349
+long horizon
+
+01:04:17.359 --> 01:04:19.910
+for it's a little odd for net hack for
+
+01:04:19.920 --> 01:04:22.230
+gamma to be that high but not too too
+
+01:04:22.240 --> 01:04:28.309
+crazy I suppose.
+
+01:04:30.150 --> 01:04:30.160
+Yeah, this is like mid sweep. But
+
+01:04:30.160 --> 01:04:31.829
+>> I don't fully understand the advantage
+
+01:04:31.839 --> 01:04:34.789
+norm stuff yet. By the way, um my
+
+01:04:34.799 --> 01:04:36.390
+thinking on that is essentially just
+
+01:04:36.400 --> 01:04:39.270
+Muan is absorbing it though,
+
+01:04:39.280 --> 01:04:41.190
+>> right?
+
+01:04:41.200 --> 01:04:42.950
+>> Because it was computing advantage and
+
+01:04:42.960 --> 01:04:45.750
+then scaling it by mini batch anyways,
+
+01:04:45.760 --> 01:04:48.309
+which is bad. There probably is some
+
+01:04:48.319 --> 01:04:49.670
+sort of advantage norm thing to
+
+01:04:49.680 --> 01:04:52.069
+compensate for the squared loss like
+
+01:04:52.079 --> 01:04:55.990
+magnitudes, but um I think that the
+
+01:04:56.000 --> 01:04:57.910
+miniorm thing was not helping. And
+
+01:04:57.920 --> 01:04:59.589
+actually, we got soda on mazes without
+
+01:04:59.599 --> 01:05:01.430
+it,
+
+01:05:01.440 --> 01:05:05.910
+>> right? Oh, that's good.
+
+01:05:07.670 --> 01:05:07.680
+We've actually sewed all the like all
+
+01:05:07.680 --> 01:05:11.589
+the big ends at this point.
+
+01:05:11.599 --> 01:05:15.270
+And we have 60 M's now.
+
+01:05:15.280 --> 01:05:17.510
+>> Yeah, the website's looking looking big
+
+01:05:17.520 --> 01:05:18.470
+now.
+
+01:05:18.480 --> 01:05:21.029
+>> Yeah, all these ones. Like
+
+01:05:21.039 --> 01:05:22.710
+>> some of these are very promising in my
+
+01:05:22.720 --> 01:05:26.710
+mind as well.
+
+01:05:28.789 --> 01:05:28.799
+The only one thing on the website that I
+
+01:05:28.799 --> 01:05:30.470
+noticed a long, it might have even been
+
+01:05:30.480 --> 01:05:32.789
+Sam that noticed this, but the GIF of
+
+01:05:32.799 --> 01:05:35.190
+the puffer has like a slightly different
+
+01:05:35.200 --> 01:05:36.470
+background to the
+
+01:05:36.480 --> 01:05:38.470
+>> It does. And I've never been able to
+
+01:05:38.480 --> 01:05:40.789
+reexport it either cuz it was like super
+
+01:05:40.799 --> 01:05:44.390
+old. So, we have a new puffer modeled,
+
+01:05:44.400 --> 01:05:47.109
+>> but the thing is it's just slightly off
+
+01:05:47.119 --> 01:05:49.109
+and it looks good in some ways, but it
+
+01:05:49.119 --> 01:05:50.630
+doesn't quite have the charm of the
+
+01:05:50.640 --> 01:05:52.230
+original and I haven't been able to fix
+
+01:05:52.240 --> 01:05:53.829
+it.
+
+01:05:53.839 --> 01:05:54.870
+>> Right. Yeah.
+
+01:05:54.880 --> 01:05:57.029
+>> And like we didn't even try to like make
+
+01:05:57.039 --> 01:05:58.390
+the puffer look different. We didn't
+
+01:05:58.400 --> 01:05:59.750
+want to replace the puffer. We just
+
+01:05:59.760 --> 01:06:02.230
+wanted to get it remodeled to like and
+
+01:06:02.240 --> 01:06:04.309
+slightly streamlined uh so that we could
+
+01:06:04.319 --> 01:06:07.430
+add new animations to it,
+
+01:06:07.440 --> 01:06:09.589
+but in the process like something
+
+01:06:09.599 --> 01:06:11.190
+slightly off. And it's just one of those
+
+01:06:11.200 --> 01:06:12.789
+really subtle art things where it's like
+
+01:06:12.799 --> 01:06:14.549
+you change one polygon and oh now it
+
+01:06:14.559 --> 01:06:17.349
+looks right. But yeah.
+
+01:06:17.359 --> 01:06:20.549
+>> Yeah.
+
+01:06:24.309 --> 01:06:24.319
+Is drone is the drone like frame
+
+01:06:24.319 --> 01:06:26.390
+>> Yeah. Is drone is the drone like frame rate working now?
+
+01:06:26.390 --> 01:06:26.400
+rate working now?
+
+01:06:26.400 --> 01:06:28.309
+>> Uh I have it on my stream. You can tell
+
+01:06:28.319 --> 01:06:32.549
+me.
+
+01:06:48.470 --> 01:06:48.480
+>> Yeah, when I change when I press tab it
+
+01:06:48.480 --> 01:06:50.390
+breaks it. So apparently I broke one
+
+01:06:50.400 --> 01:06:52.069
+thing or another.
+
+01:06:52.079 --> 01:06:54.150
+>> Yeah, that that should be changing the
+
+01:06:54.160 --> 01:06:56.309
+task.
+
+01:06:56.319 --> 01:06:58.230
+>> So there's there's basically just a long
+
+01:06:58.240 --> 01:07:00.230
+tail of of things to fix with all the
+
+01:07:00.240 --> 01:07:03.670
+ends. Um I'm hopefully going to have my
+
+01:07:03.680 --> 01:07:06.470
+community just like tell me all the
+
+01:07:06.480 --> 01:07:08.390
+things broken.
+
+01:07:08.400 --> 01:07:10.789
+>> Yeah, I mean I can I can fix drone as
+
+01:07:10.799 --> 01:07:12.470
+well.
+
+01:07:12.480 --> 01:07:13.670
+>> I'm sure that I broke just with
+
+01:07:13.680 --> 01:07:15.910
+integration.
+
+01:07:15.920 --> 01:07:18.390
+Yeah,
+
+01:07:18.400 --> 01:07:20.630
+>> drone's cool though.
+
+01:07:20.640 --> 01:07:22.710
+I had to like change stuff to have the
+
+01:07:22.720 --> 01:07:27.430
+single demo and lots of things.
+
+01:07:27.440 --> 01:07:31.910
+Battle is not logging perf. Oops.
+
+01:07:31.920 --> 01:07:33.670
+This is another end that I made a while
+
+01:07:33.680 --> 01:07:36.470
+ago.
+
+01:07:36.480 --> 01:07:37.990
+I didn't quite finish it as you can
+
+01:07:38.000 --> 01:07:45.829
+tell.
+
+01:07:47.990 --> 01:07:48.000
+It has like ground to ground, ground to
+
+01:07:48.000 --> 01:07:49.510
+air, air to ground. It has a lot of
+
+01:07:49.520 --> 01:07:51.670
+different things.
+
+01:07:51.680 --> 01:07:54.150
+Okay. Um,
+
+01:07:54.160 --> 01:07:55.910
+anything else to address with net hack
+
+01:07:55.920 --> 01:07:58.390
+fin like Oh, let me read this real quick
+
+01:07:58.400 --> 01:07:59.829
+to see if there's anything in your train
+
+01:07:59.839 --> 01:08:10.470
+log. Nothing in PR.
+
+01:08:13.270 --> 01:08:13.280
+Just reweep it looks like.
+
+01:08:13.280 --> 01:08:13.990
+>> Yeah.
+
+01:08:14.000 --> 01:08:14.870
+>> Yeah. Yeah. Just a reap.
+
+01:08:14.880 --> 01:08:16.149
+>> I'll see if I can get a stable one.
+
+01:08:16.159 --> 01:08:17.910
+>> Yeah. I'll I'll push everything in this
+
+01:08:17.920 --> 01:08:20.789
+and then we can reweep it.
+
+01:08:20.799 --> 01:08:22.709
+>> Sounds good.
+
+01:08:22.719 --> 01:08:23.910
+>> Yeah. I think that's I think that's
+
+01:08:23.920 --> 01:08:24.709
+everything.
+
+01:08:24.719 --> 01:08:26.390
+>> Yeah. I I would just try to get yourself
+
+01:08:26.400 --> 01:08:29.349
+that nice tight loop on um on
+
+01:08:29.359 --> 01:08:31.110
+interpretability and then like all the
+
+01:08:31.120 --> 01:08:33.590
+stuff where it's like even if you're
+
+01:08:33.600 --> 01:08:34.950
+playing and you'd say like, man, you
+
+01:08:34.960 --> 01:08:36.470
+know, I typically do this. It's like,
+
+01:08:36.480 --> 01:08:38.630
+huh, I wonder if the agent does this.
+
+01:08:38.640 --> 01:08:40.070
+Like you should be able to test that
+
+01:08:40.080 --> 01:08:42.070
+very quickly. Like, oh, I wonder what
+
+01:08:42.080 --> 01:08:43.349
+the agent does with fountains. I don't
+
+01:08:43.359 --> 01:08:46.789
+know. Let's put a fountain there.
+
+01:08:46.799 --> 01:08:52.309
+>> Right. Yeah. Yeah.
+
+01:08:53.749 --> 01:08:53.759
+>> Yeah.
+
+01:08:53.759 --> 01:08:55.669
+>> If you can't actually get the thing to
+
+01:08:55.679 --> 01:08:57.110
+interact with stuff, you can cheat it
+
+01:08:57.120 --> 01:08:59.349
+into the observations. Though, it would
+
+01:08:59.359 --> 01:09:00.630
+be much better if you can actually just
+
+01:09:00.640 --> 01:09:03.269
+get it into the game.
+
+01:09:03.279 --> 01:09:04.709
+>> Yeah. Gives
+
+01:09:04.719 --> 01:09:09.030
+>> you more testing opportunities.
+
+01:09:09.910 --> 01:09:09.920
+That's strategy.
+
+01:09:09.920 --> 01:09:12.470
+>> Okay, I think that's basically the best
+
+01:09:12.480 --> 01:09:14.070
+advice I can give you for now. I mean,
+
+01:09:14.080 --> 01:09:15.669
+the net hack looks awesome. I really do
+
+01:09:15.679 --> 01:09:18.550
+want to have um some depth sweeps as
+
+01:09:18.560 --> 01:09:21.189
+default, though, because
+
+01:09:21.199 --> 01:09:22.789
+the score stuff is very impressive
+
+01:09:22.799 --> 01:09:25.030
+versus auto ascend, but in my mind, like
+
+01:09:25.040 --> 01:09:27.990
+just getting through more of the game is
+
+01:09:28.000 --> 01:09:32.149
+the the really important benchmark. Um
+
+01:09:32.159 --> 01:09:33.030
+>> that's not farmable.
+
+01:09:33.040 --> 01:09:35.189
+>> Completely agree. I completely
+
+01:09:35.199 --> 01:09:36.789
+completely agree. The the only thing
+
+01:09:36.799 --> 01:09:39.669
+that makes score like sticky I guess is
+
+01:09:39.679 --> 01:09:42.070
+that it is it is a good test of how
+
+01:09:42.080 --> 01:09:44.309
+resourceful the policy is like every
+
+01:09:44.319 --> 01:09:45.430
+time
+
+01:09:45.440 --> 01:09:47.910
+>> like early even up to like a week ago
+
+01:09:47.920 --> 01:09:50.070
+when I was giving it like a new trying
+
+01:09:50.080 --> 01:09:51.430
+to get it to do something new like you
+
+01:09:51.440 --> 01:09:53.189
+could immediately see in score like okay
+
+01:09:53.199 --> 01:09:54.790
+like it's it's learned something here
+
+01:09:54.800 --> 01:09:56.630
+whereas with depth it would it would
+
+01:09:56.640 --> 01:09:58.229
+maybe just like rush down and not care
+
+01:09:58.239 --> 01:09:59.990
+about this new thing. But yeah, I I
+
+01:10:00.000 --> 01:10:00.870
+completely agree with
+
+01:10:00.880 --> 01:10:02.630
+>> it's very possible that the depth config
+
+01:10:02.640 --> 01:10:05.830
+is too myopic. Um, my hope with depth
+
+01:10:05.840 --> 01:10:08.149
+config was like you're only going to be
+
+01:10:08.159 --> 01:10:11.270
+able to get so far down by rushing and
+
+01:10:11.280 --> 01:10:13.590
+then you're going to have to learn to
+
+01:10:13.600 --> 01:10:17.110
+taper and like slow down for some stuff.
+
+01:10:17.120 --> 01:10:20.790
+So,
+
+01:10:24.630 --> 01:10:24.640
+yeah, I I do see what you mean though. I
+
+01:10:24.640 --> 01:10:25.590
+see what you mean.
+
+01:10:25.600 --> 01:10:27.830
+>> Yeah, we'll get there eventually for
+
+01:10:27.840 --> 01:10:30.070
+sure. Presumably though there is still
+
+01:10:30.080 --> 01:10:31.750
+going to be some overlap like if it's
+
+01:10:31.760 --> 01:10:33.830
+just not using wands correctly or if
+
+01:10:33.840 --> 01:10:36.950
+it's not using jewelry or uh if doesn't
+
+01:10:36.960 --> 01:10:41.110
+know beatitudes um like presumably there
+
+01:10:41.120 --> 01:10:43.590
+should be some stuff that's improvable
+
+01:10:43.600 --> 01:10:45.430
+with depth though I could see yeah being
+
+01:10:45.440 --> 01:10:47.430
+much sparer and like small things you
+
+01:10:47.440 --> 01:10:50.229
+can't really track as well. Yeah, that's
+
+01:10:50.239 --> 01:10:55.750
+that's the only difficulty
+
+01:10:57.189 --> 01:10:57.199
+you can those
+
+01:10:57.199 --> 01:10:58.790
+>> like the fixes.
+
+01:10:58.800 --> 01:11:01.830
+>> Okay, I will I will push this stuff. Um,
+
+01:11:01.840 --> 01:11:03.430
+so this will be ready for sweep.
+
+01:11:03.440 --> 01:11:04.870
+Hopefully I haven't giga broken
+
+01:11:04.880 --> 01:11:06.390
+anything.
+
+01:11:06.400 --> 01:11:10.149
+Um, and
+
+01:11:10.159 --> 01:11:12.229
+2:00 p.m. I will have some client stuff
+
+01:11:12.239 --> 01:11:13.830
+most likely later this week to deal
+
+01:11:13.840 --> 01:11:17.910
+with. I think I'm probably rest of today
+
+01:11:17.920 --> 01:11:19.189
+just going to go through some of the
+
+01:11:19.199 --> 01:11:22.229
+more promising ends and see how much
+
+01:11:22.239 --> 01:11:26.229
+work it is to fix up various ones. Like
+
+01:11:26.239 --> 01:11:27.910
+some of these Ms are just really cool to
+
+01:11:27.920 --> 01:11:31.270
+me. Like this boss fight end.
+
+01:11:31.280 --> 01:11:33.030
+This was just a super basic end that
+
+01:11:33.040 --> 01:11:34.790
+Insta solves that somebody submitted,
+
+01:11:34.800 --> 01:11:36.870
+but I could totally see a very like nice
+
+01:11:36.880 --> 01:11:38.470
+expansion of this to lots of different
+
+01:11:38.480 --> 01:11:41.430
+mechanics. This aphine lock from Kinvert
+
+01:11:41.440 --> 01:11:43.750
+apparently is a pretty good test. We
+
+01:11:43.760 --> 01:11:46.149
+have this ants env here that like never
+
+01:11:46.159 --> 01:11:50.390
+got dealt with. That one's pretty cool.
+
+01:11:50.400 --> 01:11:53.590
+We do end pendulum.
+
+01:11:53.600 --> 01:11:55.510
+>> Yeah, bring back five pendulums.
+
+01:11:55.520 --> 01:11:57.430
+>> Yeah, craft deck and crafter. Obviously,
+
+01:11:57.440 --> 01:11:58.870
+these need fixing, but we already have
+
+01:11:58.880 --> 01:12:00.950
+somebody doing this. Did you see this
+
+01:12:00.960 --> 01:12:02.870
+fish sim? Well, there'll be a blog post
+
+01:12:02.880 --> 01:12:04.870
+on this later in the week, but this is a
+
+01:12:04.880 --> 01:12:06.550
+support of a fish. Yeah, this is a fish
+
+01:12:06.560 --> 01:12:08.790
+sim.
+
+01:12:08.800 --> 01:12:13.110
+>> These are fish getting food.
+
+01:12:14.790 --> 01:12:14.800
+Yeah, that that looked really cool.
+
+01:12:14.800 --> 01:12:16.950
+>> Yeah, this is actually like a port of a
+
+01:12:16.960 --> 01:12:19.350
+different paper to puffer and it's way
+
+01:12:19.360 --> 01:12:23.910
+faster.
+
+01:12:25.990 --> 01:12:26.000
+>> How should we normalize score for perf?
+
+01:12:26.000 --> 01:12:28.550
+You perf. You're trying to put it
+
+01:12:28.560 --> 01:12:30.550
+between zero and one. Score can be
+
+01:12:30.560 --> 01:12:33.030
+whatever.
+
+01:12:33.040 --> 01:12:34.310
+>> Okay.
+
+01:12:34.320 --> 01:12:35.430
+>> Right. I'm going to head out now,
+
+01:12:35.440 --> 01:12:35.990
+Joseph.
+
+01:12:36.000 --> 01:12:36.630
+>> Thank you, Finn.
+
+01:12:36.640 --> 01:12:37.910
+>> Yeah. Thank you.
+
+01:12:37.920 --> 01:12:38.390
+>> Yep.
+
+01:12:38.400 --> 01:12:39.750
+>> I think we've got we've got some stuff
+
+01:12:39.760 --> 01:12:42.149
+to work on. Absolutely. Yeah. And let me
+
+01:12:42.159 --> 01:12:43.910
+know if you get stuck anywhere. See if I
+
+01:12:43.920 --> 01:12:45.030
+can help. All right.
+
+01:12:45.040 --> 01:12:46.630
+>> And use the boxes. Like, don't worry
+
+01:12:46.640 --> 01:12:47.669
+about the box. If you run out of
+
+01:12:47.679 --> 01:12:48.790
+credits, just let me know. I'll put
+
+01:12:48.800 --> 01:12:50.470
+more.
+
+01:12:50.480 --> 01:12:51.430
+>> Yeah, we'll do.
+
+01:12:51.440 --> 01:12:52.790
+>> All right. Cool. Speak to you soon.
+
+01:12:52.800 --> 01:12:53.189
+>> Yep.
+
+01:12:53.199 --> 01:12:54.870
+>> See you.
+
+01:12:54.880 --> 01:13:00.470
+>> That was fun.
+
+01:13:40.390 --> 01:13:40.400
+aware of the 0ero to one
+
+01:13:40.400 --> 01:13:42.070
+usually. Okay, first of all, let me let
+
+01:13:42.080 --> 01:13:43.510
+me adjust this so I'm no longer
+
+01:13:43.520 --> 01:13:45.990
+streaming Discord audio.
+
+01:13:46.000 --> 01:13:47.510
+Aware of 0 to one, usually some
+
+01:13:47.520 --> 01:13:50.310
+normalization. Yes,
+
+01:13:50.320 --> 01:13:51.830
+unless there's like a win rate or
+
+01:13:51.840 --> 01:13:54.070
+whatever.
+
+01:13:54.080 --> 01:13:55.750
+Any of the M's that are currently going
+
+01:13:55.760 --> 01:13:58.149
+above one, that is considered a bug that
+
+01:13:58.159 --> 01:14:29.350
+needs to be fixed.
+
+01:14:30.709 --> 01:14:30.719
+potentially infinite score in a game.
+
+01:14:30.719 --> 01:14:40.709
+Yeah.
+
+01:14:48.070 --> 01:14:48.080
+Just chatted with Finn. I came up with
+
+01:14:48.080 --> 01:14:50.709
+some interesting and hopefully useful
+
+01:14:50.719 --> 01:14:53.270
+ideas for how to unblock some of the
+
+01:14:53.280 --> 01:14:55.510
+progress there. The net hack's already
+
+01:14:55.520 --> 01:14:57.590
+going very well.
+
+01:14:57.600 --> 01:15:00.470
+I'm getting it merged in now.
+
+01:15:00.480 --> 01:15:03.189
+We have lots of ends. There's still a
+
+01:15:03.199 --> 01:15:05.350
+little bit of testing to do for release.
+
+01:15:05.360 --> 01:15:07.350
+Uh I didn't stream last night, but I did
+
+01:15:07.360 --> 01:15:11.030
+mess with the docs a little bit.
+
+01:15:11.040 --> 01:15:12.709
+I have this so far as the new cheat
+
+01:15:12.719 --> 01:15:14.709
+sheet.
+
+01:15:14.719 --> 01:15:16.470
+I did a little bit of work simplifying
+
+01:15:16.480 --> 01:15:18.470
+the commands.
+
+01:15:18.480 --> 01:15:21.510
+It's very simple now.
+
+01:15:21.520 --> 01:15:25.350
+I also updated this.
+
+01:15:25.360 --> 01:15:27.270
+I still need to update the uh the build
+
+01:15:27.280 --> 01:15:32.390
+file or the tutorial.
+
+01:15:34.229 --> 01:15:34.239
+Um
+
+01:15:34.239 --> 01:15:35.910
+I guess the main question for the
+
+01:15:35.920 --> 01:15:38.630
+community is like to you guys, what is
+
+01:15:38.640 --> 01:15:40.310
+the most important stuff that you want
+
+01:15:40.320 --> 01:15:43.030
+to see done before release?
+
+01:15:43.040 --> 01:15:44.630
+And if there isn't anything obvious, at
+
+01:15:44.640 --> 01:15:46.310
+the very least, um, Spencer, we could
+
+01:15:46.320 --> 01:15:48.709
+also try to figure out any selfplay
+
+01:15:48.719 --> 01:15:56.310
+changes that need to be made for it.
+
+01:15:58.149 --> 01:15:58.159
+There are a few M's I definitely want to
+
+01:15:58.159 --> 01:16:13.590
+see more done with, like this ants end.
+
+01:16:15.189 --> 01:16:15.199
+Ron's cool for self. We have lots of
+
+01:16:15.199 --> 01:16:17.510
+cool self plans.
+
+01:16:17.520 --> 01:16:20.390
+This boss fight en
+
+01:16:20.400 --> 01:16:21.830
+I'm going to look at the code and see if
+
+01:16:21.840 --> 01:16:24.149
+this looks vibe coded,
+
+01:16:24.159 --> 01:16:26.229
+but I think that like some expansion of
+
+01:16:26.239 --> 01:16:29.750
+this will be nice
+
+01:16:29.760 --> 01:16:32.310
+potentially. I got to look at converts a
+
+01:16:32.320 --> 01:16:35.270
+lock and
+
+01:16:35.280 --> 01:16:36.790
+there were a couple others on here that
+
+01:16:36.800 --> 01:16:38.870
+I was interested in as well. Craft X
+
+01:16:38.880 --> 01:16:59.110
+obviously
+
+01:17:01.030 --> 01:17:01.040
+more clean up for A. I'll get that. Hang
+
+01:17:01.040 --> 01:17:29.189
+on. Convert.
+
+01:17:30.310 --> 01:17:30.320
+You don't really want to start
+
+01:17:30.320 --> 01:17:37.430
+sigmoiding stuff.
+
+01:18:01.189 --> 01:18:01.199
+I already made that same one locally
+
+01:18:01.199 --> 01:18:04.950
+convert, but yeah, thanks.
+
+01:18:04.960 --> 01:18:07.510
+Buffer keeps getting bigger. Yeah, but
+
+01:18:07.520 --> 01:18:10.070
+funny enough, the code doesn't, right?
+
+01:18:10.080 --> 01:18:11.830
+I think the code's actually shorter in
+
+01:18:11.840 --> 01:18:14.149
+this version. Definitely if you're
+
+01:18:14.159 --> 01:18:50.070
+counting pietorrch it's shorter.
+
+01:18:51.750 --> 01:18:51.760
+All right, we'll check out Appin lock
+
+01:18:51.760 --> 01:18:55.910
+since Skinvert is here as soon as I uh
+
+01:18:55.920 --> 01:18:58.149
+fix my 2FA.
+
+01:18:58.159 --> 01:19:04.149
+Oh, needs to charge for a minute.
+
+01:22:02.229 --> 01:22:02.239
+Wait, what the hell?
+
+01:22:02.239 --> 01:22:10.310
+Oh, this is fine.
+
+01:23:39.270 --> 01:23:39.280
+That's fine.
+
+01:23:39.280 --> 01:23:41.669
+That's in vendor. And that's just for
+
+01:23:41.679 --> 01:23:50.310
+impulse wars.
+
+01:23:52.550 --> 01:23:52.560
+Deal for Perf.
+
+01:23:52.560 --> 01:23:56.310
+Can it just be battles one or something?
+
+01:23:56.320 --> 01:23:58.550
+Battles won versus the uh Is there any
+
+01:23:58.560 --> 01:24:05.750
+way to win versus the enemy AI?
+
+01:24:07.910 --> 01:24:07.920
+Hang on. Let me get uh let me make let
+
+01:24:07.920 --> 01:24:14.229
+me see if my phone works.
+
+01:24:16.790 --> 01:24:16.800
+It's pretty funny. I have this minimal
+
+01:24:16.800 --> 01:24:18.550
+phone
+
+01:24:18.560 --> 01:24:21.110
+and they made a new one that I don't
+
+01:24:21.120 --> 01:24:23.990
+plan on buying because it looks like
+
+01:24:24.000 --> 01:24:26.870
+they made it better
+
+01:24:26.880 --> 01:24:28.870
+and uh I intentionally bought this phone
+
+01:24:28.880 --> 01:24:34.149
+because it sucks.
+
+01:24:35.910 --> 01:24:35.920
+It's a pain in the ass to use and as a
+
+01:24:35.920 --> 01:24:38.709
+result I now spend almost no time on my
+
+01:24:38.719 --> 01:25:16.470
+phone.
+
+01:25:18.950 --> 01:25:18.960
+No, it's it's literally a minimal phone.
+
+01:25:18.960 --> 01:25:26.790
+That's the name.
+
+01:25:28.870 --> 01:25:28.880
+I wouldn't mind like a better execution
+
+01:25:28.880 --> 01:25:34.229
+of the same thing.
+
+01:25:35.590 --> 01:25:35.600
+But I don't really like the direction
+
+01:25:35.600 --> 01:26:14.470
+that they took the new one
+
+01:26:36.950 --> 01:26:36.960
+Yeah. Yeah. I mean, there are a few
+
+01:26:36.960 --> 01:26:39.590
+different ones, but like
+
+01:26:39.600 --> 01:26:41.910
+it's very funny that like um they say,
+
+01:26:41.920 --> 01:26:43.270
+"Oh, yeah, yeah, yeah. We're not doing
+
+01:26:43.280 --> 01:26:44.790
+the thing that everyone else is." Yeah.
+
+01:26:44.800 --> 01:26:46.950
+It's like a minimal thing. Oh, yeah. It
+
+01:26:46.960 --> 01:26:48.629
+it's minimal. And it has this and this
+
+01:26:48.639 --> 01:26:50.070
+cuz of course you want that. And it also
+
+01:26:50.080 --> 01:26:51.510
+has this and this cuz of course you need
+
+01:26:51.520 --> 01:26:58.149
+that. It's just like the [ __ ]
+
+01:26:59.510 --> 01:26:59.520
+Like everybody just does the same
+
+01:26:59.520 --> 01:27:01.030
+goddamn thing that everybody else is
+
+01:27:01.040 --> 01:27:02.470
+doing and pretends to be doing something
+
+01:27:02.480 --> 01:27:17.750
+different.
+
+01:28:15.030 --> 01:28:15.040
+Hey Kvert, what's the score supposed to
+
+01:28:15.040 --> 01:28:27.590
+be
+
+01:28:29.510 --> 01:28:29.520
+score perf? I don't know. Let's see. It
+
+01:28:29.520 --> 01:28:32.390
+says that score is It says that they're
+
+01:28:32.400 --> 01:29:39.350
+the same.
+
+01:29:48.629 --> 01:29:48.639
+Okay,
+
+01:29:48.639 --> 01:30:41.350
+we'll play with That
+
+01:30:42.709 --> 01:30:42.719
+Well, when you say it's nearly
+
+01:30:42.719 --> 01:30:44.629
+impossible, like it has to at least be
+
+01:30:44.639 --> 01:30:47.590
+well defined and stuff, right?
+
+01:30:47.600 --> 01:30:49.510
+Like Soabon is an instance where the
+
+01:30:49.520 --> 01:31:08.229
+upper bound is nutty.
+
+01:32:16.709 --> 01:32:16.719
+All right. I will see. Uh I'll see with
+
+01:32:16.719 --> 01:33:05.189
+this end then.
+
+01:33:29.590 --> 01:33:29.600
+AMD support.
+
+01:33:29.600 --> 01:33:32.550
+Yeah, it's not worth it unfortunately.
+
+01:33:32.560 --> 01:33:39.350
+It's kind of the same thing as metal
+
+01:33:41.030 --> 01:33:41.040
+where it's like we could do it but it's
+
+01:33:41.040 --> 01:33:44.629
+not worth maintaining that.
+
+01:33:44.639 --> 01:33:46.229
+You can rent a 10-centent per hour
+
+01:33:46.239 --> 01:33:49.110
+Nvidia GPU on Vast.
+
+01:33:49.120 --> 01:33:51.110
+If AMD decides to be the one that's
+
+01:33:51.120 --> 01:33:53.110
+actually shipping like good GPUs for
+
+01:33:53.120 --> 01:33:54.870
+this application that are affordable and
+
+01:33:54.880 --> 01:33:57.270
+not be a total mess, then maybe. But
+
+01:33:57.280 --> 01:34:00.629
+Cuda is also just really good.
+
+01:34:00.639 --> 01:34:46.310
+Guda is really good.
+
+01:35:04.229 --> 01:35:04.239
+else look scuffed?
+
+01:35:04.239 --> 01:35:06.229
+Do the sweeps PRs for battle and drone?
+
+01:35:06.239 --> 01:35:08.709
+That would be very nice. Note that
+
+01:35:08.719 --> 01:35:10.390
+battle might actually need some real
+
+01:35:10.400 --> 01:35:12.070
+work. Like it's possible that some of
+
+01:35:12.080 --> 01:35:14.870
+the plane models are messed up and stuff
+
+01:35:14.880 --> 01:35:19.430
+like the physics models.
+
+01:35:20.870 --> 01:35:20.880
+I don't think it's anything too too
+
+01:35:20.880 --> 01:36:26.070
+difficult.
+
+01:36:29.430 --> 01:36:29.440
+1.1 I can add MG you can actually do
+
+01:36:29.440 --> 01:36:31.590
+that but that doesn't mean that we want
+
+01:36:31.600 --> 01:36:34.550
+to maintain the code right
+
+01:36:34.560 --> 01:36:36.310
+so just because you can get something
+
+01:36:36.320 --> 01:36:38.149
+working quickly with an LLM doesn't mean
+
+01:36:38.159 --> 01:36:40.390
+that we want it upstreamed
+
+01:36:40.400 --> 01:36:43.430
+cuz it's like it's a lot to maintain
+
+01:36:43.440 --> 01:36:47.030
+breakout solves in 5 seconds.
+
+01:36:47.040 --> 01:36:50.390
+Breakout solves in under 1 second on my
+
+01:36:50.400 --> 01:36:53.189
+5090
+
+01:36:53.199 --> 01:36:54.790
+just to make it work locally. You can
+
+01:36:54.800 --> 01:36:57.430
+totally do that.
+
+01:36:57.440 --> 01:36:59.510
+If any users want to maintain like an
+
+01:36:59.520 --> 01:37:01.590
+AMD fork or whatever for the latest
+
+01:37:01.600 --> 01:37:03.270
+version, I'm fine with people doing
+
+01:37:03.280 --> 01:37:05.910
+that, but it just doesn't seem worth it
+
+01:37:05.920 --> 01:37:08.870
+for us to maintain. Note that I did not
+
+01:37:08.880 --> 01:37:11.750
+just delete like PyTorch with CPU
+
+01:37:11.760 --> 01:37:14.229
+support and replace it with nothing this
+
+01:37:14.239 --> 01:37:17.109
+version. We did replace the uh the CPU
+
+01:37:17.119 --> 01:37:19.109
+thing with something. We replaced it
+
+01:37:19.119 --> 01:37:22.470
+with very very good CPU evaluation that
+
+01:37:22.480 --> 01:37:25.830
+does not depend on torch. So now you
+
+01:37:25.840 --> 01:37:28.470
+should be able to eval uh eval your
+
+01:37:28.480 --> 01:37:31.109
+model and watch it play on your laptop
+
+01:37:31.119 --> 01:37:33.669
+regardless of what it has
+
+01:37:33.679 --> 01:38:06.950
+without needing torch or any [ __ ]
+
+01:38:11.750 --> 01:38:11.760
+Oh, hey Kvert. You changed. Is it 0.06
+
+01:38:11.760 --> 01:38:13.750
+with the new metric change that you
+
+01:38:13.760 --> 01:38:19.669
+introduced?
+
+01:38:21.510 --> 01:38:21.520
+Because
+
+01:38:21.520 --> 01:38:23.270
+according to this, it looks like it got
+
+01:38:23.280 --> 01:38:26.470
+reweed.
+
+01:38:29.669 --> 01:38:29.679
+before it was higher PF. Is this a long
+
+01:38:29.679 --> 01:38:31.669
+run though or is this like the 60-cond
+
+01:38:31.679 --> 01:38:38.790
+config that we have?
+
+01:38:41.910 --> 01:38:41.920
+Do you have config params for me? Do you
+
+01:38:41.920 --> 01:38:43.669
+have like a decent like two minute
+
+01:38:43.679 --> 01:38:45.510
+config or like a decent quick config
+
+01:38:45.520 --> 01:38:48.550
+that you can paste me real quick?
+
+01:38:48.560 --> 01:39:09.669
+Just drop it in Discord wherever.
+
+01:39:11.750 --> 01:39:11.760
+Up time in constellation is in seconds.
+
+01:39:11.760 --> 01:39:13.270
+Yes.
+
+01:39:13.280 --> 01:39:15.030
+So, just like pick something that looks
+
+01:39:15.040 --> 01:39:16.470
+decent that's only going to take me a
+
+01:39:16.480 --> 01:39:18.390
+couple minutes to train.
+
+01:39:18.400 --> 01:39:20.149
+I just need some sort of non-trivial
+
+01:39:20.159 --> 01:39:22.310
+policy so I can look at your env how it
+
+01:39:22.320 --> 01:39:25.350
+works
+
+01:39:55.109 --> 01:39:55.119
+It does copy from constellation, but
+
+01:39:55.119 --> 01:41:18.149
+it's fine.
+
+01:41:27.109 --> 01:41:27.119
+What's the expected score
+
+01:41:27.119 --> 01:41:38.070
+or perf or whatever?
+
+01:43:31.189 --> 01:43:31.199
+Ooh,
+
+01:43:31.199 --> 01:43:46.310
+this is cool.
+
+01:43:57.750 --> 01:43:57.760
+I have no idea whether this approach in
+
+01:43:57.760 --> 01:44:00.709
+particular makes any sense, but things
+
+01:44:00.719 --> 01:44:02.310
+along this line are at least closer in
+
+01:44:02.320 --> 01:45:28.709
+my mind than humanoids are.
+
+01:46:38.790 --> 01:46:38.800
+I wouldn't be surprised it just works
+
+01:46:38.800 --> 01:46:41.669
+out of the box. Jess, we really aren't
+
+01:46:41.679 --> 01:46:45.270
+doing any like crazy fancy CUDA things.
+
+01:46:45.280 --> 01:46:47.270
+We're me. We're like doing pretty simple
+
+01:46:47.280 --> 01:47:12.950
+stuff.
+
+01:47:15.910 --> 01:47:15.920
+Okay,
+
+01:47:15.920 --> 01:47:18.790
+whatever. It's just being slow. It's
+
+01:47:18.800 --> 01:47:21.510
+fine. I'm kind of tired today. Anyways,
+
+01:47:21.520 --> 01:47:25.270
+we'll uh we'll get the affe. I'm taking
+
+01:47:25.280 --> 01:47:37.830
+tomorrow, probably most of tomorrow off,
+
+01:47:41.109 --> 01:47:41.119
+some rest.
+
+01:47:41.119 --> 01:47:43.109
+We're pretty good on this release. few
+
+01:47:43.119 --> 01:47:51.270
+M's are broken and such, but
+
+01:47:52.629 --> 01:47:52.639
+now I kind of want to figure out which
+
+01:47:52.639 --> 01:47:56.550
+of these M's are worth cleaning up or um
+
+01:47:56.560 --> 01:48:11.350
+I mean definitely craft axe.
+
+01:48:34.870 --> 01:48:34.880
+Like it's kind of funny that this is the
+
+01:48:34.880 --> 01:48:41.750
+policy, but look at it.
+
+01:48:44.390 --> 01:48:44.400
+Oh, entities are just despawning though.
+
+01:48:44.400 --> 01:48:46.870
+Look,
+
+01:48:46.880 --> 01:48:48.550
+it looks like entities just randomly
+
+01:48:48.560 --> 01:48:50.390
+despawn
+
+01:48:50.400 --> 01:48:56.470
+and it's exploiting that
+
+01:49:00.470 --> 01:49:00.480
+H. We have to fix this.
+
+01:49:00.480 --> 01:49:02.390
+So many of these types of problems.
+
+01:49:02.400 --> 01:49:04.790
+Yeah, but this thing is very agile. This
+
+01:49:04.800 --> 01:49:07.350
+is like the typical like RL just has
+
+01:49:07.360 --> 01:49:15.990
+perfect control stuff that you expect.
+
+01:49:19.590 --> 01:49:19.600
+That did take a custom encoder.
+
+01:49:19.600 --> 01:49:40.229
+All right.
+
+01:49:43.990 --> 01:49:44.000
+exploits and bugs. Yeah, puffer smart.
+
+01:49:44.000 --> 01:49:46.470
+This is why it's cool, man. Right. It's
+
+01:49:46.480 --> 01:49:48.870
+like a very different type of narrow
+
+01:49:48.880 --> 01:50:40.149
+intelligence from what is out There.
+
+01:50:42.550 --> 01:50:42.560
+very well could be Jess. It's pretty
+
+01:50:42.560 --> 01:50:44.950
+easy to try out our like our actual
+
+01:50:44.960 --> 01:50:47.350
+entity encoder though if you want to
+
+01:50:47.360 --> 01:50:48.870
+see.
+
+01:50:48.880 --> 01:51:04.470
+Our encoder is pretty good.
+
+01:51:07.350 --> 01:51:07.360
+Puff steps per second is two.
+
+01:51:07.360 --> 01:51:17.910
+That flag shouldn't even exist. Damn it.
+
+01:51:19.669 --> 01:51:19.679
+Also, what is wrong with this thing that
+
+01:51:19.679 --> 01:51:27.510
+it's so slow all of a sudden?
+
+01:51:47.189 --> 01:51:47.199
+I think I did fix the uh the eval render
+
+01:51:47.199 --> 01:51:50.149
+thing, Jess. Yes,
+
+01:51:50.159 --> 01:51:54.229
+buffer eval.
+
+01:51:55.990 --> 01:51:56.000
+I need to fix the speed that it's
+
+01:51:56.000 --> 01:52:01.990
+rendering this specific envat.
+
+01:52:04.229 --> 01:52:04.239
+I cleaned up the CLI a little bit and we
+
+01:52:04.239 --> 01:52:05.990
+have locally here. I still have to push
+
+01:52:06.000 --> 01:52:08.390
+these but we have a new cheat sheet
+
+01:52:08.400 --> 01:52:10.790
+reference. So it's just build shen
+
+01:52:10.800 --> 01:52:13.589
+puffer train puffer eval puffer sweep
+
+01:52:13.599 --> 01:52:17.109
+build CPU
+
+01:52:17.119 --> 01:52:21.350
+env.
+
+01:52:24.229 --> 01:52:24.239
+We hear examples
+
+01:52:24.239 --> 01:52:27.589
+and there's some extra flags.
+
+01:52:27.599 --> 01:52:29.350
+I was able to win at depth, too. So,
+
+01:52:29.360 --> 01:52:31.109
+that's what I'm about to figure out,
+
+01:52:31.119 --> 01:52:36.629
+Kvert, is like how this thing works.
+
+01:52:36.639 --> 01:52:39.189
+Dude, why is this thing so stupidly
+
+01:52:39.199 --> 01:52:56.870
+slow? What is this doing?
+
+01:53:31.910 --> 01:53:31.920
+we just need to have the stupid models
+
+01:53:31.920 --> 01:53:34.149
+locally.
+
+01:53:34.159 --> 01:53:37.109
+Action shift left. Hang on. So, how do
+
+01:53:37.119 --> 01:53:40.470
+you take control of this first?
+
+01:53:40.480 --> 01:53:42.550
+Okay, so
+
+01:53:42.560 --> 01:53:44.629
+one, two, three. Okay, cool. So, we
+
+01:53:44.639 --> 01:53:47.430
+reset with R.
+
+01:53:47.440 --> 01:53:56.709
+R does not reset.
+
+01:54:00.310 --> 01:54:00.320
+Okay. So, step zero of two.
+
+01:54:00.320 --> 01:54:10.470
+So, current and target.
+
+01:54:13.510 --> 01:54:13.520
+Oh, I see what this is.
+
+01:54:13.520 --> 01:54:22.550
+Shift left, shift right, invert.
+
+01:54:25.030 --> 01:54:25.040
+Huh?
+
+01:54:25.040 --> 01:54:33.589
+Okay.
+
+01:55:19.109 --> 01:55:19.119
+I think your scoring seems weird because
+
+01:55:19.119 --> 01:55:51.669
+this is getting depth X.
+
+01:55:56.950 --> 01:55:56.960
+I would think score would just be like
+
+01:55:56.960 --> 01:55:59.589
+the number of levels solved and then
+
+01:55:59.599 --> 01:56:02.149
+Perf would be
+
+01:56:02.159 --> 01:56:12.070
+like that over uh the max or something.
+
+01:56:14.709 --> 01:56:14.719
+This is cool though.
+
+01:56:14.719 --> 01:56:35.430
+Let's see what the OBS are.
+
+01:56:53.030 --> 01:56:53.040
+So, this is always doable because it's
+
+01:56:53.040 --> 01:56:55.109
+like it's fully observable and you know
+
+01:56:55.119 --> 01:57:19.750
+exactly everything.
+
+01:57:43.189 --> 01:57:43.199
+It's a nice short end now at this point.
+
+01:57:43.199 --> 01:57:49.669
+What's this?
+
+01:58:03.189 --> 01:58:03.199
+Wait. Visible targets.bin.
+
+01:58:03.199 --> 01:58:04.950
+What is this? Is this like a fixed set
+
+01:58:04.960 --> 01:58:45.270
+of levels or thing.
+
+01:58:48.790 --> 01:58:48.800
+Can you BFS it though? I would think you
+
+01:58:48.800 --> 01:58:52.629
+can't BFS it cuz isn't it like a uh
+
+01:58:52.639 --> 01:58:55.270
+doesn't it get gigantic at depth 16 or
+
+01:58:55.280 --> 01:59:00.229
+whatever?
+
+01:59:23.030 --> 01:59:23.040
+in the generator.
+
+01:59:23.040 --> 01:59:25.910
+Yeah, but can you I'm asking is it fast
+
+01:59:25.920 --> 01:59:29.430
+enough to even do that in the generator?
+
+01:59:29.440 --> 01:59:33.350
+Interesting.
+
+01:59:36.070 --> 01:59:36.080
+Well, here compute.
+
+01:59:36.080 --> 01:59:45.030
+Let's see what this is.
+
+02:00:24.550 --> 02:00:24.560
+observe. You only have two channels
+
+02:00:24.560 --> 02:00:26.229
+here.
+
+02:00:26.239 --> 02:00:27.750
+Two channels for a state and two
+
+02:00:27.760 --> 02:00:29.830
+channels for a target.
+
+02:00:29.840 --> 02:00:48.070
+Hang on.
+
+02:00:50.229 --> 02:00:50.239
+You have eight,
+
+02:00:50.239 --> 02:00:53.910
+but there's 16 things.
+
+02:00:53.920 --> 02:00:56.149
+And then there's one, two, three. There
+
+02:00:56.159 --> 02:01:02.629
+are four states.
+
+02:01:14.310 --> 02:01:14.320
+Hang on. Convert. I want to make sure
+
+02:01:14.320 --> 02:01:16.149
+that this is not hard because the thing
+
+02:01:16.159 --> 02:01:24.950
+can't see.
+
+02:01:26.950 --> 02:01:26.960
+This is pathetic. Grock just does not
+
+02:01:26.960 --> 02:01:30.470
+work.
+
+02:01:37.430 --> 02:01:37.440
+So
+
+02:01:37.440 --> 02:01:46.310
+that's useless.
+
+02:01:47.910 --> 02:01:47.920
+See, this is the annoying thing about
+
+02:01:47.920 --> 02:01:50.390
+doing stuff with models, right? because
+
+02:01:50.400 --> 02:01:52.709
+now now the author of this doesn't know
+
+02:01:52.719 --> 02:01:54.149
+them doesn't know what the [ __ ] is
+
+02:01:54.159 --> 02:01:56.790
+happening and I can't even like I can't
+
+02:01:56.800 --> 02:02:00.070
+even use this for explanation.
+
+02:02:00.080 --> 02:02:27.990
+Um,
+
+02:02:32.149 --> 02:02:32.159
+the state is here is for bytes.
+
+02:02:32.159 --> 02:02:37.990
+The target is four bytes.
+
+02:02:59.189 --> 02:02:59.199
+why would it be the low bit and the high
+
+02:02:59.199 --> 02:03:08.390
+bit?
+
+02:03:09.990 --> 02:03:10.000
+I still don't understand what the hell
+
+02:03:10.000 --> 02:03:13.270
+this is.
+
+02:03:20.870 --> 02:03:20.880
+Okay. Wait.
+
+02:03:20.880 --> 02:03:25.830
+So low bite, high bite.
+
+02:03:28.470 --> 02:03:28.480
+But wait, what OBS is it getting for
+
+02:03:28.480 --> 02:03:58.229
+Yes.
+
+02:04:00.709 --> 02:04:00.719
+But I see four states. One like I see
+
+02:04:00.719 --> 02:04:03.430
+four states.
+
+02:04:03.440 --> 02:04:06.470
+Or is it two states?
+
+02:04:06.480 --> 02:04:13.109
+Is it not like What does the red do?
+
+02:04:15.270 --> 02:04:15.280
+No. Surely there's there four states,
+
+02:04:15.280 --> 02:04:19.350
+right?
+
+02:04:25.589 --> 02:04:25.599
+Why is there mis Why does it show
+
+02:04:25.599 --> 02:04:31.109
+mismatch on the target then?
+
+02:04:33.669 --> 02:04:33.679
+Oh, okay. That's visually kind of
+
+02:04:33.679 --> 02:04:35.990
+screwy, dude.
+
+02:04:36.000 --> 02:04:38.709
+Okay.
+
+02:04:38.719 --> 02:04:40.470
+That's kind of screwy to have it that
+
+02:04:40.480 --> 02:04:47.589
+way.
+
+02:05:08.550 --> 02:05:08.560
+This is obviously not the right way to
+
+02:05:08.560 --> 02:05:28.229
+do it, but
+
+02:05:50.870 --> 02:05:50.880
+You can win that one.
+
+02:05:50.880 --> 02:05:53.350
+Okay, what do I do?
+
+02:05:53.360 --> 02:05:55.430
+Do I just have to flip the top bite or
+
+02:05:55.440 --> 02:05:59.430
+something?
+
+02:06:23.910 --> 02:06:23.920
+Two is shift R.
+
+02:06:23.920 --> 02:06:25.270
+Well, it doesn't actually show you
+
+02:06:25.280 --> 02:06:39.669
+because it the resets.
+
+02:06:41.589 --> 02:06:41.599
+Okay, we'll fix the render speed and
+
+02:06:41.599 --> 02:06:57.510
+stuff as well, but that's interesting.
+
+02:06:59.669 --> 02:06:59.679
+Okay, I can do stuff with this end. I
+
+02:06:59.679 --> 02:07:19.750
+understand enough.
+
+02:08:36.950 --> 02:08:36.960
+This should not be the template
+
+02:08:36.960 --> 02:11:25.910
+environment.
+
+02:11:36.709 --> 02:11:36.719
+This is no longer I love being able to
+
+02:11:36.719 --> 02:11:38.950
+simplify our docs and it's like, hey,
+
+02:11:38.960 --> 02:11:41.030
+you should be adding info to the docs.
+
+02:11:41.040 --> 02:11:42.629
+But basically anything that needs
+
+02:11:42.639 --> 02:11:44.229
+clarification
+
+02:11:44.239 --> 02:11:46.870
+I've just removed because
+
+02:11:46.880 --> 02:11:48.550
+you know the best clarification is no
+
+02:11:48.560 --> 02:13:13.990
+clarification needed.
+
+02:16:09.030 --> 02:16:09.040
+It's actually one of the things that
+
+02:16:09.040 --> 02:16:14.229
+makes me um
+
+02:16:15.750 --> 02:16:15.760
+this is one of the things that makes me
+
+02:16:15.760 --> 02:16:18.149
+excited about this release is the amount
+
+02:16:18.159 --> 02:16:21.270
+of crap I get to delete. Like, oh yeah,
+
+02:16:21.280 --> 02:16:23.030
+you have to do this thing to make this
+
+02:16:23.040 --> 02:16:24.629
+work cleanly. I just don't have any of
+
+02:16:24.639 --> 02:16:27.430
+that anymore. It's just like, nope, it's
+
+02:16:27.440 --> 02:16:29.270
+simple. It works. There no like, oh,
+
+02:16:29.280 --> 02:16:31.109
+it's simple if you do this, if you do
+
+02:16:31.119 --> 02:18:05.030
+that.
+
+02:19:47.750 --> 02:19:47.760
+I think you need sight.
+
+02:19:47.760 --> 02:23:57.830
+That's just profiling.
+
+02:24:10.389 --> 02:24:10.399
+I love that. That's actually like most
+
+02:24:10.399 --> 02:24:12.309
+of the documentation work if you think
+
+02:24:12.319 --> 02:24:14.630
+about it, right?
+
+02:24:14.640 --> 02:26:31.910
+Just kind of do Yes.
+
+02:26:33.990 --> 02:26:34.000
+Man, I used to fret over the dock so
+
+02:26:34.000 --> 02:26:37.190
+much, but now it's so much easier.
+
+02:26:37.200 --> 02:26:40.309
+Just like the lack of crap everywhere.
+
+02:26:40.319 --> 02:26:42.469
+just I don't need to have a ton of stuff
+
+02:26:42.479 --> 02:26:44.150
+because there's just not a ton of crap
+
+02:26:44.160 --> 02:26:46.710
+to document. You know,
+
+02:26:46.720 --> 02:26:49.030
+we need the 40 blog on here obviously
+
+02:26:49.040 --> 02:26:58.710
+before uh release.
+
+02:27:52.790 --> 02:27:52.800
+Nope. You'd still need the - GPU flag. I
+
+02:27:52.800 --> 02:27:57.270
+thought about it. Or it's actually d-cu
+
+02:27:57.280 --> 02:28:24.150
+now. Thank you.
+
+02:28:25.670 --> 02:28:25.680
+I'm still playing around with the final
+
+02:28:25.680 --> 02:28:27.510
+flags. I know it annoys the crap out of
+
+02:28:27.520 --> 02:28:29.990
+everybody who's like, you know, used to
+
+02:28:30.000 --> 02:28:32.070
+the ones from dev, but I do end up
+
+02:28:32.080 --> 02:28:34.790
+having to like every release reassess
+
+02:28:34.800 --> 02:28:36.630
+what is the simplest possible set of
+
+02:28:36.640 --> 02:28:39.349
+flags.
+
+02:28:39.359 --> 02:28:42.710
+We'll take simplicity over um
+
+02:28:42.720 --> 02:28:44.710
+you know backwards consistency every
+
+02:28:44.720 --> 02:30:08.389
+time.
+
+02:30:46.309 --> 02:30:46.319
+Nope,
+
+02:30:46.319 --> 02:30:52.070
+man? How the hell does this [ __ ] break?
+
+02:31:56.309 --> 02:31:56.319
+Okay. Some small things to fix, but
+
+02:31:56.319 --> 02:31:57.990
+generally
+
+02:31:58.000 --> 02:32:13.190
+generally I'm happy with this.
+
+02:32:14.870 --> 02:32:14.880
+There's a bunch of little usability
+
+02:32:14.880 --> 02:32:20.150
+things, I'm sure.
+
+02:32:23.590 --> 02:32:23.600
+Puffer fish to fix constellation.
+
+02:32:23.600 --> 02:32:27.030
+But I mean, overall, we are pretty
+
+02:32:27.040 --> 02:32:29.429
+pretty good.
+
+02:32:29.439 --> 02:32:30.630
+Let me think if there's anything
+
+02:32:30.640 --> 02:32:33.910
+exciting that we can do for uh
+
+02:32:33.920 --> 02:32:44.070
+for the rest of today on this
+
+02:32:45.750 --> 02:32:45.760
+anything that would really help with our
+
+02:32:45.760 --> 02:32:49.110
+release.
+
+02:32:50.870 --> 02:32:50.880
+Let me message Spencer to ask if there's
+
+02:32:50.880 --> 02:32:57.110
+anything on selfplay that he needs.
+
+02:32:59.670 --> 02:32:59.680
+Happy luck.
+
+02:32:59.680 --> 02:33:02.469
+Um,
+
+02:33:02.479 --> 02:33:05.030
+I don't really understand the code, man.
+
+02:33:05.040 --> 02:33:07.990
+It's a lot of bit logic.
+
+02:33:08.000 --> 02:33:09.750
+And it's also I don't understand. I
+
+02:33:09.760 --> 02:33:11.349
+guess it's split into two files because
+
+02:33:11.359 --> 02:33:13.270
+of the pregen stuff, which I guess is
+
+02:33:13.280 --> 02:33:16.469
+okay.
+
+02:33:18.230 --> 02:33:18.240
+I think we mainly are just going to want
+
+02:33:18.240 --> 02:33:21.510
+to um rerun us rerun a sweep on the
+
+02:33:21.520 --> 02:33:25.910
+latest 5. See how it scales there.
+
+02:33:25.920 --> 02:33:27.990
+And then I'm going to need that data for
+
+02:33:28.000 --> 02:33:31.270
+constellation right before release
+
+02:33:31.280 --> 02:33:33.030
+on the late like whatever the final
+
+02:33:33.040 --> 02:33:36.710
+version of the release is.
+
+02:33:36.720 --> 02:33:38.389
+I basically am just going to need some
+
+02:33:38.399 --> 02:33:40.070
+time as well to like play with it and
+
+02:33:40.080 --> 02:33:42.389
+see how that thing scales.
+
+02:33:42.399 --> 02:33:44.550
+Um,
+
+02:33:44.560 --> 02:33:47.110
+and it it could very well become I'll
+
+02:33:47.120 --> 02:33:49.990
+probably market silver as well and then
+
+02:33:50.000 --> 02:33:51.830
+after a while like this could very well
+
+02:33:51.840 --> 02:33:53.030
+become one of the most important
+
+02:33:53.040 --> 02:33:56.870
+benchmarkers
+
+02:34:00.070 --> 02:34:00.080
+could become a very useful benchmark.
+
+02:34:00.080 --> 02:34:02.070
+I was looking for a very nice synthetic
+
+02:34:02.080 --> 02:34:18.389
+env and this is pretty good.
+
+02:34:20.309 --> 02:34:20.319
+I don't like that it's sort of difficult
+
+02:34:20.319 --> 02:34:24.070
+to intuit it is the one thing. So it's a
+
+02:34:24.080 --> 02:34:31.830
+nice synthetic env.
+
+02:34:36.070 --> 02:34:36.080
+It's a little hard to in it.
+
+02:34:36.080 --> 02:36:30.150
+I think that's the main limitation.
+
+02:36:32.950 --> 02:36:32.960
+installation data. It's just all the
+
+02:36:32.960 --> 02:36:36.790
+experiment.json files, man,
+
+02:36:36.800 --> 02:36:39.349
+is what it is.
+
+02:36:39.359 --> 02:36:40.790
+Or what is it? The I don't know if
+
+02:36:40.800 --> 02:36:42.469
+they're I think they might be any files
+
+02:36:42.479 --> 02:36:44.389
+now, actually.
+
+02:36:44.399 --> 02:36:52.469
+All the files
+
+02:39:26.790 --> 02:39:26.800
+I actually before I do it with this, I
+
+02:39:26.800 --> 02:39:29.590
+really should um let me check if this
+
+02:39:29.600 --> 02:39:32.790
+just is a really high quality end code
+
+02:39:32.800 --> 02:39:34.389
+because I don't want to use this if the
+
+02:39:34.399 --> 02:39:38.150
+end code is very high quality.
+
+02:39:38.160 --> 02:39:40.389
+If the end code is like mediumish
+
+02:39:40.399 --> 02:39:42.150
+quality,
+
+02:39:42.160 --> 02:39:44.550
+I'm fine.
+
+02:39:44.560 --> 02:40:17.750
+with doing That
+
+02:40:40.070 --> 02:40:40.080
+How long is this?
+
+02:40:40.080 --> 02:40:50.550
+Does still seem long.
+
+02:40:53.429 --> 02:40:53.439
+Well, if this if this is obviously bad,
+
+02:40:53.439 --> 02:41:15.750
+I just won't take This
+
+02:41:17.670 --> 02:41:17.680
+is a thousand subs on that. That's
+
+02:41:17.680 --> 02:41:45.830
+funny.
+
+02:43:25.510 --> 02:43:25.520
+We'll see whether that fixes. I would
+
+02:43:25.520 --> 02:43:27.590
+like to have a new arcade game. Be right
+
+02:43:27.600 --> 02:43:29.590
+back. Maybe Space Invaders as well,
+
+02:43:29.600 --> 02:45:33.670
+though. That one's probably easier.
+
+02:45:50.630 --> 02:45:50.640
+full roll out per frame. I see
+
+02:45:50.640 --> 02:46:27.990
+that should not happen.
+
+02:46:29.590 --> 02:46:29.600
+Does it happen? Does it even have to
+
+02:46:29.600 --> 02:47:18.150
+move?
+
+02:47:29.110 --> 02:47:29.120
+Rapid shooting mechanic. Well, it just
+
+02:47:29.120 --> 02:47:30.870
+might not be implemented correctly,
+
+02:47:30.880 --> 02:47:43.429
+right?
+
+02:48:13.750 --> 02:48:13.760
+Oh, wait. What the [ __ ] You can just
+
+02:48:13.760 --> 02:48:21.910
+spam bullets like in the original
+
+02:48:23.590 --> 02:48:23.600
+Wait, how is this hard if you can just
+
+02:48:23.600 --> 02:48:48.309
+spam bullets?
+
+02:49:00.950 --> 02:49:00.960
+Is this how it works? Is this actually
+
+02:49:00.960 --> 02:50:33.590
+the accurate one?
+
+02:50:38.710 --> 02:50:38.720
+you do kind of just steamroll it
+
+02:50:38.720 --> 02:51:01.269
+otherwise.
+
+02:51:03.110 --> 02:51:03.120
+Hey man,
+
+02:51:03.120 --> 02:51:11.269
+sleepy.
+
+02:51:13.110 --> 02:51:13.120
+Asteroids was supposed to be like a
+
+02:51:13.120 --> 02:52:52.469
+tough end.
+
+02:52:54.230 --> 02:52:54.240
+Okay, this is at least more interesting
+
+02:52:54.240 --> 02:53:05.269
+the way it's playing.
+
+02:55:14.150 --> 02:55:14.160
+Well, the control is also very
+
+02:55:14.160 --> 02:55:51.590
+difficult. Hold.
+
+02:56:03.190 --> 02:56:03.200
+Wait, what if you go across? What
+
+02:56:03.200 --> 02:56:10.230
+happens?
+
+02:56:11.990 --> 02:56:12.000
+Yeah, our bullet lifetime is way too
+
+02:56:12.000 --> 02:56:19.670
+screwy.
+
+02:56:23.670 --> 02:56:23.680
+Oh, and they just snipe you, huh?
+
+02:56:23.680 --> 02:57:10.710
+That's funny.
+
+02:57:23.349 --> 02:57:23.359
+That's a good little project for
+
+02:57:23.359 --> 02:57:27.190
+somebody to figure out. I suppose
+
+02:57:27.200 --> 02:57:29.590
+I'm fine with that for now. There's not
+
+02:57:29.600 --> 02:57:31.429
+like a really obvious trivial way to
+
+02:57:31.439 --> 02:57:34.070
+make this
+
+02:57:34.080 --> 02:57:35.910
+uh to make this one work cuz the
+
+02:57:35.920 --> 02:57:39.510
+original game is screwy.
+
+02:57:39.520 --> 02:58:04.710
+That's fine.
+
+02:58:06.870 --> 02:58:06.880
+is Space Invaders actually hard for an
+
+02:58:06.880 --> 02:58:16.070
+AI
+
+02:58:18.150 --> 02:58:18.160
+like this policy is oh it can't see
+
+02:58:18.160 --> 02:58:25.910
+bullets
+
+02:58:29.750 --> 02:58:29.760
+Space Invaders have levels
+
+02:58:29.760 --> 02:58:32.389
+and surely this one is
+
+02:58:32.399 --> 02:58:34.469
+just insta solved right with correct
+
+02:58:34.479 --> 02:58:56.550
+setup. up.
+
+02:58:58.389 --> 02:58:58.399
+He leaves like craft decks and stuff for
+
+02:58:58.399 --> 02:59:01.990
+the most part.
+
+02:59:08.630 --> 02:59:08.640
+I think I'm kind of fine with that for
+
+02:59:08.640 --> 03:00:05.830
+now.
+
+03:00:07.590 --> 03:00:07.600
+Yeah, this these are alone are good I
+
+03:00:07.600 --> 03:00:15.990
+think.
+
+03:00:33.030 --> 03:00:33.040
+I do have a little bit of time.
+
+03:00:33.040 --> 03:00:34.469
+I'm trying to think is there anything
+
+03:00:34.479 --> 03:00:45.990
+else major we can clean up or improve
+
+03:02:44.230 --> 03:02:44.240
+All right. I mean, we do have lots of
+
+03:02:44.240 --> 03:02:45.990
+little things to fix. It seems still on
+
+03:02:46.000 --> 03:02:47.910
+the ends.
+
+03:02:47.920 --> 03:05:08.950
+We can fix double pendulum at least.
+
+03:05:11.349 --> 03:05:11.359
+Yeah. Idiot thing.
+
+03:05:11.359 --> 03:05:13.670
+This is not the reward that I I never
+
+03:05:13.680 --> 03:05:39.030
+specified this reward in any way.
+
+03:08:03.910 --> 03:08:03.920
+You see it's way harder now.
+
+03:08:03.920 --> 03:08:20.550
+Mhm.
+
+03:08:36.309 --> 03:08:36.319
+What am I up to? Playing with a couple
+
+03:08:36.319 --> 03:08:41.510
+of the M's that are kind of broken
+
+03:09:00.950 --> 03:09:00.960
+That actually should not give it good
+
+03:09:00.960 --> 03:09:05.750
+reward though, should it?
+
+03:09:07.110 --> 03:09:07.120
+Yeah, yeah, yeah. There's something
+
+03:09:07.120 --> 03:09:18.309
+wrong here.
+
+03:09:20.550 --> 03:09:20.560
+Max,
+
+03:09:20.560 --> 03:09:23.590
+why would you make it zero?
+
+03:09:23.600 --> 03:09:25.349
+That's hilarious. Look, it just
+
+03:09:25.359 --> 03:09:32.710
+introduced this.
+
+03:09:34.469 --> 03:09:34.479
+This is how you can tell these models
+
+03:09:34.479 --> 03:09:45.110
+are so dumb.
+
+03:09:46.870 --> 03:09:46.880
+I mean, I did literally tell them the
+
+03:09:46.880 --> 03:10:06.469
+reward function to use.
+
+03:10:08.389 --> 03:10:08.399
+It wasn't working cuz the reward was
+
+03:10:08.399 --> 03:10:17.269
+[ __ ] stupid.
+
+03:10:21.190 --> 03:10:21.200
+We'll see if this does it.
+
+03:10:21.200 --> 03:10:41.590
+It probably will need a retune.
+
+03:11:49.269 --> 03:11:49.279
+This is not handholdy reward shaping.
+
+03:11:49.279 --> 03:11:50.870
+This is just the environment being set
+
+03:11:50.880 --> 03:11:54.870
+up. Stupid.
+
+03:11:56.790 --> 03:11:56.800
+The reward I have is literally just
+
+03:11:56.800 --> 03:12:41.990
+delta height.
+
+03:12:50.550 --> 03:12:50.560
+It's really shitty and inefficient.
+
+03:12:50.560 --> 03:12:52.469
+Um, you can't really do anything
+
+03:12:52.479 --> 03:12:54.230
+meaningful without a stupid amount of
+
+03:12:54.240 --> 03:12:56.790
+money in compute. And then even then
+
+03:12:56.800 --> 03:12:58.309
+you're kind of just stuck to running
+
+03:12:58.319 --> 03:13:00.710
+really dumb algorithms on as much data
+
+03:13:00.720 --> 03:13:37.750
+as you can scrape.
+
+03:15:13.830 --> 03:15:13.840
+It's definitely possible to overengineer
+
+03:15:13.840 --> 03:16:18.469
+your rewards.
+
+03:16:23.190 --> 03:16:23.200
+Probably reward farm from end of
+
+03:16:23.200 --> 03:16:33.429
+episode.
+
+03:17:46.550 --> 03:17:46.560
+Well, I guess it might know the uh the
+
+03:17:46.560 --> 03:18:06.630
+timeout, huh?
+
+03:18:49.750 --> 03:18:49.760
+This is me trying to do something with
+
+03:18:49.760 --> 03:19:03.429
+it, which I obviously can't.
+
+03:19:07.349 --> 03:19:07.359
+and it just spins like crazy obviously
+
+03:19:07.359 --> 03:19:14.550
+once you lose control of it.
+
+03:19:24.630 --> 03:19:24.640
+Controls are very floaty as well. I have
+
+03:19:24.640 --> 03:19:26.229
+no idea whether this version is even
+
+03:19:26.239 --> 03:19:47.750
+solvable, right?
+
+03:20:17.910 --> 03:20:17.920
+Well, I really don't have the uh energy
+
+03:20:17.920 --> 03:20:20.710
+to be doing this at the moment.
+
+03:20:20.720 --> 03:20:22.550
+I think having like an end pendulum
+
+03:20:22.560 --> 03:20:29.349
+version would be fun though.
+
+03:20:32.150 --> 03:20:32.160
+I suspect this particular env is not not
+
+03:20:32.160 --> 03:20:34.150
+set up correctly. Yeah, you can look
+
+03:20:34.160 --> 03:20:38.309
+into it crit. Um,
+
+03:20:40.630 --> 03:20:40.640
+you got it to work. Yeah, by all means
+
+03:20:40.640 --> 03:22:11.030
+then.
+
+03:22:12.630 --> 03:22:12.640
+I definitely need to think about our
+
+03:22:12.640 --> 03:22:15.110
+template end. I can do that for a
+
+03:22:15.120 --> 03:22:38.550
+second. Hang on.
+
+03:22:45.110 --> 03:22:45.120
+No,
+
+03:22:45.120 --> 03:22:47.269
+I think that's it, guys. I got time, but
+
+03:22:47.279 --> 03:22:50.710
+I'm just out of juice today.
+
+03:22:50.720 --> 03:22:52.229
+I kind of did a whole bunch of stuff
+
+03:22:52.239 --> 03:22:54.309
+over the weekend
+
+03:22:54.319 --> 03:22:57.670
+um on dev and I'm sort of just out of
+
+03:22:57.680 --> 03:23:00.389
+juice.
+
+03:23:00.399 --> 03:23:03.910
+Do we have our build stable?
+
+03:23:03.920 --> 03:23:05.510
+Oh, that's at least one thing that we
+
+03:23:05.520 --> 03:23:07.670
+should look at, right?
+
+03:23:07.680 --> 03:23:09.349
+Let's at least make sure that we have
+
+03:23:09.359 --> 03:23:57.750
+the um the eval render thing stable.
+
+03:23:59.429 --> 03:23:59.439
+Yeah, we don't have the frame skip loop
+
+03:23:59.439 --> 03:24:02.150
+in, but other than that, this is fine.
+
+03:24:02.160 --> 03:24:04.070
+I'm happy.
+
+03:24:04.080 --> 03:24:06.710
+I think I call it there.
+
+03:24:06.720 --> 03:24:08.790
+I think I uh I call it there for the
+
+03:24:08.800 --> 03:24:12.389
+day. Thanks for tuning in, folks. I
+
+03:24:12.399 --> 03:24:13.429
+think I'm probably going to take
+
+03:24:13.439 --> 03:24:15.190
+tomorrow off because I didn't take any
+
+03:24:15.200 --> 03:24:19.429
+time off this weekend. Um
+
+03:24:19.439 --> 03:24:21.670
+recuperate, get some exercise in and the
+
+03:24:21.680 --> 03:24:24.469
+like. And then we'll spend the rest of
+
+03:24:24.479 --> 03:24:26.790
+this week polishing up release, testing
+
+03:24:26.800 --> 03:24:30.950
+anything that needs testing,
+
+03:24:32.710 --> 03:24:32.720
+maybe writing some of the articles. I'll
+
+03:24:32.720 --> 03:24:33.910
+start thinking about that a little bit
+
+03:24:33.920 --> 03:24:36.469
+as well
+
+03:24:36.479 --> 03:24:40.680
+and yeah we will go from there.
