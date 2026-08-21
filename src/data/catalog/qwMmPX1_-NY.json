@@ -1,0 +1,16 @@
+{
+  "id": "qwMmPX1_-NY",
+  "date": "2026-08-20T17:15:47+00:00",
+  "url": "https://www.youtube.com/watch?v=qwMmPX1_-NY",
+  "transcript": "/src/data/transcripts/qwMmPX1_-NY.vtt",
+  "originalTitle": "RL Research with Joseph Suarez",
+  "title": "Debugging CUDA Environments and Dashboard for Puffer 5",
+  "summary": "Worked on pre-release optimizations for Puffer 5, including dashboard improvements and CUDA environment fixes. Merged code changes and prepared for further environment reviews.",
+  "topics": [
+    "PufferLib",
+    "CUDA",
+    "dashboard",
+    "attention kernel",
+    "Runescape environments"
+  ]
+}

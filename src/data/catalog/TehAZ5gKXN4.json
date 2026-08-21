@@ -1,0 +1,17 @@
+{
+  "id": "TehAZ5gKXN4",
+  "date": "2026-08-20T19:35:59+00:00",
+  "url": "https://www.youtube.com/watch?v=TehAZ5gKXN4",
+  "transcript": "/src/data/transcripts/TehAZ5gKXN4.vtt",
+  "originalTitle": "RL Research with Joseph Suarez",
+  "title": "Integrating Runescape Inferno and Colosseum into PufferLib for RL",
+  "summary": "Integrated Runescape Inferno and Colosseum environments into PufferLib, debugging cross-platform rendering issues and discussing async training optimizations. Explored entity encoder and decoder architectures to enhance RL performance.",
+  "topics": [
+    "PufferLib",
+    "Runescape",
+    "Inferno",
+    "Colosseum",
+    "async training",
+    "entity encoder"
+  ]
+}

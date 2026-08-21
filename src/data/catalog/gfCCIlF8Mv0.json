@@ -1,0 +1,16 @@
+{
+  "id": "gfCCIlF8Mv0",
+  "date": "2026-08-19T18:39:13+00:00",
+  "url": "https://www.youtube.com/watch?v=gfCCIlF8Mv0",
+  "transcript": "/src/data/transcripts/gfCCIlF8Mv0.vtt",
+  "originalTitle": "RL Research with Joseph Suarez",
+  "title": "Evaluating Optimized MinGRU Scan Kernel for PufferLib Performance",
+  "summary": "Evaluated an externally suggested scan kernel optimization for MinGRU in PufferLib, yielding approximately 10% performance gains on select configurations. Discussed preparation steps for the Puffer 5 release.",
+  "topics": [
+    "PufferLib",
+    "MinGRU",
+    "kernel optimization",
+    "CUDA kernels",
+    "performance benchmarking"
+  ]
+}

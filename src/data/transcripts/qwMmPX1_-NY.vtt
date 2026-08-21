@@ -1,0 +1,792 @@
+WEBVTT
+
+NOTE
+metadata:
+title: RL Research with Joseph Suarez
+id: qwMmPX1_-NY
+url: https://www.youtube.com/watch?v=qwMmPX1_-NY
+date: 2026-08-20T17:15:47+00:00
+language: en
+
+00:00:05.990 --> 00:00:06.000
+Okay,
+
+00:00:06.000 --> 00:00:09.110
+we should be live here.
+
+00:00:09.120 --> 00:00:12.310
+Hello. Let me just set our title and
+
+00:00:12.320 --> 00:00:16.470
+stuff.
+
+00:00:48.310 --> 00:00:48.320
+Excuse me. All right, I will switch the
+
+00:00:48.320 --> 00:00:53.189
+title over
+
+00:00:57.350 --> 00:00:57.360
+or the stream over. Hey, Jess.
+
+00:00:57.360 --> 00:01:02.950
+Excuse me. I just got out of the shower.
+
+00:01:07.990 --> 00:01:08.000
+Okay, I'm good. I think I'm good.
+
+00:01:08.000 --> 00:01:11.429
+I'm at Volo.
+
+00:01:11.439 --> 00:01:21.190
+Let's
+
+00:01:29.510 --> 00:01:29.520
+Couple little things we've been playing
+
+00:01:29.520 --> 00:01:48.710
+with.
+
+00:02:16.710 --> 00:02:16.720
+This is just me fishing for things.
+
+00:02:16.720 --> 00:02:18.070
+Don't worry about this. This doesn't
+
+00:02:18.080 --> 00:02:23.030
+really matter.
+
+00:02:44.470 --> 00:02:44.480
+I guess we were still looking at um
+
+00:02:44.480 --> 00:02:49.030
+like what in constellation
+
+00:03:00.869 --> 00:03:00.879
+Yeah, this is so misleading though,
+
+00:03:00.879 --> 00:03:04.869
+isn't it?
+
+00:04:42.870 --> 00:04:42.880
+I'm actually Let's see. Is Volo around?
+
+00:04:42.880 --> 00:04:45.350
+I thought we would. Well, he may or may
+
+00:04:45.360 --> 00:04:47.430
+not be around. Um, if he is around, I
+
+00:04:47.440 --> 00:04:53.749
+want to go over the Runescape ends
+
+00:04:56.710 --> 00:04:56.720
+like
+
+00:04:56.720 --> 00:05:15.189
+Huh?
+
+00:06:05.350 --> 00:06:05.360
+Well, actually,
+
+00:06:05.360 --> 00:06:07.270
+let's not do that. Let's Let's keep our
+
+00:06:07.280 --> 00:06:08.710
+history clean. There's no reason to not
+
+00:06:08.720 --> 00:06:19.430
+just merge this.
+
+00:09:28.389 --> 00:09:28.399
+This is a nice plot, but you know, this
+
+00:09:28.399 --> 00:09:34.870
+probably is better to just stick on um
+
+00:11:59.990 --> 00:12:00.000
+I think I know what's going to happen
+
+00:12:00.000 --> 00:12:11.269
+here.
+
+00:12:27.190 --> 00:12:27.200
+Well, the these are actually pretty
+
+00:12:27.200 --> 00:13:55.750
+cool, right?
+
+00:14:28.470 --> 00:14:28.480
+I don't think so. Right? Because like
+
+00:14:28.480 --> 00:14:34.710
+why is this any different from um
+
+00:14:52.710 --> 00:14:52.720
+What is on the y ais? Perf, which is
+
+00:14:52.720 --> 00:14:54.310
+supposed to be one normalized, but a
+
+00:14:54.320 --> 00:17:21.669
+couple N's have um normalization errors.
+
+00:17:23.429 --> 00:17:23.439
+I'm just kind of I like I'm just fishing
+
+00:17:23.439 --> 00:17:25.189
+for interesting visualizations is all
+
+00:17:25.199 --> 00:18:14.549
+I'm doing here.
+
+00:21:54.950 --> 00:21:54.960
+I'm just fishing for like what we should
+
+00:21:54.960 --> 00:21:58.870
+show.
+
+00:22:11.990 --> 00:22:12.000
+Don't you guys think that this is
+
+00:22:12.000 --> 00:22:15.510
+cooler?
+
+00:22:18.230 --> 00:22:18.240
+So these are the params.
+
+00:22:18.240 --> 00:22:19.830
+This is the size of the net. This is the
+
+00:22:19.840 --> 00:22:22.149
+number of flops spent on training. But
+
+00:22:22.159 --> 00:22:25.190
+this is for the
+
+00:22:25.200 --> 00:22:28.470
+optimal
+
+00:24:11.830 --> 00:24:11.840
+I actually think it will probably be
+
+00:24:11.840 --> 00:25:13.830
+better under flops.
+
+00:25:34.870 --> 00:25:34.880
+That's pretty cool.
+
+00:25:34.880 --> 00:25:45.350
+Any
+
+00:26:20.789 --> 00:26:20.799
+Yeah, I'm a little sketched with this.
+
+00:26:20.799 --> 00:26:30.470
+Let's see.
+
+00:29:53.990 --> 00:29:54.000
+It didn't help on 5090.
+
+00:29:54.000 --> 00:29:55.750
+That very well could be a difference in
+
+00:29:55.760 --> 00:29:59.190
+your CPU, dude.
+
+00:29:59.200 --> 00:30:02.070
+you know, depending on um your CPU,
+
+00:30:02.080 --> 00:30:08.630
+memory bandwidth, stuff like that.
+
+00:30:10.230 --> 00:30:10.240
+I mean, generally for simple
+
+00:30:10.240 --> 00:30:12.950
+environments that like for very simple
+
+00:30:12.960 --> 00:30:14.630
+environments, yes, CUDA is going to be
+
+00:30:14.640 --> 00:30:16.230
+faster, but it's also much more
+
+00:30:16.240 --> 00:30:19.669
+complicated.
+
+00:30:22.310 --> 00:30:22.320
+So, I think it's generally only worth it
+
+00:30:22.320 --> 00:30:23.830
+like it's not we don't want every
+
+00:30:23.840 --> 00:30:27.669
+environment as CUDA.
+
+00:30:29.029 --> 00:30:29.039
+It's only going to be worth it for
+
+00:30:29.039 --> 00:31:09.669
+specific ends.
+
+00:33:36.310 --> 00:33:36.320
+10 to 20 minutes and 1590.
+
+00:33:36.320 --> 00:33:39.669
+Fair enough. If you want to push that,
+
+00:33:39.679 --> 00:33:41.590
+I still like that could be a very useful
+
+00:33:41.600 --> 00:33:46.389
+end for sure.
+
+00:33:48.070 --> 00:33:48.080
+I definitely need to run some sanity
+
+00:33:48.080 --> 00:33:50.149
+checks and such.
+
+00:33:50.159 --> 00:35:45.829
+I think I prefer the flops one.
+
+00:35:52.310 --> 00:35:52.320
+yeah so if you want to have this to be a
+
+00:35:52.320 --> 00:35:54.950
+cuda end there are two issues convert at
+
+00:35:54.960 --> 00:35:57.829
+the moment right
+
+00:35:57.839 --> 00:36:03.270
+so one is that um unless you ship both.
+
+00:36:03.280 --> 00:36:07.910
+It can't go on the website.
+
+00:36:09.589 --> 00:36:09.599
+You have to maintain both if you want it
+
+00:36:09.599 --> 00:36:11.270
+on the website at the moment, unless we
+
+00:36:11.280 --> 00:36:13.829
+have a way around that.
+
+00:36:13.839 --> 00:36:24.470
+Um,
+
+00:36:31.030 --> 00:36:31.040
+I guess that is the main issue depending
+
+00:36:31.040 --> 00:36:40.870
+on the quality of the code to be fair.
+
+00:36:43.270 --> 00:36:43.280
+The main addition of complexity is
+
+00:36:43.280 --> 00:36:57.030
+having to maintain two versions.
+
+00:38:19.750 --> 00:38:19.760
+Where's Valo? Man, I thought we were
+
+00:38:19.760 --> 00:38:23.670
+going to review. Uh
+
+00:39:17.589 --> 00:39:17.599
+I think this will be a nice simple
+
+00:39:17.599 --> 00:39:21.030
+addition to constellation.
+
+00:39:21.040 --> 00:39:24.390
+We will grab Kinvert's changes as well,
+
+00:39:24.400 --> 00:39:25.990
+except I don't like the way that he did
+
+00:39:26.000 --> 00:39:28.790
+the ring to highlight stuff. I think
+
+00:39:28.800 --> 00:39:41.430
+it's doesn't fit the the theme.
+
+00:39:43.750 --> 00:39:43.760
+It doesn't fit the theme. We're going to
+
+00:39:43.760 --> 00:39:48.950
+do it slightly different.
+
+00:41:07.430 --> 00:41:07.440
+Okay,
+
+00:41:07.440 --> 00:42:07.109
+not Bad.
+
+00:42:15.430 --> 00:42:15.440
+What am I working on? Just like
+
+00:42:15.440 --> 00:42:21.030
+pre-release tweaks for um 5.0. Generally
+
+00:42:21.040 --> 00:42:22.630
+currently doing a couple things with the
+
+00:42:22.640 --> 00:42:24.470
+dashboard. This doesn't have any data
+
+00:42:24.480 --> 00:42:26.150
+loaded into it. It'll look cool in a
+
+00:42:26.160 --> 00:42:28.870
+second as soon as I load the data in.
+
+00:42:28.880 --> 00:42:32.710
+And um
+
+00:46:32.790 --> 00:46:32.800
+Make sure we get uh
+
+00:46:32.800 --> 00:47:38.470
+these changes pulled in.
+
+00:47:40.790 --> 00:47:40.800
+Huh?
+
+00:47:40.800 --> 00:48:14.230
+I hate GitHub, man.
+
+00:48:16.309 --> 00:48:16.319
+the game on your website feels rigged.
+
+00:48:16.319 --> 00:48:21.670
+Which one?
+
+00:49:05.589 --> 00:49:05.599
+Oh, this.
+
+00:49:05.599 --> 00:49:07.349
+Yeah, this is not rigged. It's just
+
+00:49:07.359 --> 00:49:11.589
+really, really hard.
+
+00:49:21.750 --> 00:49:21.760
+It's not rigged in any way. It's
+
+00:49:21.760 --> 00:49:23.430
+literally just that like it's very
+
+00:49:23.440 --> 00:49:25.910
+precise. So, I mean, this kind of shows
+
+00:49:25.920 --> 00:49:27.750
+you that like a little tiny neural net
+
+00:49:27.760 --> 00:49:40.710
+can play this perfectly.
+
+00:49:42.549 --> 00:49:42.559
+This kind of just shows you how cool RL
+
+00:49:42.559 --> 00:49:45.829
+is, right?
+
+00:49:45.839 --> 00:49:47.670
+This is not like some sophisticated
+
+00:49:47.680 --> 00:49:50.309
+planning algorithm or some like model
+
+00:49:50.319 --> 00:49:53.109
+predictive control.
+
+00:49:53.119 --> 00:50:14.069
+This is just like straight RL.
+
+00:50:24.470 --> 00:50:24.480
+No, it doesn't learn from how you play.
+
+00:50:24.480 --> 00:50:26.470
+It just learns by it just plays a whole
+
+00:50:26.480 --> 00:50:28.630
+bunch of games against itself or against
+
+00:50:28.640 --> 00:50:30.390
+the scripted bot depending how you set
+
+00:50:30.400 --> 00:50:32.470
+it up on its own and then it learns to
+
+00:50:32.480 --> 00:51:51.990
+play from
+
+00:51:53.349 --> 00:51:53.359
+currently learning this stuff. I have
+
+00:51:53.359 --> 00:51:56.230
+articles on my site or on my uh my X
+
+00:51:56.240 --> 00:51:58.069
+page rather.
+
+00:51:58.079 --> 00:52:00.630
+If you just click here, the articles tab
+
+00:52:00.640 --> 00:52:03.349
+is uh pretty much everything you need to
+
+00:52:03.359 --> 00:52:06.309
+get started.
+
+00:52:06.319 --> 00:52:10.069
+What is happening?
+
+00:52:15.670 --> 00:52:15.680
+seen this drone end for instance. This
+
+00:52:15.680 --> 00:53:24.069
+one's cool.
+
+00:53:26.470 --> 00:53:26.480
+what's going on today. Uh, I got to
+
+00:53:26.480 --> 00:53:28.230
+merge a few things. We've got some
+
+00:53:28.240 --> 00:53:29.990
+optimizations for a few M. Basically,
+
+00:53:30.000 --> 00:53:32.790
+it's just pre-release work.
+
+00:53:32.800 --> 00:53:35.030
+The one thing I did is I'm I am sort of
+
+00:53:35.040 --> 00:53:36.630
+on the side because I get bored with
+
+00:53:36.640 --> 00:53:38.950
+pre-release work is I kind of am like
+
+00:53:38.960 --> 00:53:42.150
+fishing for updates or like fishing for
+
+00:53:42.160 --> 00:53:45.510
+a couple improvements. It looks like we
+
+00:53:45.520 --> 00:53:48.309
+have a reasonable attention colonel. I
+
+00:53:48.319 --> 00:53:53.270
+have to go through it,
+
+00:53:56.390 --> 00:53:56.400
+which could be cool.
+
+00:53:56.400 --> 00:53:59.030
+What's my research about? Uh, we train
+
+00:53:59.040 --> 00:54:02.549
+tiny models on really high performance
+
+00:54:02.559 --> 00:54:04.710
+simulations
+
+00:54:04.720 --> 00:54:08.150
+and we get superhuman performance.
+
+00:54:08.160 --> 00:54:10.069
+Like we use games for research, but it's
+
+00:54:10.079 --> 00:54:11.589
+not just games, right? We've got drones,
+
+00:54:11.599 --> 00:54:13.190
+we've got driving, we've got other
+
+00:54:13.200 --> 00:54:16.630
+scientific stuff in here.
+
+00:54:16.640 --> 00:54:19.030
+My PhD thesis was on massively multi-
+
+00:54:19.040 --> 00:54:21.750
+aent intelligence. Uh specifically as
+
+00:54:21.760 --> 00:54:23.430
+well, building simulators that are
+
+00:54:23.440 --> 00:54:25.910
+compatible with RL, dealing with all the
+
+00:54:25.920 --> 00:54:27.589
+infrastructure problems that arise and
+
+00:54:27.599 --> 00:54:30.069
+then figuring out algorithmic and
+
+00:54:30.079 --> 00:54:36.069
+architecture changes needed.
+
+00:54:38.230 --> 00:54:38.240
+So the attention kernel would be for
+
+00:54:38.240 --> 00:54:43.910
+just like encoders, I would think.
+
+00:54:46.470 --> 00:54:46.480
+It would be for anywhere that you need
+
+00:54:46.480 --> 00:54:48.630
+um
+
+00:54:48.640 --> 00:54:50.950
+you wouldn't do a temporal attention to
+
+00:54:50.960 --> 00:54:56.870
+be clear. It would be for observations.
+
+00:54:58.710 --> 00:54:58.720
+I don't think temporal attention would
+
+00:54:58.720 --> 00:55:50.630
+ever really make any sense.
+
+00:57:47.349 --> 00:57:47.359
+Marov doesn't matter. It's that that's
+
+00:57:47.359 --> 00:57:49.349
+not the problem with attention. The
+
+00:57:49.359 --> 00:57:52.069
+problem with attention is that
+
+00:57:52.079 --> 00:57:54.870
+your your rollouts for RL where you're
+
+00:57:54.880 --> 00:57:56.870
+collecting data are basically inference
+
+00:57:56.880 --> 00:58:00.150
+mode for a language model.
+
+00:58:00.160 --> 00:58:01.829
+And it's actually even worse because you
+
+00:58:01.839 --> 00:58:03.270
+have to loop back and forth with the
+
+00:58:03.280 --> 00:58:05.670
+environment.
+
+00:58:05.680 --> 00:58:07.109
+So you want to have something that's
+
+00:58:07.119 --> 00:58:11.030
+like a onestep O of one or like whatever
+
+00:58:11.040 --> 00:58:12.950
+inference. You don't want to have O of
+
+00:58:12.960 --> 00:58:21.589
+N.
+
+00:58:23.349 --> 00:58:23.359
+It's much less bad when you're already
+
+00:58:23.359 --> 00:59:10.309
+doing stuff over entities.
+
+00:59:56.950 --> 00:59:56.960
+squared.
+
+00:59:56.960 --> 00:59:58.870
+Uh, it's n squared where you would
+
+00:59:58.880 --> 01:00:05.910
+already have n though.
+
+01:00:08.630 --> 01:00:08.640
+It's a little tricky to explain.
+
+01:00:08.640 --> 01:00:11.430
+But essentially,
+
+01:00:11.440 --> 01:00:13.430
+you already have to load all that data
+
+01:00:13.440 --> 01:00:16.150
+in anyways. You add some compute
+
+01:00:16.160 --> 01:00:18.549
+pressure, but you're already memory
+
+01:00:18.559 --> 01:00:21.750
+bound anyways.
+
+01:00:21.760 --> 01:00:23.349
+Whereas in the other case, it causes you
+
+01:00:23.359 --> 01:00:26.950
+to load in a factor of n more data.
+
+01:00:26.960 --> 01:00:29.349
+A markup doesn't Yeah, we just honestly
+
+01:00:29.359 --> 01:00:32.150
+like all of the MDP formalism we
+
+01:00:32.160 --> 01:00:35.990
+essentially ignore. It's not useful.
+
+01:00:36.000 --> 01:00:38.309
+It's not even a correct model in most
+
+01:00:38.319 --> 01:00:40.789
+cases. Like first of all, stuff's
+
+01:00:40.799 --> 01:00:42.950
+partially observed and second of all,
+
+01:00:42.960 --> 01:00:45.190
+the POM DP formulism which already is
+
+01:00:45.200 --> 01:00:46.950
+not particularly useful even
+
+01:00:46.960 --> 01:00:49.270
+theoretically goes out the window with
+
+01:00:49.280 --> 01:00:55.349
+multiple agents.
+
+01:00:57.190 --> 01:00:57.200
+We honestly just look at it as learning
+
+01:00:57.200 --> 01:01:03.270
+through interaction.
+
+01:01:06.470 --> 01:01:06.480
+And we typically model this in
+
+01:01:06.480 --> 01:01:31.589
+Uh we model this using games.
+
+01:02:37.190 --> 01:02:37.200
+many M's break that.
+
+01:02:37.200 --> 01:02:43.750
+But the thing is it doesn't matter like
+
+01:02:54.870 --> 01:02:54.880
+In general, the set of properties that
+
+01:02:54.880 --> 01:02:57.589
+are like like difficult to model from a
+
+01:02:57.599 --> 01:02:59.589
+theoretical perspective are not at all
+
+01:02:59.599 --> 01:03:01.109
+the same set of properties that are
+
+01:03:01.119 --> 01:05:11.829
+difficult to actually Turn.
+
+01:05:20.950 --> 01:05:20.960
+Yeah, it's Well, we need axes on these,
+
+01:05:20.960 --> 01:05:25.029
+don't we?
+
+01:05:57.829 --> 01:05:57.839
+Yeah, right. Convert. It's like rather
+
+01:05:57.839 --> 01:06:00.710
+than just drawing a um
+
+01:06:00.720 --> 01:06:11.270
+a big circle
+
+01:06:17.349 --> 01:06:17.359
+No. No. That would be a different
+
+01:06:17.359 --> 01:06:24.470
+shader. That's not worth it.
+
+01:06:42.390 --> 01:06:42.400
+Oops. Hang on a second. Let me let me
+
+01:06:42.400 --> 01:06:46.950
+deal with one thing here.
+
+01:06:50.390 --> 01:06:50.400
+I'll be right back, guys. One sec.
+
+01:06:50.400 --> 01:07:50.390
+Just
+
+01:07:51.990 --> 01:07:52.000
+All right, hang on a sec, guys. I'm
+
+01:07:52.000 --> 01:07:53.829
+seeing whether I I'm getting breakfast
+
+01:07:53.839 --> 01:08:09.270
+or not.
+
+01:09:02.709 --> 01:09:02.719
+Oh, Vol is going to be 30 to 45 minutes,
+
+01:09:02.719 --> 01:09:04.309
+guys.
+
+01:09:04.319 --> 01:09:06.870
+Rotation mount works. Yep, this works.
+
+01:09:06.880 --> 01:09:09.189
+Uh Here's the plan. I got to go grab
+
+01:09:09.199 --> 01:09:11.269
+food because uh I'm going to have to
+
+01:09:11.279 --> 01:09:14.550
+chat with Vo after this. Um but that's
+
+01:09:14.560 --> 01:09:16.229
+going to be fun. I think we'll probably
+
+01:09:16.239 --> 01:09:18.950
+do that on stream as well. Volo has all
+
+01:09:18.960 --> 01:09:20.550
+the Runescape environments. He's got
+
+01:09:20.560 --> 01:09:22.390
+Colosseum, he's got Inferno, he's got a
+
+01:09:22.400 --> 01:09:25.110
+whole big port of stuff. So, we're going
+
+01:09:25.120 --> 01:09:26.470
+to be looking through that and seeing
+
+01:09:26.480 --> 01:09:28.789
+what we can do with it. That should be a
+
+01:09:28.799 --> 01:09:31.510
+fun time. So, if you want to see that,
+
+01:09:31.520 --> 01:09:35.110
+dot back by in about 45 minutes.
+
+01:09:35.120 --> 01:09:37.749
+I merged it. Crit. I have to test it. I
+
+01:09:37.759 --> 01:09:41.279
+will be back in about 45 minutes.
